@@ -817,7 +817,7 @@
      },
      "analogy_id": "Main idea itu payung. Harus nutupin semua paragraf, bukan cuma satu orang yang kehujanan.",
      "analogy_en": "The main idea is an umbrella. It must cover every paragraph, not just one.",
-     "tip_id": "Ada kata **however** atau **also face problems** di tengah teks? Biasanya teksnya bahas dua sisi.",
+     "tip_id": "Ada kata **however** atau **also face practical problems** di tengah teks? Biasanya teksnya bahas dua sisi.",
      "tip_en": "A **however** mid-text often means the passage covers both sides."
     },
     {
@@ -841,12 +841,12 @@
      "why_wrong_id": {
       "0": "**slightly** artinya sedikit. Kebalikan dari maksud kalimatnya.",
       "1": "**occasionally** artinya kadang-kadang. Itu soal frekuensi, bukan jumlah.",
-      "3": "**carefully** artinya dengan hati-hati. Nggak cocok buat nerangin **less**."
+      "3": "**carefully** artinya dengan hati-hati. Nggak cocok buat nerangin **longer**."
      },
      "why_wrong_en": {
       "0": "**slightly** means a little, the opposite.",
       "1": "**occasionally** is about frequency, not amount.",
-      "3": "**carefully** can't describe **less**."
+      "3": "**carefully** can't describe **longer**."
      },
      "analogy_id": "Uji sinonim itu kayak nyoba sepatu. Ganti katanya, terus jalanin kalimatnya. Kalau nyaman, itu ukurannya.",
      "analogy_en": "Testing a synonym is like trying on shoes. Swap the word and walk the sentence. If it fits, it's the one.",
@@ -1119,8 +1119,8 @@
       "1": "No two farming methods are contrasted.",
       "3": "It's a history, not an argument backed by data."
      },
-     "analogy_id": "Organisasi teks itu kayak alur cerita: ada masalah, ada usaha, ada akhir. Di sini akhirnya zona waktu.",
-     "analogy_en": "Organization is the plot: a problem, efforts, an ending. Here the ending is time zones.",
+     "analogy_id": "Organisasi teks itu kayak alur cerita: ada masalah, ada usaha, ada akhir. Di sini akhirnya cara baru: kasih ruang buat air.",
+     "analogy_en": "Organization is the plot: a problem, efforts, an ending. Here the ending is a new approach: making room for water.",
      "tip_id": "Soal organisasi? Kasih satu kata buat tiap paragraf, lalu baca urutannya dari atas ke bawah.",
      "tip_en": "Organization question? Give each paragraph one word, then read the sequence."
     }
