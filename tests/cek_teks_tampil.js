@@ -94,11 +94,19 @@ async function login(ctx, [u, p]) {
       if (cred && !cred[0]) { console.log(`(lewati ${role}: kredensial tidak diisi)`); continue; }
       const ctx = await browser.newContext({ viewport: { width: 1280, height: 900 } });
       if (cred) await login(ctx, cred);
+      // Audio tidak dibutuhkan untuk memeriksa teks; dicegah agar server PHP tunggal tidak tertahan
+      await ctx.route(/\.(mp3|ogg|wav|m4a)(\?.*)?$/i, (r) => r.abort());
       const page = await ctx.newPage();
+      page.setDefaultTimeout(15000);
       await page.goto(`${BASE}/bahasa/${lang}?next=/`);
       for (const u of list) {
         const t0 = Date.now();
-        await page.goto(BASE + u, { waitUntil: 'load' });
+        try {
+          await page.goto(BASE + u, { waitUntil: 'domcontentloaded', timeout: 20000 });
+        } catch (err) {
+          problems.push(`[${lang}] ${role} ${u} gagal dibuka: ${err.message.split('\n')[0]}`);
+          continue;
+        }
         await page.waitForLoadState('networkidle', { timeout: 5000 }).catch(() => {});
         if (process.env.VERBOSE) console.log(`  ${lang} ${role} ${u} ${Date.now() - t0}ms`);
         const r = await page.evaluate(scan);
