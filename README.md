@@ -37,7 +37,7 @@ tools/                make_audio.py (Edge TTS + ffmpeg), voices.json
 
 ## Status konten
 
-Platform lengkap. Konten yang sudah ditulis: **Rumah Contoh** (10 soal), **Rumah 1** (30 soal + materi), **Kamus** (49 istilah), 48 tag aturan. Rumah 2–14 dan Simulasi 1–2 tampil sebagai "Soal segera hadir" sampai file JSON-nya ditambahkan.
+Konten lengkap: **Latihan Contoh** (10 soal), **Hari 1-14** (Level A-D, masing-masing 30 soal + materi; Hari 14 adalah Hari Review Adaptif yang menyusun 30 soal dari Buku Kesalahan, dengan bank 30 soal Level D sebagai cadangan), **Simulasi 1 dan 2** (masing-masing 50 Listening / 40 Structure / 50 Reading), **Kamus** (49 istilah), 48 tag aturan. Total 710 soal. Audio MP3 dibuat terpisah dengan `tools/make_audio.py`.
 
 ## Pemeriksaan tanda kutip
 
