@@ -18,7 +18,10 @@
           <a class="small" href="<?= e(url('lupa-password')) ?>"><?= e(t('auth.forgot_link')) ?></a>
         </div>
         <button class="btn btn-primary btn-block" type="submit"><span><?= e(t('auth.login.submit')) ?></span><span class="btn-arrow" aria-hidden="true"><?= icon('arrow-right', 18) ?></span></button>
-        <p class="small center mb-0"><?= e(t('auth.no_account')) ?> <a href="<?= e(url('daftar' . ($next !== '/latihan' ? '?next=' . rawurlencode($next) : ''))) ?>"><?= e(t('nav.register')) ?></a></p>
+        <div class="auth-switch">
+          <p class="center mb-0"><strong><?= e(t('auth.no_account')) ?></strong></p>
+          <a class="btn btn-secondary" href="<?= e(url('daftar' . ($next !== '/latihan' ? '?next=' . rawurlencode($next) : ''))) ?>"><?= e(t('auth.register_cta')) ?></a>
+        </div>
       </form>
     </div>
   </div>

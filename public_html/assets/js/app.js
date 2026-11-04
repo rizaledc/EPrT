@@ -121,6 +121,71 @@ try {
   }
 } catch (e) { /* penyimpanan tidak tersedia */ }
 
+// Beranda & logo: di landing, gulir halus ke atas (hormati prefers-reduced-motion)
+const onHome = () => location.pathname.replace(/\/+$/, '') === (new URL($('[data-home-link]')?.href || '/', location.href)).pathname.replace(/\/+$/, '');
+$$('[data-home-link]').forEach((a) => a.addEventListener('click', (e) => {
+  if (!onHome()) return;
+  e.preventDefault();
+  if (typeof setMenu === 'function') setMenu(false);
+  const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  window.scrollTo({ top: 0, behavior: reduce ? 'auto' : 'smooth' });
+  if (location.hash) history.replaceState(null, '', location.pathname + location.search);
+}));
+
+// Penanda menu aktif di landing: Beranda saat di atas, lalu Kurikulum / Cara Kerja / FAQ sesuai bagian yang terlihat
+const spyLinks = $$('[data-spy]');
+if (spyLinks.length) {
+  const ids = [...new Set(spyLinks.map((a) => a.dataset.spy).filter((id) => id !== 'top'))];
+  const sections = ids.map((id) => document.getElementById(id)).filter(Boolean);
+  const setActive = (id) => spyLinks.forEach((a) => {
+    if (a.dataset.spy === id) a.setAttribute('aria-current', id === 'top' ? 'page' : 'location');
+    else a.removeAttribute('aria-current');
+  });
+  const update = () => {
+    const line = window.innerHeight * 0.35;
+    let current = 'top';
+    for (const s of sections) {
+      if (s.getBoundingClientRect().top <= line) current = s.id;
+    }
+    // Bagian setelah FAQ (CTA, footer) tetap menandai FAQ hanya jika FAQ masih terlihat
+    const last = sections[sections.length - 1];
+    if (current === last?.id && last.getBoundingClientRect().bottom < 0) current = '';
+    setActive(current);
+  };
+  let ticking = false;
+  window.addEventListener('scroll', () => {
+    if (ticking) return;
+    ticking = true;
+    requestAnimationFrame(() => { update(); ticking = false; });
+  }, { passive: true });
+  update();
+}
+
+// Menu akun (avatar)
+const acct = $('[data-acct]');
+if (acct) {
+  const btn = $('[data-acct-btn]', acct);
+  const panel = $('[data-acct-menu]', acct);
+  const setAcct = (open) => {
+    panel.hidden = !open;
+    btn.setAttribute('aria-expanded', open ? 'true' : 'false');
+    if (open) $('a, button', panel)?.focus();
+  };
+  btn.addEventListener('click', () => setAcct(panel.hidden));
+  document.addEventListener('click', (e) => { if (!panel.hidden && !acct.contains(e.target)) setAcct(false); });
+  document.addEventListener('keydown', (e) => {
+    if (panel.hidden) return;
+    if (e.key === 'Escape') { setAcct(false); btn.focus(); }
+    if (e.key === 'ArrowDown' || e.key === 'ArrowUp') {
+      const items = $$('a, button', panel);
+      const i = items.indexOf(document.activeElement);
+      const n = e.key === 'ArrowDown' ? (i + 1) % items.length : (i - 1 + items.length) % items.length;
+      items[n].focus();
+      e.preventDefault();
+    }
+  });
+}
+
 // Flash
 $$('[data-flash-close]').forEach((b) => b.addEventListener('click', () => b.closest('[data-flash]').remove()));
 setTimeout(() => $$('[data-flash]').forEach((f) => f.remove()), 7000);

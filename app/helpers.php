@@ -625,6 +625,7 @@ function icon(string $name, int $size = 20, string $class = ''): string
         'arrow-up-right' => '<path d="M7 17 17 7M8 7h9v9"/>',
         'check'       => '<path d="m5 12.5 4.5 4.5L19 7.5"/>',
         'x'           => '<path d="M6 6l12 12M18 6 6 18"/>',
+        'chevron-down'=> '<path d="M6 9l6 6 6-6"/>',
         'circle'      => '<circle cx="12" cy="12" r="7.5"/>',
         'menu'        => '<path d="M4 7h16M4 12h16M4 17h16"/>',
         'eye'         => '<path d="M2.5 12S6 5.5 12 5.5 21.5 12 21.5 12 18 18.5 12 18.5 2.5 12 2.5 12Z"/><circle cx="12" cy="12" r="3"/>',

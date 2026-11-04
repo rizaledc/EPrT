@@ -12,16 +12,7 @@ final class PracticeController
         $practiceRumahs = array_filter($rumahs, fn($r) => in_array($r['kind'], ['practice', 'adaptive'], true));
         $done = count(array_filter($practiceRumahs, fn($r) => !empty($progress[(int) $r['id']]['completed_at'])));
         $next = Practice::suggestedNext($progress);
-        // Rumah yang sedang dikerjakan (untuk kartu "Lanjutkan")
-        $continue = null;
-        $lastAttempt = q_one("SELECT rumah_id FROM attempts WHERE user_id = ? AND mode IN ('practice','simulation') ORDER BY id DESC LIMIT 1", [$u['id']]);
-        if ($lastAttempt) {
-            $r = Rumah::byId((int) $lastAttempt['rumah_id']);
-            if ($r && empty($progress[(int) $r['id']]['completed_at'])) {
-                $continue = $r;
-            }
-        }
-        $continue ??= $next;
+        $continue = Practice::continueTarget((int) $u['id'], $progress);
         $allBloksDone = true;
         foreach (['A', 'B', 'C', 'D'] as $c) {
             $allBloksDone = $allBloksDone && Practice::blokCompleted((int) $u['id'], $c, $progress);

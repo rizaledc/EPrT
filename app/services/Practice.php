@@ -531,6 +531,20 @@ final class Practice
     }
 
     /** Rumah berikutnya yang disarankan: 1-11 → Sim 1 → 12-14 → Sim 2. */
+    /** Hari yang dituju tombol Lanjut Latihan: Hari terakhir yang dikerjakan dan belum selesai, atau saran berikutnya. */
+    public static function continueTarget(int $userId, ?array $progress = null): ?array
+    {
+        $progress ??= self::progressMap($userId);
+        $last = q_one("SELECT rumah_id FROM attempts WHERE user_id = ? AND mode IN ('practice','simulation') ORDER BY id DESC LIMIT 1", [$userId]);
+        if ($last) {
+            $r = Rumah::byId((int) $last['rumah_id']);
+            if ($r && empty($progress[(int) $r['id']]['completed_at'])) {
+                return $r;
+            }
+        }
+        return self::suggestedNext($progress);
+    }
+
     public static function suggestedNext(array $progress): ?array
     {
         $order = [];

@@ -14,7 +14,7 @@ return [
 
     // Navbar & footer
     'nav.home' => 'Beranda', 'nav.main' => 'Menu utama', 'nav.curriculum' => 'Kurikulum', 'nav.how' => 'Cara Kerja',
-    'nav.glossary' => 'Kamus', 'nav.practice' => 'Latihan', 'nav.history' => 'Riwayat', 'nav.account' => 'Akun',
+    'nav.glossary' => 'Kamus', 'nav.practice' => 'Peta Belajar', 'nav.history' => 'Riwayat', 'nav.account' => 'Akun',
     'nav.login' => 'Masuk', 'nav.logout' => 'Keluar', 'nav.register' => 'Daftar', 'nav.start' => 'Mulai Latihan',
     'nav.lang' => 'Bahasa', 'nav.menu' => 'Buka menu',
     'footer.tagline' => 'Latihan tes kemampuan bahasa Inggris format PBT selama 14 hari, dengan pembahasan yang menjelaskan kenapa sebuah jawaban salah.',
@@ -282,4 +282,6 @@ return [
     'term.day_n' => 'Hari {n}',
     'term.days_range' => 'Hari {r}',
     'history.col.day' => 'Hari', 'pdf.col.day' => 'Hari',
+    'nav.continue' => 'Lanjut Latihan', 'nav.report' => 'Rapor', 'nav.admin' => 'Panel Admin', 'nav.account_menu' => 'Menu akun',
+    'auth.register_cta' => 'Daftar gratis',
 ];

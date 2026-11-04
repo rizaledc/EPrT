@@ -13,7 +13,7 @@ return [
     'speaker.narrator' => 'NARRATOR', 'speaker.lecturer' => 'LECTURER', 'speaker.man' => 'MAN', 'speaker.woman' => 'WOMAN',
 
     'nav.home' => 'Home', 'nav.main' => 'Main menu', 'nav.curriculum' => 'Curriculum', 'nav.how' => 'How it works',
-    'nav.glossary' => 'Glossary', 'nav.practice' => 'Practice', 'nav.history' => 'History', 'nav.account' => 'Account',
+    'nav.glossary' => 'Glossary', 'nav.practice' => 'Study Map', 'nav.history' => 'History', 'nav.account' => 'Account',
     'nav.login' => 'Log in', 'nav.logout' => 'Log out', 'nav.register' => 'Sign up', 'nav.start' => 'Start Practice',
     'nav.lang' => 'Language', 'nav.menu' => 'Open menu',
     'footer.tagline' => 'Fourteen days of PBT-format English proficiency test practice, with explanations that show why an answer is wrong.',
@@ -266,4 +266,6 @@ return [
     'term.day_n' => 'Day {n}',
     'term.days_range' => 'Days {r}',
     'history.col.day' => 'Day', 'pdf.col.day' => 'Day',
+    'nav.continue' => 'Continue Practice', 'nav.report' => 'Report', 'nav.admin' => 'Admin Panel', 'nav.account_menu' => 'Account menu',
+    'auth.register_cta' => 'Sign up free',
 ];
