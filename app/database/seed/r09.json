@@ -1101,7 +1101,7 @@
     {
      "type": "reading",
      "subtype": "reference",
-     "prompt": "The word **they** in the last sentence of paragraph 4 refers to",
+     "prompt": "The word **they** in the phrase **before they strike** in paragraph 4 refers to",
      "options": [
       "warnings",
       "minutes",

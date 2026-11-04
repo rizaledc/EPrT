@@ -517,7 +517,7 @@
    },
    "why_wrong_en": {
     "0": "**who** is for people and can't take a noun like this.",
-    "2": "**which population** doesn't show possession. It would mean which population.",
+    "2": "**which population** doesn't show possession. It would ask which population, instead of meaning the village's population.",
     "3": "**that** isn't used after a comma and doesn't show possession."
    },
    "analogy_id": "**Whose** itu kayak tanda kepemilikan di koper bandara. Koper ini punya desa itu.",
@@ -576,7 +576,7 @@
    "why_correct_id": "Kata kerja utama kalimat ini **will receive**. Jadi rumpangnya cuma penjelas buat **Students**. Mahasiswanya yang dapat nilai, jadi maknanya aktif: **who earn**. Diringkas jadi V-ing: **earning**.",
    "why_correct_en": "The main verb is **will receive**, so the blank just describes **Students**. They earn the scores, an active meaning: **who earn**, reduced to **earning**.",
    "why_wrong_id": {
-    "1": "**earned** (V3) maknanya pasif, seolah mahasiswanya yang didapatkan nilai.",
+    "1": "**earned** (V3) di sini kebaca pasif, seolah mahasiswanya yang didapat, padahal mereka yang dapat nilai. Kalau dibaca V2, kalimatnya malah punya dua kata kerja utama tanpa penghubung.",
     "2": "**who earning** salah bentuk. Harusnya **who earn** atau cukup **earning**.",
     "3": "**they earn** bikin clause baru tanpa penghubung. Kalimatnya jadi punya dua pelaku dan dua mesin."
    },
@@ -905,8 +905,8 @@
      ],
      "difficulty": 3,
      "evidence_quote": "Old ports in the centers of cities such as New York and London, which had no room for huge cranes and storage yards, lost most of their business to new container terminals built on open land.",
-     "why_correct_id": "Inti kalimatnya ada tiga: pelabuhan lama di tengah kota, nggak punya ruang buat crane dan gudang, dan bisnisnya pindah ke terminal di lahan terbuka. Opsi A nyimpen ketiganya, dengan sebab-akibat yang sama.",
-     "why_correct_en": "Three core pieces: old city-center ports, no room for cranes and yards, business lost to terminals on open land. Option A keeps all three, cause and effect intact.",
+     "why_correct_id": "Inti kalimatnya ada tiga: pelabuhan lama di tengah kota, nggak punya ruang buat crane dan gudang, dan bisnisnya pindah ke terminal di lahan terbuka. Opsi D nyimpen ketiganya, dengan sebab-akibat yang sama.",
+     "why_correct_en": "Three core pieces: old city-center ports, no room for cranes and yards, business lost to terminals on open land. Option D keeps all three, cause and effect intact.",
      "why_wrong_id": {
       "0": "Kebalikannya. Pelabuhan lama nggak punya ruang buat crane besar, jadi bisnisnya hilang.",
       "1": "Terminal baru dibangun di lahan terbuka, bukan di tengah kota.",
@@ -1100,7 +1100,7 @@
      "subtype": "detail",
      "prompt": "According to paragraph 2, why can an octopus change color faster than most animals that change color?",
      "options": [
-      "Its pigment sacs are controlled directly by nerves from the brain.",
+      "The muscles that open its pigment sacs are controlled directly by nerves from the brain.",
       "Its skin contains more pigment than other animals' skin.",
       "It uses hormones that act within seconds.",
       "Its reflecting cells move more quickly than chromatophores."
@@ -1111,8 +1111,8 @@
      ],
      "difficulty": 3,
      "evidence_quote": "Because these muscles are controlled directly by nerves from the brain, the change can happen far faster than in most animals that change color",
-     "why_correct_id": "Alasannya ada setelah **Because**: ototnya **controlled directly by nerves from the brain**, dikendaliin langsung sama saraf dari otak. Otot itulah yang ngebuka dan nutup kantong pigmen. Jadi kantongnya dikendaliin langsung sama saraf.",
-     "why_correct_en": "The reason follows **Because**: the muscles are **controlled directly by nerves from the brain**. Those muscles work the pigment sacs, so the sacs are nerve-controlled.",
+     "why_correct_id": "Alasannya ada setelah **Because**: ototnya **controlled directly by nerves from the brain**, dikendaliin langsung sama saraf dari otak. Otot itulah yang ngebuka dan nutup kantong pigmen.",
+     "why_correct_en": "The reason follows **Because**: the muscles are **controlled directly by nerves from the brain**. Those muscles open and close the pigment sacs.",
      "why_wrong_id": {
       "1": "Jumlah pigmen nggak dibandingin sama hewan lain.",
       "2": "Hormon nggak disebut sama sekali. Teks malah nekenin saraf.",
