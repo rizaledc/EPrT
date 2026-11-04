@@ -82,17 +82,44 @@ export function highlightEvidence(container, quote) {
 /* ---------- Perilaku global ---------- */
 document.documentElement.classList.remove('no-js');
 
-// Menu HP
+// Menu HP: overlay, kunci gulir, tutup lewat Esc / ketuk di luar
 const menuBtn = $('[data-menu-btn]');
 const menu = $('#mobile-menu');
-if (menuBtn && menu) {
-  menuBtn.addEventListener('click', () => {
-    const open = menu.dataset.open !== 'true';
-    menu.dataset.open = open ? 'true' : 'false';
-    menuBtn.setAttribute('aria-expanded', open ? 'true' : 'false');
-  });
-  $$('a', menu).forEach((a) => a.addEventListener('click', () => { menu.dataset.open = 'false'; menuBtn.setAttribute('aria-expanded', 'false'); }));
+const overlay = $('[data-menu-overlay]');
+let menuY = 0; // posisi gulir saat menu dibuka
+function setMenu(open) {
+  if (!menu || !menuBtn) return;
+  if (open && menu.dataset.open !== 'true') menuY = window.scrollY;
+  menu.dataset.open = open ? 'true' : 'false';
+  menuBtn.setAttribute('aria-expanded', open ? 'true' : 'false');
+  if (overlay) overlay.hidden = !open;
+  document.documentElement.classList.toggle('menu-lock', open);
 }
+if (menuBtn && menu) {
+  menuBtn.addEventListener('click', () => setMenu(menu.dataset.open !== 'true'));
+  if (overlay) overlay.addEventListener('click', () => setMenu(false));
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape' && menu.dataset.open === 'true') { setMenu(false); menuBtn.focus(); }
+  });
+  $$('.mm-links a, .mm-actions a', menu).forEach((a) => a.addEventListener('click', () => setMenu(false)));
+  window.addEventListener('resize', () => { if (window.innerWidth > 960 && menu.dataset.open === 'true') setMenu(false); });
+}
+// Ganti bahasa tanpa menutup menu dan tanpa loncat ke atas
+const LANG_KEY = 'pi-lang-restore';
+$$('[data-lang-switch]').forEach((a) => a.addEventListener('click', () => {
+  try {
+    sessionStorage.setItem(LANG_KEY, JSON.stringify(menu && menu.dataset.open === 'true' ? { y: menuY, open: true } : { y: window.scrollY, open: false }));
+  } catch (e) { /* penyimpanan tidak tersedia */ }
+}));
+try {
+  const saved = JSON.parse(sessionStorage.getItem(LANG_KEY) || 'null');
+  if (saved) {
+    sessionStorage.setItem(LANG_KEY, 'null');
+    if ('scrollRestoration' in history) history.scrollRestoration = 'manual';
+    window.scrollTo({ top: saved.y || 0, left: 0, behavior: 'instant' });
+    if (saved.open) setMenu(true);
+  }
+} catch (e) { /* penyimpanan tidak tersedia */ }
 
 // Flash
 $$('[data-flash-close]').forEach((b) => b.addEventListener('click', () => b.closest('[data-flash]').remove()));
