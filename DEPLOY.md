@@ -31,6 +31,7 @@ Urutan setiap deploy (`deploy/deploy.sh`):
    - Soal di-upsert per (Rumah, seksi, nomor), jadi ID soal tetap dan jawaban, progres, serta Buku Kesalahan pengguna tidak tersentuh. Tidak ada `DELETE`.
    - File JSON yang tidak berubah sejak impor terakhir dilewati, sehingga edit dari panel admin tidak tertimpa. Jika sebuah file JSON diubah di repo, isi file itu yang berlaku untuk soal-soal di dalamnya.
    - `php app/database/seed.php --force` mengimpor ulang semuanya bila diperlukan.
+4. `deploy/audio.sh` di latar belakang: membuat MP3 yang naskahnya berubah, menyalinnya ke `audio/` domain, lalu seed ulang (lihat bagian Audio Listening).
 
 Sebelum SSH, workflow memeriksa sintaks semua file PHP dan JSON. Jika gagal, server tidak disentuh.
 
@@ -128,20 +129,71 @@ Secret `SSH_HOST`, `SSH_PORT`, `SSH_USER`, `SSH_KEY` sudah ada. Pastikan public 
 
 ## Audio Listening
 
-Hosting tidak menjalankan TTS. Di komputer sendiri:
+MP3 dibuat **langsung di server** oleh `tools/make_audio.py` (Edge TTS + ffmpeg). Setelah setiap deploy, `deploy/deploy.sh` menjalankan `deploy/audio.sh` di latar belakang:
+
+1. cek `python3`, modul `edge_tts`, `ffmpeg`, dan `ffprobe` (PATH ditambah `~/bin`). Bila ada yang tidak ditemukan, audio dilewati dengan peringatan dan deploy tetap sukses;
+2. lock `app/storage/audio.lock` agar tidak ada dua proses audio berjalan bersamaan;
+3. `python3 -u tools/make_audio.py`. Hanya naskah yang berubah yang dibuat ulang (cache hash di `tools/.cache/` + `audio-manifest.json`). Edge TTS yang membalas `NoAudioReceived` dicoba sampai 8 kali dengan jeda `min(60, 3 × 2^percobaan)` detik. File yang tetap gagal dicetak `!! GAGAL <path>`, dilewati, lalu dicoba lagi pada deploy berikutnya;
+4. `rsync -a public_html/audio/` ke `~/domains/perumahaninggris.my.id/public_html/audio/` (tanpa `--delete`);
+5. `php app/database/seed.php` lagi supaya durasi dari manifest masuk ke database.
+
+Log: `~/apps/perumahaninggris/app/storage/logs/audio-YYYY-MM-DD.log`. Pantau dengan:
+
+```bash
+tail -f ~/apps/perumahaninggris/app/storage/logs/audio-$(date +%F).log
+```
+
+Jalankan manual (misalnya setelah memasang dependensi):
+
+```bash
+bash ~/apps/perumahaninggris/deploy/audio.sh
+```
+
+**Yang tidak pernah terhapus:** MP3 (`public_html/audio/**/*.mp3`), `tools/.cache/`, dan `app/database/seed/audio-manifest.json` ada di `.gitignore`, jadi `git reset --hard` tidak menyentuhnya. Folder `audio/` di domain dilindungi dari `rsync --delete`. `deploy/audio.sh` juga menyimpan salinan manifest di `app/storage/audio-manifest.backup.json`, yang dipakai `deploy.sh` bila manifest hilang. **Jangan commit `audio-manifest.json`**: manifest milik server.
+
+### Memasang dependensi di server (sekali)
+
+Server memakai Python 3.9 tanpa pip dan tanpa `xz`. Pasang pip versi 3.9 lalu edge-tts di folder user:
+
+```bash
+curl -sSLo /tmp/get-pip.py https://bootstrap.pypa.io/pip/3.9/get-pip.py
+```
+
+```bash
+python3 /tmp/get-pip.py --user
+```
+
+```bash
+python3 -m pip install --user edge-tts==7.3.1
+```
+
+ffmpeg + ffprobe statis ke `~/bin`. Arsip `.tar.xz` diekstrak dengan modul `tarfile` Python karena perintah `xz` tidak ada:
+
+```bash
+mkdir -p ~/bin && curl -sSLo /tmp/ffmpeg.tar.xz https://johnvansickle.com/ffmpeg/releases/ffmpeg-release-amd64-static.tar.xz
+```
+
+```bash
+python3 -c "import tarfile; tarfile.open('/tmp/ffmpeg.tar.xz').extractall('/tmp/ffmpeg')"
+```
+
+```bash
+cp /tmp/ffmpeg/ffmpeg-*-static/ffmpeg /tmp/ffmpeg/ffmpeg-*-static/ffprobe ~/bin/ && chmod +x ~/bin/ffmpeg ~/bin/ffprobe
+```
+
+Cek dengan `bash ~/apps/perumahaninggris/deploy/audio.sh --check` (tanpa keluaran = siap).
+
+### Di komputer sendiri (opsional)
 
 ```bash
 pip install -r tools/requirements.txt
-python tools/make_audio.py
 ```
-
-Hasilnya: MP3 di `public_html/audio/` dan `app/database/seed/audio-manifest.json`. **Commit dan push `audio-manifest.json`** (seed mengimpor durasinya). MP3 tidak di-commit; upload folder `public_html/audio/` ke `~/domains/perumahaninggris.my.id/public_html/audio/` lewat File Manager atau:
 
 ```bash
-rsync -av public_html/audio/ u123456789@HOST:domains/perumahaninggris.my.id/public_html/audio/
+python tools/make_audio.py --only r05
 ```
 
-Folder ini dilindungi dari `rsync --delete` saat deploy. Selama MP3 belum ada, pemutar memakai suara browser dan soal ditandai `audio_missing` di admin. MP3 juga bisa diunggah satu per satu dari Admin → Grup & Teks.
+Lalu unggah `public_html/audio/` dan `app/database/seed/audio-manifest.json` ke lokasi yang sama di server. Selama MP3 belum ada, pemutar memakai suara browser dan soal ditandai `audio_missing` di admin. MP3 juga bisa diunggah satu per satu dari Admin → Grup & Teks.
 
 ## Menambah konten
 

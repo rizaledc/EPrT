@@ -2,7 +2,8 @@
 """
 make_audio.py — membuat MP3 Listening dari naskah di app/database/seed/*.json.
 
-Dijalankan SEKALI di komputer developer (bukan di hosting):
+Bisa dijalankan di komputer developer atau langsung di server (Python 3.9+, edge-tts, ffmpeg).
+Di server, deploy/audio.sh menjalankannya otomatis di latar belakang setelah setiap deploy.
     pip install -r tools/requirements.txt      # edge-tts (dan azure SDK bila perlu)
     python tools/make_audio.py                 # semua Rumah
     python tools/make_audio.py --only r05      # satu Rumah
@@ -21,7 +22,13 @@ Format: MP3 mono 24 kHz 64 kbps, loudness -16 LUFS. Jeda: 300 ms awal file,
 
 Cadangan: set TTS_PROVIDER=azure (+ AZURE_SPEECH_KEY, AZURE_SPEECH_REGION) bila Edge TTS
 berhenti bekerja. Voice yang dipakai sama.
+
+Ketahanan: Edge TTS sering membalas NoAudioReceived. Tiap potongan dicoba sampai 8 kali dengan
+jeda min(60, 3 * 2^percobaan) detik, ada jeda 0,4 detik antar-potongan, file yang tetap gagal
+dicetak "!! GAGAL <path>" lalu dilewati, dan manifest disimpan setiap 1 file selesai.
 """
+from __future__ import annotations
+
 import argparse
 import asyncio
 import hashlib
@@ -41,6 +48,8 @@ VOICES = json.loads((Path(__file__).resolve().parent / "voices.json").read_text(
 TTS_PROVIDER = os.environ.get("TTS_PROVIDER", "edge").lower()
 
 GAP_TURN_MS = 450
+TTS_TRIES = 8            # percobaan per potongan
+PIECE_PAUSE_S = 0.4      # jeda antar-permintaan TTS agar tidak dibatasi layanan
 LEAD_MS = 300
 NUMBERS = ["one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "ten", "eleven", "twelve", "thirteen",
            "fourteen", "fifteen", "sixteen", "seventeen", "eighteen", "nineteen", "twenty"]
@@ -94,18 +103,23 @@ async def tts_piece(text: str, voice: str) -> Path:
     dest = CACHE / f"{key}.mp3"
     if dest.exists() and dest.stat().st_size > 0:
         return dest
-    for attempt in range(4):
+    for attempt in range(TTS_TRIES):
         try:
             if TTS_PROVIDER == "azure":
                 synth_azure(text, voice, dest)
             else:
                 await synth_edge(text, voice, dest)
+            if not dest.exists() or dest.stat().st_size == 0:
+                raise RuntimeError("file audio kosong")
+            await asyncio.sleep(PIECE_PAUSE_S)
             return dest
         except Exception as exc:  # noqa: BLE001
-            if attempt == 3:
+            dest.unlink(missing_ok=True)  # buang potongan setengah jadi agar tidak tersimpan di cache
+            if attempt == TTS_TRIES - 1:
                 raise
-            print(f"   ulang ({exc})", file=sys.stderr)
-            await asyncio.sleep(2 ** attempt)
+            wait = min(60, 3 * 2 ** attempt)
+            print(f"   ulang {attempt + 1}/{TTS_TRIES - 1} dalam {wait} dtk ({type(exc).__name__}: {exc})", flush=True)
+            await asyncio.sleep(wait)
     return dest
 
 
@@ -167,8 +181,8 @@ async def main() -> None:
     ap.add_argument("--dry-run", action="store_true", help="tampilkan rencana saja")
     args = ap.parse_args()
 
-    if not args.dry_run and not shutil.which("ffmpeg"):
-        sys.exit("ffmpeg tidak ditemukan. Pasang ffmpeg lalu ulangi.")
+    if not args.dry_run and not (shutil.which("ffmpeg") and shutil.which("ffprobe")):
+        sys.exit("ffmpeg/ffprobe tidak ditemukan. Pasang ffmpeg lalu ulangi.")
 
     manifest_file = SEED / "audio-manifest.json"
     manifest = {}
@@ -176,8 +190,14 @@ async def main() -> None:
         for m in json.loads(manifest_file.read_text(encoding="utf-8")):
             manifest[m["path"]] = m
 
+    def save_manifest() -> None:
+        tmp = manifest_file.with_suffix(".json.tmp")
+        tmp.write_text(json.dumps(sorted(manifest.values(), key=lambda m: m["path"]), indent=1), encoding="utf-8")
+        os.replace(tmp, manifest_file)  # tulis atomik: manifest tidak pernah setengah jadi
+
     jobs = collect_jobs(args.only)
     made = skipped = 0
+    failed = []
     for path, turns, slug in jobs:
         voices = [(voice_for(sp, slug), text) for sp, text in turns]
         h = hashlib.sha256(json.dumps(voices, ensure_ascii=False).encode()).hexdigest()
@@ -186,21 +206,29 @@ async def main() -> None:
             skipped += 1
             continue
         if args.dry_run:
-            print(f"[rencana] {path}  ({len(turns)} giliran: {', '.join(v for v, _ in voices)})")
+            print(f"[rencana] {path}  ({len(turns)} giliran: {', '.join(v for v, _ in voices)})", flush=True)
             continue
-        print(f"→ {path}")
-        pieces = []
-        for i, (voice, text) in enumerate(voices):
-            piece = await tts_piece(text, voice)
-            pieces.append((piece, GAP_TURN_MS if i < len(voices) - 1 else 0))
-        ms = ffmpeg_concat(pieces, dest)
+        print(f"→ {path}", flush=True)
+        try:
+            pieces = []
+            for i, (voice, text) in enumerate(voices):
+                piece = await tts_piece(text, voice)
+                pieces.append((piece, GAP_TURN_MS if i < len(voices) - 1 else 0))
+            ms = ffmpeg_concat(pieces, dest)
+        except Exception as exc:  # noqa: BLE001
+            print(f"!! GAGAL {path} ({type(exc).__name__}: {exc})", flush=True)
+            failed.append(path)
+            continue
         manifest[path] = {"path": path, "duration_ms": ms, "hash": h}
         made += 1
+        save_manifest()
 
+    print(f"Selesai: {made} dibuat, {skipped} tidak berubah. Manifest: {manifest_file.relative_to(ROOT)}", flush=True)
+    print(f"Gagal: {len(failed)} file {failed}", flush=True)
     if not args.dry_run:
-        manifest_file.write_text(json.dumps(sorted(manifest.values(), key=lambda m: m["path"]), indent=1), encoding="utf-8")
-    print(f"Selesai: {made} dibuat, {skipped} tidak berubah. Manifest: {manifest_file.relative_to(ROOT)}")
-    print("Langkah berikut: upload folder public_html/audio ke hosting, lalu jalankan php app/database/seed.php (atau impor ulang).")
+        print("Langkah berikut: salin public_html/audio ke folder web, lalu jalankan php app/database/seed.php.", flush=True)
+    if failed:
+        sys.exit(1)
 
 
 if __name__ == "__main__":
