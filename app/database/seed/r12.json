@@ -1,0 +1,1123 @@
+{
+ "rumah": "r12",
+ "material_id": "Selamat datang di Level Pemantapan! Hari kedua belas tidak membawa aturan baru. Semua aturan dari Hari 1 sampai 11 dicampur, dan **timer tempo tes** aktif: sekitar 37 detik per soal Structure dan 1 menit per soal Reading. Tujuannya melatih kecepatan tanpa kehilangan ketelitian.\n\n=== listening\n## Campuran tiga part, kecepatan normal\nHari ini Part A, percakapan panjang, dan lecture muncul bersamaan. Pakai semua trik yang sudah kamu pelajari: jawaban Part A biasanya di orang kedua, idiom jangan diartikan harfiah, kalimat andai artinya kebalikan, dan nada kaget berarti ragu atau heran.\nPerumpamaan: ini seperti pertandingan uji coba sebelum turnamen. Tidak ada jurus baru, yang diuji adalah seberapa cepat kamu memilih jurus yang tepat.\n> Part A: orang kedua · Part B: topik di awal, detail di tengah · Part C: topik di kalimat pertama\n✓ Baca keempat opsi sebelum audio mulai bila sempat\n✓ Tulis kata kunci dan angka, bukan kalimat penuh\n✕ Terpaku pada satu soal yang terlewat sampai soal berikutnya ikut hilang\n✕ Memilih opsi hanya karena mengulang kata dari audio\n\n=== structure\n## Strategi 37 detik\nDengan tempo tes, kamu punya sekitar 37 detik per soal. Urutan cek yang cepat: (1) cari pelaku dan kata kerja utama, (2) cek kecocokan pelaku dan kata kerja, (3) cek bentuk kata kerja dan tense, (4) cek kelas kata (kata sifat atau kata keterangan), (5) cek pola khusus: paralel, perbandingan, inversi, kata sambung.\nPerumpamaan: seperti petugas bandara yang memeriksa koper dengan urutan tetap. Karena urutannya sama setiap kali, pemeriksaannya cepat dan jarang ada yang lolos.\n> Pelaku + kata kerja → agreement → bentuk/tense → kelas kata → pola khusus\n✓ Kerjakan dulu soal yang cepat, tandai soal ragu\n✓ Untuk soal cari kesalahan, uji keempat bagian bergaris bawah satu per satu\n✕ Membaca ulang kalimat dari awal berkali-kali tanpa urutan cek\n✕ Menghabiskan 2 menit untuk satu soal\n\n=== reading\n## Campuran jenis soal, 1 menit per soal\nSoal Reading hari ini mencampur main idea, detail, vocabulary, reference, inference, dan NOT/EXCEPT. Kenali jenisnya dari kalimat soal, lalu pakai strategi yang cocok: soal detail dan vocabulary bisa dijawab cepat dengan scanning, soal main idea dan inference butuh gambaran seluruh teks.\nPerumpamaan: seperti kotak perkakas. Obeng, palu, dan kunci pas punya tugas masing-masing; jangan memaku dengan obeng.\n> Jenis soal → strategi yang cocok → bukti di teks\n✓ Jawab soal detail dan vocabulary lebih dulu\n✓ Untuk inference, pilih opsi yang didukung teks tetapi tidak ditulis persis\n✕ Membaca seluruh teks ulang untuk setiap soal\n✕ Memilih opsi yang benar di dunia nyata tetapi tidak ada di teks",
+ "material_en": "Welcome to the Mastery Level! Day twelve brings no new rules. Everything from Days 1 to 11 is mixed together, and the **test-pace timer** is on: about 37 seconds per Structure question and 1 minute per Reading question. The goal is speed without losing accuracy.\n\n=== listening\n## All three parts, normal speed\nToday Part A, a long conversation, and a lecture all appear. Use every trick you've learned: Part A answers usually come from the second speaker, idioms aren't literal, what-if sentences mean the opposite, and a surprised tone signals doubt.\nAnalogy: this is a warm-up match before the tournament. No new moves; what's tested is how fast you pick the right one.\n> Part A: second speaker · Part B: topic early, details in the middle · Part C: topic in the first sentence\n✓ Read the four options before the audio starts if you can\n✓ Note keywords and numbers, not full sentences\n✕ Dwelling on a missed question until the next one is lost too\n✕ Picking an option just because it repeats words from the audio\n\n=== structure\n## The 37-second strategy\nAt test pace you have about 37 seconds per question. A fast check order: (1) find the subject and main verb, (2) check subject-verb agreement, (3) check verb form and tense, (4) check word class (adjective or adverb), (5) check special patterns: parallelism, comparisons, inversion, connectors.\nAnalogy: like an airport officer checking bags in a fixed order. Because the order never changes, the check is fast and little slips through.\n> Subject + verb → agreement → form/tense → word class → special patterns\n✓ Do the quick ones first and flag the doubtful ones\n✓ For error questions, test all four underlined parts one by one\n✕ Rereading the sentence from the start again and again with no check order\n✕ Spending 2 minutes on one question\n\n=== reading\n## Mixed question types, 1 minute each\nToday's Reading mixes main idea, detail, vocabulary, reference, inference, and NOT/EXCEPT. Spot the type from the question, then use the matching strategy: detail and vocabulary can be answered fast by scanning, while main idea and inference need a picture of the whole passage.\nAnalogy: a toolbox. Screwdriver, hammer, and wrench each have a job; don't hammer with a screwdriver.\n> Question type → matching strategy → evidence in the text\n✓ Answer detail and vocabulary questions first\n✓ For inference, pick what the text supports but doesn't state word for word\n✕ Rereading the whole passage for every question\n✕ Picking what's true in real life but not in the text",
+ "items": [
+  {
+   "section": "listening",
+   "part": "A",
+   "script": [
+    {
+     "speaker": "W1",
+     "text": "Are you still working on the group presentation?"
+    },
+    {
+     "speaker": "M1",
+     "text": "We're almost there. We just need to iron out a few details with Sam tomorrow."
+    }
+   ],
+   "questions": [
+    {
+     "type": "listening_short",
+     "prompt": "What does the man mean?",
+     "options": [
+      "He has to iron his clothes for the presentation.",
+      "Sam has left the group.",
+      "The group has a few small problems to fix.",
+      "The presentation was finished yesterday."
+     ],
+     "correct_index": 2,
+     "rule_tags": [
+      "L-IDIOM",
+      "L-SECOND"
+     ],
+     "difficulty": 2,
+     "key_sentence": "We're almost there. We just need to iron out a few details with Sam tomorrow.",
+     "key_translation_id": "Udah hampir kelar. Tinggal beresin beberapa detail sama Sam besok.",
+     "why_correct_id": "**iron out** itu idiom buat ngeberesin masalah kecil sampai mulus. **almost there** artinya hampir selesai. Jadi kelompoknya tinggal punya beberapa masalah kecil yang harus diberesin.",
+     "why_correct_en": "**iron out** is an idiom for smoothing out small problems. **almost there** means nearly done. So a few small issues are left to fix.",
+     "why_wrong_id": {
+      "0": "Ini arti harfiah **iron**, nyetrika. Nggak ada baju yang disetrika.",
+      "1": "Sam masih ikut. Mereka malah mau ketemu Sam besok.",
+      "3": "**almost there** artinya belum selesai."
+     },
+     "why_wrong_en": {
+      "0": "That's the literal **iron**. No clothes get ironed.",
+      "1": "Sam is still in. They're meeting Sam tomorrow.",
+      "3": "**almost there** means it isn't finished."
+     },
+     "analogy_id": "**Iron out** itu kayak nyetrika baju yang kusut. Bajunya udah ada, tinggal kerutan kecilnya yang dirapiin.",
+     "analogy_en": "**Iron out** is like pressing a wrinkled shirt. The shirt exists, you're just smoothing the creases.",
+     "tip_id": "Ada opsi yang make arti harfiah kata dalam idiom? Itu hampir pasti jebakan.",
+     "tip_en": "An option using the literal meaning of an idiom word? Almost always a trap."
+    }
+   ]
+  },
+  {
+   "section": "listening",
+   "part": "A",
+   "script": [
+    {
+     "speaker": "M1",
+     "text": "The campus shuttle has been late every morning this week."
+    },
+    {
+     "speaker": "W1",
+     "text": "Then you'd better leave ten minutes earlier tomorrow. Your exam starts at eight sharp."
+    }
+   ],
+   "questions": [
+    {
+     "type": "listening_short",
+     "prompt": "What does the woman suggest?",
+     "options": [
+      "Asking the professor to delay the exam",
+      "Taking a taxi to campus",
+      "Complaining to the shuttle company",
+      "Leaving home earlier tomorrow"
+     ],
+     "correct_index": 3,
+     "rule_tags": [
+      "L-SUGGEST",
+      "L-SECOND"
+     ],
+     "difficulty": 1,
+     "key_sentence": "Then you'd better leave ten minutes earlier tomorrow.",
+     "key_translation_id": "Kalau gitu, sebaiknya kamu berangkat sepuluh menit lebih awal besok.",
+     "why_correct_id": "**you'd better** itu bentuk saran yang kuat. Isinya **leave ten minutes earlier tomorrow**, berangkat sepuluh menit lebih awal besok.",
+     "why_correct_en": "**you'd better** is a strong suggestion: **leave ten minutes earlier tomorrow**.",
+     "why_wrong_id": {
+      "0": "Ujiannya tetap jam delapan. Nggak ada saran buat minta diundur.",
+      "1": "Taksi nggak disebut.",
+      "2": "Komplain ke perusahaan shuttle nggak disaranin."
+     },
+     "why_wrong_en": {
+      "0": "The exam stays at eight. No one suggests delaying it.",
+      "1": "Taxis aren't mentioned.",
+      "2": "Complaining isn't suggested."
+     },
+     "analogy_id": "**You'd better** itu kayak alarm cadangan. Nggak maksa, tapi jelas ngingetin biar kamu aman.",
+     "analogy_en": "**You'd better** is a backup alarm. Not forcing you, but clearly keeping you safe.",
+     "tip_id": "**you'd better**, **why don't you**, **how about** di kalimat orang kedua artinya saran. Cari kata kerja sesudahnya.",
+     "tip_en": "**you'd better**, **why don't you**, **how about** in the second line mean advice. Find the verb after it."
+    }
+   ]
+  },
+  {
+   "section": "listening",
+   "part": "A",
+   "script": [
+    {
+     "speaker": "W1",
+     "text": "I don't think the new library hours make any sense."
+    },
+    {
+     "speaker": "M1",
+     "text": "Neither do I. Who closes a library at six during exam week?"
+    }
+   ],
+   "questions": [
+    {
+     "type": "listening_short",
+     "prompt": "What does the man imply?",
+     "options": [
+      "He thinks the library should close earlier.",
+      "He does not know the new library hours.",
+      "He studies at home during exam week.",
+      "He agrees that the new hours are unreasonable."
+     ],
+     "correct_index": 3,
+     "rule_tags": [
+      "L-AGREE",
+      "L-INFER"
+     ],
+     "difficulty": 2,
+     "key_sentence": "Neither do I. Who closes a library at six during exam week?",
+     "key_translation_id": "Aku juga nggak. Siapa coba yang nutup perpustakaan jam enam pas minggu ujian?",
+     "why_correct_id": "Si wanita bilang **I don't think…**, kalimat negatif. **Neither do I** artinya aku juga nggak, alias setuju. Pertanyaan **Who closes a library at six…?** itu pertanyaan retoris yang nunjukin jam tutup itu nggak masuk akal.",
+     "why_correct_en": "She uses a negative, **I don't think…**. **Neither do I** means me neither, so he agrees. **Who closes a library at six…?** is rhetorical: the hours make no sense.",
+     "why_wrong_id": {
+      "0": "Kebalikannya. Dia malah nganggap jam enam kecepetan.",
+      "1": "Dia jelas tahu jamnya, buktinya dia nyebut jam enam.",
+      "2": "Belajar di rumah nggak disebut."
+     },
+     "why_wrong_en": {
+      "0": "The opposite. He thinks six is too early.",
+      "1": "He clearly knows the hours. He mentions six.",
+      "2": "Studying at home isn't mentioned."
+     },
+     "analogy_id": "Pertanyaan retoris itu kayak ngomong siapa sih yang makan es krim pakai garpu. Nggak butuh jawaban, cuma nunjukin itu aneh.",
+     "analogy_en": "A rhetorical question is like asking who eats ice cream with a fork. No answer needed; it just shows it's odd.",
+     "tip_id": "**Neither do I** habis kalimat negatif artinya setuju. Pertanyaan **Who…?** sesudahnya biasanya kritik.",
+     "tip_en": "**Neither do I** after a negative means agreement. A **Who…?** question after it is usually criticism."
+    }
+   ]
+  },
+  {
+   "section": "listening",
+   "part": "A",
+   "script": [
+    {
+     "speaker": "M1",
+     "text": "Professor Tan says the lab report is due on Monday."
+    },
+    {
+     "speaker": "W1",
+     "text": "Monday? I thought it wasn't due until next Friday."
+    }
+   ],
+   "questions": [
+    {
+     "type": "listening_short",
+     "prompt": "What can be inferred about the woman?",
+     "options": [
+      "She has already handed in her report.",
+      "She thinks Professor Tan is wrong about the lab.",
+      "She expected to have more time to finish the report.",
+      "She will meet Professor Tan on Friday."
+     ],
+     "correct_index": 2,
+     "rule_tags": [
+      "L-SURPRISE",
+      "L-INFER"
+     ],
+     "difficulty": 3,
+     "key_sentence": "Monday? I thought it wasn't due until next Friday.",
+     "key_translation_id": "Senin? Aku kira baru dikumpulin Jumat depan.",
+     "why_correct_id": "**Monday?** dengan nada naik itu tanda kaget. Alasannya **I thought it wasn't due until next Friday**. Dia ngira tenggatnya masih Jumat depan, jadi dia kira waktunya lebih banyak.",
+     "why_correct_en": "**Monday?** with a rising tone shows surprise. She thought it was due next Friday, so she expected more time.",
+     "why_wrong_id": {
+      "0": "Kalau udah dikumpulin, dia nggak bakal kaget soal tenggat.",
+      "1": "Dia kaget soal tenggatnya, bukan soal isi lab-nya.",
+      "3": "Jumat itu tenggat yang dia kira, bukan jadwal ketemu dosen."
+     },
+     "why_wrong_en": {
+      "0": "If she'd handed it in, the deadline wouldn't surprise her.",
+      "1": "She's surprised by the deadline, not the lab itself.",
+      "3": "Friday is the deadline she assumed, not a meeting."
+     },
+     "analogy_id": "Kayak kaget denger ujian dimajuin. Rasanya waktu belajarmu tiba-tiba kepotong.",
+     "analogy_en": "Like hearing an exam was moved earlier. Your study time suddenly shrinks.",
+     "tip_id": "Kata diulang pakai nada naik plus **I thought…**? Artinya kenyataan beda dari yang dia kira.",
+     "tip_en": "A repeated word with a rising tone plus **I thought…** means reality differs from what she expected."
+    }
+   ]
+  },
+  {
+   "section": "listening",
+   "part": "B",
+   "script": [
+    {
+     "speaker": "M1",
+     "text": "Hi, I'd like to sell back these two textbooks from last semester."
+    },
+    {
+     "speaker": "W2",
+     "text": "Sure, let me take a look. This biology book is still on the reading list for next term, so we can pay you forty percent of the original price."
+    },
+    {
+     "speaker": "M1",
+     "text": "That's better than I expected. What about the chemistry one?"
+    },
+    {
+     "speaker": "W2",
+     "text": "Unfortunately, the department is switching to a new edition, so we can't buy that one back. You could try the online student marketplace, though. Older editions still sell there."
+    },
+    {
+     "speaker": "M1",
+     "text": "Is there a fee to post something on the marketplace?"
+    },
+    {
+     "speaker": "W2",
+     "text": "No, it's free for students. You just log in with your student account."
+    },
+    {
+     "speaker": "M1",
+     "text": "Great. Then I'll take the money for the biology book now and post the chemistry book tonight."
+    }
+   ],
+   "questions": [
+    {
+     "type": "listening_long",
+     "prompt": "What is the conversation mainly about?",
+     "options": [
+      "Choosing books for next semester",
+      "Selling used textbooks",
+      "Opening a student account",
+      "Comparing biology and chemistry courses"
+     ],
+     "correct_index": 1,
+     "rule_tags": [
+      "L-TOPIC"
+     ],
+     "difficulty": 1,
+     "key_sentence": "Hi, I'd like to sell back these two textbooks from last semester.",
+     "key_translation_id": "Halo, aku mau jual balik dua buku teks dari semester lalu.",
+     "why_correct_id": "Kalimat pertama si mahasiswa langsung nyebut tujuannya: **sell back these two textbooks**. Seluruh obrolan bahas harga jual buku biologi dan cara jual buku kimia.",
+     "why_correct_en": "His first line states it: **sell back these two textbooks**. The rest covers the price for one book and another way to sell the other.",
+     "why_wrong_id": {
+      "0": "Daftar bacaan semester depan cuma alasan buku biologi bisa dibeli. Dia nggak milih buku.",
+      "2": "Akun mahasiswa cuma dipakai buat login ke marketplace. Nggak ada yang bikin akun baru.",
+      "3": "Mata kuliah biologi dan kimia nggak dibandingin."
+     },
+     "why_wrong_en": {
+      "0": "The reading list only explains why one book can be bought. He isn't choosing books.",
+      "2": "The student account is just for logging in. No one opens one.",
+      "3": "The courses aren't compared."
+     },
+     "analogy_id": "Kalimat pembuka di toko itu kayak nyebut pesanan ke kasir. Sisa obrolannya cuma proses ngelayaninnya.",
+     "analogy_en": "The opening line at a shop is your order to the cashier. The rest is just the service.",
+     "tip_id": "Soal topik percakapan di layanan kampus? Kalimat pertama orang yang datang hampir selalu jawabannya.",
+     "tip_en": "Topic of a campus service talk? The visitor's first line is almost always the answer."
+    },
+    {
+     "type": "listening_long",
+     "prompt": "Why can't the bookstore buy back the chemistry book?",
+     "options": [
+      "It is damaged.",
+      "It was bought at another store.",
+      "The department will use a new edition.",
+      "The marketplace already has too many copies."
+     ],
+     "correct_index": 2,
+     "rule_tags": [
+      "L-DETAIL"
+     ],
+     "difficulty": 2,
+     "key_sentence": "Unfortunately, the department is switching to a new edition, so we can't buy that one back.",
+     "key_translation_id": "Sayangnya, jurusan mau ganti ke edisi baru, jadi kami nggak bisa beli yang itu.",
+     "why_correct_id": "Alasannya disebut pakai **so**: **the department is switching to a new edition, so we can't buy that one back**. Jurusan ganti edisi, jadi buku lamanya nggak dibeli.",
+     "why_correct_en": "The reason comes with **so**: the department is switching to a new edition, so the store can't buy it.",
+     "why_wrong_id": {
+      "0": "Kondisi buku nggak disebut rusak.",
+      "1": "Tempat belinya nggak dibahas.",
+      "3": "Jumlah buku di marketplace nggak disebut. Justru edisi lama masih laku di sana."
+     },
+     "why_wrong_en": {
+      "0": "Nothing says the book is damaged.",
+      "1": "Where he bought it isn't discussed.",
+      "3": "Marketplace stock isn't mentioned. Older editions still sell there."
+     },
+     "analogy_id": "Edisi baru itu kayak versi aplikasi terbaru. Versi lama nggak dipakai kelas lagi, jadi toko nggak mau nyetok.",
+     "analogy_en": "A new edition is like a new app version. The old one isn't used in class, so the store won't stock it.",
+     "tip_id": "**Unfortunately** sering muncul pas sebelum kabar buruk plus alasannya. Pasang telinga di situ.",
+     "tip_en": "**Unfortunately** often comes right before bad news and its reason. Listen closely there."
+    },
+    {
+     "type": "listening_long",
+     "prompt": "What does the clerk imply about older editions of textbooks?",
+     "options": [
+      "They are not allowed on the marketplace.",
+      "The bookstore sells them at a discount.",
+      "They contain many mistakes.",
+      "Some students still want to buy them."
+     ],
+     "correct_index": 3,
+     "rule_tags": [
+      "L-INFER"
+     ],
+     "difficulty": 3,
+     "key_sentence": "You could try the online student marketplace, though. Older editions still sell there.",
+     "key_translation_id": "Tapi kamu bisa coba marketplace online mahasiswa. Edisi lama masih laku di sana.",
+     "why_correct_id": "Petugasnya bilang **Older editions still sell there**, edisi lama masih laku di marketplace. Kalau masih laku, berarti masih ada mahasiswa yang mau beli. Itu makna tersiratnya.",
+     "why_correct_en": "She says **Older editions still sell there**. If they sell, some students still want them.",
+     "why_wrong_id": {
+      "0": "Kebalikannya. Dia malah nyaranin jual di marketplace.",
+      "1": "Toko buku justru nggak beli edisi lama ini. Nggak ada info toko jual diskon.",
+      "2": "Kesalahan isi buku nggak disebut. Alasannya cuma ganti edisi."
+     },
+     "why_wrong_en": {
+      "0": "The opposite. She suggests selling there.",
+      "1": "The store won't even buy this old edition. No discount sale is mentioned.",
+      "2": "Errors in the book aren't mentioned. The issue is the edition change."
+     },
+     "analogy_id": "**still sell** itu kayak lihat barang bekas yang tetap laku di pasar loak. Artinya masih ada yang nyari.",
+     "analogy_en": "**still sell** is like secondhand goods that still move at a flea market. Someone is still looking for them.",
+     "tip_id": "Soal **imply** sering ngambil satu kalimat pendek, terus nanya akibat logisnya. Tanya: kalau ini bener, berarti apa?",
+     "tip_en": "**Imply** questions often take one short line and ask what logically follows. Ask: if this is true, what does it mean?"
+    }
+   ]
+  },
+  {
+   "section": "listening",
+   "part": "C",
+   "script": [
+    {
+     "speaker": "LEC",
+     "text": "Today we'll look at something we rarely think about: time zones. Until the late eighteen hundreds, most towns set their clocks by the sun. Noon was simply the moment the sun was highest in the sky, so a town just a short distance to the east would be a few minutes ahead of its neighbor. For people traveling on foot or by horse, this hardly mattered. But railroads changed everything. A train schedule that listed dozens of local times was confusing, and mistakes could even cause accidents. So in 1883, the railroads in the United States and Canada agreed to use a small number of standard time zones. A year later, an international conference chose the meridian passing through Greenwich, England, as the starting point for measuring longitude. Since Earth turns three hundred and sixty degrees in twenty-four hours, it turns fifteen degrees every hour. That's why, in theory, each time zone is about fifteen degrees wide. In practice, the borders bend around countries and states, so the real map looks far less tidy."
+    }
+   ],
+   "questions": [
+    {
+     "type": "listening_lecture",
+     "prompt": "What is the lecture mainly about?",
+     "options": [
+      "How railroads were built in Canada",
+      "Why the sun is highest at noon",
+      "How to read train schedules",
+      "Why time zones were created"
+     ],
+     "correct_index": 3,
+     "rule_tags": [
+      "L-TOPIC",
+      "L-LECTURE"
+     ],
+     "difficulty": 1,
+     "key_sentence": "Today we'll look at something we rarely think about: time zones.",
+     "key_translation_id": "Hari ini kita bahas sesuatu yang jarang kita pikirin: zona waktu.",
+     "why_correct_id": "Kalimat pembukanya nyebut topik: **time zones**. Sisanya ngejelasin kenapa zona waktu dibikin: waktu lokal yang beda-beda bikin jadwal kereta kacau.",
+     "why_correct_en": "The opening names the topic: **time zones**. The rest explains why they were created: local times confused train schedules.",
+     "why_wrong_id": {
+      "0": "Kereta cuma alasan zona waktu dibikin. Cara bangun relnya nggak dibahas.",
+      "1": "Matahari paling tinggi siang hari cuma latar belakang soal waktu lokal.",
+      "2": "Jadwal kereta disebut sebagai masalah, bukan diajarin cara bacanya."
+     },
+     "why_wrong_en": {
+      "0": "Railroads are only the reason for time zones. Building them isn't covered.",
+      "1": "The sun at noon is only background on local time.",
+      "2": "Train schedules are the problem, not a reading lesson."
+     },
+     "analogy_id": "Kalimat pembuka lecture itu kayak judul bab. Contoh soal kereta itu isi babnya.",
+     "analogy_en": "A lecture's opening line is the chapter title. The railroad story is the chapter.",
+     "tip_id": "Topik lecture biasanya disebut di kalimat pertama. Contoh panjang sesudahnya jarang jadi jawaban soal topik.",
+     "tip_en": "A lecture's topic is usually in the first sentence. Long examples after it rarely answer the topic question."
+    },
+    {
+     "type": "listening_lecture",
+     "prompt": "According to the professor, why did railroads need standard time?",
+     "options": [
+      "Trains could not run at night.",
+      "Passengers wanted to travel faster.",
+      "The sun was hard to see from moving trains.",
+      "Schedules with many local times were confusing."
+     ],
+     "correct_index": 3,
+     "rule_tags": [
+      "L-DETAIL",
+      "L-LECTURE"
+     ],
+     "difficulty": 2,
+     "key_sentence": "A train schedule that listed dozens of local times was confusing, and mistakes could even cause accidents.",
+     "key_translation_id": "Jadwal kereta yang isinya puluhan waktu lokal bikin bingung, dan kesalahan bahkan bisa bikin kecelakaan.",
+     "why_correct_id": "Dosennya bilang jadwal dengan **dozens of local times was confusing**, dan kesalahannya bisa bikin kecelakaan. Makanya rel kereta sepakat pakai zona waktu standar.",
+     "why_correct_en": "Schedules with **dozens of local times** were confusing, and mistakes could cause accidents. So the railroads agreed on standard zones.",
+     "why_wrong_id": {
+      "0": "Kereta malam nggak disebut.",
+      "1": "Kecepatan perjalanan nggak dibahas.",
+      "2": "Melihat matahari dari kereta nggak disebut. Matahari cuma dipakai buat jam kota."
+     },
+     "why_wrong_en": {
+      "0": "Night trains aren't mentioned.",
+      "1": "Travel speed isn't discussed.",
+      "2": "Seeing the sun from trains isn't mentioned. The sun only set town clocks."
+     },
+     "analogy_id": "Puluhan waktu lokal itu kayak satu grup chat yang tiap orang pakai jam sendiri. Janjian jam 7, semua datang beda waktu.",
+     "analogy_en": "Dozens of local times are like a group chat where everyone uses their own clock. Meet at seven, and everyone shows up at a different time.",
+     "tip_id": "Penanda masalah kayak **confusing** atau **mistakes** sering ada pas sebelum solusinya. Soal **why** nanyain masalah itu.",
+     "tip_en": "Problem words like **confusing** or **mistakes** often sit right before the solution. **Why** questions target them."
+    },
+    {
+     "type": "listening_lecture",
+     "prompt": "According to the professor, why is each time zone about fifteen degrees wide?",
+     "options": [
+      "The international conference chose that number at random.",
+      "Railroads needed fifteen stops each hour.",
+      "Earth turns fifteen degrees every hour.",
+      "Greenwich is fifteen degrees from the equator."
+     ],
+     "correct_index": 2,
+     "rule_tags": [
+      "L-DETAIL",
+      "L-LECTURE"
+     ],
+     "difficulty": 3,
+     "key_sentence": "Since Earth turns three hundred and sixty degrees in twenty-four hours, it turns fifteen degrees every hour.",
+     "key_translation_id": "Karena Bumi berputar tiga ratus enam puluh derajat dalam dua puluh empat jam, Bumi berputar lima belas derajat tiap jam.",
+     "why_correct_id": "Dosennya ngitung: 360 derajat dibagi 24 jam sama dengan 15 derajat per jam. **That's why** tiap zona waktu kira-kira lebarnya 15 derajat.",
+     "why_correct_en": "360 degrees divided by 24 hours is 15 degrees an hour. **That's why** each zone is about 15 degrees wide.",
+     "why_wrong_id": {
+      "0": "Angkanya bukan asal pilih. Itu hasil hitungan putaran Bumi.",
+      "1": "Jumlah pemberhentian kereta nggak disebut.",
+      "3": "Greenwich dipakai sebagai titik awal ngukur bujur, bukan diukur dari khatulistiwa."
+     },
+     "why_wrong_en": {
+      "0": "The number wasn't random. It comes from Earth's rotation.",
+      "1": "Train stops aren't mentioned.",
+      "3": "Greenwich is the starting line for longitude, not measured from the equator."
+     },
+     "analogy_id": "Kayak motong kue bundar jadi 24 potong sama besar. Tiap potongan pasti 15 derajat.",
+     "analogy_en": "Like cutting a round cake into 24 equal slices. Each slice is 15 degrees.",
+     "tip_id": "Ada angka plus **That's why**? Alasannya ada di kalimat pas sebelum **That's why**.",
+     "tip_en": "A number plus **That's why**? The reason sits in the sentence just before it."
+    }
+   ]
+  },
+  {
+   "section": "structure",
+   "type": "structure_completion",
+   "prompt": "The results of the survey ______ that most students prefer short online quizzes.",
+   "options": [
+    "shows",
+    "show",
+    "showing",
+    "to show"
+   ],
+   "correct_index": 1,
+   "rule_tags": [
+    "S-AGREE-OF"
+   ],
+   "difficulty": 1,
+   "why_correct_id": "Pelaku aslinya **The results**, jamak. **of the survey** cuma keterangan. Pelaku jamak pakai kata kerja tanpa -s: **show**.",
+   "why_correct_en": "The real subject is **The results**, plural. **of the survey** is just a description. Plural takes **show**.",
+   "why_wrong_id": {
+    "0": "**shows** itu tunggal, cocoknya buat **survey**. Padahal pelakunya **results**.",
+    "2": "**showing** tanpa auxiliary (kata kerja bantu) bukan kata kerja utama.",
+    "3": "**to show** itu infinitive, bukan kata kerja utama yang punya tense."
+   },
+   "why_wrong_en": {
+    "0": "**shows** is singular, matching **survey**, but the subject is **results**.",
+    "2": "**showing** with no helper verb isn't a main verb.",
+    "3": "**to show** is an infinitive, not a tensed main verb."
+   },
+   "analogy_id": "**of the survey** itu penumpang yang duduk paling dekat mesin. Tetap aja sopirnya **results**.",
+   "analogy_en": "**of the survey** sits closest to the engine, but the driver is still **results**.",
+   "tip_id": "Coret frasa **of …**, terus cocokin kata kerjanya sama kata sebelum **of**.",
+   "tip_en": "Cross out **of …** and match the verb to the word before it."
+  },
+  {
+   "section": "structure",
+   "type": "structure_completion",
+   "prompt": "______ the professor arrived, the students had already started the discussion.",
+   "options": [
+    "During",
+    "Despite",
+    "By the time",
+    "Because of"
+   ],
+   "correct_index": 2,
+   "rule_tags": [
+    "S-ADV-CLAUSE",
+    "S-TENSE"
+   ],
+   "difficulty": 2,
+   "why_correct_id": "Setelah rumpang ada clause lengkap: **the professor arrived**. Jadi butuh kata sambung, bukan kata depan. Clause kedua pakai **had already started**, past perfect, kejadian yang udah duluan. Penghubung yang pas: **By the time**.",
+   "why_correct_en": "A full clause follows, so you need a conjunction. The other clause uses **had already started**, an earlier event. That fits **By the time**.",
+   "why_wrong_id": {
+    "0": "**During** itu kata depan. Nggak bisa diikutin pelaku plus kata kerja.",
+    "1": "**Despite** juga kata depan, dan artinya walaupun. Nggak cocok.",
+    "3": "**Because of** itu kata depan dan artinya karena. Diskusi nggak dimulai gara-gara dosen datang."
+   },
+   "why_wrong_en": {
+    "0": "**During** is a preposition. It can't take a subject plus verb.",
+    "1": "**Despite** is a preposition meaning in spite of. It doesn't fit.",
+    "3": "**Because of** is a preposition meaning due to. The arrival didn't cause the discussion."
+   },
+   "analogy_id": "**By the time** plus past perfect itu kayak datang ke bioskop pas filmnya udah mulai. Dua kejadian lampau, satu duluan.",
+   "analogy_en": "**By the time** with the past perfect is arriving at the cinema after the film had started. Two past events, one first.",
+   "tip_id": "Lihat **had + V3** di clause lain? Cari penghubung waktu kayak **By the time**, **before**, atau **when**.",
+   "tip_en": "See **had + V3** in the other clause? Look for a time link like **By the time**, **before**, or **when**."
+  },
+  {
+   "section": "structure",
+   "type": "structure_completion",
+   "prompt": "The bridge, ______ in 1890, is still used by thousands of drivers every day.",
+   "options": [
+    "building",
+    "built",
+    "was built",
+    "which built"
+   ],
+   "correct_index": 1,
+   "rule_tags": [
+    "S-REDUCED",
+    "S-PASSIVE"
+   ],
+   "difficulty": 2,
+   "why_correct_id": "Kata kerja utamanya **is still used**. Jadi bagian di antara koma cuma penjelas. Jembatan itu dibangun orang, maknanya pasif: **which was built**. Versi ringkasnya V3: **built**.",
+   "why_correct_en": "The main verb is **is still used**, so the part between commas just describes. The bridge was built, a passive meaning: **which was built**, reduced to **built**.",
+   "why_wrong_id": {
+    "0": "**building** maknanya aktif, seolah jembatannya yang ngebangun.",
+    "2": "**was built** bikin kata kerja kedua tanpa penghubung.",
+    "3": "**which built** maknanya aktif. Jembatannya jadi pelaku yang ngebangun sesuatu."
+   },
+   "why_wrong_en": {
+    "0": "**building** is active, as if the bridge were building.",
+    "2": "**was built** adds a second verb with no connector.",
+    "3": "**which built** is active. The bridge would be building something."
+   },
+   "analogy_id": "Penjelas di antara koma itu kayak label di kemasan: dibuat tahun 1890. Labelnya pakai V3.",
+   "analogy_en": "The part between commas is a package label: made in 1890. The label uses V3.",
+   "tip_id": "Penjelas di antara koma plus tahun lampau? Biasanya V3 buat benda yang dibikin orang.",
+   "tip_en": "A description between commas with a past year? Usually V3 for things people made."
+  },
+  {
+   "section": "structure",
+   "type": "structure_completion",
+   "prompt": "Seldom ______ such a clear explanation of a difficult topic.",
+   "options": [
+    "students receive",
+    "students do receive",
+    "receive students",
+    "do students receive"
+   ],
+   "correct_index": 3,
+   "rule_tags": [
+    "S-INVERSION"
+   ],
+   "difficulty": 3,
+   "why_correct_id": "Kalimatnya dibuka pakai **Seldom**, kata negatif. Setelahnya terjadi [[inversion]]: kata kerja bantu maju sebelum pelaku. Jadi **do students receive**.",
+   "why_correct_en": "**Seldom** is a negative word at the start. Inversion follows: the helper verb comes before the subject: **do students receive**.",
+   "why_wrong_id": {
+    "0": "**students receive** itu urutan biasa. Habis **Seldom** di awal, urutannya harus dibalik.",
+    "1": "**students do receive** kata kerja bantunya masih di belakang pelaku.",
+    "2": "**receive students** maknanya kebalik: mahasiswanya jadi objek."
+   },
+   "why_wrong_en": {
+    "0": "**students receive** is normal order. After **Seldom**, it must flip.",
+    "1": "**students do receive** keeps the helper after the subject.",
+    "2": "**receive students** flips the meaning: students become the object."
+   },
+   "analogy_id": "**Seldom** di depan itu kayak bel istimewa. Begitu bunyi, **do** langsung maju nyambut duluan.",
+   "analogy_en": "**Seldom** at the front is a special bell. When it rings, **do** steps forward first.",
+   "tip_id": "**Seldom**, **Rarely**, **Never**, **Hardly** di awal kalimat? Pilih urutan kayak pertanyaan.",
+   "tip_en": "**Seldom**, **Rarely**, **Never**, **Hardly** at the start? Choose question order."
+  },
+  {
+   "section": "structure",
+   "type": "structure_error",
+   "prompt": "Every one of the {A}applicants{/A} {B}have{/B} {C}submitted{/C} the {D}required{/D} documents.",
+   "options": [
+    "applicants",
+    "have",
+    "submitted",
+    "required"
+   ],
+   "correct_index": 1,
+   "rule_tags": [
+    "S-AGREE-EACH"
+   ],
+   "difficulty": 1,
+   "why_correct_id": "Pelakunya **Every one**, selalu tunggal. **of the applicants** nggak ngubah itu. Jadi **have** harus jadi **has**.",
+   "why_correct_en": "The subject is **Every one**, always singular. **of the applicants** doesn't change it. So **have** should be **has**.",
+   "why_wrong_id": {
+    "0": "Setelah **Every one of the** memang pakai kata benda jamak. **applicants** aman.",
+    "2": "**submitted** itu V3 yang pas setelah **has**.",
+    "3": "**required** itu kata sifat yang nerangin **documents**. Aman."
+   },
+   "why_wrong_en": {
+    "0": "**Every one of the** takes a plural noun. **applicants** is fine.",
+    "2": "**submitted** is the right V3 after **has**.",
+    "3": "**required** describes **documents**. Fine."
+   },
+   "analogy_id": "**Every one** itu satu kursi sopir. Daftar pelamar cuma penumpang di belakang.",
+   "analogy_en": "**Every one** is one driver's seat. The applicants are passengers in the back.",
+   "tip_id": "**Every one of**, **Each of**, **One of** plus jamak? Kata kerjanya tetap tunggal.",
+   "tip_en": "**Every one of**, **Each of**, **One of** plus a plural? The verb stays singular."
+  },
+  {
+   "section": "structure",
+   "type": "structure_error",
+   "prompt": "The museum offers tours, workshops, and {A}it organizes{/A} lectures {B}for{/B} visitors {C}of{/C} {D}all{/D} ages.",
+   "options": [
+    "it organizes",
+    "for",
+    "of",
+    "all"
+   ],
+   "correct_index": 0,
+   "rule_tags": [
+    "S-PARALLEL"
+   ],
+   "difficulty": 2,
+   "why_correct_id": "Daftar setelah **offers** harusnya sejajar: **tours**, **workshops**, dan **lectures**, semuanya kata benda. **it organizes** nyelipin clause baru di tengah daftar. Hapus **it organizes**.",
+   "why_correct_en": "The list after **offers** should be parallel: **tours**, **workshops**, **lectures**, all nouns. **it organizes** sneaks a new clause into the list. Remove it.",
+   "why_wrong_id": {
+    "1": "**for visitors** itu frasa yang aman.",
+    "2": "**of all ages** itu pola yang aman.",
+    "3": "**all ages** pas buat semua umur."
+   },
+   "why_wrong_en": {
+    "1": "**for visitors** is fine.",
+    "2": "**of all ages** is a fine pattern.",
+    "3": "**all ages** fits."
+   },
+   "analogy_id": "Tiga gerbong yang ditarik **offers** harus sejenis. Tiba-tiba ada gerbong yang bawa lokomotif sendiri, **it organizes**. Keretanya jadi aneh.",
+   "analogy_en": "The carriages pulled by **offers** must match. Suddenly one brings its own engine, **it organizes**. The train looks wrong.",
+   "tip_id": "Daftar **X, Y, and Z**? Cek apakah Z punya pelaku dan kata kerja sendiri. Kalau iya, biasanya salah.",
+   "tip_en": "A list **X, Y, and Z**? Check if Z brings its own subject and verb. If so, it's usually wrong."
+  },
+  {
+   "section": "structure",
+   "type": "structure_error",
+   "prompt": "The {A}amount{/A} of {B}students{/B} who {C}attended{/C} the workshop {D}was{/D} larger than expected.",
+   "options": [
+    "amount",
+    "students",
+    "attended",
+    "was"
+   ],
+   "correct_index": 0,
+   "rule_tags": [
+    "S-COUNT"
+   ],
+   "difficulty": 2,
+   "why_correct_id": "**students** itu kata benda terhitung jamak. Buat yang terhitung, pakai **number**, bukan **amount**. Jadi **amount** harus jadi **number**.",
+   "why_correct_en": "**students** is a plural countable noun. Countables take **number**, not **amount**.",
+   "why_wrong_id": {
+    "1": "**students** jamak pas setelah **of** dan cocok sama **who attended**.",
+    "2": "**attended** itu V2 yang pas buat kejadian lampau.",
+    "3": "**was** tunggal, cocok sama **The number**."
+   },
+   "why_wrong_en": {
+    "1": "Plural **students** fits after **of**.",
+    "2": "**attended** is a fine past form.",
+    "3": "**was** is singular, matching **The number**."
+   },
+   "analogy_id": "**Amount** itu timbangan, **number** itu alat hitung kepala. Mahasiswa dihitung kepalanya.",
+   "analogy_en": "**Amount** is a scale, **number** is a head counter. Students get counted.",
+   "tip_id": "Kata benda sesudah **of** bisa dijamakin? Pakai **number**. Nggak bisa? Pakai **amount**.",
+   "tip_en": "Can the noun after **of** be plural? Use **number**. If not, **amount**."
+  },
+  {
+   "section": "structure",
+   "type": "structure_error",
+   "prompt": "The new policy {A}has been{/A} {B}criticized{/B} by many teachers, {C}which{/C} believe it {D}reduces{/D} class time.",
+   "options": [
+    "has been",
+    "criticized",
+    "which",
+    "reduces"
+   ],
+   "correct_index": 2,
+   "rule_tags": [
+    "S-RELATIVE"
+   ],
+   "difficulty": 3,
+   "why_correct_id": "**which** nerangin **many teachers**, orang. Buat orang pakai **who**. Jadi **which** harus jadi **who**.",
+   "why_correct_en": "**which** describes **many teachers**, people. People take **who**.",
+   "why_wrong_id": {
+    "0": "**has been** itu present perfect pasif yang aman.",
+    "1": "**criticized** itu V3 yang pas setelah **has been**.",
+    "3": "**reduces** tunggal, cocok sama **it**, yang nunjuk ke **the new policy**."
+   },
+   "why_wrong_en": {
+    "0": "**has been** is a fine present perfect passive.",
+    "1": "**criticized** is the right V3 after **has been**.",
+    "3": "**reduces** matches **it**, meaning the policy."
+   },
+   "analogy_id": "Penjelas setelah koma nempel ke kata benda terdekat, **teachers**. Manusia nggak dipanggil pakai **which**.",
+   "analogy_en": "The comma clause sticks to the nearest noun, **teachers**. People aren't called **which**.",
+   "tip_id": "Ada **which** setelah koma? Cek kata benda sebelumnya. Orang? Ganti **who**.",
+   "tip_en": "**which** after a comma? Check the noun before it. A person? Use **who**."
+  },
+  {
+   "section": "structure",
+   "type": "structure_error",
+   "prompt": "Not until the final week {A}the students realized{/A} how {B}much{/B} material they {C}still{/C} {D}needed{/D} to review.",
+   "options": [
+    "the students realized",
+    "much",
+    "still",
+    "needed"
+   ],
+   "correct_index": 0,
+   "rule_tags": [
+    "S-INVERSION"
+   ],
+   "difficulty": 3,
+   "why_correct_id": "**Not until the final week** di awal kalimat bikin [[inversion]]. Kata kerja bantu harus maju sebelum pelaku: **did the students realize**. Jadi **the students realized** salah urutan.",
+   "why_correct_en": "**Not until the final week** at the start triggers inversion: **did the students realize**.",
+   "why_wrong_id": {
+    "1": "**much** pas buat **material**, kata benda tak terhitung.",
+    "2": "**still** itu adverb yang pas.",
+    "3": "**needed** itu V2 yang pas buat cerita lampau."
+   },
+   "why_wrong_en": {
+    "1": "**much** fits uncountable **material**.",
+    "2": "**still** is a fine adverb.",
+    "3": "**needed** is a fine past form."
+   },
+   "analogy_id": "**Not until** itu pintu yang cuma bisa dibuka **did**. Pelakunya harus nunggu di belakang.",
+   "analogy_en": "**Not until** is a door only **did** can open. The subject waits behind.",
+   "tip_id": "**Not until**, **Only after**, **Only when** di awal kalimat? Clause utamanya wajib inversi.",
+   "tip_en": "**Not until**, **Only after**, **Only when** at the start? The main clause must invert."
+  },
+  {
+   "section": "structure",
+   "type": "structure_error",
+   "prompt": "The {A}scientist{/A} explained the results {B}clear{/B} enough {C}for{/C} everyone {D}to understand{/D}.",
+   "options": [
+    "scientist",
+    "clear",
+    "for",
+    "to understand"
+   ],
+   "correct_index": 1,
+   "rule_tags": [
+    "S-ADJ-ADV"
+   ],
+   "difficulty": 2,
+   "why_correct_id": "**clear** nerangin cara si ilmuwan ngejelasin, alias nerangin kata kerja **explained**. Yang nerangin kata kerja itu adverb. Jadi **clear** harus jadi **clearly**.",
+   "why_correct_en": "**clear** describes how the scientist explained, so it modifies **explained**. That needs the adverb **clearly**.",
+   "why_wrong_id": {
+    "0": "**scientist** itu kata benda yang pas jadi pelaku.",
+    "2": "Pola **enough for someone to do** itu aman.",
+    "3": "**to understand** pas dalam pola **enough for … to**."
+   },
+   "why_wrong_en": {
+    "0": "**scientist** is a fine noun subject.",
+    "2": "**enough for someone to do** is a fine pattern.",
+    "3": "**to understand** fits **enough for … to**."
+   },
+   "analogy_id": "Kata sifat itu cat, adverb itu gaya nyetir. Cara ngejelasin butuh gaya nyetir: **clearly**.",
+   "analogy_en": "An adjective is paint, an adverb is driving style. How someone explains needs a style: **clearly**.",
+   "tip_id": "Kata setelah objek yang nerangin cara melakukan sesuatu? Biasanya butuh -ly.",
+   "tip_en": "A word after the object telling how something was done? It usually needs -ly."
+  },
+  {
+   "section": "reading",
+   "title": "The Return of the Night Train",
+   "body": "For much of the twentieth century, night trains carried millions of travelers across Europe while they slept. By the early two thousands, however, many of these services had disappeared. Cheap airlines could fly passengers between major cities in a fraction of the time, and railway companies found the sleeping cars expensive to run.\n\nIn recent years, the trend has begun to reverse. In 2016, Austria's national railway took over several night routes that a German operator had abandoned and relaunched them under a new name. Instead of closing, the routes grew, and new connections were added to cities in Italy, Switzerland, and the Netherlands.\n\nSeveral factors explain the revival. Many travelers have become concerned about the carbon emissions of short flights, and a night train can replace a flight while also saving the cost of a hotel. For business travelers, arriving in a city center at breakfast time can be more convenient than traveling to an airport far outside town. Some passengers simply enjoy the journey itself, watching the countryside at sunset and waking up in another country.\n\nNight trains still face serious challenges. Each sleeping car carries far fewer passengers than an ordinary carriage, so tickets can be expensive. Operating across borders is also complicated, since each country has its own rail rules and charges fees for using its tracks.\n\nSupporters argue that governments could solve some of these problems by lowering track fees or offering support for new routes. Whether night trains become a common choice again may depend less on travelers than on the decisions of policymakers.",
+   "questions": [
+    {
+     "type": "reading",
+     "subtype": "main_idea",
+     "prompt": "What is the passage mainly about?",
+     "options": [
+      "Why airlines replaced trains in Europe",
+      "The decline and recent revival of night trains in Europe",
+      "How to book a sleeping car in Austria",
+      "The history of railways in Italy"
+     ],
+     "correct_index": 1,
+     "rule_tags": [
+      "R-MAIN"
+     ],
+     "difficulty": 1,
+     "evidence_quote": "In recent years, the trend has begun to reverse.",
+     "why_correct_id": "Paragraf 1 nyeritain kereta malam yang dulu banyak terus menghilang. Paragraf 2 sampai 5 bahas kebangkitannya: rute baru, alasan, tantangan, dan peran pemerintah. Jadi topiknya turun dan bangkitnya kereta malam di Eropa.",
+     "why_correct_en": "Paragraph 1 tells of decline. Paragraphs 2 to 5 cover the revival: new routes, reasons, challenges, and policy. So it's the decline and revival of night trains.",
+     "why_wrong_id": {
+      "0": "Maskapai murah cuma satu alasan kereta malam menghilang di paragraf 1. Kesempitan.",
+      "2": "Cara pesan kursi tidur nggak dibahas.",
+      "3": "Italia cuma salah satu tujuan rute baru."
+     },
+     "why_wrong_en": {
+      "0": "Cheap airlines are one reason for the decline in paragraph 1. Too narrow.",
+      "2": "Booking isn't covered.",
+      "3": "Italy is just one new destination."
+     },
+     "analogy_id": "Teks ini kayak cerita band lama yang bubar terus reuni. Judulnya ya perjalanan naik turunnya.",
+     "analogy_en": "This passage is the story of a band that split up and reunited. The title is the whole up and down.",
+     "tip_id": "Kata **however** atau **reverse** di awal paragraf nandain belokan cerita. Main idea biasanya nyakup sebelum dan sesudah belokan.",
+     "tip_en": "**however** or **reverse** early in a paragraph marks a turn. The main idea usually covers both sides of it."
+    },
+    {
+     "type": "reading",
+     "subtype": "vocabulary",
+     "prompt": "The word **abandoned** in paragraph 2 is closest in meaning to",
+     "options": [
+      "stopped running",
+      "repaired",
+      "made faster",
+      "sold to passengers"
+     ],
+     "correct_index": 0,
+     "rule_tags": [
+      "R-VOCAB"
+     ],
+     "difficulty": 2,
+     "evidence_quote": "Austria's national railway took over several night routes that a German operator had abandoned and relaunched them under a new name.",
+     "why_correct_id": "Rute yang di-**relaunched**, diluncurin lagi, pasti sebelumnya berhenti. Jadi rute yang **abandoned** itu rute yang udah nggak dijalanin lagi: **stopped running**.",
+     "why_correct_en": "Routes that were **relaunched** must have stopped before. So **abandoned** routes are ones that **stopped running**.",
+     "why_wrong_id": {
+      "1": "**repaired** (diperbaiki) nggak cocok sama rute yang perlu diluncurin ulang.",
+      "2": "Kecepatan kereta nggak dibahas.",
+      "3": "Rute nggak dijual ke penumpang."
+     },
+     "why_wrong_en": {
+      "1": "**repaired** doesn't fit routes that needed relaunching.",
+      "2": "Speed isn't discussed.",
+      "3": "Routes aren't sold to passengers."
+     },
+     "analogy_id": "**Abandoned** lalu **relaunched** itu kayak warung yang tutup terus dibuka lagi sama pemilik baru.",
+     "analogy_en": "**Abandoned** then **relaunched** is like a closed shop reopened by a new owner.",
+     "tip_id": "Cari kata lawan di dekatnya. **relaunched** nunjukin **abandoned** artinya berhenti.",
+     "tip_en": "Look for an opposite nearby. **relaunched** shows **abandoned** means stopped."
+    },
+    {
+     "type": "reading",
+     "subtype": "detail",
+     "prompt": "According to paragraph 3, why might a business traveler prefer a night train?",
+     "options": [
+      "It is always cheaper than flying.",
+      "It has faster internet than an airplane.",
+      "It arrives in the city center at breakfast time.",
+      "It allows more luggage than a flight."
+     ],
+     "correct_index": 2,
+     "rule_tags": [
+      "R-DETAIL"
+     ],
+     "difficulty": 2,
+     "evidence_quote": "For business travelers, arriving in a city center at breakfast time can be more convenient than traveling to an airport far outside town.",
+     "why_correct_id": "Paragraf 3 nyebut buat pebisnis, nyampe di **city center at breakfast time** lebih praktis daripada ke bandara yang jauh di luar kota.",
+     "why_correct_en": "Paragraph 3 says arriving in the **city center at breakfast time** beats traveling to a far-off airport.",
+     "why_wrong_id": {
+      "0": "Teks nggak bilang selalu lebih murah. Paragraf 4 malah bilang tiketnya bisa mahal.",
+      "1": "Internet nggak disebut.",
+      "3": "Bagasi nggak disebut."
+     },
+     "why_wrong_en": {
+      "0": "Nothing says always cheaper. Paragraph 4 says tickets can be expensive.",
+      "1": "Internet isn't mentioned.",
+      "3": "Luggage isn't mentioned."
+     },
+     "analogy_id": "Kayak bangun di kasur terus langsung ada di tengah kota. Nggak perlu antre bandara pagi-pagi.",
+     "analogy_en": "Like waking up already downtown. No early airport queue.",
+     "tip_id": "Opsi dengan kata mutlak kayak **always** sering salah. Cek apakah teks bilang sekuat itu.",
+     "tip_en": "Absolute words like **always** are often wrong. Check if the text says it that strongly."
+    },
+    {
+     "type": "reading",
+     "subtype": "inference",
+     "prompt": "It can be inferred from paragraph 4 that a night train with many sleeping cars",
+     "options": [
+      "earns more money than a regular train",
+      "carries fewer people than a regular train of the same length",
+      "is easier to run across borders",
+      "needs no track fees"
+     ],
+     "correct_index": 1,
+     "rule_tags": [
+      "R-INFER"
+     ],
+     "difficulty": 3,
+     "evidence_quote": "Each sleeping car carries far fewer passengers than an ordinary carriage, so tickets can be expensive.",
+     "why_correct_id": "Tiap gerbong tidur ngangkut **far fewer passengers**, jauh lebih sedikit, dibanding gerbong biasa. Kalau gerbong tidurnya banyak, total penumpang kereta itu juga lebih sedikit dibanding kereta biasa sepanjang itu. Itu nggak ditulis langsung, tapi jelas dari kalimatnya.",
+     "why_correct_en": "Each sleeping car carries **far fewer passengers**. A train full of them carries fewer people than a regular train of the same length. Not stated, but it follows.",
+     "why_wrong_id": {
+      "0": "Teks nggak bilang lebih untung. Penumpang lebih sedikit bikin tiket mahal, bukan pasti untung.",
+      "2": "Kebalikannya. Lintas negara justru disebut ribet.",
+      "3": "Teks bilang tiap negara narik biaya pemakaian rel."
+     },
+     "why_wrong_en": {
+      "0": "No profit claim. Fewer passengers mean pricey tickets, not sure profit.",
+      "2": "The opposite. Crossing borders is complicated.",
+      "3": "Each country charges track fees."
+     },
+     "analogy_id": "Kayak bus yang kursinya diganti kasur. Busnya sama panjang, tapi muatannya jauh lebih sedikit.",
+     "analogy_en": "Like a bus with beds instead of seats. Same length, far fewer people.",
+     "tip_id": "Inferensi sering cuma satu langkah dari kalimat bukti. Jangan pilih opsi yang loncat terlalu jauh.",
+     "tip_en": "An inference is often one step from the evidence. Don't pick options that leap too far."
+    },
+    {
+     "type": "reading",
+     "subtype": "reference",
+     "prompt": "The word **them** in paragraph 2 refers to",
+     "options": [
+      "night routes",
+      "travelers",
+      "cities",
+      "operators"
+     ],
+     "correct_index": 0,
+     "rule_tags": [
+      "R-REF"
+     ],
+     "difficulty": 2,
+     "evidence_quote": "Austria's national railway took over several night routes that a German operator had abandoned and relaunched them under a new name.",
+     "why_correct_id": "**relaunched them**, apa yang diluncurin ulang? Rute malam yang tadinya ditinggalin. Coba ganti: **relaunched the night routes under a new name**. Pas.",
+     "why_correct_en": "**relaunched them**, relaunched what? The abandoned night routes. Swap in: **relaunched the night routes**. It fits.",
+     "why_wrong_id": {
+      "1": "Penumpang nggak diluncurin ulang.",
+      "2": "Kota-kota disebut di kalimat berikutnya sebagai tujuan baru.",
+      "3": "**a German operator** itu tunggal dan dia yang ninggalin rutenya."
+     },
+     "why_wrong_en": {
+      "1": "Travelers aren't relaunched.",
+      "2": "Cities come in the next sentence as new destinations.",
+      "3": "**a German operator** is singular, and it dropped the routes."
+     },
+     "analogy_id": "**Them** di sini kayak tanda panah balik ke barang yang baru diambil alih: rute malam.",
+     "analogy_en": "**Them** points back to what was just taken over: the night routes.",
+     "tip_id": "Kata kerja di depan pronoun, **relaunched**, bantu nyaring calon yang masuk akal.",
+     "tip_en": "The verb before the pronoun, **relaunched**, filters the sensible candidates."
+    }
+   ]
+  },
+  {
+   "section": "reading",
+   "title": "Why Onions Make You Cry",
+   "body": "Almost everyone who cooks has experienced it: you begin chopping an onion, and within seconds your eyes start to sting and fill with tears. The reaction is not a sign of weakness or emotion. It is the result of a small chemical defense system inside the onion. Scientists have studied the process in detail, and the explanation turns out to be surprisingly simple.\n\nAn onion stores sulfur compounds in its cells. As long as the cells are whole, these compounds are harmless. When a knife breaks the cells open, however, enzymes are released and mix with the sulfur compounds, setting off a chain of reactions. The final product is a gas that drifts upward from the cutting board.\n\nWhen this gas reaches your eyes, it irritates nerves on their surface. Your body responds the way it responds to dust or smoke: tear glands produce extra fluid to wash the irritant away. In nature, the same reaction probably helps protect the onion from animals that try to eat it.\n\nCooks have developed many tricks to reduce the tears. Chilling an onion before cutting slows the chemical reactions, and a very sharp knife crushes fewer cells than a dull one. Cutting near a fan or an open window carries the gas away before it reaches the eyes.\n\nIn recent years, plant breeders have also developed onion varieties that produce far less of the irritating gas. These onions taste milder, and some cooks miss the sharp flavor of ordinary onions. For now, a sharp knife remains the simplest solution.",
+   "questions": [
+    {
+     "type": "reading",
+     "subtype": "detail",
+     "prompt": "According to paragraph 2, what happens when a knife cuts an onion?",
+     "options": [
+      "The sulfur compounds turn into water.",
+      "Enzymes mix with sulfur compounds and produce a gas.",
+      "The onion cells become stronger.",
+      "The onion loses all of its flavor."
+     ],
+     "correct_index": 1,
+     "rule_tags": [
+      "R-DETAIL"
+     ],
+     "difficulty": 2,
+     "evidence_quote": "When a knife breaks the cells open, however, enzymes are released and mix with the sulfur compounds, setting off a chain of reactions. The final product is a gas that drifts upward from the cutting board.",
+     "why_correct_id": "Paragraf 2 bilang pas pisau mecahin sel, enzim keluar dan nyampur sama senyawa sulfur. Hasil akhirnya **a gas** yang naik dari talenan.",
+     "why_correct_en": "When the knife breaks cells, enzymes mix with the sulfur compounds. The end result is **a gas** rising from the board.",
+     "why_wrong_id": {
+      "0": "Senyawa sulfurnya nggak berubah jadi air.",
+      "2": "Kebalikannya. Selnya malah pecah.",
+      "3": "Rasa bawang nggak disebut hilang di paragraf ini."
+     },
+     "why_wrong_en": {
+      "0": "The sulfur compounds don't become water.",
+      "2": "The opposite. The cells break.",
+      "3": "Flavor loss isn't mentioned here."
+     },
+     "analogy_id": "Kayak dua bahan lem dua komponen. Selama dipisah aman, begitu dicampur langsung bereaksi.",
+     "analogy_en": "Like two-part glue. Harmless apart, reactive once mixed.",
+     "tip_id": "Soal proses? Ikutin urutannya: sel pecah, enzim keluar, nyampur, gas terbentuk.",
+     "tip_en": "Process question? Follow the steps: cells break, enzymes released, mixing, gas."
+    },
+    {
+     "type": "reading",
+     "subtype": "vocabulary",
+     "prompt": "The word **sting** in paragraph 1 is closest in meaning to",
+     "options": [
+      "hurt",
+      "close",
+      "shine",
+      "move"
+     ],
+     "correct_index": 0,
+     "rule_tags": [
+      "R-VOCAB"
+     ],
+     "difficulty": 1,
+     "evidence_quote": "you begin chopping an onion, and within seconds your eyes start to sting and fill with tears",
+     "why_correct_id": "Mata yang **sting** terus berair itu mata yang perih. Jadi **sting** artinya **hurt**, terasa sakit atau perih.",
+     "why_correct_en": "Eyes that **sting** and fill with tears hurt. So **sting** means **hurt**.",
+     "why_wrong_id": {
+      "1": "**close** (menutup) mungkin terjadi, tapi kalimatnya nekenin rasa perih dan air mata.",
+      "2": "**shine** (bersinar) nggak nyambung sama mata yang berair karena iritasi.",
+      "3": "**move** (bergerak) nggak cocok sama konteks iritasi."
+     },
+     "why_wrong_en": {
+      "1": "**close** might happen, but the sentence stresses pain and tears.",
+      "2": "**shine** doesn't fit irritated, watering eyes.",
+      "3": "**move** doesn't fit irritation."
+     },
+     "analogy_id": "Kayak kena sampo di mata. Perih dulu, baru air matanya keluar.",
+     "analogy_en": "Like shampoo in your eyes. First it stings, then the tears come.",
+     "tip_id": "Kata yang nempel sama **fill with tears** pasti soal rasa nggak enak di mata.",
+     "tip_en": "A word paired with **fill with tears** is about discomfort in the eyes."
+    },
+    {
+     "type": "reading",
+     "subtype": "not_except",
+     "prompt": "All of the following are mentioned as ways to reduce tears EXCEPT",
+     "options": [
+      "chilling the onion before cutting",
+      "using a very sharp knife",
+      "soaking the onion in salt water",
+      "cutting near a fan or open window"
+     ],
+     "correct_index": 2,
+     "rule_tags": [
+      "R-NOT"
+     ],
+     "difficulty": 3,
+     "evidence_quote": "Chilling an onion before cutting slows the chemical reactions, and a very sharp knife crushes fewer cells than a dull one. Cutting near a fan or an open window carries the gas away before it reaches the eyes.",
+     "why_correct_id": "Centang trik di paragraf 4: dinginin bawang, pisau tajam, motong dekat kipas atau jendela. Rendam air garam nggak pernah disebut. Itu pengecualiannya.",
+     "why_correct_en": "Tick paragraph 4: chilling, a sharp knife, a fan or open window. Salt water is never mentioned.",
+     "why_wrong_id": {
+      "0": "Dinginin bawang disebut nyambung ke reaksi kimia yang melambat.",
+      "1": "Pisau tajam disebut karena ngehancurin lebih sedikit sel.",
+      "3": "Kipas atau jendela terbuka disebut buat ngebawa gasnya pergi."
+     },
+     "why_wrong_en": {
+      "0": "Chilling is listed: it slows the reactions.",
+      "1": "A sharp knife is listed: it crushes fewer cells.",
+      "3": "A fan or open window is listed: it carries the gas away."
+     },
+     "analogy_id": "Opsi rendam air garam itu kayak tips dari tetangga. Mungkin pernah denger, tapi nggak ada di teks.",
+     "analogy_en": "Salt water is a tip from a neighbor. You may have heard it, but it isn't in the text.",
+     "tip_id": "Soal EXCEPT sering pakai trik dunia nyata yang masuk akal. Yang dicek cuma: ada di teks atau nggak.",
+     "tip_en": "EXCEPT traps often use believable real-world tips. The only test: is it in the text?"
+    },
+    {
+     "type": "reading",
+     "subtype": "reference",
+     "prompt": "The word **it** in paragraph 3 refers to",
+     "options": [
+      "the gas",
+      "the dust",
+      "the body",
+      "the onion"
+     ],
+     "correct_index": 3,
+     "rule_tags": [
+      "R-REF"
+     ],
+     "difficulty": 2,
+     "evidence_quote": "In nature, the same reaction probably helps protect the onion from animals that try to eat it.",
+     "why_correct_id": "**animals that try to eat it**, hewan yang nyoba makan apa? Bawangnya. Coba ganti: **animals that try to eat the onion**. Pas.",
+     "why_correct_en": "**animals that try to eat it**, eat what? The onion. Swap in. It fits.",
+     "why_wrong_id": {
+      "0": "Gas nggak dimakan hewan.",
+      "1": "Debu cuma perbandingan di kalimat sebelumnya.",
+      "2": "**the body** nggak disebut di kalimat itu, dan hewan nggak makan tubuh kita."
+     },
+     "why_wrong_en": {
+      "0": "Animals don't eat the gas.",
+      "1": "Dust is only a comparison in the earlier sentence.",
+      "2": "The body isn't in that sentence."
+     },
+     "analogy_id": "Pronoun objek di ujung kalimat biasanya nunjuk ke benda yang dilindungi: bawangnya.",
+     "analogy_en": "An object pronoun at the end usually points to the thing being protected: the onion.",
+     "tip_id": "Pakai kata kerja di depan pronoun, **eat**, buat nyaring calon yang bisa dimakan.",
+     "tip_en": "Use the verb before the pronoun, **eat**, to filter what can be eaten."
+    },
+    {
+     "type": "reading",
+     "subtype": "purpose",
+     "prompt": "What is the purpose of paragraph 5?",
+     "options": [
+      "To describe a newer solution and its drawback",
+      "To explain how onions are grown",
+      "To argue that onions should not be eaten raw",
+      "To compare onions with garlic"
+     ],
+     "correct_index": 0,
+     "rule_tags": [
+      "R-PURPOSE",
+      "R-ORG"
+     ],
+     "difficulty": 3,
+     "evidence_quote": "In recent years, plant breeders have also developed onion varieties that produce far less of the irritating gas. These onions taste milder, and some cooks miss the sharp flavor of ordinary onions.",
+     "why_correct_id": "Paragraf 5 ngenalin solusi baru, varietas bawang yang gasnya jauh lebih sedikit. Terus nyebut kekurangannya: rasanya lebih lembut dan sebagian tukang masak kangen rasa tajam bawang biasa. Jadi tujuannya ngegambarin solusi baru beserta kelemahannya.",
+     "why_correct_en": "Paragraph 5 introduces a newer fix, low-gas onions, then its downside: a milder taste some cooks miss. So it describes a newer solution and its drawback.",
+     "why_wrong_id": {
+      "1": "Cara nanam bawang nggak dibahas. Yang dibahas hasil pemuliaannya.",
+      "2": "Nggak ada larangan makan bawang mentah.",
+      "3": "Bawang putih nggak disebut."
+     },
+     "why_wrong_en": {
+      "1": "Growing onions isn't covered, only the new varieties.",
+      "2": "No one argues against eating raw onions.",
+      "3": "Garlic isn't mentioned."
+     },
+     "analogy_id": "Kayak HP baru yang baterainya awet tapi kameranya biasa aja. Ada untung, ada ruginya.",
+     "analogy_en": "Like a new phone with great battery but an ordinary camera. A gain and a trade-off.",
+     "tip_id": "Paragraf penutup yang pakai **also** plus kata **but** atau **miss** biasanya nawarin solusi tambahan beserta kekurangannya.",
+     "tip_en": "A closing paragraph with **also** plus a drawback word usually offers an extra solution and its cost."
+    }
+   ]
+  }
+ ]
+}
