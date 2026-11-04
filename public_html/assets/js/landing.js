@@ -22,3 +22,12 @@ if (demo) {
     if (first && window.innerWidth < 960) first.scrollIntoView({ behavior: 'smooth', block: 'start' });
   }));
 }
+
+// Marquee: berhenti selama disentuh atau ditekan, lanjut saat dilepas
+const marquee = $('.marquee');
+if (marquee) {
+  const pause = () => marquee.classList.add('is-paused');
+  const resume = () => marquee.classList.remove('is-paused');
+  marquee.addEventListener('pointerdown', pause);
+  ['pointerup', 'pointercancel', 'pointerleave'].forEach((ev) => marquee.addEventListener(ev, resume));
+}
