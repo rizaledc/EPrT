@@ -1,4 +1,4 @@
-<section class="container container-narrow" style="padding:56px 16px 72px">
+<section class="container container-narrow" style="padding-top:56px;padding-bottom:72px">
   <span class="eyebrow">INSTALL</span>
   <h1 class="mt-8"><?= e(t('install.h1')) ?></h1>
   <p class="muted prose"><?= e(t('install.sub')) ?></p>

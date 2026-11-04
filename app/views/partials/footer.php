@@ -31,7 +31,7 @@ $compact = !empty($compactSponsors);
           <?php if (current_user()): ?>
             <li><a href="<?= e(url('akun')) ?>"><?= e(t('nav.account')) ?></a></li>
             <li><a href="<?= e(url('riwayat')) ?>"><?= e(t('nav.history')) ?></a></li>
-            <li><form method="post" action="<?= e(url('keluar')) ?>"><?= csrf_field() ?><button class="btn-ghost" style="border:0;padding:0;background:none;font-weight:600"><?= e(t('nav.logout')) ?></button></form></li>
+            <li><form method="post" action="<?= e(url('keluar')) ?>"><?= csrf_field() ?><button class="footer-logout"><?= e(t('nav.logout')) ?></button></form></li>
           <?php else: ?>
             <li><a href="<?= e(url('daftar')) ?>"><?= e(t('nav.register')) ?></a></li>
             <li><a href="<?= e(url('masuk')) ?>"><?= e(t('nav.login')) ?></a></li>

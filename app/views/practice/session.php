@@ -58,7 +58,7 @@ $section = $attempt['section'];
         <div class="q-actions">
           <button type="button" class="btn btn-secondary btn-sm btn-flag" data-flag aria-pressed="false"><?= icon('flag', 16) ?> <span data-flag-label><?= e(t('session.flag')) ?></span></button>
           <span class="spacer"></span>
-          <button type="button" class="btn btn-ghost btn-sm" data-prev><?= icon('arrow-left', 16) ?> <?= e(t('session.prev')) ?></button>
+          <button type="button" class="btn btn-ghost btn-sm" data-prev aria-label="<?= e(t('session.prev')) ?>"><?= icon('arrow-left', 16) ?> <span class="lbl"><?= e(t('session.prev')) ?></span></button>
           <button type="button" class="btn btn-dark btn-sm" data-next><?= e(t('session.next')) ?> <?= icon('arrow-right', 16) ?></button>
         </div>
       </article>

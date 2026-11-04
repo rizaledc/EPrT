@@ -30,7 +30,7 @@ $link = fn(string $anchor) => $isHome ? '#' . $anchor : url('/#' . $anchor);
         <a class="nav-user hide-m" href="<?= e(url('akun')) ?>"><span class="avatar"><?= e(mb_strtoupper(mb_substr($u['username'], 0, 1))) ?></span><?= e($u['username']) ?></a>
       <?php else: ?>
         <a class="btn btn-ghost btn-sm hide-m" href="<?= e(url('masuk')) ?>"><?= e(t('nav.login')) ?></a>
-        <?= btn_primary(t('nav.start'), url('latihan'), 'btn-sm') ?>
+        <?= btn_primary(t('nav.start'), url('latihan'), 'btn-sm nav-cta') ?>
       <?php endif; ?>
       <button class="icon-btn nav-menu-btn" type="button" aria-expanded="false" aria-controls="mobile-menu" data-menu-btn><span class="sr-only"><?= e(t('nav.menu')) ?></span><?= icon('menu') ?></button>
     </div>
@@ -48,6 +48,7 @@ $link = fn(string $anchor) => $isHome ? '#' . $anchor : url('/#' . $anchor);
       <a href="<?= e(url('kamus')) ?>"><?= e(t('nav.glossary')) ?></a>
       <a href="<?= e($link('faq')) ?>">FAQ</a>
       <a href="<?= e(url('masuk')) ?>"><?= e(t('nav.login')) ?></a>
+      <a class="btn btn-primary menu-cta" href="<?= e(url('latihan')) ?>"><?= e(t('nav.start')) ?></a>
     <?php endif; ?>
     <div class="row">
       <div class="lang-toggle" role="group" aria-label="<?= e(t('nav.lang')) ?>">
