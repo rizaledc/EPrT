@@ -1053,7 +1053,7 @@
     {
      "type": "reading",
      "subtype": "reference",
-     "prompt": "The word **it** in paragraph 3 refers to",
+     "prompt": "The word **it** in the last sentence of paragraph 3 refers to",
      "options": [
       "the gas",
       "the dust",
@@ -1069,14 +1069,14 @@
      "why_correct_id": "**animals that try to eat it**, hewan yang nyoba makan apa? Bawangnya. Coba ganti: **animals that try to eat the onion**. Pas.",
      "why_correct_en": "**animals that try to eat it**, eat what? The onion. Swap in. It fits.",
      "why_wrong_id": {
-      "0": "Gas nggak dimakan hewan.",
+      "0": "**it** di kalimat pertama paragraf 3 memang gasnya, tapi soal ini nanya kalimat terakhir. Gas nggak dimakan hewan.",
       "1": "Debu cuma perbandingan di kalimat sebelumnya.",
-      "2": "**the body** nggak disebut di kalimat itu, dan hewan nggak makan tubuh kita."
+      "2": "**it** di kalimat kedua memang tubuh, tapi soal ini nanya kalimat terakhir. Di situ tubuh nggak disebut."
      },
      "why_wrong_en": {
-      "0": "Animals don't eat the gas.",
+      "0": "The **it** in the first sentence is the gas, but this asks about the last sentence. Animals don't eat gas.",
       "1": "Dust is only a comparison in the earlier sentence.",
-      "2": "The body isn't in that sentence."
+      "2": "The **it** in the second sentence is the body, but this asks about the last sentence, where the body isn't mentioned."
      },
      "analogy_id": "Pronoun objek di ujung kalimat biasanya nunjuk ke benda yang dilindungi: bawangnya.",
      "analogy_en": "An object pronoun at the end usually points to the thing being protected: the onion.",

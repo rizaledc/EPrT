@@ -85,7 +85,7 @@
      "difficulty": 3,
      "key_sentence": "I'd love one, but I'm up to my eyes in marking this week.",
      "key_translation_id": "Pengen banget, tapi aku lagi sibuk banget ngoreksi tugas minggu ini.",
-     "why_correct_id": "**I'd love one, but…** itu penolakan halus. **up to my eyes** itu ungkapan British buat sibuk banget, kerjaan numpuk sampai mata. **marking** artinya ngoreksi tugas. Jadi dia kesibukan buat ikut ngopi.",
+     "why_correct_id": "**I'd love one, but…** itu penolakan halus. **up to my eyes** itu ungkapan British buat sibuk banget, kerjaan numpuk sampai mata. **marking** artinya ngoreksi tugas. Jadi dia terlalu sibuk buat ikut ngopi.",
      "why_correct_en": "**I'd love one, but…** is a polite no. **up to my eyes** means extremely busy. **marking** is grading. He's too busy to join her.",
      "why_wrong_id": {
       "0": "Ini arti harfiah **eyes**. Matanya baik-baik aja.",
@@ -288,7 +288,7 @@
      "difficulty": 2,
      "key_sentence": "I thought about it, but she's already supervising eight students. I doubt she'd have time for me.",
      "key_translation_id": "Aku udah kepikiran, tapi beliau udah ngebimbing delapan mahasiswa. Kayaknya nggak sempat.",
-     "why_correct_id": "Dia bilang Dr. Okafor **already supervising eight students**, dan **I doubt she'd have time for me**. Jadi dia ngira dosennya kesibukan.",
+     "why_correct_id": "Dia bilang Dr. Okafor **already supervising eight students**, dan **I doubt she'd have time for me**. Jadi dia ngira dosennya terlalu sibuk.",
      "why_correct_en": "He says Dr. Okafor is **already supervising eight students** and **I doubt she'd have time for me**. He thought she was too busy.",
      "why_wrong_id": {
       "0": "Kebalikannya. Dr. Okafor juga di bidang tata kota.",
@@ -867,12 +867,12 @@
      "why_wrong_id": {
       "0": "Ini arti harfiah otomatis kayak mesin. Teksnya soal kebiasaan manusia.",
       "1": "Pagi hari nggak disebut sebagai syarat.",
-      "2": "Rencana tertulis dibahas di paragraf 5 sebagai cara bantu, bukan arti kata ini."
+      "2": "Rencana yang dikaitin ke rutinitas dibahas di paragraf 5 sebagai cara bantu, bukan arti kata ini."
      },
      "why_wrong_en": {
       "0": "That's the literal machine sense. The text is about human habits.",
       "1": "Mornings aren't a condition.",
-      "2": "Written plans appear in paragraph 5 as a help, not the meaning."
+      "2": "A plan linked to a routine appears in paragraph 5 as a help, not the meaning."
      },
      "analogy_id": "Kayak naik motor setelah lancar. Tangan dan kaki gerak sendiri tanpa mikir.",
      "analogy_en": "Like riding a motorbike once you're used to it. Your hands and feet move without thinking.",
@@ -1024,7 +1024,7 @@
      "subtype": "reference",
      "prompt": "The word **their** in paragraph 3 refers to",
      "options": [
-      "fishing communities'",
+      "villages'",
       "young fish's",
       "mangroves'",
       "waves'"
@@ -1038,12 +1038,12 @@
      "why_correct_id": "**Their tangled roots**, akar kusut punya siapa? Kalimat sebelumnya bahas **These forests**, hutan mangrove. Akar yang nahan ombak itu akar mangrove.",
      "why_correct_en": "**Their tangled roots**, whose roots? The previous sentence is about **These forests**, the mangroves.",
      "why_wrong_id": {
-      "0": "Komunitas nelayan disebut belakangan, dan nggak punya akar.",
+      "0": "Desa cuma disebut sebagai yang dilindungi dari ombak, dan desa nggak punya akar.",
       "1": "Ikan kecil berlindung di akar, bukan pemilik akar.",
       "3": "Ombak itu yang diperlambat akar, bukan pemiliknya."
      },
      "why_wrong_en": {
-      "0": "Fishing communities come later and have no roots.",
+      "0": "Villages are only what the mangroves protect, and villages have no roots.",
       "1": "Young fish shelter among the roots; they don't own them.",
       "3": "Waves are slowed by the roots, not their owner."
      },
