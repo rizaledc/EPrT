@@ -184,7 +184,7 @@ final class ContentImporter
 
     /** Field pembahasan yang tidak boleh memakai tanda kutip sebagai penanda kata. */
     /** true = tanda kutip penanda kata menggagalkan impor; false = hanya peringatan (masa transisi rombak gaya). */
-    private const STRICT_QUOTES = false;
+    private const STRICT_QUOTES = true;
 
     private const EXPLAIN_FIELDS = ['why_correct_id', 'why_correct_en', 'why_wrong_id', 'why_wrong_en', 'analogy_id', 'analogy_en', 'tip_id', 'tip_en', 'liaison_note'];
 
