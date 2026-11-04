@@ -56,6 +56,9 @@ body {
   background: var(--blush-50);
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
+  /* Plus Jakarta Sans memanjangkan tanda hubung di antara angka (1-2) lewat contextual
+     alternates, sehingga terlihat seperti garis panjang. Dimatikan agar tetap '-'. */
+  font-feature-settings: "calt" 0;
   overflow-x: hidden;
 }
 img, svg { display: block; max-width: 100%; }
