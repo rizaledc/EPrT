@@ -183,6 +183,9 @@ final class ContentImporter
     }
 
     /** Field pembahasan yang tidak boleh memakai tanda kutip sebagai penanda kata. */
+    /** true = tanda kutip penanda kata menggagalkan impor; false = hanya peringatan (masa transisi rombak gaya). */
+    private const STRICT_QUOTES = false;
+
     private const EXPLAIN_FIELDS = ['why_correct_id', 'why_correct_en', 'why_wrong_id', 'why_wrong_en', 'analogy_id', 'analogy_en', 'tip_id', 'tip_en', 'liaison_note'];
 
     /**
@@ -206,7 +209,12 @@ final class ContentImporter
                     $hits = self::quoteMarkers($v);
                     if ($hits) {
                         $where = is_array($q[$f]) ? "$f.$k" : $f;
-                        $this->errors[] = "$label no " . ($q['number'] ?? '?') . " ({$q['section']}): tanda kutip sebagai penanda kata di $where: " . implode(' ', array_slice($hits, 0, 3)) . ' (pakai **kata**)';
+                        $msg = "$label no " . ($q['number'] ?? '?') . " ({$q['section']}): tanda kutip sebagai penanda kata di $where: " . implode(' ', array_slice($hits, 0, 3)) . ' (pakai **kata**)';
+                        if (self::STRICT_QUOTES) {
+                            $this->errors[] = $msg;
+                        } else {
+                            $this->warnings[] = $msg;
+                        }
                     }
                 }
             }

@@ -34,22 +34,22 @@
      "difficulty": 1,
      "key_sentence": "So do I.",
      "key_translation_id": "Aku juga.",
-     "why_correct_id": "Langkah 1: wanita membuat pernyataan positif ('I really enjoy…'). Langkah 2: *So do I* berarti 'aku juga (menikmatinya)'. Kalimat berikutnya menguatkan: kuliah tamu lebih menarik daripada kelas biasa.",
-     "why_correct_en": "Step 1: the woman makes a positive statement ('I really enjoy…'). Step 2: *So do I* means 'me too'. The next sentence supports it: guest lectures are more interesting than regular classes.",
+     "why_correct_id": "Si wanita bikin pernyataan positif, **I really enjoy…**. Terus **So do I** artinya aku juga suka. Kalimat berikutnya nguatin: kuliah tamu lebih seru daripada kelas biasa.",
+     "why_correct_en": "She makes a positive statement, **I really enjoy…**. **So do I** means me too. Next he says guest lectures beat regular classes.",
      "why_wrong_id": {
-      "0": "Kebalikannya: ia bilang kuliah tamu LEBIH menarik daripada kelas biasa.",
-      "2": "Ia jelas pernah ikut, karena bisa membandingkannya dengan kelas biasa.",
-      "3": "Tidak ada petunjuk bahwa ia yang memberi kuliah. Kata 'lectures' dipakai sebagai jebakan."
+      "0": "Kebalikannya. Dia bilang kuliah tamu LEBIH seru daripada kelas biasa.",
+      "2": "Dia jelas pernah ikut, soalnya bisa ngebandingin sama kelas biasa.",
+      "3": "Nggak ada petunjuk dia yang ngasih kuliah. Kata **lectures** dipakai sebagai jebakan."
      },
      "why_wrong_en": {
-      "0": "The opposite: he says guest lectures are MORE interesting than regular classes.",
-      "2": "He has clearly attended, since he compares them with regular classes.",
-      "3": "Nothing says he gives lectures; 'lectures' is a same-word trap."
+      "0": "The opposite. He says guest lectures are MORE interesting than regular classes.",
+      "2": "He's clearly been, since he compares them with regular classes.",
+      "3": "Nothing says he gives lectures. **Lectures** is a same-word trap."
      },
-     "analogy_id": "'So do I' itu seperti teman yang langsung mengangkat tangan 'aku juga!' setelah kamu bilang suka sesuatu.",
-     "analogy_en": "'So do I' is a friend raising a hand, 'me too!', right after you say you like something.",
-     "tip_id": "So + auxiliary + I setelah kalimat positif = aku juga.",
-     "tip_en": "So + auxiliary + I after a positive statement = me too."
+     "analogy_id": "**So do I** itu kayak teman yang langsung angkat tangan, aku juga, habis kamu bilang suka sesuatu.",
+     "analogy_en": "**So do I** is a friend shooting a hand up, me too, right after you say you like something.",
+     "tip_id": "**So + auxiliary + I** habis kalimat positif artinya aku juga.",
+     "tip_en": "**So + auxiliary + I** after a positive statement means me too."
     }
    ]
   },
@@ -84,22 +84,22 @@
      "difficulty": 1,
      "key_sentence": "Neither do I.",
      "key_translation_id": "Aku juga tidak (paham).",
-     "why_correct_id": "Langkah 1: pria membuat pernyataan negatif ('I don't really understand…'). Langkah 2: *Neither do I* berarti 'aku juga tidak paham'. Sarannya bertanya ke kantor jurusan menguatkan bahwa ia juga bingung.",
-     "why_correct_en": "Step 1: the man makes a negative statement ('I don't really understand…'). Step 2: *Neither do I* means 'I don't either'. Her suggestion to ask the office confirms she's confused too.",
+     "why_correct_id": "Si pria bikin pernyataan negatif, **I don't really understand…**. **Neither do I** artinya aku juga nggak paham. Sarannya buat nanya ke kantor jurusan nguatin kalau dia juga bingung.",
+     "why_correct_en": "He makes a negative statement, **I don't really understand…**. **Neither do I** means I don't either. Her idea to ask the office shows she's lost too.",
      "why_wrong_id": {
-      "0": "Kebalikannya. 'Neither do I' berarti ia juga TIDAK paham.",
-      "1": "Kalau ia penulisnya, ia tidak perlu bertanya ke kantor jurusan.",
-      "2": "Ia tidak menilai kebijakan itu adil atau tidak; ia hanya belum paham."
+      "0": "Kebalikannya. **Neither do I** artinya dia juga NGGAK paham.",
+      "1": "Kalau dia yang nulis, ngapain nanya ke kantor jurusan.",
+      "2": "Dia nggak nilai kebijakannya adil atau nggak. Dia cuma belum paham."
      },
      "why_wrong_en": {
-      "0": "The opposite: 'Neither do I' means she DOESN'T understand either.",
+      "0": "The opposite. **Neither do I** means she DOESN'T get it either.",
       "1": "If she'd written it, she wouldn't need to ask the office.",
-      "2": "She doesn't judge fairness; she just doesn't understand it."
+      "2": "She doesn't judge fairness. She just doesn't get it."
      },
-     "analogy_id": "'Neither do I' itu seperti dua orang yang sama-sama mengangkat bahu: 'aku juga tidak tahu'.",
-     "analogy_en": "'Neither do I' is two people shrugging together: 'I don't know either'.",
-     "tip_id": "Neither + auxiliary + I setelah kalimat negatif = aku juga tidak. Itu persetujuan, bukan bantahan.",
-     "tip_en": "Neither + auxiliary + I after a negative = me neither. It's agreement, not disagreement."
+     "analogy_id": "**Neither do I** itu kayak dua orang yang barengan angkat bahu: aku juga nggak tahu.",
+     "analogy_en": "**Neither do I** is two people shrugging together: no idea either.",
+     "tip_id": "**Neither + auxiliary + I** habis kalimat negatif artinya aku juga nggak. Itu setuju, bukan ngebantah.",
+     "tip_en": "**Neither + auxiliary + I** after a negative means me neither. It's agreement, not disagreement."
     }
    ]
   },
@@ -134,22 +134,22 @@
      "difficulty": 1,
      "key_sentence": "I couldn't agree more.",
      "key_translation_id": "Aku sangat setuju.",
-     "why_correct_id": "Langkah 1: *I couldn't agree more* berarti 'tidak mungkin aku lebih setuju lagi', yaitu sangat setuju. Langkah 2: alasannya menguatkan: perpustakaan selalu penuh saat minggu ujian, jadi kampus memang butuh tempat belajar tambahan.",
-     "why_correct_en": "Step 1: *I couldn't agree more* means 'I couldn't possibly agree more', so he strongly agrees. Step 2: his reason supports it: the library is always full during exam week.",
+     "why_correct_id": "**I couldn't agree more** artinya nggak mungkin aku lebih setuju lagi. Alias setuju banget. Alasannya nguatin: perpustakaan selalu penuh pas minggu ujian, jadi kampus memang butuh tempat belajar tambahan.",
+     "why_correct_en": "**I couldn't agree more** means I couldn't possibly agree more. Strong agreement. His reason: the library is always full in exam week.",
      "why_wrong_id": {
-      "1": "Jebakan kata 'couldn't'. Ungkapan ini justru berarti sangat setuju.",
-      "2": "Kebalikannya: perpustakaan selalu PENUH.",
-      "3": "Belajar di rumah tidak disebut sama sekali."
+      "1": "Jebakan di kata **couldn't**. Ungkapan ini justru artinya setuju banget.",
+      "2": "Kebalikannya. Perpustakaannya selalu PENUH.",
+      "3": "Belajar di rumah sama sekali nggak disebut."
      },
      "why_wrong_en": {
-      "1": "A trap on 'couldn't'. The phrase means strong agreement.",
-      "2": "The opposite: the library is always FULL.",
-      "3": "Studying at home is never mentioned."
+      "1": "A trap on **couldn't**. The phrase means strong agreement.",
+      "2": "The opposite. The library is always FULL.",
+      "3": "Studying at home never comes up."
      },
-     "analogy_id": "'I couldn't agree more' itu seperti gelas yang sudah penuh sampai bibir: tidak bisa diisi lagi, karena persetujuannya sudah maksimal.",
-     "analogy_en": "'I couldn't agree more' is a glass filled to the brim: no room for more, the agreement is already maximum.",
-     "tip_id": "Ungkapan dengan 'couldn't + more/better' biasanya bermakna sangat positif.",
-     "tip_en": "'Couldn't + more/better' phrases are usually strongly positive."
+     "analogy_id": "**I couldn't agree more** itu kayak gelas yang udah penuh sampai bibir. Nggak bisa diisi lagi, setujunya udah mentok.",
+     "analogy_en": "**I couldn't agree more** is a glass full to the brim. No room for more, the agreement is maxed out.",
+     "tip_id": "Ungkapan **couldn't + more/better** biasanya maknanya positif banget.",
+     "tip_en": "**Couldn't + more/better** phrases are usually strongly positive."
     }
    ]
   },
@@ -184,22 +184,22 @@
      "difficulty": 2,
      "key_sentence": "I'm not so sure about that. It's been packed every day since it opened.",
      "key_translation_id": "Aku tidak yakin. Kafe itu selalu penuh setiap hari sejak dibuka.",
-     "why_correct_id": "Langkah 1: *I'm not so sure about that* adalah cara sopan untuk tidak setuju. Langkah 2: alasannya, kafe itu 'packed every day' (penuh setiap hari). Langkah 3: kafe yang selalu penuh berarti usahanya berjalan baik, jadi kecil kemungkinan cepat tutup.",
-     "why_correct_en": "Step 1: *I'm not so sure about that* politely disagrees. Step 2: her reason: it's been 'packed every day'. Step 3: a café that's always full is doing well, so it's unlikely to close soon.",
+     "why_correct_id": "**I'm not so sure about that** itu cara sopan buat nggak setuju. Alasannya, kafenya **packed every day**, penuh tiap hari. Kafe yang selalu penuh berarti usahanya lancar, jadi kecil kemungkinan cepat tutup.",
+     "why_correct_en": "**I'm not so sure about that** politely disagrees. Her reason: it's been **packed every day**. A café that's always full is doing well, so it's unlikely to close soon.",
      "why_wrong_id": {
-      "0": "Itu pendapat pria. Wanita justru meragukannya.",
-      "1": "Ia tahu kafe itu selalu ramai, jadi kemungkinan besar pernah melihat atau mengunjunginya.",
-      "3": "'A month' adalah perkiraan pria tentang kapan kafe tutup, bukan kapan kafe dibuka. Jebakan kata yang sama."
+      "0": "Itu pendapat si pria. Si wanita justru ngeraguinnya.",
+      "1": "Dia tahu kafenya selalu rame, jadi kemungkinan besar pernah lihat atau mampir.",
+      "3": "**A month** itu tebakan si pria soal kapan kafenya tutup, bukan kapan bukanya. Jebakan kata yang sama."
      },
      "why_wrong_en": {
-      "0": "That's the man's opinion; she doubts it.",
-      "1": "She knows it's always busy, so she has likely seen or visited it.",
-      "3": "'A month' is the man's guess about closing, not when it opened. Same-word trap."
+      "0": "That's the man's view. She doubts it.",
+      "1": "She knows it's always busy, so she's likely seen or visited it.",
+      "3": "**A month** is the man's guess about closing, not when it opened. Same-word trap."
      },
-     "analogy_id": "'I'm not so sure about that' itu seperti rem halus: tidak membanting setir, tapi jelas memperlambat ide lawan bicara.",
-     "analogy_en": "'I'm not so sure about that' is a gentle brake: no sudden swerve, but it clearly slows the other person's idea.",
-     "tip_id": "Ungkapan ragu (not so sure, I wouldn't say that) + alasan → maksudnya kebalikan dari pendapat orang pertama.",
-     "tip_en": "A doubt phrase (not so sure, I wouldn't say that) + a reason → the opposite of the first speaker's view."
+     "analogy_id": "**I'm not so sure about that** itu kayak rem halus. Nggak banting setir, tapi jelas memperlambat ide lawan ngobrolnya.",
+     "analogy_en": "**I'm not so sure about that** is a gentle brake. No swerving, but it clearly slows the other idea down.",
+     "tip_id": "Ungkapan ragu kayak **not so sure** atau **I wouldn't say that** plus alasan? Maksudnya kebalikan dari pendapat orang pertama.",
+     "tip_en": "A doubt phrase like **not so sure** or **I wouldn't say that** plus a reason means the opposite of the first speaker's view."
     }
    ]
   },
@@ -234,22 +234,22 @@
      "difficulty": 1,
      "key_sentence": "You can say that again!",
      "key_translation_id": "Betul sekali!",
-     "why_correct_id": "Langkah 1: *You can say that again!* adalah ungkapan setuju yang kuat, bukan permintaan untuk mengulang. Langkah 2: 'I had to stand the whole way' membuktikan busnya memang penuh.",
-     "why_correct_en": "Step 1: *You can say that again!* expresses strong agreement; it isn't a request to repeat. Step 2: 'I had to stand the whole way' proves the bus was crowded.",
+     "why_correct_id": "**You can say that again!** itu ungkapan setuju yang kuat, bukan minta diulang. **I had to stand the whole way** ngebuktiin busnya memang penuh.",
+     "why_correct_en": "**You can say that again!** is strong agreement, not a request to repeat. **I had to stand the whole way** proves the bus was crowded.",
      "why_wrong_id": {
-      "0": "Ini arti harfiah 'say that again' (ulangi). Ungkapan ini justru berarti setuju.",
-      "1": "Ia naik bus yang sama penuhnya, karena ia harus berdiri.",
-      "2": "Kebalikannya: ia harus berdiri sepanjang jalan."
+      "0": "Ini arti harfiah **say that again**, ulangi. Padahal ungkapan ini artinya setuju.",
+      "1": "Dia naik bus yang sama penuhnya, buktinya dia harus berdiri.",
+      "2": "Kebalikannya. Dia berdiri sepanjang jalan."
      },
      "why_wrong_en": {
-      "0": "That's the literal 'say that again'. The phrase means agreement.",
-      "1": "He was on the same crowded bus; he had to stand.",
-      "2": "The opposite: he stood the whole way."
+      "0": "That's the literal **say that again**. The phrase means agreement.",
+      "1": "He was on the same packed bus. He had to stand.",
+      "2": "The opposite. He stood the whole way."
      },
-     "analogy_id": "'You can say that again!' itu seperti tepuk tangan setuju: 'boleh diulang-ulang, karena itu benar sekali'.",
-     "analogy_en": "'You can say that again!' is applause of agreement: 'say it as often as you like, it's so true'.",
-     "tip_id": "Ungkapan setuju sering diikuti pengalaman pribadi yang mendukung (I had to stand…).",
-     "tip_en": "Agreement phrases are often followed by a supporting personal experience (I had to stand…)."
+     "analogy_id": "**You can say that again!** itu kayak tepuk tangan setuju. Boleh diulang terus, soalnya bener banget.",
+     "analogy_en": "**You can say that again!** is applause. Say it as often as you like, it's so true.",
+     "tip_id": "Ungkapan setuju sering diikutin pengalaman pribadi yang ndukung, kayak **I had to stand…**.",
+     "tip_en": "Agreement phrases often come with a backing story, like **I had to stand…**."
     }
    ]
   },
@@ -284,22 +284,22 @@
      "difficulty": 1,
      "key_sentence": "Me neither. Let's go together on Saturday.",
      "key_translation_id": "Aku juga belum pernah. Ayo pergi bersama hari Sabtu.",
-     "why_correct_id": "Langkah 1: *Me neither* = 'aku juga belum pernah'. Langkah 2: 'Let's go together on Saturday' adalah ajakan. Jadi mereka kemungkinan akan pergi ke museum seni bersama.",
-     "why_correct_en": "Step 1: *Me neither* = 'I haven't either'. Step 2: 'Let's go together on Saturday' is an invitation. So they'll probably visit the art museum together.",
+     "why_correct_id": "**Me neither** artinya aku juga belum pernah. **Let's go together on Saturday** itu ajakan. Jadi mereka kemungkinan bakal ke museum seni bareng.",
+     "why_correct_en": "**Me neither** means I haven't either. **Let's go together on Saturday** is an invitation. So they'll likely visit the art museum together.",
      "why_wrong_id": {
-      "0": "Menanyakan arah tidak disebut.",
-      "2": "Harinya Sabtu, bukan Minggu. 'Downtown' dipakai sebagai jebakan kata yang sama.",
-      "3": "Tidak ada informasi bahwa museum tutup; mereka justru berencana ke sana."
+      "0": "Nanya arah nggak disebut.",
+      "2": "Harinya Sabtu, bukan Minggu. **Downtown** cuma jebakan kata yang sama.",
+      "3": "Nggak ada info museumnya tutup. Mereka justru mau ke sana."
      },
      "why_wrong_en": {
       "0": "Asking for directions isn't mentioned.",
-      "2": "The day is Saturday, not Sunday; 'downtown' is a same-word trap.",
-      "3": "Nothing says the museum is closed; they plan to go."
+      "2": "It's Saturday, not Sunday. **Downtown** is a same-word trap.",
+      "3": "Nothing says the museum is closed. They plan to go."
      },
-     "analogy_id": "'Me neither' itu jabat tangan dua orang yang sama-sama belum pernah. Setelah itu biasanya muncul rencana bersama.",
-     "analogy_en": "'Me neither' is a handshake between two people who've both never been. A shared plan usually follows.",
-     "tip_id": "Soal 'What will they probably do?' → cari 'Let's / I'll' di kalimat terakhir, lalu cek hari dan tempatnya.",
-     "tip_en": "'What will they probably do?' → find 'Let's / I'll' in the last line, then check the day and place."
+     "analogy_id": "**Me neither** itu jabat tangan dua orang yang sama-sama belum pernah. Habis itu biasanya muncul rencana bareng.",
+     "analogy_en": "**Me neither** is a handshake between two people who've both never been. A shared plan usually follows.",
+     "tip_id": "Soal **What will they probably do?** Cari **Let's** atau **I'll** di kalimat terakhir, terus cek hari dan tempatnya.",
+     "tip_en": "**What will they probably do?** Find **Let's** or **I'll** in the last line, then check the day and place."
     }
    ]
   },
@@ -334,22 +334,22 @@
      "difficulty": 2,
      "key_sentence": "That's what I thought too, but most of the questions came from chapter four.",
      "key_translation_id": "Aku juga berpikir begitu, tapi kebanyakan soal ternyata dari bab empat.",
-     "why_correct_id": "Langkah 1: 'That's what I thought too' berarti ia punya dugaan yang sama dengan wanita (bab enam). Langkah 2: 'but' memperkenalkan kenyataan yang berbeda: soal kebanyakan dari bab empat. Jadi ujiannya berbeda dari yang ia harapkan.",
-     "why_correct_en": "Step 1: 'That's what I thought too' means he had the same expectation (chapter six). Step 2: 'but' introduces a different reality: most questions came from chapter four. So the exam wasn't what he expected.",
+     "why_correct_id": "**That's what I thought too** artinya dugaannya sama kayak si wanita, bab enam. Terus **but** ngenalin kenyataan yang beda: soalnya kebanyakan dari bab empat. Jadi ujiannya beda dari yang dia kira.",
+     "why_correct_en": "**That's what I thought too** means he expected chapter six as well. **But** brings in a different reality: most questions came from chapter four. The exam wasn't what he expected.",
      "why_wrong_id": {
-      "1": "Ujian justru lebih banyak dari bab empat, bukan bab enam.",
-      "2": "Tidak ada informasi apakah ia mempelajari bab empat atau tidak.",
-      "3": "Kalau ia ikut membuat soal, ia tidak akan salah menduga isinya."
+      "1": "Soal ujiannya justru lebih banyak dari bab empat, bukan bab enam.",
+      "2": "Nggak ada info dia belajar bab empat atau nggak.",
+      "3": "Kalau dia ikut bikin soal, mana mungkin salah nebak isinya."
      },
      "why_wrong_en": {
       "1": "Most questions came from chapter four, not six.",
       "2": "Nothing says whether he studied chapter four.",
       "3": "If he'd written the questions, he wouldn't have guessed wrong."
      },
-     "analogy_id": "'That's what I thought too, but…' itu seperti dua orang yang sama-sama salah membaca peta: dugaannya sama, kenyataannya berbeda.",
-     "analogy_en": "'That's what I thought too, but…' is two people misreading the same map: the same guess, a different reality.",
-     "tip_id": "Kata 'but' setelah ungkapan setuju sering membawa informasi kunci untuk soal 'imply'.",
-     "tip_en": "'But' after an agreement phrase often carries the key to an 'imply' question."
+     "analogy_id": "**That's what I thought too, but…** itu kayak dua orang yang sama-sama salah baca peta. Tebakannya sama, kenyataannya beda.",
+     "analogy_en": "**That's what I thought too, but…** is two people misreading the same map. Same guess, different reality.",
+     "tip_id": "Kata **but** habis ungkapan setuju sering bawa info kunci buat soal **imply**.",
+     "tip_en": "**But** after an agreement phrase often carries the key to an **imply** question."
     }
    ]
   },
@@ -384,22 +384,22 @@
      "difficulty": 1,
      "key_sentence": "So am I.",
      "key_translation_id": "Aku juga.",
-     "why_correct_id": "Langkah 1: pria berkata 'I'm taking the early train' (memakai auxiliary *am*). Langkah 2: *So am I* = 'aku juga (naik kereta pagi)'. Ajakan bertemu di stasiun menguatkannya.",
-     "why_correct_en": "Step 1: he says 'I'm taking the early train' (auxiliary *am*). Step 2: *So am I* = 'me too'. Her offer to meet at the station confirms it.",
+     "why_correct_id": "Si pria bilang **I'm taking the early train**, pakai auxiliary (kata kerja bantu) **am**. **So am I** artinya aku juga naik kereta pagi. Ajakan ketemu di stasiun nguatin itu.",
+     "why_correct_en": "He says **I'm taking the early train**, with the helper verb **am**. **So am I** means me too. Her offer to meet at the station confirms it.",
      "why_wrong_id": {
-      "0": "Ia akan naik kereta, bukan menyetir; buktinya ia mengajak bertemu di stasiun.",
-      "1": "Kejadian sebelumnya tidak dibicarakan.",
-      "3": "Tidak ada petunjuk ia panitia konferensi."
+      "0": "Dia naik kereta, bukan nyetir. Buktinya dia ngajak ketemu di stasiun.",
+      "1": "Kejadian sebelumnya nggak diomongin.",
+      "3": "Nggak ada petunjuk dia panitia konferensi."
      },
      "why_wrong_en": {
-      "0": "She's taking the train, not driving; she suggests meeting at the station.",
-      "1": "No earlier trip is mentioned.",
+      "0": "She's taking the train, not driving. She suggests meeting at the station.",
+      "1": "No earlier trip comes up.",
       "3": "Nothing suggests she's organizing the conference."
      },
-     "analogy_id": "Auxiliary dalam 'So am I' itu seperti gema: ia memantulkan kata kerja bantu orang pertama (I'm → am).",
-     "analogy_en": "The auxiliary in 'So am I' is an echo: it bounces back the first speaker's helping verb (I'm → am).",
-     "tip_id": "So/Neither + auxiliary + I selalu memakai auxiliary yang sama dengan kalimat pertama (am, do, can, have).",
-     "tip_en": "So/Neither + auxiliary + I reuses the first speaker's auxiliary (am, do, can, have)."
+     "analogy_id": "Auxiliary di **So am I** itu kayak gema. Dia mantulin kata kerja bantu orang pertama, **I'm** jadi **am**.",
+     "analogy_en": "The helper verb in **So am I** is an echo. It bounces back the first speaker's **am**.",
+     "tip_id": "**So/Neither + auxiliary + I** selalu pakai kata kerja bantu yang sama kayak kalimat pertama: **am**, **do**, **can**, **have**.",
+     "tip_en": "**So/Neither + auxiliary + I** reuses the first speaker's helper verb: **am**, **do**, **can**, **have**."
     }
    ]
   },
@@ -434,22 +434,22 @@
      "difficulty": 3,
      "key_sentence": "I wouldn't say that. They're long, but the instructions are very clear.",
      "key_translation_id": "Aku tidak akan bilang begitu. Tugasnya memang panjang, tapi petunjuknya sangat jelas.",
-     "why_correct_id": "Langkah 1: *I wouldn't say that* adalah cara sopan untuk TIDAK setuju. Yang ia tolak adalah kata wanita: 'impossible' (mustahil). Langkah 2: ia memang mengakui tugasnya panjang, tetapi itu hanya fakta tambahan, bukan persetujuan. Langkah 3: alasannya, petunjuknya sangat jelas, jadi tugas itu bisa dikerjakan. Kesimpulannya, ia tidak menganggap tugasnya mustahil.",
-     "why_correct_en": "Step 1: *I wouldn't say that* is a polite way to DISAGREE. He rejects the woman's word 'impossible'. Step 2: he admits the assignments are long, but that's just an added fact, not agreement. Step 3: his reason is that the instructions are very clear, so the work is doable. He does not think the assignments are impossible.",
+     "why_correct_id": "**I wouldn't say that** itu cara sopan buat NGGAK setuju. Yang dia tolak itu kata si wanita: **impossible**, mustahil. Dia memang ngaku tugasnya panjang, tapi itu cuma fakta tambahan, bukan setuju. Alasannya, petunjuknya jelas banget, jadi tugasnya bisa dikerjain.",
+     "why_correct_en": "**I wouldn't say that** is a polite way to DISAGREE. He rejects her word **impossible**. He admits the work is long, but that's just an extra fact. With very clear instructions, it's doable.",
      "why_wrong_id": {
-      "0": "'I wouldn't say that' justru menolak pendapat bahwa tugasnya mustahil.",
-      "1": "Ia tahu tugasnya panjang dan petunjuknya jelas, jadi kemungkinan besar sudah mengerjakannya.",
-      "2": "Kebalikannya: petunjuknya 'very clear'."
+      "0": "**I wouldn't say that** justru nolak pendapat kalau tugasnya mustahil.",
+      "1": "Dia tahu tugasnya panjang dan petunjuknya jelas, jadi kemungkinan besar udah ngerjain.",
+      "2": "Kebalikannya. Petunjuknya **very clear**."
      },
      "why_wrong_en": {
-      "0": "'I wouldn't say that' rejects the claim that they're impossible.",
-      "1": "He knows they're long with clear instructions, so he has likely done them.",
-      "2": "The opposite: the instructions are 'very clear'."
+      "0": "**I wouldn't say that** rejects the claim that they're impossible.",
+      "1": "He knows they're long with clear instructions, so he's likely done them.",
+      "2": "The opposite. The instructions are **very clear**."
      },
-     "analogy_id": "'I wouldn't say that' itu seperti teman yang menggeleng pelan: tidak membentak, tapi jelas tidak setuju. Mengakui 'memang panjang' tidak mengubah gelengannya.",
-     "analogy_en": "'I wouldn't say that' is a friend gently shaking their head: no shouting, but clearly disagreeing. Admitting 'they're long' doesn't change the head shake.",
-     "tip_id": "'I wouldn't say that / I'm not so sure' = tidak setuju dengan kata kunci orang pertama. Cari pilihan yang menyangkal kata itu.",
-     "tip_en": "'I wouldn't say that / I'm not so sure' = disagreeing with the first speaker's key word. Pick the option that denies that word."
+     "analogy_id": "**I wouldn't say that** itu kayak teman yang geleng pelan. Nggak ngebentak, tapi jelas nggak setuju. Ngaku memang panjang nggak ngubah gelengannya.",
+     "analogy_en": "**I wouldn't say that** is a gentle head shake. No shouting, but clearly no. Admitting they're long doesn't change the shake.",
+     "tip_id": "**I wouldn't say that** atau **I'm not so sure** artinya nggak setuju sama kata kunci orang pertama. Pilih opsi yang nyangkal kata itu.",
+     "tip_en": "**I wouldn't say that** or **I'm not so sure** disagrees with the first speaker's key word. Pick the option that denies it."
     }
    ]
   },
@@ -484,22 +484,22 @@
      "difficulty": 1,
      "key_sentence": "Neither can I. It feels like it just started.",
      "key_translation_id": "Aku juga tidak percaya. Rasanya baru saja dimulai.",
-     "why_correct_id": "Langkah 1: pria berkata 'I can't believe…' (negatif dengan *can*). Langkah 2: *Neither can I* = 'aku juga tidak percaya'. Langkah 3: 'It feels like it just started' menunjukkan ia merasa waktu berlalu sangat cepat.",
-     "why_correct_en": "Step 1: he says 'I can't believe…' (negative with *can*). Step 2: *Neither can I* = 'I can't either'. Step 3: 'It feels like it just started' shows she feels time flew.",
+     "why_correct_id": "Si pria bilang **I can't believe…**, negatif pakai **can**. **Neither can I** artinya aku juga nggak percaya. **It feels like it just started** nunjukin dia ngerasa waktu cepet banget lewat.",
+     "why_correct_en": "He says **I can't believe…**, a negative with **can**. **Neither can I** means I can't either. **It feels like it just started** shows time flew for her.",
      "why_wrong_id": {
-      "0": "Kebalikannya: ia merasa semester berlalu cepat, bukan terlalu lama.",
-      "2": "'Can't' di sini tentang tidak percaya, bukan tidak bisa hadir. Jebakan kata yang sama.",
-      "3": "'It feels like it just started' adalah perasaan, bukan fakta bahwa semester mulai terlambat."
+      "0": "Kebalikannya. Dia ngerasa semesternya cepet, bukan kelamaan.",
+      "2": "**Can't** di sini soal nggak percaya, bukan nggak bisa hadir. Jebakan kata yang sama.",
+      "3": "**It feels like it just started** itu perasaan, bukan fakta kalau semesternya telat mulai."
      },
      "why_wrong_en": {
-      "0": "The opposite: it felt quick, not too long.",
-      "2": "'Can't' here is about disbelief, not being unable to attend. Same-word trap.",
-      "3": "'It feels like it just started' is a feeling, not a fact about a late start."
+      "0": "The opposite. It felt quick, not too long.",
+      "2": "**Can't** here is about disbelief, not missing class. Same-word trap.",
+      "3": "**It feels like it just started** is a feeling, not a fact about a late start."
      },
-     "analogy_id": "'Neither can I' itu dua orang yang sama-sama melihat kalender dan berkata 'sudah mau habis?!'.",
-     "analogy_en": "'Neither can I' is two people staring at the calendar together: 'it's almost over?!'.",
-     "tip_id": "Cocokkan auxiliary: can't → Neither can I; don't → Neither do I; isn't → Neither is it.",
-     "tip_en": "Match the auxiliary: can't → Neither can I; don't → Neither do I; isn't → Neither is it."
+     "analogy_id": "**Neither can I** itu dua orang yang barengan lihat kalender terus kaget: udah mau habis aja?!",
+     "analogy_en": "**Neither can I** is two people staring at the calendar together: it's almost over?!",
+     "tip_id": "Cocokin auxiliary-nya: **can't** jadi **Neither can I**, **don't** jadi **Neither do I**, **isn't** jadi **Neither is it**.",
+     "tip_en": "Match the helper verb: **can't** gives **Neither can I**, **don't** gives **Neither do I**, **isn't** gives **Neither is it**."
     }
    ]
   },
@@ -519,22 +519,22 @@
     "S-AGREE"
    ],
    "difficulty": 1,
-   "why_correct_id": "Langkah 1: 'every day except Monday' adalah jadwal rutin, jadi pakai [[simple present|simple-present]]. Langkah 2: subject (pelaku) 'The museum' tunggal, sehingga verb (kata kerja) ditambah -s: **opens**.",
-   "why_correct_en": "Step 1: 'every day except Monday' is a regular schedule, so use the simple present. Step 2: 'The museum' is singular, so add -s: **opens**.",
+   "why_correct_id": "**every day except Monday** itu jadwal rutin, jadi pakai [[simple present|simple-present]]. Pelakunya **The museum**, tunggal, jadi kata kerjanya ditambah -s: **opens**.",
+   "why_correct_en": "**every day except Monday** is a regular schedule, so use the simple present. **The museum** is singular, so add -s: **opens**.",
    "why_wrong_id": {
-    "0": "'open' tanpa -s dipakai untuk subject jamak (I/you/we/they), bukan 'the museum'.",
-    "1": "'opening' tanpa auxiliary (kata kerja bantu) bukan verb utama.",
-    "2": "'to open' adalah infinitive (to + kata kerja dasar), bukan verb ber-tense."
+    "0": "**open** tanpa -s itu buat pelaku jamak kayak I, you, we, they. Bukan buat **the museum**.",
+    "1": "**opening** tanpa auxiliary (kata kerja bantu) bukan kata kerja utama.",
+    "2": "**to open** itu infinitive (to + kata kerja dasar), bukan kata kerja yang punya tense."
    },
    "why_wrong_en": {
-    "0": "'open' without -s is for plural subjects, not 'the museum'.",
-    "1": "'opening' with no auxiliary isn't a main verb.",
-    "2": "'to open' is an infinitive, not a tensed verb."
+    "0": "**open** without -s is for plural subjects, not **the museum**.",
+    "1": "**opening** with no helper verb isn't a main verb.",
+    "2": "**to open** is an infinitive, not a tensed verb."
    },
-   "analogy_id": "Jadwal rutin itu seperti jam dinding yang berdetak setiap hari: pakai simple present.",
-   "analogy_en": "A regular schedule is a wall clock ticking every day: use the simple present.",
-   "tip_id": "every day / usually / always + subject tunggal → V1 + s.",
-   "tip_en": "every day / usually / always + singular subject → V1 + s."
+   "analogy_id": "Jadwal rutin itu kayak jam dinding yang berdetak tiap hari. Pakai simple present.",
+   "analogy_en": "A regular schedule is a wall clock ticking every day. Use the simple present.",
+   "tip_id": "**every day**, **usually**, **always** plus pelaku tunggal? Pakai V1 + s.",
+   "tip_en": "**every day**, **usually**, **always** plus a singular subject? Use V1 + s."
   },
   {
    "section": "structure",
@@ -552,22 +552,22 @@
     "S-VFORM"
    ],
    "difficulty": 1,
-   "why_correct_id": "Langkah 1: penanda waktu 'Last year' menunjukkan kejadian yang sudah selesai di masa lalu. Langkah 2: pakai simple past ([[past form (V2)|past-form]]): **discovered**.",
-   "why_correct_en": "Step 1: 'Last year' marks a finished past event. Step 2: use the simple past (V2): **discovered**.",
+   "why_correct_id": "Penanda waktunya **Last year**, berarti kejadiannya udah kelar di masa lalu. Pakai simple past ([[past form (V2)|past-form]]): **discovered**.",
+   "why_correct_en": "**Last year** marks a finished past event. Use the simple past (V2): **discovered**.",
    "why_wrong_id": {
-    "0": "'discovers' adalah present, bertentangan dengan 'Last year'.",
-    "1": "'has discover' salah dua kali: setelah 'has' harus V3, dan 'last year' tidak dipakai dengan present perfect.",
-    "3": "'will discover' masa depan, bertentangan dengan 'Last year'."
+    "0": "**discovers** itu present. Bentrok sama **Last year**.",
+    "1": "**has discover** salah dobel. Habis **has** harus V3, dan **last year** nggak dipakai bareng present perfect.",
+    "3": "**will discover** itu masa depan. Bentrok sama **Last year**."
    },
    "why_wrong_en": {
-    "0": "'discovers' is present, clashing with 'Last year'.",
-    "1": "'has discover' is doubly wrong: 'has' needs V3, and 'last year' doesn't go with the present perfect.",
-    "3": "'will discover' is future, clashing with 'Last year'."
+    "0": "**discovers** is present. It clashes with **Last year**.",
+    "1": "**has discover** is doubly wrong. **has** needs V3, and **last year** doesn't go with the present perfect.",
+    "3": "**will discover** is future. It clashes with **Last year**."
    },
-   "analogy_id": "'Last year' itu cap tanggal di foto lama: kejadiannya sudah lewat dan selesai, jadi V2.",
-   "analogy_en": "'Last year' is the date stamp on an old photo: the event is over, so V2.",
-   "tip_id": "yesterday / last … / ago / in + tahun lampau → V2.",
-   "tip_en": "yesterday / last … / ago / in + a past year → V2."
+   "analogy_id": "**Last year** itu cap tanggal di foto lama. Kejadiannya udah lewat dan kelar, jadi V2.",
+   "analogy_en": "**Last year** is the date stamp on an old photo. It's over, so V2.",
+   "tip_id": "**yesterday**, **last …**, **ago**, atau **in** + tahun lampau? Pakai V2.",
+   "tip_en": "**yesterday**, **last …**, **ago**, or **in** + a past year? Use V2."
   },
   {
    "section": "structure",
@@ -584,22 +584,22 @@
     "S-TENSE"
    ],
    "difficulty": 1,
-   "why_correct_id": "Langkah 1: 'Next semester' adalah penanda masa depan. Langkah 2: pakai will + [[base form (V1)|base-form]]: **will offer**.",
-   "why_correct_en": "Step 1: 'Next semester' marks the future. Step 2: use will + base verb: **will offer**.",
+   "why_correct_id": "**Next semester** itu penanda masa depan. Pakai will + [[base form (V1)|base-form]]: **will offer**.",
+   "why_correct_en": "**Next semester** marks the future. Use will + base verb: **will offer**.",
    "why_wrong_id": {
-    "1": "'offered' adalah bentuk lampau, bertentangan dengan 'Next semester'.",
-    "2": "'offering' tanpa auxiliary (kata kerja bantu) bukan verb utama.",
-    "3": "'has offer' salah bentuk (seharusnya has offered) dan tidak cocok dengan masa depan."
+    "1": "**offered** itu bentuk lampau. Bentrok sama **Next semester**.",
+    "2": "**offering** tanpa auxiliary (kata kerja bantu) bukan kata kerja utama.",
+    "3": "**has offer** bentuknya salah, harusnya **has offered**. Lagian nggak cocok buat masa depan."
    },
    "why_wrong_en": {
-    "1": "'offered' is past, clashing with 'Next semester'.",
-    "2": "'offering' with no auxiliary isn't a main verb.",
-    "3": "'has offer' is the wrong form (should be has offered) and doesn't fit the future."
+    "1": "**offered** is past. It clashes with **Next semester**.",
+    "2": "**offering** with no helper verb isn't a main verb.",
+    "3": "**has offer** is the wrong form, it should be **has offered**. It doesn't fit the future anyway."
    },
-   "analogy_id": "'Next semester' itu tiket untuk perjalanan yang belum berangkat: pakai will.",
-   "analogy_en": "'Next semester' is a ticket for a trip that hasn't left yet: use will.",
-   "tip_id": "tomorrow / next … / soon / in the future → will + V1.",
-   "tip_en": "tomorrow / next … / soon / in the future → will + V1."
+   "analogy_id": "**Next semester** itu tiket buat perjalanan yang belum berangkat. Pakai **will**.",
+   "analogy_en": "**Next semester** is a ticket for a trip that hasn't left yet. Use **will**.",
+   "tip_id": "**tomorrow**, **next …**, **soon**, **in the future**? Pakai will + V1.",
+   "tip_en": "**tomorrow**, **next …**, **soon**, **in the future**? Use will + V1."
   },
   {
    "section": "structure",
@@ -617,22 +617,22 @@
     "S-VFORM"
    ],
    "difficulty": 2,
-   "why_correct_id": "Langkah 1: jangan terkecoh 'yesterday'. Kata itu milik clause 'as the students saw…'. Langkah 2: clause induk menyatakan **fakta ilmiah** yang selalu benar, sehingga memakai [[simple present|simple-present]]. Langkah 3: subject 'Water' tunggal → **boils**.",
-   "why_correct_en": "Step 1: don't be fooled by 'yesterday'. It belongs to 'as the students saw…'. Step 2: the main clause states a **scientific fact**, which takes the simple present. Step 3: singular 'Water' → **boils**.",
+   "why_correct_id": "Jangan kekecoh **yesterday**, cuy. Kata itu punya clause **as the students saw…**. Clause induknya nyatain fakta ilmiah yang selalu benar, jadi pakai [[simple present|simple-present]]. Pelakunya **Water**, tunggal, jadi **boils**.",
+   "why_correct_en": "Don't fall for **yesterday**. It belongs to **as the students saw…**. The main clause states a scientific fact, which takes the simple present. Singular **Water** gives **boils**.",
    "why_wrong_id": {
-    "0": "'boiling' tanpa auxiliary (kata kerja bantu) bukan verb utama. Kalimat jadi tanpa mesin.",
-    "1": "'is boil' salah bentuk: setelah 'is' tidak boleh V1.",
-    "2": "'will boiled' salah dua kali: setelah 'will' harus V1, dan fakta umum tidak memakai will."
+    "0": "**boiling** tanpa auxiliary (kata kerja bantu) bukan kata kerja utama. Kalimatnya jadi nggak punya mesin.",
+    "1": "**is boil** bentuknya salah. Habis **is** nggak boleh V1.",
+    "2": "**will boiled** salah dobel. Habis **will** harus V1, dan fakta umum nggak pakai **will**."
    },
    "why_wrong_en": {
-    "0": "'boiling' with no auxiliary isn't a main verb, so the sentence has no engine.",
-    "1": "'is boil' is malformed: 'is' can't be followed by V1.",
-    "2": "'will boiled' is doubly wrong: 'will' needs V1, and general facts don't use will."
+    "0": "**boiling** with no helper verb isn't a main verb, so the sentence has no engine.",
+    "1": "**is boil** is malformed. **is** can't be followed by V1.",
+    "2": "**will boiled** is doubly wrong. **will** needs V1, and general facts don't use **will**."
    },
-   "analogy_id": "Fakta ilmiah itu seperti matahari terbit dari timur: kemarin, hari ini, dan besok tetap sama, jadi simple present.",
-   "analogy_en": "A scientific fact is like the sun rising in the east: yesterday, today, tomorrow, always the same, so simple present.",
-   "tip_id": "Penanda waktu hanya berlaku untuk clause-nya sendiri. Fakta umum → simple present.",
-   "tip_en": "A time marker only governs its own clause. General facts → simple present."
+   "analogy_id": "Fakta ilmiah itu kayak matahari terbit dari timur. Kemarin, hari ini, besok, tetap sama. Jadi simple present.",
+   "analogy_en": "A scientific fact is the sun rising in the east. Yesterday, today, tomorrow, always the same. So simple present.",
+   "tip_id": "Penanda waktu cuma berlaku buat clause-nya sendiri. Fakta umum pakai simple present.",
+   "tip_en": "A time marker only rules its own clause. General facts take the simple present."
   },
   {
    "section": "structure",
@@ -650,22 +650,22 @@
     "S-VFORM"
    ],
    "difficulty": 1,
-   "why_correct_id": "Langkah 1: 'Yesterday' menuntut simple past. Langkah 2: verb (kata kerja) kedua 'saw' sudah V2, tetapi verb pertama 'go' masih V1. Jadi 'go' harus menjadi **went**.",
-   "why_correct_en": "Step 1: 'Yesterday' calls for the simple past. Step 2: the second verb 'saw' is already V2, but the first, 'go', is still V1. So 'go' should be **went**.",
+   "why_correct_id": "**Yesterday** butuh simple past. Kata kerja kedua, **saw**, udah V2. Tapi kata kerja pertama, **go**, masih V1. Jadi **go** harus jadi **went**.",
+   "why_correct_en": "**Yesterday** calls for the simple past. The second verb, **saw**, is already V2, but the first, **go**, is still V1. So **go** should be **went**.",
    "why_wrong_id": {
-    "1": "'science fair' adalah frasa benda yang benar (pameran sains).",
-    "2": "'saw' adalah V2 dari 'see', cocok dengan 'Yesterday'.",
-    "3": "'creative' adalah adjective (kata sifat) yang menerangkan 'projects'. Benar."
+    "1": "**science fair** itu frasa benda yang aman, pameran sains.",
+    "2": "**saw** itu V2 dari **see**. Cocok sama **Yesterday**.",
+    "3": "**creative** itu adjective (kata sifat) yang nerangin **projects**. Aman."
    },
    "why_wrong_en": {
-    "1": "'science fair' is a correct noun phrase.",
-    "2": "'saw' is the V2 of 'see', matching 'Yesterday'.",
-    "3": "'creative' is an adjective describing 'projects'. Correct."
+    "1": "**science fair** is a fine noun phrase.",
+    "2": "**saw** is the V2 of **see**, matching **Yesterday**.",
+    "3": "**creative** is an adjective describing **projects**. Fine."
    },
-   "analogy_id": "Dua mesin dalam satu perjalanan kemarin harus sama-sama berjalan di jam yang sama: went … saw.",
-   "analogy_en": "Two engines on yesterday's trip must run on the same clock: went … saw.",
-   "tip_id": "Dua verb dihubungkan 'and' dalam waktu yang sama → bentuknya harus sama (V2 … V2).",
-   "tip_en": "Two verbs joined by 'and' in the same time frame → same form (V2 … V2)."
+   "analogy_id": "Dua mesin di perjalanan kemarin harus jalan di jam yang sama: **went** dan **saw**.",
+   "analogy_en": "Two engines on yesterday's trip run on the same clock: **went** and **saw**.",
+   "tip_id": "Dua kata kerja disambung **and** di waktu yang sama? Bentuknya harus sama, V2 dan V2.",
+   "tip_en": "Two verbs joined by **and** in the same time frame? Same form, V2 and V2."
   },
   {
    "section": "structure",
@@ -683,22 +683,22 @@
     "S-AGREE"
    ],
    "difficulty": 1,
-   "why_correct_id": "Langkah 1: 'usually' menunjukkan kebiasaan, jadi pakai [[simple present|simple-present]]. Langkah 2: subject (pelaku) 'The library' tunggal, sehingga verb (kata kerja) harus ber-s: 'close' → **closes**. Clause kedua ('it stays') sudah benar.",
-   "why_correct_en": "Step 1: 'usually' shows a habit, so use the simple present. Step 2: 'The library' is singular, so the verb needs -s: 'close' → **closes**. The second clause ('it stays') is already right.",
+   "why_correct_id": "**usually** nunjukin kebiasaan, jadi pakai [[simple present|simple-present]]. Pelakunya **The library**, tunggal, jadi kata kerjanya harus pakai -s: **close** jadi **closes**. Clause kedua, **it stays**, udah aman.",
+   "why_correct_en": "**usually** shows a habit, so use the simple present. **The library** is singular, so the verb needs -s: **close** becomes **closes**. The second clause, **it stays**, is already fine.",
    "why_wrong_id": {
-    "0": "'usually' adalah adverb (kata keterangan) frekuensi yang tepat sebelum verb.",
-    "2": "'it stays' sudah tunggal dan ber-s. Benar.",
-    "3": "'later' adalah adverb pembanding yang tepat (buka lebih lama)."
+    "0": "**usually** itu adverb (kata keterangan) frekuensi yang posisinya pas sebelum kata kerja.",
+    "2": "**it stays** udah tunggal dan pakai -s. Aman.",
+    "3": "**later** itu adverb pembanding yang pas, buka lebih lama."
    },
    "why_wrong_en": {
-    "0": "'usually' is a frequency adverb correctly placed before the verb.",
-    "2": "'it stays' is singular with -s. Correct.",
-    "3": "'later' is a correct comparative adverb."
+    "0": "**usually** is a frequency adverb sitting nicely before the verb.",
+    "2": "**it stays** is singular with -s. Fine.",
+    "3": "**later** is a correct comparative adverb."
    },
-   "analogy_id": "Clause kedua ('it stays') itu contekan resmi: kalau 'it' memakai -s, 'the library' juga harus memakai -s.",
-   "analogy_en": "The second clause ('it stays') is a legal cheat sheet: if 'it' takes -s, 'the library' must too.",
-   "tip_id": "Bandingkan dua clause dengan subject yang sama. Bentuk verb-nya harus konsisten.",
-   "tip_en": "Compare two clauses with the same subject. Their verb forms must be consistent."
+   "analogy_id": "Clause kedua, **it stays**, itu contekan resmi. Kalau **it** pakai -s, **the library** juga harus pakai -s.",
+   "analogy_en": "The second clause, **it stays**, is a legal cheat sheet. If **it** takes -s, **the library** must too.",
+   "tip_id": "Bandingin dua clause yang pelakunya sama. Bentuk kata kerjanya harus konsisten.",
+   "tip_en": "Compare two clauses with the same subject. Their verb forms should match."
   },
   {
    "section": "structure",
@@ -716,22 +716,22 @@
     "S-TENSE"
    ],
    "difficulty": 2,
-   "why_correct_id": "Langkah 1: 'will' berlaku untuk kedua verb (kata kerja) yang dihubungkan 'and': will explain … and (will) answer. Langkah 2: setelah 'will' selalu V1. Jadi 'answered' harus menjadi **answer**.",
-   "why_correct_en": "Step 1: 'will' covers both verbs joined by 'and': will explain … and (will) answer. Step 2: 'will' is always followed by V1, so 'answered' should be **answer**.",
+   "why_correct_id": "**will** berlaku buat dua kata kerja yang disambung **and**: will explain … and (will) answer. Habis **will** selalu V1. Jadi **answered** harus jadi **answer**.",
+   "why_correct_en": "**will** covers both verbs joined by **and**: will explain … and (will) answer. **will** is always followed by V1, so **answered** should be **answer**.",
    "why_wrong_id": {
-    "0": "'will explain' adalah bentuk masa depan yang benar.",
-    "1": "'final' adalah adjective (kata sifat) untuk 'project'. Benar.",
-    "3": "'questions' jamak wajar sebagai object."
+    "0": "**will explain** itu bentuk masa depan yang aman.",
+    "1": "**final** itu adjective (kata sifat) buat **project**. Aman.",
+    "3": "**questions** jamak itu wajar sebagai objek."
    },
    "why_wrong_en": {
-    "0": "'will explain' is a correct future form.",
-    "1": "'final' is an adjective for 'project'. Correct.",
-    "3": "Plural 'questions' is a fine object."
+    "0": "**will explain** is a fine future form.",
+    "1": "**final** is an adjective for **project**. Fine.",
+    "3": "Plural **questions** is a fine object."
    },
-   "analogy_id": "'Will' itu lokomotif yang menarik dua gerbong (explain, answer). Kedua gerbong harus berukuran sama: V1.",
-   "analogy_en": "'Will' is a locomotive pulling two carriages (explain, answer). Both must be the same size: V1.",
-   "tip_id": "will/can/should + V1 … and + V1. Jangan biarkan verb kedua berubah bentuk.",
-   "tip_en": "will/can/should + V1 … and + V1. Don't let the second verb change form."
+   "analogy_id": "**Will** itu lokomotif yang narik dua gerbong, **explain** dan **answer**. Dua gerbongnya harus seukuran: V1.",
+   "analogy_en": "**Will** is a locomotive pulling two carriages, **explain** and **answer**. Both must be the same size: V1.",
+   "tip_id": "**will/can/should + V1 … and + V1**. Jangan biarin kata kerja kedua ganti bentuk.",
+   "tip_en": "**will/can/should + V1 … and + V1**. Don't let the second verb change form."
   },
   {
    "section": "structure",
@@ -749,22 +749,22 @@
     "S-TENSE"
    ],
    "difficulty": 1,
-   "why_correct_id": "Langkah 1: kalimat ini menceritakan masa lalu ('won', 'of her time'). Langkah 2: verb (kata kerja) kedua harus V2 juga. V2 dari 'become' adalah **became**, bukan 'become' (yang merupakan V1 dan V3).",
-   "why_correct_en": "Step 1: the sentence tells a past story ('won', 'of her time'). Step 2: the second verb must be V2 too. The V2 of 'become' is **became**; 'become' is V1 and V3.",
+   "why_correct_id": "Kalimat ini cerita masa lalu, ada **won** dan **of her time**. Kata kerja keduanya harus V2 juga. V2 dari **become** itu **became**. **become** sendiri itu V1 sekaligus V3.",
+   "why_correct_en": "The sentence tells a past story, with **won** and **of her time**. The second verb must be V2 too. The V2 of **become** is **became**. **become** itself is V1 and V3.",
    "why_wrong_id": {
-    "0": "'won' adalah V2 dari 'win'. Benar.",
-    "2": "'the most famous' adalah superlative (bentuk paling) yang benar.",
-    "3": "'one of the most … scientists' memang memakai noun (kata benda) jamak."
+    "0": "**won** itu V2 dari **win**. Aman.",
+    "2": "**the most famous** itu superlative (bentuk paling) yang aman.",
+    "3": "**one of the most … scientists** memang pakai kata benda jamak."
    },
    "why_wrong_en": {
-    "0": "'won' is the V2 of 'win'. Correct.",
-    "2": "'the most famous' is a correct superlative.",
-    "3": "'one of the most … scientists' correctly uses a plural noun."
+    "0": "**won** is the V2 of **win**. Fine.",
+    "2": "**the most famous** is a fine superlative.",
+    "3": "**one of the most … scientists** correctly takes a plural noun."
    },
-   "analogy_id": "'Become' itu seperti kembar identik: bentuk V1 dan V3-nya sama persis, sehingga mudah tertukar dengan V2 'became'.",
-   "analogy_en": "'Become' is like identical twins: its V1 and V3 look the same, so it's easy to confuse with the V2 'became'.",
-   "tip_id": "Hafalkan verb tak beraturan yang V1 = V3: become, come, run. Bentuk V2-nya berbeda: became, came, ran.",
-   "tip_en": "Learn irregulars where V1 = V3: become, come, run. Their V2 differs: became, came, ran."
+   "analogy_id": "**Become** itu kayak kembar identik. Bentuk V1 dan V3-nya sama persis, jadi gampang ketuker sama V2 **became**.",
+   "analogy_en": "**Become** is like identical twins. Its V1 and V3 look the same, so it's easy to mix up with the V2 **became**.",
+   "tip_id": "Hafalin kata kerja tak beraturan yang V1 = V3: **become**, **come**, **run**. V2-nya beda: **became**, **came**, **ran**.",
+   "tip_en": "Learn irregulars where V1 = V3: **become**, **come**, **run**. Their V2 differs: **became**, **came**, **ran**."
   },
   {
    "section": "structure",
@@ -782,22 +782,22 @@
     "S-TENSE"
    ],
    "difficulty": 2,
-   "why_correct_id": "Langkah 1: 'that leave at seven' adalah [[relative clause|relative-clause]] yang menerangkan 'the bus'. Langkah 2: 'that' merujuk ke 'the bus' (tunggal), jadi verb (kata kerja) harus tunggal: 'leave' → **leaves**.",
-   "why_correct_en": "Step 1: 'that leave at seven' is a relative clause describing 'the bus'. Step 2: 'that' refers to 'the bus' (singular), so the verb must be singular: 'leave' → **leaves**.",
+   "why_correct_id": "**that leave at seven** itu [[relative clause|relative-clause]] (anak kalimat penjelas) yang nerangin **the bus**. **that** nunjuk ke **the bus**, tunggal. Jadi kata kerjanya harus tunggal: **leave** jadi **leaves**.",
+   "why_correct_en": "**that leave at seven** is a relative clause describing **the bus**. **that** points to **the bus**, singular. So **leave** should be **leaves**.",
    "why_wrong_id": {
-    "0": "'my roommate drinks' tunggal + -s. Benar.",
-    "1": "'reads' sejajar dengan 'drinks'. Benar.",
-    "2": "'catches' sejajar dengan dua verb sebelumnya. Benar."
+    "0": "**my roommate drinks**, tunggal plus -s. Aman.",
+    "1": "**reads** sejajar sama **drinks**. Aman.",
+    "2": "**catches** sejajar sama dua kata kerja sebelumnya. Aman."
    },
    "why_wrong_en": {
-    "0": "'my roommate drinks' is singular + -s. Correct.",
-    "1": "'reads' is parallel with 'drinks'. Correct.",
-    "2": "'catches' is parallel with the earlier verbs. Correct."
+    "0": "**my roommate drinks** is singular with -s. Fine.",
+    "1": "**reads** is parallel with **drinks**. Fine.",
+    "2": "**catches** is parallel with the earlier verbs. Fine."
    },
-   "analogy_id": "'That' itu seperti stiker yang ditempel pada 'the bus'. Verb setelah stiker itu harus cocok dengan bus, bukan dengan roommate.",
-   "analogy_en": "'That' is a sticker stuck on 'the bus'. The verb after it must match the bus, not the roommate.",
-   "tip_id": "Verb setelah that/which/who → cocokkan dengan noun yang tepat sebelum that/which/who.",
-   "tip_en": "The verb after that/which/who → match it to the noun right before that/which/who."
+   "analogy_id": "**That** itu kayak stiker yang ditempel di **the bus**. Kata kerja habis stiker itu harus cocok sama busnya, bukan sama roommate.",
+   "analogy_en": "**That** is a sticker on **the bus**. The verb after it matches the bus, not the roommate.",
+   "tip_id": "Kata kerja habis **that**, **which**, atau **who**? Cocokin sama kata benda pas sebelumnya.",
+   "tip_en": "Verb after **that**, **which**, or **who**? Match it to the noun right before."
   },
   {
    "section": "structure",
@@ -814,22 +814,22 @@
     "S-TENSE"
    ],
    "difficulty": 1,
-   "why_correct_id": "Langkah 1: 'In 1969' menunjukkan masa lalu yang selesai. Langkah 2: clause kedua juga menceritakan kejadian yang sama, jadi verb (kata kerja) harus V2: 'watch' → **watched**.",
-   "why_correct_en": "Step 1: 'In 1969' marks a finished past time. Step 2: the second clause describes the same event, so its verb must be V2: 'watch' → **watched**.",
+   "why_correct_id": "**In 1969** nunjukin masa lalu yang udah kelar. Clause kedua juga nyeritain kejadian yang sama, jadi kata kerjanya harus V2: **watch** jadi **watched**.",
+   "why_correct_en": "**In 1969** marks a finished past time. The second clause tells the same event, so its verb must be V2: **watch** becomes **watched**.",
    "why_wrong_id": {
-    "0": "'first' adalah adverb (kata keterangan) yang berarti 'untuk pertama kalinya'. Benar.",
-    "1": "'walked' adalah V2, cocok dengan 1969.",
-    "3": "'on television' adalah frasa yang benar."
+    "0": "**first** itu adverb (kata keterangan) yang artinya untuk pertama kalinya. Aman.",
+    "1": "**walked** itu V2, cocok sama 1969.",
+    "3": "**on television** itu frasa yang aman."
    },
    "why_wrong_en": {
-    "0": "'first' is an adverb meaning 'for the first time'. Correct.",
-    "1": "'walked' is V2, matching 1969.",
-    "3": "'on television' is a correct phrase."
+    "0": "**first** is an adverb meaning for the first time. Fine.",
+    "1": "**walked** is V2, matching 1969.",
+    "3": "**on television** is a fine phrase."
    },
-   "analogy_id": "Tahun 1969 itu cap waktu yang berlaku untuk seluruh cerita, termasuk penonton di depan televisi.",
-   "analogy_en": "1969 is a time stamp covering the whole story, including the viewers at their TVs.",
-   "tip_id": "Tahun lampau di awal kalimat berlaku sampai akhir kalimat kecuali ada penanda waktu baru.",
-   "tip_en": "A past year at the start covers the whole sentence unless a new time marker appears."
+   "analogy_id": "Tahun 1969 itu cap waktu buat seluruh cerita, termasuk penonton di depan TV.",
+   "analogy_en": "1969 is a time stamp for the whole story, viewers at their TVs included.",
+   "tip_id": "Tahun lampau di awal kalimat berlaku sampai akhir, kecuali ada penanda waktu baru.",
+   "tip_en": "A past year at the start covers the whole sentence unless a new time marker shows up."
   },
   {
    "section": "reading",
@@ -852,22 +852,22 @@
      ],
      "difficulty": 1,
      "evidence_quote": "a red sky in the morning often signaled stormy weather later in the day.",
-     "why_correct_id": "Langkah 1: ganti 'signaled' dengan pilihan: 'a red sky in the morning often **indicated** stormy weather later in the day'. Langkah 2: langit merah pagi menjadi tanda akan ada badai. Jadi 'signaled' = **indicated** (menandakan).",
-     "why_correct_en": "Step 1: replace 'signaled': 'a red sky in the morning often **indicated** stormy weather later in the day'. Step 2: the red sky was a sign of a coming storm, so 'signaled' = **indicated**.",
+     "why_correct_id": "Ganti **signaled** pakai opsinya: **a red sky in the morning often indicated stormy weather later in the day**. Langit merah pagi jadi tanda bakal ada badai. Jadi **signaled** artinya **indicated**, menandakan.",
+     "why_correct_en": "Swap in the option: **a red sky in the morning often indicated stormy weather later in the day**. The red sky was a sign of a coming storm. So **signaled** means **indicated**.",
      "why_wrong_id": {
-      "0": "Langit merah tidak bisa mencegah badai; para pelaut hanya membaca tanda.",
-      "2": "'followed' (mengikuti) membalik urutan: langit merah datang LEBIH DULU (pagi), badai kemudian.",
-      "3": "'described' (menggambarkan) tidak cocok, karena langit tidak menjelaskan cuaca dengan kata-kata."
+      "0": "Langit merah nggak bisa nyegah badai. Pelaut cuma baca tandanya.",
+      "2": "**followed** (ngikutin) ngebalik urutannya. Langit merah datang DULUAN, pagi, badainya belakangan.",
+      "3": "**described** (ngegambarin) nggak cocok. Langit kan nggak ngejelasin cuaca pakai kata-kata."
      },
      "why_wrong_en": {
-      "0": "A red sky can't prevent a storm; sailors only read the sign.",
-      "2": "'followed' reverses the order: the red sky comes FIRST (morning), the storm later.",
-      "3": "'described' doesn't fit; the sky doesn't explain the weather in words."
+      "0": "A red sky can't stop a storm. Sailors just read the sign.",
+      "2": "**followed** flips the order. The red sky comes FIRST, in the morning, the storm later.",
+      "3": "**described** doesn't fit. The sky doesn't explain the weather in words."
      },
-     "analogy_id": "Langit merah itu seperti lampu kuning di jalan: tanda bahwa sesuatu akan terjadi.",
-     "analogy_en": "A red sky is like a yellow traffic light: a sign that something is coming.",
-     "tip_id": "Perhatikan urutan waktu (morning → later in the day). Pilihan yang membalik urutan itu salah.",
-     "tip_en": "Watch the time order (morning → later in the day). Options that reverse it are wrong."
+     "analogy_id": "Langit merah itu kayak lampu kuning di jalan. Tanda kalau sesuatu bakal kejadian.",
+     "analogy_en": "A red sky is a yellow traffic light. A sign that something is coming.",
+     "tip_id": "Perhatiin urutan waktunya, **morning** lalu **later in the day**. Opsi yang ngebalik urutan itu salah.",
+     "tip_en": "Watch the time order, **morning** then **later in the day**. Options that flip it are wrong."
     },
     {
      "type": "reading",
@@ -885,22 +885,22 @@
      ],
      "difficulty": 2,
      "evidence_quote": "scientists could see storms moving across a region and anticipate where they would arrive next.",
-     "why_correct_id": "Langkah 1: 'where they would arrive next' (ke mana badai akan tiba berikutnya) adalah sesuatu di masa depan. Langkah 2: mengetahui hal yang belum terjadi berarti memperkirakan. Jadi 'anticipate' = **predict**.",
-     "why_correct_en": "Step 1: 'where they would arrive next' is about the future. Step 2: knowing something before it happens means foreseeing it. So 'anticipate' = **predict**.",
+     "why_correct_id": "**where they would arrive next**, ke mana badai bakal tiba berikutnya, itu soal masa depan. Tahu hal yang belum kejadian berarti memperkirakan. Jadi **anticipate** artinya **predict**.",
+     "why_correct_en": "**where they would arrive next** is about the future. Knowing something before it happens means foreseeing it. So **anticipate** means **predict**.",
      "why_wrong_id": {
-      "1": "Ilmuwan tidak bisa mencegah badai datang; mereka hanya bisa memperkirakan.",
-      "2": "Yang diukur adalah angin dan suhu; tempat tiba badai diperkirakan, bukan diukur.",
-      "3": "'ignore' (mengabaikan) bertentangan dengan tujuan membandingkan laporan."
+      "1": "Ilmuwan nggak bisa nyegah badai datang. Mereka cuma bisa ngira-ngira.",
+      "2": "Yang diukur itu angin dan suhu. Tempat badai tiba itu diperkirain, bukan diukur.",
+      "3": "**ignore** (ngabaikan) bentrok sama tujuan ngebandingin laporan."
      },
      "why_wrong_en": {
-      "1": "Scientists couldn't stop storms; they could only foresee them.",
-      "2": "Wind and temperature were measured; a storm's arrival point was predicted.",
-      "3": "'ignore' contradicts the purpose of comparing reports."
+      "1": "Scientists couldn't stop storms. They could only foresee them.",
+      "2": "Wind and temperature were measured. Where a storm lands was predicted.",
+      "3": "**ignore** clashes with the point of comparing reports."
      },
-     "analogy_id": "Seperti penjaga gawang yang melihat arah lari penyerang lalu memperkirakan ke mana bola akan ditendang.",
-     "analogy_en": "Like a goalkeeper watching the striker's run and predicting where the ball will go.",
-     "tip_id": "Kata 'next' / 'would' setelah kata yang ditanya → artinya berhubungan dengan masa depan.",
-     "tip_en": "'next' / 'would' after the word → its meaning is about the future."
+     "analogy_id": "Kayak kiper yang lihat arah lari penyerang terus nebak bolanya bakal ditendang ke mana.",
+     "analogy_en": "Like a goalkeeper reading the striker's run and guessing where the ball will go.",
+     "tip_id": "Ada **next** atau **would** habis kata yang ditanya? Artinya biasanya nyambung ke masa depan.",
+     "tip_en": "**next** or **would** after the word? Its meaning is probably about the future."
     },
     {
      "type": "reading",
@@ -918,22 +918,22 @@
      ],
      "difficulty": 2,
      "evidence_quote": "His work was not always accurate, and critics often ridiculed his mistakes. Nevertheless, his storm warnings saved many lives at sea.",
-     "why_correct_id": "Langkah 1: kritikus bereaksi terhadap kesalahan FitzRoy. Langkah 2: kata 'Nevertheless' (meskipun demikian) di kalimat berikutnya menunjukkan reaksi kritikus itu negatif, lalu dikontraskan dengan hal positif. Jadi 'ridiculed' = **made fun of** (mengejek).",
-     "why_correct_en": "Step 1: critics reacted to FitzRoy's mistakes. Step 2: 'Nevertheless' in the next sentence shows their reaction was negative, contrasted with something positive. So 'ridiculed' = **made fun of**.",
+     "why_correct_id": "Kritikus bereaksi ke kesalahan FitzRoy. Terus **Nevertheless**, meskipun begitu, di kalimat berikutnya nunjukin reaksinya negatif, lalu dikontrasin sama hal positif. Jadi **ridiculed** artinya **made fun of**, ngejek.",
+     "why_correct_en": "Critics reacted to FitzRoy's mistakes. **Nevertheless** in the next sentence shows that reaction was negative, set against something positive. So **ridiculed** means **made fun of**.",
      "why_wrong_id": {
-      "0": "Kritikus tidak mengulangi kesalahannya; mereka menanggapinya.",
-      "1": "Kalau kritikus membantu memperbaiki, 'Nevertheless' tidak diperlukan.",
-      "2": "'praised' (memuji) bertentangan dengan 'Nevertheless' yang memperkenalkan sisi positif."
+      "0": "Kritikus nggak ngulang kesalahannya. Mereka nanggepin.",
+      "1": "Kalau kritikus bantu benerin, **Nevertheless** nggak perlu ada.",
+      "2": "**praised** (muji) bentrok sama **Nevertheless** yang ngenalin sisi positif."
      },
      "why_wrong_en": {
-      "0": "The critics didn't repeat his mistakes; they reacted to them.",
-      "1": "If they helped correct him, 'Nevertheless' wouldn't be needed.",
-      "2": "'praised' contradicts 'Nevertheless', which introduces the positive side."
+      "0": "The critics didn't repeat his mistakes. They reacted to them.",
+      "1": "If they'd helped correct him, **Nevertheless** wouldn't be needed.",
+      "2": "**praised** clashes with **Nevertheless**, which brings in the positive side."
      },
-     "analogy_id": "'Nevertheless' itu jungkat-jungkit: sisi sebelum kata itu negatif, sisi sesudahnya positif.",
-     "analogy_en": "'Nevertheless' is a see-saw: the side before it is negative, the side after it positive.",
-     "tip_id": "Kata kontras (nevertheless, however, but) membantu menebak apakah kata yang ditanya positif atau negatif.",
-     "tip_en": "Contrast words (nevertheless, however, but) tell you whether the tested word is positive or negative."
+     "analogy_id": "**Nevertheless** itu jungkat-jungkit. Sisi sebelum kata itu negatif, sisi sesudahnya positif.",
+     "analogy_en": "**Nevertheless** is a see-saw. Negative before it, positive after.",
+     "tip_id": "Kata kontras kayak **nevertheless**, **however**, **but** bantu nebak kata yang ditanya positif atau negatif.",
+     "tip_en": "Contrast words like **nevertheless**, **however**, **but** tell you if the word is positive or negative."
     },
     {
      "type": "reading",
@@ -951,22 +951,22 @@
      ],
      "difficulty": 1,
      "evidence_quote": "He called them \"forecasts,\" a word he chose because he felt it was more modest than \"prophecies.\"",
-     "why_correct_id": "Langkah 1: kata kunci 'forecasts' ada di paragraf 3. Langkah 2: kalimatnya menyebut alasan dengan 'because': ia merasa kata itu lebih rendah hati (modest) daripada 'prophecies' (ramalan).",
-     "why_correct_en": "Step 1: 'forecasts' is in paragraph 3. Step 2: the sentence gives the reason with 'because': he felt it was more modest than 'prophecies'.",
+     "why_correct_id": "Kata kunci **forecasts** ada di paragraf 3. Kalimatnya nyebut alasannya pakai **because**: dia ngerasa kata itu lebih rendah hati, **modest**, daripada **prophecies**, ramalan.",
+     "why_correct_en": "**forecasts** is in paragraph 3. The sentence gives the reason with **because**: he felt it was more **modest** than **prophecies**.",
      "why_wrong_id": {
-      "0": "Pelaut disebut di paragraf 1 dengan pepatah langit merah, bukan kata 'forecast'.",
-      "1": "Panjang kata tidak disebut sebagai alasan.",
-      "3": "Surat kabar hanya menerbitkan prakiraannya; tidak disebut meminta kata itu."
+      "0": "Pelaut disebut di paragraf 1 bareng pepatah langit merah, bukan bareng kata **forecast**.",
+      "1": "Panjang kata nggak disebut sebagai alasan.",
+      "3": "Koran cuma nerbitin prakiraannya. Nggak disebut mereka minta kata itu."
      },
      "why_wrong_en": {
-      "0": "Sailors appear in paragraph 1 with the red-sky saying, not the word 'forecast'.",
+      "0": "Sailors show up in paragraph 1 with the red-sky saying, not with the word **forecast**.",
       "1": "Word length isn't given as a reason.",
-      "3": "Newspapers only published the forecasts; they didn't request the word."
+      "3": "Newspapers only printed the forecasts. They didn't ask for the word."
      },
-     "analogy_id": "Kata 'because' itu papan petunjuk bertuliskan 'ALASAN →'. Ikuti panahnya untuk soal 'why'.",
-     "analogy_en": "'Because' is a signpost reading 'REASON →'. Follow the arrow for 'why' questions.",
-     "tip_id": "Soal 'why' → cari because / since / so that / in order to di dekat kata kunci.",
-     "tip_en": "'Why' questions → look for because / since / so that / in order to near the keyword."
+     "analogy_id": "Kata **because** itu papan petunjuk bertuliskan ALASAN, lengkap sama panahnya. Ikutin panahnya buat soal **why**.",
+     "analogy_en": "**Because** is a signpost reading REASON, with an arrow. Follow it for **why** questions.",
+     "tip_id": "Soal **why**? Cari **because**, **since**, **so that**, atau **in order to** di dekat kata kunci.",
+     "tip_en": "**Why** questions? Look for **because**, **since**, **so that**, or **in order to** near the keyword."
     },
     {
      "type": "reading",
@@ -984,22 +984,22 @@
      ],
      "difficulty": 1,
      "evidence_quote": "A modern five-day forecast is now roughly as accurate as a one-day forecast was in the early 1980s.",
-     "why_correct_id": "Langkah 1: paragraf ini membahas perbaikan prakiraan cuaca. Langkah 2: prakiraan yang 'membaik' berarti makin sering tepat. Jadi 'accurate' = **correct** (tepat, benar).",
-     "why_correct_en": "Step 1: the paragraph is about forecasts improving. Step 2: better forecasts are more often right. So 'accurate' = **correct**.",
+     "why_correct_id": "Paragraf ini bahas prakiraan cuaca yang makin bagus. Prakiraan yang membaik berarti makin sering tepat. Jadi **accurate** artinya **correct**.",
+     "why_correct_en": "The paragraph is about forecasts improving. Better forecasts are right more often. So **accurate** means **correct**.",
      "why_wrong_id": {
-      "0": "Popularitas tidak dibahas; yang dibahas kualitas prakiraan.",
-      "1": "Prakiraan yang rinci belum tentu tepat. Kalimat ini membandingkan ketepatan.",
-      "2": "'lengthy' (panjang) tidak cocok, karena yang dibandingkan bukan durasi teksnya."
+      "0": "Popularitas nggak dibahas. Yang dibahas kualitas prakiraannya.",
+      "1": "Prakiraan yang rinci belum tentu tepat. Kalimat ini ngebandingin ketepatan.",
+      "2": "**lengthy** (panjang) nggak cocok. Yang dibandingin bukan panjang teksnya."
      },
      "why_wrong_en": {
-      "0": "Popularity isn't discussed; quality is.",
-      "1": "A detailed forecast isn't necessarily right; the sentence compares correctness.",
-      "2": "'lengthy' doesn't fit; the text length isn't being compared."
+      "0": "Popularity isn't discussed. Quality is.",
+      "1": "Detailed isn't the same as right. The sentence compares correctness.",
+      "2": "**lengthy** doesn't fit. Text length isn't being compared."
      },
-     "analogy_id": "Akurat itu seperti panah yang mengenai pusat sasaran: bukan panah yang paling panjang atau paling ramai ditonton.",
-     "analogy_en": "Accurate is an arrow hitting the bullseye, not the longest arrow or the most watched one.",
-     "tip_id": "Kalimat perbandingan 'as … as' membandingkan kualitas yang sama di dua waktu. Cari kualitas itu di konteks.",
-     "tip_en": "An 'as … as' comparison sets the same quality at two times. Find that quality in context."
+     "analogy_id": "Akurat itu kayak panah yang kena pas di tengah sasaran. Bukan panah paling panjang atau paling rame ditonton.",
+     "analogy_en": "Accurate is an arrow in the bullseye. Not the longest arrow, not the most watched one.",
+     "tip_id": "Perbandingan **as … as** ngebandingin kualitas yang sama di dua waktu. Cari kualitas itu di konteks.",
+     "tip_en": "An **as … as** comparison sets one quality at two times. Find that quality in context."
     }
    ]
   },
@@ -1024,22 +1024,22 @@
      ],
      "difficulty": 1,
      "evidence_quote": "researchers say it is far more common than many people assume.",
-     "why_correct_id": "Langkah 1: kalimatnya membandingkan kenyataan (sangat umum) dengan anggapan banyak orang. Langkah 2: 'than many people **suppose**' (daripada yang diduga banyak orang) cocok. Jadi 'assume' = **suppose**.",
-     "why_correct_en": "Step 1: the sentence compares reality (very common) with what many people believe. Step 2: 'than many people **suppose**' fits. So 'assume' = **suppose**.",
+     "why_correct_id": "Kalimatnya ngebandingin kenyataan, yang ternyata umum banget, sama anggapan banyak orang. **than many people suppose**, daripada yang diduga banyak orang, pas. Jadi **assume** artinya **suppose**.",
+     "why_correct_en": "The sentence compares reality, very common, with what people believe. **than many people suppose** fits. So **assume** means **suppose**.",
      "why_wrong_id": {
-      "1": "'reject' (menolak) tidak cocok: orang tidak 'menolak' tingkat kebiasaan menunda.",
-      "2": "Yang mengukur adalah peneliti lewat survei, bukan 'banyak orang'.",
-      "3": "'remember' (mengingat) tidak masuk akal: orang tidak mengingat seberapa umum sesuatu yang tidak mereka ketahui."
+      "1": "**reject** (nolak) nggak cocok. Orang nggak nolak seberapa umum kebiasaan menunda.",
+      "2": "Yang ngukur itu peneliti lewat survei, bukan banyak orang.",
+      "3": "**remember** (ngingat) nggak masuk akal. Orang nggak bisa ngingat seberapa umum sesuatu yang mereka sendiri nggak tahu."
      },
      "why_wrong_en": {
-      "1": "'reject' doesn't fit; people don't 'reject' how common it is.",
-      "2": "Researchers measure with surveys, not 'many people'.",
-      "3": "'remember' makes no sense here."
+      "1": "**reject** doesn't fit. People don't reject how common it is.",
+      "2": "Researchers measure with surveys, not many people.",
+      "3": "**remember** makes no sense here."
      },
-     "analogy_id": "'More common than people assume' itu seperti es di bawah permukaan: jauh lebih besar dari yang dikira orang.",
-     "analogy_en": "'More common than people assume' is like an iceberg: much bigger than people think.",
-     "tip_id": "Pola 'more … than people ___' biasanya diisi kata kerja berpikir: think, believe, assume, suppose.",
-     "tip_en": "'more … than people ___' is usually filled by a thinking verb: think, believe, assume, suppose."
+     "analogy_id": "**More common than people assume** itu kayak gunung es. Jauh lebih gede dari yang dikira orang.",
+     "analogy_en": "**More common than people assume** is an iceberg. Much bigger than people think.",
+     "tip_id": "Pola **more … than people ___** biasanya diisi kata kerja mikir: **think**, **believe**, **assume**, **suppose**.",
+     "tip_en": "**more … than people ___** usually takes a thinking verb: **think**, **believe**, **assume**, **suppose**."
     },
     {
      "type": "reading",
@@ -1057,22 +1057,22 @@
      ],
      "difficulty": 2,
      "evidence_quote": "Putting the task off provides immediate relief from these feelings, even though the relief is only temporary.",
-     "why_correct_id": "Langkah 1: 'these feelings' merujuk ke perasaan tidak enak (cemas, ragu diri). Langkah 2: menunda tugas memberi sesuatu DARI perasaan itu, yaitu rasa lega. Jadi 'relief' = **comfort** (kelegaan).",
-     "why_correct_en": "Step 1: 'these feelings' are unpleasant ones (anxiety, self-doubt). Step 2: putting the task off gives something FROM those feelings, a release. So 'relief' = **comfort**.",
+     "why_correct_id": "**these feelings** nunjuk ke perasaan nggak enak, kayak cemas dan ragu sama diri sendiri. Nunda tugas ngasih sesuatu DARI perasaan itu, yaitu rasa lega. Jadi **relief** artinya **comfort**.",
+     "why_correct_en": "**these feelings** are unpleasant ones, like anxiety and self-doubt. Delaying gives a release FROM them. So **relief** means **comfort**.",
      "why_wrong_id": {
-      "0": "Menunda tidak memberi hukuman langsung; justru terasa enak sesaat.",
-      "2": "'excitement' (kegembiraan) terlalu kuat; yang dirasakan hanya lepas dari rasa tidak enak.",
-      "3": "'information' tidak masuk akal dalam konteks perasaan."
+      "0": "Nunda nggak langsung ngasih hukuman. Malah kerasa enak sebentar.",
+      "2": "**excitement** (kegirangan) kelebayan. Yang dirasain cuma lepas dari rasa nggak enak.",
+      "3": "**information** nggak masuk akal di kalimat soal perasaan."
      },
      "why_wrong_en": {
-      "0": "Delaying doesn't punish you right away; it feels good briefly.",
-      "2": "'excitement' is too strong; it's just escaping a bad feeling.",
-      "3": "'information' doesn't fit a sentence about feelings."
+      "0": "Delaying doesn't punish you right away. It feels good for a moment.",
+      "2": "**excitement** is too strong. It's just escaping a bad feeling.",
+      "3": "**information** doesn't fit a sentence about feelings."
      },
-     "analogy_id": "Kelegaan saat menunda itu seperti meletakkan tas berat sebentar: bahu terasa ringan, tapi tasnya tetap harus dibawa nanti.",
-     "analogy_en": "The relief of delaying is like setting down a heavy bag: your shoulders feel lighter, but you still have to carry it later.",
-     "tip_id": "Pola 'X from these feelings' → X adalah sesuatu yang membebaskan dari perasaan itu.",
-     "tip_en": "'X from these feelings' → X is something that frees you from those feelings."
+     "analogy_id": "Lega pas nunda itu kayak naruh tas berat sebentar. Bahu kerasa ringan, tapi tasnya tetap harus dibawa nanti.",
+     "analogy_en": "The relief of delaying is like setting down a heavy bag. Lighter shoulders, but you still carry it later.",
+     "tip_id": "Pola **X from these feelings**? X itu sesuatu yang ngebebasin dari perasaan itu.",
+     "tip_en": "**X from these feelings**? X is something that frees you from them."
     },
     {
      "type": "reading",
@@ -1090,22 +1090,22 @@
      ],
      "difficulty": 2,
      "evidence_quote": "Unfortunately, the cycle tends to reinforce itself.",
-     "why_correct_id": "Langkah 1: kalimat-kalimat berikutnya menjelaskan bahwa setiap penundaan membuat penundaan berikutnya 'more likely' (lebih mungkin). Langkah 2: siklus yang makin kuat setiap kali terjadi berarti menguatkan dirinya. Jadi 'reinforce' = **strengthen**.",
-     "why_correct_en": "Step 1: the next sentences say each delay makes the next one 'more likely'. Step 2: a cycle that grows stronger each time strengthens itself. So 'reinforce' = **strengthen**.",
+     "why_correct_id": "Kalimat-kalimat berikutnya ngejelasin tiap penundaan bikin penundaan berikutnya **more likely**, makin mungkin. Siklus yang makin kuat tiap kali kejadian berarti nguatin dirinya sendiri. Jadi **reinforce** artinya **strengthen**.",
+     "why_correct_en": "The next sentences say each delay makes the next **more likely**. A cycle that grows stronger each round strengthens itself. So **reinforce** means **strengthen**.",
      "why_wrong_id": {
-      "0": "Kebalikannya: siklusnya justru makin kuat ('more likely').",
-      "1": "Siklus tidak 'menjelaskan' dirinya sendiri.",
-      "3": "'repeat' (mengulang) mendekati, tetapi tidak mencakup makna 'makin kuat' yang ditekankan teks."
+      "0": "Kebalikannya. Siklusnya malah makin kuat, **more likely**.",
+      "1": "Siklus nggak ngejelasin dirinya sendiri.",
+      "3": "**repeat** (ngulang) mirip, tapi nggak nangkep makna makin kuat yang ditekenin teks."
      },
      "why_wrong_en": {
-      "0": "The opposite: the cycle grows stronger ('more likely').",
-      "1": "A cycle doesn't 'explain' itself.",
-      "3": "'repeat' is close but misses the 'getting stronger' meaning the text stresses."
+      "0": "The opposite. The cycle gets stronger, **more likely**.",
+      "1": "A cycle doesn't explain itself.",
+      "3": "**repeat** is close, but it misses the getting stronger idea the text stresses."
      },
-     "analogy_id": "Seperti jalan setapak di rumput: makin sering dilewati, makin jelas jalannya, dan makin mudah dilewati lagi.",
-     "analogy_en": "Like a path across grass: the more it's walked, the clearer it gets, and the easier to walk again.",
-     "tip_id": "Jika dua pilihan mirip (strengthen vs repeat), pilih yang paling sesuai dengan penjelasan di kalimat sesudahnya.",
-     "tip_en": "If two options are close (strengthen vs repeat), pick the one matching the explanation in the next sentence."
+     "analogy_id": "Kayak jalan setapak di rumput. Makin sering dilewatin, makin jelas jalannya, dan makin gampang dilewatin lagi.",
+     "analogy_en": "Like a path across grass. The more it's walked, the clearer it gets, and the easier to walk again.",
+     "tip_id": "Ada dua opsi mirip kayak **strengthen** dan **repeat**? Pilih yang paling cocok sama penjelasan di kalimat sesudahnya.",
+     "tip_en": "Two close options, like **strengthen** and **repeat**? Pick the one matching the next sentence's explanation."
     },
     {
      "type": "reading",
@@ -1123,22 +1123,22 @@
      ],
      "difficulty": 2,
      "evidence_quote": "Small steps feel less daunting, so starting becomes easier.",
-     "why_correct_id": "Langkah 1: 'so starting becomes easier' (sehingga memulai jadi lebih mudah) adalah akibat. Langkah 2: langkah kecil terasa kurang 'daunting', jadi lebih mudah dimulai. Yang membuat sulit memulai adalah rasa takut/gentar. Jadi 'daunting' = **intimidating** (menakutkan, membuat gentar).",
-     "why_correct_en": "Step 1: 'so starting becomes easier' is the result. Step 2: small steps feel less 'daunting', so they're easier to begin. What makes starting hard is feeling overwhelmed. So 'daunting' = **intimidating**.",
+     "why_correct_id": "**so starting becomes easier** itu akibatnya. Langkah kecil kerasa kurang **daunting**, jadi lebih gampang dimulai. Yang bikin susah mulai itu rasa takut atau gentar. Jadi **daunting** artinya **intimidating**.",
+     "why_correct_en": "**so starting becomes easier** is the result. Small steps feel less **daunting**, so they're easier to begin. What blocks a start is feeling overwhelmed. So **daunting** means **intimidating**.",
      "why_wrong_id": {
-      "0": "'boring' disebut di paragraf 2, tetapi di sini konteksnya tentang tugas besar yang terasa berat untuk dimulai.",
-      "1": "Biaya tidak dibahas.",
-      "2": "'less useful' tidak akan membuat memulai jadi lebih mudah."
+      "0": "**boring** memang disebut di paragraf 2. Tapi di sini konteksnya tugas gede yang kerasa berat buat dimulai.",
+      "1": "Biaya nggak dibahas.",
+      "2": "Kurang **useful** nggak bakal bikin mulai jadi lebih gampang."
      },
      "why_wrong_en": {
-      "0": "'boring' appears in paragraph 2, but here the context is a big task that feels hard to start.",
+      "0": "**boring** appears in paragraph 2, but here it's about a big task that feels hard to start.",
       "1": "Cost isn't discussed.",
-      "2": "'less useful' wouldn't make starting easier."
+      "2": "Less **useful** wouldn't make starting easier."
      },
-     "analogy_id": "Tugas besar itu seperti gunung dilihat dari kaki bukit: menakutkan. Langkah kecil itu anak tangga pertama: tidak menakutkan.",
-     "analogy_en": "A big task is a mountain seen from the bottom: intimidating. A small step is the first stair: not scary at all.",
-     "tip_id": "Kata 'so' menunjukkan akibat. Gunakan akibatnya untuk menebak arti kata sebelumnya.",
-     "tip_en": "'So' shows a result. Use the result to work out the word before it."
+     "analogy_id": "Tugas gede itu kayak gunung dilihat dari kaki bukit: bikin gentar. Langkah kecil itu anak tangga pertama: santai aja.",
+     "analogy_en": "A big task is a mountain seen from the bottom: intimidating. A small step is the first stair: no big deal.",
+     "tip_id": "Kata **so** nunjukin akibat. Pakai akibatnya buat nebak arti kata sebelumnya.",
+     "tip_en": "**So** shows a result. Use the result to work out the word before it."
     },
     {
      "type": "reading",
@@ -1156,22 +1156,22 @@
      ],
      "difficulty": 3,
      "evidence_quote": "One simple method is to divide a large assignment into small, concrete steps, such as \"write the first paragraph\" rather than \"finish the essay.\"",
-     "why_correct_id": "Langkah 1: paragraf 4 memuat strategi yang diuji peneliti: memecah tugas menjadi langkah kecil ('write the first paragraph') dan menjauhkan gangguan ('leaving the phone in another room'). Langkah 2: pilihan C menggabungkan kedua strategi itu. Penulis tidak menulisnya persis untuk 'esai', tetapi saran ini tersirat jelas.",
-     "why_correct_en": "Step 1: paragraph 4 lists tested strategies: small steps ('write the first paragraph') and removing distractions ('leaving the phone in another room'). Step 2: option C combines both. It isn't stated word for word, but it's clearly implied.",
+     "why_correct_id": "Paragraf 4 ngasih strategi yang udah diuji peneliti. Pecah tugas jadi langkah kecil, kayak **write the first paragraph**, dan jauhin gangguan, kayak **leaving the phone in another room**. Opsi C ngegabungin dua strategi itu. Nggak ditulis persis buat esai, tapi sarannya jelas tersirat.",
+     "why_correct_en": "Paragraph 4 lists tested strategies: small steps, like **write the first paragraph**, and removing distractions, like **leaving the phone in another room**. Option C combines both. Not stated word for word, but clearly implied.",
      "why_wrong_id": {
-      "0": "Teks justru menyebut bersikap baik pada diri sendiri lebih efektif daripada mengkritik keras.",
-      "1": "Menunggu sampai siap adalah bentuk penundaan; teks menyarankan langkah kecil agar bisa segera mulai.",
-      "3": "Mengecek pesan disebut di paragraf 1 sebagai contoh kebiasaan menunda, bukan solusi."
+      "0": "Teks malah bilang baik ke diri sendiri lebih ampuh daripada ngritik keras.",
+      "1": "Nunggu sampai siap itu juga bentuk nunda. Teks nyaranin langkah kecil biar bisa langsung mulai.",
+      "3": "Ngecek pesan disebut di paragraf 1 sebagai contoh kebiasaan nunda, bukan solusi."
      },
      "why_wrong_en": {
       "0": "The text says self-kindness works better than harsh self-criticism.",
-      "1": "Waiting until ready is procrastination; the text suggests small steps to start now.",
-      "3": "Checking messages is an example of procrastinating (paragraph 1), not a solution."
+      "1": "Waiting until ready is procrastinating too. The text suggests small steps to start now.",
+      "3": "Checking messages is an example of procrastinating in paragraph 1, not a fix."
      },
-     "analogy_id": "Inferensi saran itu seperti memakai resep di situasi baru: bahannya ada di teks, kamu tinggal mencocokkannya dengan masalah.",
-     "analogy_en": "Inferring advice is like using a recipe in a new kitchen: the ingredients are in the text; you match them to the problem.",
-     "tip_id": "Soal 'would the author recommend' → cari paragraf solusi, lalu pilih opsi yang memakai strategi dari sana.",
-     "tip_en": "'Would the author recommend' → find the solutions paragraph and pick the option using its strategies."
+     "analogy_id": "Nyimpulin saran itu kayak pakai resep di dapur baru. Bahannya ada di teks, kamu tinggal nyocokin sama masalahnya.",
+     "analogy_en": "Inferring advice is using a recipe in a new kitchen. The ingredients are in the text, you match them to the problem.",
+     "tip_id": "Soal **would the author recommend**? Cari paragraf solusinya, terus pilih opsi yang pakai strategi dari situ.",
+     "tip_en": "**Would the author recommend**? Find the solutions paragraph and pick the option that uses its strategies."
     }
    ]
   }
