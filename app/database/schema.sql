@@ -22,11 +22,29 @@ CREATE TABLE IF NOT EXISTS users (
   UNIQUE KEY uq_users_username (username_lower)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
+-- Sesi login per perangkat (pembatasan akun dibagi-bagi, lihat app/services/UserSession.php)
+CREATE TABLE IF NOT EXISTS user_sessions (
+  id            INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+  user_id       INT UNSIGNED NOT NULL,
+  session_hash  CHAR(64) NOT NULL,
+  device_label  VARCHAR(80) NOT NULL DEFAULT '',
+  ua_hash       CHAR(64) NOT NULL DEFAULT '',
+  ip_hash       CHAR(64) NOT NULL DEFAULT '',
+  remember      TINYINT(1) NOT NULL DEFAULT 0,
+  created_at    DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  last_seen_at  DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  revoked_at    DATETIME NULL,
+  revoke_reason VARCHAR(20) NULL,
+  KEY idx_us_user (user_id, revoked_at),
+  CONSTRAINT fk_us_user FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
 CREATE TABLE IF NOT EXISTS remember_tokens (
   id          INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
   user_id     INT UNSIGNED NOT NULL,
   token_hash  CHAR(64) NOT NULL,
   expires_at  DATETIME NOT NULL,
+  user_session_id INT UNSIGNED NULL,
   UNIQUE KEY uq_token (token_hash),
   CONSTRAINT fk_rt_user FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;

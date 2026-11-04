@@ -184,18 +184,19 @@ final class Auth
         session_regenerate_id(true);
         $_SESSION['user_id'] = (int) $user['id'];
         $_SESSION['last_seen'] = time();
-        unset($_SESSION['csrf']);
+        unset($_SESSION['csrf'], $_SESSION['session_revoked']);
         q('UPDATE users SET last_active_at = NOW() WHERE id = ?', [$user['id']]);
+        $sessionId = UserSession::start($user, $remember);
         if ($remember) {
-            self::issueRememberToken((int) $user['id']);
+            self::issueRememberToken((int) $user['id'], $sessionId);
         }
         reload_user();
     }
 
-    public static function issueRememberToken(int $userId): void
+    public static function issueRememberToken(int $userId, ?int $sessionId = null): void
     {
         $token = bin2hex(random_bytes(32));
-        q('INSERT INTO remember_tokens (user_id, token_hash, expires_at) VALUES (?, ?, NOW() + INTERVAL 30 DAY)', [$userId, hash('sha256', $token)]);
+        q('INSERT INTO remember_tokens (user_id, token_hash, expires_at, user_session_id) VALUES (?, ?, NOW() + INTERVAL 30 DAY, ?)', [$userId, hash('sha256', $token), $sessionId]);
         setcookie('pi_remember', $userId . ':' . $token, [
             'expires'  => time() + 86400 * 30,
             'path'     => '/',
@@ -212,7 +213,8 @@ final class Auth
             return null;
         }
         try {
-            $row = q_one('SELECT rt.id, rt.user_id, u.role FROM remember_tokens rt JOIN users u ON u.id = rt.user_id
+            $row = q_one('SELECT rt.id, rt.user_id, rt.user_session_id, u.role, us.revoked_at AS session_revoked FROM remember_tokens rt JOIN users u ON u.id = rt.user_id
+                          LEFT JOIN user_sessions us ON us.id = rt.user_session_id
                           WHERE rt.token_hash = ? AND rt.user_id = ? AND rt.expires_at > NOW() AND u.status = ?', [hash('sha256', $m[2]), (int) $m[1], 'active']);
         } catch (Throwable $e) {
             return null;
@@ -225,11 +227,27 @@ final class Auth
         if ($row['role'] === 'admin') {
             return null;
         }
+        // Sesi perangkat ini sudah dicabut (login di perangkat lain, dikeluarkan, atau ganti password)
+        if ($row['user_session_id'] !== null && $row['session_revoked'] !== null) {
+            q('DELETE FROM remember_tokens WHERE id = ?', [$row['id']]);
+            self::clearRememberCookie();
+            $GLOBALS['__session_revoked'] = true;
+            return null;
+        }
         // Rotasi token
         q('DELETE FROM remember_tokens WHERE id = ?', [$row['id']]);
         session_regenerate_id(true);
         $_SESSION['user_id'] = (int) $row['user_id'];
-        self::issueRememberToken((int) $row['user_id']);
+        $_SESSION['last_seen'] = time();
+        unset($_SESSION['session_revoked']);
+        if ($row['user_session_id'] !== null) {
+            $sessionId = (int) $row['user_session_id'];
+            UserSession::resume($sessionId);
+        } else {
+            // Token lama tanpa sesi perangkat: daftarkan sebagai sesi baru (ikut batas sesi)
+            $sessionId = UserSession::start(['id' => (int) $row['user_id'], 'role' => $row['role']], true);
+        }
+        self::issueRememberToken((int) $row['user_id'], $sessionId);
         return (int) $row['user_id'];
     }
 
@@ -240,6 +258,9 @@ final class Auth
 
     public static function logout(): void
     {
+        if ($sid = UserSession::currentId()) {
+            UserSession::revokeIds([$sid], 'logout');
+        }
         $raw = (string) ($_COOKIE['pi_remember'] ?? '');
         if (preg_match('/^(\d+):([a-f0-9]{64})$/', $raw, $m)) {
             q('DELETE FROM remember_tokens WHERE token_hash = ?', [hash('sha256', $m[2])]);

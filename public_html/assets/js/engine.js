@@ -670,6 +670,15 @@ if (cfg && root) {
   });
   $$('[data-exit]').forEach((a) => a.addEventListener('click', () => stopAudio()));
   window.addEventListener('pagehide', () => stopAudio());
+  // Sesi dicabut di tengah: hentikan audio dan timer. Sisa waktu Simulasi tetap di server
+  // (server tidak menghitung waktu tanpa detak), jadi bisa dilanjutkan setelah masuk lagi.
+  window.addEventListener('session-revoked', () => {
+    S.finished = true;
+    stopAudio();
+    clearInterval(timerInt);
+    clearInterval(tickInt);
+    clearInterval(countdownInt);
+  });
 
   load();
 }

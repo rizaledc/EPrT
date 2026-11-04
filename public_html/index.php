@@ -41,4 +41,6 @@ if ($appPath === null) {
 require $appPath . '/bootstrap.php';
 require $appPath . '/Router.php';
 
+enforce_user_session();
+
 (new Router(require $appPath . '/routes.php'))->dispatch($_SERVER['REQUEST_METHOD'] ?? 'GET', request_path());
