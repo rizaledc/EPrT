@@ -197,12 +197,12 @@ return [
     'sample.mixed' => 'Campuran',
 
     // Pembahasan
-    'explain.label' => 'Pembahasan', 'explain.correct' => 'Benar, ini alasannya',
-    'explain.wrong' => 'Belum tepat, jawabannya {letter}', 'explain.blank' => 'Tidak dijawab · jawabannya {letter}',
-    'explain.your_choice' => 'Kenapa pilihanmu ({letter}) keliru',
-    'explain.why_correct' => 'Kenapa {letter} benar', 'explain.why_correct_yes' => 'Kenapa jawaban ini benar',
-    'explain.why_wrong' => 'Kenapa pilihan lain salah', 'explain.your_pick' => 'Pilihanmu',
-    'explain.analogy' => 'Perumpamaan', 'explain.rule' => 'Aturan', 'explain.tip' => 'Trik cepat saat tes',
+    'explain.label' => 'Pembahasan',
+    'explain.verdict_ok' => ['JosJis!', 'Mantul, cuy!', 'Gokil, bener banget!', 'Sip, aman!', 'Keren parah!', 'Nah gitu dong!'],
+    'explain.verdict_no' => ['Yah, belum pas nih. Jawabannya {letter}, cuy.', 'Santai, salah itu bagian dari belajar. Yang bener {letter}.', 'Hampir! Jawabannya {letter}.'],
+    'explain.blank' => 'Belum dijawab nih. Jawabannya {letter}.',
+    'explain.why_correct' => 'Kenapa jawabannya {letter}', 'explain.why_wrong' => 'Opsi lain', 'explain.your_pick' => 'Pilihanmu', 'explain.option' => 'Opsi',
+    'explain.analogy' => 'Perumpamaan', 'explain.rule' => 'Aturan', 'explain.tip' => 'Trik',
     'explain.transcript' => 'Transkrip', 'explain.key_sentence' => 'Kalimat kunci', 'explain.translation' => 'Terjemahan',
     'explain.evidence' => 'Kalimat bukti di teks',
 

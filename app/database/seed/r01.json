@@ -34,23 +34,23 @@
      "difficulty": 1,
      "key_sentence": "Why don't you use one of the computers in the library?",
      "key_translation_id": "Kenapa kamu tidak memakai salah satu komputer di perpustakaan saja?",
-     "why_correct_id": "Langkah 1: dengarkan kalimat orang kedua (pria), karena jawaban Part A biasanya ada di sana. Langkah 2: 'Why don't you…?' adalah bentuk saran, bukan pertanyaan sungguhan. Pria menyarankan memakai komputer di perpustakaan, jadi jawabannya mengerjakan laporan di perpustakaan.",
-     "why_correct_en": "Step 1: focus on the second speaker, because Part A answers usually sit in that line. Step 2: 'Why don't you…?' is a suggestion, not a real question. He suggests using a library computer, so she should work on the report in the library.",
+     "why_correct_id": "Dengerin kalimat orang kedua, si pria. Jawaban Part A biasanya nongkrong di situ. **Why don't you…?** itu bentuk saran, bukan nanya beneran. Dia nyaranin pakai komputer perpustakaan, jadi laporannya dikerjain di perpustakaan.",
+     "why_correct_en": "Focus on the second speaker. Part A answers usually live in that line. **Why don't you…?** is a suggestion, not a real question. He suggests a library computer, so she works on the report in the library.",
      "why_wrong_id": {
-      "1": "Laptop memang disebut, tetapi pria tidak menyarankan membeli laptop baru. Ini jebakan kata yang sama dengan audio.",
-      "2": "Asisten lab dan perpanjangan waktu tidak dibicarakan sama sekali.",
-      "3": "'Four' muncul di audio, tetapi itu jam komputer perpustakaan biasanya kosong, bukan batas waktu laporan."
+      "1": "Laptop memang disebut, tapi dia nggak nyaranin beli laptop baru. Ini jebakan kata yang sama kayak di audio.",
+      "2": "Asisten lab dan perpanjangan waktu nggak diomongin sama sekali.",
+      "3": "**Four** memang ada di audio, tapi itu jam komputer perpustakaan biasanya kosong. Bukan batas waktu laporan."
      },
      "why_wrong_en": {
-      "1": "The laptop is mentioned, but he never suggests buying a new one. It's a same-word trap.",
+      "1": "The laptop is mentioned, but he never suggests buying a new one. Same-word trap.",
       "2": "No lab assistant or extension is mentioned.",
-      "3": "'Four' is in the audio, but it's when library computers are usually free, not a deadline."
+      "3": "**Four** is in the audio, but it's when library computers are usually free, not a deadline."
      },
-     "analogy_id": "'Why don't you…?' itu seperti teman yang menyodorkan payung saat hujan: bentuknya bertanya, isinya menawarkan solusi.",
-     "analogy_en": "'Why don't you…?' is like a friend holding out an umbrella in the rain: it sounds like a question, but it's really offering a solution.",
-     "tip_id": "Dengar 'Why don't you / Why not / How about'? Itu saran. Cari pilihan yang berisi tindakan yang disarankan.",
-     "tip_en": "Hear 'Why don't you / Why not / How about'? It's a suggestion. Pick the option that states that action.",
-     "liaison_note": "'Why don't you' sering terdengar 'why-don-cha'."
+     "analogy_id": "**Why don't you…?** itu kayak teman yang nyodorin payung pas hujan. Bentuknya nanya, isinya nawarin solusi.",
+     "analogy_en": "**Why don't you…?** is a friend holding out an umbrella in the rain. It sounds like a question, but it's offering a fix.",
+     "tip_id": "Denger **Why don't you**, **Why not**, atau **How about**? Itu saran. Cari opsi yang isinya tindakan yang disarankan.",
+     "tip_en": "Hear **Why don't you**, **Why not**, or **How about**? It's a suggestion. Pick the option with that action.",
+     "liaison_note": "**Why don't you** sering kedengeran kayak why-don-cha."
     }
    ]
   },
@@ -85,22 +85,22 @@
      "difficulty": 1,
      "key_sentence": "I wish I could, but I have to work the late shift at the café.",
      "key_translation_id": "Saya ingin sekali bisa, tapi saya harus kerja shift malam di kafe.",
-     "why_correct_id": "Langkah 1: kalimat kunci ada pada wanita. Langkah 2: 'I wish I could' berarti ia sebenarnya tidak bisa. Kata 'but I have to work' menegaskan alasannya. Jadi ia tidak bisa datang ke sesi review.",
-     "why_correct_en": "Step 1: the key line is the woman's. Step 2: 'I wish I could' means she actually can't. 'But I have to work' confirms the reason. So she cannot go to the review session.",
+     "why_correct_id": "Kalimat kuncinya punya si wanita. **I wish I could** artinya dia sebenarnya nggak bisa. Lanjutannya, **but I have to work**, nguatin alasannya. Jadi dia nggak bisa datang ke sesi review.",
+     "why_correct_en": "The key line is the woman's. **I wish I could** means she actually can't. **But I have to work** gives the reason. So she can't go to the review session.",
      "why_wrong_id": {
-      "0": "Ia tidak menyebut akan datang setelah bekerja. 'Late shift' justru berarti ia sibuk sampai malam.",
-      "1": "Kafe itu tempat ia bekerja, bukan milik profesor. Dua kata yang terdengar digabung menjadi informasi palsu.",
-      "3": "'Wish' muncul di audio, tetapi ia tidak membicarakan panjang sesi. Jebakan kata yang sama."
+      "0": "Dia nggak bilang bakal datang habis kerja. **Late shift** justru artinya dia sibuk sampai malam.",
+      "1": "Kafe itu tempat dia kerja, bukan punya profesor. Dua kata yang kedengeran digabung jadi info palsu.",
+      "3": "**Wish** memang ada di audio, tapi dia nggak ngomongin panjang sesi. Jebakan kata yang sama."
      },
      "why_wrong_en": {
-      "0": "She never says she'll come after work; a 'late shift' means she's busy into the night.",
+      "0": "She never says she'll come after work. A **late shift** means she's busy into the night.",
       "1": "The café is where she works, not the professor's. Two heard words are glued into a false fact.",
-      "3": "'Wish' is in the audio, but she says nothing about the session's length. Same-word trap."
+      "3": "**Wish** is in the audio, but she says nothing about the session's length. Same-word trap."
      },
-     "analogy_id": "'I wish I could' itu seperti melihat sepatu idaman di etalase sambil berkata 'andai bisa beli'. Artinya: tidak jadi beli.",
-     "analogy_en": "'I wish I could' is like staring at dream shoes in a shop window: 'if only I could buy them'. Meaning: she won't.",
-     "tip_id": "'I wish I could' / 'I'd love to, but…' hampir selalu berarti TIDAK.",
-     "tip_en": "'I wish I could' / 'I'd love to, but…' almost always means NO."
+     "analogy_id": "**I wish I could** itu kayak ngeliatin sepatu impian di etalase sambil bilang andai bisa beli. Artinya ya nggak jadi beli.",
+     "analogy_en": "**I wish I could** is like staring at dream shoes in a window and sighing if only. Meaning: she won't buy them.",
+     "tip_id": "**I wish I could** atau **I'd love to, but…** hampir selalu artinya NGGAK.",
+     "tip_en": "**I wish I could** or **I'd love to, but…** almost always means NO."
     }
    ]
   },
@@ -135,22 +135,22 @@
      "difficulty": 1,
      "key_sentence": "You might want to check the online version.",
      "key_translation_id": "Mungkin sebaiknya kamu cek versi online-nya.",
-     "why_correct_id": "Langkah 1: fokus pada pria (orang kedua). Langkah 2: 'You might want to…' adalah cara sopan memberi saran. Ia menyarankan memeriksa versi online, dan menambahkan bahwa jurusan sudah memberi tautan.",
-     "why_correct_en": "Step 1: focus on the man, the second speaker. Step 2: 'You might want to…' is a polite way to suggest something. He suggests checking the online version and adds that the department posted a link.",
+     "why_correct_id": "Fokus ke si pria, orang kedua. **You might want to…** itu cara sopan buat ngasih saran. Dia nyaranin cek versi online, dan nambahin kalau jurusan udah ngasih link-nya.",
+     "why_correct_en": "Focus on the man, the second speaker. **You might want to…** is a polite way to suggest something. He suggests the online version and adds that the department posted a link.",
      "why_wrong_id": {
-      "0": "Menunggu stok baru tidak disarankan. Ia justru memberi jalan keluar lain.",
-      "2": "Pria tidak menawarkan meminjamkan bukunya.",
-      "3": "'Department' disebut, tetapi hanya sebagai pihak yang memasang tautan, bukan untuk meminta uang kembali."
+      "0": "Dia nggak nyaranin nunggu stok baru. Dia malah ngasih jalan keluar lain.",
+      "2": "Si pria nggak nawarin minjemin bukunya.",
+      "3": "**Department** memang disebut, tapi cuma sebagai pihak yang pasang link. Bukan buat minta uang balik."
      },
      "why_wrong_en": {
-      "0": "He doesn't suggest waiting; he offers another solution.",
+      "0": "He doesn't suggest waiting. He offers another way out.",
       "2": "He never offers to lend his own copy.",
-      "3": "'Department' is mentioned only as the one that posted a link, not for a refund."
+      "3": "**Department** is only the one that posted a link, not a place for refunds."
      },
-     "analogy_id": "'You might want to…' itu seperti pelayan restoran yang berkata 'mungkin Anda mau coba menu ini'. Halus, tapi tetap sebuah saran.",
-     "analogy_en": "'You might want to…' is like a waiter saying 'you might want to try this dish': gentle, but still a suggestion.",
-     "tip_id": "Kata 'might want to', 'should', 'had better' di kalimat orang kedua = saran. Cari kata kerjanya.",
-     "tip_en": "'Might want to', 'should', 'had better' in the second line = advice. Find the verb that follows."
+     "analogy_id": "**You might want to…** itu kayak pelayan restoran yang bilang mungkin kamu mau coba menu ini. Halus, tapi tetap saran.",
+     "analogy_en": "**You might want to…** is a waiter saying you might want to try this dish. Gentle, but still a suggestion.",
+     "tip_id": "**might want to**, **should**, **had better** di kalimat orang kedua artinya saran. Cari kata kerja sesudahnya.",
+     "tip_en": "**Might want to**, **should**, **had better** in the second line mean advice. Find the verb after it."
     }
    ]
   },
@@ -185,23 +185,23 @@
      "difficulty": 3,
      "key_sentence": "Not exactly. I ended up walking the whole way to campus.",
      "key_translation_id": "Tidak juga. Akhirnya saya jalan kaki sepanjang jalan ke kampus.",
-     "why_correct_id": "Langkah 1: soal 'imply' meminta makna tersirat. Langkah 2: 'Not exactly' menjawab 'tidak tepat waktu' secara halus. Langkah 3: 'I ended up walking' (akhirnya jalan kaki) menunjukkan ia terpaksa berjalan karena bus tidak datang sesuai harapan.",
-     "why_correct_en": "Step 1: an 'imply' question asks for the hidden meaning. Step 2: 'Not exactly' is a soft 'no, it wasn't on time'. Step 3: 'I ended up walking' shows she had to walk because the bus didn't come as expected.",
+     "why_correct_id": "Soal **imply** nanyain makna tersirat. **Not exactly** itu cara halus bilang nggak tepat waktu. Terus **I ended up walking**, akhirnya jalan kaki, nunjukin dia terpaksa jalan karena busnya nggak datang sesuai harapan.",
+     "why_correct_en": "An **imply** question wants the hidden meaning. **Not exactly** is a soft no, it wasn't on time. **I ended up walking** shows she had to walk because the bus didn't come as expected.",
      "why_wrong_id": {
-      "0": "Ia justru berjalan kaki, bukan naik bus. Pilihan ini memakai kata 'shuttle bus' yang sama dengan audio.",
-      "1": "Kalau bus datang lebih awal, ia tidak perlu berjalan kaki.",
-      "2": "'Ended up' berarti terpaksa, bukan lebih suka. Tidak ada tanda ia menikmati jalan kaki."
+      "0": "Dia malah jalan kaki, bukan naik bus. Opsi ini cuma minjem kata **shuttle bus** dari audio.",
+      "1": "Kalau busnya datang lebih awal, dia nggak perlu jalan kaki dong.",
+      "2": "**Ended up** artinya terpaksa, bukan lebih suka. Nggak ada tanda dia menikmati jalan kakinya."
      },
      "why_wrong_en": {
-      "0": "She walked; she didn't ride. This option reuses 'shuttle bus' from the audio.",
+      "0": "She walked, she didn't ride. This option just reuses **shuttle bus** from the audio.",
       "1": "If the bus had come early, she wouldn't have had to walk.",
-      "2": "'Ended up' means she had no choice, not that she prefers it."
+      "2": "**Ended up** means she had no choice, not that she prefers it."
      },
-     "analogy_id": "'Ended up' itu seperti rencana makan di restoran yang tutup, lalu 'akhirnya' makan mi instan di rumah. Bukan pilihan pertama.",
-     "analogy_en": "'Ended up' is like planning to eat at a restaurant that turns out to be closed and 'ending up' with instant noodles at home. Not the first choice.",
-     "tip_id": "Jawaban 'Not exactly / Not really' + cerita lain = jawaban TIDAK yang halus. Tebak alasannya.",
-     "tip_en": "'Not exactly / Not really' + another story = a polite NO. Infer the reason.",
-     "liaison_note": "'ended up' terdengar menyambung 'en-dup'."
+     "analogy_id": "**Ended up** itu kayak niat makan di restoran yang ternyata tutup, terus akhirnya makan mi instan di rumah. Bukan pilihan pertama.",
+     "analogy_en": "**Ended up** is like planning a restaurant dinner, finding it closed, and ending up with instant noodles. Not the first choice.",
+     "tip_id": "**Not exactly** atau **Not really** plus cerita lain itu jawaban NGGAK yang halus. Tebak alasannya.",
+     "tip_en": "**Not exactly** or **Not really** plus another story is a polite NO. Work out the reason.",
+     "liaison_note": "**ended up** kedengeran nyambung jadi en-dup."
     }
    ]
   },
@@ -236,22 +236,22 @@
      "difficulty": 1,
      "key_sentence": "How about practicing it in front of me this evening?",
      "key_translation_id": "Bagaimana kalau kamu latihan di depanku malam ini?",
-     "why_correct_id": "Langkah 1: perhatikan kalimat pria. Langkah 2: 'How about practicing…' adalah tawaran: wanita berlatih di depannya malam ini, dan ia akan menghitung waktunya. 'Rehearse' adalah sinonim 'practice', dan 'tonight' sama dengan 'this evening'.",
-     "why_correct_en": "Step 1: focus on the man's line. Step 2: 'How about practicing…' is an offer: she practices in front of him this evening while he times her. 'Rehearse' is a synonym of 'practice', and 'tonight' matches 'this evening'.",
+     "why_correct_id": "Perhatiin kalimat si pria. **How about practicing…** itu tawaran: si wanita latihan di depannya malam ini, dan dia yang ngitung waktunya. **Rehearse** itu sinonim **practice**, dan **tonight** sama dengan **this evening**.",
+     "why_correct_en": "Focus on the man's line. **How about practicing…** is an offer: she practices in front of him tonight while he times her. **Rehearse** means **practice**, and **tonight** matches **this evening**.",
      "why_wrong_id": {
-      "0": "Ia tidak menawarkan menggantikan presentasi.",
-      "1": "'I'll time you' berarti mengukur durasi latihan, bukan mengubah jadwal presentasi. Jebakan kata 'time'.",
-      "3": "Slide dan hari esok tidak termasuk tawarannya; ia menawarkan malam ini."
+      "0": "Dia nggak nawarin buat gantiin presentasinya.",
+      "1": "**I'll time you** artinya ngukur durasi latihan, bukan ngubah jadwal presentasi. Jebakan di kata **time**.",
+      "3": "Slide dan hari besok nggak masuk tawarannya. Dia nawarin malam ini."
      },
      "why_wrong_en": {
       "0": "He doesn't offer to present for her.",
-      "1": "'I'll time you' means measuring her practice, not rescheduling. A trap on the word 'time'.",
-      "3": "No slides are mentioned, and his offer is for this evening, not tomorrow."
+      "1": "**I'll time you** means timing her practice, not rescheduling. A trap on the word **time**.",
+      "3": "No slides are mentioned, and his offer is for tonight, not tomorrow."
      },
-     "analogy_id": "Jawaban benar sering memakai sinonim, seperti baju yang sama dengan warna berbeda: practice → rehearse, this evening → tonight.",
-     "analogy_en": "Correct answers often wear synonyms, like the same outfit in a different colour: practice → rehearse, this evening → tonight.",
-     "tip_id": "Pilihan yang memakai sinonim biasanya benar; pilihan yang mengulang kata persis sering jebakan.",
-     "tip_en": "Options with synonyms are often right; options repeating exact words are often traps."
+     "analogy_id": "Jawaban benar sering pakai sinonim, kayak baju yang sama tapi beda warna. **practice** jadi **rehearse**, **this evening** jadi **tonight**.",
+     "analogy_en": "Right answers often wear synonyms, like the same outfit in a new colour. **practice** becomes **rehearse**, **this evening** becomes **tonight**.",
+     "tip_id": "Opsi yang pakai sinonim biasanya benar. Opsi yang ngulang kata persis sering jebakan.",
+     "tip_en": "Options with synonyms are often right. Options repeating exact words are often traps."
     }
    ]
   },
@@ -286,22 +286,22 @@
      "difficulty": 1,
      "key_sentence": "Let's just walk up; it's only the third floor.",
      "key_translation_id": "Kita naik tangga saja; cuma lantai tiga.",
-     "why_correct_id": "Langkah 1: wanita (orang kedua) mengambil keputusan. Langkah 2: 'Let's just walk up' berarti mari naik dengan berjalan, yaitu lewat tangga. Alasannya, lift penuh dan tujuannya hanya lantai tiga.",
-     "why_correct_en": "Step 1: the woman, the second speaker, makes the decision. Step 2: 'Let's just walk up' means taking the stairs. The elevator is packed and they're only going to the third floor.",
+     "why_correct_id": "Yang ngambil keputusan itu si wanita, orang kedua. **Let's just walk up** artinya ayo naik jalan kaki, alias lewat tangga. Alasannya, lift penuh dan tujuannya cuma lantai tiga.",
+     "why_correct_en": "The woman, the second speaker, makes the call. **Let's just walk up** means taking the stairs. The elevator is packed and they're only going to the third floor.",
      "why_wrong_id": {
-      "1": "Lift disebut penuh (packed), jadi mereka tidak menunggunya.",
-      "2": "Mereka tetap menuju lantai tiga; tidak ada lantai lain.",
-      "3": "'Third floor' adalah tujuan, bukan tempat beristirahat. Jebakan kata yang sama."
+      "1": "Lift-nya disebut **packed**, penuh. Jadi mereka nggak nungguin.",
+      "2": "Mereka tetap ke lantai tiga. Nggak ada lantai lain.",
+      "3": "**Third floor** itu tujuan, bukan tempat istirahat. Jebakan kata yang sama."
      },
      "why_wrong_en": {
-      "1": "The elevator is packed, so they won't wait.",
-      "2": "They're still going to the third floor; no other floor is mentioned.",
-      "3": "'Third floor' is the destination, not a place to rest. Same-word trap."
+      "1": "The elevator is **packed**, so they won't wait.",
+      "2": "They're still heading to the third floor. No other floor comes up.",
+      "3": "**Third floor** is the destination, not a place to rest. Same-word trap."
      },
-     "analogy_id": "'Let's…' itu seperti kapten tim yang memutuskan arah: begitu diucapkan, semua ikut.",
-     "analogy_en": "'Let's…' is the team captain choosing the direction: once it's said, everyone follows.",
-     "tip_id": "Soal 'What will they probably do?' → cari 'Let's / I'll / We'd better' di kalimat terakhir.",
-     "tip_en": "For 'What will they probably do?', look for 'Let's / I'll / We'd better' in the last line."
+     "analogy_id": "**Let's…** itu kayak kapten tim yang mutusin arah. Begitu diucapin, semua ikut.",
+     "analogy_en": "**Let's…** is the team captain picking the direction. Once it's said, everyone follows.",
+     "tip_id": "Soal **What will they probably do?** Cari **Let's**, **I'll**, atau **We'd better** di kalimat terakhir.",
+     "tip_en": "For **What will they probably do?**, look for **Let's**, **I'll**, or **We'd better** in the last line."
     }
    ]
   },
@@ -336,22 +336,22 @@
      "difficulty": 2,
      "key_sentence": "If I were you, I'd talk to her directly before going to the housing office.",
      "key_translation_id": "Kalau aku jadi kamu, aku akan bicara langsung dengannya sebelum ke kantor asrama.",
-     "why_correct_id": "Langkah 1: 'If I were you, I'd…' adalah pola saran. Langkah 2: sarannya 'talk to her directly' (bicara langsung dengan teman sekamar). Langkah 3: 'before going to the housing office' menunjukkan urutan: bicara dulu, kantor asrama nanti.",
-     "why_correct_en": "Step 1: 'If I were you, I'd…' is an advice pattern. Step 2: the advice is 'talk to her directly'. Step 3: 'before going to the housing office' sets the order: talk first, office later.",
+     "why_correct_id": "**If I were you, I'd…** itu pola saran. Sarannya **talk to her directly**, ngomong langsung sama teman sekamar. Terus **before going to the housing office** nunjukin urutannya: ngobrol dulu, kantor asrama belakangan.",
+     "why_correct_en": "**If I were you, I'd…** is an advice pattern. The advice is **talk to her directly**. Then **before going to the housing office** sets the order: talk first, office later.",
      "why_wrong_id": {
-      "0": "Pindah kamar tidak disebut sama sekali.",
-      "2": "Kantor asrama memang disebut, tetapi sebagai langkah SETELAH bicara, bukan segera. Perhatikan kata 'before'.",
-      "3": "Musik adalah masalahnya, bukan solusi. Jebakan kata 'music'."
+      "0": "Pindah kamar sama sekali nggak disebut.",
+      "2": "Kantor asrama memang disebut, tapi sebagai langkah SETELAH ngobrol, bukan langsung. Perhatiin kata **before**.",
+      "3": "Musik itu masalahnya, bukan solusinya. Jebakan di kata **music**."
      },
      "why_wrong_en": {
-      "0": "Moving rooms is never mentioned.",
-      "2": "The housing office comes AFTER talking to her, not immediately. Notice 'before'.",
-      "3": "Music is the problem, not the solution. A trap on 'music'."
+      "0": "Moving rooms never comes up.",
+      "2": "The housing office comes AFTER talking to her, not right away. Notice **before**.",
+      "3": "Music is the problem, not the fix. A trap on **music**."
      },
-     "analogy_id": "'If I were you' itu seperti teman yang meminjam sepatumu sebentar untuk membayangkan jalanmu, lalu memberi saran arah.",
-     "analogy_en": "'If I were you' is a friend stepping into your shoes for a moment, then pointing you in a direction.",
-     "tip_id": "Waspadai kata urutan (before, after, first). Pilihan yang membalik urutan biasanya salah.",
-     "tip_en": "Watch order words (before, after, first). Options that flip the order are usually wrong."
+     "analogy_id": "**If I were you** itu kayak teman yang minjem sepatumu sebentar buat ngebayangin jalanmu, terus ngasih saran arah.",
+     "analogy_en": "**If I were you** is a friend stepping into your shoes for a moment, then pointing you in a direction.",
+     "tip_id": "Waspadai kata urutan kayak **before**, **after**, **first**. Opsi yang ngebalik urutan biasanya salah.",
+     "tip_en": "Watch order words like **before**, **after**, **first**. Options that flip the order are usually wrong."
     }
    ]
   },
@@ -386,22 +386,22 @@
      "difficulty": 2,
      "key_sentence": "The admissions office handles that, but it closes at noon on Fridays.",
      "key_translation_id": "Kantor penerimaan mahasiswa yang mengurusnya, tapi tutup jam dua belas siang setiap Jumat.",
-     "why_correct_id": "Langkah 1: wanita memberi dua informasi: kantor penerimaan mengurus kartu, dan kantor itu tutup pukul 12 siang hari Jumat. Langkah 2: tutup siang hari berarti tutup lebih awal dari biasanya. 'Closes early' adalah parafrase 'closes at noon'.",
-     "why_correct_en": "Step 1: she gives two facts: the admissions office handles cards, and it closes at noon on Fridays. Step 2: closing at noon means closing early. 'Closes early' paraphrases 'closes at noon'.",
+     "why_correct_id": "Si wanita ngasih dua info. Kantor penerimaan ngurus kartu, dan kantor itu tutup jam 12 siang tiap Jumat. Tutup siang berarti tutup lebih awal. **Closes early** itu parafrase dari **closes at noon**.",
+     "why_correct_en": "She gives two facts. The admissions office handles cards, and it closes at noon on Fridays. Closing at noon means closing early. **Closes early** paraphrases **closes at noon**.",
      "why_wrong_id": {
-      "0": "Kantor itu mengganti kartu mahasiswa, bukan buku perpustakaan.",
-      "1": "Kebalikan dari audio: kantor tutup siang, bukan buka seharian.",
-      "2": "Lokasi kantor tidak disebut."
+      "0": "Kantor itu ganti kartu mahasiswa, bukan buku perpustakaan.",
+      "1": "Kebalikan dari audio. Kantornya tutup siang, bukan buka seharian.",
+      "2": "Lokasi kantornya nggak disebut."
      },
      "why_wrong_en": {
       "0": "It replaces student cards, not library books.",
-      "1": "The opposite of the audio: it closes at noon, not open all day.",
-      "2": "Its location is never mentioned."
+      "1": "The opposite. It closes at noon, not open all day.",
+      "2": "Its location never comes up."
      },
-     "analogy_id": "Parafrase itu seperti menyebut 'jam makan siang' untuk 'pukul dua belas': artinya sama, kata-katanya beda.",
-     "analogy_en": "A paraphrase is like saying 'lunchtime' for 'twelve o'clock': same meaning, different words.",
-     "tip_id": "Kata 'but' di kalimat kedua biasanya membawa informasi penting. Fokus pada bagian setelah 'but'.",
-     "tip_en": "'But' in the second line usually carries the key information. Focus on what follows it."
+     "analogy_id": "Parafrase itu kayak nyebut jam makan siang buat jam dua belas. Artinya sama, kata-katanya beda.",
+     "analogy_en": "A paraphrase is like saying lunchtime for twelve o'clock. Same meaning, different words.",
+     "tip_id": "Kata **but** di kalimat kedua biasanya bawa info penting. Fokus ke bagian setelah **but**.",
+     "tip_en": "**But** in the second line usually carries the key info. Focus on what follows it."
     }
    ]
   },
@@ -436,23 +436,23 @@
      "difficulty": 1,
      "key_sentence": "Why not sit in on the first class of each before you choose?",
      "key_translation_id": "Kenapa tidak ikut duduk di kelas pertama masing-masing sebelum memilih?",
-     "why_correct_id": "Langkah 1: 'Why not…?' adalah pola saran. Langkah 2: 'sit in on a class' berarti ikut hadir di kelas untuk mencoba. 'The first class of each' berarti kelas pertama dari kedua mata kuliah. Jadi sarannya menghadiri satu sesi dari keduanya.",
-     "why_correct_en": "Step 1: 'Why not…?' is a suggestion. Step 2: 'sit in on a class' means attending just to try it out. 'The first class of each' means both courses. So he suggests attending one session of both.",
+     "why_correct_id": "**Why not…?** itu pola saran. **Sit in on a class** artinya ikut hadir di kelas buat nyobain. **The first class of each** artinya kelas pertama dari dua mata kuliah itu. Jadi sarannya datang ke satu sesi dari keduanya.",
+     "why_correct_en": "**Why not…?** is a suggestion. **Sit in on a class** means attending just to try it. **The first class of each** covers both courses. So he suggests one session of both.",
      "why_wrong_id": {
-      "1": "Pria tidak memilihkan mata kuliah; ia menyarankan cara memutuskan.",
-      "2": "Tidak ada saran menunda sampai semester depan.",
-      "3": "Ia menyarankan wanita mencoba sendiri, bukan menyerahkan keputusan pada orang lain."
+      "1": "Si pria nggak milihin mata kuliah. Dia nyaranin cara buat mutusin.",
+      "2": "Nggak ada saran buat nunda sampai semester depan.",
+      "3": "Dia nyaranin si wanita nyoba sendiri, bukan nyerahin keputusan ke orang lain."
      },
      "why_wrong_en": {
-      "1": "He doesn't pick a course for her; he suggests a way to decide.",
+      "1": "He doesn't pick a course for her. He suggests a way to decide.",
       "2": "Nothing about waiting until next semester.",
-      "3": "He suggests she try the classes herself, not hand the choice to someone else."
+      "3": "He wants her to try the classes herself, not hand the choice to someone else."
      },
-     "analogy_id": "'Sit in on' itu seperti mencicipi sampel makanan sebelum membeli satu porsi penuh.",
-     "analogy_en": "'Sitting in on' a class is like tasting a free sample before buying the whole dish.",
-     "tip_id": "Phrasal verb (sit in on, go over, fill out) sering jadi kunci. Pelajari artinya sebagai satu kesatuan.",
-     "tip_en": "Phrasal verbs (sit in on, go over, fill out) are often the key. Learn them as single units.",
-     "liaison_note": "'sit in on' terdengar 'si-di-non'."
+     "analogy_id": "**Sit in on** itu kayak nyicipin sampel makanan dulu sebelum beli satu porsi penuh.",
+     "analogy_en": "**Sitting in on** a class is like tasting a free sample before buying the whole dish.",
+     "tip_id": "Phrasal verb (kata kerja + kata depan) kayak **sit in on**, **go over**, **fill out** sering jadi kunci. Hafalin artinya sebagai satu paket.",
+     "tip_en": "Phrasal verbs like **sit in on**, **go over**, **fill out** are often the key. Learn them as one unit.",
+     "liaison_note": "**sit in on** kedengeran kayak si-di-non."
     }
    ]
   },
@@ -487,23 +487,23 @@
      "difficulty": 1,
      "key_sentence": "We'd better check the student union's page before we leave.",
      "key_translation_id": "Sebaiknya kita cek halaman (web) himpunan mahasiswa sebelum berangkat.",
-     "why_correct_id": "Langkah 1: 'We'd better' (we had better) adalah saran yang kuat. Langkah 2: sarannya memeriksa halaman student union sebelum berangkat, yaitu mencari kabar terbaru secara online.",
-     "why_correct_en": "Step 1: 'We'd better' (we had better) is a strong suggestion. Step 2: she suggests checking the student union's page before leaving, which means looking for updates online.",
+     "why_correct_id": "**We'd better**, singkatan **we had better**, itu saran yang kuat. Sarannya ngecek halaman student union sebelum berangkat. Artinya nyari kabar terbaru secara online.",
+     "why_correct_en": "**We'd better**, short for **we had better**, is a strong suggestion. She wants to check the student union's page before leaving. That's looking for updates online.",
      "why_wrong_id": {
-      "0": "Ia justru ingin memeriksa dulu SEBELUM berangkat (before we leave).",
-      "1": "'Student union' disebut sebagai sumber informasi, bukan tempat membeli payung. Jebakan kata yang sama.",
-      "3": "Mereka tidak punya wewenang memindahkan konser; ia hanya ingin memeriksa informasi."
+      "0": "Dia justru mau ngecek dulu SEBELUM berangkat, **before we leave**.",
+      "1": "**Student union** disebut sebagai sumber info, bukan tempat beli payung. Jebakan kata yang sama.",
+      "3": "Mereka nggak punya wewenang mindahin konser. Dia cuma mau ngecek info."
      },
      "why_wrong_en": {
       "0": "She wants to check BEFORE leaving.",
-      "1": "'Student union' is the information source, not a place to buy umbrellas. Same-word trap.",
-      "3": "They can't move the concert; she only wants to check for news."
+      "1": "**Student union** is the info source, not a place to buy umbrellas. Same-word trap.",
+      "3": "They can't move the concert. She only wants to check for news."
      },
-     "analogy_id": "'We'd better' itu seperti lampu kuning di jalan: tanda untuk berhati-hati dan memeriksa dulu sebelum maju.",
-     "analogy_en": "'We'd better' is a yellow traffic light: a signal to slow down and check before moving on.",
-     "tip_id": "'d better = had better, bukan would better. Artinya 'sebaiknya'.",
-     "tip_en": "'d better = had better (not 'would better'). It means 'should'.",
-     "liaison_note": "'We'd better' terdengar 'weed-better'; huruf d hampir hilang."
+     "analogy_id": "**We'd better** itu kayak lampu kuning di jalan. Tandanya buat pelan-pelan dan ngecek dulu sebelum maju.",
+     "analogy_en": "**We'd better** is a yellow traffic light. Slow down and check before moving on.",
+     "tip_id": "**'d better** itu **had better**, bukan **would better**. Artinya sebaiknya.",
+     "tip_en": "**'d better** is **had better**, not **would better**. It means should.",
+     "liaison_note": "**We'd better** kedengeran kayak weed-better. Huruf d-nya hampir hilang."
     }
    ]
   },
@@ -522,21 +522,21 @@
     "S-SV-CORE"
    ],
    "difficulty": 1,
-   "why_correct_id": "Langkah 1: cari subject (pelaku): 'The new campus library'. Langkah 2: cari verb (kata kerja): belum ada! Kalimat butuh verb yang punya tense. Langkah 3: subject tunggal + simple present → **contains**.",
-   "why_correct_en": "Step 1: find the subject: 'The new campus library'. Step 2: find the verb: there isn't one yet! The sentence needs a verb with tense. Step 3: singular subject + simple present → **contains**.",
+   "why_correct_id": "Cari dulu pelakunya: **The new campus library**. Terus cari kata kerjanya. Lho, belum ada! Kalimat butuh verb (kata kerja) yang punya tense. Pelaku tunggal plus simple present, jadinya **contains**.",
+   "why_correct_en": "Find the subject first: **The new campus library**. Now find the verb. There isn't one yet! The sentence needs a tensed verb. Singular subject plus simple present gives **contains**.",
    "why_wrong_id": {
-    "0": "'it' adalah subject kedua. Subject sudah ada ('The new campus library'), jadi 'it' membuat subject ganda.",
-    "1": "'containing' (V-ing) tanpa auxiliary (kata kerja bantu) be bukan verb utama. Kalimat tetap tanpa mesin.",
-    "2": "'to contain' adalah infinitive (to + kata kerja dasar), bukan verb utama yang ber-tense."
+    "0": "**it** itu pelaku kedua. Pelakunya udah ada, jadi **it** bikin subject (pelaku) dobel.",
+    "1": "**containing** (V-ing) tanpa auxiliary (kata kerja bantu) be nggak bisa jadi kata kerja utama. Kalimatnya tetap nggak punya mesin.",
+    "2": "**to contain** itu infinitive (to + kata kerja dasar), bukan kata kerja utama yang punya tense."
    },
    "why_wrong_en": {
-    "0": "'it' is a second subject. The subject already exists, so 'it' creates a double subject.",
-    "1": "'containing' with no 'be' auxiliary can't be the main verb, so the sentence still has no engine.",
-    "2": "'to contain' is an infinitive, not a main verb with tense."
+    "0": "**it** is a second subject. The subject is already there, so **it** doubles it.",
+    "1": "**containing** with no **be** can't be the main verb. The sentence still has no engine.",
+    "2": "**to contain** is an infinitive, not a tensed main verb."
    },
-   "analogy_id": "Kalimat itu mobil: sopirnya sudah duduk ('The new campus library'), tinggal pasang mesinnya ('contains'). Jangan tambah sopir kedua ('it').",
-   "analogy_en": "A sentence is a car: the driver is seated ('The new campus library'); just install the engine ('contains'). Don't add a second driver ('it').",
-   "tip_id": "Rumpang tepat setelah subject? Hampir pasti yang dicari adalah verb utama.",
+   "analogy_id": "Kalimat itu mobil. Sopirnya udah duduk (**The new campus library**), tinggal pasang mesinnya (**contains**). Jangan nambah sopir kedua (**it**).",
+   "analogy_en": "A sentence is a car. The driver is seated (**The new campus library**), so just add the engine (**contains**). No second driver (**it**).",
+   "tip_id": "Rumpang pas setelah pelaku? Hampir pasti yang dicari itu kata kerja utama.",
    "tip_en": "Blank right after the subject? You almost certainly need the main verb."
   },
   {
@@ -554,22 +554,22 @@
     "S-SV-CORE"
    ],
    "difficulty": 1,
-   "why_correct_id": "Langkah 1: verb (kata kerja) sudah ada: 'checked'. Langkah 2: yang belum ada adalah subject (pelaku). Langkah 3: **The research team** adalah noun phrase (frasa benda) yang bisa langsung menjadi subject.",
-   "why_correct_en": "Step 1: the verb is already there: 'checked'. Step 2: what's missing is the subject. Step 3: **The research team** is a noun phrase that can be the subject directly.",
+   "why_correct_id": "Kata kerjanya udah ada: **checked**. Yang belum ada itu pelakunya. **The research team** itu noun phrase (frasa benda) yang bisa langsung jadi pelaku.",
+   "why_correct_en": "The verb is already there: **checked**. What's missing is the subject. **The research team** is a noun phrase that can be the subject straight away.",
    "why_wrong_id": {
-    "1": "'Because' mengubah bagian ini menjadi dependent clause (anak kalimat). Kalimat jadi tidak punya clause induk.",
-    "2": "'who' membuka relative clause, sehingga 'checked' menjadi milik 'who', dan kalimat utama kehilangan verb.",
-    "3": "'That the research team checked…' menjadi noun clause yang belum selesai; kalimat masih butuh verb utama lain."
+    "1": "**Because** ngubah bagian ini jadi dependent clause (anak kalimat). Kalimatnya jadi nggak punya induk.",
+    "2": "**who** ngebuka relative clause (anak kalimat penjelas), jadi **checked** jadi milik **who**. Kalimat utama kehilangan kata kerjanya.",
+    "3": "**That the research team checked…** jadi noun clause yang belum kelar. Kalimatnya masih butuh kata kerja utama lain."
    },
    "why_wrong_en": {
-    "1": "'Because' turns this into a dependent clause, leaving no main clause.",
-    "2": "'who' opens a relative clause, so 'checked' belongs to 'who' and the main clause loses its verb.",
-    "3": "'That the research team checked…' becomes an unfinished noun clause that still needs another main verb."
+    "1": "**Because** turns this into a dependent clause, so there's no main clause.",
+    "2": "**who** opens a relative clause, so **checked** belongs to **who** and the main clause loses its verb.",
+    "3": "**That the research team checked…** becomes an unfinished noun clause that still needs another main verb."
    },
-   "analogy_id": "Mesin ('checked') sudah terpasang, tinggal sopir. Kata 'because', 'who', 'that' itu seperti menaruh sopir di mobil derek, bukan di kursi kemudi.",
-   "analogy_en": "The engine ('checked') is installed; you just need a driver. 'Because', 'who', and 'that' put the driver in a towed car, not behind the wheel.",
-   "tip_id": "Hitung: 1 verb utama butuh 1 subject tanpa kata penghubung di depannya.",
-   "tip_en": "Count: one main verb needs one subject with no connector in front of it."
+   "analogy_id": "Mesinnya (**checked**) udah kepasang, tinggal sopir. **because**, **who**, **that** itu kayak naruh sopir di mobil derek, bukan di kursi setir.",
+   "analogy_en": "The engine (**checked**) is in, you just need a driver. **because**, **who**, and **that** seat the driver in a towed car, not behind the wheel.",
+   "tip_id": "Hitung aja: 1 kata kerja utama butuh 1 pelaku tanpa kata penghubung di depannya.",
+   "tip_en": "Count it: one main verb needs one subject with no connector in front."
   },
   {
    "section": "structure",
@@ -587,22 +587,22 @@
     "S-GERUND-INF"
    ],
    "difficulty": 2,
-   "why_correct_id": "Langkah 1: setelah 'that' ada clause baru dengan verb 'is'. Langkah 2: 'is' butuh subject. Langkah 3: subject harus berupa noun (kata benda). Verb yang dijadikan noun memakai bentuk gerund (kata kerja + -ing): **learning**.",
-   "why_correct_en": "Step 1: after 'that' comes a new clause with the verb 'is'. Step 2: 'is' needs a subject. Step 3: a subject must be a noun, and a verb used as a noun takes the gerund form: **learning**.",
+   "why_correct_id": "Habis **that** ada clause (anak kalimat) baru dengan kata kerja **is**. Si **is** butuh pelaku, dan pelaku harus noun (kata benda). Kata kerja yang dijadiin kata benda pakai gerund (kata kerja + -ing): **learning**.",
+   "why_correct_en": "After **that** comes a new clause with the verb **is**. **Is** needs a subject, and a subject must be a noun. A verb used as a noun takes the gerund form: **learning**.",
    "why_wrong_id": {
-    "0": "'learn' adalah verb bentuk dasar; tidak bisa menjadi subject.",
-    "2": "'learned' adalah V2/V3; bukan bentuk noun.",
-    "3": "'to' tidak dipakai di sini; 'to learning' tidak bisa menjadi subject."
+    "0": "**learn** itu kata kerja bentuk dasar. Nggak bisa jadi pelaku.",
+    "2": "**learned** itu V2/V3, bukan bentuk kata benda.",
+    "3": "**to** nggak dipakai di sini. **to learning** nggak bisa jadi pelaku."
    },
    "why_wrong_en": {
-    "0": "'learn' is a base verb; it can't be a subject.",
-    "2": "'learned' is V2/V3, not a noun form.",
-    "3": "'to learning' is not a possible subject here."
+    "0": "**learn** is a base verb. It can't be a subject.",
+    "2": "**learned** is V2/V3, not a noun form.",
+    "3": "**to learning** can't be a subject here."
    },
-   "analogy_id": "Gerund itu mesin yang dipajang di etalase: bentuknya mesin (verb), tapi fungsinya barang pajangan (noun).",
-   "analogy_en": "A gerund is an engine on display: shaped like a verb but used as a thing, a noun.",
-   "tip_id": "Butuh subject dari sebuah kegiatan? Pakai V-ing.",
-   "tip_en": "Need an activity as a subject? Use V-ing."
+   "analogy_id": "Gerund itu mesin yang dipajang di etalase. Bentuknya mesin (kata kerja), tapi fungsinya barang pajangan (kata benda).",
+   "analogy_en": "A gerund is an engine on display. Shaped like a verb, but used as a thing, a noun.",
+   "tip_id": "Butuh pelaku berupa kegiatan? Pakai V-ing.",
+   "tip_en": "Need an activity as the subject? Use V-ing."
   },
   {
    "section": "structure",
@@ -620,22 +620,22 @@
     "S-GERUND-INF"
    ],
    "difficulty": 3,
-   "why_correct_id": "Langkah 1: clause induk sudah lengkap: subject 'Honeybees' + verb 'communicate' + object 'the location of food'. Langkah 2: rumpang hanya boleh diisi keterangan cara, bukan clause baru. Langkah 3: preposition (kata depan) 'by' + gerund 'performing' = **by performing**, yaitu 'dengan cara menari'.",
-   "why_correct_en": "Step 1: the main clause is complete: subject 'Honeybees' + verb 'communicate' + object. Step 2: the blank can only add a 'how' detail, not a new clause. Step 3: preposition 'by' + gerund 'performing' = **by performing**.",
+   "why_correct_id": "Kalimat induknya udah lengkap: pelaku **Honeybees**, kata kerja **communicate**, plus objeknya. Jadi rumpang cuma boleh diisi keterangan cara, bukan clause (anak kalimat) baru. Preposition (kata depan) **by** plus gerund **performing** jadi **by performing**, dengan cara menari.",
+   "why_correct_en": "The main clause is complete: subject **Honeybees**, verb **communicate**, plus the object. The blank can only add a how detail, not a new clause. **By** plus the gerund **performing** gives **by performing**.",
    "why_wrong_id": {
-    "1": "'they perform' membuat clause kedua tanpa conjunction (kata sambung). Hasilnya dua kalimat yang ditempel tanpa lem (run-on).",
-    "2": "'performing it' membuat 'it' dan 'a special dance' menjadi dua object yang bertabrakan.",
-    "3": "'performs' adalah verb kedua tanpa subject dan tanpa conjunction, dan bentuk tunggalnya juga tidak cocok dengan 'Honeybees'."
+    "1": "**they perform** bikin clause kedua tanpa conjunction (kata sambung). Hasilnya dua kalimat ditempel tanpa lem.",
+    "2": "**performing it** bikin **it** dan **a special dance** jadi dua objek yang tabrakan.",
+    "3": "**performs** itu kata kerja kedua tanpa pelaku dan tanpa kata sambung. Bentuk tunggalnya juga nggak cocok sama **Honeybees**."
    },
    "why_wrong_en": {
-    "1": "'they perform' adds a second clause without a conjunction, creating a run-on.",
-    "2": "'performing it' makes 'it' and 'a special dance' two clashing objects.",
-    "3": "'performs' is a second verb with no subject or conjunction, and its singular form doesn't match 'Honeybees'."
+    "1": "**they perform** adds a second clause with no conjunction. That's a run-on.",
+    "2": "**performing it** makes **it** and **a special dance** two clashing objects.",
+    "3": "**performs** is a second verb with no subject or conjunction, and its singular form doesn't match **Honeybees**."
    },
-   "analogy_id": "Mobil sudah lengkap dan berjalan. Rumpang ini hanya tempat menulis 'gaya menyetir' (by …), bukan untuk menambah mobil kedua.",
-   "analogy_en": "The car is complete and moving. This blank is only for the driving style ('by …'), not for a second car.",
-   "tip_id": "Clause induk sudah lengkap? Cari pilihan berupa phrase (by/with + V-ing), bukan subject + verb baru.",
-   "tip_en": "Main clause already complete? Pick a phrase (by/with + V-ing), not a new subject + verb."
+   "analogy_id": "Mobilnya udah lengkap dan jalan. Rumpang ini cuma tempat nulis gaya nyetir (**by …**), bukan buat nambah mobil kedua.",
+   "analogy_en": "The car is complete and moving. This blank is just for the driving style (**by …**), not a second car.",
+   "tip_id": "Kalimat induk udah lengkap? Pilih phrase kayak **by/with + V-ing**, bukan pelaku + kata kerja baru.",
+   "tip_en": "Main clause already complete? Pick a phrase like **by/with + V-ing**, not a new subject + verb."
   },
   {
    "section": "structure",
@@ -652,22 +652,22 @@
     "S-ADJ-ADV"
    ],
    "difficulty": 1,
-   "why_correct_id": "Langkah 1: kata 'quick' menerangkan cara profesor berbicara, yaitu verb (kata kerja) 'spoke'. Langkah 2: yang menerangkan verb adalah adverb (kata keterangan), bukan adjective (kata sifat). Jadi 'quick' harus menjadi **quickly**.",
-   "why_correct_en": "Step 1: 'quick' describes how the professor spoke, which modifies the verb 'spoke'. Step 2: verbs are modified by adverbs, not adjectives, so 'quick' should be **quickly**.",
+   "why_correct_id": "**quick** nerangin cara profesor ngomong, alias nerangin kata kerja **spoke**. Yang nerangin kata kerja itu adverb (kata keterangan), bukan adjective (kata sifat). Jadi **quick** harus jadi **quickly**.",
+   "why_correct_en": "**quick** describes how the professor spoke, so it modifies the verb **spoke**. Verbs take adverbs, not adjectives. So **quick** should be **quickly**.",
    "why_wrong_id": {
-    "0": "Pola 'so + adverb + that' sudah benar.",
-    "2": "'many' + noun jamak 'students' sudah benar.",
-    "3": "Setelah modal 'could not' memakai V1 'follow'. Benar."
+    "0": "Pola **so + adverb + that** udah pas.",
+    "2": "**many** plus kata benda jamak **students**. Aman.",
+    "3": "Habis modal **could not** pakai V1 **follow**. Aman."
    },
    "why_wrong_en": {
-    "0": "The pattern 'so + adverb + that' is correct.",
-    "2": "'many' + plural 'students' is correct.",
-    "3": "After the modal 'could not' comes the base verb 'follow'. Correct."
+    "0": "The pattern **so + adverb + that** is correct.",
+    "2": "**many** plus plural **students**. Fine.",
+    "3": "After **could not** comes the base verb **follow**. Fine."
    },
-   "analogy_id": "Adjective itu cat mobil (menerangkan benda), adverb itu gaya menyetir (menerangkan cara mesin bekerja). 'Spoke' itu mesin, jadi butuh gaya menyetir: quickly.",
-   "analogy_en": "An adjective is the paint (describes things); an adverb is the driving style (describes how the engine runs). 'Spoke' is the engine, so it needs a style: quickly.",
-   "tip_id": "Kata setelah verb aksi yang menjelaskan 'bagaimana'? Biasanya harus berakhiran -ly.",
-   "tip_en": "A word after an action verb telling 'how'? It usually needs -ly."
+   "analogy_id": "Adjective itu cat mobil, nerangin benda. Adverb itu gaya nyetir, nerangin cara mesin jalan. **Spoke** itu mesinnya, jadi butuh gaya nyetir: **quickly**.",
+   "analogy_en": "An adjective is the paint, describing things. An adverb is the driving style, describing how the engine runs. **Spoke** is the engine, so it needs **quickly**.",
+   "tip_id": "Ada kata setelah kata kerja aksi yang ngejelasin bagaimana? Biasanya harus pakai -ly.",
+   "tip_en": "A word after an action verb telling how? It usually needs -ly."
   },
   {
    "section": "structure",
@@ -685,22 +685,22 @@
     "S-SV-CORE"
    ],
    "difficulty": 1,
-   "why_correct_id": "Langkah 1: subject (pelaku) kalimat ini adalah 'the old chemistry lab'. Langkah 2: 'it' mengulang subject yang sama, sehingga terjadi subject ganda. Hapus **it**: 'the old chemistry lab was completely renovated'.",
-   "why_correct_en": "Step 1: the subject is 'the old chemistry lab'. Step 2: 'it' repeats the same subject, creating a double subject. Delete **it**.",
+   "why_correct_id": "Pelaku kalimat ini **the old chemistry lab**. Terus muncul **it** yang ngulang pelaku yang sama. Nah, ini biang keroknya: pelakunya jadi dobel. Hapus **it**, jadi **the old chemistry lab was completely renovated**.",
+   "why_correct_en": "The subject is **the old chemistry lab**. Then **it** repeats the same subject. That's the culprit: a double subject. Drop **it**.",
    "why_wrong_id": {
-    "0": "'the' adalah article (kata sandang) yang tepat sebelum lab yang spesifik.",
-    "2": "'completely' adalah adverb (kata keterangan) yang menerangkan 'renovated'. Benar.",
-    "3": "'was renovated' adalah passive (be + V3). Benar karena lab direnovasi oleh orang lain."
+    "0": "**the** itu article (kata sandang) yang pas buat lab yang spesifik.",
+    "2": "**completely** itu adverb (kata keterangan) yang nerangin **renovated**. Aman.",
+    "3": "**was renovated** itu passive (be + V3). Pas, karena lab-nya direnovasi orang lain."
    },
    "why_wrong_en": {
-    "0": "'the' is the right article before a specific lab.",
-    "2": "'completely' is an adverb modifying 'renovated'. Correct.",
-    "3": "'was renovated' is a correct passive (be + V3): the lab was renovated by someone."
+    "0": "**the** is the right article for a specific lab.",
+    "2": "**completely** is an adverb modifying **renovated**. Fine.",
+    "3": "**was renovated** is a correct passive (be + V3). Someone renovated the lab."
    },
-   "analogy_id": "Satu mobil hanya punya satu kursi sopir. 'The old chemistry lab' sudah duduk di sana, jadi 'it' tidak punya tempat.",
-   "analogy_en": "A car has one driver's seat. 'The old chemistry lab' is already in it, so 'it' has nowhere to sit.",
-   "tip_id": "Lihat pronoun (it, they, he) tepat setelah noun subject? Hampir pasti itu kesalahan subject ganda.",
-   "tip_en": "See a pronoun (it, they, he) right after a noun subject? It's almost always a double-subject error."
+   "analogy_id": "Satu mobil cuma punya satu kursi sopir. **The old chemistry lab** udah duduk di situ, jadi **it** nggak kebagian tempat.",
+   "analogy_en": "A car has one driver's seat. **The old chemistry lab** is already in it, so **it** has nowhere to sit.",
+   "tip_id": "Lihat pronoun (kata ganti) kayak **it**, **they**, **he** pas setelah pelaku? Hampir pasti itu kesalahan pelaku dobel.",
+   "tip_en": "See a pronoun like **it**, **they**, **he** right after a noun subject? It's almost always a double subject."
   },
   {
    "section": "structure",
@@ -717,22 +717,22 @@
     "S-WORDCLASS"
    ],
    "difficulty": 2,
-   "why_correct_id": "Langkah 1: setelah preposition (kata depan) 'into' harus ada noun (kata benda). Langkah 2: 'electric' adalah adjective (kata sifat). Noun-nya adalah **electricity** (listrik).",
-   "why_correct_en": "Step 1: after the preposition 'into' you need a noun. Step 2: 'electric' is an adjective. The noun is **electricity**.",
+   "why_correct_id": "Habis preposition (kata depan) **into** harus ada noun (kata benda). Masalahnya, **electric** itu adjective (kata sifat). Kata bendanya **electricity**, listrik.",
+   "why_correct_en": "After the preposition **into** you need a noun. But **electric** is an adjective. The noun is **electricity**.",
    "why_wrong_id": {
-    "0": "Subject jamak 'Solar panels' + verb jamak 'convert'. Benar.",
-    "1": "'directly' adalah adverb (kata keterangan) yang menerangkan 'convert'. Benar.",
-    "3": "Setelah modal 'can' memakai V1 'power' (menyalakan). Benar."
+    "0": "Pelaku jamak **Solar panels** plus kata kerja jamak **convert**. Aman.",
+    "1": "**directly** itu adverb (kata keterangan) yang nerangin **convert**. Aman.",
+    "3": "Habis modal **can** pakai V1 **power**, nyalain. Aman."
    },
    "why_wrong_en": {
-    "0": "Plural 'Solar panels' + plural verb 'convert'. Correct.",
-    "1": "'directly' is an adverb modifying 'convert'. Correct.",
-    "3": "After the modal 'can' comes the base verb 'power'. Correct."
+    "0": "Plural **Solar panels** plus plural **convert**. Fine.",
+    "1": "**directly** is an adverb modifying **convert**. Fine.",
+    "3": "After **can** comes the base verb **power**. Fine."
    },
-   "analogy_id": "Preposition itu rambu yang selalu menunjuk ke sebuah benda. 'Into' menunjuk ke… harus benda, jadi 'electricity', bukan sifatnya.",
-   "analogy_en": "A preposition is a road sign that always points at a thing. 'Into' must point at a noun: 'electricity', not the adjective.",
-   "tip_id": "Setelah in/into/of/for/with harus ada noun. Cek akhiran kata: -ity, -tion, -ment biasanya noun.",
-   "tip_en": "After in/into/of/for/with you need a noun. Check endings: -ity, -tion, -ment are usually nouns."
+   "analogy_id": "Preposition itu rambu yang selalu nunjuk ke benda. **Into** harus nunjuk ke benda juga, jadi **electricity**, bukan sifatnya.",
+   "analogy_en": "A preposition is a road sign that always points at a thing. **Into** must point at a noun: **electricity**, not the adjective.",
+   "tip_id": "Habis **in**, **into**, **of**, **for**, **with** harus ada kata benda. Cek akhirannya: -ity, -tion, -ment biasanya kata benda.",
+   "tip_en": "After **in**, **into**, **of**, **for**, **with** you need a noun. Endings like -ity, -tion, -ment usually mark nouns."
   },
   {
    "section": "structure",
@@ -749,22 +749,22 @@
     "S-ADJ-ADV"
    ],
    "difficulty": 1,
-   "why_correct_id": "Langkah 1: 'regular' menerangkan seberapa sering mereka berlatih, yaitu menerangkan verb (kata kerja) 'practice'. Langkah 2: yang menerangkan verb adalah adverb (kata keterangan). Jadi 'regular' harus menjadi **regularly**.",
-   "why_correct_en": "Step 1: 'regular' describes how often they practice, so it modifies the verb 'practice'. Step 2: verbs take adverbs, so 'regular' should be **regularly**.",
+   "why_correct_id": "**regular** nerangin seberapa sering mereka latihan, alias nerangin kata kerja **practice**. Yang nerangin kata kerja itu adverb (kata keterangan). Jadi **regular** harus jadi **regularly**.",
+   "why_correct_en": "**regular** tells how often they practice, so it modifies the verb **practice**. Verbs take adverbs. So **regular** should be **regularly**.",
    "why_wrong_id": {
-    "0": "'students' adalah noun jamak yang tepat sebagai subject.",
-    "1": "Subject jamak 'The students' memakai verb tanpa -s: 'practice'. Benar. Frasa 'in the debate club' tidak mengubah subject.",
-    "3": "'before each competition' adalah keterangan waktu yang benar."
+    "0": "**students** itu kata benda jamak yang pas jadi pelaku.",
+    "1": "Pelaku jamak **The students** pakai kata kerja tanpa -s: **practice**. Aman. Frasa **in the debate club** nggak ngubah pelakunya.",
+    "3": "**before each competition** itu keterangan waktu yang pas."
    },
    "why_wrong_en": {
-    "0": "'students' is the correct plural subject.",
-    "1": "Plural 'The students' takes 'practice' without -s. Correct; 'in the debate club' doesn't change the subject.",
-    "3": "'before each competition' is a correct time phrase."
+    "0": "**students** is the right plural subject.",
+    "1": "Plural **The students** takes **practice** with no -s. Fine. **in the debate club** doesn't change the subject.",
+    "3": "**before each competition** is a correct time phrase."
    },
-   "analogy_id": "'Regular' itu cat, 'regularly' itu gaya menyetir. Yang dibicarakan di sini adalah cara latihan (gaya), bukan warna.",
-   "analogy_en": "'Regular' is paint; 'regularly' is driving style. We're talking about how they practice, not a colour.",
-   "tip_id": "Kata keterangan di akhir kalimat setelah verb aksi? Cek apakah butuh -ly.",
-   "tip_en": "A describing word after an action verb at the end? Check whether it needs -ly."
+   "analogy_id": "**Regular** itu cat, **regularly** itu gaya nyetir. Yang diomongin di sini cara latihannya, bukan warnanya.",
+   "analogy_en": "**Regular** is paint. **Regularly** is driving style. We're talking about how they practice, not a colour.",
+   "tip_id": "Ada kata penjelas di akhir kalimat setelah kata kerja aksi? Cek, butuh -ly nggak.",
+   "tip_en": "A describing word after an action verb at the end? Check if it needs -ly."
   },
   {
    "section": "structure",
@@ -781,22 +781,22 @@
     "S-SV-CORE"
    ],
    "difficulty": 2,
-   "why_correct_id": "Langkah 1: cari subject: 'Coffee plants'. Langkah 2: cari verb (kata kerja): hanya ada 'growing', dan V-ing tanpa auxiliary (kata kerja bantu) be bukan verb utama. Langkah 3: kalimat butuh verb ber-tense: **grow**.",
-   "why_correct_en": "Step 1: find the subject: 'Coffee plants'. Step 2: find the verb: only 'growing', and V-ing without 'be' isn't a main verb. Step 3: the sentence needs a tensed verb: **grow**.",
+   "why_correct_id": "Pelakunya **Coffee plants**. Kata kerjanya? Cuma ada **growing**, dan V-ing tanpa auxiliary (kata kerja bantu) be nggak bisa jadi kata kerja utama. Kalimatnya butuh kata kerja yang punya tense: **grow**.",
+   "why_correct_en": "The subject is **Coffee plants**. The verb? Only **growing**, and V-ing without **be** can't be the main verb. The sentence needs a tensed verb: **grow**.",
    "why_wrong_id": {
-    "1": "'in' adalah preposition (kata depan) yang tepat untuk wilayah.",
-    "2": "'high' adalah adjective (kata sifat) yang menerangkan 'regions'. Benar.",
-    "3": "'regions' adalah noun jamak yang benar setelah adjective."
+    "1": "**in** itu preposition (kata depan) yang pas buat wilayah.",
+    "2": "**high** itu adjective (kata sifat) yang nerangin **regions**. Aman.",
+    "3": "**regions** itu kata benda jamak yang pas setelah kata sifat."
    },
    "why_wrong_en": {
-    "1": "'in' is the right preposition for regions.",
-    "2": "'high' is an adjective describing 'regions'. Correct.",
-    "3": "'regions' is a correct plural noun after adjectives."
+    "1": "**in** is the right preposition for regions.",
+    "2": "**high** is an adjective describing **regions**. Fine.",
+    "3": "**regions** is a correct plural noun after the adjectives."
    },
-   "analogy_id": "V-ing tanpa 'be' itu mesin tanpa kunci kontak: terlihat seperti mesin, tetapi tidak bisa menyalakan mobil.",
-   "analogy_en": "V-ing without 'be' is an engine without an ignition key: it looks like an engine but can't start the car.",
-   "tip_id": "Kalimat tanpa verb ber-tense? Ubah V-ing menjadi bentuk present/past.",
-   "tip_en": "No tensed verb in the sentence? Change V-ing into a present or past form."
+   "analogy_id": "V-ing tanpa **be** itu mesin tanpa kunci kontak. Kelihatannya mesin, tapi nggak bisa nyalain mobil.",
+   "analogy_en": "V-ing without **be** is an engine with no ignition key. It looks like an engine but can't start the car.",
+   "tip_id": "Kalimat nggak punya kata kerja ber-tense? Ubah V-ing jadi bentuk present atau past.",
+   "tip_en": "No tensed verb in the sentence? Turn the V-ing into a present or past form."
   },
   {
    "section": "structure",
@@ -814,22 +814,22 @@
     "S-GERUND-INF"
    ],
    "difficulty": 2,
-   "why_correct_id": "Langkah 1: setelah 'to' di sini muncul infinitive (to + kata kerja dasar) yang menerangkan fungsi tempat: 'a place to …'. Langkah 2: 'relaxation' adalah noun (kata benda). Yang dibutuhkan adalah verb bentuk dasar: **relax**.",
-   "why_correct_en": "Step 1: 'a place to …' needs an infinitive (to + base verb) showing what the place is for. Step 2: 'relaxation' is a noun; you need the base verb **relax**.",
+   "why_correct_id": "**a place to …** butuh infinitive (to + kata kerja dasar) yang nerangin fungsi tempatnya. Masalahnya, **relaxation** itu noun (kata benda). Yang dibutuhin kata kerja dasar: **relax**.",
+   "why_correct_en": "**a place to …** needs an infinitive (to + base verb) showing what the place is for. **relaxation** is a noun. You need the base verb **relax**.",
    "why_wrong_id": {
-    "0": "'city's' adalah bentuk kepemilikan yang benar (taman milik kota).",
-    "1": "Subject jamak 'parks' + verb jamak 'provide'. Benar.",
-    "2": "'quiet' adalah adjective (kata sifat) yang menerangkan noun 'place'. Benar."
+    "0": "**city's** itu bentuk kepunyaan yang pas, taman punya kota.",
+    "1": "Pelaku jamak **parks** plus kata kerja jamak **provide**. Aman.",
+    "2": "**quiet** itu adjective (kata sifat) yang nerangin kata benda **place**. Aman."
    },
    "why_wrong_en": {
-    "0": "'city's' is a correct possessive.",
-    "1": "Plural 'parks' + plural 'provide'. Correct.",
-    "2": "'quiet' is an adjective describing the noun 'place'. Correct."
+    "0": "**city's** is a correct possessive.",
+    "1": "Plural **parks** plus plural **provide**. Fine.",
+    "2": "**quiet** is an adjective describing **place**. Fine."
    },
-   "analogy_id": "'a place to…' itu papan petunjuk 'tempat untuk…'. Lanjutannya harus kegiatan (relax), bukan nama benda (relaxation).",
-   "analogy_en": "'a place to…' is a signpost saying 'a place for doing…'. It needs an action (relax), not a thing (relaxation).",
-   "tip_id": "Pola noun + to + ___ biasanya butuh V1: a chance to win, a place to relax.",
-   "tip_en": "Pattern noun + to + ___ usually needs V1: a chance to win, a place to relax."
+   "analogy_id": "**a place to…** itu papan petunjuk tempat buat ngapain. Lanjutannya harus kegiatan (**relax**), bukan nama benda (**relaxation**).",
+   "analogy_en": "**a place to…** is a signpost saying a place for doing something. It needs an action (**relax**), not a thing (**relaxation**).",
+   "tip_id": "Pola kata benda + to + ___ biasanya butuh V1: **a chance to win**, **a place to relax**.",
+   "tip_en": "Noun + to + ___ usually needs V1: **a chance to win**, **a place to relax**."
   },
   {
    "section": "reading",
@@ -852,22 +852,22 @@
      ],
      "difficulty": 1,
      "evidence_quote": "Rooftop gardens are changing the way many cities use space that once sat empty.",
-     "why_correct_id": "Langkah 1: baca kalimat pertama paragraf pertama. Di sana penulis menyebut topik utama: rooftop gardens mengubah cara kota memakai ruang kosong. Langkah 2: paragraf berikutnya membahas manfaat, kegunaan untuk pangan, dan tantangannya. Jadi teks membahas pemanfaatan atap sebagai kebun beserta alasannya.",
-     "why_correct_en": "Step 1: read the first sentence of paragraph 1, which names the topic: rooftop gardens are changing how cities use empty space. Step 2: the following paragraphs cover benefits, food growing, and challenges. So the passage is about using rooftops as gardens and why.",
+     "why_correct_id": "Baca kalimat pertama paragraf 1. Di situ penulis nyebut topiknya: rooftop garden ngubah cara kota make ruang kosong. Paragraf berikutnya bahas manfaat, kebun buat pangan, dan tantangannya. Jadi teksnya soal atap yang dipakai jadi kebun, plus alasannya.",
+     "why_correct_en": "Read the first sentence of paragraph 1. It names the topic: rooftop gardens are changing how cities use empty space. Later paragraphs cover benefits, food, and challenges. So it's about rooftops as gardens and why.",
      "why_wrong_id": {
-      "0": "Harga tanah hanya disebut di paragraf 1 sebagai latar belakang. Terlalu sempit.",
-      "2": "Sayuran hanya disebut sekilas di paragraf 3, dan teks tidak membahas sayuran 'terbaik'.",
-      "3": "Banjir hanya satu manfaat kecil di paragraf 2. Terlalu sempit."
+      "0": "Harga tanah cuma latar belakang di paragraf 1. Kesempitan.",
+      "2": "Sayuran cuma lewat sekilas di paragraf 3, dan teks nggak pernah bahas sayuran terbaik.",
+      "3": "Banjir cuma satu manfaat kecil di paragraf 2. Kesempitan."
      },
      "why_wrong_en": {
       "0": "Land prices are just background in paragraph 1. Too narrow.",
-      "2": "Vegetables appear briefly in paragraph 3, and the 'best' ones are never discussed.",
+      "2": "Vegetables pop up briefly in paragraph 3, and the best ones are never discussed.",
       "3": "Flooding is one small benefit in paragraph 2. Too narrow."
      },
-     "analogy_id": "Main idea itu atap rumah: harus menaungi seluruh ruangan (semua paragraf), bukan hanya satu kamar.",
-     "analogy_en": "The main idea is the roof of a house: it must cover every room (every paragraph), not just one.",
-     "tip_id": "Pilihan main idea yang hanya cocok untuk satu paragraf biasanya jebakan 'terlalu sempit'.",
-     "tip_en": "A main-idea option that fits only one paragraph is usually a 'too narrow' trap."
+     "analogy_id": "Main idea itu atap rumah. Harus nutupin semua ruangan (semua paragraf), bukan cuma satu kamar.",
+     "analogy_en": "The main idea is the roof of a house. It has to cover every room, every paragraph, not just one.",
+     "tip_id": "Opsi main idea yang cuma cocok buat satu paragraf biasanya jebakan kesempitan.",
+     "tip_en": "A main-idea option that fits only one paragraph is usually a too-narrow trap."
     },
     {
      "type": "reading",
@@ -885,21 +885,21 @@
      ],
      "difficulty": 1,
      "evidence_quote": "Flat roofs, however, cover a surprisingly large share of most cities, and architects have begun to treat them as valuable ground",
-     "why_correct_id": "Langkah 1: cari noun (kata benda) jamak sebelum 'them'. Langkah 2: coba ganti 'them' dengan setiap pilihan: 'architects have begun to treat **flat roofs** as valuable ground'. Artinya pas: atap datar diperlakukan sebagai lahan berharga.",
-     "why_correct_en": "Step 1: find the plural nouns before 'them'. Step 2: substitute each option: 'architects have begun to treat **flat roofs** as valuable ground'. That makes sense.",
+     "why_correct_id": "Cari kata benda jamak sebelum **them**. Terus coba ganti **them** pakai tiap opsi: **architects have begun to treat flat roofs as valuable ground**. Pas: atap datar diperlakukan kayak lahan berharga.",
+     "why_correct_en": "Find the plural nouns before **them**. Swap in each option: **architects have begun to treat flat roofs as valuable ground**. That makes sense.",
      "why_wrong_id": {
-      "0": "'urban areas' ada di kalimat sebelumnya, tetapi arsitek tidak memperlakukan kawasan kota sebagai 'lahan berharga yang bukan permukaan terbuang'.",
-      "1": "'plants' terlalu jauh dan tidak cocok: tanaman bukan 'surface'.",
-      "3": "'architects' adalah subject yang melakukan tindakan; pronoun object 'them' tidak merujuk ke subject di clause yang sama."
+      "0": "**urban areas** memang ada di kalimat sebelumnya. Tapi arsitek nggak memperlakukan kawasan kota sebagai lahan berharga pengganti permukaan yang kebuang.",
+      "1": "**plants** kejauhan dan nggak cocok. Tanaman bukan permukaan.",
+      "3": "**architects** itu pelaku yang ngelakuin aksinya. Pronoun objek **them** nggak nunjuk balik ke pelaku di clause (anak kalimat) yang sama."
      },
      "why_wrong_en": {
-      "0": "'urban areas' is earlier, but architects aren't treating whole urban areas as 'valuable ground rather than wasted surface'.",
-      "1": "'plants' doesn't fit; plants aren't a 'surface'.",
-      "3": "'architects' is the subject doing the action; the object pronoun 'them' doesn't point back to it."
+      "0": "**urban areas** comes earlier, but architects aren't treating whole urban areas as valuable ground instead of wasted surface.",
+      "1": "**plants** doesn't fit. Plants aren't a surface.",
+      "3": "**architects** is the subject doing the action. The object pronoun **them** doesn't point back to it."
      },
-     "analogy_id": "Pronoun itu nama panggilan. Untuk tahu siapa yang dipanggil, coba panggil dengan nama asli satu per satu dan lihat siapa yang menoleh.",
-     "analogy_en": "A pronoun is a nickname. Try calling each real name and see who turns around.",
-     "tip_id": "Soal reference: ganti pronoun dengan setiap pilihan, lalu baca ulang kalimatnya.",
+     "analogy_id": "Pronoun (kata ganti) itu nama panggilan. Mau tahu siapa yang dipanggil? Panggil nama aslinya satu-satu, lihat siapa yang nengok.",
+     "analogy_en": "A pronoun is a nickname. Call each real name in turn and see who turns around.",
+     "tip_id": "Soal reference: ganti pronoun-nya pakai tiap opsi, terus baca ulang kalimatnya.",
      "tip_en": "Reference questions: swap the pronoun for each option and reread the sentence."
     },
     {
@@ -918,22 +918,22 @@
      ],
      "difficulty": 1,
      "evidence_quote": "Plants also capture rainwater that would otherwise rush into storm drains, which reduces the risk of flooding during heavy downpours.",
-     "why_correct_id": "Langkah 1: scanning kata kunci 'flooding' di teks. Ditemukan di paragraf 2. Langkah 2: kalimatnya menyebut tanaman menangkap air hujan yang kalau tidak ditangkap akan mengalir ke saluran air, sehingga risiko banjir berkurang.",
-     "why_correct_en": "Step 1: scan for 'flooding'; it's in paragraph 2. Step 2: that sentence says plants capture rainwater that would otherwise rush into storm drains, reducing flood risk.",
+     "why_correct_id": "Scanning kata kunci **flooding** di teks. Ketemu di paragraf 2. Kalimatnya bilang tanaman nangkep air hujan yang kalau dibiarin bakal ngalir ke saluran air. Jadi risiko banjir berkurang.",
+     "why_correct_en": "Scan for **flooding**. It's in paragraph 2. That sentence says plants capture rainwater that would otherwise rush into storm drains, so flood risk drops.",
      "why_wrong_id": {
-      "1": "Ini manfaat insulasi (penghematan energi), bukan pencegahan banjir.",
-      "2": "Ini manfaat bagi ekosistem, bukan pencegahan banjir.",
-      "3": "Teks justru menyebut lapisan kedap air untuk MENCEGAH air masuk ke ruangan."
+      "1": "Ini manfaat insulasi alias hemat energi, bukan pencegah banjir.",
+      "2": "Ini manfaat buat ekosistem, bukan pencegah banjir.",
+      "3": "Teks justru nyebut lapisan kedap air buat NCEGAH air masuk ke ruangan."
      },
      "why_wrong_en": {
       "1": "That's the insulation benefit, not flood prevention.",
       "2": "That's an ecosystem benefit, not flood prevention.",
-      "3": "The passage says waterproof layers PREVENT water from entering rooms."
+      "3": "The passage says waterproof layers STOP water from entering rooms."
      },
-     "analogy_id": "Scanning itu seperti mencari nama temanmu di daftar absen: matamu melompat langsung ke huruf depannya, tidak membaca semua nama.",
-     "analogy_en": "Scanning is like finding a friend's name on a register: your eyes jump to the first letter instead of reading every name.",
-     "tip_id": "Ambil satu kata kunci dari soal (flooding), cari di teks, lalu baca satu kalimat di sekitarnya.",
-     "tip_en": "Take one keyword from the question (flooding), find it, and read the sentence around it."
+     "analogy_id": "Scanning itu kayak nyari nama temanmu di daftar absen. Matamu langsung lompat ke huruf depannya, nggak baca semua nama.",
+     "analogy_en": "Scanning is like finding a friend on a register. Your eyes jump to the first letter instead of reading every name.",
+     "tip_id": "Ambil satu kata kunci dari soal, misalnya **flooding**. Cari di teks, terus baca satu kalimat di sekitarnya.",
+     "tip_en": "Grab one keyword from the question, like **flooding**. Find it and read the sentence around it."
     },
     {
      "type": "reading",
@@ -951,22 +951,22 @@
      ],
      "difficulty": 2,
      "evidence_quote": "Engineers must first confirm that a roof is strong enough to hold the considerable weight of wet soil, plants, and people.",
-     "why_correct_id": "Langkah 1: baca kalimatnya. Atap harus cukup kuat menahan beban tanah basah, tanaman, dan manusia. Langkah 2: beban yang membuat atap harus 'cukup kuat' tentu besar. Jadi 'considerable' berarti **large** (besar, cukup banyak).",
-     "why_correct_en": "Step 1: read the sentence: the roof must be strong enough to hold wet soil, plants, and people. Step 2: a load that requires a strong roof is big, so 'considerable' means **large**.",
+     "why_correct_id": "Baca kalimatnya. Atap harus cukup kuat nahan beban tanah basah, tanaman, dan orang. Beban yang bikin atap harus kuat ya pasti besar. Jadi **considerable** artinya **large**.",
+     "why_correct_en": "Read the sentence. The roof must be strong enough to hold wet soil, plants, and people. A load like that is big. So **considerable** means **large**.",
      "why_wrong_id": {
-      "0": "'dangerous' (berbahaya) tidak menggambarkan ukuran beban; kalimat menekankan seberapa berat.",
-      "1": "'uneven' (tidak rata) tidak cocok dengan 'strong enough to hold'.",
-      "2": "'unexpected' (tak terduga) tidak cocok karena insinyur justru memeriksanya sejak awal."
+      "0": "**dangerous** (berbahaya) nggak ngomongin ukuran beban. Kalimatnya nekenin seberapa berat.",
+      "1": "**uneven** (nggak rata) nggak nyambung sama **strong enough to hold**.",
+      "2": "**unexpected** (tak terduga) nggak cocok, karena insinyur justru ngecek dari awal."
      },
      "why_wrong_en": {
-      "0": "'dangerous' isn't about size; the sentence stresses how heavy it is.",
-      "1": "'uneven' doesn't fit 'strong enough to hold'.",
-      "2": "'unexpected' doesn't fit; engineers check it from the start."
+      "0": "**dangerous** isn't about size. The sentence stresses how heavy it is.",
+      "1": "**uneven** doesn't fit **strong enough to hold**.",
+      "2": "**unexpected** doesn't fit. Engineers check it from the start."
      },
-     "analogy_id": "Menebak arti kata dari konteks itu seperti menebak isi kado dari bentuk dan beratnya.",
+     "analogy_id": "Nebak arti kata dari konteks itu kayak nebak isi kado dari bentuk dan beratnya.",
      "analogy_en": "Guessing a word from context is like guessing a gift from its shape and weight.",
-     "tip_id": "Ganti kata yang ditanya dengan setiap pilihan; pilih yang membuat kalimat tetap logis.",
-     "tip_en": "Replace the word with each option and keep the one that still makes sense."
+     "tip_id": "Ganti kata yang ditanya pakai tiap opsi. Pilih yang bikin kalimatnya tetap masuk akal.",
+     "tip_en": "Swap the word for each option and keep the one that still makes sense."
     },
     {
      "type": "reading",
@@ -984,22 +984,22 @@
      ],
      "difficulty": 2,
      "evidence_quote": "Building a rooftop garden is not simple, however.",
-     "why_correct_id": "Langkah 1: kalimat pertama paragraf 4 adalah topic sentence: membangun rooftop garden tidak sederhana. Langkah 2: kalimat-kalimat berikutnya merinci syarat teknis: kekuatan atap, lapisan kedap air, sistem penyiraman. Jadi ide pokoknya adalah syarat teknis pembuatan kebun atap.",
-     "why_correct_en": "Step 1: the first sentence of paragraph 4 is the topic sentence: building a rooftop garden isn't simple. Step 2: the rest lists technical needs: roof strength, waterproofing, watering. So the paragraph is about technical requirements.",
+     "why_correct_id": "Kalimat pertama paragraf 4 itu topic sentence (kalimat utama): bikin rooftop garden itu nggak simpel. Kalimat-kalimat berikutnya ngerinci syarat teknisnya: kekuatan atap, lapisan kedap air, sistem siram. Jadi ide pokoknya syarat teknis bikin kebun atap.",
+     "why_correct_en": "The first sentence of paragraph 4 is the topic sentence: building a rooftop garden isn't simple. The rest lists technical needs: roof strength, waterproofing, watering. So it's about technical requirements.",
      "why_wrong_id": {
-      "0": "Teks tidak menyebut insinyur lebih suka atap tanpa tanaman; mereka hanya memeriksa kekuatannya.",
-      "2": "Keringanan pajak mengurangi biaya, tetapi teks tidak mengatakan kebun jadi gratis.",
+      "0": "Teks nggak bilang insinyur lebih suka atap tanpa tanaman. Mereka cuma ngecek kekuatannya.",
+      "2": "Keringanan pajak ngurangin biaya, tapi teks nggak bilang kebunnya jadi gratis.",
       "3": "Matahari terik disebut sebagai alasan perlu penyiraman, bukan ide utama paragraf."
      },
      "why_wrong_en": {
-      "0": "Engineers check the roof's strength; nothing says they prefer bare roofs.",
-      "2": "Tax reductions lower costs; the passage never says gardens become free.",
-      "3": "Strong sun explains the need for watering; it isn't the paragraph's main point."
+      "0": "Engineers check the roof's strength. Nothing says they prefer bare roofs.",
+      "2": "Tax reductions lower costs. The passage never says gardens become free.",
+      "3": "Strong sun explains the need for watering. It isn't the paragraph's main point."
      },
-     "analogy_id": "Topic sentence itu judul bab di daftar isi: memberi tahu isi seluruh paragraf sebelum kamu membaca detailnya.",
-     "analogy_en": "A topic sentence is a chapter title in the table of contents: it tells you what the paragraph covers before the details.",
-     "tip_id": "Main idea paragraf? Baca kalimat pertamanya dulu, lalu cek apakah kalimat lain mendukungnya.",
-     "tip_en": "Main idea of a paragraph? Read its first sentence, then check the others support it."
+     "analogy_id": "Topic sentence itu judul bab di daftar isi. Dia ngasih tahu isi paragraf sebelum kamu baca detailnya.",
+     "analogy_en": "A topic sentence is a chapter title in the contents. It tells you what's coming before the details.",
+     "tip_id": "Main idea paragraf? Baca kalimat pertamanya dulu, terus cek kalimat lain ndukung nggak.",
+     "tip_en": "Main idea of a paragraph? Read its first sentence, then check the rest supports it."
     }
    ]
   },
@@ -1024,22 +1024,22 @@
      ],
      "difficulty": 1,
      "evidence_quote": "Scientists have discovered that sleep plays an active role in turning new information into lasting memories.",
-     "why_correct_id": "Langkah 1: kalimat pertama teks menyebut gagasan utama: tidur berperan aktif mengubah informasi baru menjadi ingatan jangka panjang. Langkah 2: semua paragraf berikutnya (proses di otak, eksperimen, keterampilan, saran belajar) mendukung gagasan ini.",
-     "why_correct_en": "Step 1: the first sentence states the main idea: sleep actively turns new information into lasting memories. Step 2: every later paragraph (brain process, experiments, skills, study advice) supports it.",
+     "why_correct_id": "Kalimat pertama teks udah nyebut gagasan utamanya: tidur berperan aktif ngubah info baru jadi ingatan jangka panjang. Semua paragraf berikutnya ndukung gagasan ini: proses di otak, eksperimen, keterampilan, dan saran belajar.",
+     "why_correct_en": "The first sentence states the main idea: sleep actively turns new information into lasting memories. Every later paragraph supports it: the brain process, experiments, skills, study advice.",
      "why_wrong_id": {
-      "0": "Hippocampus hanya bagian dari penjelasan di paragraf 2. Terlalu sempit.",
-      "1": "Teks tidak mengatakan mahasiswa lebih suka belajar malam; teks justru menyarankan tidak begadang.",
-      "3": "Musisi hanya contoh di paragraf 4. Terlalu sempit."
+      "0": "Hippocampus cuma bagian dari penjelasan di paragraf 2. Kesempitan.",
+      "1": "Teks nggak bilang mahasiswa lebih suka belajar malam. Teks malah nyaranin jangan begadang.",
+      "3": "Musisi cuma contoh di paragraf 4. Kesempitan."
      },
      "why_wrong_en": {
       "0": "The hippocampus is only part of paragraph 2. Too narrow.",
-      "1": "The passage never says students prefer night study; it advises against all-nighters.",
+      "1": "The passage never says students prefer studying at night. It advises against all-nighters.",
       "3": "Musicians are just an example in paragraph 4. Too narrow."
      },
-     "analogy_id": "Main idea itu payung besar. Contoh dan detail adalah orang-orang yang berteduh di bawahnya.",
-     "analogy_en": "The main idea is a big umbrella; examples and details are the people sheltering under it.",
-     "tip_id": "Pilihan yang menyebut contoh spesifik (musisi, hippocampus) biasanya bukan main idea.",
-     "tip_en": "Options naming a specific example (musicians, hippocampus) are usually not the main idea."
+     "analogy_id": "Main idea itu payung besar. Contoh dan detail itu orang-orang yang neduh di bawahnya.",
+     "analogy_en": "The main idea is a big umbrella. Examples and details are the people sheltering under it.",
+     "tip_id": "Opsi yang nyebut contoh spesifik kayak musisi atau hippocampus biasanya bukan main idea.",
+     "tip_en": "Options naming a specific example, like musicians or the hippocampus, usually aren't the main idea."
     },
     {
      "type": "reading",
@@ -1057,22 +1057,22 @@
      ],
      "difficulty": 1,
      "evidence_quote": "This storage is fragile; without further processing, much of the information fades within days.",
-     "why_correct_id": "Langkah 1: setelah titik koma ada penjelasan: tanpa pemrosesan lanjut, banyak informasi memudar dalam beberapa hari. Langkah 2: penyimpanan yang mudah memudar berarti mudah hilang. Jadi 'fragile' = **easily lost**.",
-     "why_correct_en": "Step 1: after the semicolon comes an explanation: without more processing, much of the information fades within days. Step 2: storage that fades easily is easily lost. So 'fragile' = **easily lost**.",
+     "why_correct_id": "Habis titik koma ada penjelasannya: tanpa diproses lagi, banyak info memudar dalam beberapa hari. Penyimpanan yang gampang pudar berarti gampang hilang. Jadi **fragile** artinya **easily lost**.",
+     "why_correct_en": "After the semicolon comes the explanation: without more processing, much of the information fades within days. Storage that fades easily is easily lost. So **fragile** means **easily lost**.",
      "why_wrong_id": {
-      "1": "Ukuran penyimpanan tidak dibahas; yang dibahas daya tahannya.",
-      "2": "'well organized' (tertata) bertentangan dengan informasi yang memudar.",
-      "3": "'repeated' mengacu pada proses 'replay' saat tidur, bukan sifat penyimpanan siang hari."
+      "1": "Ukuran penyimpanan nggak dibahas. Yang dibahas daya tahannya.",
+      "2": "**well organized** (tertata) bentrok sama info yang memudar.",
+      "3": "**repeated** ngacu ke proses replay pas tidur, bukan sifat penyimpanan siang hari."
      },
      "why_wrong_en": {
-      "1": "Size isn't discussed; durability is.",
-      "2": "'well organized' clashes with information that fades.",
-      "3": "'repeated' echoes the night-time 'replay', not the daytime storage."
+      "1": "Size isn't discussed. How long it lasts is.",
+      "2": "**well organized** clashes with information that fades.",
+      "3": "**repeated** echoes the night-time replay, not the daytime storage."
      },
-     "analogy_id": "Titik koma (;) itu seperti tanda '= artinya'. Kalimat setelahnya sering menjelaskan kata sulit sebelumnya.",
-     "analogy_en": "A semicolon often works like 'which means': the next clause explains the hard word.",
-     "tip_id": "Cari petunjuk di sekitar kata: titik koma, 'that is', 'such as', atau kalimat sesudahnya.",
-     "tip_en": "Look for clues near the word: a semicolon, 'that is', 'such as', or the next sentence."
+     "analogy_id": "Titik koma (;) itu sering kayak tanda sama dengan. Kalimat sesudahnya biasanya ngejelasin kata sulit sebelumnya.",
+     "analogy_en": "A semicolon often works like which means. The next part explains the hard word.",
+     "tip_id": "Cari petunjuk di sekitar kata: titik koma, **that is**, **such as**, atau kalimat sesudahnya.",
+     "tip_en": "Look for clues near the word: a semicolon, **that is**, **such as**, or the next sentence."
     },
     {
      "type": "reading",
@@ -1090,22 +1090,22 @@
      ],
      "difficulty": 1,
      "evidence_quote": "When both groups were tested the next day, the students who had slept remembered significantly more pairs.",
-     "why_correct_id": "Langkah 1: cari kata kunci 'slept' di paragraf 3. Langkah 2: kalimatnya menyebut mahasiswa yang tidur mengingat jauh lebih banyak pasangan kata saat diuji keesokan harinya.",
-     "why_correct_en": "Step 1: find 'slept' in paragraph 3. Step 2: the sentence says the students who slept remembered significantly more pairs when tested the next day.",
+     "why_correct_id": "Cari kata kunci **slept** di paragraf 3. Kalimatnya bilang mahasiswa yang tidur ingat jauh lebih banyak pasangan kata pas dites besoknya.",
+     "why_correct_en": "Find **slept** in paragraph 3. The sentence says the students who slept remembered significantly more pairs when tested the next day.",
      "why_wrong_id": {
-      "0": "Kedua kelompok belajar dengan cara sama pada malam hari; kecepatan belajar tidak dibandingkan.",
-      "1": "Tidur siang (nap) adalah temuan tambahan, bukan yang dilakukan kelompok dalam studi itu.",
-      "2": "Ujian dilakukan keesokan harinya, bukan sebelum tidur."
+      "0": "Dua kelompok belajar dengan cara yang sama di malam hari. Kecepatan belajar nggak dibandingin.",
+      "1": "Tidur siang (**nap**) itu temuan tambahan, bukan yang dilakuin kelompok di studi itu.",
+      "2": "Tesnya besok harinya, bukan sebelum tidur."
      },
      "why_wrong_en": {
-      "0": "Both groups studied the same way in the evening; learning speed isn't compared.",
-      "1": "The nap is an extra finding, not what this group did.",
+      "0": "Both groups studied the same way in the evening. Learning speed isn't compared.",
+      "1": "The **nap** is an extra finding, not what this group did.",
       "2": "The test was the next day, not before bed."
      },
-     "analogy_id": "Soal detail itu seperti mencari barang di lemari yang kamu tahu letaknya: buka laci yang tepat (paragraf 3), ambil barangnya.",
-     "analogy_en": "A detail question is like fetching something from a cupboard you know: open the right drawer (paragraph 3) and take it out.",
-     "tip_id": "Soal detail menyebut paragraf? Langsung ke paragraf itu, jangan baca ulang seluruh teks.",
-     "tip_en": "If the question names a paragraph, go straight there; don't reread everything."
+     "analogy_id": "Soal detail itu kayak ngambil barang di lemari yang kamu tahu letaknya. Buka laci yang pas (paragraf 3), ambil barangnya.",
+     "analogy_en": "A detail question is like grabbing something from a cupboard you know. Open the right drawer, paragraph 3, and take it.",
+     "tip_id": "Soal detail nyebut paragraf? Langsung ke paragraf itu. Nggak usah baca ulang semuanya.",
+     "tip_en": "If the question names a paragraph, go straight there. Don't reread everything."
     },
     {
      "type": "reading",
@@ -1123,22 +1123,22 @@
      ],
      "difficulty": 2,
      "evidence_quote": "Researchers believe that during sleep the brain strengthens the connections it used while practicing.",
-     "why_correct_id": "Langkah 1: 'it' adalah subject dari 'used while practicing' (memakai saat berlatih). Langkah 2: yang memakai koneksi saat berlatih adalah otak. Coba ganti: 'the connections **the brain** used while practicing'. Cocok.",
-     "why_correct_en": "Step 1: 'it' is the subject of 'used while practicing'. Step 2: what used the connections while practicing? The brain. Try it: 'the connections **the brain** used while practicing'. It fits.",
+     "why_correct_id": "**it** itu pelaku dari **used while practicing**, yang make koneksi pas latihan. Yang make koneksi pas latihan ya otak. Coba ganti: **the connections the brain used while practicing**. Pas.",
+     "why_correct_en": "**it** is the subject of **used while practicing**. What used the connections while practicing? The brain. Try it: **the connections the brain used while practicing**. It fits.",
      "why_wrong_id": {
-      "0": "'the passage' (bagian lagu) adalah yang dimainkan, bukan yang memakai koneksi.",
-      "2": "'sleep' adalah waktu terjadinya penguatan, bukan yang berlatih.",
-      "3": "'the morning' tidak bisa memakai koneksi saat berlatih."
+      "0": "**the passage** (bagian lagu) itu yang dimainin, bukan yang make koneksi.",
+      "2": "**sleep** itu waktu penguatannya terjadi, bukan yang latihan.",
+      "3": "**the morning** nggak mungkin make koneksi pas latihan."
      },
      "why_wrong_en": {
-      "0": "'the passage' (of music) is what's played, not what uses connections.",
-      "2": "'sleep' is when the strengthening happens, not what practiced.",
-      "3": "'the morning' can't use connections while practicing."
+      "0": "**the passage** of music is what's played, not what uses connections.",
+      "2": "**sleep** is when the strengthening happens, not what practiced.",
+      "3": "**the morning** can't use connections while practicing."
      },
-     "analogy_id": "Pronoun 'it' itu bayangan: selalu menempel pada benda yang paling masuk akal di dekatnya.",
-     "analogy_en": "The pronoun 'it' is a shadow: it sticks to the most sensible noun nearby.",
-     "tip_id": "Pronoun biasanya merujuk ke subject clause yang sama atau sebelumnya. Uji dengan substitusi.",
-     "tip_en": "A pronoun usually points to a subject in the same or previous clause. Test by substitution."
+     "analogy_id": "Pronoun **it** itu bayangan. Selalu nempel ke benda yang paling masuk akal di dekatnya.",
+     "analogy_en": "The pronoun **it** is a shadow. It sticks to the most sensible noun nearby.",
+     "tip_id": "Pronoun biasanya nunjuk ke pelaku di clause (anak kalimat) yang sama atau sebelumnya. Uji pakai substitusi.",
+     "tip_en": "A pronoun usually points to a subject in the same or previous clause. Test by swapping it in."
     },
     {
      "type": "reading",
@@ -1156,22 +1156,22 @@
      ],
      "difficulty": 3,
      "evidence_quote": "Staying up all night before an examination may provide extra hours for reading, but it also removes the very process that helps the information stick.",
-     "why_correct_id": "Langkah 1: kalimat bukti menyebut begadang menghilangkan proses yang membantu informasi 'menempel' (diingat). Langkah 2: jika proses mengingat hilang, maka jumlah yang diingat bisa berkurang. Inilah makna tersirat yang tidak ditulis langsung.",
-     "why_correct_en": "Step 1: the evidence says an all-nighter removes the process that makes information stick. Step 2: without that process, a student may remember less. That's the unstated implication.",
+     "why_correct_id": "Kalimat buktinya bilang begadang ngilangin proses yang bikin info nempel di ingatan. Kalau proses itu hilang, jumlah yang diingat bisa berkurang. Ini makna tersirat yang nggak ditulis langsung.",
+     "why_correct_en": "The evidence says an all-nighter removes the process that makes information stick. Without it, a student may remember less. That's the unstated implication.",
      "why_wrong_id": {
-      "0": "Teks justru mengatakan jadwal tidur teratur lebih baik daripada begadang.",
-      "1": "Musisi tidak disebut di paragraf terakhir dan begadang tidak dianjurkan untuk siapa pun.",
-      "3": "Begadang berarti tidak tidur, jadi tidak mungkin meningkatkan kualitas tidur."
+      "0": "Teks malah bilang jadwal tidur teratur lebih oke daripada begadang.",
+      "1": "Musisi nggak disebut di paragraf terakhir, dan begadang nggak dianjurin buat siapa pun.",
+      "3": "Begadang artinya nggak tidur. Mana mungkin bikin kualitas tidur naik."
      },
      "why_wrong_en": {
       "0": "The passage says a regular sleep schedule beats cramming all night.",
       "1": "Musicians aren't in the last paragraph, and all-nighters aren't recommended for anyone.",
       "3": "Staying up means not sleeping, so it can't improve sleep quality."
      },
-     "analogy_id": "Inferensi itu seperti melihat payung basah di depan pintu: tidak ada yang bilang hujan, tapi kamu bisa menyimpulkannya.",
-     "analogy_en": "Inference is seeing a wet umbrella by the door: nobody said it rained, but you can tell.",
-     "tip_id": "Jawaban inferensi harus didukung teks, tidak ditulis persis, dan tidak bertentangan dengan teks.",
-     "tip_en": "An inference answer is supported by the text, not stated word for word, and never contradicts it."
+     "analogy_id": "Inferensi (menyimpulkan) itu kayak lihat payung basah di depan pintu. Nggak ada yang bilang hujan, tapi kamu bisa nebak.",
+     "analogy_en": "Inference is spotting a wet umbrella by the door. Nobody said it rained, but you can tell.",
+     "tip_id": "Jawaban inferensi harus didukung teks, nggak ditulis persis, dan nggak bertentangan sama teks.",
+     "tip_en": "An inference answer is backed by the text, not stated word for word, and never contradicts it."
     }
    ]
   }

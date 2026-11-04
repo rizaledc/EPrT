@@ -182,6 +182,37 @@ final class ContentImporter
         $walk($data, '');
     }
 
+    /** Field pembahasan yang tidak boleh memakai tanda kutip sebagai penanda kata. */
+    private const EXPLAIN_FIELDS = ['why_correct_id', 'why_correct_en', 'why_wrong_id', 'why_wrong_en', 'analogy_id', 'analogy_en', 'tip_id', 'tip_en', 'liaison_note'];
+
+    /**
+     * Tolak 'kata', "kata", ‘kata’, “kata” sebagai penanda di pembahasan; pakai **kata**.
+     * Apostrof di dalam kata Inggris (I'm, didn't, students') tetap boleh.
+     */
+    public static function quoteMarkers(string $s): array
+    {
+        $re = '/(?<![\p{L}\p{N}])([\'"\x{2018}\x{201C}])(?=\S)([^\'"\x{2018}\x{2019}\x{201C}\x{201D}\n]{1,80}?)(?<=\S)([\'"\x{2019}\x{201D}])(?![\p{L}\p{N}])/u';
+        preg_match_all($re, $s, $m);
+        return $m[0] ?? [];
+    }
+
+    private function checkQuotes(array $flatQuestions, string $label): void
+    {
+        foreach ($flatQuestions as $q) {
+            foreach (self::EXPLAIN_FIELDS as $f) {
+                $vals = isset($q[$f]) ? (is_array($q[$f]) ? $q[$f] : [$q[$f]]) : [];
+                foreach ($vals as $k => $v) {
+                    if (!is_string($v)) continue;
+                    $hits = self::quoteMarkers($v);
+                    if ($hits) {
+                        $where = is_array($q[$f]) ? "$f.$k" : $f;
+                        $this->errors[] = "$label no " . ($q['number'] ?? '?') . " ({$q['section']}): tanda kutip sebagai penanda kata di $where: " . implode(' ', array_slice($hits, 0, 3)) . ' (pakai **kata**)';
+                    }
+                }
+            }
+        }
+    }
+
     private function validateMeta(array $rumahs, array $glossary): void
     {
         $this->checkDashes($rumahs, 'rumahs.json');
@@ -247,6 +278,7 @@ final class ContentImporter
         $this->checkDashes($data, $label);
         $flat = $this->normalize($slug, $items, $label);
         $this->validateRumah($slug, $flat, $label);
+        $this->checkQuotes($flat['questions'], $label);
         if ($validateOnly || count($this->errors) > $errBefore) {
             return count($flat['questions']);
         }

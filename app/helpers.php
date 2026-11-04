@@ -388,6 +388,13 @@ function lang_strings(string $l): array
     return $cache[$l];
 }
 
+/** Daftar string terjemahan (mis. pilihan verdict acak). */
+function t_list(string $key): array
+{
+    $s = lang_strings(active_lang())[$key] ?? lang_strings('id')[$key] ?? [];
+    return is_array($s) ? $s : [$s];
+}
+
 function t(string $key, array $vars = []): string
 {
     $l = active_lang();

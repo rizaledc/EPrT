@@ -989,3 +989,27 @@ code, .mono, .admin-main td, .admin-main p { overflow-wrap: anywhere; }
   .tabs { gap: 0; }
   .tabs a { flex: 1 1 0; text-align: center; white-space: normal; padding: 12px 8px; }
 }
+
+
+/* ==========================================================
+   Kartu pembahasan v2: highlight kata, lingkaran huruf, badge Pilihanmu
+   ========================================================== */
+.explain-body { gap: 20px; }
+.explain-body .ex-sec > h4 { margin-bottom: 10px; }
+.explain-body .ex-text > * + * { margin-top: 10px; }
+.explain-body :is(.ex-text, .why-wrong, .analogy, .tip, .liaison) strong { background: var(--pink-100); color: var(--ink-900); font-weight: 700; padding: 1px 4px; border-radius: 6px; -webkit-box-decoration-break: clone; box-decoration-break: clone; }
+.explain-body .analogy strong { background: #fff; }
+.explain-body .why-wrong { gap: 10px; }
+.explain-body .why-wrong li { gap: 14px; padding: 14px 16px; align-items: flex-start; }
+.explain-body .why-wrong li.chosen { background: #fff; outline: 0; border: 1.5px solid var(--bad); }
+.explain.is-correct .why-wrong li.chosen { border-color: var(--good); }
+.explain-body .why-wrong .letter { width: 28px; height: 28px; font-size: 13px; margin-top: 1px; background: #fff; }
+.explain-body .why-wrong li.chosen .letter { background: var(--bad); border-color: var(--bad); color: #fff; }
+.explain-body .ww-body { min-width: 0; flex: 1; }
+.explain-body .ww-body p { margin: 0; }
+.pick-badge { display: inline-block; margin: 2px 0 8px; padding: 3px 10px; border-radius: var(--r-pill); background: var(--bad-100); color: #8c2b17; font-size: 12px; font-weight: 700; letter-spacing: .04em; text-transform: uppercase; }
+.explain-body .tag-chips .chip { text-transform: none; letter-spacing: 0; font-size: 14px; }
+@media (max-width: 640px) {
+  .explain-body { padding: 4px 20px 22px; gap: 16px; }
+  .explain-body .why-wrong li { padding: 14px; gap: 12px; }
+}

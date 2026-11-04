@@ -2,14 +2,14 @@
  {
   "code": "S-SV-CORE",
   "section": "structure",
-  "name_id": "Kalimat wajib punya subject + verb",
+  "name_id": "Subject + verb harus ada",
   "name_en": "Every clause needs a subject and a verb",
   "glossary_slug": "subject"
  },
  {
   "code": "S-WORDCLASS",
   "section": "structure",
-  "name_id": "Kelas kata di posisi yang tepat",
+  "name_id": "Jenis kata di posisi yang pas",
   "name_en": "The right part of speech in the right slot",
   "glossary_slug": "noun"
  },
@@ -23,7 +23,7 @@
  {
   "code": "S-AGREE",
   "section": "structure",
-  "name_id": "Kecocokan subject-verb",
+  "name_id": "Subject dan verb harus cocok",
   "name_en": "Subject-verb agreement",
   "glossary_slug": "subject-verb-agreement"
  },
@@ -170,14 +170,14 @@
  {
   "code": "S-PRONOUN",
   "section": "structure",
-  "name_id": "Bentuk & rujukan pronoun",
+  "name_id": "Bentuk dan rujukan pronoun",
   "name_en": "Pronoun form & reference",
   "glossary_slug": "pronoun"
  },
  {
   "code": "S-PREPOSITION",
   "section": "structure",
-  "name_id": "Preposition yang tepat",
+  "name_id": "Pilih preposition yang pas",
   "name_en": "Choosing the preposition",
   "glossary_slug": "preposition"
  },
@@ -191,7 +191,7 @@
  {
   "code": "S-REDUNDANT",
   "section": "structure",
-  "name_id": "Kata berlebih / subject ganda",
+  "name_id": "Kata dobel / subject ganda",
   "name_en": "Redundancy & double subjects",
   "glossary_slug": "redundancy"
  },

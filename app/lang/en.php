@@ -188,12 +188,12 @@ return [
     'sample.title' => 'Sample House', 'sample.meta' => 'Try 10 mixed Listening, Structure, and Reading questions with full explanations, no sign-up needed.',
     'sample.mixed' => 'Mixed',
 
-    'explain.label' => 'Explanation', 'explain.correct' => 'Correct. Here\'s why',
-    'explain.wrong' => 'Not quite. The answer is {letter}', 'explain.blank' => 'Not answered · the answer is {letter}',
-    'explain.your_choice' => 'Why your choice ({letter}) is wrong',
-    'explain.why_correct' => 'Why {letter} is correct', 'explain.why_correct_yes' => 'Why this answer is correct',
-    'explain.why_wrong' => 'Why the other options are wrong', 'explain.your_pick' => 'Your pick',
-    'explain.analogy' => 'Analogy', 'explain.rule' => 'Rule', 'explain.tip' => 'Quick test tip',
+    'explain.label' => 'Explanation',
+    'explain.verdict_ok' => ['Nice one!', 'Nailed it!', 'Spot on!', 'You got it!', 'That\'s the one!'],
+    'explain.verdict_no' => ['Not quite, the answer is {letter}.', 'No worries, mistakes are how you learn. It\'s {letter}.', 'So close! The answer is {letter}.'],
+    'explain.blank' => 'Skipped this one. The answer is {letter}.',
+    'explain.why_correct' => 'Why it\'s {letter}', 'explain.why_wrong' => 'The other options', 'explain.your_pick' => 'Your pick', 'explain.option' => 'Option',
+    'explain.analogy' => 'Think of it like this', 'explain.rule' => 'Rule', 'explain.tip' => 'Quick trick',
     'explain.transcript' => 'Transcript', 'explain.key_sentence' => 'Key sentence', 'explain.translation' => 'Translation',
     'explain.evidence' => 'Evidence in the passage',
 
