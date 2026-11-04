@@ -29,6 +29,15 @@ final class ApiController
         json_response($res, $res['ok'] ? 200 : 422);
     }
 
+    public function audioPlayed(): void
+    {
+        $u = $this->apiUser();
+        $b = json_body();
+        $a = Practice::ownedAttempt((int) ($b['attempt_id'] ?? 0), $u);
+        $res = Practice::markAudioPlayed($a, (int) ($b['question_id'] ?? 0));
+        json_response($res, $res['ok'] ? 200 : 422);
+    }
+
     public function flag(): void
     {
         $u = $this->apiUser();

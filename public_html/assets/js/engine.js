@@ -32,7 +32,7 @@ if (cfg && root) {
 
   const S = {
     questions: [], passages: {}, answers: {}, idx: 0, attempt: null,
-    qStart: performance.now(), audioMissing: {}, playedTalk: new Set(), busy: false,
+    qStart: performance.now(), audioMissing: {}, playedTalk: new Set(), busy: false, played: new Set(), retried: {}, retryFor: null,
     remaining: null, practiceLeft: null, rate: 1, playToken: 0, finished: false, started: false,
   };
 
@@ -55,11 +55,19 @@ if (cfg && root) {
       S.passages = data.passages || {};
       S.answers = Array.isArray(data.answers) ? {} : (data.answers || {});
       S.remaining = data.attempt.remaining_s;
+      // Audio yang sudah diputar (dari server): berlaku juga setelah reload, tab baru, atau lanjut sesi
+      (data.audio_played || []).forEach((id) => S.played.add(Number(id)));
       if (data.attempt.finished) { location.href = cfg.exitUrl; return; }
       if (!S.questions.length) { el.loading.textContent = T('session.loading'); return; }
       const firstOpen = S.questions.findIndex((q) => !isAnswered(q));
       S.idx = firstOpen === -1 ? S.questions.length - 1 : firstOpen;
-      showStart(firstOpen > 0);
+      if (isSim && S.attempt.section === 'listening') {
+        // Simulasi Listening maju saja: lanjut dari soal terakhir yang audionya sudah diputar
+        let last = -1;
+        S.questions.forEach((q, i) => { if (S.played.has(q.id)) last = i; });
+        if (last >= 0) S.idx = isAnswered(S.questions[last]) ? Math.min(last + 1, S.questions.length - 1) : last;
+      }
+      showStart(S.idx > 0);
     } catch (e) {
       el.loading.textContent = T('session.offline');
     }
@@ -201,13 +209,30 @@ if (cfg && root) {
       el.audio.hidden = false;
       el.speed.hidden = isSim;
       el.replay.hidden = true;
+      el.replay.innerHTML = replayLabel;
+      if (S.retryFor !== q.id) S.retryFor = null;
       el.readTranscript.hidden = true;
       el.countdown.hidden = true;
-      if (!isAnswered(q) || isSim) playFor(q, false);
-      else { el.audioStatus.textContent = T('session.audio_done'); el.replay.hidden = false; }
+      if (!wasPlayed(q)) playFor(q, false);
+      else {
+        // Sudah diputar: tidak ada autoplay. Putar ulang hanya di Latihan dan hanya setelah dijawab.
+        el.audioStatus.textContent = T('session.audio_played');
+        if (!isSim && isAnswered(q)) el.replay.hidden = false;
+        if (isSim) simCountdown(q);
+      }
     } else {
       el.audio.hidden = true;
     }
+  }
+
+  // Soal yang sudah dijawab dianggap sudah diputar (juga untuk percobaan lama sebelum status audio dicatat)
+  const wasPlayed = (q) => S.played.has(q.id) || isAnswered(q);
+  const groupPlayed = (pid) => S.questions.some((x) => x.passage === pid && wasPlayed(x));
+  function markPlayed(q) {
+    if (S.played.has(q.id)) return;
+    S.played.add(q.id);
+    if (isSample || !cfg.endpoints.audioPlayed) return;
+    apiRetry(cfg.endpoints.audioPlayed, { attempt_id: cfg.attemptId, question_id: q.id }).catch(() => { /* status lokal tetap berlaku */ });
   }
 
   function isLocked(q) {
@@ -239,6 +264,8 @@ if (cfg && root) {
 
   function go(i) {
     if (i < 0 || i >= S.questions.length) return;
+    // Simulasi Listening: tidak bisa kembali ke soal yang sudah lewat
+    if (isSim && cur() && cur().section === 'listening' && i < S.idx) return;
     S.idx = i;
     render();
     window.scrollTo({ top: 0, behavior: 'smooth' });
@@ -261,7 +288,7 @@ if (cfg && root) {
         if (r.remaining_s !== undefined && r.remaining_s !== null) S.remaining = r.remaining_s;
       } catch (e) {
         if (e.data && e.data.redirect) { location.href = e.data.redirect; return; }
-        if (!(e.data && e.data.error === 'locked')) toast(T('session.save_error'), 'error');
+        if (!(e.data && (e.data.error === 'locked' || e.data.error === 'passed'))) toast(T('session.save_error'), 'error');
       }
       return;
     }
@@ -433,15 +460,16 @@ if (cfg && root) {
     el.countdown.hidden = true;
   }
 
-  function playUrl(url, token) {
+  function playUrl(url, token, onStart) {
     return new Promise((resolve, reject) => {
       if (token !== S.playToken) return resolve();
       audioEl.src = url;
+      if (onStart) audioEl.addEventListener('playing', onStart, { once: true });
       audioEl.playbackRate = isSim ? 1 : S.rate;
       try { audioEl.preservesPitch = true; audioEl.mozPreservesPitch = true; audioEl.webkitPreservesPitch = true; } catch { /* abaikan */ }
       const done = () => { cleanup(); resolve(); };
       const fail = () => { cleanup(); reject(new Error('audio')); };
-      const cleanup = () => { audioEl.removeEventListener('ended', done); audioEl.removeEventListener('error', fail); };
+      const cleanup = () => { audioEl.removeEventListener('ended', done); audioEl.removeEventListener('error', fail); if (onStart) audioEl.removeEventListener('playing', onStart); };
       audioEl.addEventListener('ended', done);
       audioEl.addEventListener('error', fail);
       const pr = audioEl.play();
@@ -449,7 +477,7 @@ if (cfg && root) {
     });
   }
 
-  function speak(text, g, n, token) {
+  function speak(text, g, n, token, onStart) {
     return new Promise((resolve, reject) => {
       if (token !== S.playToken) return resolve();
       if (!('speechSynthesis' in window)) return reject(new Error('tts'));
@@ -460,6 +488,7 @@ if (cfg && root) {
       u.rate = isSim ? 1 : S.rate;
       u.pitch = g === 'f' ? 1.05 : 0.95;
       let finished = false;
+      if (onStart) u.onstart = onStart;
       const end = () => { if (!finished) { finished = true; resolve(); } };
       u.onend = end;
       u.onerror = (ev) => { if (ev.error === 'interrupted' || ev.error === 'canceled') end(); else if (!finished) { finished = true; reject(new Error('tts')); } };
@@ -470,8 +499,12 @@ if (cfg && root) {
   }
 
   /** Item: {url, text, g, kind} atau {pause: ms} atau {script: [...]} */
-  async function playItems(items, q) {
+  async function playItems(items, q, replay) {
     const token = ++S.playToken;
+    let started = false;
+    // Begitu percakapan atau pertanyaan benar-benar mulai berbunyi, audio dianggap sudah diputar
+    // (walau nanti terputus). Gagal dimuat sebelum mulai tidak dihitung.
+    const onStart = (it) => () => { if (token !== S.playToken) return; if (it.mark) { started = true; if (!replay) markPlayed(q); } };
     el.audio.classList.add('playing');
     el.audioStatus.textContent = T('session.playing');
     let usedTts = false;
@@ -485,18 +518,22 @@ if (cfg && root) {
         for (let i = 0; i < it.script.length; i++) {
           if (token !== S.playToken) return { aborted: true };
           const line = it.script[i];
-          try { await speak(line.text, line.g, voiceIndex(line.speaker), token); } catch { failed = true; break; }
+          try { await speak(line.text, line.g, voiceIndex(line.speaker), token, onStart(it)); } catch { failed = true; break; }
           await sleep(450);
         }
         if (failed) break;
         continue;
       }
       if (it.url) {
-        try { await playUrl(it.url, token); continue; } catch { /* jatuh ke TTS */ }
+        try { await playUrl(it.url, token, onStart(it)); continue; } catch {
+          // Percakapan gagal dimuat dan tidak ada cadangan teks: hentikan, jangan lompat ke pertanyaan
+          if (it.mark && !it.text) { failed = true; break; }
+          /* jatuh ke TTS */
+        }
       }
       if (it.text) {
         usedTts = true;
-        try { await speak(it.text, it.g || 'm', 0, token); } catch { failed = true; break; }
+        try { await speak(it.text, it.g || 'm', 0, token, onStart(it)); } catch { failed = true; break; }
       } else if (!it.url) {
         failed = true; break;
       }
@@ -504,7 +541,7 @@ if (cfg && root) {
     if (token !== S.playToken) return { aborted: true };
     el.audio.classList.remove('playing');
     if (usedTts || failed) { S.audioMissing[q.id] = true; }
-    return { usedTts, failed };
+    return { usedTts, failed, started };
   }
 
   const voiceIndex = (sp) => { const m = /\d+/.exec(sp || ''); return m ? Number(m[0]) : 0; };
@@ -514,16 +551,16 @@ if (cfg && root) {
     const p = q.passage ? S.passages[String(q.passage)] : null;
     const items = [{ pause: 300 }];
     if (isSim && L.directions && !replay) items.push({ url: L.directions.url, text: L.directions.text, g: 'm', status: T('session.directions') }, { pause: 900 });
-    const needTalk = replay || (L.first_in_group || !S.playedTalk.has(q.passage));
+    const needTalk = replay || !groupPlayed(q.passage);
     if (needTalk && p) {
       const talkRef = L.talk || findTalkRef(q.passage);
-      if (talkRef && talkRef.url) items.push({ url: talkRef.url, status: T('session.talk_audio') });
-      else if (p.script) items.push({ script: p.script, status: T('session.audio_tts') });
+      if (talkRef && talkRef.url) items.push({ url: talkRef.url, status: T('session.talk_audio'), mark: true });
+      else if (p.script) items.push({ script: p.script, status: T('session.audio_tts'), mark: true });
       else items.push({ url: null, text: null });
       items.push({ pause: 900 });
     }
     if (isSim && L.number) items.push({ url: L.number.url, text: L.number.text, g: 'm' });
-    items.push({ url: L.question ? L.question.url : null, text: L.prompt, g: 'm', status: T('session.question_audio') });
+    items.push({ url: L.question ? L.question.url : null, text: L.prompt, g: 'm', status: T('session.question_audio'), mark: true });
     return items;
   }
 
@@ -535,12 +572,20 @@ if (cfg && root) {
   async function playFor(q, replay) {
     el.replay.hidden = true;
     el.readTranscript.hidden = true;
-    const res = await playItems(itemsFor(q, replay), q);
+    const res = await playItems(itemsFor(q, replay), q, replay);
     if (res.aborted) return;
     S.playedTalk.add(q.passage);
     if (res.failed) {
       el.audioStatus.textContent = T('session.audio_missing');
       el.readTranscript.hidden = false;
+      // Gagal dimuat sebelum sempat berbunyi: boleh dicoba sekali lagi
+      if (!res.started && !replay && !S.retried[q.id]) {
+        S.retryFor = q.id;
+        el.replay.innerHTML = replayLabelRetry;
+        el.replay.hidden = false;
+        if (isSim) simCountdown(q);
+        return;
+      }
     } else {
       el.audioStatus.textContent = res.usedTts ? T('session.audio_tts') + ' · ' + T('session.audio_done') : T('session.audio_done');
     }
@@ -587,7 +632,20 @@ if (cfg && root) {
   el.finish.addEventListener('click', askFinish);
   el.finishOk.addEventListener('click', () => { el.finishDlg.close(); finish(); });
   el.finishCancel.addEventListener('click', () => el.finishDlg.close());
-  el.replay.addEventListener('click', () => { if (!isSim) playFor(cur(), true); });
+  const replayLabel = el.replay.innerHTML;
+  const replayLabelRetry = replayLabel.replace(/<\/svg>[\s\S]*$/, '</svg> ' + escapeHtml(T('session.audio_retry')));
+  el.replay.addEventListener('click', () => {
+    const q = cur();
+    if (S.retryFor === q.id) {
+      S.retried[q.id] = true;
+      S.retryFor = null;
+      el.replay.innerHTML = replayLabel;
+      stopAudio();
+      playFor(q, false);
+      return;
+    }
+    if (!isSim && isAnswered(q)) playFor(q, true);
+  });
   el.readTranscript.addEventListener('click', showTranscript);
   el.passageToggle.addEventListener('click', () => {
     const c = el.passage.dataset.collapsed === 'true';

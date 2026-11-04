@@ -182,6 +182,16 @@ CREATE TABLE IF NOT EXISTS answers (
   CONSTRAINT fk_ans_user FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
+-- Audio Listening yang sudah diputar per soal per percobaan (audio di tes asli hanya sekali)
+CREATE TABLE IF NOT EXISTS audio_plays (
+  attempt_id    INT UNSIGNED NOT NULL,
+  question_id   INT UNSIGNED NOT NULL,
+  played_at     DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  PRIMARY KEY (attempt_id, question_id),
+  CONSTRAINT fk_ap_att FOREIGN KEY (attempt_id) REFERENCES attempts(id) ON DELETE CASCADE,
+  CONSTRAINT fk_ap_q FOREIGN KEY (question_id) REFERENCES questions(id) ON DELETE CASCADE
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
 CREATE TABLE IF NOT EXISTS progress (
   user_id            INT UNSIGNED NOT NULL,
   rumah_id           SMALLINT UNSIGNED NOT NULL,

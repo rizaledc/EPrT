@@ -338,6 +338,7 @@ final class Practice
             $answers[(string) $r['question_id']] = $item;
         }
         $remaining = $a['mode'] === 'simulation' && !$a['finished_at'] ? self::simTick($a, true) : null;
+        $played = $a['section'] === 'listening' ? self::audioPlayedIds((int) $a['id']) : [];
         return [
             'ok'        => true,
             'attempt'   => [
@@ -348,12 +349,58 @@ final class Practice
             'questions' => $data['questions'],
             'passages'  => $data['passages'],
             'answers'   => $answers,
+            'audio_played' => $played,
         ];
     }
 
     /* ------------------------------------------------------------
      * Menjawab & menyelesaikan
      * ------------------------------------------------------------ */
+
+    /* ------------------------------------------------------------
+     * Audio Listening: diputar sekali per soal per percobaan
+     * ------------------------------------------------------------ */
+
+    /** @return int[] soal yang audionya sudah mulai diputar dalam percobaan ini */
+    public static function audioPlayedIds(int $attemptId): array
+    {
+        return array_map('intval', array_column(q_all('SELECT question_id FROM audio_plays WHERE attempt_id = ?', [$attemptId]), 'question_id'));
+    }
+
+    /** Dicatat saat audio soal benar-benar mulai berbunyi (bukan saat gagal dimuat). */
+    public static function markAudioPlayed(array $a, int $questionId): array
+    {
+        if ($a['finished_at']) {
+            return ['ok' => false, 'error' => 'finished'];
+        }
+        if (!in_array($questionId, $a['question_ids'], true)) {
+            return ['ok' => false, 'error' => 'not_in_attempt'];
+        }
+        $q = Question::find($questionId);
+        if (!$q || $q['section'] !== 'listening') {
+            return ['ok' => false, 'error' => 'not_listening'];
+        }
+        q('INSERT IGNORE INTO audio_plays (attempt_id, question_id) VALUES (?, ?)', [$a['id'], $questionId]);
+        return ['ok' => true];
+    }
+
+    /**
+     * Simulasi Listening berjalan maju saja: soal dianggap sudah lewat bila audio soal
+     * sesudahnya (dalam urutan percobaan) sudah diputar.
+     */
+    public static function listeningPassed(array $a, int $questionId): bool
+    {
+        $pos = array_search($questionId, $a['question_ids'], true);
+        if ($pos === false) {
+            return false;
+        }
+        $later = array_slice($a['question_ids'], $pos + 1);
+        if (!$later) {
+            return false;
+        }
+        $in = implode(',', array_fill(0, count($later), '?'));
+        return (bool) q_val("SELECT COUNT(*) FROM audio_plays WHERE attempt_id = ? AND question_id IN ($in)", array_merge([$a['id']], $later));
+    }
 
     public static function answer(array $a, array $user, int $questionId, ?int $chosen, int $timeMs, bool $flagged, bool $audioMissing): array
     {
@@ -382,6 +429,9 @@ final class Practice
             }
             if ($existing && $q['section'] === 'listening' && $existing['chosen_index'] !== null) {
                 return ['ok' => false, 'error' => 'locked'];
+            }
+            if ($q['section'] === 'listening' && self::listeningPassed($a, $questionId)) {
+                return ['ok' => false, 'error' => 'passed'];
             }
             if ($existing) {
                 q('UPDATE answers SET chosen_index = ?, is_correct = ?, time_ms = time_ms + ?, flagged = ?, audio_missing = GREATEST(audio_missing, ?) WHERE id = ?', [

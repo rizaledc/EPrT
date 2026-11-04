@@ -186,6 +186,7 @@ return [
     'session.st_dir_example' => 'Example', 'session.st_dir_answer' => 'Answer',
     'session.st_dir_ex_completion' => 'The sentence needs a singular verb for **The museum**, so the answer is (B) **opens**.',
     'session.st_dir_ex_error' => 'The subject is **The number**, which is singular, so **have** should be **has**. The answer is (B).',
+    'session.audio_played' => 'Audio already played', 'session.audio_retry' => 'Try playing again',
     'session.listen_first' => 'Listen to the conversation and the question, then choose the best answer.',
     'session.directions' => 'Directions', 'session.question_audio' => 'Question', 'session.talk_audio' => 'Conversation',
     'session.choose_first' => 'Choose an answer first.', 'session.number' => 'Number', 'session.speed' => 'Audio speed',

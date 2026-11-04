@@ -194,6 +194,7 @@ return [
     'session.st_dir_example' => 'Contoh', 'session.st_dir_answer' => 'Jawaban',
     'session.st_dir_ex_completion' => 'Kalimat butuh kata kerja tunggal untuk **The museum**, jadi jawabannya (B) **opens**.',
     'session.st_dir_ex_error' => 'Pelakunya **The number**, tunggal, jadi **have** harus **has**. Jawabannya (B).',
+    'session.audio_played' => 'Audio sudah diputar', 'session.audio_retry' => 'Coba putar lagi',
     'session.listen_first' => 'Dengarkan percakapan dan pertanyaannya, lalu pilih jawaban terbaik.',
     'session.directions' => 'Petunjuk', 'session.question_audio' => 'Pertanyaan', 'session.talk_audio' => 'Percakapan',
     'session.choose_first' => 'Pilih jawaban dulu.', 'session.number' => 'Nomor', 'session.speed' => 'Kecepatan audio',
