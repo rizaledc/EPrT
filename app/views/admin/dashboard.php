@@ -18,7 +18,7 @@
     <div class="card card-sm">
       <h3>Rata-rata % benar per seksi</h3>
       <?php foreach (Practice::SECTIONS as $s): $d = $secAvg[$s] ?? null; ?>
-        <div class="row-between mt-8"><span><span class="sec-dot <?= $s ?>"></span> <?= e(section_label($s)) ?></span><span class="mono"><?= $d ? $d['pct'] . '% · ' . $d['n'] . ' jawaban' : '–' ?></span></div>
+        <div class="row-between mt-8"><span><span class="sec-dot <?= $s ?>"></span> <?= e(section_label($s)) ?></span><span class="mono"><?= $d ? $d['pct'] . '% · ' . $d['n'] . ' jawaban' : '-' ?></span></div>
         <div class="progress-bar <?= $s ?> mt-8"><span style="width:<?= $d['pct'] ?? 0 ?>%"></span></div>
       <?php endforeach; ?>
     </div>

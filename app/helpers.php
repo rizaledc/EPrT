@@ -441,11 +441,11 @@ function tr_pair(array $row, string $field): array
 function fmt_date($dt, bool $withTime = true): string
 {
     if (!$dt) {
-        return '–';
+        return '-';
     }
     $ts = is_numeric($dt) ? (int) $dt : strtotime((string) $dt);
     if (!$ts) {
-        return '–';
+        return '-';
     }
     if (active_lang() === 'en') {
         return date($withTime ? 'M j, Y, g:i A' : 'M j, Y', $ts);

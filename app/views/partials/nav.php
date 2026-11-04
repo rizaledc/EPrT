@@ -7,7 +7,7 @@ $link = fn(string $anchor) => $isHome ? '#' . $anchor : url('/#' . $anchor);
 ?>
 <header class="nav">
   <div class="container nav-inner">
-    <a class="logo" href="<?= e(url('/')) ?>" aria-label="PerumahanInggris — <?= e(t('nav.home')) ?>"><?= partial('logo') ?></a>
+    <a class="logo" href="<?= e(url('/')) ?>" aria-label="PerumahanInggris, <?= e(t('nav.home')) ?>"><?= partial('logo') ?></a>
     <nav class="nav-links" aria-label="<?= e(t('nav.main')) ?>">
       <?php if ($u): ?>
         <a href="<?= e(url('latihan')) ?>" <?= str_starts_with($path, '/latihan') ? 'aria-current="page"' : '' ?>><?= e(t('nav.practice')) ?></a>

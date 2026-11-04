@@ -40,7 +40,7 @@ $tagInfo = RuleTag::map();
       <ul class="why-wrong">
         <?php foreach ($q['options'] as $i => $opt): if ($i === $correct) continue; ?>
           <li class="<?= $chosen === $i ? 'chosen' : '' ?>"><span class="letter"><?= $letters[$i] ?></span>
-            <span><?php if ($chosen === $i): ?><strong><?= e(t('explain.your_pick')) ?></strong> · <?php endif; ?><?= rich_inline((string) ($whyWrong[(string) $i] ?? '–'), $seen) ?></span></li>
+            <span><?php if ($chosen === $i): ?><strong><?= e(t('explain.your_pick')) ?></strong> · <?php endif; ?><?= rich_inline((string) ($whyWrong[(string) $i] ?? '-'), $seen) ?></span></li>
         <?php endforeach; ?>
       </ul>
     </div>

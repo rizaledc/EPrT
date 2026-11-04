@@ -16,9 +16,9 @@
       <td><?= e(fmt_date($u['created_at'], false)) ?></td>
       <td><?= e(fmt_date($u['last_active_at'])) ?></td>
       <td class="num mono"><?= (int) $u['done'] ?>/14</td>
-      <td class="mono"><?= e($u['bloks'] ?: '–') ?></td>
-      <td class="small"><?php foreach ($u['sims'] as $s): ?>S<?= $s['number'] ?> <?= strtoupper($s['section'][0]) ?> <?= $s['correct'] ?>/<?= $s['total'] ?><br><?php endforeach; ?><?= $u['sims'] ? '' : '–' ?></td>
-      <td class="num mono"><?= $u['estimate'] ?? '–' ?></td>
+      <td class="mono"><?= e($u['bloks'] ?: '-') ?></td>
+      <td class="small"><?php foreach ($u['sims'] as $s): ?>S<?= $s['number'] ?> <?= strtoupper($s['section'][0]) ?> <?= $s['correct'] ?>/<?= $s['total'] ?><br><?php endforeach; ?><?= $u['sims'] ? '' : '-' ?></td>
+      <td class="num mono"><?= $u['estimate'] ?? '-' ?></td>
       <td><?= e(strtoupper($u['lang'])) ?></td>
       <td><span class="chip chip-xs <?= $u['status'] === 'active' ? 'chip-good' : 'chip-bad' ?>"><?= e($u['status']) ?></span></td>
     </tr>

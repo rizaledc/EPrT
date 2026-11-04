@@ -2,7 +2,7 @@
 declare(strict_types=1);
 
 /**
- * Perkiraan skor format PBT (310–677).
+ * Perkiraan skor format PBT (310-677).
  * Konversi raw → skala per seksi memakai tabel di settings.score_table (interpolasi linear).
  */
 final class ScoreEstimator

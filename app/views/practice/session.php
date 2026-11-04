@@ -10,7 +10,7 @@ $section = $attempt['section'];
       <small><?= $mode === 'simulation' ? e(t('session.mode_sim')) : ($mode === 'sample' ? e(t('session.mode_sample')) : ($mode === 'review' ? e(t('session.mode_review')) : e(t('session.mode_practice')))) ?></small></h1>
     <span class="chip chip-<?= e($section === 'mixed' ? 'structure' : $section) ?>" data-sec-chip><?= e($section === 'mixed' ? t('sample.mixed') : section_label($section)) ?></span>
     <span class="spacer"></span>
-    <span class="session-progress" data-progress aria-live="polite">– / –</span>
+    <span class="session-progress" data-progress aria-live="polite">- / -</span>
     <span class="timer" data-timer hidden><?= icon('clock', 16) ?><span data-timer-text>--:--</span></span>
     <a class="btn btn-secondary btn-sm hide-sm" href="<?= e($exitUrl) ?>" data-exit><?= icon('save', 16) ?> <?= e($mode === 'sample' ? t('session.exit') : t('session.exit_save')) ?></a>
   </div>

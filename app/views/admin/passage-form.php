@@ -14,9 +14,9 @@ if (is_post()) $scriptText = (string) ($_POST['script'] ?? $scriptText);
     <div class="field"><label for="sort">Urutan grup</label><input class="input mono" type="number" id="sort" name="sort" min="1" value="<?= e((string) ($p['sort'] ?? '')) ?>" placeholder="otomatis"></div>
     <div class="field full"><label for="title">Judul (reading)</label><input class="input" id="title" name="title" value="<?= e((string) ($p['title'] ?? '')) ?>"></div>
     <div class="field full"><label for="script">Naskah listening (satu baris per giliran: <code>W1: teks</code>)</label><textarea class="input mono" id="script" name="script" rows="8"><?= e($scriptText) ?></textarea>
-      <span class="hint">Speaker: N (narator), M1–M4 (pria), W1–W4 (wanita), LEC (dosen).</span></div>
+      <span class="hint">Speaker: N (narator), M1-M4 (pria), W1-W4 (wanita), LEC (dosen).</span></div>
     <div class="field full"><label for="body">Teks reading (paragraf dipisah baris kosong, **kata** ditebalkan)</label><textarea class="input" id="body" name="body" rows="14"><?= e((string) ($p['body'] ?? '')) ?></textarea>
-      <?php if (!empty($p['body'])): ?><span class="hint"><?= ReadingText::wordCount((string) $p['body']) ?> kata (disarankan 250–450)</span><?php endif; ?></div>
+      <?php if (!empty($p['body'])): ?><span class="hint"><?= ReadingText::wordCount((string) $p['body']) ?> kata (disarankan 250-450)</span><?php endif; ?></div>
   </div>
   <div><button class="btn btn-primary" type="submit"><span>Simpan</span><span class="btn-arrow" aria-hidden="true"><?= icon('save', 16) ?></span></button></div>
 </form>

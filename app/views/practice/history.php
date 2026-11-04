@@ -23,8 +23,8 @@
               <td><?= e(tr($a, 'title')) ?></td>
               <td><span class="sec-dot <?= e($a['section']) ?>"></span> <?= e(section_label($a['section'])) ?></td>
               <td><?= e(t('mode.' . $a['mode'])) ?></td>
-              <td class="num mono"><?= $a['finished_at'] ? (int) $a['correct'] . '/' . (int) $a['total'] : '–' ?></td>
-              <td class="num mono"><?= $a['finished_at'] ? fmt_duration((int) $a['time_spent_s']) : '–' ?></td>
+              <td class="num mono"><?= $a['finished_at'] ? (int) $a['correct'] . '/' . (int) $a['total'] : '-' ?></td>
+              <td class="num mono"><?= $a['finished_at'] ? fmt_duration((int) $a['time_spent_s']) : '-' ?></td>
               <td><?php if ($a['finished_at']): ?><a href="<?= e(url('hasil/' . $a['id'])) ?>"><?= e(t('history.view')) ?></a>
                 <?php else: $r = Rumah::byId((int) $a['rumah_id']); ?><a href="<?= e($a['mode'] === 'review' ? url('sesi/' . $a['id']) : Rumah::url($r, $a['section'])) ?>"><?= e(t('history.resume')) ?></a><?php endif; ?></td>
             </tr>

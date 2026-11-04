@@ -6,7 +6,7 @@
     <h3><?= e($u['username']) ?> <span class="chip chip-xs <?= $u['status'] === 'active' ? 'chip-good' : 'chip-bad' ?>"><?= e($u['status']) ?></span></h3>
     <p class="small mb-0">Role: <?= e($u['role']) ?> · Plan: <?= e($u['plan']) ?> · Bahasa: <?= e(strtoupper($u['lang'])) ?> · Target: <?= (int) $u['target_score'] ?><br>
     Daftar: <?= e(fmt_date($u['created_at'])) ?> · Terakhir aktif: <?= e(fmt_date($u['last_active_at'])) ?><br>
-    Perkiraan skor: <strong><?= $estimate['total'] ?? '–' ?></strong> <?= $estimate['total'] ? '(' . $estimate['low'] . '–' . $estimate['high'] . ')' : '' ?> · <?= $estimate['answers'] ?> jawaban
+    Perkiraan skor: <strong><?= $estimate['total'] ?? '-' ?></strong> <?= $estimate['total'] ? '(' . $estimate['low'] . '-' . $estimate['high'] . ')' : '' ?> · <?= $estimate['answers'] ?> jawaban
     <?= (int) $u['must_change_password'] ? '<br><span class="chip chip-xs chip-lime">wajib ganti password</span>' : '' ?></p>
   </div>
   <div class="card card-sm stack">
@@ -29,7 +29,7 @@
 <div class="houses">
   <?php foreach (Rumah::all() as $r): if ($r['kind'] === 'sample') continue; $p = $progress[(int) $r['id']] ?? null; $st = Practice::rumahState($p); ?>
     <div class="house-card state-<?= $st ?>"><span class="house-num"><?= $r['kind'] === 'simulation' ? 'S' . $r['number'] : $r['number'] ?></span><?= partial('house') ?>
-      <h3><?= e($r['title_id']) ?></h3><div class="meta"><?= $p ? (int) $p['answered_distinct'] . ' unik · terakhir ' . ($p['last_pct'] ?? '–') . '% · terbaik ' . ($p['best_pct'] ?? '–') . '%' : 'Belum mulai' ?></div></div>
+      <h3><?= e($r['title_id']) ?></h3><div class="meta"><?= $p ? (int) $p['answered_distinct'] . ' unik · terakhir ' . ($p['last_pct'] ?? '-') . '% · terbaik ' . ($p['best_pct'] ?? '-') . '%' : 'Belum mulai' ?></div></div>
   <?php endforeach; ?>
 </div>
 
@@ -48,7 +48,7 @@
   <thead><tr><th>Waktu</th><th>Soal</th><th>Rumah</th><th>Pilihan</th><th>Hasil</th><th class="num">Durasi</th><th>Catatan</th></tr></thead>
   <tbody><?php foreach ($answers as $a): ?>
     <tr><td><?= e(fmt_date($a['created_at'])) ?></td><td><a href="<?= e(url('admin/soal/' . $a['question_id'])) ?>">#<?= $a['question_id'] ?></a> <?= e($a['type']) ?></td><td><?= e($a['slug']) ?></td>
-    <td class="mono"><?= $a['chosen_index'] === null ? '–' : $letters[(int) $a['chosen_index']] ?> (kunci <?= $letters[(int) $a['correct_index']] ?>)</td>
+    <td class="mono"><?= $a['chosen_index'] === null ? '-' : $letters[(int) $a['chosen_index']] ?> (kunci <?= $letters[(int) $a['correct_index']] ?>)</td>
     <td><?= $a['chosen_index'] === null ? 'kosong' : ((int) $a['is_correct'] ? '<span class="chip chip-xs chip-good">benar</span>' : '<span class="chip chip-xs chip-bad">salah</span>') ?></td>
     <td class="num mono"><?= round($a['time_ms'] / 1000) ?>s</td><td class="small"><?= (int) $a['flagged'] ? 'ragu ' : '' ?><?= (int) $a['audio_missing'] ? 'audio_missing' : '' ?></td></tr>
   <?php endforeach; ?></tbody>

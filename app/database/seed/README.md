@@ -40,7 +40,7 @@ Materi: `=== listening|structure|reading` memisahkan kartu konsep. `[[istilah]]`
   "questions": [ { "type": "listening_short", "prompt": "What does the man mean?", "options": [...], "correct_index": 0,
                    "key_sentence": "kalimat persis dari script", "key_translation_id": "...", "liaison_note": "opsional", ...pembahasan } ] }
 ```
-Speaker: `N` narator, `M1–M4` pria, `W1–W4` wanita, `LEC` dosen. Part B = `listening_long` (6–12 giliran), Part C = `listening_lecture` (150–250 kata).
+Speaker: `N` narator, `M1-M4` pria, `W1-W4` wanita, `LEC` dosen. Part B = `listening_long` (6-12 giliran), Part C = `listening_lecture` (150-250 kata).
 
 ### Reading (grup = satu teks + soal)
 ```json
@@ -48,10 +48,10 @@ Speaker: `N` narator, `M1–M4` pria, `W1–W4` wanita, `LEC` dosen. Part B = `l
   "questions": [ { "type": "reading", "subtype": "vocabulary", "prompt": "The word **considerable** in paragraph 4 is closest in meaning to",
                    "evidence_quote": "kalimat persis dari teks", ...pembahasan } ] }
 ```
-Subtype: `main_idea`, `detail`, `vocabulary`, `reference`, `inference`, `not_except`, `purpose`, `organization`. Teks 250–450 kata.
+Subtype: `main_idea`, `detail`, `vocabulary`, `reference`, `inference`, `not_except`, `purpose`, `organization`. Teks 250-450 kata.
 
 ## Validasi
 
-`php app/database/seed.php --validate [--only r02]` menolak soal dengan field pembahasan kosong (ID dan EN), opsi ≠ 4, tag tidak dikenal, prompt error recognition tanpa `{A}…{D}`, soal simulasi yang sama dengan soal Rumah, dll. Peringatan (tidak memblokir): panjang teks, sebaran jawaban A–D di luar 20–30%, `key_sentence`/`evidence_quote` tidak ditemukan persis.
+`php app/database/seed.php --validate [--only r02]` menolak soal dengan field pembahasan kosong (ID dan EN), opsi ≠ 4, tag tidak dikenal, prompt error recognition tanpa `{A}…{D}`, soal simulasi yang sama dengan soal Rumah, dll. Peringatan (tidak memblokir): panjang teks, sebaran jawaban A-D di luar 20-30%, `key_sentence`/`evidence_quote` tidak ditemukan persis.
 
 Nomor soal (`number`) unik per Rumah + seksi; bila dikosongkan, diberi otomatis sesuai urutan file. Path audio dibuat otomatis: `audio/<slug>/L-<slug>-gNN-talk.mp3` dan `...-qK.mp3`.

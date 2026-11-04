@@ -83,7 +83,7 @@ final class PdfReport
             $w = $p === null ? 0 : max(0, min(100, (float) $p));
             $h .= '<tr><td style="width:24%;border:0" class="t' . $k . '"><b>' . e(section_label($sec)) . '</b></td>'
                 . '<td style="border:0"><div class="bar"><div class="' . $k . '" style="width:' . $w . '%"></div></div></td>'
-                . '<td style="width:12%;border:0" class="num"><b>' . ($p === null ? '–' : fmt_num($p) . '%') . '</b></td></tr>';
+                . '<td style="width:12%;border:0" class="num"><b>' . ($p === null ? '-' : fmt_num($p) . '%') . '</b></td></tr>';
         }
         return $h . '</table>';
     }
@@ -146,14 +146,14 @@ final class PdfReport
                 }
                 $c = (int) ($a['correct'] ?? 0);
                 $n = (int) ($a['total'] ?? 0);
-                $cells .= '<td class="num">' . ($n ? "$c/$n" : '–') . '</td>';
+                $cells .= '<td class="num">' . ($n ? "$c/$n" : '-') . '</td>';
                 $totC += $c;
                 $totN += $n;
                 $secC[$s] += $c;
                 $secN[$s] += $n;
             }
             $rows .= '<tr><td><b>' . (int) $r['number'] . '</b> · ' . e(Rumah::title($r)) . '</td>' . $cells
-                . '<td class="num"><b>' . ($totN ? round($totC / $totN * 100) . '%' : '–') . '</b></td><td class="num">' . fmt_duration($time) . '</td></tr>';
+                . '<td class="num"><b>' . ($totN ? round($totC / $totN * 100) . '%' : '-') . '</b></td><td class="num">' . fmt_duration($time) . '</td></tr>';
         }
         $pcts = [];
         foreach ($secC as $s => $c) {
@@ -192,12 +192,12 @@ final class PdfReport
         foreach (Practice::SECTIONS as $s) {
             $d = $est['sections'][$s];
             $pcts[$s] = $d['pct'] ?? null;
-            $secRows .= '<tr><td><b>' . e(section_label($s)) . '</b></td><td class="num">' . ($d ? $d['scaled'] : '–') . '</td><td class="num">' . ($d ? fmt_num($d['pct'], 1) . '%' : '–') . '</td><td class="num">' . ($d ? $d['answered'] : 0) . '</td></tr>';
+            $secRows .= '<tr><td><b>' . e(section_label($s)) . '</b></td><td class="num">' . ($d ? $d['scaled'] : '-') . '</td><td class="num">' . ($d ? fmt_num($d['pct'], 1) . '%' : '-') . '</td><td class="num">' . ($d ? $d['answered'] : 0) . '</td></tr>';
         }
         $html = '<html><head><meta charset="utf-8"><style>' . self::css() . '</style></head><body>'
             . self::footer()
             . self::header(t('pdf.final_title'), $user)
-            . '<table style="margin-top:14px"><tr><td style="border:0;width:45%"><div class="muted">' . e(t('score.estimated')) . '</div><div class="big">' . ($est['total'] ?? '–') . '</div>'
+            . '<table style="margin-top:14px"><tr><td style="border:0;width:45%"><div class="muted">' . e(t('score.estimated')) . '</div><div class="big">' . ($est['total'] ?? '-') . '</div>'
             . '<div>' . ($est['total'] !== null ? e(t('score.range', ['a' => $est['low'], 'b' => $est['high']])) : '') . '</div></td>'
             . '<td style="border:0"><div class="box"><b>' . e($status) . '</b><br>' . e(t('final.target', ['t' => $target])) . '<br>'
             . ($est['low_data'] ? '<span class="muted">' . e(t('score.low_data')) . '</span>' : '') . '</div></td></tr></table>'

@@ -1,7 +1,7 @@
 <?php
 // Teks antarmuka Bahasa Indonesia (default). Dipanggil lewat t('key').
 return [
-    'meta.title' => 'PerumahanInggris — Latihan Tes Bahasa Inggris 14 Hari',
+    'meta.title' => 'PerumahanInggris | Latihan Tes Bahasa Inggris 14 Hari',
     'meta.description' => 'Latihan tes kemampuan bahasa Inggris format PBT: Listening, Structure, dan Reading dalam 14 hari, lengkap dengan pembahasan berbahasa Indonesia dan perumpamaan. Target 500, dari rumah.',
     'a11y.skip' => 'Langsung ke konten',
 
@@ -41,7 +41,7 @@ return [
     'landing.cur.eyebrow' => 'KURIKULUM', 'landing.cur.h2a' => '4 Blok, 14 Rumah,', 'landing.cur.h2b' => '1 tujuan',
     'landing.cur.sub' => 'Setiap Rumah = 1 hari belajar: 10 Listening, 10 Structure, 10 Reading, ditambah materi singkat. Semua Rumah terbuka sejak awal.',
     'landing.cur.qcount' => '{n} soal', 'landing.cur.range' => 'Rumah {r}',
-    'landing.cur.a.name' => 'Fondasi', 'landing.cur.a.t1' => 'Kelas kata & inti kalimat', 'landing.cur.a.t2' => 'Subject–verb agreement', 'landing.cur.a.t3' => 'Tenses, perfect & modal',
+    'landing.cur.a.name' => 'Fondasi', 'landing.cur.a.t1' => 'Kelas kata & inti kalimat', 'landing.cur.a.t2' => 'Subject-verb agreement', 'landing.cur.a.t3' => 'Tenses, perfect & modal',
     'landing.cur.b.name' => 'Menengah', 'landing.cur.b.t1' => 'Passive voice & article', 'landing.cur.b.t2' => 'Word form & akhiran', 'landing.cur.b.t3' => 'Paralel & perbandingan',
     'landing.cur.c.name' => 'Lanjut', 'landing.cur.c.t1' => 'Conjunction vs preposition', 'landing.cur.c.t2' => 'Relative & reduced clause', 'landing.cur.c.t3' => 'Noun clause & inversi',
     'landing.cur.d.name' => 'Pemantapan', 'landing.cur.d.t1' => 'Campuran dengan tempo tes', 'landing.cur.d.t2' => '10 kesalahan paling umum', 'landing.cur.d.t3' => 'Rumah adaptif dari kesalahanmu',
@@ -54,7 +54,7 @@ return [
     'landing.how.eyebrow' => 'CARA KERJA', 'landing.how.h2a' => 'Tiga langkah,', 'landing.how.h2b' => 'tanpa ribet',
     'landing.how.s1.t' => 'Daftar 30 detik', 'landing.how.s1.d' => 'Cukup username dan password. Tanpa email, tanpa biaya.',
     'landing.how.s2.t' => 'Kerjakan 30 soal per Rumah', 'landing.how.s2.d' => 'Setiap jawaban langsung dibahas. Progres tersimpan otomatis.',
-    'landing.how.s3.t' => 'Unduh rapor & lihat perkiraan skor', 'landing.how.s3.d' => 'Rapor PDF per Blok dan perkiraan skor akhir 310–677.',
+    'landing.how.s3.t' => 'Unduh rapor & lihat perkiraan skor', 'landing.how.s3.d' => 'Rapor PDF per Blok dan perkiraan skor akhir 310-677.',
     'landing.faq.h2a' => 'Pertanyaan yang', 'landing.faq.h2b' => 'sering muncul',
     'landing.faq.q1' => 'Apakah gratis?', 'landing.faq.a1' => 'Ya. Semua 14 Rumah, 2 simulasi, Kamus, dan rapor bisa dipakai gratis.',
     'landing.faq.q2' => 'Apakah ini tes resmi?', 'landing.faq.a2' => 'Tidak. PerumahanInggris adalah tempat latihan. Skor yang ditampilkan adalah perkiraan, bukan skor resmi dari lembaga mana pun.',
@@ -71,16 +71,16 @@ return [
     'auth.register.submit' => 'Daftar', 'auth.register.closed' => 'Pendaftaran sedang ditutup sementara oleh admin.',
     'auth.username' => 'Username', 'auth.password' => 'Password', 'auth.password_confirm' => 'Ulangi password', 'auth.new_password' => 'Password baru',
     'auth.lang' => 'Bahasa antarmuka',
-    'auth.username_hint' => '4–20 karakter: huruf, angka, atau garis bawah (_). Tidak boleh diawali angka.',
+    'auth.username_hint' => '4-20 karakter: huruf, angka, atau garis bawah (_). Tidak boleh diawali angka.',
     'auth.username_ok' => 'Username tersedia.',
     'auth.agree' => 'Saya paham skor di sini hanya perkiraan.',
     'auth.show_password' => 'Tampilkan password',
-    'auth.rule.length' => 'Minimal 10 karakter', 'auth.rule.upper' => 'Ada huruf besar (A–Z)', 'auth.rule.lower' => 'Ada huruf kecil (a–z)',
-    'auth.rule.digit' => 'Ada angka (0–9)', 'auth.rule.symbol' => 'Ada simbol (!@#$…)', 'auth.rule.not_met' => 'belum terpenuhi',
+    'auth.rule.length' => 'Minimal 10 karakter', 'auth.rule.upper' => 'Ada huruf besar (A-Z)', 'auth.rule.lower' => 'Ada huruf kecil (a-z)',
+    'auth.rule.digit' => 'Ada angka (0-9)', 'auth.rule.symbol' => 'Ada simbol (!@#$…)', 'auth.rule.not_met' => 'belum terpenuhi',
     'auth.meter.0' => 'Kekuatan password',
     'auth.pw_example_hint' => 'Tips: gabungkan 3 kata + angka + simbol, misalnya', 'auth.pw_example_note' => 'Contoh ini tidak boleh dipakai persis.',
     'auth.have_account' => 'Sudah punya akun?', 'auth.no_account' => 'Belum punya akun?',
-    'auth.err.username_length' => 'Username harus 4–20 karakter.',
+    'auth.err.username_length' => 'Username harus 4-20 karakter.',
     'auth.err.username_chars' => 'Username hanya boleh huruf, angka, dan garis bawah, serta tidak boleh diawali angka.',
     'auth.err.username_reserved' => 'Username itu tidak boleh dipakai.',
     'auth.err.username_taken' => 'Username sudah dipakai.',
@@ -118,7 +118,7 @@ return [
     'account.must_change' => 'Admin telah mereset password-mu. Ganti dengan password baru sebelum melanjutkan.',
     'account.pw.h' => 'Ganti password', 'account.pw.old' => 'Password lama', 'account.pw.submit' => 'Simpan password baru',
     'account.pw_changed' => 'Password berhasil diganti.',
-    'account.prefs.h' => 'Preferensi', 'account.target' => 'Target skor (310–677)', 'account.saved' => 'Preferensi disimpan.',
+    'account.prefs.h' => 'Preferensi', 'account.target' => 'Target skor (310-677)', 'account.saved' => 'Preferensi disimpan.',
     'account.recovery.h' => 'Kode pemulihan baru', 'account.recovery.p' => 'Membuat kode baru akan membatalkan kode lama.',
     'account.recovery.submit' => 'Buat kode baru', 'account.recovery.new' => 'Kode pemulihan baru',
     'account.confirm_with_password' => 'Konfirmasi dengan password',
@@ -138,14 +138,14 @@ return [
     'map.suggested' => 'Disarankan berikutnya', 'map.rumah_n' => 'Rumah {n}', 'map.soon' => 'Soal segera hadir',
     'map.done' => 'Selesai', 'map.in_progress' => '{n}/{t} soal dijawab', 'map.not_started' => 'Belum dimulai · {n} soal',
     'map.sim_eyebrow' => 'SIMULASI', 'map.sim_h' => 'Simulasi penuh 140 soal', 'map.sim_meta' => '50 Listening · 40 Structure · 50 Reading · waktu resmi',
-    'map.open' => 'Buka', 'map.order_hint' => 'Urutan yang disarankan: Rumah 1–11 → Simulasi 1 → Rumah 12–14 → Simulasi 2. Semua tetap terbuka.',
+    'map.open' => 'Buka', 'map.order_hint' => 'Urutan yang disarankan: Rumah 1-11 → Simulasi 1 → Rumah 12-14 → Simulasi 2. Semua tetap terbuka.',
 
     // Halaman Rumah
     'rumah.adaptive' => 'Adaptif', 'rumah.progress' => '{n} dari {t} soal unik dijawab',
     'rumah.status.todo' => 'Belum dimulai', 'rumah.status.progress' => 'Sedang dikerjakan · {n}/{t}', 'rumah.status.done' => 'Skor terakhir {c}/{t} · terbaik {b}',
     'rumah.start_section' => 'Mulai {s}', 'rumah.continue_section' => 'Lanjutkan {s}', 'rumah.redo_section' => 'Ulangi {s}',
     'rumah.last_result' => 'Lihat hasil terakhir',
-    'rumah.material_eyebrow' => 'MATERI SINGKAT · 3–5 MENIT', 'rumah.material_h' => 'Baca dulu, lalu kerjakan',
+    'rumah.material_eyebrow' => 'MATERI SINGKAT · 3-5 MENIT', 'rumah.material_h' => 'Baca dulu, lalu kerjakan',
     'rumah.no_material' => 'Materi Rumah ini sedang disiapkan.',
     'rumah.adaptive_desc' => 'Rumah ini menyusun 30 soal dari Buku Kesalahanmu: soal yang pernah salah dan soal baru dengan aturan yang sama. Jika belum cukup, ditambah dari bank Blok D.',
 
@@ -168,7 +168,7 @@ return [
     'session.practice_rules' => 'Pembahasan muncul langsung setelah kamu menjawab.|Jawaban tidak bisa diubah setelah pembahasan muncul.|Setiap jawaban tersimpan otomatis. Kamu bisa keluar kapan saja.',
     'session.sim_rules' => 'Pembahasan baru muncul setelah seksi selesai.|Audio Listening diputar sekali dan berlanjut otomatis.|Saat waktu habis, jawaban dikirim otomatis.',
     'session.timer_reminder' => 'Waktu: {t}',
-    'session.kbd_hint' => 'Pintasan: <kbd>A</kbd>–<kbd>D</kbd> atau <kbd>1</kbd>–<kbd>4</kbd> untuk memilih, <kbd>Enter</kbd> untuk lanjut.',
+    'session.kbd_hint' => 'Pintasan: <kbd>A</kbd>-<kbd>D</kbd> atau <kbd>1</kbd>-<kbd>4</kbd> untuk memilih, <kbd>Enter</kbd> untuk lanjut.',
     'session.passage' => 'Teks', 'session.show_passage' => 'Tampilkan teks', 'session.hide_passage' => 'Lipat teks',
     'session.options' => 'Pilihan jawaban', 'session.question_of' => 'Soal {n} dari {t}',
     'session.flag' => 'Tandai ragu', 'session.flagged' => 'Ditandai ragu',
@@ -179,6 +179,7 @@ return [
     'session.finish_confirm_t' => 'Selesaikan seksi ini?', 'session.finish_confirm_d' => 'Semua soal sudah dijawab. Lihat hasil dan pembahasan lengkap?',
     'session.finish_unanswered' => 'Masih ada {n} soal yang belum dijawab. Tetap selesaikan sekarang?',
     'session.cancel' => 'Kembali', 'session.saved' => 'Tersimpan', 'session.save_error' => 'Jawaban gagal disimpan. Periksa koneksi lalu coba lagi.',
+    'session.retrying' => 'Menyimpan ulang jawaban...',
     'session.check' => 'Periksa', 'session.replay' => 'Putar ulang', 'session.transcript' => 'Transkrip',
     'session.audio_missing' => 'Audio belum tersedia.', 'session.audio_tts' => 'Memakai suara browser (audio MP3 belum tersedia)',
     'session.tts_unavailable' => 'Suara browser tidak tersedia.',
@@ -225,7 +226,7 @@ return [
     'history.drill_empty' => 'Belum ada soal untuk aturan ini.',
 
     // Skor
-    'score.estimated' => 'Perkiraan', 'score.range' => 'kisaran {a}–{b}', 'score.low_data' => 'Data masih sedikit',
+    'score.estimated' => 'Perkiraan', 'score.range' => 'kisaran {a}-{b}', 'score.low_data' => 'Data masih sedikit',
     'score.not_enough' => 'Belum cukup data untuk perkiraan skor. Kerjakan ketiga seksi terlebih dahulu.',
     'score.status.more' => 'Perlu latihan lagi', 'score.status.almost' => 'Hampir sampai', 'score.status.ready' => 'Siap tes', 'score.status.very_ready' => 'Sangat siap',
     'final.title' => 'Perkiraan Skor Akhir', 'final.eyebrow' => 'RAPOR AKHIR', 'final.h1a' => 'Perkiraan', 'final.h1b' => 'skor akhir',
@@ -237,7 +238,7 @@ return [
     'final.download' => 'Unduh Rapor Akhir (PDF)', 'final.sections' => 'Skor per seksi', 'final.scaled' => 'Skala',
     'final.answers' => 'Jawaban', 'final.sec_meta' => '{p}% benar · {n} jawaban',
     'final.weak_h' => '3 aturan yang paling menaikkan skormu', 'final.wrong_n' => '{n} kali salah',
-    'final.formula' => 'Cara hitung: persentase benar per seksi dibobot (Simulasi 60%, Blok D 25%, Blok A–C 15%), dikonversi ke skala 31–68, lalu total = (L + S + R) × 10 / 3. Ini perkiraan, bukan skor resmi.',
+    'final.formula' => 'Cara hitung: persentase benar per seksi dibobot (Simulasi 60%, Blok D 25%, Blok A-C 15%), dikonversi ke skala 31-68, lalu total = (L + S + R) × 10 / 3. Ini perkiraan, bukan skor resmi.',
 
     // PDF
     'pdf.blok_title' => 'Rapor Blok {b} · {name}', 'pdf.final_title' => 'Rapor Akhir · Perkiraan Skor',

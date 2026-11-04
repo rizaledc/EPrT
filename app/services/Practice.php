@@ -530,7 +530,7 @@ final class Practice
         return ['state' => 'todo', 'total' => $count];
     }
 
-    /** Rumah berikutnya yang disarankan: 1–11 → Sim 1 → 12–14 → Sim 2. */
+    /** Rumah berikutnya yang disarankan: 1-11 → Sim 1 → 12-14 → Sim 2. */
     public static function suggestedNext(array $progress): ?array
     {
         $order = [];
@@ -589,7 +589,7 @@ final class Practice
         }
         $groups = [];
         foreach (q_all($sql, $params) as $m) {
-            $tags = json_col($m['rule_tags']) ?: ['–'];
+            $tags = json_col($m['rule_tags']) ?: ['-'];
             foreach ($tags as $t) {
                 $groups[$t] ??= ['tag' => $t, 'section' => $m['section'], 'wrong' => 0, 'questions' => []];
                 $groups[$t]['wrong'] += (int) $m['wrong_count'];

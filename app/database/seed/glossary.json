@@ -471,7 +471,7 @@
   "slug": "subject-verb-agreement",
   "grp": "aturan",
   "term_en": "subject-verb agreement",
-  "meaning_id": "kecocokan subjek–kata kerja",
+  "meaning_id": "kecocokan subjek-kata kerja",
   "def_id": "Subject tunggal memakai verb tunggal, subject jamak memakai verb jamak. Frasa of di tengah tidak mengubah subject.",
   "def_en": "A singular subject takes a singular verb; a plural subject takes a plural verb. An of-phrase in between doesn't change the subject.",
   "example": "The list of names __is__ on the wall.",

@@ -32,6 +32,24 @@ export async function api(url, body) {
   return data;
 }
 
+/**
+ * POST dengan kirim ulang otomatis di latar belakang.
+ * Dicoba ulang: gangguan jaringan, batas laju (429), dan error server (5xx).
+ * Tidak dicoba ulang: kesalahan validasi/izin (4xx lain), karena hasilnya tidak akan berubah.
+ */
+export async function apiRetry(url, body, { delays = [1000, 2000, 4000, 8000, 16000], onRetry } = {}) {
+  for (let i = 0; ; i++) {
+    try {
+      return await api(url, body);
+    } catch (err) {
+      const retryable = err.status === undefined || err.status === 429 || err.status >= 500;
+      if (!retryable || i >= delays.length) throw err;
+      if (onRetry) onRetry(i + 1, delays.length);
+      await new Promise((r) => setTimeout(r, delays[i]));
+    }
+  }
+}
+
 export function toast(message, type = 'info') {
   let wrap = $('.flash-wrap');
   if (!wrap) {

@@ -35,7 +35,7 @@ $pos = fn($v) => max(0, min(100, ($v - 310) / (677 - 310) * 100));
     <div class="stack">
       <?php foreach (Practice::SECTIONS as $s): $d = $est['sections'][$s]; ?>
         <div class="card card-sm sec-<?= $s ?>">
-          <div class="row-between"><span class="chip chip-sec"><?= e(section_label($s)) ?></span><span class="display" style="font-size:36px"><?= $d ? (int) $d['scaled'] : '–' ?></span></div>
+          <div class="row-between"><span class="chip chip-sec"><?= e(section_label($s)) ?></span><span class="display" style="font-size:36px"><?= $d ? (int) $d['scaled'] : '-' ?></span></div>
           <div class="progress-bar <?= $s ?> mt-16"><span style="width:<?= $d ? $d['pct'] : 0 ?>%"></span></div>
           <p class="small muted mt-8 mb-0"><?= $d ? e(t('final.sec_meta', ['p' => fmt_num($d['pct'], 1), 'n' => $d['answered']])) : '' ?></p>
         </div>

@@ -2,10 +2,10 @@
 /** @var array $sponsors @var array $demo */
 $letters = ['A', 'B', 'C', 'D'];
 $blokCards = [
-    ['code' => 'A', 'cls' => '', 'range' => '1–4', 'n' => 120],
-    ['code' => 'B', 'cls' => 'card-hl', 'range' => '5–8', 'n' => 120],
-    ['code' => 'C', 'cls' => '', 'range' => '9–11', 'n' => 90],
-    ['code' => 'D', 'cls' => 'card-pink', 'range' => '12–14', 'n' => 90],
+    ['code' => 'A', 'cls' => '', 'range' => '1-4', 'n' => 120],
+    ['code' => 'B', 'cls' => 'card-hl', 'range' => '5-8', 'n' => 120],
+    ['code' => 'C', 'cls' => '', 'range' => '9-11', 'n' => 90],
+    ['code' => 'D', 'cls' => 'card-pink', 'range' => '12-14', 'n' => 90],
 ];
 ?>
 <!-- 2 · Hero -->
@@ -128,7 +128,7 @@ $blokCards = [
       <tr class="listening"><td>Listening Comprehension</td><td class="num">50 <?= e(t('common.questions')) ?></td><td class="num">45 <?= e(t('common.minutes')) ?></td></tr>
       <tr class="structure"><td>Structure &amp; Written Expression</td><td class="num">40 <?= e(t('common.questions')) ?></td><td class="num">25 <?= e(t('common.minutes')) ?></td></tr>
       <tr class="reading"><td>Reading Comprehension</td><td class="num">50 <?= e(t('common.questions')) ?></td><td class="num">55 <?= e(t('common.minutes')) ?></td></tr>
-      <tr class="total"><td><?= e(t('landing.format.range')) ?></td><td class="num">140 <?= e(t('common.questions')) ?></td><td class="num">310–677</td></tr>
+      <tr class="total"><td><?= e(t('landing.format.range')) ?></td><td class="num">140 <?= e(t('common.questions')) ?></td><td class="num">310-677</td></tr>
     </tbody>
   </table>
 </section>

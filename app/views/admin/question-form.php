@@ -16,7 +16,7 @@ foreach ($rumahs as $r) { if ((int) $r['id'] === (int) ($q['rumah_id'] ?? 0)) $c
     <form method="post" action="<?= e(url('admin/soal/' . $q['id'] . '/aksi')) ?>"><?= csrf_field() ?><input type="hidden" name="action" value="<?= $a ?>"><button class="btn btn-secondary btn-sm"><?= e($l) ?></button></form>
   <?php endforeach; ?>
   <form method="post" action="<?= e(url('admin/soal/' . $q['id'] . '/aksi')) ?>"><?= csrf_field() ?><input type="hidden" name="action" value="delete"><button class="btn btn-danger btn-sm" data-confirm="Hapus soal ini beserta semua jawabannya?">Hapus</button></form>
-  <?php if ($stats): ?><span class="small muted">Dijawab <?= $stats['n'] ?>× · <?= $stats['pct'] !== null ? round((float) $stats['pct'] * 100) . '% benar' : '–' ?> ·
+  <?php if ($stats): ?><span class="small muted">Dijawab <?= $stats['n'] ?>× · <?= $stats['pct'] !== null ? round((float) $stats['pct'] * 100) . '% benar' : '-' ?> ·
     pilihan: <?php foreach ($stats['dist'] as $d): ?><?= $letters[(int) $d['chosen_index']] ?>=<?= $d['n'] ?> <?php endforeach; ?></span><?php endif; ?>
 </div>
 <?php endif; ?>
@@ -24,11 +24,11 @@ foreach ($rumahs as $r) { if ((int) $r['id'] === (int) ($q['rumah_id'] ?? 0)) $c
 <form class="card form" method="post" action="<?= e(url('admin/soal/' . ($q['id'] ?? 'baru'))) ?>">
   <?= csrf_field() ?>
   <div class="admin-form-grid">
-    <div class="field"><label for="rumah">Rumah</label><select class="input" id="rumah" name="rumah" required><option value="">–</option><?php foreach ($rumahs as $r): ?><option value="<?= e($r['slug']) ?>" <?= $curRumah === $r['slug'] ? 'selected' : '' ?>><?= e($r['slug'] . ' · ' . $r['title_id']) ?></option><?php endforeach; ?></select></div>
+    <div class="field"><label for="rumah">Rumah</label><select class="input" id="rumah" name="rumah" required><option value="">-</option><?php foreach ($rumahs as $r): ?><option value="<?= e($r['slug']) ?>" <?= $curRumah === $r['slug'] ? 'selected' : '' ?>><?= e($r['slug'] . ' · ' . $r['title_id']) ?></option><?php endforeach; ?></select></div>
     <div class="field"><label for="section">Seksi</label><select class="input" id="section" name="section"><?php foreach (Practice::SECTIONS as $s): ?><option <?= ($q['section'] ?? '') === $s ? 'selected' : '' ?>><?= $s ?></option><?php endforeach; ?></select></div>
     <div class="field"><label for="type">Tipe</label><select class="input" id="type" name="type"><?php foreach (array_merge(...array_values(ContentImporter::TYPES)) as $t): ?><option <?= ($q['type'] ?? '') === $t ? 'selected' : '' ?>><?= $t ?></option><?php endforeach; ?></select></div>
-    <div class="field"><label for="subtype">Subtype (reading)</label><select class="input" id="subtype" name="subtype"><option value="">–</option><?php foreach (ContentImporter::READING_SUBTYPES as $t): ?><option <?= ($q['subtype'] ?? '') === $t ? 'selected' : '' ?>><?= $t ?></option><?php endforeach; ?></select></div>
-    <div class="field"><label for="passage_id">Grup listening / teks reading</label><select class="input" id="passage_id" name="passage_id"><option value="">– (structure)</option><?php foreach ($passages as $p): ?><option value="<?= $p['id'] ?>" <?= (int) ($q['passage_id'] ?? 0) === (int) $p['id'] ? 'selected' : '' ?>><?= e($p['slug'] . ' · ' . $p['section'] . ' #' . $p['sort'] . ($p['part'] ? ' Part ' . $p['part'] : '') . ($p['title'] ? ' · ' . $p['title'] : '')) ?></option><?php endforeach; ?></select></div>
+    <div class="field"><label for="subtype">Subtype (reading)</label><select class="input" id="subtype" name="subtype"><option value="">-</option><?php foreach (ContentImporter::READING_SUBTYPES as $t): ?><option <?= ($q['subtype'] ?? '') === $t ? 'selected' : '' ?>><?= $t ?></option><?php endforeach; ?></select></div>
+    <div class="field"><label for="passage_id">Grup listening / teks reading</label><select class="input" id="passage_id" name="passage_id"><option value="">- (structure)</option><?php foreach ($passages as $p): ?><option value="<?= $p['id'] ?>" <?= (int) ($q['passage_id'] ?? 0) === (int) $p['id'] ? 'selected' : '' ?>><?= e($p['slug'] . ' · ' . $p['section'] . ' #' . $p['sort'] . ($p['part'] ? ' Part ' . $p['part'] : '') . ($p['title'] ? ' · ' . $p['title'] : '')) ?></option><?php endforeach; ?></select></div>
     <div class="row">
       <div class="field"><label for="number">Nomor</label><input class="input mono" type="number" id="number" name="number" min="1" value="<?= $v('number', '1') ?>"></div>
       <div class="field"><label for="difficulty">Kesulitan</label><select class="input" id="difficulty" name="difficulty"><?php foreach ([1 => 'mudah', 2 => 'sedang', 3 => 'sulit'] as $d => $l): ?><option value="<?= $d ?>" <?= (int) ($q['difficulty'] ?? 1) === $d ? 'selected' : '' ?>><?= $l ?></option><?php endforeach; ?></select></div>
@@ -40,7 +40,7 @@ foreach ($rumahs as $r) { if ((int) $r['id'] === (int) ($q['rumah_id'] ?? 0)) $c
       <div class="field"><label for="opt<?= $i ?>">Pilihan <?= $letters[$i] ?></label><input class="input" id="opt<?= $i ?>" name="options[<?= $i ?>]" value="<?= e($opts[$i] ?? '') ?>"></div>
     <?php endforeach; ?>
     <div class="field"><label for="correct_index">Jawaban benar</label><select class="input" id="correct_index" name="correct_index"><?php foreach ($letters as $i => $L): ?><option value="<?= $i ?>" <?= $ci === $i ? 'selected' : '' ?>><?= $L ?></option><?php endforeach; ?></select></div>
-    <div class="field"><label for="rule_tags">Tag aturan (1–2, pisahkan koma)</label><input class="input mono" id="rule_tags" name="rule_tags" list="tag-list" value="<?= e(implode(', ', $q['rule_tags'] ?? [])) ?>">
+    <div class="field"><label for="rule_tags">Tag aturan (1-2, pisahkan koma)</label><input class="input mono" id="rule_tags" name="rule_tags" list="tag-list" value="<?= e(implode(', ', $q['rule_tags'] ?? [])) ?>">
       <datalist id="tag-list"><?php foreach ($tags as $code => $t): ?><option value="<?= e($code) ?>"><?= e($t['name_id']) ?></option><?php endforeach; ?></datalist></div>
   </div>
 

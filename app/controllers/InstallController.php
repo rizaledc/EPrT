@@ -2,7 +2,7 @@
 declare(strict_types=1);
 
 /**
- * /install — pemasangan sekali pakai untuk hosting tanpa SSH.
+ * /install: pemasangan sekali pakai untuk hosting tanpa SSH.
  * Membuat tabel (schema.sql), mengimpor konten seed, membuat admin dari config,
  * lalu mengunci diri dengan app/installed.lock.
  */

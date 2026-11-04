@@ -311,7 +311,7 @@ final class AdminController
                 }
             }
         }
-        if (count($d['rule_tags']) < 1 || count($d['rule_tags']) > 2) $e[] = 'Isi 1–2 tag aturan.';
+        if (count($d['rule_tags']) < 1 || count($d['rule_tags']) > 2) $e[] = 'Isi 1-2 tag aturan.';
         foreach ($d['rule_tags'] as $t) {
             if (!isset(RuleTag::map()[$t])) $e[] = "Tag $t tidak dikenal.";
         }
@@ -388,7 +388,7 @@ final class AdminController
             foreach (preg_split('/\R/', (string) ($_POST['script'] ?? '')) as $ln => $line) {
                 if (trim($line) === '') continue;
                 if (!preg_match('/^\s*(N|LEC|[MW][1-4])\s*:\s*(.+)$/', $line, $m)) {
-                    $errors[] = 'Baris naskah ' . ($ln + 1) . ' harus berformat "W1: teks" (speaker N, M1–M4, W1–W4, LEC).';
+                    $errors[] = 'Baris naskah ' . ($ln + 1) . ' harus berformat "W1: teks" (speaker N, M1-M4, W1-W4, LEC).';
                     continue;
                 }
                 $script[] = ['speaker' => $m[1], 'text' => trim($m[2])];

@@ -13,7 +13,7 @@
   <div class="stack">
     <?php if ($result !== null): ?>
       <div class="card card-sm">
-        <h3><?= $result['committed'] ? 'Impor berhasil' : (empty($result['errors']) ? 'Valid — belum diimpor' : 'Ada error') ?></h3>
+        <h3><?= $result['committed'] ? 'Impor berhasil' : (empty($result['errors']) ? 'Valid, belum diimpor' : 'Ada error') ?></h3>
         <p><?= (int) $result['questions'] ?> soal · <?= count($result['errors']) ?> error · <?= count($result['warnings']) ?> peringatan</p>
         <?php if ($result['errors']): ?><ul class="rich-list"><?php foreach ($result['errors'] as $er): ?><li class="ex-bad"><span class="ex-mark"><?= icon('x', 14) ?></span><span style="text-decoration:none"><?= e($er) ?></span></li><?php endforeach; ?></ul><?php endif; ?>
         <?php if ($result['warnings']): ?><ul class="rich-list"><?php foreach ($result['warnings'] as $w): ?><li><span><?= e($w) ?></span></li><?php endforeach; ?></ul><?php endif; ?>

@@ -167,8 +167,25 @@ final class ContentImporter
 
     /* ------------------------------------------------------------ */
 
+    /** Konten tidak boleh memakai garis panjang (—) atau garis sedang (–); pakai koma, titik dua, atau tanda hubung (-). */
+    private function checkDashes(array $data, string $label): void
+    {
+        $walk = function ($v, string $path) use (&$walk, $label) {
+            if (is_array($v)) {
+                foreach ($v as $k => $x) {
+                    $walk($x, $path === '' ? (string) $k : "$path.$k");
+                }
+            } elseif (is_string($v) && preg_match('/[\x{2013}\x{2014}]/u', $v)) {
+                $this->errors[] = "$label: tanda — atau – di $path (ganti dengan koma, titik dua, atau -)";
+            }
+        };
+        $walk($data, '');
+    }
+
     private function validateMeta(array $rumahs, array $glossary): void
     {
+        $this->checkDashes($rumahs, 'rumahs.json');
+        $this->checkDashes($glossary, 'glossary.json');
         foreach ($rumahs as $i => $r) {
             foreach (['slug', 'kind', 'title_id', 'title_en'] as $f) {
                 if (empty($r[$f])) {
@@ -227,6 +244,7 @@ final class ContentImporter
         }
         $items = $data['items'] ?? [];
         $errBefore = count($this->errors);
+        $this->checkDashes($data, $label);
         $flat = $this->normalize($slug, $items, $label);
         $this->validateRumah($slug, $flat, $label);
         if ($validateOnly || count($this->errors) > $errBefore) {
@@ -280,7 +298,7 @@ final class ContentImporter
             $pdo->commit();
         } catch (Throwable $e) {
             $pdo->rollBack();
-            $this->errors[] = "$label: gagal impor — " . $e->getMessage();
+            $this->errors[] = "$label: gagal impor: " . $e->getMessage();
             return 0;
         }
         return count($flat['questions']);
@@ -365,7 +383,7 @@ final class ContentImporter
                 } else {
                     $wc = ReadingText::wordCount((string) $p['body']);
                     if ($wc < 250 || $wc > 450) {
-                        $this->warnings[] = "{$p['label']}: panjang teks $wc kata (disarankan 250–450)";
+                        $this->warnings[] = "{$p['label']}: panjang teks $wc kata (disarankan 250-450)";
                     }
                 }
             } else {
@@ -375,16 +393,16 @@ final class ContentImporter
                 }
                 foreach ($script as $li => $line) {
                     if (!isset($line['speaker'], $line['text']) || !preg_match('/^(N|LEC|[MW][1-4])$/', (string) $line['speaker']) || trim((string) $line['text']) === '') {
-                        $this->errors[] = "{$p['label']}: baris script #" . ($li + 1) . ' tidak valid (speaker: N, M1–M4, W1–W4, LEC)';
+                        $this->errors[] = "{$p['label']}: baris script #" . ($li + 1) . ' tidak valid (speaker: N, M1-M4, W1-W4, LEC)';
                     }
                 }
                 $turns = count($script);
                 $words = array_sum(array_map(fn($l) => str_word_count((string) ($l['text'] ?? '')), $script));
                 if ($p['part'] === 'B' && ($turns < 6 || $turns > 12)) {
-                    $this->warnings[] = "{$p['label']}: long dialogue $turns giliran (disarankan 6–12)";
+                    $this->warnings[] = "{$p['label']}: long dialogue $turns giliran (disarankan 6-12)";
                 }
                 if ($p['part'] === 'C' && ($words < 150 || $words > 250)) {
-                    $this->warnings[] = "{$p['label']}: lecture $words kata (disarankan 150–250)";
+                    $this->warnings[] = "{$p['label']}: lecture $words kata (disarankan 150-250)";
                 }
                 if ($p['part'] === 'A' && $turns !== 2) {
                     $this->warnings[] = "{$p['label']}: short dialogue sebaiknya 2 baris";
@@ -440,7 +458,7 @@ final class ContentImporter
             }
             $tags = $q['rule_tags'] ?? [];
             if (!is_array($tags) || count($tags) < 1 || count($tags) > 2) {
-                $this->errors[] = "$id: rule_tags wajib 1–2 kode";
+                $this->errors[] = "$id: rule_tags wajib 1-2 kode";
             } else {
                 foreach ($tags as $t) {
                     if ($this->tagCodes && !in_array($t, $this->tagCodes, true)) {
@@ -449,7 +467,7 @@ final class ContentImporter
                 }
             }
             $prompt = (string) ($q['prompt'] ?? '');
-            if ($q['type'] === 'structure_error') {
+            if (($q['type'] ?? '') === 'structure_error') {
                 foreach (['A', 'B', 'C', 'D'] as $i => $L) {
                     if (!preg_match('/\{' . $L . '\}(.+?)\{\/' . $L . '\}/', $prompt, $m)) {
                         $this->errors[] = "$id: prompt wajib memuat {{$L}}…{/{$L}}";
@@ -458,7 +476,7 @@ final class ContentImporter
                     }
                 }
             }
-            if ($q['type'] === 'structure_completion' && !str_contains($prompt, '______')) {
+            if (($q['type'] ?? '') === 'structure_completion' && !str_contains($prompt, '______')) {
                 $this->errors[] = "$id: prompt structure_completion wajib memuat rumpang ______";
             }
             if ($sec === 'listening') {
@@ -515,7 +533,7 @@ final class ContentImporter
             foreach ($dist as $i => $c) {
                 $pct = $c / $total * 100;
                 if ($pct < 20 || $pct > 30) {
-                    $this->warnings[] = "$label: jawaban " . 'ABCD'[$i] . ' = ' . round($pct) . '% (disarankan 20–30%)';
+                    $this->warnings[] = "$label: jawaban " . 'ABCD'[$i] . ' = ' . round($pct) . '% (disarankan 20-30%)';
                 }
             }
         }

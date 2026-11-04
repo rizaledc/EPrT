@@ -1,5 +1,5 @@
 // PerumahanInggris · mesin sesi soal (Latihan, Simulasi, Review, Rumah Contoh)
-import { api, $, $$, toast, highlightEvidence, escapeHtml } from './app.js';
+import { api, apiRetry, $, $$, toast, highlightEvidence, escapeHtml } from './app.js';
 
 const pageEl = document.getElementById('page-data');
 const cfg = pageEl ? JSON.parse(pageEl.textContent) : null;
@@ -214,7 +214,7 @@ if (cfg && root) {
       renderNav();
       el.bar.style.width = ((Object.values(S.answers).filter((a) => a.chosen !== null && a.chosen !== undefined).length / S.questions.length) * 100) + '%';
       try {
-        const r = await api(cfg.endpoints.answer, { attempt_id: cfg.attemptId, question_id: q.id, chosen_index: i, time_ms: timeMs, flagged: !!prev.flagged, audio_missing: !!S.audioMissing[q.id] });
+        const r = await apiRetry(cfg.endpoints.answer, { attempt_id: cfg.attemptId, question_id: q.id, chosen_index: i, time_ms: timeMs, flagged: !!prev.flagged, audio_missing: !!S.audioMissing[q.id] });
         if (r.remaining_s !== undefined && r.remaining_s !== null) S.remaining = r.remaining_s;
       } catch (e) {
         if (e.data && e.data.redirect) { location.href = e.data.redirect; return; }
@@ -227,16 +227,25 @@ if (cfg && root) {
     $$('.option', el.options).forEach((b) => { b.disabled = true; b.setAttribute('aria-pressed', Number(b.dataset.i) === i ? 'true' : 'false'); });
     try {
       const body = isSample ? { question_id: q.id, chosen_index: i } : { attempt_id: cfg.attemptId, question_id: q.id, chosen_index: i, time_ms: timeMs, flagged: !!prev.flagged, audio_missing: !!S.audioMissing[q.id] };
-      const r = await api(cfg.endpoints.answer, body);
-      const a = { ...prev, chosen: r.locked ? (prev.chosen ?? i) : i, is_correct: r.is_correct, correct_index: r.correct_index, html: r.html, evidence: r.evidence };
+      const r = await apiRetry(cfg.endpoints.answer, body, {
+        onRetry: () => { if (cur() === q) el.qnum.textContent = T('session.retrying'); },
+      });
+      const a = { ...prev, chosen: i, is_correct: r.is_correct, correct_index: r.correct_index, html: r.html, evidence: r.evidence };
       S.answers[String(q.id)] = a;
-      applyReveal(q, a, true);
+      // Pengguna bisa pindah soal selama kirim ulang: tampilkan pembahasan hanya bila soal ini masih terbuka
+      if (cur() === q) {
+        el.qnum.textContent = T('session.question_of', { n: S.idx + 1, t: S.questions.length });
+        applyReveal(q, a, true);
+        if (q.section === 'listening') { el.replay.hidden = false; }
+      }
       renderNav();
       el.bar.style.width = ((Object.values(S.answers).filter((x) => x.chosen !== null && x.chosen !== undefined).length / S.questions.length) * 100) + '%';
       if (r.progress && r.progress.just_completed) toast(T('session.completed_rumah'), 'success');
-      if (q.section === 'listening') { el.replay.hidden = false; }
     } catch (e) {
-      $$('.option', el.options).forEach((b) => { b.disabled = false; });
+      if (cur() === q) {
+        el.qnum.textContent = T('session.question_of', { n: S.idx + 1, t: S.questions.length });
+        $$('.option', el.options).forEach((btn) => { btn.disabled = false; });
+      }
       toast(T('session.save_error'), 'error');
     } finally {
       S.busy = false;
@@ -511,7 +520,7 @@ if (cfg && root) {
         if (cur() !== q) return;
         if (!isAnswered(q)) {
           // Simpan sebagai kosong agar tercatat (audio_missing ikut dikirim)
-          try { await api(cfg.endpoints.answer, { attempt_id: cfg.attemptId, question_id: q.id, chosen_index: null, time_ms: Math.round(performance.now() - S.qStart), flagged: false, audio_missing: !!S.audioMissing[q.id] }); } catch { /* abaikan */ }
+          try { await apiRetry(cfg.endpoints.answer, { attempt_id: cfg.attemptId, question_id: q.id, chosen_index: null, time_ms: Math.round(performance.now() - S.qStart), flagged: false, audio_missing: !!S.audioMissing[q.id] }); } catch { /* abaikan */ }
         }
         if (S.idx < S.questions.length - 1) go(S.idx + 1);
         else finish();
