@@ -51,42 +51,64 @@ final class Practice
                 $tags[$t] = true;
             }
         }
-        // Soal baru dengan tag aturan yang sama, belum pernah dijawab
+        // Soal baru dengan tag aturan yang sama, belum pernah dijawab (termasuk bank Hari adaptif)
         if ($tags && count($ids) < $limit) {
             $cands = q_all(
-                "SELECT q.id, q.rule_tags FROM questions q JOIN rumahs r ON r.id = q.rumah_id
-                 WHERE q.section = ? AND q.status = 'published' AND r.kind IN ('practice')
+                "SELECT q.id, q.passage_id, q.rule_tags FROM questions q JOIN rumahs r ON r.id = q.rumah_id
+                 WHERE q.section = ? AND q.status = 'published' AND r.kind IN ('practice','adaptive')
                    AND q.id NOT IN (SELECT question_id FROM answers WHERE user_id = ?)
                  ORDER BY RAND() LIMIT 300",
                 [$section, $userId]
             );
-            foreach ($cands as $c) {
-                if (count($ids) >= $limit) {
-                    break;
-                }
-                if (array_intersect(json_col($c['rule_tags']), array_keys($tags)) && !in_array((int) $c['id'], $ids, true)) {
-                    $ids[] = (int) $c['id'];
-                }
-            }
+            $cands = array_values(array_filter($cands, fn($c) => (bool) array_intersect(json_col($c['rule_tags']), array_keys($tags))));
+            self::addWithSiblings($ids, $cands, $limit);
         }
-        // Tambah dari bank Blok D bila masih kurang
+        // Tambah dari bank Level D (Hari 12, 13, dan bank Hari 14); soal yang belum pernah dijawab didahulukan
         if (count($ids) < $limit) {
             $fill = q_all(
-                "SELECT q.id FROM questions q JOIN rumahs r ON r.id = q.rumah_id JOIN bloks b ON b.id = r.blok_id
-                 WHERE b.code = 'D' AND r.kind = 'practice' AND q.section = ? AND q.status = 'published'
-                 ORDER BY RAND() LIMIT 60",
-                [$section]
+                "SELECT q.id, q.passage_id FROM questions q JOIN rumahs r ON r.id = q.rumah_id JOIN bloks b ON b.id = r.blok_id
+                 WHERE b.code = 'D' AND r.kind IN ('practice','adaptive') AND q.section = ? AND q.status = 'published'
+                 ORDER BY (q.id IN (SELECT question_id FROM answers WHERE user_id = ?)), RAND() LIMIT 120",
+                [$section, $userId]
             );
-            foreach ($fill as $f) {
+            self::addWithSiblings($ids, $fill, $limit);
+        }
+        return self::groupOrder($ids);
+    }
+
+    /**
+     * Tambahkan kandidat ke $ids sampai $limit. Soal bergrup (satu percakapan/teks) diambil bersama
+     * saudara-saudaranya dalam daftar kandidat bila semuanya masih muat, agar audio/teks tidak dipakai
+     * untuk satu soal saja; bila tidak muat, soal itu dilewati dan dicoba lagi di putaran kedua.
+     *
+     * @param array<int,int> $ids
+     * @param array<int,array{id:mixed,passage_id:mixed}> $cands
+     */
+    private static function addWithSiblings(array &$ids, array $cands, int $limit): void
+    {
+        $byPassage = [];
+        foreach ($cands as $c) {
+            if ($c['passage_id']) {
+                $byPassage[(int) $c['passage_id']][] = (int) $c['id'];
+            }
+        }
+        foreach ([true, false] as $wholeGroups) {
+            foreach ($cands as $c) {
                 if (count($ids) >= $limit) {
-                    break;
+                    return;
                 }
-                if (!in_array((int) $f['id'], $ids, true)) {
-                    $ids[] = (int) $f['id'];
+                $id = (int) $c['id'];
+                if (in_array($id, $ids, true)) {
+                    continue;
+                }
+                $group = $c['passage_id'] ? array_values(array_diff($byPassage[(int) $c['passage_id']], $ids)) : [$id];
+                if (count($ids) + count($group) <= $limit) {
+                    array_push($ids, ...$group);
+                } elseif (!$wholeGroups) {
+                    $ids[] = $id;
                 }
             }
         }
-        return self::groupOrder($ids);
     }
 
     /** Urutkan agar soal dengan passage yang sama berdekatan (listening/reading). */
@@ -626,7 +648,7 @@ final class Practice
         $section = $mist[0]['section'] ?? null;
         $others = q_all(
             "SELECT q.id, q.section, q.rumah_id FROM questions q JOIN rumahs r ON r.id = q.rumah_id
-             WHERE JSON_CONTAINS(q.rule_tags, JSON_QUOTE(?)) AND q.status = 'published' AND r.kind = 'practice' ORDER BY RAND() LIMIT 40",
+             WHERE JSON_CONTAINS(q.rule_tags, JSON_QUOTE(?)) AND q.status = 'published' AND r.kind IN ('practice','adaptive') ORDER BY RAND() LIMIT 40",
             [$tag]
         );
         foreach ($others as $o) {
