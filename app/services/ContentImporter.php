@@ -13,6 +13,11 @@ final class ContentImporter
     private array $manifest = [];
     private array $simPrompts = [];
     private array $practicePrompts = [];
+    /** true = impor ulang walau file tidak berubah */
+    public bool $force = false;
+    /** Ringkasan per file: imported | unchanged | invalid */
+    public array $report = [];
+    private array $hashes = [];
 
     public const TYPES = [
         'listening' => ['listening_short', 'listening_long', 'listening_lecture'],
@@ -49,9 +54,20 @@ final class ContentImporter
             }
         }
         $this->validateMeta((array) $rumahs, (array) $glossary);
-        if (!$validateOnly && !$this->errors) {
-            $this->importMeta((array) $ruleTags, (array) $rumahs, (array) $glossary);
+        if (!$validateOnly) {
+            $this->hashes = json_col(q_val("SELECT value FROM settings WHERE `key` = 'seed_hashes'"), []);
         }
+        $metaHash = sha1(implode('|', array_map(fn($f) => (string) @file_get_contents("$dir/$f"), $meta)));
+        if (!$validateOnly && !$this->errors) {
+            if ($this->force || ($this->hashes['_meta'] ?? '') !== $metaHash) {
+                $this->importMeta((array) $ruleTags, (array) $rumahs, (array) $glossary);
+                $this->hashes['_meta'] = $metaHash;
+                $this->report['rumahs/rule_tags/glossary'] = 'imported';
+            } else {
+                $this->report['rumahs/rule_tags/glossary'] = 'unchanged';
+            }
+        }
+        $manifestRaw = is_file("$dir/audio-manifest.json") ? (string) file_get_contents("$dir/audio-manifest.json") : '';
         $slugs = array_column((array) $rumahs, 'slug');
         $files = [];
         foreach ($slugs as $slug) {
@@ -69,7 +85,23 @@ final class ContentImporter
             if ($data === null) {
                 continue;
             }
-            $count += $this->importRumahData($slug, $data, $validateOnly, basename($file));
+            $hash = sha1((string) file_get_contents($file) . '|' . $manifestRaw);
+            $skip = !$validateOnly && !$this->force && ($this->hashes[$slug] ?? '') === $hash;
+            $errBefore = count($this->errors);
+            $count += $this->importRumahData($slug, $data, $validateOnly || $skip, basename($file));
+            if (!$validateOnly) {
+                if (count($this->errors) > $errBefore) {
+                    $this->report[$slug] = 'invalid';
+                } elseif ($skip) {
+                    $this->report[$slug] = 'unchanged';
+                } else {
+                    $this->hashes[$slug] = $hash;
+                    $this->report[$slug] = 'imported';
+                }
+            }
+        }
+        if (!$validateOnly) {
+            setting_save('seed_hashes', $this->hashes);
         }
         return $this->result($count);
     }

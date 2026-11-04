@@ -1,136 +1,188 @@
 # Panduan Deploy ke Hostinger
 
-Panduan ini membawa PerumahanInggris dari repo ini ke hosting Hostinger (shared/cloud, PHP 8.2+, MySQL/MariaDB). Tidak ada build step dan tidak perlu Node.
+Setiap push ke branch `claude/vibrant-curie-qer2sp` otomatis di-deploy ke **https://perumahaninggris.my.id** lewat GitHub Actions (`.github/workflows/deploy.yml`).
 
-## 0. Yang perlu disiapkan
-
-- Domain yang sudah terhubung ke Hostinger.
-- Akses hPanel.
-- Password admin awal (kuat: minimal 10 karakter, huruf besar, huruf kecil, angka, simbol).
-- (Opsional, untuk audio) komputer dengan Python 3.10+ dan ffmpeg.
-
-## 1. Struktur di server
-
-Di Hostinger, setiap domain punya folder `domains/<domain>/`. Kode aplikasi diletakkan **di luar** `public_html` supaya tidak bisa diakses dari internet:
+## Cara kerjanya
 
 ```
-domains/<domain>/
-├── app/            ← dari repo (kode, konfigurasi, vendor Dompdf)
-├── tools/          ← opsional (skrip audio, tidak dipakai server)
-└── public_html/    ← dari repo (index.php, .htaccess, assets, audio)
+~/apps/perumahaninggris/                ← clone repo (di LUAR folder domain)
+├── app/                                  kode, vendor Dompdf
+│   ├── config.php                        dibuat sekali, tidak di-git, tidak pernah tertimpa
+│   ├── installed.lock                    tidak di-git
+│   └── storage/                          logs, sessions, pdf-cache (isinya tidak di-git)
+├── deploy/deploy.sh                      skrip deploy di server
+└── public_html/                          sumber yang disalin (rsync) ke folder domain
+
+~/domains/perumahaninggris.my.id/
+├── DO_NOT_UPLOAD_HERE                    penanda Hostinger, tidak disentuh
+└── public_html/                          ← disajikan web server
+    ├── index.php, .htaccess, assets/     disalin dari repo setiap deploy (rsync --delete)
+    ├── app-path.php                      dibuat sekali, menunjuk ke ~/apps/…/app (tidak di-rsync)
+    ├── audio/                            MP3: dilindungi dari rsync --delete
+    └── assets/img/sponsors/              logo upload admin: dilindungi
 ```
 
-`public_html/index.php` memuat `../app/bootstrap.php`. Document root domain tetap `public_html` (bawaan Hostinger), jadi tidak perlu diubah.
+Urutan setiap deploy (`deploy/deploy.sh`):
 
-## 2. Upload file
+1. `git fetch` + `git reset --hard origin/<branch>` di `~/apps/perumahaninggris`. File yang di-`.gitignore` (`config.php`, `installed.lock`, isi `storage/`) tidak disentuh `reset --hard`.
+2. `rsync -a --delete public_html/ ~/domains/perumahaninggris.my.id/public_html/`, dengan `audio/`, `assets/img/sponsors/`, `app-path.php`, dan `.well-known/` dilindungi dari penghapusan.
+3. `php app/database/seed.php`, yang aman dijalankan berulang:
+   - Tabel memakai `CREATE TABLE IF NOT EXISTS`; pengaturan dan Blok memakai `INSERT IGNORE`; sponsor bawaan hanya dimasukkan sekali.
+   - Soal di-upsert per (Rumah, seksi, nomor), jadi ID soal tetap dan jawaban, progres, serta Buku Kesalahan pengguna tidak tersentuh. Tidak ada `DELETE`.
+   - File JSON yang tidak berubah sejak impor terakhir dilewati, sehingga edit dari panel admin tidak tertimpa. Jika sebuah file JSON diubah di repo, isi file itu yang berlaku untuk soal-soal di dalamnya.
+   - `php app/database/seed.php --force` mengimpor ulang semuanya bila diperlukan.
 
-**Pilihan A, Git (disarankan).** hPanel → Advanced → Git → isi URL repo dan branch, lalu deploy ke folder `domains/<domain>` (bukan `public_html`). Jika hPanel hanya mengizinkan deploy ke `public_html`, gunakan pilihan B.
+Sebelum SSH, workflow memeriksa sintaks semua file PHP dan JSON. Jika gagal, server tidak disentuh.
 
-**Pilihan B, File Manager / FTP.**
-1. Unduh repo sebagai ZIP.
-2. Upload isi folder `app/` ke `domains/<domain>/app/`.
-3. Upload isi folder `public_html/` ke `domains/<domain>/public_html/` (timpa `default.php` bawaan jika ada; hapus `default.php`).
-4. Pastikan file tersembunyi `.htaccess` ikut ter-upload (`public_html/.htaccess`, `public_html/audio/.htaccess`, `app/.htaccess`).
+## Setup awal (sekali jalan lewat SSH)
 
-Folder `app/vendor/` (Dompdf) sudah ada di repo, jadi tidak perlu menjalankan Composer.
+Ganti `u123456789` dengan username Hostinger Anda (lihat `echo $HOME`).
 
-## 3. Buat database
+### 1. Beri server akses baca ke repo (repo privat)
 
-hPanel → Databases → **MySQL Databases** → buat database baru, user, dan password. Catat ketiganya (contoh: `u123456789_perumahan`).
+```bash
+ssh-keygen -t ed25519 -N "" -C "hostinger-deploy" -f ~/.ssh/github_deploy
+cat ~/.ssh/github_deploy.pub
+```
 
-## 4. Isi `app/config.php`
+Salin hasilnya ke GitHub: repo **rizaledc/EPrT** → Settings → Deploy keys → Add deploy key (biarkan *Allow write access* tidak dicentang). Lalu:
 
-Salin `app/config.example.php` menjadi `app/config.php` (lewat File Manager: klik kanan → Copy, lalu Rename), kemudian isi:
+```bash
+cat >> ~/.ssh/config <<'EOF'
+Host github.com
+  IdentityFile ~/.ssh/github_deploy
+  IdentitiesOnly yes
+EOF
+chmod 600 ~/.ssh/config
+```
+
+```bash
+ssh -T git@github.com
+```
+
+Jawab `yes` saat ditanya fingerprint. Pesan "successfully authenticated" berarti berhasil. Jika repo publik, langkah ini boleh dilewati dan clone memakai URL `https://github.com/rizaledc/EPrT.git`.
+
+### 2. Clone repo di luar folder domain
+
+```bash
+mkdir -p ~/apps
+git clone --branch claude/vibrant-curie-qer2sp git@github.com:rizaledc/EPrT.git ~/apps/perumahaninggris
+```
+
+### 3. Buat config dan penunjuk lokasi app
+
+```bash
+cp ~/apps/perumahaninggris/app/config.example.php ~/apps/perumahaninggris/app/config.php
+chmod 600 ~/apps/perumahaninggris/app/config.php
+```
+
+```bash
+printf "<?php\nreturn '%s/apps/perumahaninggris/app';\n" "$HOME" > ~/domains/perumahaninggris.my.id/public_html/app-path.php
+```
+
+```bash
+rm -f ~/domains/perumahaninggris.my.id/public_html/default.php
+```
+
+```bash
+php -r 'echo bin2hex(random_bytes(32)), PHP_EOL;'
+```
+
+Hasil perintah terakhir dipakai untuk `app_secret`. Lalu edit config (`nano ~/apps/perumahaninggris/app/config.php`, atau lewat File Manager):
 
 | Kunci | Isi |
 | --- | --- |
 | `env` | `production` |
-| `base_url` | `https://domainanda.com` (tanpa `/` di akhir) |
-| `app_secret` | string acak 64 karakter. Buat di terminal: `php -r "echo bin2hex(random_bytes(32));"` atau generator password apa pun |
-| `db.name`, `db.user`, `db.pass` | dari langkah 3. `db.host` biasanya `localhost` |
-| `ADMIN_INITIAL_PASSWORD` | password admin awal (sementara) |
-| `hsts` | biarkan `false` dulu; ubah ke `true` setelah langkah 7 berhasil |
+| `base_url` | `https://perumahaninggris.my.id` |
+| `app_secret` | string 64 karakter dari perintah di atas |
+| `db` → `host` | `localhost` |
+| `db` → `name`, `user`, `pass` | dari hPanel → Databases → MySQL Databases (buat dulu jika belum) |
+| `ADMIN_INITIAL_PASSWORD` | password admin awal yang kuat (min. 10 karakter, huruf besar, huruf kecil, angka, simbol). Dikosongkan lagi setelah langkah 4 |
+| `hsts` | `false` dulu; `true` setelah https berjalan normal |
+| `noindex` | `true` selama belum rilis; `false` saat siap diindeks |
+| `public_path` | `/home/u123456789/domains/perumahaninggris.my.id/public_html` |
+| `timezone`, `admin_username` | biarkan (`Asia/Jakarta`, `MiminEPrT2026`) |
 
-`app/config.php` tidak pernah di-commit (sudah ada di `.gitignore`).
-
-## 5. Buat tabel, impor konten, buat admin
-
-**Dengan SSH** (hPanel → Advanced → SSH Access):
+### 4. Deploy pertama + akun admin
 
 ```bash
-cd ~/domains/<domain>
-php app/database/seed.php          # membuat tabel (schema.sql) + mengimpor soal, Kamus, sponsor
-php app/database/create_admin.php  # membuat akun admin MiminEPrT2026 dari config
+bash ~/apps/perumahaninggris/deploy/deploy.sh claude/vibrant-curie-qer2sp
 ```
 
-**Tanpa SSH:** buka `https://domainanda.com/install`, ketik ulang `ADMIN_INITIAL_PASSWORD`, lalu klik **Jalankan instalasi**. Halaman ini menjalankan ketiga langkah di atas lalu mengunci dirinya sendiri (`app/installed.lock`).
+```bash
+php ~/apps/perumahaninggris/app/database/create_admin.php
+```
 
-Alternatif manual: impor `app/database/schema.sql` lewat phpMyAdmin, lalu tetap jalankan `/install` untuk konten dan admin.
+Setelah muncul "Akun admin … berhasil dibuat", kosongkan lagi `ADMIN_INITIAL_PASSWORD` di `config.php` (`''`).
 
-**Setelah berhasil: hapus nilai `ADMIN_INITIAL_PASSWORD` dari `app/config.php`** (biarkan string kosong `''`).
+### 5. Periksa
 
-## 6. Izin folder
+- PHP web di hPanel → Advanced → PHP Configuration minimal **8.2** (CLI di server sudah 8.3).
+- hPanel → Security → SSL: pastikan SSL aktif. `.htaccess` mengalihkan http ke https.
+- Buka https://perumahaninggris.my.id dan https://perumahaninggris.my.id/masuk (login `MiminEPrT2026`).
+- `https://perumahaninggris.my.id/robots.txt` berisi `Disallow: /` selama `noindex` = `true`.
 
-Folder berikut harus bisa ditulis oleh PHP (biasanya sudah otomatis di Hostinger; jika tidak, set 755):
+### 6. Aktifkan GitHub Actions
 
-- `app/storage/logs`, `app/storage/sessions`, `app/storage/pdf-cache`
-- `public_html/audio` (untuk upload MP3 dari admin)
-- `public_html/assets/img/sponsors` (dibuat otomatis saat upload logo)
+Secret `SSH_HOST`, `SSH_PORT`, `SSH_USER`, `SSH_KEY` sudah ada. Pastikan public key pasangan `SSH_KEY` ada di `~/.ssh/authorized_keys` server (hPanel → Advanced → SSH Access → SSH keys). Setelah itu setiap push ke branch ini menjalankan deploy; deploy manual tersedia di tab Actions → *Deploy ke Hostinger* → *Run workflow*.
 
-## 7. Aktifkan SSL
-
-hPanel → Security → **SSL** → pasang SSL gratis untuk domain. Setelah `https://` berfungsi:
-
-1. `.htaccess` sudah mengalihkan semua `http` ke `https` secara otomatis.
-2. Ubah `'hsts' => true` di `app/config.php`.
-
-## 8. Audio Listening
+## Audio Listening
 
 Hosting tidak menjalankan TTS. Di komputer sendiri:
 
 ```bash
 pip install -r tools/requirements.txt
-python tools/make_audio.py           # membuat MP3 di public_html/audio + app/database/seed/audio-manifest.json
+python tools/make_audio.py
 ```
 
-Lalu upload folder `public_html/audio/` dan file `app/database/seed/audio-manifest.json` ke server, dan jalankan ulang `php app/database/seed.php` (atau `/admin/impor`). Selama MP3 belum ada, pemutar memakai **suara browser** sebagai cadangan (tetap sekali putar di Simulasi) dan soal ditandai `audio_missing` di dashboard admin. Admin juga bisa mengganti MP3 satu per satu di **Admin → Grup & Teks**.
-
-## 9. Setelah live
-
-- Login di `/masuk` dengan `MiminEPrT2026`, lalu buka `/admin`.
-- **Admin → Sponsor:** ganti deskripsi sementara orbitani.com dan kodinginaja.biz.id, upload logo bila ada.
-- **Admin → Pengaturan:** cek tabel konversi skor, target default, dan pesan pengumuman.
-- hPanel → Files → **Backups:** aktifkan backup harian. Admin → Impor/Ekspor juga menyediakan **Ekspor semua data (SQL)**.
-- `display_errors` sudah mati di mode `production`; error dicatat di `app/storage/logs/`.
-
-## 10. Menambah konten
-
-Setiap Rumah adalah satu file `app/database/seed/<slug>.json` (format: `app/database/seed/README.md`). Alur:
+Hasilnya: MP3 di `public_html/audio/` dan `app/database/seed/audio-manifest.json`. **Commit dan push `audio-manifest.json`** (seed mengimpor durasinya). MP3 tidak di-commit; upload folder `public_html/audio/` ke `~/domains/perumahaninggris.my.id/public_html/audio/` lewat File Manager atau:
 
 ```bash
-php app/database/seed.php --validate --only r02   # cek dulu
-php app/database/seed.php --only r02              # impor
-python tools/make_audio.py --only r02             # audio
+rsync -av public_html/audio/ u123456789@HOST:domains/perumahaninggris.my.id/public_html/audio/
 ```
 
-Atau tempel/unggah JSON di **Admin → Impor / Ekspor** (selalu divalidasi sebelum disimpan).
+Folder ini dilindungi dari `rsync --delete` saat deploy. Selama MP3 belum ada, pemutar memakai suara browser dan soal ditandai `audio_missing` di admin. MP3 juga bisa diunggah satu per satu dari Admin → Grup & Teks.
+
+## Menambah konten
+
+```bash
+php app/database/seed.php --validate --only r02
+```
+
+Commit `app/database/seed/r02.json`, push, dan deploy otomatis mengimpornya. Format: `app/database/seed/README.md`.
+
+## Setelah rilis
+
+- `noindex` → `false` di `config.php` (di server, tidak lewat git).
+- `hsts` → `true`.
+- Admin → Sponsor: ganti deskripsi sementara, upload logo.
+- hPanel → Files → Backups: aktifkan backup harian. Admin → Impor/Ekspor juga menyediakan ekspor SQL.
 
 ## Uji di komputer sendiri
 
 ```bash
-cp app/config.example.php app/config.php   # isi env=development, base_url=http://localhost:8000, data DB lokal
-php app/database/seed.php && php app/database/create_admin.php
-php -S localhost:8000 -t public_html public_html/index.php
+cp app/config.example.php app/config.php
 ```
 
-Argumen terakhir (`public_html/index.php`) diperlukan agar `/robots.txt`, `/sitemap.xml`, dan `/rapor/a.pdf` ikut diarahkan ke router.
+Isi `env` = `development`, `base_url` = `http://localhost:8000`, data DB lokal, `noindex` = `false`, lalu:
+
+```bash
+php app/database/seed.php && php app/database/create_admin.php
+```
+
+```bash
+php -S localhost:8000 -t public_html public_html/index.php
+```
 
 ## Pemecahan masalah
 
 | Gejala | Solusi |
 | --- | --- |
-| Halaman "Konfigurasi belum lengkap" | `app/config.php` belum dibuat |
-| Error 500 putih | Cek `app/storage/logs/app-YYYY-MM-DD.log`; sementara ubah `env` ke `development` untuk melihat detail |
-| Semua halaman selain beranda 404 | `.htaccess` tidak ter-upload atau mod_rewrite mati |
-| Font PDF tidak muncul | Pastikan `app/storage/fonts/` ter-upload dan `app/storage/pdf-cache` bisa ditulis |
-| "Terlalu banyak percobaan" saat login | Tunggu 15 menit, atau hapus isi tabel `login_attempts` lewat phpMyAdmin |
+| Workflow gagal "app/config.php belum ada" | Setup awal langkah 3 belum dijalankan |
+| Workflow gagal `Permission denied (publickey)` saat `git fetch` | Deploy key (langkah 1) belum ditambahkan di GitHub |
+| Workflow gagal di langkah SSH | Public key pasangan `SSH_KEY` belum ada di `authorized_keys`, atau `SSH_PORT` salah (Hostinger biasanya 65002) |
+| `rsync: command not found` | Hubungi support Hostinger; sementara deploy manual lewat File Manager |
+| Situs menampilkan "Folder app/ tidak ditemukan" | `public_html/app-path.php` belum ada atau path di dalamnya salah |
+| Error 500 | Lihat `~/apps/perumahaninggris/app/storage/logs/app-YYYY-MM-DD.log` |
+| Seed melaporkan "tidak valid" | File JSON itu tidak diimpor; perbaiki lalu push lagi (`seed.php --validate --only <slug>`) |
+| "Terlalu banyak percobaan" saat login | Tunggu 15 menit, atau kosongkan tabel `login_attempts` di phpMyAdmin |

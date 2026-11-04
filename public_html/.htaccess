@@ -13,6 +13,8 @@ DirectoryIndex index.php
 
   # Tolak file sensitif
   RewriteRule \.(json|sql|lock|env|log|ini|md|py|sh)$ - [F,L,NC]
+  # File tersembunyi ditolak, kecuali .well-known (validasi SSL)
+  RewriteCond %{REQUEST_URI} !^/\.well-known/
   RewriteRule (^|/)\. - [F,L]
 
   # File & folder yang ada disajikan langsung, sisanya ke front controller
@@ -25,6 +27,11 @@ DirectoryIndex index.php
 <FilesMatch "\.(json|sql|lock|env|log|ini|md|py|sh)$">
   Require all denied
 </FilesMatch>
+
+# Penunjuk lokasi folder app di server (bukan halaman)
+<Files "app-path.php">
+  Require all denied
+</Files>
 
 <IfModule mod_headers.c>
   Header always set X-Content-Type-Options "nosniff"

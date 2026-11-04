@@ -1,0 +1,43 @@
+name: Deploy ke Hostinger
+
+on:
+  push:
+    branches: [claude/vibrant-curie-qer2sp]
+  workflow_dispatch:
+
+# Satu deploy dalam satu waktu; push yang lebih baru menunggu, tidak membatalkan yang berjalan
+concurrency:
+  group: deploy-hostinger
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Cek sintaks PHP & JSON sebelum deploy
+        run: |
+          find app public_html -name '*.php' -not -path '*/vendor/*' -print0 | xargs -0 -n1 php -l > /dev/null
+          php -r 'foreach (glob("app/database/seed/*.json") as $f) { json_decode(file_get_contents($f)); if (json_last_error()) { fwrite(STDERR, "$f: ".json_last_error_msg()."\n"); exit(1); } }'
+
+      - name: Deploy lewat SSH
+        uses: appleboy/ssh-action@v1.2.0
+        with:
+          host: ${{ secrets.SSH_HOST }}
+          port: ${{ secrets.SSH_PORT }}
+          username: ${{ secrets.SSH_USER }}
+          key: ${{ secrets.SSH_KEY }}
+          command_timeout: 10m
+          script: |
+            set -euo pipefail
+            BRANCH="claude/vibrant-curie-qer2sp"
+            cd "$HOME/apps/perumahaninggris"
+            # Perbarui kode dulu agar deploy.sh versi terbaru yang dijalankan
+            git fetch --prune origin "$BRANCH"
+            git reset --hard "origin/$BRANCH"
+            bash deploy/deploy.sh "$BRANCH"

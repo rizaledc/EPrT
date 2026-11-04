@@ -36,7 +36,11 @@ function config(string $key, $default = null)
 }
 
 define('IS_DEV', config('env') === 'development');
-define('PUBLIC_PATH', rtrim((string) (config('public_path') ?: dirname(APP_PATH) . '/public_html'), '/'));
+if (!defined('PUBLIC_PATH')) {
+    // Web: didefinisikan public_html/index.php. CLI: dari config public_path (atau ../public_html).
+    define('PUBLIC_PATH', rtrim((string) (config('public_path') ?: dirname(APP_PATH) . '/public_html'), '/'));
+}
+define('NOINDEX', (bool) config('noindex', false));
 define('STORAGE_PATH', APP_PATH . '/storage');
 
 date_default_timezone_set((string) config('timezone', 'Asia/Jakarta'));

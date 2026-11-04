@@ -13,7 +13,7 @@ $flashes = take_flashes();
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title><?= e($title) ?></title>
 <meta name="description" content="<?= e($description) ?>">
-<?php if (!empty($noindex)): ?><meta name="robots" content="noindex, nofollow">
+<?php if (!empty($noindex) || NOINDEX): ?><meta name="robots" content="noindex, nofollow">
 <?php else: ?><link rel="canonical" href="<?= e($canonical) ?>">
 <link rel="alternate" hreflang="id" href="<?= e($canonical . '?lang=id') ?>">
 <link rel="alternate" hreflang="en" href="<?= e($canonical . '?lang=en') ?>">

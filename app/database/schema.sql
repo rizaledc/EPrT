@@ -262,16 +262,20 @@ INSERT IGNORE INTO settings (`key`, value) VALUES
  ('default_target', '500'),
  ('announcement', '{"id":"","en":""}');
 
+-- Sponsor bawaan: hanya sekali (tabel kosong dan belum pernah di-seed), agar edit/hapus admin tidak dikembalikan
 INSERT INTO sponsors (name, url, desc_id, desc_en, logo_path, is_pinned, sort_order)
-SELECT * FROM (SELECT 'orbitani.com' AS name, 'https://orbitani.com' AS url,
-  'Sponsor utama PerumahanInggris. (Deskripsi sementara, ubah di Admin → Sponsor.)' AS desc_id,
-  'Main sponsor of PerumahanInggris. (Placeholder, edit in Admin → Sponsors.)' AS desc_en,
-  NULL AS logo_path, 1 AS is_pinned, 1 AS sort_order) s
-WHERE NOT EXISTS (SELECT 1 FROM sponsors WHERE name = 'orbitani.com');
+SELECT s.* FROM (
+  SELECT 'orbitani.com' AS name, 'https://orbitani.com' AS url,
+    'Sponsor utama PerumahanInggris. (Deskripsi sementara, ubah di Admin → Sponsor.)' AS desc_id,
+    'Main sponsor of PerumahanInggris. (Placeholder, edit in Admin → Sponsors.)' AS desc_en,
+    NULL AS logo_path, 1 AS is_pinned, 1 AS sort_order
+  UNION ALL
+  SELECT 'kodinginaja.biz.id', 'https://kodinginaja.biz.id',
+    'Mendukung PerumahanInggris. (Deskripsi sementara, ubah di Admin → Sponsor.)',
+    'Supporting PerumahanInggris. (Placeholder, edit in Admin → Sponsors.)',
+    NULL, 0, 2
+) s
+WHERE NOT EXISTS (SELECT 1 FROM settings WHERE `key` = 'sponsors_seeded')
+  AND NOT EXISTS (SELECT 1 FROM sponsors);
 
-INSERT INTO sponsors (name, url, desc_id, desc_en, logo_path, is_pinned, sort_order)
-SELECT * FROM (SELECT 'kodinginaja.biz.id' AS name, 'https://kodinginaja.biz.id' AS url,
-  'Mendukung PerumahanInggris. (Deskripsi sementara, ubah di Admin → Sponsor.)' AS desc_id,
-  'Supporting PerumahanInggris. (Placeholder, edit in Admin → Sponsors.)' AS desc_en,
-  NULL AS logo_path, 0 AS is_pinned, 2 AS sort_order) s
-WHERE NOT EXISTS (SELECT 1 FROM sponsors WHERE name = 'kodinginaja.biz.id');
+INSERT IGNORE INTO settings (`key`, value) VALUES ('sponsors_seeded', 'true');

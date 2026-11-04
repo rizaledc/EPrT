@@ -13,7 +13,7 @@ php app/database/create_admin.php              # akun admin MiminEPrT2026
 php -S localhost:8000 -t public_html public_html/index.php
 ```
 
-Deploy ke hosting: lihat [`DEPLOY.md`](DEPLOY.md). Format konten soal: [`app/database/seed/README.md`](app/database/seed/README.md). Audio: `tools/make_audio.py`.
+Deploy ke hosting: lihat [`DEPLOY.md`](DEPLOY.md). Setiap push ke branch `claude/vibrant-curie-qer2sp` otomatis di-deploy ke Hostinger (`.github/workflows/deploy.yml`). Format konten soal: [`app/database/seed/README.md`](app/database/seed/README.md). Audio: `tools/make_audio.py`.
 
 ## Struktur
 

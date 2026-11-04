@@ -35,6 +35,12 @@ return [
     // Aktifkan HSTS setelah SSL Hostinger aktif dan website sudah bisa dibuka lewat https
     'hsts' => false,
 
-    // Folder publik (dipakai untuk upload audio & logo). Default: ../public_html dari folder app.
+    // Selama situs belum rilis: true = semua halaman noindex + robots.txt "Disallow: /".
+    // Ubah ke false saat siap diindeks mesin pencari.
+    'noindex' => true,
+
+    // Folder public_html yang benar-benar disajikan web server (dipakai CLI & upload).
+    // Hostinger dengan repo di ~/apps: '/home/u123456789/domains/perumahaninggris.my.id/public_html'
+    // null = ../public_html dari folder app (struktur repo).
     'public_path' => null,
 ];

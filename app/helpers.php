@@ -274,6 +274,9 @@ function send_security_headers(): void
     header('Referrer-Policy: strict-origin-when-cross-origin');
     header('X-Frame-Options: DENY');
     header('Permissions-Policy: camera=(), microphone=(), geolocation=()');
+    if (NOINDEX) {
+        header('X-Robots-Tag: noindex, nofollow');
+    }
     if (config('hsts') && is_https()) {
         header('Strict-Transport-Security: max-age=31536000; includeSubDomains');
     }

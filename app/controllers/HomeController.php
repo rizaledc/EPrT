@@ -47,6 +47,10 @@ final class HomeController
     public function robots(): void
     {
         header('Content-Type: text/plain; charset=utf-8');
+        if (NOINDEX) {
+            echo "# Situs belum rilis (config noindex = true)\nUser-agent: *\nDisallow: /\n";
+            exit;
+        }
         echo "User-agent: *\nDisallow: /admin\nDisallow: /api/\nDisallow: /install\nDisallow: /hasil/\nDisallow: /rapor/\n\nSitemap: " . abs_url('sitemap.xml') . "\n";
         exit;
     }
