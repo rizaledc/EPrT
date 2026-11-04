@@ -175,7 +175,7 @@ final class PdfReport
             . self::footer()
             . self::header($title, $user)
             . '<h2>' . e(t('pdf.per_rumah')) . '</h2>'
-            . '<table><tr><th>Rumah</th><th class="num">L</th><th class="num">S</th><th class="num">R</th><th class="num">Total</th><th class="num">' . e(t('pdf.time')) . '</th></tr>' . $rows . '</table>'
+            . '<table><tr><th>' . e(t('pdf.col.day')) . '</th><th class="num">L</th><th class="num">S</th><th class="num">R</th><th class="num">Total</th><th class="num">' . e(t('pdf.time')) . '</th></tr>' . $rows . '</table>'
             . '<h2>' . e(t('pdf.pct_section')) . '</h2>' . self::bars($pcts)
             . '<h2>' . e(t('pdf.weakest5')) . '</h2>' . self::weakTable($weak, $uid)
             . '<h2>' . e(t('pdf.estimate_tmp')) . '</h2>'
@@ -184,7 +184,7 @@ final class PdfReport
                   . ($est['low_data'] ? '<br><span class="muted">' . e(t('score.low_data')) . '</span>' : '')
                 : e(t('score.not_enough'))) . '</div>'
             . '</body></html>';
-        $filename = sprintf('PerumahanInggris-Rapor-Blok%s-%s-%s.pdf', $code, preg_replace('/[^A-Za-z0-9_]/', '', $user['username']), date('Y-m-d'));
+        $filename = sprintf('PerumahanInggris-Rapor-Level%s-%s-%s.pdf', $code, preg_replace('/[^A-Za-z0-9_]/', '', $user['username']), date('Y-m-d'));
         self::stream(self::dompdf(), $html, $filename);
     }
 

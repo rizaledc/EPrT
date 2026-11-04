@@ -44,8 +44,12 @@ final class ReportController
 
     public function blokPdf(string $blok): void
     {
+        // Pola baru /rapor/level-a.pdf; pola lama /rapor/a.pdf dialihkan 301
+        if (preg_match('/^[a-dA-D]$/', $blok)) {
+            redirect('/rapor/level-' . strtolower($blok) . '.pdf', 301);
+        }
         $u = require_login();
-        $code = strtoupper($blok);
+        $code = strtoupper(preg_replace('/^level-/', '', $blok));
         if (!in_array($code, ['A', 'B', 'C', 'D'], true)) {
             abort(404);
         }

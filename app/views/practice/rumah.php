@@ -5,7 +5,7 @@ $seen = [];
 $adaptive = $rumah['kind'] === 'adaptive';
 ?>
 <section class="container">
-  <nav class="small mt-24" aria-label="breadcrumb"><a href="<?= e(url('latihan')) ?>"><?= e(t('nav.practice')) ?></a> / Blok <?= e($rumah['blok_code']) ?> · <?= e(tr(['name_id' => $rumah['blok_name_id'], 'name_en' => $rumah['blok_name_en']], 'name')) ?></nav>
+  <nav class="small mt-24" aria-label="breadcrumb"><a href="<?= e(url('latihan')) ?>"><?= e(t('nav.practice')) ?></a> / <?= e(t('term.level_n', ['b' => $rumah['blok_code']])) ?> · <?= e(tr(['name_id' => $rumah['blok_name_id'], 'name_en' => $rumah['blok_name_en']], 'name')) ?></nav>
   <div class="rumah-hero">
     <div class="big-num" aria-hidden="true"><?= (int) $rumah['number'] ?></div>
     <div>

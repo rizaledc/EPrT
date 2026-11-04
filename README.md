@@ -44,11 +44,11 @@ Platform lengkap. Konten yang sudah ditulis: **Rumah Contoh** (10 soal), **Rumah
 Teks yang dilihat pengguna tidak boleh memakai tanda kutip (" ' “ ” ‘ ’) untuk mengutip atau menandai kata; pakai **tebal**. Apostrof di dalam kata (I'm, didn't) dan teks soal Inggris dikecualikan.
 
 ```bash
-php tests/no_quotes.php
+php tests/cek_teks.php
 ```
 
 ```bash
-BASE=http://127.0.0.1:8000 MEMBER=user:pass ADMIN=user:pass node tests/no_quotes_render.js
+BASE=http://127.0.0.1:8000 MEMBER=user:pass ADMIN=user:pass node tests/cek_teks_tampil.js
 ```
 
 Keduanya dijalankan otomatis oleh job `cek-kutip` di `.github/workflows/deploy.yml`; deploy hanya berjalan jika job ini lulus.

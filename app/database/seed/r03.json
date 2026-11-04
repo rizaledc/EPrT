@@ -139,7 +139,7 @@
      "why_wrong_id": {
       "1": "Jebakan di kata **couldn't**. Ungkapan ini justru artinya setuju banget.",
       "2": "Kebalikannya. Perpustakaannya selalu PENUH.",
-      "3": "Belajar di rumah sama sekali nggak disebut."
+      "3": "Belajar di kos sama sekali nggak disebut."
      },
      "why_wrong_en": {
       "1": "A trap on **couldn't**. The phrase means strong agreement.",
@@ -1124,7 +1124,7 @@
      "difficulty": 2,
      "evidence_quote": "Small steps feel less daunting, so starting becomes easier.",
      "why_correct_id": "**so starting becomes easier** itu akibatnya. Langkah kecil kerasa kurang **daunting**, jadi lebih gampang dimulai. Yang bikin susah mulai itu rasa takut atau gentar. Jadi **daunting** artinya **intimidating**.",
-     "why_correct_en": "**so starting becomes easier** is the result. Small steps feel less **daunting**, so they're easier to begin. What blocks a start is feeling overwhelmed. So **daunting** means **intimidating**.",
+     "why_correct_en": "**so starting becomes easier** is the result. Small steps feel less **daunting**, so they're easier to begin. What stops a start is feeling overwhelmed. So **daunting** means **intimidating**.",
      "why_wrong_id": {
       "0": "**boring** memang disebut di paragraf 2. Tapi di sini konteksnya tugas gede yang kerasa berat buat dimulai.",
       "1": "Biaya nggak dibahas.",

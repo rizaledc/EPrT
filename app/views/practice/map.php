@@ -35,12 +35,12 @@ $nextId = $next ? (int) $next['id'] : 0;
     <div class="row" style="align-items:flex-end">
       <span class="blok-big" aria-hidden="true"><?= e($b['code']) ?></span>
       <div>
-        <span class="eyebrow">Blok <?= e($b['code']) ?></span>
+        <span class="eyebrow"><?= e(t('term.level_n', ['b' => $b['code']])) ?></span>
         <h2 id="blok-<?= e($b['code']) ?>"><?= e(tr($b, 'name')) ?></h2>
       </div>
     </div>
     <?php if ($blokDone): ?>
-      <a class="btn btn-secondary btn-sm" href="<?= e(url('rapor/' . strtolower($b['code']) . '.pdf')) ?>"><?= icon('download', 16) ?> <?= e(t('map.download_blok', ['b' => $b['code']])) ?></a>
+      <a class="btn btn-secondary btn-sm" href="<?= e(url('rapor/level-' . strtolower($b['code']) . '.pdf')) ?>"><?= icon('download', 16) ?> <?= e(t('map.download_blok', ['b' => $b['code']])) ?></a>
     <?php else: ?>
       <span class="btn btn-secondary btn-sm" aria-disabled="true" title="<?= e(t('map.blok_locked')) ?>"><?= icon('lock', 16) ?> <?= e(t('map.download_blok', ['b' => $b['code']])) ?></span>
     <?php endif; ?>

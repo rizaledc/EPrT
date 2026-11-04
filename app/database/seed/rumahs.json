@@ -120,8 +120,8 @@
   "slug": "r14",
   "number": 14,
   "kind": "adaptive",
-  "title_id": "Rumah Adaptif: Dari Buku Kesalahanmu",
-  "title_en": "Adaptive House: From Your Mistake Book",
+  "title_id": "Hari Review Adaptif: Dari Buku Kesalahanmu",
+  "title_en": "Adaptive Review Day: From Your Mistake Book",
   "sort": 15,
   "blok": "D"
  },
@@ -145,8 +145,8 @@
   "slug": "contoh",
   "number": 0,
   "kind": "sample",
-  "title_id": "Rumah Contoh",
-  "title_en": "Sample House",
+  "title_id": "Latihan Contoh",
+  "title_en": "Sample Practice",
   "sort": 0
  }
 ]

@@ -369,7 +369,7 @@
      "difficulty": 1,
      "key_sentence": "What's remarkable is how the swarm makes its decision.",
      "key_translation_id": "Yang luar biasa adalah cara kawanan itu mengambil keputusan.",
-     "why_correct_id": "Dosennya ngenalin kawanan lebah yang harus nyari rumah baru. Terus **What's remarkable is how the swarm makes its decision** nandain inti kuliahnya: cara kawanan milih rumah baru lewat lebah pengintai dan tarian.",
+     "why_correct_id": "Dosennya ngenalin kawanan lebah yang harus nyari sarang baru. Terus **What's remarkable is how the swarm makes its decision** nandain inti kuliahnya: cara kawanan milih sarang baru lewat lebah pengintai dan tarian.",
      "why_correct_en": "The lecturer introduces a swarm that needs a new home. **What's remarkable is how the swarm makes its decision** marks the core: how it picks a home through scouts and dances.",
      "why_wrong_id": {
       "1": "Ratu lama cuma disebut pergi bareng kawanan. Cara ngebesarin ratu baru nggak dibahas.",
@@ -800,7 +800,7 @@
      "difficulty": 1,
      "evidence_quote": "Visitors sometimes describe these events, known as super blooms, as miracles, but they are the result of careful biological timing.",
      "why_correct_id": "Paragraf 1 ngenalin **super blooms** dan bilang itu hasil **careful biological timing**. Paragraf berikutnya ngejelasin mekanismenya: biji yang nunggu, bahan kimia penghambat, biji yang tetap tidur, dan syarat cuaca. Jadi teksnya ngejelasin kenapa bunga gurun kadang mekar besar-besaran.",
-     "why_correct_en": "Paragraph 1 introduces **super blooms** as the result of **careful biological timing**. Later paragraphs explain how: waiting seeds, blocking chemicals, dormant seeds, weather. So it explains why desert flowers sometimes bloom in huge numbers.",
+     "why_correct_en": "Paragraph 1 introduces **super blooms** as the result of **careful biological timing**. Later paragraphs explain how: waiting seeds, chemicals that stop sprouting, dormant seeds, weather. So it explains why desert flowers sometimes bloom in huge numbers.",
      "why_wrong_id": {
       "0": "Hewan gurun nggak dibahas.",
       "1": "Wisatawan cuma lewat sekilas di paragraf 1.",
@@ -833,7 +833,7 @@
      "difficulty": 2,
      "evidence_quote": "To prevent this, the seed coats of many desert species contain chemicals that block germination. Only a heavy, sustained rainfall can wash these chemicals away.",
      "why_correct_id": "**this** nunjuk ke biji yang tumbuh habis hujan ringan terus mati. Bahan kimianya ngehambat biji buat tumbuh, dan cuma hujan deras yang lama yang bisa ngelarutinnya. Artinya hujan ringan nggak cukup, jadi biji terlindung dari tumbuh kecepetan.",
-     "why_correct_en": "**this** means seeds sprouting after a light shower and dying. The chemicals block germination, and only heavy, sustained rain washes them away. So a light shower can't, and seeds are protected from sprouting too early.",
+     "why_correct_en": "**this** means seeds sprouting after a light shower and dying. The chemicals stop germination, and only heavy, sustained rain washes them away. So a light shower can't, and seeds are protected from sprouting too early.",
      "why_wrong_id": {
       "1": "Warna bunga nggak dihubungin sama bahan kimia di kulit biji.",
       "2": "Bahan kimianya dilarutin hujan, bukan angin.",

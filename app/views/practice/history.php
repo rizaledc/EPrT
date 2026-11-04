@@ -15,7 +15,7 @@
     <?php else: ?>
     <div class="table-wrap">
       <table class="table">
-        <thead><tr><th><?= e(t('history.col.date')) ?></th><th>Rumah</th><th><?= e(t('history.col.section')) ?></th><th><?= e(t('history.col.mode')) ?></th><th class="num"><?= e(t('history.col.score')) ?></th><th class="num"><?= e(t('history.col.time')) ?></th><th></th></tr></thead>
+        <thead><tr><th><?= e(t('history.col.date')) ?></th><th><?= e(t('history.col.day')) ?></th><th><?= e(t('history.col.section')) ?></th><th><?= e(t('history.col.mode')) ?></th><th class="num"><?= e(t('history.col.score')) ?></th><th class="num"><?= e(t('history.col.time')) ?></th><th></th></tr></thead>
         <tbody>
           <?php foreach ($attempts as $a): ?>
             <tr>

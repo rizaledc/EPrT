@@ -925,8 +925,8 @@
       "2": "It was created because other countries COULDN'T use the Borrowdale mine.",
       "3": "It was invented by a French officer, Conté, not English shepherds."
      },
-     "analogy_id": "Soal yang nyebut nomor paragraf itu kayak alamat lengkap. Nggak usah keliling kota, langsung ke rumahnya.",
-     "analogy_en": "A question naming a paragraph is a full address. Skip the city tour and go straight to the house.",
+     "analogy_id": "Soal yang nyebut nomor paragraf itu kayak alamat lengkap. Nggak usah keliling kota, langsung ke pintunya.",
+     "analogy_en": "A question naming a paragraph is a full address. Skip the city tour and go straight to the door.",
      "tip_id": "Ada kata **advantage** di soal? Cari **advantage** atau **benefit** di teks, terus baca daftar sesudahnya.",
      "tip_en": "**Advantage** in the question? Find **advantage** or **benefit** in the text and read the list after it."
     },
@@ -1064,8 +1064,8 @@
       "2": "**23** is a temperature in degrees Celsius, not centimeters.",
       "3": "**A few millimeters** is a polyp's size in paragraph 1, not daily growth."
      },
-     "analogy_id": "Angka di teks itu kayak nomor rumah di satu jalan. Semuanya angka, tapi tiap angka punya pemilik beda. Cocokin angka sama satuannya.",
-     "analogy_en": "Numbers in a passage are house numbers on one street. All numbers, different owners. Match each number to its unit.",
+     "analogy_id": "Angka di teks itu kayak nomor pintu di satu gang. Semuanya angka, tapi tiap angka punya pemilik beda. Cocokin angka sama satuannya.",
+     "analogy_en": "Numbers in a passage are door numbers on one street. All numbers, different owners. Match each number to its unit.",
      "tip_id": "Soal angka? Cocokin satuannya: cm per tahun, meter, derajat. Pengecoh sering minjem angka dari kalimat lain.",
      "tip_en": "Number questions? Match the unit: cm per year, meters, degrees. Distractors borrow numbers from other sentences."
     },
@@ -1163,8 +1163,8 @@
       "1": "Depth affects where corals grow, but the text doesn't link it to bleaching.",
       "3": "The algae don't change colour. They're expelled, so the coral turns white."
      },
-     "analogy_id": "Bleaching itu kayak rumah yang penghuninya kabur gara-gara kepanasan. Rumahnya masih berdiri, tapi kosong dan pucat.",
-     "analogy_en": "Bleaching is a house whose tenants flee the heat. The house still stands, but it's empty and pale.",
+     "analogy_id": "Bleaching itu kayak gedung yang penghuninya kabur gara-gara kepanasan. Gedungnya masih berdiri, tapi kosong dan pucat.",
+     "analogy_en": "Bleaching is a building whose tenants flee the heat. The building still stands, but it's empty and pale.",
      "tip_id": "Kata kunci muncul di ujung proses? Baca 1 sampai 2 kalimat SEBELUMNYA buat nemu sebabnya.",
      "tip_en": "Keyword at the end of a process? Read 1 or 2 sentences BEFORE it to find the cause."
     }

@@ -1,7 +1,9 @@
 <?php
 declare(strict_types=1);
 /**
- * Pemeriksa tanda kutip (statis).
+ * Pemeriksa teks statis:
+ *   1. tanda kutip penanda;
+ *   2. istilah lama Rumah/Blok/House/Block (kecuali merek PerumahanInggris).
  *
  * Aturan: teks yang dilihat pengguna tidak boleh memakai " “ ” ‘ atau ' ’ untuk mengutip,
  * menandai, atau menegaskan kata. Kata dari soal ditulis **tebal**.
@@ -10,7 +12,7 @@ declare(strict_types=1);
  * Pengecualian: teks soal berbahasa Inggris (prompt, opsi, script, teks reading,
  * key_sentence, evidence_quote, judul teks reading).
  *
- * Pemakaian: php tests/no_quotes.php [--verbose]
+ * Pemakaian: php tests/cek_teks.php [--verbose]
  * Keluar dengan kode 1 jika ada temuan.
  */
 
@@ -40,9 +42,19 @@ function quote_hits(string $s): array
     return $hits;
 }
 
+function term_hits(string $s): array
+{
+    preg_match_all('/\b(rumah|blok|houses?|blocks?)\b/iu', $s, $m);
+    return $m[0];
+}
+
 function report(string $area, string $where, string $text): void
 {
     global $found;
+    foreach (term_hits($text) as $t) {
+        $found['istilah'][] = "$area · $where: $t → …" . str_replace("\n", ' ', mb_substr($text, 0, 60)) . '…';
+        break;
+    }
     $hits = quote_hits($text);
     if ($hits) {
         // Satu temuan per teks (bukan per karakter)
@@ -82,7 +94,7 @@ foreach ($rii as $f) {
         }
     }
     $txt = preg_replace('/<\?(?:php|=).*?\?>/s', ' ', $src);
-    $txt = preg_replace('/<(script|style)\b.*?<\/\1>/s', ' ', $txt);
+    $txt = preg_replace('/<(script|style|code)\b.*?<\/\1>/s', ' ', $txt);
     $txt = preg_replace('/<!--.*?-->/s', ' ', $txt);
     $txt = preg_replace('/<[^>]*>/s', "\n", $txt);
     foreach (explode("\n", $txt) as $n => $line) {
@@ -165,7 +177,7 @@ foreach (array_merge(glob("$root/app/services/*.php"), glob("$root/app/controlle
 
 /* ---------- Hasil ---------- */
 $total = 0;
-foreach (['lang', 'views', 'js', 'seed', 'pdf & pesan server'] as $area) {
+foreach (['lang', 'views', 'js', 'seed', 'pdf & pesan server', 'istilah'] as $area) {
     $n = count($found[$area] ?? []);
     $total += $n;
     printf("%-20s %d\n", $area, $n);
@@ -175,5 +187,5 @@ foreach (['lang', 'views', 'js', 'seed', 'pdf & pesan server'] as $area) {
         }
     }
 }
-echo $total ? "GAGAL: $total tanda kutip ditemukan.\n" : "LULUS: tidak ada tanda kutip penanda.\n";
+echo $total ? "GAGAL: $total temuan.\n" : "LULUS: tidak ada tanda kutip penanda maupun istilah Rumah/Blok.\n";
 exit($total ? 1 : 0);

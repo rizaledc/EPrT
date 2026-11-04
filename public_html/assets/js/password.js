@@ -87,7 +87,7 @@ if (form) {
     const p = pw.value;
     const rulesOk = Object.values(RULES).every((f) => f(p));
     const notUser = !u.value || !p.toLowerCase().includes(u.value.toLowerCase());
-    const notExample = p !== 'Rumah!Biru7Kopi';
+    const notExample = p !== 'Langit!Biru7Kopi';
     submit.disabled = !(userLocal() && userOk && rulesOk && notUser && notExample && pc.value === p && agree.checked);
   };
   u.addEventListener('input', () => {

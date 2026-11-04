@@ -52,6 +52,9 @@ final class PracticeController
         if (!$r) {
             abort(404);
         }
+        if (Rumah::isLegacyRoute($blok, $rumah)) {
+            redirect(Rumah::url($r), 301);
+        }
         $status = [];
         foreach (Practice::SECTIONS as $s) {
             $status[$s] = Practice::sectionStatus((int) $u['id'], $r, $s);
@@ -74,6 +77,9 @@ final class PracticeController
         $r = Rumah::fromRoute($blok, $rumah);
         if (!$r || !in_array($section, Practice::SECTIONS, true)) {
             abort(404);
+        }
+        if (Rumah::isLegacyRoute($blok, $rumah)) {
+            redirect(Rumah::url($r, $section), 301);
         }
         $a = Practice::openAttempt($u, $r, $section, 'practice');
         if (!$a) {

@@ -141,7 +141,7 @@ final class AdminController
         $self = (int) $u['id'] === (int) $this->admin['id'];
         switch ($action) {
             case 'reset_password':
-                $temp = 'Rumah-' . Auth::newRecoveryCode() . '!' . random_int(10, 99);
+                $temp = 'Hari-' . Auth::newRecoveryCode() . '!' . random_int(10, 99);
                 q('UPDATE users SET password_hash = ?, must_change_password = 1 WHERE id = ?', [Auth::hash($temp), $u['id']]);
                 q('DELETE FROM remember_tokens WHERE user_id = ?', [$u['id']]);
                 $_SESSION['admin_once'] = ['label' => 'Password sementara (tampil sekali). Pengguna wajib menggantinya saat login berikutnya:', 'value' => $temp];
@@ -243,7 +243,7 @@ final class AdminController
                     flash('success', 'Soal disimpan.');
                     redirect('/admin/soal/' . $qid);
                 } catch (PDOException $e) {
-                    $errors[] = str_contains($e->getMessage(), 'uq_q_number') ? 'Nomor soal sudah dipakai di Rumah + seksi ini.' : $e->getMessage();
+                    $errors[] = str_contains($e->getMessage(), 'uq_q_number') ? 'Nomor soal sudah dipakai di Hari + seksi ini.' : $e->getMessage();
                 }
             }
             $q = array_merge($q ?? [], $data);
@@ -297,7 +297,7 @@ final class AdminController
     private function validateQuestion(array $d): array
     {
         $e = [];
-        if (!$d['rumah_id']) $e[] = 'Pilih Rumah.';
+        if (!$d['rumah_id']) $e[] = 'Pilih Hari.';
         if (!isset(ContentImporter::TYPES[$d['section']]) || !in_array($d['type'], ContentImporter::TYPES[$d['section']] ?? [], true)) $e[] = 'Tipe tidak cocok dengan seksi.';
         if ($d['number'] < 1) $e[] = 'Nomor soal wajib ≥ 1.';
         if (count(array_filter($d['options'])) !== 4) $e[] = 'Isi keempat pilihan.';
@@ -393,7 +393,7 @@ final class AdminController
                 }
                 $script[] = ['speaker' => $m[1], 'text' => trim($m[2])];
             }
-            if (!$rumah) $errors[] = 'Pilih Rumah.';
+            if (!$rumah) $errors[] = 'Pilih Hari.';
             if ($section === 'listening' && !$script) $errors[] = 'Naskah listening wajib diisi.';
             if ($section === 'reading' && trim((string) ($_POST['body'] ?? '')) === '') $errors[] = 'Teks reading wajib diisi.';
             if (!$errors) {

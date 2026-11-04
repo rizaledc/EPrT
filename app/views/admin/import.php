@@ -20,7 +20,7 @@
       </div>
     <?php endif; ?>
     <div class="card card-sm">
-      <h3>Ekspor per Rumah</h3>
+      <h3>Ekspor per Hari</h3>
       <div class="row"><?php foreach ($rumahs as $r): ?><a class="chip chip-outline" href="<?= e(url('admin/ekspor/' . $r['slug'])) ?>"><?= e($r['slug']) ?></a><?php endforeach; ?></div>
     </div>
     <div class="card card-sm">

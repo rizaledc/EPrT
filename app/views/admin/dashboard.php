@@ -6,11 +6,11 @@
 </div>
 <div class="grid-2 mt-24">
   <div class="card card-sm">
-    <h3>Corong penyelesaian Rumah</h3>
+    <h3>Corong penyelesaian Hari</h3>
     <?php $max = max(1, $kpi['users']); ?>
     <div class="funnel">
       <?php foreach ($funnel as $f): ?>
-        <div class="funnel-row"><span>Rumah <?= $f['n'] ?></span><span class="bar"><span style="width:<?= round($f['count'] / $max * 100) ?>%"></span></span><span class="mono num"><?= $f['count'] ?></span></div>
+        <div class="funnel-row"><span>Hari <?= $f['n'] ?></span><span class="bar"><span style="width:<?= round($f['count'] / $max * 100) ?>%"></span></span><span class="mono num"><?= $f['count'] ?></span></div>
       <?php endforeach; ?>
     </div>
   </div>
@@ -34,7 +34,7 @@
   <h3>10 soal tersulit</h3>
   <?php if (!$hardest): ?><p class="muted mb-0">Belum cukup data (minimal 3 jawaban per soal).</p><?php else: ?>
   <div class="table-wrap"><table class="table">
-    <thead><tr><th>#</th><th>Rumah</th><th>Seksi</th><th>Soal</th><th class="num">% benar</th><th class="num">n</th></tr></thead>
+    <thead><tr><th>#</th><th>Hari</th><th>Seksi</th><th>Soal</th><th class="num">% benar</th><th class="num">n</th></tr></thead>
     <tbody><?php foreach ($hardest as $h): ?>
       <tr><td><a href="<?= e(url('admin/soal/' . $h['id'])) ?>"><?= $h['id'] ?></a></td><td><?= e($h['slug']) ?></td><td><?= e($h['section']) ?></td>
       <td data-q><?= e(mb_strimwidth(strip_tags(str_replace(['{A}','{B}','{C}','{D}','{/A}','{/B}','{/C}','{/D}'], '', (string) $h['prompt'])), 0, 90, '…')) ?></td>

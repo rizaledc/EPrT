@@ -136,7 +136,7 @@ final class ContentImporter
             foreach ($data as $item) {
                 $slug = $item['rumah'] ?? null;
                 if (!$slug) {
-                    $this->errors[] = 'Setiap item wajib punya field rumah.';
+                    $this->errors[] = 'Setiap item wajib menyebut slug Hari-nya (misalnya r02).';
                     continue;
                 }
                 $bySlug[$slug]['items'][] = $item;
@@ -278,7 +278,7 @@ final class ContentImporter
         } catch (Throwable $e) {
         }
         if (!$rumah && !$validateOnly) {
-            $this->errors[] = "$label: Rumah $slug belum ada di tabel rumahs.";
+            $this->errors[] = "$label: Hari $slug belum ada di daftar Hari.";
             return 0;
         }
         $items = $data['items'] ?? [];
@@ -565,7 +565,7 @@ final class ContentImporter
             foreach (self::DIFFICULTY_TARGET[$blok] as $i => $target) {
                 $pct = $diff[$i + 1] / $dsum * 100;
                 if (abs($pct - $target) > 10) {
-                    $this->warnings[] = "$label: kesulitan " . ['mudah', 'sedang', 'sulit'][$i] . ' = ' . round($pct) . "% (target Blok $blok: $target%)";
+                    $this->warnings[] = "$label: kesulitan " . ['mudah', 'sedang', 'sulit'][$i] . ' = ' . round($pct) . "% (target Level $blok: $target%)";
                 }
             }
         }

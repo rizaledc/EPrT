@@ -38,7 +38,7 @@ jobs:
           tools: none
 
       - name: Cek statis (lang, views, js, seed, pesan server)
-        run: php tests/no_quotes.php
+        run: php tests/cek_teks.php
 
       - name: Siapkan aplikasi uji
         env:
@@ -75,7 +75,7 @@ jobs:
           BASE: http://127.0.0.1:8000
           MEMBER: 'uji_ci:Ci!Member2026xYz'
           ADMIN: 'MiminEPrT2026:Ci!Admin2026xYz'
-        run: node tests/no_quotes_render.js
+        run: node tests/cek_teks_tampil.js
 
   deploy:
     needs: cek-kutip

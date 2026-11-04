@@ -1,11 +1,13 @@
-// Pemeriksa tanda kutip pada halaman yang benar-benar dirender.
+// Pemeriksa teks yang tampil pada halaman yang benar-benar dirender:
+//   1. tanda kutip penanda (" ' “ ” ‘ ’, kecuali apostrof di dalam kata);
+//   2. istilah lama Rumah/Blok/House/Block (kecuali nama merek PerumahanInggris).
 // Membuka halaman tamu, member, dan admin dalam bahasa Indonesia dan Inggris, lalu memeriksa
 // teks yang tampil (termasuk atribut title/placeholder/aria-label dan isi <template>).
 // Teks soal Inggris dikecualikan: elemen bertanda [data-q], .q-prompt, .options, .passage-body,
 // .transcript, .transcript-box, [data-evidence].
 //
 // Pemakaian:
-//   BASE=http://127.0.0.1:8000 MEMBER=user:pass ADMIN=user:pass node tests/no_quotes_render.js
+//   BASE=http://127.0.0.1:8000 MEMBER=user:pass ADMIN=user:pass node tests/cek_teks_tampil.js
 // Keluar dengan kode 1 jika ada temuan.
 const { chromium } = require('playwright');
 
@@ -14,8 +16,9 @@ const MEMBER = (process.env.MEMBER || '').split(':');
 const ADMIN = (process.env.ADMIN || '').split(':');
 
 const GUEST = ['/', '/kamus', '/daftar', '/masuk', '/lupa-password', '/tidak-ada', '/coba'];
-const MEMBER_PAGES = ['/latihan', '/latihan/blok-a/rumah-1', '/latihan/blok-b/rumah-5', '/latihan/blok-c/rumah-9',
-  '/simulasi/1', '/riwayat', '/rapor/akhir', '/akun', '/kamus'];
+const DAYS = [['a', [1, 2, 3, 4]], ['b', [5, 6, 7, 8]], ['c', [9, 10, 11]], ['d', [12, 13, 14]]]
+  .flatMap(([l, ns]) => ns.map((n) => `/latihan/level-${l}/hari-${n}`));
+const MEMBER_PAGES = ['/', '/latihan', ...DAYS, '/simulasi/1', '/simulasi/2', '/riwayat', '/rapor/akhir', '/akun', '/kamus'];
 const ADMIN_PAGES = ['/admin', '/admin/pengguna', '/admin/soal', '/admin/grup', '/admin/impor', '/admin/kamus',
   '/admin/sponsor', '/admin/pengaturan', '/admin/log'];
 
@@ -40,22 +43,36 @@ function scan() {
     clone.querySelectorAll(EXEMPT).forEach((e) => e.remove());
     return clone.textContent || '';
   };
+  const termsOf = (s) => {
+    const out = [];
+    const re = /\b(rumah|blok|houses?|blocks?)\b/gi;
+    let m;
+    while ((m = re.exec(s))) out.push('istilah ' + m[0] + ': ' + s.slice(Math.max(0, m.index - 25), m.index + 25).replace(/\s+/g, ' ').trim());
+    return out;
+  };
   const found = [];
-  const check = (label, txt) => { const h = hitsOf(txt); if (h.length) found.push(label + ': …' + h[0] + '…'); };
+  const check = (label, txt) => {
+    const h = hitsOf(txt);
+    if (h.length) found.push(label + ': kutip …' + h[0] + '…');
+    termsOf(txt).forEach((t) => found.push(label + ': ' + t));
+  };
   check('teks', textOf(document.body));
   document.querySelectorAll('template').forEach((t, i) => {
     const wrap = document.createElement('div');
     wrap.appendChild(t.content.cloneNode(true));
     check('template#' + i, textOf(wrap));
   });
-  document.querySelectorAll('[title], [placeholder], [aria-label], [data-confirm]').forEach((el) => {
+  document.querySelectorAll('[title], [placeholder], [aria-label], [data-confirm], [alt]').forEach((el) => {
     if (el.closest(EXEMPT)) return;
-    for (const a of ['title', 'placeholder', 'aria-label', 'data-confirm']) {
+    for (const a of ['title', 'placeholder', 'aria-label', 'data-confirm', 'alt']) {
       const v = el.getAttribute(a);
       if (v) check('atribut ' + a, v);
     }
   });
   check('judul halaman', document.title);
+  document.querySelectorAll('meta[name="description"], meta[property^="og:"], meta[name^="twitter:"]').forEach((m) => {
+    if (!/url|image/.test(m.getAttribute('property') || m.getAttribute('name') || '')) check('meta ' + (m.getAttribute('property') || m.getAttribute('name')), m.getAttribute('content') || '');
+  });
   return found;
 }
 
@@ -80,7 +97,10 @@ async function login(ctx, [u, p]) {
       const page = await ctx.newPage();
       await page.goto(`${BASE}/bahasa/${lang}?next=/`);
       for (const u of list) {
-        await page.goto(BASE + u, { waitUntil: 'networkidle' });
+        const t0 = Date.now();
+        await page.goto(BASE + u, { waitUntil: 'load' });
+        await page.waitForLoadState('networkidle', { timeout: 5000 }).catch(() => {});
+        if (process.env.VERBOSE) console.log(`  ${lang} ${role} ${u} ${Date.now() - t0}ms`);
         const r = await page.evaluate(scan);
         pages++;
         r.forEach((x) => problems.push(`[${lang}] ${role} ${u} ${x}`));
@@ -117,8 +137,8 @@ async function login(ctx, [u, p]) {
   console.log(`Halaman diperiksa: ${pages}`);
   if (problems.length) {
     console.log(problems.join('\n'));
-    console.log(`GAGAL: ${problems.length} temuan tanda kutip.`);
+    console.log(`GAGAL: ${problems.length} temuan.`);
     process.exit(1);
   }
-  console.log('LULUS: tidak ada tanda kutip penanda di halaman yang dirender.');
+  console.log('LULUS: tidak ada tanda kutip penanda maupun istilah Rumah/Blok di halaman yang dirender.');
 })();

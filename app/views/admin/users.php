@@ -2,13 +2,13 @@
 <form class="filters" method="get">
   <input class="input" type="search" name="q" placeholder="Cari username" value="<?= e($q['q'] ?? '') ?>">
   <select class="input" name="status"><option value="">Semua status</option><option value="active" <?= ($q['status'] ?? '') === 'active' ? 'selected' : '' ?>>Aktif</option><option value="disabled" <?= ($q['status'] ?? '') === 'disabled' ? 'selected' : '' ?>>Nonaktif</option></select>
-  <select class="input" name="blok"><option value="">Blok selesai: semua</option><?php foreach (['A','B','C','D'] as $b): ?><option value="<?= $b ?>" <?= ($q['blok'] ?? '') === $b ? 'selected' : '' ?>>Blok <?= $b ?> selesai</option><?php endforeach; ?></select>
+  <select class="input" name="blok"><option value="">Level selesai: semua</option><?php foreach (['A','B','C','D'] as $b): ?><option value="<?= $b ?>" <?= ($q['blok'] ?? '') === $b ? 'selected' : '' ?>>Level <?= $b ?> selesai</option><?php endforeach; ?></select>
   <button class="btn btn-dark btn-sm">Terapkan</button>
   <a class="btn btn-secondary btn-sm" href="<?= e(url('admin/pengguna.csv') . '?' . http_build_query($q)) ?>"><?= icon('download', 16) ?> Export CSV</a>
 </form>
 <p class="small muted"><?= count($users) ?> pengguna</p>
 <div class="table-wrap"><table class="table">
-  <thead><tr><th><?= $sortLink('username', 'Username') ?></th><th><?= $sortLink('created_at', 'Daftar') ?></th><th><?= $sortLink('last_active_at', 'Terakhir aktif') ?></th><th class="num"><?= $sortLink('done', 'Rumah') ?></th><th>Blok</th><th>Simulasi</th><th class="num">Perkiraan</th><th>Bahasa</th><th>Status</th></tr></thead>
+  <thead><tr><th><?= $sortLink('username', 'Username') ?></th><th><?= $sortLink('created_at', 'Daftar') ?></th><th><?= $sortLink('last_active_at', 'Terakhir aktif') ?></th><th class="num"><?= $sortLink('done', 'Hari') ?></th><th>Level</th><th>Simulasi</th><th class="num">Perkiraan</th><th>Bahasa</th><th>Status</th></tr></thead>
   <tbody>
   <?php foreach ($users as $u): ?>
     <tr>

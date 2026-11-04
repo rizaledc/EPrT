@@ -4,7 +4,7 @@ declare(strict_types=1);
 final class Auth
 {
     public const RESERVED = ['admin', 'mimin', 'root', 'perumahaninggris'];
-    public const EXAMPLE_PASSWORD = 'Rumah!Biru7Kopi';
+    public const EXAMPLE_PASSWORD = 'Langit!Biru7Kopi';
 
     public static function hash(string $password): string
     {

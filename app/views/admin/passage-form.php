@@ -8,7 +8,7 @@ if (is_post()) $scriptText = (string) ($_POST['script'] ?? $scriptText);
 <form class="card form" method="post" action="<?= e(url('admin/grup/' . ($p['id'] ?? 'baru'))) ?>">
   <?= csrf_field() ?>
   <div class="admin-form-grid">
-    <div class="field"><label for="rumah">Rumah</label><select class="input" id="rumah" name="rumah"><?php foreach ($rumahs as $r): ?><option value="<?= e($r['slug']) ?>" <?= ($p['slug'] ?? '') === $r['slug'] ? 'selected' : '' ?>><?= e($r['slug'] . ' · ' . $r['title_id']) ?></option><?php endforeach; ?></select></div>
+    <div class="field"><label for="rumah">Hari</label><select class="input" id="rumah" name="rumah"><?php foreach ($rumahs as $r): ?><option value="<?= e($r['slug']) ?>" <?= ($p['slug'] ?? '') === $r['slug'] ? 'selected' : '' ?>><?= e($r['slug'] . ' · ' . $r['title_id']) ?></option><?php endforeach; ?></select></div>
     <div class="field"><label for="section">Seksi</label><select class="input" id="section" name="section"><option <?= ($p['section'] ?? '') === 'listening' ? 'selected' : '' ?>>listening</option><option <?= ($p['section'] ?? '') === 'reading' ? 'selected' : '' ?>>reading</option></select></div>
     <div class="field"><label for="part">Part (listening)</label><select class="input" id="part" name="part"><?php foreach (['A','B','C'] as $pt): ?><option <?= ($p['part'] ?? '') === $pt ? 'selected' : '' ?>><?= $pt ?></option><?php endforeach; ?></select></div>
     <div class="field"><label for="sort">Urutan grup</label><input class="input mono" type="number" id="sort" name="sort" min="1" value="<?= e((string) ($p['sort'] ?? '')) ?>" placeholder="otomatis"></div>

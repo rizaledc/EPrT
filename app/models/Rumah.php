@@ -33,7 +33,7 @@ final class Rumah
         return null;
     }
 
-    /** URL /latihan/blok-a/rumah-1 */
+    /** URL /latihan/level-a/hari-1 (slug internal tetap r01; hanya tampilan yang memakai Level/Hari) */
     public static function url(array $r, ?string $section = null): string
     {
         if ($r['kind'] === 'simulation') {
@@ -43,12 +43,13 @@ final class Rumah
         if ($r['kind'] === 'sample') {
             return url('coba');
         }
-        return url('latihan/blok-' . strtolower((string) $r['blok_code']) . '/rumah-' . (int) $r['number'] . ($section ? '/' . $section : ''));
+        return url('latihan/level-' . strtolower((string) $r['blok_code']) . '/hari-' . (int) $r['number'] . ($section ? '/' . $section : ''));
     }
 
     public static function fromRoute(string $blok, string $rumah): ?array
     {
-        if (!preg_match('/^blok-([a-d])$/', $blok, $b) || !preg_match('/^rumah-(\d{1,2})$/', $rumah, $m)) {
+        // Pola baru level-a/hari-1; pola lama blok-a/rumah-1 tetap dikenali (lalu dialihkan 301)
+        if (!preg_match('/^(?:level|blok)-([a-d])$/', $blok, $b) || !preg_match('/^(?:hari|rumah)-(\d{1,2})$/', $rumah, $m)) {
             return null;
         }
         foreach (self::all() as $r) {
@@ -57,6 +58,12 @@ final class Rumah
             }
         }
         return null;
+    }
+
+    /** true jika URL memakai pola lama /latihan/blok-a/rumah-1 */
+    public static function isLegacyRoute(string $blok, string $rumah): bool
+    {
+        return str_starts_with($blok, 'blok-') || str_starts_with($rumah, 'rumah-');
     }
 
     public static function title(array $r): string

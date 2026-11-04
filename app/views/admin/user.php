@@ -35,7 +35,7 @@
 
 <h2 class="mt-32">Percobaan</h2>
 <div class="table-wrap"><table class="table">
-  <thead><tr><th>ID</th><th>Mulai</th><th>Rumah</th><th>Seksi</th><th>Mode</th><th class="num">Skor</th><th class="num">Durasi</th><th></th></tr></thead>
+  <thead><tr><th>ID</th><th>Mulai</th><th>Hari</th><th>Seksi</th><th>Mode</th><th class="num">Skor</th><th class="num">Durasi</th><th></th></tr></thead>
   <tbody><?php foreach ($attempts as $a): ?>
     <tr><td><?= $a['id'] ?></td><td><?= e(fmt_date($a['started_at'])) ?></td><td><?= e($a['title_id']) ?></td><td><?= e($a['section']) ?></td><td><?= e($a['mode']) ?></td>
     <td class="num mono"><?= $a['finished_at'] ? $a['correct'] . '/' . $a['total'] : 'berjalan' ?></td><td class="num mono"><?= fmt_duration((int) $a['time_spent_s']) ?></td>
@@ -45,7 +45,7 @@
 
 <h2 class="mt-32">Jawaban per soal (300 terbaru)</h2>
 <div class="table-wrap" style="max-height:480px"><table class="table">
-  <thead><tr><th>Waktu</th><th>Soal</th><th>Rumah</th><th>Pilihan</th><th>Hasil</th><th class="num">Durasi</th><th>Catatan</th></tr></thead>
+  <thead><tr><th>Waktu</th><th>Soal</th><th>Hari</th><th>Pilihan</th><th>Hasil</th><th class="num">Durasi</th><th>Catatan</th></tr></thead>
   <tbody><?php foreach ($answers as $a): ?>
     <tr><td><?= e(fmt_date($a['created_at'])) ?></td><td><a href="<?= e(url('admin/soal/' . $a['question_id'])) ?>">#<?= $a['question_id'] ?></a> <?= e($a['type']) ?></td><td><?= e($a['slug']) ?></td>
     <td class="mono"><?= $a['chosen_index'] === null ? '-' : $letters[(int) $a['chosen_index']] ?> (kunci <?= $letters[(int) $a['correct_index']] ?>)</td>
