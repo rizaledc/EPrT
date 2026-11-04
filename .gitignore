@@ -1,0 +1,11 @@
+app/config.php
+app/installed.lock
+app/storage/logs/*
+!app/storage/logs/.gitkeep
+app/storage/pdf-cache/*
+!app/storage/pdf-cache/.gitkeep
+tools/.cache/
+tools/__pycache__/
+.DS_Store
+app/storage/sessions/
+app/vendor/**/tests/

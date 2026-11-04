@@ -1,0 +1,52 @@
+# PerumahanInggris · Apache / LiteSpeed (Hostinger)
+Options -Indexes -MultiViews
+DirectoryIndex index.php
+
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+
+  # Paksa HTTPS (aktif otomatis jika SSL tersedia)
+  RewriteCond %{HTTPS} !=on
+  RewriteCond %{HTTP:X-Forwarded-Proto} !https
+  RewriteCond %{HTTP_HOST} !^(localhost|127\.0\.0\.1)
+  RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+  # Tolak file sensitif
+  RewriteRule \.(json|sql|lock|env|log|ini|md|py|sh)$ - [F,L,NC]
+  RewriteRule (^|/)\. - [F,L]
+
+  # File & folder yang ada disajikan langsung, sisanya ke front controller
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteRule ^ index.php [QSA,L]
+</IfModule>
+
+
+<FilesMatch "\.(json|sql|lock|env|log|ini|md|py|sh)$">
+  Require all denied
+</FilesMatch>
+
+<IfModule mod_headers.c>
+  Header always set X-Content-Type-Options "nosniff"
+  <FilesMatch "\.(css|svg|png|woff2|ico|webp)$">
+    Header set Cache-Control "public, max-age=2592000"
+  </FilesMatch>
+  # Modul JS diimpor tanpa query versi: selalu validasi ulang (ETag/Last-Modified)
+  <FilesMatch "\.js$">
+    Header set Cache-Control "no-cache"
+  </FilesMatch>
+  <FilesMatch "\.mp3$">
+    Header set Cache-Control "public, max-age=604800"
+  </FilesMatch>
+</IfModule>
+
+<IfModule mod_mime.c>
+  AddType audio/mpeg .mp3
+  AddType image/svg+xml .svg
+</IfModule>
+
+<IfModule mod_deflate.c>
+  AddOutputFilterByType DEFLATE text/html text/css application/javascript application/json image/svg+xml
+</IfModule>
+
+ErrorDocument 403 /index.php

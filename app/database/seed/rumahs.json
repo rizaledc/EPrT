@@ -1,0 +1,152 @@
+[
+ {
+  "slug": "r01",
+  "number": 1,
+  "kind": "practice",
+  "title_id": "Kelas Kata & Inti Kalimat",
+  "title_en": "Parts of Speech & the Sentence Core",
+  "sort": 1,
+  "blok": "A"
+ },
+ {
+  "slug": "r02",
+  "number": 2,
+  "kind": "practice",
+  "title_id": "Kecocokan Subject–Verb",
+  "title_en": "Subject–Verb Agreement",
+  "sort": 2,
+  "blok": "A"
+ },
+ {
+  "slug": "r03",
+  "number": 3,
+  "kind": "practice",
+  "title_id": "Bentuk Kata Kerja & Tenses Dasar",
+  "title_en": "Verb Forms & Basic Tenses",
+  "sort": 3,
+  "blok": "A"
+ },
+ {
+  "slug": "r04",
+  "number": 4,
+  "kind": "practice",
+  "title_id": "Perfect Tense & Modal",
+  "title_en": "Perfect Tenses & Modals",
+  "sort": 4,
+  "blok": "A"
+ },
+ {
+  "slug": "r05",
+  "number": 5,
+  "kind": "practice",
+  "title_id": "Kalimat Pasif",
+  "title_en": "The Passive Voice",
+  "sort": 5,
+  "blok": "B"
+ },
+ {
+  "slug": "r06",
+  "number": 6,
+  "kind": "practice",
+  "title_id": "Countable, Uncountable & Article",
+  "title_en": "Countable, Uncountable & Articles",
+  "sort": 6,
+  "blok": "B"
+ },
+ {
+  "slug": "r07",
+  "number": 7,
+  "kind": "practice",
+  "title_id": "Word Form: Akhiran Kata",
+  "title_en": "Word Forms & Suffixes",
+  "sort": 7,
+  "blok": "B"
+ },
+ {
+  "slug": "r08",
+  "number": 8,
+  "kind": "practice",
+  "title_id": "Struktur Paralel & Perbandingan",
+  "title_en": "Parallel Structure & Comparisons",
+  "sort": 8,
+  "blok": "B"
+ },
+ {
+  "slug": "r09",
+  "number": 9,
+  "kind": "practice",
+  "title_id": "Conjunction vs Preposition",
+  "title_en": "Conjunctions vs Prepositions",
+  "sort": 9,
+  "blok": "C"
+ },
+ {
+  "slug": "r10",
+  "number": 10,
+  "kind": "practice",
+  "title_id": "Relative Clause & Reduced Clause",
+  "title_en": "Relative & Reduced Clauses",
+  "sort": 10,
+  "blok": "C"
+ },
+ {
+  "slug": "r11",
+  "number": 11,
+  "kind": "practice",
+  "title_id": "Noun Clause, Inversi & Correlative",
+  "title_en": "Noun Clauses, Inversion & Correlatives",
+  "sort": 11,
+  "blok": "C"
+ },
+ {
+  "slug": "r12",
+  "number": 12,
+  "kind": "practice",
+  "title_id": "Campuran dengan Tempo Tes",
+  "title_en": "Mixed Rules at Test Pace",
+  "sort": 13,
+  "blok": "D"
+ },
+ {
+  "slug": "r13",
+  "number": 13,
+  "kind": "practice",
+  "title_id": "10 Kesalahan Paling Umum",
+  "title_en": "The 10 Most Common Errors",
+  "sort": 14,
+  "blok": "D"
+ },
+ {
+  "slug": "r14",
+  "number": 14,
+  "kind": "adaptive",
+  "title_id": "Rumah Adaptif: Dari Buku Kesalahanmu",
+  "title_en": "Adaptive House: From Your Mistake Book",
+  "sort": 15,
+  "blok": "D"
+ },
+ {
+  "slug": "sim1",
+  "number": 1,
+  "kind": "simulation",
+  "title_id": "Simulasi Penuh 1",
+  "title_en": "Full Simulation 1",
+  "sort": 12
+ },
+ {
+  "slug": "sim2",
+  "number": 2,
+  "kind": "simulation",
+  "title_id": "Simulasi Penuh 2",
+  "title_en": "Full Simulation 2",
+  "sort": 16
+ },
+ {
+  "slug": "contoh",
+  "number": 0,
+  "kind": "sample",
+  "title_id": "Rumah Contoh",
+  "title_en": "Sample House",
+  "sort": 0
+ }
+]

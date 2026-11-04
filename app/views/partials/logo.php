@@ -1,0 +1,1 @@
+<svg viewBox="0 0 32 32" aria-hidden="true" focusable="false"><path d="M4 14.5 16 4l12 10.5" fill="none" stroke="#24101C" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/><rect x="7" y="13" width="18" height="15" rx="4" fill="#E8336F"/><rect x="13.5" y="19" width="5" height="9" rx="1.5" fill="#fff"/></svg><span class="wm">Perumahan<b>Inggris</b></span>

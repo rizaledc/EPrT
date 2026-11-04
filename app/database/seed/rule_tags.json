@@ -1,0 +1,338 @@
+[
+ {
+  "code": "S-SV-CORE",
+  "section": "structure",
+  "name_id": "Kalimat wajib punya subject + verb",
+  "name_en": "Every clause needs a subject and a verb",
+  "glossary_slug": "subject"
+ },
+ {
+  "code": "S-WORDCLASS",
+  "section": "structure",
+  "name_id": "Kelas kata di posisi yang tepat",
+  "name_en": "The right part of speech in the right slot",
+  "glossary_slug": "noun"
+ },
+ {
+  "code": "S-ADJ-ADV",
+  "section": "structure",
+  "name_id": "Adjective vs adverb",
+  "name_en": "Adjective vs adverb",
+  "glossary_slug": "adverb"
+ },
+ {
+  "code": "S-AGREE",
+  "section": "structure",
+  "name_id": "Kecocokan subject–verb",
+  "name_en": "Subject–verb agreement",
+  "glossary_slug": "subject-verb-agreement"
+ },
+ {
+  "code": "S-AGREE-OF",
+  "section": "structure",
+  "name_id": "Agreement dengan frasa of",
+  "name_en": "Agreement across an of-phrase",
+  "glossary_slug": "subject-verb-agreement"
+ },
+ {
+  "code": "S-AGREE-EACH",
+  "section": "structure",
+  "name_id": "each/every + bentuk tunggal",
+  "name_en": "each/every + singular",
+  "glossary_slug": "subject-verb-agreement"
+ },
+ {
+  "code": "S-THERE",
+  "section": "structure",
+  "name_id": "there is / there are",
+  "name_en": "there is / there are",
+  "glossary_slug": "subject-verb-agreement"
+ },
+ {
+  "code": "S-VFORM",
+  "section": "structure",
+  "name_id": "Bentuk V1/V2/V3",
+  "name_en": "V1/V2/V3 verb forms",
+  "glossary_slug": "past-participle"
+ },
+ {
+  "code": "S-TENSE",
+  "section": "structure",
+  "name_id": "Pemilihan tense",
+  "name_en": "Choosing the tense",
+  "glossary_slug": "tense"
+ },
+ {
+  "code": "S-PERFECT-V3",
+  "section": "structure",
+  "name_id": "have/has/had + V3",
+  "name_en": "have/has/had + V3",
+  "glossary_slug": "present-perfect"
+ },
+ {
+  "code": "S-MODAL",
+  "section": "structure",
+  "name_id": "Modal + V1",
+  "name_en": "Modal + base verb",
+  "glossary_slug": "modal"
+ },
+ {
+  "code": "S-PASSIVE",
+  "section": "structure",
+  "name_id": "Passive: be + V3",
+  "name_en": "Passive: be + V3",
+  "glossary_slug": "passive-voice"
+ },
+ {
+  "code": "S-COUNT",
+  "section": "structure",
+  "name_id": "Countable vs uncountable",
+  "name_en": "Countable vs uncountable",
+  "glossary_slug": "countable-noun"
+ },
+ {
+  "code": "S-ARTICLE",
+  "section": "structure",
+  "name_id": "Article a/an/the",
+  "name_en": "Articles a/an/the",
+  "glossary_slug": "article"
+ },
+ {
+  "code": "S-WORDFORM",
+  "section": "structure",
+  "name_id": "Word form (akhiran)",
+  "name_en": "Word form (suffixes)",
+  "glossary_slug": "suffix"
+ },
+ {
+  "code": "S-PARALLEL",
+  "section": "structure",
+  "name_id": "Struktur paralel",
+  "name_en": "Parallel structure",
+  "glossary_slug": "parallel-structure"
+ },
+ {
+  "code": "S-COMPARE",
+  "section": "structure",
+  "name_id": "Comparative & superlative",
+  "name_en": "Comparatives & superlatives",
+  "glossary_slug": "comparative"
+ },
+ {
+  "code": "S-CONJ-PREP",
+  "section": "structure",
+  "name_id": "Conjunction vs preposition",
+  "name_en": "Conjunction vs preposition",
+  "glossary_slug": "conjunction"
+ },
+ {
+  "code": "S-ADV-CLAUSE",
+  "section": "structure",
+  "name_id": "Adverb clause",
+  "name_en": "Adverb clauses",
+  "glossary_slug": "adverb-clause"
+ },
+ {
+  "code": "S-RELATIVE",
+  "section": "structure",
+  "name_id": "Relative clause",
+  "name_en": "Relative clauses",
+  "glossary_slug": "relative-clause"
+ },
+ {
+  "code": "S-REDUCED",
+  "section": "structure",
+  "name_id": "Reduced clause",
+  "name_en": "Reduced clauses",
+  "glossary_slug": "reduced-clause"
+ },
+ {
+  "code": "S-NOUN-CLAUSE",
+  "section": "structure",
+  "name_id": "Noun clause",
+  "name_en": "Noun clauses",
+  "glossary_slug": "noun-clause"
+ },
+ {
+  "code": "S-INVERSION",
+  "section": "structure",
+  "name_id": "Inversi",
+  "name_en": "Inversion",
+  "glossary_slug": "inversion"
+ },
+ {
+  "code": "S-CORRELATIVE",
+  "section": "structure",
+  "name_id": "Correlative conjunction",
+  "name_en": "Correlative conjunctions",
+  "glossary_slug": "correlative-conjunction"
+ },
+ {
+  "code": "S-PRONOUN",
+  "section": "structure",
+  "name_id": "Bentuk & rujukan pronoun",
+  "name_en": "Pronoun form & reference",
+  "glossary_slug": "pronoun"
+ },
+ {
+  "code": "S-PREPOSITION",
+  "section": "structure",
+  "name_id": "Preposition yang tepat",
+  "name_en": "Choosing the preposition",
+  "glossary_slug": "preposition"
+ },
+ {
+  "code": "S-GERUND-INF",
+  "section": "structure",
+  "name_id": "Gerund vs infinitive",
+  "name_en": "Gerund vs infinitive",
+  "glossary_slug": "gerund"
+ },
+ {
+  "code": "S-REDUNDANT",
+  "section": "structure",
+  "name_id": "Kata berlebih / subject ganda",
+  "name_en": "Redundancy & double subjects",
+  "glossary_slug": "redundancy"
+ },
+ {
+  "code": "L-SECOND",
+  "section": "listening",
+  "name_id": "Jawaban di kalimat orang kedua",
+  "name_en": "The answer is in the second speaker's line",
+  "glossary_slug": null
+ },
+ {
+  "code": "L-SUGGEST",
+  "section": "listening",
+  "name_id": "Bentuk saran",
+  "name_en": "Suggestions",
+  "glossary_slug": null
+ },
+ {
+  "code": "L-IDIOM",
+  "section": "listening",
+  "name_id": "Idiom percakapan",
+  "name_en": "Conversational idioms",
+  "glossary_slug": null
+ },
+ {
+  "code": "L-AGREE",
+  "section": "listening",
+  "name_id": "Ekspresi setuju / tidak setuju",
+  "name_en": "Agreement & disagreement",
+  "glossary_slug": null
+ },
+ {
+  "code": "L-SOUNDALIKE",
+  "section": "listening",
+  "name_id": "Jebakan bunyi mirip",
+  "name_en": "Sound-alike traps",
+  "glossary_slug": null
+ },
+ {
+  "code": "L-INFER",
+  "section": "listening",
+  "name_id": "Makna tersirat",
+  "name_en": "Inference",
+  "glossary_slug": null
+ },
+ {
+  "code": "L-CONDITION",
+  "section": "listening",
+  "name_id": "Conditional & wish",
+  "name_en": "Conditionals & wishes",
+  "glossary_slug": null
+ },
+ {
+  "code": "L-SURPRISE",
+  "section": "listening",
+  "name_id": "Intonasi & kejutan",
+  "name_en": "Intonation & surprise",
+  "glossary_slug": null
+ },
+ {
+  "code": "L-TOPIC",
+  "section": "listening",
+  "name_id": "Topik percakapan / ceramah",
+  "name_en": "Topic of a talk",
+  "glossary_slug": null
+ },
+ {
+  "code": "L-DETAIL",
+  "section": "listening",
+  "name_id": "Detail dalam percakapan",
+  "name_en": "Details in a talk",
+  "glossary_slug": null
+ },
+ {
+  "code": "L-LECTURE",
+  "section": "listening",
+  "name_id": "Mencatat lecture",
+  "name_en": "Note-taking in lectures",
+  "glossary_slug": null
+ },
+ {
+  "code": "R-MAIN",
+  "section": "reading",
+  "name_id": "Main idea",
+  "name_en": "Main idea",
+  "glossary_slug": null
+ },
+ {
+  "code": "R-DETAIL",
+  "section": "reading",
+  "name_id": "Detail (scanning)",
+  "name_en": "Details (scanning)",
+  "glossary_slug": null
+ },
+ {
+  "code": "R-VOCAB",
+  "section": "reading",
+  "name_id": "Vocabulary in context",
+  "name_en": "Vocabulary in context",
+  "glossary_slug": null
+ },
+ {
+  "code": "R-REF",
+  "section": "reading",
+  "name_id": "Reference (it, they, this)",
+  "name_en": "Reference (it, they, this)",
+  "glossary_slug": "pronoun"
+ },
+ {
+  "code": "R-INFER",
+  "section": "reading",
+  "name_id": "Inference",
+  "name_en": "Inference",
+  "glossary_slug": null
+ },
+ {
+  "code": "R-NOT",
+  "section": "reading",
+  "name_id": "Soal NOT / EXCEPT",
+  "name_en": "NOT / EXCEPT questions",
+  "glossary_slug": null
+ },
+ {
+  "code": "R-PURPOSE",
+  "section": "reading",
+  "name_id": "Tujuan & nada penulis",
+  "name_en": "Author's purpose & tone",
+  "glossary_slug": null
+ },
+ {
+  "code": "R-ORG",
+  "section": "reading",
+  "name_id": "Organisasi paragraf",
+  "name_en": "Paragraph organization",
+  "glossary_slug": null
+ },
+ {
+  "code": "R-PARAPHRASE",
+  "section": "reading",
+  "name_id": "Parafrase kalimat",
+  "name_en": "Sentence paraphrase",
+  "glossary_slug": null
+ }
+]

@@ -1,0 +1,9 @@
+{
+  "narrator": "en-US-ChristopherNeural",
+  "male": ["en-US-AndrewNeural", "en-US-EricNeural", "en-US-GuyNeural", "en-US-AndrewNeural", "en-GB-RyanNeural"],
+  "female": ["en-US-JennyNeural", "en-US-AriaNeural", "en-US-MichelleNeural", "en-US-JennyNeural", "en-GB-SoniaNeural"],
+  "lecturer": ["en-US-BrianNeural", "en-US-EmmaNeural"],
+  "uk_heavy_rumah": ["r13"],
+  "male_uk_heavy": ["en-GB-RyanNeural", "en-US-AndrewNeural", "en-GB-RyanNeural", "en-US-GuyNeural"],
+  "female_uk_heavy": ["en-GB-SoniaNeural", "en-US-AriaNeural", "en-GB-SoniaNeural", "en-US-MichelleNeural"]
+}

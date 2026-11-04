@@ -1,0 +1,1 @@
+<svg class="pin" viewBox="0 0 32 40" aria-hidden="true" focusable="false"><circle cx="16" cy="12" r="10" fill="#E8336F" stroke="#24101C" stroke-width="2.5"/><circle cx="12.5" cy="9" r="3" fill="#fff" opacity=".7"/><path d="M16 22v16" stroke="#24101C" stroke-width="2.5" stroke-linecap="round"/></svg>
