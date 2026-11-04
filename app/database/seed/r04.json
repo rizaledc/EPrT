@@ -916,12 +916,12 @@
      "why_correct_en": "Step 1: 'it' is singular; candidates: 'an artificial sky', 'star pattern', 'the center'. Step 2: stars turn around the center of… the sky. 'The center of **the artificial sky**' makes sense, and 'a map of it' at the end also refers to the sky.",
      "why_wrong_id": {
       "0": "'the center of the center' tidak masuk akal.",
-      "1": "Laboratorium tidak disebut sebagai benda di kalimat ini; pusat laboratorium tidak relevan dengan pola bintang.",
+      "1": "'Laboratory' hanya menerangkan 'experiments'; pola bintang tidak berputar mengelilingi pusat laboratorium.",
       "2": "Pola bintang adalah yang berputar; ia tidak berputar mengelilingi pusat dirinya sendiri dalam makna ini."
      },
      "why_wrong_en": {
       "0": "'the center of the center' makes no sense.",
-      "1": "The laboratory isn't a noun in this sentence; its center has nothing to do with star patterns.",
+      "1": "'Laboratory' only describes the experiments ('laboratory experiments'); a laboratory has no center that stars turn around.",
       "2": "The star pattern is what turns; it doesn't turn around its own center here."
      },
      "analogy_id": "Bayangkan planetarium: bintang-bintang berputar mengelilingi titik tengah kubah langit buatan.",

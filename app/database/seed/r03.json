@@ -606,7 +606,7 @@
    "type": "structure_completion",
    "prompt": "Water ______ at 100 degrees Celsius at sea level, as the students saw in yesterday's lab.",
    "options": [
-    "boiled",
+    "boiling",
     "is boil",
     "will boiled",
     "boils"
@@ -616,16 +616,16 @@
     "S-TENSE",
     "S-VFORM"
    ],
-   "difficulty": 3,
+   "difficulty": 2,
    "why_correct_id": "Langkah 1: jangan terkecoh 'yesterday'. Kata itu milik clause 'as the students saw…'. Langkah 2: clause induk menyatakan **fakta ilmiah** yang selalu benar, sehingga memakai [[simple present|simple-present]]. Langkah 3: subject 'Water' tunggal → **boils**.",
    "why_correct_en": "Step 1: don't be fooled by 'yesterday'. It belongs to 'as the students saw…'. Step 2: the main clause states a **scientific fact**, which takes the simple present. Step 3: singular 'Water' → **boils**.",
    "why_wrong_id": {
-    "0": "'boiled' mengikuti 'yesterday', padahal titik didih air adalah fakta yang selalu berlaku, bukan kejadian lampau.",
+    "0": "'boiling' tanpa auxiliary (kata kerja bantu) bukan verb utama. Kalimat jadi tanpa mesin.",
     "1": "'is boil' salah bentuk: setelah 'is' tidak boleh V1.",
     "2": "'will boiled' salah dua kali: setelah 'will' harus V1, dan fakta umum tidak memakai will."
    },
    "why_wrong_en": {
-    "0": "'boiled' follows 'yesterday', but water's boiling point is a permanent fact, not a past event.",
+    "0": "'boiling' with no auxiliary isn't a main verb, so the sentence has no engine.",
     "1": "'is boil' is malformed: 'is' can't be followed by V1.",
     "2": "'will boiled' is doubly wrong: 'will' needs V1, and general facts don't use will."
    },

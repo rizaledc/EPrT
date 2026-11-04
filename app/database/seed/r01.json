@@ -600,7 +600,7 @@
     "3": "'to learning' is not a possible subject here."
    },
    "analogy_id": "Gerund itu mesin yang dipajang di etalase: bentuknya mesin (verb), tapi fungsinya barang pajangan (noun).",
-   "analogy_en": "A gerund is an engine on display: shaped like a verb but used as an object, a noun.",
+   "analogy_en": "A gerund is an engine on display: shaped like a verb but used as a thing, a noun.",
    "tip_id": "Butuh subject dari sebuah kegiatan? Pakai V-ing.",
    "tip_en": "Need an activity as a subject? Use V-ing."
   },
@@ -1090,7 +1090,7 @@
      ],
      "difficulty": 1,
      "evidence_quote": "When both groups were tested the next day, the students who had slept remembered significantly more pairs.",
-     "why_correct_id": "Langkah 1: cari kata kunci 'slept' di paragraf 3. Langkah 2: kalimatnya menyebut mahasiswa yang tidur mengingat jauh lebih banyak pasangan kata saat diuji keesokan harinya. 'Recalled' adalah sinonim 'remembered'.",
+     "why_correct_id": "Langkah 1: cari kata kunci 'slept' di paragraf 3. Langkah 2: kalimatnya menyebut mahasiswa yang tidur mengingat jauh lebih banyak pasangan kata saat diuji keesokan harinya.",
      "why_correct_en": "Step 1: find 'slept' in paragraph 3. Step 2: the sentence says the students who slept remembered significantly more pairs when tested the next day.",
      "why_wrong_id": {
       "0": "Kedua kelompok belajar dengan cara sama pada malam hari; kecepatan belajar tidak dibandingkan.",
