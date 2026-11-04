@@ -8,8 +8,12 @@ tools/.cache/
 tools/__pycache__/
 .DS_Store
 app/storage/sessions/
+app/storage/audio.lock/
+app/storage/audio-manifest.backup.json
 app/vendor/**/tests/
 public_html/audio/**/*.mp3
+# Dibuat di server oleh tools/make_audio.py (deploy/audio.sh); jangan di-commit
+app/database/seed/audio-manifest.json
 public_html/app-path.php
 public_html/assets/img/sponsors/
 

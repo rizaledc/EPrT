@@ -27,6 +27,7 @@ if (cfg && root) {
     finishDlg: $('[data-finish-dialog]'), finishText: $('[data-finish-text]'), finishOk: $('[data-finish-ok]'), finishCancel: $('[data-finish-cancel]'),
     sampleDlg: $('[data-sample-dialog]'), sampleText: $('[data-sample-text]'),
     timerToggleWrap: $('[data-timer-toggle-wrap]'), timerToggle: $('[data-timer-toggle]'), secChip: $('[data-sec-chip]'),
+    instr: $('[data-instr]'), stDir: $('[data-st-dir]'),
   };
 
   const S = {
@@ -71,8 +72,49 @@ if (cfg && root) {
     const rules = (isSim ? T('session.sim_rules') : T('session.practice_rules')).split('|');
     if (isSim) rules.unshift(T('session.timer_reminder').replace('{t}', fmt(S.remaining || 0)));
     el.startRules.innerHTML = rules.map((r) => `<li><span>${escapeHtml(r)}</span></li>`).join('');
+    if (isSim && cfg.section === 'structure') renderStructureDirections();
     el.startBtn.addEventListener('click', begin, { once: true });
     el.startBtn.focus();
+  }
+
+  /* Simulasi: directions Structure sekali di awal seksi (seperti tes), soal tampil polos */
+  const bold = (s) => escapeHtml(s).replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>');
+  function typeRange(type) {
+    const nums = S.questions.map((q, i) => (q.type === type ? i + 1 : 0)).filter(Boolean);
+    return nums.length ? { a: nums[0], b: nums[nums.length - 1] } : null;
+  }
+  function renderStructureDirections() {
+    if (!el.stDir) return;
+    const ul = (L, w) => `<span class="ul-part"><u>${w}</u><span class="ul-label">${L}</span></span>`;
+    const opts = ['open', 'opens', 'opening', 'to open'].map((o, i) => `<li>(${LETTERS[i]}) ${o}</li>`).join('');
+    const rc = typeRange('structure_completion');
+    const re = typeRange('structure_error');
+    let h = `<h3 class="mt-0">${escapeHtml(T('session.st_dir_t'))}</h3>`;
+    if (rc) {
+      h += `<div class="st-dir-part"><span class="chip chip-structure">${escapeHtml(T('session.instr.completion_chip'))}</span>
+        <p>${escapeHtml(T('session.st_dir_completion', rc))}</p>
+        <div class="st-dir-ex" data-q><span class="eyebrow">${escapeHtml(T('session.st_dir_example'))}</span>
+          <p class="q-prompt mb-8">The museum <span class="blank">_______</span> every day from nine to five.</p><ul class="st-dir-opts">${opts}</ul></div>
+        <p class="small muted">${escapeHtml(T('session.st_dir_answer'))}: ${bold(T('session.st_dir_ex_completion'))}</p></div>`;
+    }
+    if (re) {
+      h += `<div class="st-dir-part"><span class="chip chip-structure">${escapeHtml(T('session.instr.error_chip'))}</span>
+        <p>${escapeHtml(T('session.st_dir_error', re))}</p>
+        <div class="st-dir-ex" data-q><span class="eyebrow">${escapeHtml(T('session.st_dir_example'))}</span>
+          <p class="q-prompt mb-8">The ${ul('A', 'number')} of visitors to the park ${ul('B', 'have')} grown ${ul('C', 'steadily')} ${ul('D', 'since')} 2010.</p></div>
+        <p class="small muted">${escapeHtml(T('session.st_dir_answer'))}: ${bold(T('session.st_dir_ex_error'))}</p></div>`;
+    }
+    el.stDir.innerHTML = h;
+    el.stDir.hidden = false;
+  }
+
+  /* Latihan, review, dan Latihan Contoh: chip + instruksi singkat di atas tiap soal Structure */
+  function renderInstruction(q) {
+    if (!el.instr) return;
+    const kind = q.type === 'structure_error' ? 'error' : (q.type === 'structure_completion' ? 'completion' : null);
+    if (isSim || !kind) { el.instr.hidden = true; el.instr.innerHTML = ''; return; }
+    el.instr.innerHTML = `<span class="chip chip-structure">${escapeHtml(T('session.instr.' + kind + '_chip'))}</span><span>${escapeHtml(T('session.instr.' + kind))}</span>`;
+    el.instr.hidden = false;
   }
 
   function begin() {
@@ -124,6 +166,7 @@ if (cfg && root) {
     }
 
     // Teks soal
+    renderInstruction(q);
     if (q.section === 'listening') {
       el.prompt.innerHTML = q.listening.show_prompt ? `<p class="mb-0"><strong>${escapeHtml(q.listening.prompt)}</strong></p>` : `<p class="small muted mb-0">${escapeHtml(T('session.listen_first'))}</p>`;
     } else {

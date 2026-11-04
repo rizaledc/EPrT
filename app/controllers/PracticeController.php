@@ -165,7 +165,9 @@ final class PracticeController
             'session.start_d', 'session.start_btn', 'session.sim_rules', 'session.practice_rules', 'session.result_t', 'session.see_result', 'session.sample_done_t',
             'session.sample_done_d', 'session.register_cta', 'session.offline', 'session.locked', 'session.timer_reminder', 'session.timer_toggle', 'session.directions',
             'session.question_audio', 'session.talk_audio', 'session.choose_first', 'common.correct', 'common.wrong', 'session.number', 'session.speed', 'session.tts_unavailable',
-            'session.completed_rumah', 'session.continue_auto', 'session.retrying'];
+            'session.completed_rumah', 'session.continue_auto', 'session.retrying',
+            'session.instr.error_chip', 'session.instr.error', 'session.instr.completion_chip', 'session.instr.completion', 'session.st_dir_t',
+            'session.st_dir_completion', 'session.st_dir_error', 'session.st_dir_example', 'session.st_dir_answer', 'session.st_dir_ex_completion', 'session.st_dir_ex_error'];
         $out = [];
         foreach ($keys as $k) {
             $out[$k] = t($k);
