@@ -13,6 +13,12 @@ final class ContentImporter
     private array $manifest = [];
     private array $simPrompts = [];
     private array $practicePrompts = [];
+    /** slug => kode Blok ('A'..'D', 'SIM', 'SAMPLE') untuk cek sebaran kesulitan */
+    private array $blokOf = [];
+    /** Ringkasan sebaran per file (ditampilkan seed.php) */
+    public array $stats = [];
+    /** Target sebaran mudah/sedang/sulit per Blok (PRD bagian 16) */
+    public const DIFFICULTY_TARGET = ['A' => [60, 30, 10], 'B' => [40, 40, 20], 'C' => [25, 45, 30], 'D' => [20, 50, 30], 'SIM' => [20, 50, 30]];
     /** true = impor ulang walau file tidak berubah */
     public bool $force = false;
     /** Ringkasan per file: imported | unchanged | invalid */
@@ -46,6 +52,9 @@ final class ContentImporter
         $rumahs = $this->readJson("$dir/rumahs.json");
         $glossary = $this->readJson("$dir/glossary.json");
         $this->tagCodes = array_column((array) $ruleTags, 'code');
+        foreach ((array) $rumahs as $r) {
+            $this->blokOf[$r['slug']] = $r['kind'] === 'simulation' ? 'SIM' : ($r['kind'] === 'sample' ? 'SAMPLE' : ($r['blok'] ?? ''));
+        }
         if (is_file("$dir/audio-manifest.json")) {
             foreach ((array) $this->readJson("$dir/audio-manifest.json") as $m) {
                 if (isset($m['path'])) {
@@ -111,6 +120,9 @@ final class ContentImporter
         $this->errors = [];
         $this->warnings = [];
         $this->tagCodes = array_keys(RuleTag::map());
+        foreach (Rumah::all() as $r) {
+            $this->blokOf[$r['slug']] = $r['kind'] === 'simulation' ? 'SIM' : ($r['kind'] === 'sample' ? 'SAMPLE' : (string) $r['blok_code']);
+        }
         $data = json_decode($json, true);
         if (!is_array($data)) {
             $this->errors[] = 'JSON tidak valid: ' . json_last_error_msg();
@@ -480,11 +492,25 @@ final class ContentImporter
                     $this->errors[] = "$id: soal sama dengan " . $this->practicePrompts[$key];
                 }
                 if (!$isSim) {
+                    if (isset($this->practicePrompts[$key]) && !str_starts_with($this->practicePrompts[$key], $label . ' ')) {
+                        $this->warnings[] = "$id: soal sama dengan " . $this->practicePrompts[$key];
+                    }
                     $this->practicePrompts[$key] = $id;
                 }
             }
         }
         $total = array_sum($dist);
+        $dsum = max(1, array_sum($diff));
+        $this->stats[$slug] = sprintf('jawaban A%d B%d C%d D%d · kesulitan mudah %d / sedang %d / sulit %d', $dist[0], $dist[1], $dist[2], $dist[3], $diff[1], $diff[2], $diff[3]);
+        $blok = $this->blokOf[$slug] ?? '';
+        if ($total >= 20 && isset(self::DIFFICULTY_TARGET[$blok])) {
+            foreach (self::DIFFICULTY_TARGET[$blok] as $i => $target) {
+                $pct = $diff[$i + 1] / $dsum * 100;
+                if (abs($pct - $target) > 10) {
+                    $this->warnings[] = "$label: kesulitan " . ['mudah', 'sedang', 'sulit'][$i] . ' = ' . round($pct) . "% (target Blok $blok: $target%)";
+                }
+            }
+        }
         if ($total >= 20 && $slug !== 'contoh') {
             foreach ($dist as $i => $c) {
                 $pct = $c / $total * 100;

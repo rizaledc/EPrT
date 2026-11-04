@@ -43,6 +43,9 @@ foreach ($imp->report as $file => $state) {
     echo "  {$labels[$state]}: $file\n";
 }
 
+foreach ($imp->stats as $slug => $line) {
+    echo "  $slug: $line\n";
+}
 foreach ($r['warnings'] as $w) {
     echo "  ! $w\n";
 }
