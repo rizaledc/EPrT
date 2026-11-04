@@ -787,8 +787,11 @@ function term_html(string $term, ?string $slug, array &$seenTerms): string
         return '<span class="term">' . $label . '</span>';
     }
     $def = active_lang() === 'en' ? ($g['def_en'] ?: $g['def_id']) : $g['def_id'];
-    return '<button type="button" class="term" data-term-tip aria-describedby="tip-' . e($g['slug']) . '-' . count($seenTerms) . '">' . $label
-        . '<span role="tooltip" class="term-tip" id="tip-' . e($g['slug']) . '-' . count($seenTerms) . '"><strong>' . e($g['term_en']) . '</strong> · ' . e($g['meaning_id'])
+    // Penghitung global per request: id tetap unik walau banyak kartu pembahasan di satu halaman
+    static $tipSeq = 0;
+    $tipId = 'tip-' . e($g['slug']) . '-' . (++$tipSeq);
+    return '<button type="button" class="term" data-term-tip aria-describedby="' . $tipId . '">' . $label
+        . '<span role="tooltip" class="term-tip" id="' . $tipId . '"><strong>' . e($g['term_en']) . '</strong> · ' . e($g['meaning_id'])
         . '<br>' . e((string) $def) . ' <a href="' . e(url('kamus#' . $g['slug'])) . '">' . e(t('glossary.open')) . '</a></span></button>';
 }
 

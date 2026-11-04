@@ -19,7 +19,7 @@
     </div>
   <?php endif; ?>
 
-  <div class="card" id="password">
+  <div class="card" id="ganti-password">
     <h2><?= e(t('account.pw.h')) ?></h2>
     <form class="form" method="post" action="<?= e(url('akun')) ?>" novalidate>
       <?= csrf_field() ?><input type="hidden" name="action" value="password">
