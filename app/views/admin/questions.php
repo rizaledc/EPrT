@@ -14,7 +14,7 @@
   <thead><tr><th>ID</th><th>Rumah</th><th>Seksi</th><th>No</th><th>Tipe</th><th>Soal</th><th>Kunci</th><th>Tag</th><th class="num">Dijawab</th><th class="num">% benar</th><th>Status</th></tr></thead>
   <tbody><?php foreach ($rows as $q): ?>
     <tr><td><a href="<?= e(url('admin/soal/' . $q['id'])) ?>"><?= $q['id'] ?></a></td><td><?= e($q['slug']) ?></td><td><span class="sec-dot <?= e($q['section']) ?>"></span> <?= e($q['section']) ?></td><td class="mono"><?= $q['number'] ?></td><td class="small"><?= e($q['type']) ?></td>
-    <td><a href="<?= e(url('admin/soal/' . $q['id'])) ?>"><?= e(mb_strimwidth(preg_replace('/\{\/?[A-D]\}/', '', (string) $q['prompt']), 0, 80, '…')) ?></a></td>
+    <td data-q><a href="<?= e(url('admin/soal/' . $q['id'])) ?>"><?= e(mb_strimwidth(preg_replace('/\{\/?[A-D]\}/', '', (string) $q['prompt']), 0, 80, '…')) ?></a></td>
     <td class="mono"><?= $letters[(int) $q['correct_index']] ?></td><td class="small"><?= e(implode(', ', json_col($q['rule_tags']))) ?></td>
     <td class="num mono"><?= (int) $q['n'] ?></td><td class="num mono"><?= $q['pct'] !== null ? round((float) $q['pct'] * 100) . '%' : '-' ?></td>
     <td><span class="chip chip-xs <?= $q['status'] === 'published' ? 'chip-good' : 'chip-outline' ?>"><?= e($q['status']) ?></span></td></tr>

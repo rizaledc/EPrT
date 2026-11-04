@@ -37,7 +37,7 @@
     <thead><tr><th>#</th><th>Rumah</th><th>Seksi</th><th>Soal</th><th class="num">% benar</th><th class="num">n</th></tr></thead>
     <tbody><?php foreach ($hardest as $h): ?>
       <tr><td><a href="<?= e(url('admin/soal/' . $h['id'])) ?>"><?= $h['id'] ?></a></td><td><?= e($h['slug']) ?></td><td><?= e($h['section']) ?></td>
-      <td><?= e(mb_strimwidth(strip_tags(str_replace(['{A}','{B}','{C}','{D}','{/A}','{/B}','{/C}','{/D}'], '', (string) $h['prompt'])), 0, 90, '…')) ?></td>
+      <td data-q><?= e(mb_strimwidth(strip_tags(str_replace(['{A}','{B}','{C}','{D}','{/A}','{/B}','{/C}','{/D}'], '', (string) $h['prompt'])), 0, 90, '…')) ?></td>
       <td class="num mono"><?= round((float) $h['p'] * 100) ?>%</td><td class="num mono"><?= $h['n'] ?></td></tr>
     <?php endforeach; ?></tbody>
   </table></div><?php endif; ?>

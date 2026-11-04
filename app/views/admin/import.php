@@ -2,7 +2,7 @@
   <form class="card form" method="post" action="<?= e(url('admin/impor')) ?>" enctype="multipart/form-data">
     <?= csrf_field() ?>
     <h3>Impor JSON</h3>
-    <p class="small muted mb-0">Format sama dengan file seed (<code>{"rumah":"r02","material_id":"…","items":[…]}</code>) atau daftar soal yang masing-masing punya field <code>"rumah"</code> (PRD bagian 16). Selalu divalidasi dulu.</p>
+    <p class="small muted mb-0">Format sama dengan file seed: satu objek berisi <code>rumah</code>, <code>material_id</code>, dan <code>items</code>, atau daftar soal yang masing-masing punya field <code>rumah</code> (PRD bagian 16). Selalu divalidasi dulu.</p>
     <div class="field"><label for="file">File .json</label><input type="file" id="file" name="file" accept="application/json,.json"></div>
     <div class="field"><label for="json">…atau tempel JSON</label><textarea class="input mono" id="json" name="json" rows="12"><?= e($json) ?></textarea></div>
     <div class="row">

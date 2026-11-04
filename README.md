@@ -38,3 +38,17 @@ tools/                make_audio.py (Edge TTS + ffmpeg), voices.json
 ## Status konten
 
 Platform lengkap. Konten yang sudah ditulis: **Rumah Contoh** (10 soal), **Rumah 1** (30 soal + materi), **Kamus** (49 istilah), 48 tag aturan. Rumah 2–14 dan Simulasi 1–2 tampil sebagai "Soal segera hadir" sampai file JSON-nya ditambahkan.
+
+## Pemeriksaan tanda kutip
+
+Teks yang dilihat pengguna tidak boleh memakai tanda kutip (" ' “ ” ‘ ’) untuk mengutip atau menandai kata; pakai **tebal**. Apostrof di dalam kata (I'm, didn't) dan teks soal Inggris dikecualikan.
+
+```bash
+php tests/no_quotes.php
+```
+
+```bash
+BASE=http://127.0.0.1:8000 MEMBER=user:pass ADMIN=user:pass node tests/no_quotes_render.js
+```
+
+Keduanya dijalankan otomatis oleh job `cek-kutip` di `.github/workflows/deploy.yml`; deploy hanya berjalan jika job ini lulus.

@@ -136,7 +136,7 @@ final class ContentImporter
             foreach ($data as $item) {
                 $slug = $item['rumah'] ?? null;
                 if (!$slug) {
-                    $this->errors[] = 'Setiap item wajib punya field "rumah".';
+                    $this->errors[] = 'Setiap item wajib punya field rumah.';
                     continue;
                 }
                 $bySlug[$slug]['items'][] = $item;
@@ -278,7 +278,7 @@ final class ContentImporter
         } catch (Throwable $e) {
         }
         if (!$rumah && !$validateOnly) {
-            $this->errors[] = "$label: Rumah '$slug' belum ada di tabel rumahs.";
+            $this->errors[] = "$label: Rumah $slug belum ada di tabel rumahs.";
             return 0;
         }
         $items = $data['items'] ?? [];
@@ -458,7 +458,7 @@ final class ContentImporter
             }
             $seenNum[$sec][$n] = true;
             if (!in_array($q['type'] ?? '', self::TYPES[$sec], true)) {
-                $this->errors[] = "$id: type '" . ($q['type'] ?? '') . "' tidak cocok untuk seksi $sec";
+                $this->errors[] = "$id: type " . ($q['type'] ?? '') . " tidak cocok untuk seksi $sec";
             }
             if ($sec === 'reading' && !in_array($q['subtype'] ?? '', self::READING_SUBTYPES, true)) {
                 $this->errors[] = "$id: subtype reading wajib salah satu dari " . implode(', ', self::READING_SUBTYPES);
@@ -502,7 +502,7 @@ final class ContentImporter
             } else {
                 foreach ($tags as $t) {
                     if ($this->tagCodes && !in_array($t, $this->tagCodes, true)) {
-                        $this->errors[] = "$id: tag '$t' tidak ada di rule_tags.json";
+                        $this->errors[] = "$id: tag $t tidak ada di rule_tags.json";
                     }
                 }
             }

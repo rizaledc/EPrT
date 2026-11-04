@@ -71,34 +71,38 @@ final class HomeController
         exit;
     }
 
-    /** Soal demo landing (Error Recognition "has retain"), berjalan di sisi klien. */
+    /**
+     * Soal demo landing (Error Recognition has retain), berjalan di sisi klien.
+     * Teks pembahasan diambil dari soal yang sama di Rumah 4 agar hanya ada satu versi.
+     */
     public static function demoQuestion(): array
     {
-        return [
-            'id' => 0,
-            'section' => 'structure',
-            'type' => 'structure_error',
-            'prompt' => 'Although {A}numerous{/A} renovations were made, the old library {B}has retain{/B} its {C}classically{/C} simple {D}style{/D}.',
-            'options' => ['numerous', 'has retain', 'classically', 'style'],
-            'correct_index' => 1,
-            'rule_tags' => ['S-PERFECT-V3'],
-            'why_correct_id' => "Langkah 1: cari subject (pelaku) induk kalimat, yaitu 'the old library'. Langkah 2: cari verb (kata kerja)-nya: 'has retain'. Setelah auxiliary (kata kerja bantu) have/has, main verb (kata kerja utama) wajib berbentuk V3 (bentuk ketiga). Jadi 'has retain' harus menjadi **has retained**.",
-            'why_correct_en' => "Step 1: find the main subject, 'the old library'. Step 2: find its verb, 'has retain'. After the auxiliary have/has, the main verb must be in its past participle (V3) form, so 'has retain' should be **has retained**.",
-            'why_wrong_id' => [
-                '0' => "'numerous' (banyak) adalah adjective (kata sifat) yang menerangkan noun (kata benda) 'renovations'. Sudah benar.",
-                '2' => "'classically' adalah adverb (kata keterangan) yang menerangkan adjective 'simple'. Adverb boleh menerangkan adjective, jadi benar.",
-                '3' => "'style' adalah noun setelah adjective 'simple'. Polanya adjective + noun, sudah benar.",
-            ],
-            'why_wrong_en' => [
-                '0' => "'numerous' is an adjective describing the noun 'renovations'. It is correct.",
-                '2' => "'classically' is an adverb modifying the adjective 'simple'. Adverbs can modify adjectives, so it is correct.",
-                '3' => "'style' is a noun following the adjective 'simple'. Adjective + noun is the right pattern.",
-            ],
-            'analogy_id' => 'have/has itu seperti kernet yang hanya mau naik bus jurusan V3. Kalau kata kerjanya masih V1 (retain), kernetnya menolak ikut.',
-            'analogy_en' => "Think of have/has as a conductor who only boards the 'V3 bus'. If the verb is still in V1 (retain), the conductor refuses to get on.",
-            'tip_id' => 'Lihat have/has/had? Langsung cek kata kerja sesudahnya, apakah sudah V3.',
-            'tip_en' => 'Spot have/has/had? Check right away that the next verb is V3.',
+        $prompt = 'Although {A}numerous{/A} renovations were made, the old library {B}has retain{/B} its {C}classically{/C} simple {D}style{/D}.';
+        $q = [
+            'id' => 0, 'section' => 'structure', 'type' => 'structure_error', 'prompt' => $prompt,
+            'options' => ['numerous', 'has retain', 'classically', 'style'], 'correct_index' => 1, 'rule_tags' => ['S-PERFECT-V3'],
             'key_sentence' => null, 'key_translation_id' => null, 'liaison_note' => null, 'evidence_quote' => null,
+        ];
+        $file = dirname(__DIR__) . '/database/seed/r04.json';
+        $data = is_file($file) ? json_decode((string) file_get_contents($file), true) : null;
+        foreach ($data['items'] ?? [] as $it) {
+            if (($it['prompt'] ?? '') === $prompt) {
+                foreach (['why_correct_id', 'why_correct_en', 'why_wrong_id', 'why_wrong_en', 'analogy_id', 'analogy_en', 'tip_id', 'tip_en', 'rule_tags'] as $f) {
+                    $q[$f] = $it[$f] ?? ($q[$f] ?? null);
+                }
+                return $q;
+            }
+        }
+        // Cadangan bila file seed tidak ada di server
+        return $q + [
+            'why_correct_id' => 'Cari dulu pelakunya: **the old library**. Terus cari kata kerjanya: **has retain**. Nah, ini biang keroknya. Habis **has**, kata kerjanya harus bentuk ketiga (V3). Jadi yang bener **has retained**.',
+            'why_correct_en' => 'Find the subject first: **the old library**. Then the verb: **has retain**. That is the culprit. After **has**, the verb has to be V3. So it should be **has retained**.',
+            'why_wrong_id' => ['0' => '**numerous** itu adjective (kata sifat) yang nemenin **renovations**. Aman, nggak ada yang salah.', '2' => '**classically** itu adverb (kata keterangan) yang nemenin **simple**. Ini juga aman.', '3' => '**style** itu kata benda setelah kata sifat **simple**. Pasangannya pas.'],
+            'why_wrong_en' => ['0' => '**numerous** is an adjective going with **renovations**. Nothing wrong there.', '2' => '**classically** is an adverb going with **simple**. Also fine.', '3' => '**style** is a noun after the adjective **simple**. Good pair.'],
+            'analogy_id' => 'Anggap aja **has** itu kernet yang cuma mau naik bus jurusan V3. Kata kerjanya masih V1? Ya ditolak, nggak boleh naik.',
+            'analogy_en' => 'Think of **has** as a conductor who only rides the V3 bus. Verb still in V1? Rejected, no boarding.',
+            'tip_id' => 'Tiap ketemu **has**, **have**, atau **had**, langsung lirik kata kerja sesudahnya. Udah V3 belum?',
+            'tip_en' => 'Every time you spot **has**, **have**, or **had**, glance at the next verb. Is it V3 yet?',
         ];
     }
 }

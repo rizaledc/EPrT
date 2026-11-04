@@ -120,7 +120,7 @@ return [
     'account.confirm_with_password' => 'Confirm with your password',
     'account.logout.h' => 'Log out of this device',
     'account.delete.h' => 'Delete account', 'account.delete.p' => 'All progress, history, and your Mistake Book will be permanently deleted.',
-    'account.delete.type' => 'Type "{name}" to confirm', 'account.delete.submit' => 'Delete my account',
+    'account.delete.type' => 'Type your username, {name}, to confirm', 'account.delete.submit' => 'Delete my account',
     'account.deleted' => 'Your account has been deleted.',
     'account.err.old_wrong' => 'Current password is incorrect.', 'account.err.same' => 'The new password must differ from the old one.',
     'account.err.delete_confirm' => 'The confirmation username does not match.', 'account.err.admin_delete' => 'Admin accounts cannot be deleted here.',
@@ -231,7 +231,7 @@ return [
     'pdf.blok_title' => 'Block {b} Report · {name}', 'pdf.final_title' => 'Final Report · Estimated Score',
     'pdf.per_rumah' => 'Scores by House', 'pdf.time' => 'Time', 'pdf.pct_section' => '% correct by section',
     'pdf.weakest5' => '5 weakest rules', 'pdf.rule' => 'Rule', 'pdf.wrong' => 'Missed', 'pdf.advice' => 'Advice',
-    'pdf.advice_line' => 'Drill "{rule}" from your Mistake Book.', 'pdf.no_weak' => 'No mistakes recorded. Great job!',
+    'pdf.advice_line' => 'Drill the rule {rule} from your Mistake Book.', 'pdf.no_weak' => 'No mistakes recorded. Great job!',
     'pdf.estimate_tmp' => 'Current estimated score',
 
     'glossary.title' => 'Grammar Glossary', 'glossary.meta' => 'A glossary of English grammar terms with Indonesian meanings, examples, and everyday analogies.',

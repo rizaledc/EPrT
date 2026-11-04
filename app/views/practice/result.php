@@ -65,12 +65,12 @@ if ($isSim) {
         <summary>
           <span class="ri-mark <?= $cls ?>"><?= icon($cls === 'c' ? 'check' : ($cls === 'w' ? 'x' : 'circle'), 16) ?></span>
           <span class="mono small"><?= $i + 1 ?></span>
-          <span class="ri-text"><?= e(html_entity_decode($label, ENT_QUOTES)) ?></span>
+          <span class="ri-text" data-q><?= e(html_entity_decode($label, ENT_QUOTES)) ?></span>
           <?= icon('chevron-down', 18) ?>
         </summary>
         <div class="ri-inner">
           <?php if ($q['section'] === 'reading' && $p): ?>
-            <details class="mb-16"><summary class="small link-arrow"><?= e(t('session.show_passage')) ?>: <?= e((string) $p['title']) ?></summary>
+            <details class="mb-16"><summary class="small link-arrow"><?= e(t('session.show_passage')) ?>: <span data-q><?= e((string) $p['title']) ?></span></summary>
               <div class="passage-body small mt-16" data-evidence-host="<?= e((string) $q['evidence_quote']) ?>"><?= ReadingText::html((string) $p['body']) ?></div></details>
           <?php endif; ?>
           <?php if ($q['section'] !== 'listening'): ?><p class="q-prompt" style="font-size:17px"><?= render_question_text((string) $q['prompt']) ?></p><?php endif; ?>

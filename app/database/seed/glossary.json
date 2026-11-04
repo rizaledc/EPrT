@@ -211,8 +211,8 @@
   "def_id": "Bentuk to + V1, sering menyatakan tujuan atau mengikuti verb tertentu (want, plan, decide).",
   "def_en": "The form to + base verb, often showing purpose or following verbs like want, plan, decide.",
   "example": "They decided __to postpone__ the trip.",
-  "analogy_id": "Infinitive itu mesin yang masih di kotak dengan label 'to': belum dipasang ke mobil.",
-  "analogy_en": "An infinitive is an engine still boxed and labelled 'to', not yet installed.",
+  "analogy_id": "Infinitive itu mesin yang masih di kotak dengan label **to**: belum dipasang ke mobil.",
+  "analogy_en": "An infinitive is an engine still boxed and labelled **to**, not yet installed.",
   "sort": 17
  },
  {
@@ -559,8 +559,8 @@
   "def_id": "Auxiliary diletakkan sebelum subject setelah kata negatif di awal: Never, Rarely, Not only, Seldom.",
   "def_en": "Auxiliary placed before the subject after a negative opener: Never, Rarely, Not only, Seldom.",
   "example": "__Rarely does the library__ close early.",
-  "analogy_id": "Inversi itu kernet yang naik duluan sebelum sopir saat ada rambu 'Never/Rarely'.",
-  "analogy_en": "Inversion: the conductor boards before the driver when a 'Never/Rarely' sign appears.",
+  "analogy_id": "Inversi itu kernet yang naik duluan sebelum sopir saat ada rambu **Never/Rarely**.",
+  "analogy_en": "Inversion: the conductor boards before the driver when a **Never/Rarely** sign appears.",
   "sort": 46
  },
  {
@@ -580,8 +580,8 @@
   "grp": "aturan",
   "term_en": "redundancy",
   "meaning_id": "kata berlebih",
-  "def_id": "Kata atau subject yang diulang tanpa perlu, misalnya subject ganda atau 'return back'.",
-  "def_en": "Words repeated unnecessarily, such as a double subject or 'return back'.",
+  "def_id": "Kata atau subject yang diulang tanpa perlu, misalnya subject ganda atau **return back**.",
+  "def_en": "Words repeated unnecessarily, such as a double subject or **return back**.",
   "example": "The professor __he__ explained it again. (✕)",
   "analogy_id": "Redundancy itu dua sopir di satu kursi: tidak muat dan membingungkan.",
   "analogy_en": "Redundancy is two drivers in one seat: it doesn't fit and confuses everyone.",

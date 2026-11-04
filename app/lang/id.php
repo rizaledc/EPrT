@@ -124,7 +124,7 @@ return [
     'account.confirm_with_password' => 'Konfirmasi dengan password',
     'account.logout.h' => 'Keluar dari perangkat ini',
     'account.delete.h' => 'Hapus akun', 'account.delete.p' => 'Semua progres, riwayat, dan Buku Kesalahan akan dihapus permanen.',
-    'account.delete.type' => 'Ketik "{name}" untuk konfirmasi', 'account.delete.submit' => 'Hapus akun saya',
+    'account.delete.type' => 'Ketik username kamu, {name}, untuk konfirmasi', 'account.delete.submit' => 'Hapus akun saya',
     'account.deleted' => 'Akunmu sudah dihapus.',
     'account.err.old_wrong' => 'Password lama tidak cocok.', 'account.err.same' => 'Password baru harus berbeda dari yang lama.',
     'account.err.delete_confirm' => 'Username konfirmasi tidak cocok.', 'account.err.admin_delete' => 'Akun admin tidak bisa dihapus dari sini.',
@@ -244,7 +244,7 @@ return [
     'pdf.blok_title' => 'Rapor Blok {b} · {name}', 'pdf.final_title' => 'Rapor Akhir · Perkiraan Skor',
     'pdf.per_rumah' => 'Skor per Rumah', 'pdf.time' => 'Waktu', 'pdf.pct_section' => '% benar per seksi',
     'pdf.weakest5' => '5 aturan terlemah', 'pdf.rule' => 'Aturan', 'pdf.wrong' => 'Salah', 'pdf.advice' => 'Saran',
-    'pdf.advice_line' => 'Latih ulang "{rule}" lewat Buku Kesalahan.', 'pdf.no_weak' => 'Tidak ada kesalahan yang tercatat. Hebat!',
+    'pdf.advice_line' => 'Latih ulang aturan {rule} lewat Buku Kesalahan.', 'pdf.no_weak' => 'Tidak ada kesalahan yang tercatat. Hebat!',
     'pdf.estimate_tmp' => 'Perkiraan skor sementara',
 
     // Kamus

@@ -36,7 +36,7 @@ $section = $attempt['section'];
         <span class="chip chip-reading"><?= icon('book', 14) ?> <?= e(t('session.passage')) ?></span>
         <button type="button" class="btn btn-ghost btn-sm passage-toggle" data-passage-toggle aria-expanded="false"><?= e(t('session.show_passage')) ?></button>
       </div>
-      <h3 data-passage-title></h3>
+      <h3 data-passage-title data-q></h3>
       <div class="passage-body" data-passage-body></div>
     </aside>
     <div>

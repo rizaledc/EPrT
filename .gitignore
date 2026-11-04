@@ -12,3 +12,5 @@ app/vendor/**/tests/
 public_html/audio/**/*.mp3
 public_html/app-path.php
 public_html/assets/img/sponsors/
+
+node_modules/

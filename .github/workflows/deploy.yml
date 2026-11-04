@@ -14,7 +14,71 @@ permissions:
   contents: read
 
 jobs:
+  cek-kutip:
+    name: Cek tanda kutip (statis + halaman dirender)
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    services:
+      mysql:
+        image: mysql:8.0
+        env:
+          MYSQL_ROOT_PASSWORD: ci_root_pw
+          MYSQL_DATABASE: perumahan_ci
+        ports: ['3306:3306']
+        options: >-
+          --health-cmd="mysqladmin ping -h 127.0.0.1 -pci_root_pw"
+          --health-interval=5s --health-timeout=5s --health-retries=20
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: shivammathur/setup-php@v2
+        with:
+          php-version: '8.3'
+          extensions: mbstring, pdo_mysql, gd, intl
+          tools: none
+
+      - name: Cek statis (lang, views, js, seed, pesan server)
+        run: php tests/no_quotes.php
+
+      - name: Siapkan aplikasi uji
+        env:
+          CI_ADMIN_PASS: Ci!Admin2026xYz
+          CI_MEMBER_PASS: Ci!Member2026xYz
+        run: |
+          cat > app/config.php <<'PHP'
+          <?php
+          return [
+              'env' => 'development',
+              'base_url' => 'http://127.0.0.1:8000',
+              'app_secret' => 'ci-only-secret-0123456789abcdef0123456789abcdef',
+              'db' => ['host' => '127.0.0.1', 'port' => 3306, 'name' => 'perumahan_ci', 'user' => 'root', 'pass' => 'ci_root_pw', 'charset' => 'utf8mb4'],
+              'timezone' => 'Asia/Jakarta',
+              'admin_username' => 'MiminEPrT2026',
+              'ADMIN_INITIAL_PASSWORD' => '',
+              'hsts' => false,
+              'noindex' => true,
+              'public_path' => null,
+          ];
+          PHP
+          php tests/ci_setup.php
+          php app/database/seed.php
+          nohup php -S 127.0.0.1:8000 -t public_html public_html/index.php > /tmp/php-server.log 2>&1 &
+          sleep 2
+
+      - name: Pasang Playwright
+        run: |
+          npm install --no-save playwright@1.47.2
+          npx playwright install --with-deps chromium
+
+      - name: Cek halaman yang dirender (tamu, member, admin; ID & EN)
+        env:
+          BASE: http://127.0.0.1:8000
+          MEMBER: 'uji_ci:Ci!Member2026xYz'
+          ADMIN: 'MiminEPrT2026:Ci!Admin2026xYz'
+        run: node tests/no_quotes_render.js
+
   deploy:
+    needs: cek-kutip
     runs-on: ubuntu-latest
     timeout-minutes: 15
     steps:

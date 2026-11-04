@@ -83,7 +83,7 @@ if ($verdictPool) {
         <?php if (!empty($q['prompt'])): ?><div><span class="sp"><?= e(Speaker::label('N')) ?></span><em><?= e($q['prompt']) ?></em></div><?php endif; ?>
       </div>
       <?php if (!empty($q['key_sentence'])): ?>
-        <p class="mt-8 small"><strong><?= e(t('explain.key_sentence')) ?>:</strong> <em><?= e($q['key_sentence']) ?></em>
+        <p class="mt-8 small"><strong><?= e(t('explain.key_sentence')) ?>:</strong> <em data-q><?= e($q['key_sentence']) ?></em>
         <?php if (!empty($q['key_translation_id']) && active_lang() === 'id'): ?><br><strong><?= e(t('explain.translation')) ?>:</strong> <?= e($q['key_translation_id']) ?><?php endif; ?></p>
       <?php endif; ?>
       <?php if (!empty($q['liaison_note'])): ?><p class="small muted liaison"><?= icon('volume', 14) ?> <?= rich_inline((string) $q['liaison_note'], $seen) ?></p><?php endif; ?>
@@ -92,7 +92,7 @@ if ($verdictPool) {
     <?php if ($q['section'] === 'reading' && !empty($q['evidence_quote'])): ?>
     <div>
       <h4><?= icon('book', 14) ?> <?= e(t('explain.evidence')) ?></h4>
-      <blockquote data-evidence><?= e($q['evidence_quote']) ?></blockquote>
+      <blockquote data-evidence data-q><?= e($q['evidence_quote']) ?></blockquote>
     </div>
     <?php endif; ?>
   </div>

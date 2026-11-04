@@ -103,12 +103,20 @@ final class PdfReport
             $tip = $tipRow ? tr($tipRow, 'tip') : '';
             $name = $w['info'] ? tr($w['info'], 'name') : $w['tag'];
             $h .= '<tr><td style="width:34%"><b>' . e($name) . '</b><br><span class="muted">' . e($w['tag']) . '</span></td><td class="num" style="width:10%">' . (int) $w['wrong'] . '×</td>'
-                . '<td>' . e(t('pdf.advice_line', ['rule' => $name])) . ($tip ? ' ' . e(self::glyphSafe($tip)) : '') . '</td></tr>';
+                . '<td>' . e(t('pdf.advice_line', ['rule' => $name])) . ($tip ? ' ' . self::richSafe($tip) : '') . '</td></tr>';
         }
         return $h . '</table>';
     }
 
     /** Font PDF (subset Latin) tidak punya beberapa simbol; ganti dengan padanan ASCII. */
+    /** Teks pembahasan untuk PDF: **kata** → <b>kata</b>, [[istilah|slug]] → istilah. */
+    private static function richSafe(string $s): string
+    {
+        $s = preg_replace('/\[\[([^\]|]+)(?:\|[^\]]+)?\]\]/', '$1', $s);
+        $s = e(self::glyphSafe((string) $s));
+        return preg_replace('/\*\*(.+?)\*\*/s', '<b>$1</b>', $s);
+    }
+
     private static function glyphSafe(string $s): string
     {
         return strtr($s, ['→' => '->', '←' => '<-', '✓' => 'v', '✕' => 'x', '…' => '...']);
