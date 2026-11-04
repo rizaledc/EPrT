@@ -1,0 +1,1134 @@
+{
+ "rumah": "r10",
+ "material_id": "Hari kesepuluh! Kita belajar **anak kalimat penjelas** (*relative clause*) dan versi ringkasnya (*reduced clause*). Di Listening kita mengikuti **proses dan sebab-akibat** dalam lecture yang panjang, dan di Reading kita berlatih **parafrase kalimat**.\n\n=== listening\n## Proses dan sebab-akibat dalam lecture\nLecture tentang proses biasanya berurutan: *first, then, once, after that, eventually*. Lecture sebab-akibat memakai *because, so, as a result, which means, that's why*. Soal sering bertanya **langkah mana yang terjadi lebih dulu** atau **apa penyebab** sesuatu. Catat dengan panah: hujan → asam → batu larut → gua.\nPerumpamaan: lecture proses itu seperti resep masakan. Kalau urutan langkahnya tertukar, hasilnya gagal.\n> first / then / once / eventually = urutan · because / so / as a result = sebab-akibat\n✓ Tulis catatan berbentuk panah, bukan kalimat penuh\n✓ Bedakan langkah sebelum dan sesudah titik penting (misalnya *after the water drops*)\n✕ Memilih langkah yang benar tetapi di urutan yang salah\n✕ Mengira contoh sebagai penyebab\n\n=== structure\n## Relative clause dan reduced clause\n[[relative clause|relative-clause]] (anak kalimat penjelas) menerangkan kata benda di depannya: *who* untuk orang, *which* untuk benda, *whose* untuk kepemilikan, *that* untuk orang atau benda tanpa koma. Setelah koma, pakai *which*, bukan *that*. Relative clause sudah punya pelaku sendiri (*who/which*), jadi jangan tambah *he, it, its*. [[reduced clause|reduced-clause]] memendekkan *who/which + be*: makna aktif jadi V-ing (*students earning top scores*), makna pasif jadi V3 (*paintings displayed in the hall*).\nPerumpamaan: relative clause itu stiker keterangan yang ditempel di barang. Stikernya cukup satu; jangan ditempel dua kali.\n> orang: who · benda: which/that · milik: whose + noun · koma + which · aktif → V-ing · pasif → V3\n✓ The student **who** won…\n✓ The village, **whose** population is small…\n✓ The bridge **built** in 1932…\n✕ The book which I borrowed **it** was…\n✕ The museum, **that** opened in 1902…\n✕ The company whose **its** products…\n\n=== reading\n## Parafrase kalimat\nSoal parafrase meminta kalimat lain yang **artinya sama** dengan kalimat di teks. Jawaban benar menyimpan semua informasi penting: siapa, apa, sebab-akibat, dan kata pembatas seperti *may, most, although*. Pengecoh biasanya membalik sebab-akibat, menghapus informasi penting, atau membuat klaim lebih kuat dari teks.\nPerumpamaan: parafrase itu seperti menerjemahkan lagu ke bahasa lain. Kata-katanya boleh beda, tapi pesannya harus sama persis.\n> Cek: pelaku sama? sebab-akibat sama? kata pembatas (may, some, although) tetap ada?\n✓ Pecah kalimat panjang jadi dua bagian, lalu cocokkan tiap bagian\n✓ Waspadai *may → will*, *some → all*\n✕ Memilih opsi yang memakai kata-kata persis teks tapi maknanya bergeser\n✕ Memilih opsi yang benar tapi hanya mencakup setengah kalimat",
+ "material_en": "Day ten! We learn **relative clauses** and their shortened form, **reduced clauses**. In Listening we follow **processes and cause-and-effect** in longer lectures, and in Reading we practice **sentence paraphrase**.\n\n=== listening\n## Processes and cause-and-effect in lectures\nProcess lectures usually run in order: *first, then, once, after that, eventually*. Cause-and-effect lectures use *because, so, as a result, which means, that's why*. Questions often ask **which step comes first** or **what causes** something. Take notes with arrows: rain → acid → rock dissolves → cave.\nAnalogy: a process lecture is a recipe. Swap the steps and the dish fails.\n> first / then / once / eventually = order · because / so / as a result = cause and effect\n✓ Take arrow notes, not full sentences\n✓ Separate steps before and after a key point (for example *after the water drops*)\n✕ Picking a real step in the wrong order\n✕ Mistaking an example for a cause\n\n=== structure\n## Relative and reduced clauses\nA [[relative clause|relative-clause]] describes the noun before it: *who* for people, *which* for things, *whose* for possession, *that* for people or things without a comma. After a comma, use *which*, not *that*. A relative clause already has its own subject (*who/which*), so don't add *he, it, its*. A [[reduced clause|reduced-clause]] shortens *who/which + be*: active meaning becomes V-ing (*students earning top scores*), passive meaning becomes V3 (*paintings displayed in the hall*).\nAnalogy: a relative clause is a label stuck on an item. One label is enough; don't stick it on twice.\n> people: who · things: which/that · possession: whose + noun · comma + which · active → V-ing · passive → V3\n✓ The student **who** won…\n✓ The village, **whose** population is small…\n✓ The bridge **built** in 1932…\n✕ The book which I borrowed **it** was…\n✕ The museum, **that** opened in 1902…\n✕ The company whose **its** products…\n\n=== reading\n## Sentence paraphrase\nParaphrase questions ask for another sentence with **the same meaning**. The right answer keeps every key piece: who, what, cause and effect, and limiting words like *may, most, although*. Distractors usually reverse cause and effect, drop key information, or make a stronger claim than the text.\nAnalogy: a paraphrase is a song translated into another language. The words change, but the message must stay exactly the same.\n> Check: same doer? same cause and effect? limiting words (may, some, although) kept?\n✓ Split a long sentence into two parts and match each part\n✓ Watch for *may → will*, *some → all*\n✕ Picking an option that reuses the text's words but shifts the meaning\n✕ Picking an option that is true but covers only half the sentence",
+ "items": [
+  {
+   "section": "listening",
+   "part": "A",
+   "script": [
+    {
+     "speaker": "W1",
+     "text": "How was chemistry lab today? You were there for ages."
+    },
+    {
+     "speaker": "M1",
+     "text": "We had to start the whole experiment over because someone mixed the chemicals in the wrong order."
+    }
+   ],
+   "questions": [
+    {
+     "type": "listening_short",
+     "prompt": "Why did the students repeat the experiment?",
+     "options": [
+      "The lab closed before they finished.",
+      "A step was done in the wrong sequence.",
+      "They used the wrong chemicals.",
+      "The professor asked for more data."
+     ],
+     "correct_index": 1,
+     "rule_tags": [
+      "L-DETAIL",
+      "L-SECOND"
+     ],
+     "difficulty": 1,
+     "key_sentence": "We had to start the whole experiment over because someone mixed the chemicals in the wrong order.",
+     "key_translation_id": "Kami harus ngulang eksperimen dari awal karena ada yang nyampur bahan kimianya dengan urutan yang salah.",
+     "why_correct_id": "Alasannya ada setelah **because**: **someone mixed the chemicals in the wrong order**. Urutannya salah, jadi eksperimennya diulang. **wrong sequence** itu parafrase dari **wrong order**.",
+     "why_correct_en": "The reason follows **because**: **someone mixed the chemicals in the wrong order**. **wrong sequence** paraphrases **wrong order**.",
+     "why_wrong_id": {
+      "0": "Lab tutup nggak disebut. Mereka justru lama di sana, **for ages**.",
+      "2": "Bahan kimianya bener, cuma urutan nyampurnya yang salah. Jebakan kata **chemicals**.",
+      "3": "Dosen nggak disebut minta data tambahan."
+     },
+     "why_wrong_en": {
+      "0": "Nothing says the lab closed. They were there **for ages**.",
+      "2": "The chemicals were right, the order was wrong. A trap on **chemicals**.",
+      "3": "No one asked for more data."
+     },
+     "analogy_id": "Kayak pakai sepatu dulu baru kaus kaki. Barangnya bener, urutannya kacau, jadi harus diulang.",
+     "analogy_en": "Like putting on shoes before socks. Right items, wrong order, start again.",
+     "tip_id": "Soal **why**? Langsung pasang telinga buat kata **because** di kalimat orang kedua.",
+     "tip_en": "**Why** question? Listen for **because** in the second line."
+    }
+   ]
+  },
+  {
+   "section": "listening",
+   "part": "A",
+   "script": [
+    {
+     "speaker": "M1",
+     "text": "I can't believe the bus fare went up again this month."
+    },
+    {
+     "speaker": "W1",
+     "text": "That's why I started riding my bike to campus. It's cheaper, and I get some exercise too."
+    }
+   ],
+   "questions": [
+    {
+     "type": "listening_short",
+     "prompt": "What does the woman imply?",
+     "options": [
+      "The higher bus fare led her to change how she travels.",
+      "She thinks the bus is faster than cycling.",
+      "She rides the bus only when it rains.",
+      "She wants to buy a new bike this month."
+     ],
+     "correct_index": 0,
+     "rule_tags": [
+      "L-INFER",
+      "L-SECOND"
+     ],
+     "difficulty": 2,
+     "key_sentence": "That's why I started riding my bike to campus.",
+     "key_translation_id": "Makanya aku mulai naik sepeda ke kampus.",
+     "why_correct_id": "**That's why** nyambungin sebab dan akibat. Sebabnya ongkos bus naik, akibatnya dia mulai naik sepeda. Jadi kenaikan ongkos bikin dia ganti cara ke kampus.",
+     "why_correct_en": "**That's why** links cause and effect. The fare went up, so she started cycling. The higher fare changed how she travels.",
+     "why_wrong_id": {
+      "1": "Dia nggak ngebandingin kecepatan. Alasannya lebih murah dan sehat.",
+      "2": "Hujan sama sekali nggak disebut.",
+      "3": "Dia udah naik sepeda. Beli sepeda baru nggak dibahas."
+     },
+     "why_wrong_en": {
+      "1": "She doesn't compare speed. Her reasons are cost and exercise.",
+      "2": "Rain never comes up.",
+      "3": "She already rides. A new bike isn't mentioned."
+     },
+     "analogy_id": "**That's why** itu kayak panah di diagram. Ongkos naik di pangkal panah, sepeda di ujungnya.",
+     "analogy_en": "**That's why** is an arrow in a diagram. The fare rise at the tail, the bike at the head.",
+     "tip_id": "**That's why**, **so**, dan **as a result** nandain akibat. Soal imply sering nanyain hubungan sebab-akibat ini.",
+     "tip_en": "**That's why**, **so**, and **as a result** mark effects. Imply questions often test this link."
+    }
+   ]
+  },
+  {
+   "section": "listening",
+   "part": "A",
+   "script": [
+    {
+     "speaker": "W1",
+     "text": "Professor Grant's lectures are so hard to follow."
+    },
+    {
+     "speaker": "M1",
+     "text": "Not if you do the reading before class."
+    }
+   ],
+   "questions": [
+    {
+     "type": "listening_short",
+     "prompt": "What does the man imply?",
+     "options": [
+      "Professor Grant should speak more slowly.",
+      "He does not attend Professor Grant's lectures.",
+      "The lectures are easier to understand with preparation.",
+      "The reading is harder than the lectures."
+     ],
+     "correct_index": 2,
+     "rule_tags": [
+      "L-INFER",
+      "L-CONDITION"
+     ],
+     "difficulty": 3,
+     "key_sentence": "Not if you do the reading before class.",
+     "key_translation_id": "Nggak kok, asal kamu baca materinya sebelum kelas.",
+     "why_correct_id": "**Not if…** artinya nggak susah, asal syaratnya dipenuhin. Syaratnya **do the reading before class**. Jadi kuliahnya lebih gampang dipahami kalau kamu siap-siap dulu.",
+     "why_correct_en": "**Not if…** means not hard, as long as a condition is met: **do the reading before class**. So the lectures are easier with preparation.",
+     "why_wrong_id": {
+      "0": "Dia nggak ngritik cara ngomong dosennya. Dia ngasih syarat dari pihak mahasiswa.",
+      "1": "Dia jelas tahu rasanya kuliah itu, jadi kemungkinan besar dia ikut.",
+      "3": "Dia nggak bilang bacaannya lebih susah. Bacaan itu malah kuncinya."
+     },
+     "why_wrong_en": {
+      "0": "He doesn't criticize the professor's pace. He gives a condition for students.",
+      "1": "He clearly knows the lectures, so he likely attends.",
+      "3": "He doesn't say the reading is harder. It's the key."
+     },
+     "analogy_id": "**Not if…** itu kayak bilang jalannya nggak gelap kok, asal bawa senter. Masalahnya bisa dihindarin pakai satu syarat.",
+     "analogy_en": "**Not if…** is saying the path isn't dark if you bring a flashlight. One condition removes the problem.",
+     "tip_id": "Jawaban pendek **Not if…** atau **Only if…** artinya ada syarat. Cari opsi yang nyebut syarat itu.",
+     "tip_en": "A short **Not if…** or **Only if…** sets a condition. Find the option that names it."
+    }
+   ]
+  },
+  {
+   "section": "listening",
+   "part": "A",
+   "script": [
+    {
+     "speaker": "M1",
+     "text": "Did the bakery near the station close down? The windows are covered with paper."
+    },
+    {
+     "speaker": "W1",
+     "text": "Only for a month. They're putting in a bigger oven so they can bake twice as much bread."
+    }
+   ],
+   "questions": [
+    {
+     "type": "listening_short",
+     "prompt": "What does the woman say about the bakery?",
+     "options": [
+      "It has moved to a new location near the station.",
+      "It will stop selling bread.",
+      "It closed because business was poor.",
+      "It is closed for a short time to make improvements."
+     ],
+     "correct_index": 3,
+     "rule_tags": [
+      "L-DETAIL",
+      "L-SECOND"
+     ],
+     "difficulty": 2,
+     "key_sentence": "Only for a month. They're putting in a bigger oven so they can bake twice as much bread.",
+     "key_translation_id": "Cuma sebulan. Mereka lagi masang oven yang lebih gede biar bisa manggang roti dua kali lebih banyak.",
+     "why_correct_id": "**Only for a month** artinya tutupnya sementara. Alasannya **putting in a bigger oven**, masang oven lebih gede biar produksinya naik. Jadi tutup sebentar buat perbaikan.",
+     "why_correct_en": "**Only for a month** means it's temporary. They're **putting in a bigger oven** to bake more. Closed briefly for improvements.",
+     "why_wrong_id": {
+      "0": "Tokonya nggak pindah. Mereka cuma masang oven baru di tempat yang sama.",
+      "1": "Kebalikannya. Mereka malah mau manggang roti dua kali lebih banyak.",
+      "2": "Nggak ada tanda usahanya sepi. Mereka justru mau nambah produksi."
+     },
+     "why_wrong_en": {
+      "0": "It isn't moving. They're installing an oven in the same place.",
+      "1": "The opposite. They want to bake twice as much.",
+      "2": "Nothing suggests poor business. They're expanding."
+     },
+     "analogy_id": "Tutup sebulan buat oven baru itu kayak bengkel yang tutup buat ganti mesin. Habis itu buka lagi, malah lebih kencang.",
+     "analogy_en": "Closing a month for a new oven is like a garage shutting to upgrade its tools. It reopens stronger.",
+     "tip_id": "**so they can** nunjukin tujuan. Gabungin tujuan itu sama lama tutupnya, **only for a month**.",
+     "tip_en": "**so they can** shows purpose. Combine it with the duration, **only for a month**."
+    }
+   ]
+  },
+  {
+   "section": "listening",
+   "part": "B",
+   "script": [
+    {
+     "speaker": "W1",
+     "text": "Excuse me, is this where I can use the 3D printers? I need to print a model for my engineering class."
+    },
+    {
+     "speaker": "M2",
+     "text": "It is. First, though, you'll need to complete a short safety training online. It takes about twenty minutes."
+    },
+    {
+     "speaker": "W1",
+     "text": "Okay. And after that?"
+    },
+    {
+     "speaker": "M2",
+     "text": "After you pass the training, you upload your design file through the lab website, and one of us checks it to make sure it will print properly."
+    },
+    {
+     "speaker": "W1",
+     "text": "How long does the check usually take?"
+    },
+    {
+     "speaker": "M2",
+     "text": "Usually one day. If the design has problems, we'll email you some suggestions, so keep an eye on your inbox."
+    },
+    {
+     "speaker": "W1",
+     "text": "And then I can just come in and print?"
+    },
+    {
+     "speaker": "M2",
+     "text": "Right. Once your file is approved, you book a time slot. Small models are free, but anything over two hundred grams costs a small fee for the material."
+    },
+    {
+     "speaker": "W1",
+     "text": "Mine's pretty small, so that shouldn't be a problem. I'll start the training tonight."
+    }
+   ],
+   "questions": [
+    {
+     "type": "listening_long",
+     "prompt": "What is the conversation mainly about?",
+     "options": [
+      "How to design a model for an engineering class",
+      "Why the lab charges fees for printing",
+      "The steps for using the lab's 3D printers",
+      "How to fix problems in a design file"
+     ],
+     "correct_index": 2,
+     "rule_tags": [
+      "L-TOPIC"
+     ],
+     "difficulty": 1,
+     "key_sentence": "Excuse me, is this where I can use the 3D printers?",
+     "key_translation_id": "Permisi, di sini tempat buat pakai printer 3D?",
+     "why_correct_id": "Si mahasiswi buka obrolan dengan nanya soal pakai printer 3D. Petugasnya lalu ngejelasin langkah-langkahnya: pelatihan, unggah file, dicek, pesan jadwal. Jadi topiknya langkah-langkah pakai printer 3D di lab.",
+     "why_correct_en": "She opens by asking about using the 3D printers. The technician walks through the steps: training, upload, check, booking. So it's the steps for using them.",
+     "why_wrong_id": {
+      "0": "Cara ngedesain model nggak dibahas. Desainnya udah ada.",
+      "1": "Biaya cuma disebut sekali buat model di atas dua ratus gram. Itu detail kecil.",
+      "3": "Masalah desain cuma disebut sebagai kemungkinan. Cara benerinnya nggak dijelasin."
+     },
+     "why_wrong_en": {
+      "0": "How to design a model isn't covered. Her design already exists.",
+      "1": "Fees come up once, for models over two hundred grams. A small detail.",
+      "3": "Design problems are only a possibility. Fixing them isn't explained."
+     },
+     "analogy_id": "Obrolan ini kayak tutorial bertahap di aplikasi. Judulnya ya cara pakai fiturnya, bukan satu langkah aja.",
+     "analogy_en": "This talk is a step-by-step app tutorial. The title is how to use the feature, not one step.",
+     "tip_id": "Penanda **First**, **after that**, **Once** nunjukin topiknya sebuah proses. Pilih opsi yang nyakup semua langkah.",
+     "tip_en": "**First**, **after that**, **Once** show the topic is a process. Pick the option covering every step."
+    },
+    {
+     "type": "listening_long",
+     "prompt": "What must the woman do first?",
+     "options": [
+      "Upload her design file",
+      "Book a time slot",
+      "Complete an online safety training",
+      "Pay a fee for the material"
+     ],
+     "correct_index": 2,
+     "rule_tags": [
+      "L-DETAIL"
+     ],
+     "difficulty": 2,
+     "key_sentence": "First, though, you'll need to complete a short safety training online.",
+     "key_translation_id": "Tapi pertama-tama, kamu harus ikut pelatihan keselamatan singkat secara online.",
+     "why_correct_id": "Petugasnya pakai penanda urutan **First**: **complete a short safety training online**. Unggah file baru boleh **After you pass the training**.",
+     "why_correct_en": "The technician marks it with **First**: **complete a short safety training online**. Uploading comes **After you pass the training**.",
+     "why_wrong_id": {
+      "0": "Unggah file itu langkah kedua, setelah lulus pelatihan.",
+      "1": "Pesan jadwal itu langkah terakhir, setelah filenya disetujui.",
+      "3": "Bayar cuma buat model di atas dua ratus gram, dan bukan langkah pertama."
+     },
+     "why_wrong_en": {
+      "0": "Uploading is step two, after the training.",
+      "1": "Booking is the last step, after approval.",
+      "3": "Fees only apply over two hundred grams, and it's not the first step."
+     },
+     "analogy_id": "Langkah pertama itu kayak scan tiket di pintu stasiun. Belum scan, belum bisa naik kereta mana pun.",
+     "analogy_en": "The first step is scanning your ticket at the station gate. No scan, no train.",
+     "tip_id": "Soal urutan? Tulis nomor kecil di catatan: 1 pelatihan, 2 unggah, 3 cek, 4 jadwal.",
+     "tip_en": "Order questions? Number your notes: 1 training, 2 upload, 3 check, 4 booking."
+    },
+    {
+     "type": "listening_long",
+     "prompt": "What can be inferred about the woman's model?",
+     "options": [
+      "It will need to be redesigned.",
+      "It will be printed today.",
+      "It has already been approved.",
+      "She will probably not have to pay to print it."
+     ],
+     "correct_index": 3,
+     "rule_tags": [
+      "L-INFER",
+      "L-DETAIL"
+     ],
+     "difficulty": 3,
+     "key_sentence": "Small models are free, but anything over two hundred grams costs a small fee for the material.",
+     "key_translation_id": "Model kecil gratis, tapi yang lebih dari dua ratus gram kena biaya kecil buat bahannya.",
+     "why_correct_id": "Petugasnya bilang model kecil gratis, cuma yang di atas dua ratus gram yang bayar. Si mahasiswi jawab **Mine's pretty small, so that shouldn't be a problem**. Jadi kemungkinan besar dia nggak perlu bayar.",
+     "why_correct_en": "Small models are free, only those over two hundred grams cost money. She says **Mine's pretty small, so that shouldn't be a problem**. So she probably won't pay.",
+     "why_wrong_id": {
+      "0": "Belum ada yang bilang desainnya bermasalah. Pengecekan aja belum.",
+      "1": "Dia baru mau mulai pelatihan malam ini, dan pengecekannya butuh sehari. Nggak mungkin dicetak hari ini.",
+      "2": "Filenya bahkan belum diunggah, jadi belum mungkin disetujui."
+     },
+     "why_wrong_en": {
+      "0": "No one has found problems. It hasn't even been checked.",
+      "1": "She starts training tonight, and checks take a day. Not today.",
+      "2": "The file isn't even uploaded yet, so it can't be approved."
+     },
+     "analogy_id": "Inferensi di sini kayak tahu parkir gratis buat motor, terus temanmu bilang dia bawa motor. Kamu langsung tahu dia nggak bayar parkir.",
+     "analogy_en": "It's like knowing parking is free for bikes, then hearing your friend came by bike. They won't pay.",
+     "tip_id": "Gabungin aturan umum, kayak **Small models are free**, sama info pribadi si penanya, kayak **Mine's pretty small**.",
+     "tip_en": "Combine the general rule, **Small models are free**, with the speaker's own fact, **Mine's pretty small**."
+    }
+   ]
+  },
+  {
+   "section": "listening",
+   "part": "C",
+   "script": [
+    {
+     "speaker": "LEC",
+     "text": "Today I want to walk you through how limestone caves form, because it's a slow process with a surprisingly simple cause: rainwater. As rain falls, it absorbs carbon dioxide from the air and from the soil, and this turns it into a weak acid. The acid is far too weak to hurt you, but over long periods it can dissolve limestone. So the first step is that this slightly acidic water seeps down through tiny cracks in the rock. As it flows, it dissolves the limestone around it, and the cracks slowly widen into channels and then into passages. This stage can take hundreds of thousands of years, and during it the passages are completely filled with water. Eventually, if the water table drops, perhaps because a nearby river cuts deeper into its valley, the passages drain and fill with air. Only then does the decoration begin. Water dripping from the ceiling leaves behind tiny amounts of a mineral called calcite. Drop by drop, this builds stalactites hanging from the ceiling and stalagmites rising from the floor. They grow very slowly, often only about a centimeter every hundred years."
+    }
+   ],
+   "questions": [
+    {
+     "type": "listening_lecture",
+     "prompt": "What is the lecture mainly about?",
+     "options": [
+      "Why rivers cut deep valleys",
+      "How to explore caves safely",
+      "Where the largest caves are found",
+      "How limestone caves form"
+     ],
+     "correct_index": 3,
+     "rule_tags": [
+      "L-TOPIC",
+      "L-LECTURE"
+     ],
+     "difficulty": 1,
+     "key_sentence": "Today I want to walk you through how limestone caves form",
+     "key_translation_id": "Hari ini saya mau ngajak kalian ngikutin gimana gua kapur terbentuk",
+     "why_correct_id": "Kalimat pembukanya langsung nyebut topik: **how limestone caves form**. Sisanya ngikutin prosesnya dari air hujan sampai stalaktit.",
+     "why_correct_en": "The opening names the topic: **how limestone caves form**. The rest follows the process from rainwater to stalactites.",
+     "why_wrong_id": {
+      "0": "Sungai cuma disebut sebagai salah satu alasan permukaan air turun.",
+      "1": "Keselamatan menjelajah gua nggak dibahas.",
+      "2": "Lokasi gua-gua terbesar nggak disebut."
+     },
+     "why_wrong_en": {
+      "0": "Rivers only come up as one reason the water table drops.",
+      "1": "Cave safety isn't discussed.",
+      "2": "The biggest caves aren't mentioned."
+     },
+     "analogy_id": "**walk you through** itu kayak pemandu yang bilang ayo kita jalan dari pintu masuk sampai ruang terakhir. Topiknya perjalanan itu sendiri.",
+     "analogy_en": "**walk you through** is a guide saying let's go from the entrance to the last room. The topic is the whole journey.",
+     "tip_id": "**walk you through how X** hampir pasti nandain lecture proses. Topiknya ya proses X.",
+     "tip_en": "**walk you through how X** almost always signals a process lecture about X."
+    },
+    {
+     "type": "listening_lecture",
+     "prompt": "According to the professor, what allows rainwater to dissolve limestone?",
+     "options": [
+      "It becomes very cold underground.",
+      "It absorbs carbon dioxide and becomes slightly acidic.",
+      "It carries calcite from the ceiling.",
+      "It flows faster after a river cuts a valley."
+     ],
+     "correct_index": 1,
+     "rule_tags": [
+      "L-DETAIL",
+      "L-LECTURE"
+     ],
+     "difficulty": 2,
+     "key_sentence": "it absorbs carbon dioxide from the air and from the soil, and this turns it into a weak acid",
+     "key_translation_id": "air hujan nyerap karbon dioksida dari udara dan tanah, dan ini ngubahnya jadi asam lemah",
+     "why_correct_id": "Dosennya bilang air hujan **absorbs carbon dioxide**, terus jadi **a weak acid**. Asam lemah itulah yang pelan-pelan ngelarutin batu kapur.",
+     "why_correct_en": "The rain **absorbs carbon dioxide** and becomes **a weak acid**. That acid slowly dissolves limestone.",
+     "why_wrong_id": {
+      "0": "Suhu air nggak disebut sama sekali.",
+      "2": "Kalsit itu yang ditinggalin air yang netes, di tahap akhir. Bukan penyebab batunya larut.",
+      "3": "Sungai yang ngegerus lembah itu alasan air surut, bukan alasan batunya larut."
+     },
+     "why_wrong_en": {
+      "0": "Water temperature isn't mentioned.",
+      "2": "Calcite is left by dripping water at the end. It doesn't dissolve rock.",
+      "3": "The river cutting a valley drains the water. It doesn't dissolve rock."
+     },
+     "analogy_id": "Air hujan itu kayak air yang dikasih sedikit cuka. Nggak bahaya buat kamu, tapi kalau netes ribuan tahun, batu pun nyerah.",
+     "analogy_en": "Rainwater is like water with a splash of vinegar. Harmless to you, but over thousands of years, even rock gives way.",
+     "tip_id": "Soal **what allows** atau **what causes**? Cari langkah paling awal di rantai sebab-akibat.",
+     "tip_en": "**What allows** or **what causes**? Find the earliest link in the chain."
+    },
+    {
+     "type": "listening_lecture",
+     "prompt": "According to the lecture, what happens after the water table drops?",
+     "options": [
+      "Cracks in the rock begin to form.",
+      "Rainwater starts absorbing carbon dioxide.",
+      "The passages fill with water.",
+      "Dripping water begins to form stalactites and stalagmites."
+     ],
+     "correct_index": 3,
+     "rule_tags": [
+      "L-DETAIL",
+      "L-LECTURE"
+     ],
+     "difficulty": 3,
+     "key_sentence": "Eventually, if the water table drops, perhaps because a nearby river cuts deeper into its valley, the passages drain and fill with air. Only then does the decoration begin.",
+     "key_translation_id": "Akhirnya, kalau permukaan air turun, mungkin karena sungai di dekatnya ngegerus lembahnya makin dalam, lorong-lorongnya kering dan terisi udara. Baru saat itulah hiasannya mulai terbentuk.",
+     "why_correct_id": "Setelah air surut, lorongnya terisi udara. Terus dosennya bilang **Only then does the decoration begin**: air yang netes ninggalin kalsit dan ngebentuk stalaktit dan stalagmit. Itu langkah setelah air surut.",
+     "why_correct_en": "After the water drops, the passages fill with air. Then **Only then does the decoration begin**: dripping water builds stalactites and stalagmites.",
+     "why_wrong_id": {
+      "0": "Retakan di batu udah ada dari awal. Air ngalir lewat retakan itu sebelum air surut.",
+      "1": "Nyerap karbon dioksida itu langkah paling pertama, jauh sebelum air surut.",
+      "2": "Kebalikannya. Pas air surut, lorongnya justru kering dan terisi udara."
+     },
+     "why_wrong_en": {
+      "0": "The cracks existed from the start. Water flowed through them long before.",
+      "1": "Absorbing carbon dioxide is the very first step.",
+      "2": "The opposite. When the water drops, the passages fill with air."
+     },
+     "analogy_id": "Proses gua itu kayak bangun rumah. Dinding dibangun dulu (lorong), air surut itu kayak cat yang kering, baru habis itu dekorasinya dipasang (stalaktit).",
+     "analogy_en": "A cave is like building a house. Walls first (passages), then the paint dries (water drains), then the decorations go up (stalactites).",
+     "tip_id": "**Only then** itu penanda urutan yang kuat. Yang disebut setelahnya pasti langkah berikutnya.",
+     "tip_en": "**Only then** is a strong order marker. What follows is the next step."
+    }
+   ]
+  },
+  {
+   "section": "structure",
+   "type": "structure_completion",
+   "prompt": "The scientist ______ discovered the vaccine received an international award.",
+   "options": [
+    "which",
+    "whose",
+    "whom",
+    "who"
+   ],
+   "correct_index": 3,
+   "rule_tags": [
+    "S-RELATIVE"
+   ],
+   "difficulty": 1,
+   "why_correct_id": "Kata yang diterangin itu **The scientist**, orang. Di dalam anak kalimat, rumpang ini jadi pelaku buat **discovered**. Kata ganti penghubung buat orang yang jadi pelaku itu **who**.",
+   "why_correct_en": "The noun is **The scientist**, a person. Inside the clause, the blank is the subject of **discovered**. For a person as subject, use **who**.",
+   "why_wrong_id": {
+    "0": "**which** buat benda atau hewan, bukan orang.",
+    "1": "**whose** butuh kata benda sesudahnya, kayak **whose team**. Di sini langsung kata kerja.",
+    "2": "**whom** buat objek, bukan pelaku. Di sini yang dibutuhin pelaku buat **discovered**."
+   },
+   "why_wrong_en": {
+    "0": "**which** is for things, not people.",
+    "1": "**whose** needs a noun after it, like **whose team**. Here a verb follows.",
+    "2": "**whom** is for objects, not subjects. This blank is the subject of **discovered**."
+   },
+   "analogy_id": "**Who** itu kayak kartu nama yang khusus buat manusia. **Which** itu label buat barang.",
+   "analogy_en": "**Who** is a business card for people. **Which** is a label for things.",
+   "tip_id": "Orang plus kata kerja langsung setelah rumpang? Pilih **who** atau **that**.",
+   "tip_en": "A person and a verb right after the blank? Choose **who** or **that**."
+  },
+  {
+   "section": "structure",
+   "type": "structure_completion",
+   "prompt": "The village, ______ population is less than five hundred, attracts thousands of tourists each summer.",
+   "options": [
+    "who",
+    "whose",
+    "which",
+    "that"
+   ],
+   "correct_index": 1,
+   "rule_tags": [
+    "S-RELATIVE"
+   ],
+   "difficulty": 2,
+   "why_correct_id": "Setelah rumpang ada kata benda **population**, dan populasinya punya desa itu. Hubungan kepemilikan pakai **whose** plus kata benda. Jadi **whose population**.",
+   "why_correct_en": "A noun, **population**, follows, and it belongs to the village. Possession takes **whose** plus a noun: **whose population**.",
+   "why_wrong_id": {
+    "0": "**who** buat orang, dan nggak bisa langsung diikutin kata benda kayak gini.",
+    "2": "**which population** nggak nunjukin kepemilikan. Artinya jadi populasi yang mana.",
+    "3": "**that** nggak dipakai setelah koma, dan juga nggak nunjukin kepemilikan."
+   },
+   "why_wrong_en": {
+    "0": "**who** is for people and can't take a noun like this.",
+    "2": "**which population** doesn't show possession. It would mean which population.",
+    "3": "**that** isn't used after a comma and doesn't show possession."
+   },
+   "analogy_id": "**Whose** itu kayak tanda kepemilikan di koper bandara. Koper ini punya desa itu.",
+   "analogy_en": "**Whose** is the name tag on airport luggage. This population belongs to that village.",
+   "tip_id": "Rumpang plus kata benda yang dimiliki? Itu kode buat **whose**.",
+   "tip_en": "Blank plus a noun that belongs to something? That's the cue for **whose**."
+  },
+  {
+   "section": "structure",
+   "type": "structure_completion",
+   "prompt": "Most of the paintings ______ in the exhibition were borrowed from private collections.",
+   "options": [
+    "displaying",
+    "displayed",
+    "were displayed",
+    "which displaying"
+   ],
+   "correct_index": 1,
+   "rule_tags": [
+    "S-REDUCED",
+    "S-PASSIVE"
+   ],
+   "difficulty": 2,
+   "why_correct_id": "Lukisan itu dipajang orang, jadi maknanya pasif: **which were displayed**. [[reduced clause|reduced-clause]] (anak kalimat ringkas) ngebuang **which were** dan nyisain V3: **displayed**. Kata kerja utamanya tetap **were borrowed**.",
+   "why_correct_en": "Paintings are displayed by people, so the meaning is passive: **which were displayed**. The reduced clause drops **which were**, leaving V3: **displayed**. The main verb stays **were borrowed**.",
+   "why_wrong_id": {
+    "0": "**displaying** (V-ing) maknanya aktif, seolah lukisannya yang mamerin sesuatu.",
+    "2": "**were displayed** bikin kata kerja kedua tanpa penghubung. Kalimatnya jadi punya dua mesin.",
+    "3": "**which displaying** salah bentuk. Kalau pakai **which**, harus **which were displayed**."
+   },
+   "why_wrong_en": {
+    "0": "**displaying** is active, as if the paintings were showing something.",
+    "2": "**were displayed** adds a second verb with no connector. Two engines.",
+    "3": "**which displaying** is malformed. With **which**, it must be **which were displayed**."
+   },
+   "analogy_id": "Reduced clause itu kayak versi ringkas sebuah pesan. **which were displayed** dipendekin jadi **displayed**, artinya tetap sama.",
+   "analogy_en": "A reduced clause is a short version of a message. **which were displayed** shrinks to **displayed** with the same meaning.",
+   "tip_id": "Kata benda plus rumpang plus kata kerja utama? Isi rumpangnya pakai V3 kalau pasif, V-ing kalau aktif.",
+   "tip_en": "Noun, blank, main verb? Fill the blank with V3 if passive, V-ing if active."
+  },
+  {
+   "section": "structure",
+   "type": "structure_completion",
+   "prompt": "Students ______ the highest scores on the final exam will receive scholarships.",
+   "options": [
+    "earning",
+    "earned",
+    "who earning",
+    "they earn"
+   ],
+   "correct_index": 0,
+   "rule_tags": [
+    "S-REDUCED"
+   ],
+   "difficulty": 3,
+   "why_correct_id": "Kata kerja utama kalimat ini **will receive**. Jadi rumpangnya cuma penjelas buat **Students**. Mahasiswanya yang dapat nilai, jadi maknanya aktif: **who earn**. Diringkas jadi V-ing: **earning**.",
+   "why_correct_en": "The main verb is **will receive**, so the blank just describes **Students**. They earn the scores, an active meaning: **who earn**, reduced to **earning**.",
+   "why_wrong_id": {
+    "1": "**earned** (V3) maknanya pasif, seolah mahasiswanya yang didapatkan nilai.",
+    "2": "**who earning** salah bentuk. Harusnya **who earn** atau cukup **earning**.",
+    "3": "**they earn** bikin clause baru tanpa penghubung. Kalimatnya jadi punya dua pelaku dan dua mesin."
+   },
+   "why_wrong_en": {
+    "1": "**earned** reads as passive here, as if the students were earned.",
+    "2": "**who earning** is malformed. It's **who earn** or just **earning**.",
+    "3": "**they earn** adds a new clause with no connector. Two subjects, two engines."
+   },
+   "analogy_id": "Mahasiswa yang dapat nilai itu sopirnya sendiri, jadi aktif: V-ing. Lukisan yang dipajang itu penumpang, jadi pasif: V3.",
+   "analogy_en": "Students earning scores are driving, so active: V-ing. Paintings being displayed are passengers, so passive: V3.",
+   "tip_id": "Tanya: kata benda di depan rumpang itu yang ngelakuin atau yang dikenai? Ngelakuin pakai V-ing, dikenai pakai V3.",
+   "tip_en": "Ask: does the noun do the action or receive it? Doer takes V-ing, receiver takes V3."
+  },
+  {
+   "section": "structure",
+   "type": "structure_error",
+   "prompt": "The book {A}which{/A} I {B}borrowed{/B} from the library {C}it{/C} was {D}missing{/D} several pages.",
+   "options": [
+    "which",
+    "borrowed",
+    "it",
+    "missing"
+   ],
+   "correct_index": 2,
+   "rule_tags": [
+    "S-RELATIVE",
+    "S-REDUNDANT"
+   ],
+   "difficulty": 2,
+   "why_correct_id": "Pelaku kalimat ini **The book**, terus dijelasin sama anak kalimat **which I borrowed from the library**. Habis itu muncul **it** lagi. Nah, ini biang keroknya: pelakunya jadi dobel. Hapus **it**: **The book … was missing several pages**.",
+   "why_correct_en": "The subject is **The book**, described by **which I borrowed from the library**. Then **it** appears. That's the culprit: a double subject. Drop **it**.",
+   "why_wrong_id": {
+    "0": "**which** pas buat benda, **The book**.",
+    "1": "**borrowed** itu V2 yang pas buat cerita lampau.",
+    "3": "**was missing** artinya kehilangan. Aman."
+   },
+   "why_wrong_en": {
+    "0": "**which** fits a thing, **The book**.",
+    "1": "**borrowed** is a fine past form.",
+    "3": "**was missing** means lacking. Fine."
+   },
+   "analogy_id": "Anak kalimat penjelas itu kayak stiker yang ditempel di barang. Habis stikernya, jangan nempelin nama barangnya lagi pakai **it**.",
+   "analogy_en": "A relative clause is a label on the item. After the label, don't stick the name on again with **it**.",
+   "tip_id": "Ada **which** atau **who** di tengah, terus muncul **it** atau **he** sebelum kata kerja utama? Hampir pasti itu pelaku dobel.",
+   "tip_en": "A **which** or **who** clause, then **it** or **he** before the main verb? Almost always a double subject."
+  },
+  {
+   "section": "structure",
+   "type": "structure_error",
+   "prompt": "Marie is the student {A}which{/A} {B}won{/B} the {C}science{/C} {D}competition{/D} last year.",
+   "options": [
+    "which",
+    "won",
+    "science",
+    "competition"
+   ],
+   "correct_index": 0,
+   "rule_tags": [
+    "S-RELATIVE"
+   ],
+   "difficulty": 1,
+   "why_correct_id": "Kata yang diterangin **the student**, orang. Buat orang, pakai **who**, bukan **which**. Jadi **which** harus jadi **who**.",
+   "why_correct_en": "**the student** is a person. People take **who**, not **which**.",
+   "why_wrong_id": {
+    "1": "**won** itu V2 dari **win**. Cocok sama **last year**.",
+    "2": "**science** nerangin **competition**, lomba sains. Aman.",
+    "3": "**competition** itu kata benda yang pas setelah **the science**."
+   },
+   "why_wrong_en": {
+    "1": "**won** is the V2 of **win**, matching **last year**.",
+    "2": "**science** describes **competition**. Fine.",
+    "3": "**competition** is a fine noun after **the science**."
+   },
+   "analogy_id": "Manggil orang pakai **which** itu kayak nyebut temanmu pakai kata barang itu. Nggak sopan, cuy.",
+   "analogy_en": "Calling a person **which** is like calling your friend that thing. Not nice.",
+   "tip_id": "Cek kata benda sebelum **which**. Orang? Ganti jadi **who**.",
+   "tip_en": "Check the noun before **which**. A person? It should be **who**."
+  },
+  {
+   "section": "structure",
+   "type": "structure_error",
+   "prompt": "The museum, {A}that{/A} {B}opened{/B} in 1902, {C}is{/C} the {D}oldest{/D} in the city.",
+   "options": [
+    "that",
+    "opened",
+    "is",
+    "oldest"
+   ],
+   "correct_index": 0,
+   "rule_tags": [
+    "S-RELATIVE"
+   ],
+   "difficulty": 2,
+   "why_correct_id": "Anak kalimatnya diapit koma: **, that opened in 1902,**. Anak kalimat yang diapit koma cuma tambahan info, dan nggak boleh pakai **that**. Ganti jadi **which**.",
+   "why_correct_en": "The clause sits between commas. A comma clause adds extra information and can't use **that**. Use **which**.",
+   "why_wrong_id": {
+    "1": "**opened** itu V2 yang pas buat tahun 1902.",
+    "2": "**is** pas buat keadaan sekarang dan pelaku tunggal **The museum**.",
+    "3": "**the oldest** itu superlative (bentuk paling) yang aman."
+   },
+   "why_wrong_en": {
+    "1": "**opened** fits 1902.",
+    "2": "**is** fits the present and the singular **The museum**.",
+    "3": "**the oldest** is a fine superlative."
+   },
+   "analogy_id": "Koma itu kayak tanda kurung. Di dalam kurung, **that** nggak boleh masuk, yang boleh **which**.",
+   "analogy_en": "The commas work like brackets. **that** isn't allowed inside, **which** is.",
+   "tip_id": "Lihat **, that** setelah kata benda? Hampir pasti salah. Ganti **which** atau **who**.",
+   "tip_en": "See **, that** after a noun? Almost always wrong. Use **which** or **who**."
+  },
+  {
+   "section": "structure",
+   "type": "structure_error",
+   "prompt": "The bridge {A}building{/A} in 1932 {B}is{/B} still {C}one of{/C} the longest {D}in{/D} the region.",
+   "options": [
+    "building",
+    "is",
+    "one of",
+    "in"
+   ],
+   "correct_index": 0,
+   "rule_tags": [
+    "S-REDUCED",
+    "S-PASSIVE"
+   ],
+   "difficulty": 3,
+   "why_correct_id": "Jembatan itu dibangun orang, jadi maknanya pasif: **which was built in 1932**. Versi ringkasnya pakai V3, **built**, bukan V-ing. Jadi **building** harus jadi **built**.",
+   "why_correct_en": "The bridge was built by people, a passive meaning: **which was built in 1932**. The reduced form is V3, **built**, not V-ing.",
+   "why_wrong_id": {
+    "1": "**is** pas buat keadaan sekarang, **still**.",
+    "2": "**one of the longest** itu pola superlative yang aman.",
+    "3": "**in the region** itu keterangan tempat yang aman."
+   },
+   "why_wrong_en": {
+    "1": "**is** fits the present, **still**.",
+    "2": "**one of the longest** is a fine superlative pattern.",
+    "3": "**in the region** is a fine place phrase."
+   },
+   "analogy_id": "**building** di sini bikin jembatannya kayak tukang yang lagi ngebangun sesuatu. Padahal dia yang dibangun.",
+   "analogy_en": "**building** makes the bridge sound like a builder at work. It's the thing that was built.",
+   "tip_id": "Ada tahun lampau kayak **in 1932** setelah kata benda? Cek V-ing atau V3. Benda mati yang dibikin orang biasanya V3.",
+   "tip_en": "A past year like **in 1932** after a noun? Check V-ing vs V3. Things people made usually take V3."
+  },
+  {
+   "section": "structure",
+   "type": "structure_error",
+   "prompt": "Farmers {A}whom{/A} {B}grow{/B} organic vegetables often {C}charge{/C} {D}higher{/D} prices.",
+   "options": [
+    "whom",
+    "grow",
+    "charge",
+    "higher"
+   ],
+   "correct_index": 0,
+   "rule_tags": [
+    "S-RELATIVE"
+   ],
+   "difficulty": 3,
+   "why_correct_id": "Di anak kalimat **… grow organic vegetables**, rumpangnya jadi pelaku buat **grow**. Pelaku pakai **who**, sedangkan **whom** cuma buat objek. Jadi **whom** harus jadi **who**.",
+   "why_correct_en": "In **… grow organic vegetables**, the pronoun is the subject of **grow**. Subjects take **who**. **whom** is for objects only.",
+   "why_wrong_id": {
+    "1": "**grow** tanpa -s cocok sama **Farmers**, jamak.",
+    "2": "**charge** itu kata kerja utama yang cocok sama **Farmers**.",
+    "3": "**higher prices** itu comparative yang aman."
+   },
+   "why_wrong_en": {
+    "1": "**grow** without -s matches plural **Farmers**.",
+    "2": "**charge** is the main verb, matching **Farmers**.",
+    "3": "**higher prices** is a fine comparative."
+   },
+   "analogy_id": "**whom** itu kayak tiket penumpang, **who** tiket sopir. Yang nanam sayur itu sopir, jadi butuh **who**.",
+   "analogy_en": "**whom** is a passenger ticket, **who** a driver's ticket. Whoever grows the vegetables is driving: **who**.",
+   "tip_id": "Habis **whom** langsung kata kerja? Itu salah. **whom** harus diikutin pelaku lain, kayak **whom I met**.",
+   "tip_en": "A verb right after **whom**? Wrong. **whom** needs another subject after it, like **whom I met**."
+  },
+  {
+   "section": "structure",
+   "type": "structure_error",
+   "prompt": "The company {A}whose{/A} {B}its{/B} products are sold worldwide {C}was founded{/C} by two {D}brothers{/D}.",
+   "options": [
+    "whose",
+    "its",
+    "was founded",
+    "brothers"
+   ],
+   "correct_index": 1,
+   "rule_tags": [
+    "S-RELATIVE",
+    "S-REDUNDANT"
+   ],
+   "difficulty": 2,
+   "why_correct_id": "**whose** udah artinya punyanya perusahaan itu. Terus muncul **its**, yang juga artinya punyanya. Kepemilikannya jadi dobel. Hapus **its**: **whose products are sold worldwide**.",
+   "why_correct_en": "**whose** already means belonging to the company. Then **its** says it again. Double possession. Drop **its**.",
+   "why_wrong_id": {
+    "0": "**whose** pas buat nunjukin produk punya perusahaan.",
+    "2": "**was founded** itu pasif lampau yang pas. Perusahaannya didirikan dua bersaudara.",
+    "3": "**brothers** jamak pas setelah **two**."
+   },
+   "why_wrong_en": {
+    "0": "**whose** correctly shows the products belong to the company.",
+    "2": "**was founded** is a fine past passive.",
+    "3": "**brothers** is right after **two**."
+   },
+   "analogy_id": "**whose its** itu kayak nulis punya punya di label. Cukup sekali, cuy.",
+   "analogy_en": "**whose its** is writing belongs to belongs to on a label. Once is enough.",
+   "tip_id": "Setelah **whose**, langsung kata benda. Nggak ada **his**, **her**, **its**, atau **their** di antaranya.",
+   "tip_en": "After **whose** comes a noun directly. No **his**, **her**, **its**, or **their** in between."
+  },
+  {
+   "section": "reading",
+   "title": "The Box That Changed the World",
+   "body": "Before the 1950s, loading a cargo ship was slow and expensive. Workers carried sacks, barrels, and crates on board one by one, and a ship could spend a week in port, earning nothing while it waited. Goods were also frequently damaged or stolen along the way.\n\nIn 1956, an American trucking businessman named Malcom McLean tried a different approach. Instead of unloading goods from his trucks and loading them piece by piece onto ships, he had entire truck trailers lifted onto a ship. The idea, which seems obvious today, was soon refined into the standard metal box now used around the world.\n\nBecause every container had the same size, cranes, ships, trains, and trucks could all be designed to handle it. A container could travel from a factory to a distant store without ever being opened. Loading that once took days now took hours, and by some estimates the cost of loading cargo fell by more than ninety percent.\n\nThe change reshaped cities as well as trade. Old ports in the centers of cities such as New York and London, which had no room for huge cranes and storage yards, lost most of their business to new container terminals built on open land. Thousands of dockworkers whose jobs had depended on loading by hand were no longer needed.\n\nToday, most manufactured goods that cross the ocean travel in containers. Few inventions have done more to make global trade cheap, yet the humble metal box rarely receives the attention given to airplanes or computers.",
+   "questions": [
+    {
+     "type": "reading",
+     "subtype": "main_idea",
+     "prompt": "What is the passage mainly about?",
+     "options": [
+      "The life of a famous trucking businessman",
+      "How the standard shipping container changed trade and ports",
+      "Why dockworkers lost their jobs in the 1950s",
+      "The history of the ports of New York and London"
+     ],
+     "correct_index": 1,
+     "rule_tags": [
+      "R-MAIN"
+     ],
+     "difficulty": 1,
+     "evidence_quote": "The idea, which seems obvious today, was soon refined into the standard metal box now used around the world.",
+     "why_correct_id": "Paragraf 1 ngasih masalahnya: bongkar muat kapal lambat dan mahal. Paragraf 2 sampai 5 ngikutin kotak kontainer: idenya, keuntungannya, dampaknya ke kota, dan perannya sekarang. Jadi topiknya kontainer standar yang ngubah perdagangan dan pelabuhan.",
+     "why_correct_en": "Paragraph 1 sets up the problem. Paragraphs 2 to 5 follow the container: the idea, its benefits, its effect on cities, and its role today. So it's how the container changed trade and ports.",
+     "why_wrong_id": {
+      "0": "McLean cuma muncul di paragraf 2. Kisah hidupnya nggak dibahas.",
+      "2": "Buruh pelabuhan cuma satu akibat di paragraf 4. Kesempitan.",
+      "3": "New York dan London cuma contoh di paragraf 4."
+     },
+     "why_wrong_en": {
+      "0": "McLean appears only in paragraph 2. His life story isn't covered.",
+      "2": "Dockworkers are one effect in paragraph 4. Too narrow.",
+      "3": "New York and London are only examples in paragraph 4."
+     },
+     "analogy_id": "Main idea itu kayak judul film. Tokohnya McLean, tapi filmnya soal kotak yang ngubah dunia.",
+     "analogy_en": "The main idea is the film title. McLean is a character, but the film is about the box that changed the world.",
+     "tip_id": "Judul teks sering bocorin main idea-nya. Di sini **The Box That Changed the World**.",
+     "tip_en": "The title often gives away the main idea. Here, **The Box That Changed the World**."
+    },
+    {
+     "type": "reading",
+     "subtype": "detail",
+     "prompt": "Which of the following best expresses the essential information in this sentence from paragraph 3? Because every container had the same size, cranes, ships, trains, and trucks could all be designed to handle it.",
+     "options": [
+      "Cranes and trucks were made larger so that they could carry more containers.",
+      "Containers came in many sizes to fit different kinds of vehicles.",
+      "Since containers were identical in size, all kinds of equipment could be built to move them.",
+      "Ships were designed first, and containers were later made to fit them."
+     ],
+     "correct_index": 2,
+     "rule_tags": [
+      "R-PARAPHRASE"
+     ],
+     "difficulty": 2,
+     "evidence_quote": "Because every container had the same size, cranes, ships, trains, and trucks could all be designed to handle it.",
+     "why_correct_id": "Pecah kalimatnya jadi dua. Sebab: **every container had the same size**. Akibat: semua alat bisa dirancang buat ngangkutnya. Opsi C nyimpen dua-duanya: ukurannya sama persis, jadi semua jenis alat bisa dibikin buat mindahinnya.",
+     "why_correct_en": "Split it. Cause: **every container had the same size**. Effect: all equipment could be designed for it. Option C keeps both.",
+     "why_wrong_id": {
+      "0": "Teks nggak bilang alatnya dibikin lebih gede. Intinya ukuran kontainer yang seragam.",
+      "1": "Kebalikannya. Kontainernya justru seukuran semua.",
+      "3": "Urutannya kebalik. Kontainernya yang standar dulu, baru alat-alatnya disesuaiin."
+     },
+     "why_wrong_en": {
+      "0": "Nothing says equipment got bigger. The point is uniform size.",
+      "1": "The opposite. All containers were the same size.",
+      "3": "The order is reversed. The standard box came first, then equipment was built around it."
+     },
+     "analogy_id": "Parafrase itu kayak ganti kemasan produk. Bungkusnya beda, isinya harus sama persis.",
+     "analogy_en": "A paraphrase is new packaging. The wrapper changes, the contents stay exactly the same.",
+     "tip_id": "Buat soal parafrase, cek sebab dan akibatnya dulu. Opsi yang ngebalik arah sebab-akibat langsung coret.",
+     "tip_en": "For paraphrase questions, check cause and effect first. Cross out any option that reverses them."
+    },
+    {
+     "type": "reading",
+     "subtype": "vocabulary",
+     "prompt": "The word **refined** in paragraph 2 is closest in meaning to",
+     "options": [
+      "cleaned",
+      "reduced",
+      "improved",
+      "sold"
+     ],
+     "correct_index": 2,
+     "rule_tags": [
+      "R-VOCAB"
+     ],
+     "difficulty": 2,
+     "evidence_quote": "The idea, which seems obvious today, was soon refined into the standard metal box now used around the world.",
+     "why_correct_id": "Idenya awalnya trailer truk yang diangkat ke kapal. Terus ide itu **refined into the standard metal box**, dikembangin jadi kotak logam standar. Ide yang dikembangin jadi versi lebih baik berarti diperbaiki. Jadi **refined** artinya **improved**.",
+     "why_correct_en": "The idea started as whole trailers on a ship, then was **refined into the standard metal box**. An idea developed into a better version is **improved**.",
+     "why_wrong_id": {
+      "0": "**cleaned** (dibersihin) itu arti **refined** buat gula atau minyak. Di sini yang dikembangin ide.",
+      "1": "**reduced** (dikurangin) nggak cocok sama ide yang jadi standar dunia.",
+      "3": "**sold** (dijual) nggak nyambung sama **into the standard metal box**."
+     },
+     "why_wrong_en": {
+      "0": "**cleaned** is what **refined** means for sugar or oil. Here it's an idea.",
+      "1": "**reduced** doesn't fit an idea that became a world standard.",
+      "3": "**sold** doesn't fit **into the standard metal box**."
+     },
+     "analogy_id": "**Refined** di sini kayak draf tugas yang direvisi jadi versi final. Makin rapi, makin bagus.",
+     "analogy_en": "**Refined** here is a draft revised into the final version. Neater and better.",
+     "tip_id": "Kata yang punya banyak arti? Pilih arti yang cocok sama kata sesudahnya, di sini **into the standard metal box**.",
+     "tip_en": "A word with many meanings? Pick the one that fits what follows, here **into the standard metal box**."
+    },
+    {
+     "type": "reading",
+     "subtype": "detail",
+     "prompt": "Which of the following best expresses the essential information in this sentence from paragraph 4? Old ports in the centers of cities such as New York and London, which had no room for huge cranes and storage yards, lost most of their business to new container terminals built on open land.",
+     "options": [
+      "New York and London built huge cranes in their old ports to keep their business.",
+      "Container terminals were built in city centers because there was more space there.",
+      "Old ports lost business because their workers refused to use cranes.",
+      "City-center ports lacked space for the new equipment, so trade moved to terminals built where land was available."
+     ],
+     "correct_index": 3,
+     "rule_tags": [
+      "R-PARAPHRASE"
+     ],
+     "difficulty": 3,
+     "evidence_quote": "Old ports in the centers of cities such as New York and London, which had no room for huge cranes and storage yards, lost most of their business to new container terminals built on open land.",
+     "why_correct_id": "Inti kalimatnya ada tiga: pelabuhan lama di tengah kota, nggak punya ruang buat crane dan gudang, dan bisnisnya pindah ke terminal di lahan terbuka. Opsi A nyimpen ketiganya, dengan sebab-akibat yang sama.",
+     "why_correct_en": "Three core pieces: old city-center ports, no room for cranes and yards, business lost to terminals on open land. Option A keeps all three, cause and effect intact.",
+     "why_wrong_id": {
+      "0": "Kebalikannya. Pelabuhan lama nggak punya ruang buat crane besar, jadi bisnisnya hilang.",
+      "1": "Terminal baru dibangun di lahan terbuka, bukan di tengah kota.",
+      "2": "Penolakan buruh nggak disebut. Masalahnya ruang, bukan sikap pekerja."
+     },
+     "why_wrong_en": {
+      "0": "The opposite. Old ports had no room for cranes, so they lost business.",
+      "1": "New terminals went on open land, not in city centers.",
+      "2": "Workers refusing isn't mentioned. The issue was space."
+     },
+     "analogy_id": "Kalimat panjang itu kayak kereta tiga gerbong: tempat, masalah, akibat. Parafrase yang bener bawa ketiga gerbongnya, nggak ada yang ketinggalan.",
+     "analogy_en": "A long sentence is a three-carriage train: place, problem, result. A good paraphrase brings all three.",
+     "tip_id": "Kalimat panjang dengan **which**? Inti kalimatnya ada di luar **which**. Info di dalam **which** biasanya alasannya.",
+     "tip_en": "Long sentence with **which**? The core sits outside it. The **which** part usually gives the reason."
+    },
+    {
+     "type": "reading",
+     "subtype": "purpose",
+     "prompt": "Why does the author mention airplanes and computers in paragraph 5?",
+     "options": [
+      "To list other inventions that use containers",
+      "To argue that containers are more important than computers",
+      "To show how containers were invented",
+      "To contrast the container's importance with the little attention it receives"
+     ],
+     "correct_index": 3,
+     "rule_tags": [
+      "R-PURPOSE"
+     ],
+     "difficulty": 2,
+     "evidence_quote": "Few inventions have done more to make global trade cheap, yet the humble metal box rarely receives the attention given to airplanes or computers.",
+     "why_correct_id": "Kalimatnya pakai **yet**: kontainer berjasa besar, TAPI jarang dapat perhatian kayak pesawat atau komputer. Pesawat dan komputer disebut buat ngebandingin. Jadi tujuannya ngontrasin pentingnya kontainer sama minimnya perhatian ke dia.",
+     "why_correct_en": "The sentence uses **yet**: the box did a lot, but rarely gets the attention airplanes or computers get. They're there for contrast.",
+     "why_wrong_id": {
+      "0": "Pesawat dan komputer nggak disebut make kontainer.",
+      "1": "Penulis nggak bilang kontainer lebih penting dari komputer. Yang dibandingin perhatiannya.",
+      "2": "Cara kontainer ditemukan dibahas di paragraf 2, bukan di sini."
+     },
+     "why_wrong_en": {
+      "0": "Airplanes and computers don't use containers here.",
+      "1": "The author doesn't rank containers above computers. Attention is compared.",
+      "2": "The invention story is in paragraph 2."
+     },
+     "analogy_id": "Kayak pemain bertahan yang jarang masuk berita padahal timnya juara karena dia. Penyerang yang terkenal disebut cuma buat perbandingan.",
+     "analogy_en": "Like a defender rarely in the headlines though the team won because of them. The famous strikers are mentioned only for contrast.",
+     "tip_id": "Soal **Why does the author mention X?** Lihat kata penghubung di dekat X. **yet** atau **but** biasanya nandain kontras.",
+     "tip_en": "**Why does the author mention X?** Check the linking word near X. **yet** or **but** usually signals contrast."
+    }
+   ]
+  },
+  {
+   "section": "reading",
+   "title": "Masters of Disguise",
+   "body": "The octopus is one of the ocean's great masters of disguise. Within a fraction of a second, it can change the color, pattern, and even the texture of its skin to blend in with rocks, sand, or coral. Some species can even imitate the shapes and movements of other animals.\n\nThe secret lies in thousands of tiny organs in its skin called chromatophores. Each one is a small elastic sac filled with red, yellow, brown, or black pigment and surrounded by muscles. When the muscles pull, the sac stretches open and the color spreads; when they relax, the sac shrinks to a dot that is almost invisible. Because these muscles are controlled directly by nerves from the brain, the change can happen far faster than in most animals that change color, which may need minutes or even hours.\n\nBelow the chromatophores lie other cells that reflect light, producing shimmering blues and greens or a bright white that matches the light around the animal. Working together, these layers allow an octopus to create an enormous range of appearances.\n\nThe most puzzling part is that octopuses appear to be colorblind. Their eyes contain only one type of light-sensitive pigment, which in humans would mean seeing the world in shades of gray. How, then, can they match colors so precisely? One possible answer came in 2015, when researchers found light-sensitive proteins in the skin of one octopus species. This suggests that the skin itself may detect light, although scientists still do not know how much this helps with camouflage.\n\nQuestions like this make the octopus a favorite subject for biologists. Engineers, too, have begun studying its skin in the hope of designing materials that can change color on command.",
+   "questions": [
+    {
+     "type": "reading",
+     "subtype": "main_idea",
+     "prompt": "What is the passage mainly about?",
+     "options": [
+      "Why octopuses are colorblind",
+      "How engineers design color-changing materials",
+      "How an octopus changes its appearance and what remains unexplained",
+      "Which ocean animals are best at hiding"
+     ],
+     "correct_index": 2,
+     "rule_tags": [
+      "R-MAIN"
+     ],
+     "difficulty": 1,
+     "evidence_quote": "The octopus is one of the ocean's great masters of disguise.",
+     "why_correct_id": "Paragraf 1 sampai 3 ngejelasin cara gurita ngubah penampilannya: kantong warna, otot, sel pemantul cahaya. Paragraf 4 nyebut misteri yang belum kepecahin, gimana hewan buta warna bisa nyocokin warna. Opsi C nyakup dua bagian itu.",
+     "why_correct_en": "Paragraphs 1 to 3 explain how the octopus changes its look. Paragraph 4 raises the unsolved puzzle of a colorblind animal matching colors. Option C covers both.",
+     "why_wrong_id": {
+      "0": "Buta warna cuma dibahas di paragraf 4. Kesempitan.",
+      "1": "Insinyur cuma disebut di kalimat terakhir.",
+      "3": "Teks cuma bahas gurita, nggak ngebandingin hewan laut lain."
+     },
+     "why_wrong_en": {
+      "0": "Colorblindness is only paragraph 4. Too narrow.",
+      "1": "Engineers come up only in the last sentence.",
+      "3": "Only the octopus is discussed. No ranking of sea animals."
+     },
+     "analogy_id": "Main idea itu kayak payung. Harus cukup gede buat nutupin penjelasan cara kerja dan misterinya sekaligus.",
+     "analogy_en": "The main idea is an umbrella big enough to cover both the how and the mystery.",
+     "tip_id": "Ada paragraf yang ngenalin pertanyaan belum terjawab? Main idea yang bagus biasanya ikut nyebut itu.",
+     "tip_en": "A paragraph raising an open question? A good main idea usually includes it."
+    },
+    {
+     "type": "reading",
+     "subtype": "detail",
+     "prompt": "Which of the following best expresses the essential information in this sentence from paragraph 2? When the muscles pull, the sac stretches open and the color spreads; when they relax, the sac shrinks to a dot that is almost invisible.",
+     "options": [
+      "The muscles change the color of the pigment inside each sac.",
+      "The color shows when muscles stretch the sac open and nearly disappears when they relax.",
+      "The sacs open only when the octopus is relaxed.",
+      "Each sac contains muscles that produce pigment."
+     ],
+     "correct_index": 1,
+     "rule_tags": [
+      "R-PARAPHRASE"
+     ],
+     "difficulty": 2,
+     "evidence_quote": "When the muscles pull, the sac stretches open and the color spreads; when they relax, the sac shrinks to a dot that is almost invisible.",
+     "why_correct_id": "Kalimatnya punya dua bagian. Otot narik, kantongnya kebuka, warnanya nyebar. Otot rileks, kantongnya ngecil jadi titik yang hampir nggak kelihatan. Opsi B nyimpen dua bagian itu dengan makna yang sama.",
+     "why_correct_en": "Two halves. Muscles pull, the sac opens, color spreads. Muscles relax, the sac shrinks almost out of sight. Option B keeps both.",
+     "why_wrong_id": {
+      "0": "Ototnya nggak ngubah warna pigmen. Ototnya cuma ngebuka dan nutup kantongnya.",
+      "2": "Kebalikannya. Kantongnya kebuka pas otot NARIK, bukan pas rileks.",
+      "3": "Ototnya ada di SEKITAR kantong, dan nggak ngehasilin pigmen."
+     },
+     "why_wrong_en": {
+      "0": "The muscles don't change the pigment's color. They open and close the sac.",
+      "2": "The opposite. The sac opens when muscles PULL, not when they relax.",
+      "3": "The muscles surround the sac and don't make pigment."
+     },
+     "analogy_id": "Kantong warna itu kayak payung lipat. Ditarik, payungnya kebuka lebar. Dilepas, ngelipet jadi kecil.",
+     "analogy_en": "A color sac is a folding umbrella. Pull and it opens wide. Let go and it folds small.",
+     "tip_id": "Kalimat dengan titik koma sering berisi dua kejadian yang berlawanan. Parafrase yang bener harus bawa dua-duanya.",
+     "tip_en": "A semicolon sentence often holds two opposite events. A good paraphrase carries both."
+    },
+    {
+     "type": "reading",
+     "subtype": "vocabulary",
+     "prompt": "The word **puzzling** in paragraph 4 is closest in meaning to",
+     "options": [
+      "entertaining",
+      "dangerous",
+      "confusing",
+      "obvious"
+     ],
+     "correct_index": 2,
+     "rule_tags": [
+      "R-VOCAB"
+     ],
+     "difficulty": 2,
+     "evidence_quote": "The most puzzling part is that octopuses appear to be colorblind.",
+     "why_correct_id": "Habis kalimat itu, penulis nanya **How, then, can they match colors so precisely?** Hal yang bikin muncul pertanyaan kayak gitu berarti bikin bingung. Jadi **puzzling** artinya **confusing**.",
+     "why_correct_en": "Next the author asks **How, then, can they match colors so precisely?** Something that raises that question is **confusing**.",
+     "why_wrong_id": {
+      "0": "**entertaining** (menghibur) nggak cocok sama nada heran dan pertanyaan ilmiah.",
+      "1": "**dangerous** (berbahaya) nggak nyambung. Buta warna nggak disebut bahaya.",
+      "3": "**obvious** (jelas) malah kebalikannya. Kalau jelas, nggak perlu ditanyain."
+     },
+     "why_wrong_en": {
+      "0": "**entertaining** doesn't fit a scientific puzzle.",
+      "1": "**dangerous** doesn't fit. Colorblindness isn't called dangerous.",
+      "3": "**obvious** is the opposite. If it were obvious, no one would ask."
+     },
+     "analogy_id": "**Puzzling** itu kayak kepingan puzzle yang nggak nemu pasangannya. Bikin garuk-garuk kepala.",
+     "analogy_en": "**Puzzling** is a puzzle piece with no match. Head-scratching.",
+     "tip_id": "Pertanyaan langsung setelah kata yang ditanya itu petunjuk emas. Di sini **How, then…?** nunjukin kebingungan.",
+     "tip_en": "A question right after the word is a golden clue. Here **How, then…?** shows confusion."
+    },
+    {
+     "type": "reading",
+     "subtype": "detail",
+     "prompt": "Which of the following best expresses the essential information in this sentence from paragraph 4? This suggests that the skin itself may detect light, although scientists still do not know how much this helps with camouflage.",
+     "options": [
+      "Scientists have proved that octopuses see colors with their skin.",
+      "The finding hints that the skin can sense light, but its role in camouflage is still unclear.",
+      "Octopus skin detects light better than octopus eyes do.",
+      "Because the skin detects light, octopuses no longer need their eyes for camouflage."
+     ],
+     "correct_index": 1,
+     "rule_tags": [
+      "R-PARAPHRASE",
+      "R-INFER"
+     ],
+     "difficulty": 3,
+     "evidence_quote": "This suggests that the skin itself may detect light, although scientists still do not know how much this helps with camouflage.",
+     "why_correct_id": "Kalimatnya hati-hati banget: **suggests** dan **may**, cuma dugaan. Terus **although** ngasih batasan: ilmuwan belum tahu seberapa ngebantu buat kamuflase. Opsi B nyimpen dugaan dan batasan itu.",
+     "why_correct_en": "The sentence is cautious: **suggests** and **may**. Then **although** adds a limit: scientists don't know how much it helps camouflage. Option B keeps both the hint and the limit.",
+     "why_wrong_id": {
+      "0": "**have proved** itu kelewat kuat. Teksnya cuma bilang **suggests** dan **may**.",
+      "2": "Teks nggak ngebandingin kulit sama mata.",
+      "3": "Teks nggak bilang gurita nggak butuh matanya lagi. Itu jauh dari bukti."
+     },
+     "why_wrong_en": {
+      "0": "**have proved** is too strong. The text only says **suggests** and **may**.",
+      "2": "Skin and eyes aren't compared.",
+      "3": "Nothing says the eyes are no longer needed. That goes far beyond the text."
+     },
+     "analogy_id": "**may** di teks itu kayak ramalan cuaca mungkin hujan. Parafrase yang bilang pasti banjir udah ngelebih-lebihin.",
+     "analogy_en": "**may** in the text is a forecast saying maybe rain. A paraphrase saying definitely a flood overstates it.",
+     "tip_id": "Kata pembatas kayak **may**, **suggests**, **although** wajib kebawa di parafrase. Opsi yang ngebuangnya hampir pasti salah.",
+     "tip_en": "Limiting words like **may**, **suggests**, **although** must survive the paraphrase. Options that drop them are almost always wrong."
+    },
+    {
+     "type": "reading",
+     "subtype": "detail",
+     "prompt": "According to paragraph 2, why can an octopus change color faster than most animals that change color?",
+     "options": [
+      "Its pigment sacs are controlled directly by nerves from the brain.",
+      "Its skin contains more pigment than other animals' skin.",
+      "It uses hormones that act within seconds.",
+      "Its reflecting cells move more quickly than chromatophores."
+     ],
+     "correct_index": 0,
+     "rule_tags": [
+      "R-DETAIL"
+     ],
+     "difficulty": 3,
+     "evidence_quote": "Because these muscles are controlled directly by nerves from the brain, the change can happen far faster than in most animals that change color",
+     "why_correct_id": "Alasannya ada setelah **Because**: ototnya **controlled directly by nerves from the brain**, dikendaliin langsung sama saraf dari otak. Otot itulah yang ngebuka dan nutup kantong pigmen. Jadi kantongnya dikendaliin langsung sama saraf.",
+     "why_correct_en": "The reason follows **Because**: the muscles are **controlled directly by nerves from the brain**. Those muscles work the pigment sacs, so the sacs are nerve-controlled.",
+     "why_wrong_id": {
+      "1": "Jumlah pigmen nggak dibandingin sama hewan lain.",
+      "2": "Hormon nggak disebut sama sekali. Teks malah nekenin saraf.",
+      "3": "Sel pemantul cahaya dibahas di paragraf 3, dan kecepatannya nggak dibandingin."
+     },
+     "why_wrong_en": {
+      "1": "Pigment amounts aren't compared.",
+      "2": "Hormones aren't mentioned. The text stresses nerves.",
+      "3": "Reflecting cells are in paragraph 3, and their speed isn't compared."
+     },
+     "analogy_id": "Saraf langsung dari otak itu kayak saklar lampu di kamar. Dipencet, langsung nyala. Hewan lain kayak lampu yang nunggu dinyalain dari gedung sebelah.",
+     "analogy_en": "Direct nerves are a light switch in your room. Press it and the light is on. Other animals wait for a switch next door.",
+     "tip_id": "Soal **why** di reading? Cari **Because** atau **since** di paragraf yang disebut, terus pilih parafrasenya.",
+     "tip_en": "**Why** in reading? Find **Because** or **since** in the named paragraph and pick the paraphrase."
+    }
+   ]
+  }
+ ]
+}
