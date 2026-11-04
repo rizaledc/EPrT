@@ -1,0 +1,1128 @@
+{
+ "rumah": "r06",
+ "material_id": "Hari keenam: kita belajar menghitung **muatan** dengan benar. Ada benda yang bisa dihitung seperti kelereng, ada yang hanya bisa diukur seperti air. Di Listening dan Reading kita berlatih membaca **makna tersirat**.\n\n=== listening\n## Idiom set 2 dan makna tersirat\nSoal *What does the man imply?* atau *What can be inferred?* menanyakan hal yang **tidak diucapkan langsung**. Cari petunjuk: alasan yang diberikan (*I promised to help my sister move*), angka (*two hundred students for three spots*), atau kebiasaan (*every night*). Jawaban benar harus bisa dibuktikan dari audio, tidak sekadar mungkin terjadi.\nPerumpamaan: inferensi itu seperti melihat jejak kaki basah di lantai. Tidak ada yang bilang hujan, tapi kamu bisa menyimpulkannya dengan yakin.\n> Kalimat kunci + alasan → kesimpulan yang paling aman\n✓ *take a rain check* = menunda ke lain waktu\n✓ *I'm swamped* = sangat sibuk\n✓ *hit it off* = langsung akrab · *a long shot* = peluangnya kecil\n✕ Memilih kesimpulan yang terlalu jauh dari isi audio\n✕ Mengartikan *hit it off* sebagai **memukul**\n\n=== structure\n## Countable, uncountable, dan article\n[[countable noun|countable-noun]] punya bentuk jamak dan bisa dihitung (*books, cars*); pakai *many, few, a few, a number of*. [[uncountable noun|uncountable-noun]] tidak punya bentuk jamak (*information, advice, equipment, traffic, funding*); pakai *much, little, a little, an amount of*, dan **tidak** memakai *a/an*. [[article]] *a* dipakai sebelum bunyi konsonan, *an* sebelum bunyi vokal, *the* untuk yang spesifik atau satu-satunya (*the sun*, *the Amazon River*).\nPerumpamaan: countable itu kelereng yang bisa dihitung satu per satu; uncountable itu air yang hanya bisa diukur. Kamu tidak bisa bilang **tiga air**.\n> many/few + jamak · much/little + uncountable · a/an hanya untuk countable tunggal\n✓ **much** milk · **some** advice · **a few** students\n✓ **an** umbrella · **the** sun · **the** Amazon River\n✕ **informations** · **a funding** · **many** traffic\n✕ the **number** of equipment (harus *amount*)\n\n=== reading\n## Inference: kesimpulan yang didukung teks\nJawaban inferensi **tidak tertulis persis**, tetapi harus didukung kalimat di teks. Cari kalimat bukti, lalu tanyakan: **apa yang pasti benar jika kalimat ini benar?** Pilihan yang terlalu kuat (*always, never, all*) atau yang menambah informasi baru biasanya salah.\nPerumpamaan: inferensi itu seperti detektif yang menyimpulkan dari petunjuk, bukan penulis cerita yang mengarang akhir sendiri.\n> Kalimat bukti → kesimpulan paling hati-hati → cek tidak bertentangan\n✓ Pilihan dengan kata hati-hati (*may, likely, probably*)\n✓ Pilihan yang menggabungkan dua fakta dari teks\n✕ Pilihan yang benar di dunia nyata tetapi tidak dibahas teks\n✕ Pilihan yang memakai kata dari teks tetapi membalik maknanya",
+ "material_en": "Day six: we learn to count our **cargo** correctly. Some things can be counted like marbles, others can only be measured like water. In Listening and Reading we practise reading **between the lines**.\n\n=== listening\n## Idiom set 2 and hidden meaning\n*What does the man imply?* or *What can be inferred?* asks about something **not said directly**. Look for clues: the reason given (*I promised to help my sister move*), numbers (*two hundred students for three spots*), or habits (*every night*). The right answer must be provable from the audio, not just possible.\nAnalogy: inference is like seeing wet footprints on the floor. Nobody said it rained, but you can conclude it with confidence.\n> Key sentence + reason → the safest conclusion\n✓ *take a rain check* = postpone to another time\n✓ *I'm swamped* = extremely busy\n✓ *hit it off* = get along immediately · *a long shot* = unlikely to succeed\n✕ Choosing a conclusion that goes far beyond the audio\n✕ Reading *hit it off* as **hitting someone**\n\n=== structure\n## Countable, uncountable, and articles\nA [[countable noun|countable-noun]] has a plural and can be counted (*books, cars*); use *many, few, a few, a number of*. An [[uncountable noun|uncountable-noun]] has no plural (*information, advice, equipment, traffic, funding*); use *much, little, a little, an amount of*, and **no** *a/an*. The [[article]] *a* goes before a consonant sound, *an* before a vowel sound, and *the* marks something specific or unique (*the sun*, *the Amazon River*).\nAnalogy: countable nouns are marbles you count one by one; uncountable nouns are water you can only measure. You can't say **three waters** in this sense.\n> many/few + plural · much/little + uncountable · a/an only with singular countables\n✓ **much** milk · **some** advice · **a few** students\n✓ **an** umbrella · **the** sun · **the** Amazon River\n✕ **informations** · **a funding** · **many** traffic\n✕ the **number** of equipment (should be *amount*)\n\n=== reading\n## Inference: conclusions the text supports\nAn inference answer is **not written word for word**, but a sentence in the text must support it. Find the evidence, then ask: **what must be true if this sentence is true?** Options that are too strong (*always, never, all*) or that add new information are usually wrong.\nAnalogy: inference is a detective reasoning from clues, not a novelist inventing an ending.\n> Evidence sentence → the most careful conclusion → check it doesn't contradict the text\n✓ Options with cautious words (*may, likely, probably*)\n✓ Options that combine two facts from the text\n✕ Options that are true in real life but not discussed\n✕ Options that reuse the text's words but reverse their meaning",
+ "items": [
+  {
+   "section": "listening",
+   "part": "A",
+   "script": [
+    {
+     "speaker": "M1",
+     "text": "Want to grab dinner after the seminar tonight?"
+    },
+    {
+     "speaker": "W2",
+     "text": "Can I take a rain check? I promised to help my sister move."
+    }
+   ],
+   "questions": [
+    {
+     "type": "listening_short",
+     "prompt": "What does the woman mean?",
+     "options": [
+      "She would like to go another time.",
+      "She wants to check the weather first.",
+      "She will pay for dinner tonight.",
+      "She is moving to a new apartment."
+     ],
+     "correct_index": 0,
+     "rule_tags": [
+      "L-IDIOM",
+      "L-SECOND"
+     ],
+     "difficulty": 1,
+     "key_sentence": "Can I take a rain check?",
+     "key_translation_id": "Bisa lain kali saja?",
+     "why_correct_id": "**take a rain check** itu idiom buat nolak ajakan sekarang, tapi tetap pengen lain kali. Alasannya, dia udah janji bantu adiknya pindahan. Jadi dia pengen makan malam bareng di lain kesempatan.",
+     "why_correct_en": "**take a rain check** is an idiom for saying not now, but another time. Her reason: she promised to help her sister move. So she'd like to go another time.",
+     "why_wrong_id": {
+      "1": "Ini arti harfiah **rain** dan **check**. Cuaca nggak diomongin.",
+      "2": "Bayar makan malam nggak disebut. **Check** di sini bukan tagihan restoran.",
+      "3": "Yang pindahan adiknya, bukan dia."
+     },
+     "why_wrong_en": {
+      "1": "That's the literal **rain** and **check**. The weather never comes up.",
+      "2": "Paying isn't mentioned. **Check** here isn't a restaurant bill.",
+      "3": "Her sister is moving, not her."
+     },
+     "analogy_id": "**Rain check** itu kayak tiket konser yang diundur gara-gara hujan. Acaranya tetap ada, cuma pindah tanggal.",
+     "analogy_en": "A **rain check** is a concert ticket moved because of rain. The show still happens, just another day.",
+     "tip_id": "Idiom penolakan halus kayak **rain check** atau **maybe next time** plus alasan? Artinya nggak sekarang, mungkin lain kali.",
+     "tip_en": "A soft no like **rain check** or **maybe next time** plus a reason means not now, maybe later."
+    }
+   ]
+  },
+  {
+   "section": "listening",
+   "part": "A",
+   "script": [
+    {
+     "speaker": "W1",
+     "text": "Could you look over my essay this afternoon?"
+    },
+    {
+     "speaker": "M2",
+     "text": "I'm swamped today, but tomorrow morning works."
+    }
+   ],
+   "questions": [
+    {
+     "type": "listening_short",
+     "prompt": "What does the man imply?",
+     "options": [
+      "He has already read the essay.",
+      "He is too busy to help today.",
+      "He works at a swimming pool in the afternoon.",
+      "He thinks the essay is too long."
+     ],
+     "correct_index": 1,
+     "rule_tags": [
+      "L-IDIOM",
+      "L-INFER"
+     ],
+     "difficulty": 1,
+     "key_sentence": "I'm swamped today, but tomorrow morning works.",
+     "key_translation_id": "Hari ini aku sibuk sekali, tapi besok pagi bisa.",
+     "why_correct_id": "**I'm swamped** itu idiom buat sibuk banget, kerjaan numpuk. Terus **but tomorrow morning works** artinya dia bisa bantu besok pagi. Jadi hari ini dia kesibukan buat bantu.",
+     "why_correct_en": "**I'm swamped** is an idiom for buried in work. **but tomorrow morning works** means he can help tomorrow. So today he's too busy.",
+     "why_wrong_id": {
+      "0": "Dia belum baca esainya. Dia nawarin waktu besok.",
+      "2": "Jebakan arti harfiah **swamped**, kebanjiran. Kolam renang nggak disebut.",
+      "3": "Panjang esai nggak dikomentarin."
+     },
+     "why_wrong_en": {
+      "0": "He hasn't read it yet. He offers tomorrow.",
+      "2": "A trap on the literal **swamped**, flooded. No pool is mentioned.",
+      "3": "He says nothing about the essay's length."
+     },
+     "analogy_id": "**Swamped** itu kayak perahu yang kemasukan air. Penuh sampai nggak bisa nampung apa-apa lagi.",
+     "analogy_en": "**Swamped** is a boat filling with water. So full it can't take any more.",
+     "tip_id": "Pola **X today, but Y tomorrow** artinya nggak bisa sekarang, bisa nanti.",
+     "tip_en": "**X today, but Y tomorrow** means can't now, can later."
+    }
+   ]
+  },
+  {
+   "section": "listening",
+   "part": "A",
+   "script": [
+    {
+     "speaker": "M2",
+     "text": "How did your new roommate turn out?"
+    },
+    {
+     "speaker": "W1",
+     "text": "Great. We hit it off right away. We've been cooking dinner together every night."
+    }
+   ],
+   "questions": [
+    {
+     "type": "listening_short",
+     "prompt": "What can be inferred about the woman?",
+     "options": [
+      "She had an argument with her roommate.",
+      "Her roommate hit her by accident.",
+      "She gets along well with her roommate.",
+      "She usually cooks dinner alone."
+     ],
+     "correct_index": 2,
+     "rule_tags": [
+      "L-IDIOM",
+      "L-INFER"
+     ],
+     "difficulty": 2,
+     "key_sentence": "We hit it off right away.",
+     "key_translation_id": "Kami langsung akrab.",
+     "why_correct_id": "**hit it off** itu idiom buat langsung cocok dan akrab. Buktinya, mereka masak makan malam bareng tiap malam. Jadi dia akur sama teman sekamarnya.",
+     "why_correct_en": "**hit it off** is an idiom for clicking right away. The proof: they cook dinner together every night. So she gets on well with her roommate.",
+     "why_wrong_id": {
+      "0": "Kebalikannya. Dia jawab **Great** dan mereka akrab.",
+      "1": "Jebakan arti harfiah **hit**. Nggak ada yang dipukul.",
+      "3": "Mereka masak bareng tiap malam, bukan sendirian."
+     },
+     "why_wrong_en": {
+      "0": "The opposite. She says **Great** and they get along.",
+      "1": "A trap on the literal **hit**. Nobody got hit.",
+      "3": "They cook together every night, not alone."
+     },
+     "analogy_id": "**Hit it off** itu kayak dua keping puzzle yang langsung pas pas pertama kali dipasangin.",
+     "analogy_en": "**Hit it off** is two puzzle pieces that click on the first try.",
+     "tip_id": "Kebiasaan yang disebut, kayak **every night**, sering jadi bukti buat soal inferensi.",
+     "tip_en": "A habit that gets mentioned, like **every night**, is often the evidence for an inference."
+    }
+   ]
+  },
+  {
+   "section": "listening",
+   "part": "A",
+   "script": [
+    {
+     "speaker": "W2",
+     "text": "Do you think you'll get the scholarship?"
+    },
+    {
+     "speaker": "M1",
+     "text": "It's a long shot. Over two hundred students applied for only three spots."
+    }
+   ],
+   "questions": [
+    {
+     "type": "listening_short",
+     "prompt": "What does the man mean?",
+     "options": [
+      "He applied a long time ago.",
+      "Three students have already been chosen.",
+      "He did not apply for the scholarship.",
+      "He probably will not receive it."
+     ],
+     "correct_index": 3,
+     "rule_tags": [
+      "L-IDIOM",
+      "L-INFER"
+     ],
+     "difficulty": 2,
+     "key_sentence": "It's a long shot. Over two hundred students applied for only three spots.",
+     "key_translation_id": "Peluangnya kecil. Lebih dari dua ratus mahasiswa mendaftar untuk tiga kursi saja.",
+     "why_correct_id": "**a long shot** itu idiom buat sesuatu yang peluang berhasilnya kecil. Alasannya, lebih dari 200 pendaftar buat cuma 3 tempat. Jadi dia kemungkinan besar nggak dapat beasiswanya.",
+     "why_correct_en": "**a long shot** is an idiom for something unlikely to work. Over 200 applicants for only 3 places. So he probably won't get it.",
+     "why_wrong_id": {
+      "0": "Jebakan arti harfiah **long**. Waktu daftarnya nggak dibahas.",
+      "1": "**Three spots** itu jumlah tempat yang tersedia, bukan orang yang udah kepilih.",
+      "2": "Dia ikut daftar kok. Dia lagi ngitung peluangnya sendiri."
+     },
+     "why_wrong_en": {
+      "0": "A trap on the literal **long**. When he applied isn't discussed.",
+      "1": "**Three spots** is the number of places, not people already picked.",
+      "2": "He did apply. He's sizing up his own chances."
+     },
+     "analogy_id": "**A long shot** itu kayak nendang bola dari tengah lapangan. Bisa aja masuk, tapi peluangnya kecil.",
+     "analogy_en": "**A long shot** is shooting from midfield. It might go in, but the odds are low.",
+     "tip_id": "Angka perbandingan kayak 200 buat 3 sering jadi kunci soal peluang.",
+     "tip_en": "Ratios like 200 for 3 are often the key to questions about chances."
+    }
+   ]
+  },
+  {
+   "section": "listening",
+   "part": "B",
+   "script": [
+    {
+     "speaker": "M1",
+     "text": "Professor Tan, do you have a minute? It's about my term paper."
+    },
+    {
+     "speaker": "W2",
+     "text": "Of course, Daniel. You were writing about solar energy in rural villages, weren't you?"
+    },
+    {
+     "speaker": "M1",
+     "text": "That's right, but I'm having trouble finding recent data. Most of the studies I've found are more than fifteen years old."
+    },
+    {
+     "speaker": "W2",
+     "text": "That's a common problem with that topic. Have you looked at reports from international development agencies? They're often more current than journal articles."
+    },
+    {
+     "speaker": "M1",
+     "text": "I hadn't thought of that. But honestly, I'm also wondering if I should switch to wind energy instead. There seems to be a lot more information."
+    },
+    {
+     "speaker": "W2",
+     "text": "You could, but the deadline is in three weeks, and you've already done a lot of reading. I'd hate to see you start over."
+    },
+    {
+     "speaker": "M1",
+     "text": "I guess you're right. I'll look through those agency reports this weekend."
+    },
+    {
+     "speaker": "W2",
+     "text": "Good. And send me your outline by Friday so I can give you some feedback."
+    }
+   ],
+   "questions": [
+    {
+     "type": "listening_long",
+     "prompt": "What is the conversation mainly about?",
+     "options": [
+      "The professor's research on wind energy",
+      "How to get a job at a development agency",
+      "Moving the deadline for a term paper",
+      "A problem the student is having with his term paper"
+     ],
+     "correct_index": 3,
+     "rule_tags": [
+      "L-TOPIC"
+     ],
+     "difficulty": 1,
+     "key_sentence": "That's right, but I'm having trouble finding recent data.",
+     "key_translation_id": "Benar, tapi saya kesulitan menemukan data terbaru.",
+     "why_correct_id": "Si mahasiswa buka obrolan pakai **It's about my term paper**, terus nyebut masalahnya: susah nyari data terbaru. Sisa obrolannya bahas jalan keluarnya, yaitu laporan lembaga pembangunan, dan perlu ganti topik atau nggak.",
+     "why_correct_en": "The student opens with **It's about my term paper** and names the problem: finding recent data. The rest covers a fix, agency reports, and whether to switch topics.",
+     "why_wrong_id": {
+      "0": "Energi angin itu topik yang lagi dipertimbangin mahasiswanya, bukan penelitian profesor.",
+      "1": "Lembaga pembangunan cuma disebut sebagai sumber data, bukan tempat ngelamar kerja.",
+      "2": "Tenggat disebut sebagai alasan buat nggak ganti topik. Nggak ada yang minta tenggatnya dimundurin."
+     },
+     "why_wrong_en": {
+      "0": "Wind energy is the topic the student is weighing, not the professor's research.",
+      "1": "Development agencies are only a data source, not a job.",
+      "2": "The deadline is a reason not to switch. Nobody asks to move it."
+     },
+     "analogy_id": "Topik obrolan di ruang dosen hampir selalu muncul di kalimat awal si mahasiswa: **It's about…**, **I'm having trouble…**.",
+     "analogy_en": "In office-hours talks, the topic shows up in the student's first lines: **It's about…**, **I'm having trouble…**.",
+     "tip_id": "Obrolan mahasiswa sama dosen? Topiknya biasanya masalah yang dibawa si mahasiswa.",
+     "tip_en": "Student and professor talk? The topic is usually the student's problem."
+    },
+    {
+     "type": "listening_long",
+     "prompt": "What does the professor imply about switching to wind energy?",
+     "options": [
+      "It is a better topic than solar energy.",
+      "It may not be a good idea at this point.",
+      "Many students have already chosen it.",
+      "She knows very little about it."
+     ],
+     "correct_index": 1,
+     "rule_tags": [
+      "L-INFER"
+     ],
+     "difficulty": 2,
+     "key_sentence": "You could, but the deadline is in three weeks, and you've already done a lot of reading.",
+     "key_translation_id": "Bisa saja, tapi tenggatnya tiga minggu lagi, dan kamu sudah banyak membaca.",
+     "why_correct_id": "**You could, but…** itu cara halus buat nggak nyaranin. Alasannya, tenggatnya tinggal tiga minggu dan dia udah banyak baca. **I'd hate to see you start over**, sayang kalau harus mulai dari nol, nguatin itu. Jadi ganti topik sekarang bukan ide bagus.",
+     "why_correct_en": "**You could, but…** gently advises against. The reasons: three weeks left and lots of reading done. **I'd hate to see you start over** seals it. Switching now isn't a good idea.",
+     "why_wrong_id": {
+      "0": "Profesornya nggak ngebandingin kualitas dua topik itu. Dia bahas waktu dan usaha.",
+      "2": "Jumlah mahasiswa lain yang milih topik itu nggak disebut.",
+      "3": "Nggak ada petunjuk soal pengetahuan profesor tentang energi angin."
+     },
+     "why_wrong_en": {
+      "0": "She doesn't compare the quality of the topics. She talks about time and effort.",
+      "2": "The choices of other students aren't mentioned.",
+      "3": "Nothing suggests she knows little about wind energy."
+     },
+     "analogy_id": "**You could, but…** itu kayak lampu kuning. Nggak ngelarang, tapi jelas nyaranin buat ngerem dulu.",
+     "analogy_en": "**You could, but…** is a yellow light. Not forbidden, but clearly saying slow down.",
+     "tip_id": "**You could, but…** atau **I'd hate to see you…** itu saran halus buat NGGAK ngelakuinnya.",
+     "tip_en": "**You could, but…** or **I'd hate to see you…** is a gentle nudge NOT to do it."
+    },
+    {
+     "type": "listening_long",
+     "prompt": "What does the professor ask the student to do?",
+     "options": [
+      "Find studies from fifteen years ago",
+      "Change his topic to wind energy",
+      "Send her an outline by Friday",
+      "Meet her again in three weeks"
+     ],
+     "correct_index": 2,
+     "rule_tags": [
+      "L-DETAIL"
+     ],
+     "difficulty": 2,
+     "key_sentence": "And send me your outline by Friday so I can give you some feedback.",
+     "key_translation_id": "Dan kirimkan kerangka tulisanmu paling lambat hari Jumat supaya saya bisa memberi masukan.",
+     "why_correct_id": "Permintaan profesornya ada di kalimat terakhir: **send me your outline by Friday**. Tujuannya biar dia bisa ngasih masukan.",
+     "why_correct_en": "Her request is in the last line: **send me your outline by Friday**. That way she can give feedback.",
+     "why_wrong_id": {
+      "0": "Studi umur lima belas tahun itu masalahnya, bukan yang diminta.",
+      "1": "Profesornya justru nggak nyaranin ganti topik.",
+      "3": "**Three weeks** itu sisa waktu sampai tenggat, bukan jadwal ketemu."
+     },
+     "why_wrong_en": {
+      "0": "Fifteen-year-old studies are the problem, not the request.",
+      "1": "She advises against switching.",
+      "3": "**Three weeks** is the time to the deadline, not a meeting."
+     },
+     "analogy_id": "Permintaan di akhir obrolan itu kayak PR yang ditulis guru di papan pas sebelum bel bunyi.",
+     "analogy_en": "A request at the end is like homework written on the board just before the bell.",
+     "tip_id": "Soal **What does X ask Y to do?** Cari kalimat perintah kayak **send**, **bring**, **check** di bagian akhir.",
+     "tip_en": "**What does X ask Y to do?** Find the instruction, like **send**, **bring**, **check**, near the end."
+    }
+   ]
+  },
+  {
+   "section": "listening",
+   "part": "C",
+   "script": [
+    {
+     "speaker": "LEC",
+     "text": "Let's continue our discussion of animal behavior with honeybees. In late spring, a large colony often divides. The old queen leaves with a large part of the workers, and this group, called a swarm, must find a new home quickly. Usually the swarm hangs from a tree branch while a few hundred scout bees fly off to look for possible sites, such as hollow trees. What's remarkable is how the swarm makes its decision. When a scout finds a promising cavity, it returns and performs a dance that tells other bees where the site is. The better the site, the longer and more energetically the scout dances. So more bees are recruited to visit the best locations, and support for weaker sites gradually fades. Once enough scouts have gathered at a single site, the swarm takes off and flies there together. Researchers have found that this process usually leads the swarm to choose the best available site, even though no single bee has compared all the options. Some scientists have even suggested that human committees could learn something from the bees: encourage independent searching, and let support for an idea grow only when it is earned."
+    }
+   ],
+   "questions": [
+    {
+     "type": "listening_lecture",
+     "prompt": "What is the lecture mainly about?",
+     "options": [
+      "How a bee swarm chooses a new home",
+      "How new queens are raised in a colony",
+      "Why bees dance to show where flowers are",
+      "How committees can make faster decisions"
+     ],
+     "correct_index": 0,
+     "rule_tags": [
+      "L-TOPIC",
+      "L-LECTURE"
+     ],
+     "difficulty": 1,
+     "key_sentence": "What's remarkable is how the swarm makes its decision.",
+     "key_translation_id": "Yang luar biasa adalah cara kawanan itu mengambil keputusan.",
+     "why_correct_id": "Dosennya ngenalin kawanan lebah yang harus nyari sarang baru. Terus **What's remarkable is how the swarm makes its decision** nandain inti kuliahnya: cara kawanan milih sarang baru lewat lebah pengintai dan tarian.",
+     "why_correct_en": "The lecturer introduces a swarm that needs a new home. **What's remarkable is how the swarm makes its decision** marks the core: how it picks a home through scouts and dances.",
+     "why_wrong_id": {
+      "1": "Ratu lama cuma disebut pergi bareng kawanan. Cara ngebesarin ratu baru nggak dibahas.",
+      "2": "Tarian di kuliah ini nunjukin lokasi calon sarang, bukan bunga.",
+      "3": "Komite manusia cuma disebut di akhir sebagai perbandingan."
+     },
+     "why_wrong_en": {
+      "1": "The old queen is only mentioned leaving. Raising new queens isn't covered.",
+      "2": "The dance here shows nest sites, not flowers.",
+      "3": "Human committees only come up at the end as a comparison."
+     },
+     "analogy_id": "Frasa **What's remarkable is…** itu kayak lampu sorot panggung. Dia nunjuk bagian yang paling penting.",
+     "analogy_en": "**What's remarkable is…** is a stage spotlight. It points at the most important part.",
+     "tip_id": "Dengerin penanda penekanan kayak **What's remarkable**, **The key point**, **Most importantly**. Topiknya sering nongkrong di situ.",
+     "tip_en": "Listen for emphasis markers like **What's remarkable**, **The key point**, **Most importantly**. The topic often sits there."
+    },
+    {
+     "type": "listening_lecture",
+     "prompt": "What can be inferred about a site that only a few scouts dance for?",
+     "options": [
+      "It is the closest to the old colony.",
+      "It will be chosen immediately.",
+      "The queen has already inspected it.",
+      "It will probably not be chosen."
+     ],
+     "correct_index": 3,
+     "rule_tags": [
+      "L-INFER",
+      "L-LECTURE"
+     ],
+     "difficulty": 3,
+     "key_sentence": "So more bees are recruited to visit the best locations, and support for weaker sites gradually fades.",
+     "key_translation_id": "Jadi makin banyak lebah yang direkrut untuk mengunjungi lokasi terbaik, dan dukungan untuk lokasi yang lebih lemah perlahan menghilang.",
+     "why_correct_id": "Lokasi yang bagus dapat tarian panjang dan semangat, jadi narik lebih banyak lebah. Lokasi yang lemah cuma didukung sedikit pengintai, dan **support for weaker sites gradually fades**. Kawanan berangkat ke lokasi yang dikunjungin cukup banyak pengintai. Jadi lokasi yang penarinya sedikit kemungkinan nggak kepilih.",
+     "why_correct_en": "Good sites get long, lively dances and pull in more bees. Weak sites have few fans, and **support for weaker sites gradually fades**. The swarm goes where enough scouts gather. So a site with few dancers probably loses.",
+     "why_wrong_id": {
+      "0": "Jarak dari sarang lama nggak disebut sebagai faktor.",
+      "1": "Kebalikannya. Dukungan buat lokasi lemah malah memudar.",
+      "2": "Ratu nggak ngecek lokasi. Yang ngecek itu pengintai."
+     },
+     "why_wrong_en": {
+      "0": "Distance from the old colony isn't a factor here.",
+      "1": "The opposite. Support for weak sites fades.",
+      "2": "The queen doesn't inspect sites. Scouts do."
+     },
+     "analogy_id": "Kayak kandidat yang pendukungnya sedikit pas pemilu. Suaranya makin sepi dan akhirnya kalah.",
+     "analogy_en": "Like a candidate with few supporters in an election. The support thins out and they lose.",
+     "tip_id": "Nyimpulin dari proses? Ikutin aturan prosesnya, makin banyak tarian makin banyak lebah, sampai ujungnya.",
+     "tip_en": "Inferring from a process? Follow its rule, more dancing means more bees, to the end."
+    },
+    {
+     "type": "listening_lecture",
+     "prompt": "Why does the professor mention human committees?",
+     "options": [
+      "To show that bees are smarter than people",
+      "To suggest that people could use a similar way of making group decisions",
+      "To explain how scientists study bee behavior",
+      "To describe how researchers choose their topics"
+     ],
+     "correct_index": 1,
+     "rule_tags": [
+      "L-LECTURE",
+      "L-INFER"
+     ],
+     "difficulty": 3,
+     "key_sentence": "Some scientists have even suggested that human committees could learn something from the bees",
+     "key_translation_id": "Beberapa ilmuwan bahkan berpendapat bahwa komite manusia bisa belajar sesuatu dari lebah",
+     "why_correct_id": "Di akhir kuliah, dosennya nyebut ilmuwan yang mikir komite manusia bisa belajar dari lebah. Pelajarannya disebut jelas: dorong pencarian mandiri, dan biarin dukungan tumbuh cuma kalau pantas. Jadi tujuannya nyaranin cara serupa buat keputusan kelompok manusia.",
+     "why_correct_en": "At the end, the lecturer mentions scientists who think human committees could learn from bees. The lesson: encourage independent searching and let support grow only when earned. So it suggests a similar method for people.",
+     "why_wrong_id": {
+      "0": "Dosennya nggak ngebandingin kecerdasan. Yang dibandingin cara ngambil keputusan.",
+      "2": "Cara neliti lebah nggak dibahas.",
+      "3": "Milih topik penelitian nggak disebut."
+     },
+     "why_wrong_en": {
+      "0": "The lecturer doesn't compare intelligence, but decision-making methods.",
+      "2": "How bees are studied isn't discussed.",
+      "3": "Choosing research topics isn't mentioned."
+     },
+     "analogy_id": "Nyebut komite manusia di akhir itu kayak pelatih yang nutup latihan pakai pelajaran ini juga kepake di kehidupan sehari-hari.",
+     "analogy_en": "Mentioning committees at the end is a coach closing practice with this works in daily life too.",
+     "tip_id": "Soal **Why does the professor mention X?** Tanya fungsi X: contoh, perbandingan, atau penerapan.",
+     "tip_en": "**Why does the professor mention X?** Ask what job X does: example, comparison, or application."
+    }
+   ]
+  },
+  {
+   "section": "structure",
+   "type": "structure_completion",
+   "prompt": "There isn't ______ milk left in the refrigerator, so I'll buy some on the way home.",
+   "options": [
+    "many",
+    "few",
+    "a few",
+    "much"
+   ],
+   "correct_index": 3,
+   "rule_tags": [
+    "S-COUNT"
+   ],
+   "difficulty": 1,
+   "why_correct_id": "**milk** itu [[uncountable noun|uncountable-noun]]. Kita nggak bisa bilang **two milks**. Buat benda tak terhitung di kalimat negatif, pakai **much**.",
+   "why_correct_en": "**milk** is uncountable. We don't say **two milks**. In a negative sentence with an uncountable noun, use **much**.",
+   "why_wrong_id": {
+    "0": "**many** cuma buat [[countable noun|countable-noun]] jamak, kayak **many bottles**.",
+    "1": "**few** juga cuma buat benda terhitung jamak.",
+    "2": "**a few** buat benda terhitung jamak, kayak **a few eggs**. Bukan susu."
+   },
+   "why_wrong_en": {
+    "0": "**many** is only for plural countables, like **many bottles**.",
+    "1": "**few** is also only for plural countables.",
+    "2": "**a few** is for plural countables, like **a few eggs**. Not milk."
+   },
+   "analogy_id": "Susu itu kayak air. Diukur pakai gelas atau liter, bukan dihitung satu-satu. Jadi pakai **much**.",
+   "analogy_en": "Milk is like water. You measure it in glasses or litres, you don't count it. So **much**.",
+   "tip_id": "Tanya dulu: bendanya bisa dijamakin pakai -s nggak? Kalau nggak, pakai **much** atau **little**.",
+   "tip_en": "Ask first: can the noun take a plural -s? If not, use **much** or **little**."
+  },
+  {
+   "section": "structure",
+   "type": "structure_completion",
+   "prompt": "The professor gave us ______ useful advice about writing the thesis.",
+   "options": [
+    "an",
+    "many",
+    "a few",
+    "some"
+   ],
+   "correct_index": 3,
+   "rule_tags": [
+    "S-COUNT",
+    "S-ARTICLE"
+   ],
+   "difficulty": 1,
+   "why_correct_id": "**advice** itu [[uncountable noun|uncountable-noun]]. Nggak ada **advices** atau **an advice**. Penentu yang cocok buat benda tak terhitung itu **some**.",
+   "why_correct_en": "**advice** is uncountable. There's no **advices** or **an advice**. The word that fits is **some**.",
+   "why_wrong_id": {
+    "0": "**an** cuma buat benda terhitung tunggal. Lagian setelahnya ada **useful** yang bunyi awalnya konsonan /j/.",
+    "1": "**many** buat benda terhitung jamak. **advice** nggak terhitung.",
+    "2": "**a few** buat benda terhitung jamak."
+   },
+   "why_wrong_en": {
+    "0": "**an** is only for singular countables, and **useful** starts with a /j/ consonant sound anyway.",
+    "1": "**many** is for plural countables. **advice** is uncountable.",
+    "2": "**a few** is for plural countables."
+   },
+   "analogy_id": "**Advice** itu kayak nasihat dari orang tua. Kamu nerima beberapa nasihat, tapi nggak bisa ngitung butirnya.",
+   "analogy_en": "**Advice** is like guidance from parents. You get some, but you can't count the pieces.",
+   "tip_id": "Hafalin benda tak terhitung yang sering keluar: **advice**, **information**, **equipment**, **furniture**, **research**, **homework**.",
+   "tip_en": "Learn the usual uncountables: **advice**, **information**, **equipment**, **furniture**, **research**, **homework**."
+  },
+  {
+   "section": "structure",
+   "type": "structure_completion",
+   "prompt": "Only ______ students passed the exam, so the teacher decided to review the material again.",
+   "options": [
+    "a little",
+    "much",
+    "a few",
+    "a great deal of"
+   ],
+   "correct_index": 2,
+   "rule_tags": [
+    "S-COUNT"
+   ],
+   "difficulty": 2,
+   "why_correct_id": "**students** itu [[countable noun|countable-noun]] jamak. **Only a few** artinya cuma sedikit orang. Opsi yang cocok buat benda terhitung jamak itu **a few**.",
+   "why_correct_en": "**students** is a plural countable. **Only a few** means just a small number. The option for plural countables is **a few**.",
+   "why_wrong_id": {
+    "0": "**a little** buat benda tak terhitung, kayak **a little time**.",
+    "1": "**much** buat benda tak terhitung.",
+    "3": "**a great deal of** juga buat benda tak terhitung, kayak **a great deal of effort**."
+   },
+   "why_wrong_en": {
+    "0": "**a little** is for uncountables, like **a little time**.",
+    "1": "**much** is for uncountables.",
+    "3": "**a great deal of** is also for uncountables, like **a great deal of effort**."
+   },
+   "analogy_id": "Mahasiswa itu kelereng yang bisa dihitung. Takarannya **a few**, bukan sendok **a little**.",
+   "analogy_en": "Students are countable marbles. The measure is **a few**, not a spoonful of **a little**.",
+   "tip_id": "**few**, **a few**, **many**, **a number of** buat yang terhitung. **little**, **a little**, **much**, **a great deal of** buat yang tak terhitung.",
+   "tip_en": "**few**, **a few**, **many**, **a number of** go with countables. **little**, **a little**, **much**, **a great deal of** go with uncountables."
+  },
+  {
+   "section": "structure",
+   "type": "structure_completion",
+   "prompt": "______ Amazon River carries more water than any other river in the world.",
+   "options": [
+    "An",
+    "The",
+    "A",
+    "Some"
+   ],
+   "correct_index": 1,
+   "rule_tags": [
+    "S-ARTICLE"
+   ],
+   "difficulty": 3,
+   "why_correct_id": "Nama sungai di bahasa Inggris pakai [[article]] **the**: **the Nile**, **the Mississippi**, **the Amazon**. Sungai ini juga cuma satu, jadi spesifik. Jawabannya **The**.",
+   "why_correct_en": "River names in English take **the**: **the Nile**, **the Mississippi**, **the Amazon**. This river is one specific river. The answer is **The**.",
+   "why_wrong_id": {
+    "0": "**An** artinya sebuah, yang mana aja. Nggak cocok buat nama sungai yang spesifik.",
+    "2": "**A** juga nggak dipakai sebelum nama sungai.",
+    "3": "**Some** nggak dipakai sebelum nama diri kayak nama sungai."
+   },
+   "why_wrong_en": {
+    "0": "**An** means any one, which doesn't fit a specific river's name.",
+    "2": "**A** isn't used before a river's name either.",
+    "3": "**Some** isn't used before a proper name like a river's."
+   },
+   "analogy_id": "**The** itu kayak papan nama resmi. Sungai, laut, dan pegunungan selalu pakai: **the Amazon**, **the Pacific**, **the Alps**.",
+   "analogy_en": "**The** is an official name plate. Rivers, oceans, and mountain ranges wear it: **the Amazon**, **the Pacific**, **the Alps**.",
+   "tip_id": "Nama sungai, laut, samudra, gurun, dan deretan gunung pakai **the**. Nama danau dan satu gunung biasanya nggak.",
+   "tip_en": "Rivers, seas, oceans, deserts, and mountain ranges take **the**. Single lakes and mountains usually don't."
+  },
+  {
+   "section": "structure",
+   "type": "structure_error",
+   "prompt": "We need {A}more{/A} {B}informations{/B} before we {C}can{/C} make a {D}decision{/D}.",
+   "options": [
+    "more",
+    "informations",
+    "can",
+    "decision"
+   ],
+   "correct_index": 1,
+   "rule_tags": [
+    "S-COUNT"
+   ],
+   "difficulty": 1,
+   "why_correct_id": "**information** itu [[uncountable noun|uncountable-noun]] dan nggak punya bentuk jamak. Jadi **informations** harus jadi **information**.",
+   "why_correct_en": "**information** is uncountable and has no plural. So **informations** should be **information**.",
+   "why_wrong_id": {
+    "0": "**more** bisa dipakai buat benda terhitung maupun tak terhitung. Aman.",
+    "2": "**can make** itu modal + V1 yang aman.",
+    "3": "**a decision** itu benda terhitung tunggal dengan article yang pas."
+   },
+   "why_wrong_en": {
+    "0": "**more** works with countable and uncountable nouns. Fine.",
+    "2": "**can make** is a fine modal + V1.",
+    "3": "**a decision** is a singular countable with the right article."
+   },
+   "analogy_id": "Informasi itu kayak air dalam ember. Bisa lebih banyak, tapi nggak bisa jadi air-air.",
+   "analogy_en": "Information is water in a bucket. There can be more of it, but never waters in this sense.",
+   "tip_id": "Akhiran -s di **information**, **advice**, **equipment**, **furniture**, **research** hampir pasti salah.",
+   "tip_en": "An -s on **information**, **advice**, **equipment**, **furniture**, or **research** is almost always wrong."
+  },
+  {
+   "section": "structure",
+   "type": "structure_error",
+   "prompt": "She bought {A}a{/A} {B}umbrella{/B} because the forecast {C}predicted{/C} {D}heavy{/D} rain.",
+   "options": [
+    "a",
+    "umbrella",
+    "predicted",
+    "heavy"
+   ],
+   "correct_index": 0,
+   "rule_tags": [
+    "S-ARTICLE"
+   ],
+   "difficulty": 1,
+   "why_correct_id": "**umbrella** diawali bunyi vokal /ʌ/. Sebelum bunyi vokal, [[article]] yang dipakai itu **an**. Jadi **a umbrella** harus jadi **an umbrella**.",
+   "why_correct_en": "**umbrella** begins with a vowel sound /ʌ/. Before a vowel sound, the article is **an**. So **a umbrella** should be **an umbrella**.",
+   "why_wrong_id": {
+    "1": "**umbrella** itu benda terhitung tunggal yang aman.",
+    "2": "**predicted** (V2) cocok buat kejadian lampau.",
+    "3": "**heavy rain** itu pasangan kata yang aman, hujan deras."
+   },
+   "why_wrong_en": {
+    "1": "**umbrella** is a fine singular countable.",
+    "2": "**predicted** (V2) fits a past event.",
+    "3": "**heavy rain** is a natural pairing."
+   },
+   "analogy_id": "Pilih **a** atau **an** dari BUNYI-nya, bukan hurufnya: **an umbrella**, **an hour**, tapi **a university**.",
+   "analogy_en": "Choose **a** or **an** by SOUND, not spelling: **an umbrella**, **an hour**, but **a university**.",
+   "tip_id": "Ucapin katanya dalam hati. Bunyi vokal pakai **an**, bunyi konsonan pakai **a**.",
+   "tip_en": "Say the word in your head. Vowel sound takes **an**, consonant sound takes **a**."
+  },
+  {
+   "section": "structure",
+   "type": "structure_error",
+   "prompt": "During the holidays, {A}there{/A} are {B}fewer{/B} cars on the highways but {C}many{/C} more noise in the city {D}center{/D}.",
+   "options": [
+    "there",
+    "fewer",
+    "many",
+    "center"
+   ],
+   "correct_index": 2,
+   "rule_tags": [
+    "S-COUNT"
+   ],
+   "difficulty": 2,
+   "why_correct_id": "**noise** di sini itu [[uncountable noun|uncountable-noun]], kebisingan secara umum. Perbandingan buat benda tak terhitung pakai **much more**, bukan **many more**. Jadi **many** harus jadi **much**.",
+   "why_correct_en": "**noise** here is uncountable, noise in general. Comparisons with uncountables use **much more**, not **many more**. So **many** should be **much**.",
+   "why_wrong_id": {
+    "0": "**there are** pas sebelum **fewer cars** yang jamak.",
+    "1": "**fewer** pas buat benda terhitung jamak **cars**.",
+    "3": "**city center** itu frasa benda yang aman."
+   },
+   "why_wrong_en": {
+    "0": "**there are** fits before plural **fewer cars**.",
+    "1": "**fewer** is right for the plural countable **cars**.",
+    "3": "**city center** is a fine noun phrase."
+   },
+   "analogy_id": "Kalimat ini punya dua timbangan. Mobil dihitung (**fewer**), kebisingan diukur (**much more**).",
+   "analogy_en": "Two scales in one sentence. Cars are counted (**fewer**), noise is measured (**much more**).",
+   "tip_id": "**many more** buat jamak terhitung. **much more** buat yang tak terhitung.",
+   "tip_en": "**many more** goes with plural countables. **much more** goes with uncountables."
+  },
+  {
+   "section": "structure",
+   "type": "structure_error",
+   "prompt": "The {A}number{/A} of {B}equipment{/B} in the laboratory {C}has{/C} {D}increased{/D} this year.",
+   "options": [
+    "number",
+    "equipment",
+    "has",
+    "increased"
+   ],
+   "correct_index": 0,
+   "rule_tags": [
+    "S-COUNT"
+   ],
+   "difficulty": 2,
+   "why_correct_id": "**equipment** itu [[uncountable noun|uncountable-noun]]. **the number of** cuma buat benda terhitung jamak. Buat benda tak terhitung pakai **the amount of**. Jadi **number** harus jadi **amount**.",
+   "why_correct_en": "**equipment** is uncountable. **the number of** is only for plural countables. Uncountables take **the amount of**. So **number** should be **amount**.",
+   "why_wrong_id": {
+    "1": "**equipment** memang tak terhitung, jadi bentuknya pas tanpa -s. Ganti **equipment** pakai kata benda jamak lain berarti ganti katanya, bukan bentuknya. Soal ini nguji pasangan **number** dan **amount**.",
+    "2": "**has** itu tunggal, cocok sama **The amount/number** sebagai pelaku.",
+    "3": "**has increased** itu present perfect yang aman."
+   },
+   "why_wrong_en": {
+    "1": "**equipment** is uncountable, so no -s is right. Swapping in another plural noun changes the word, not its form. The item tests **number** vs **amount**.",
+    "2": "**has** is singular, matching **The amount/number** as subject.",
+    "3": "**has increased** is a fine present perfect."
+   },
+   "analogy_id": "**Number** itu alat hitung kepala, **amount** itu timbangan. Peralatan lab ditimbang jumlahnya, bukan dihitung kepalanya.",
+   "analogy_en": "**Number** is a head counter. **Amount** is a scale. Lab equipment gets weighed, not counted.",
+   "tip_id": "**the number of** plus jamak terhitung. **the amount of** plus tak terhitung.",
+   "tip_en": "**the number of** with plural countables. **the amount of** with uncountables."
+  },
+  {
+   "section": "structure",
+   "type": "structure_error",
+   "prompt": "Most living things {A}need{/A} energy from {B}a{/B} sun, which {C}is{/C} the {D}closest{/D} star to Earth.",
+   "options": [
+    "need",
+    "a",
+    "is",
+    "closest"
+   ],
+   "correct_index": 1,
+   "rule_tags": [
+    "S-ARTICLE"
+   ],
+   "difficulty": 2,
+   "why_correct_id": "Matahari kita cuma satu dan semua orang tahu yang mana. Benda unik kayak gini pakai [[article]] **the**: **the sun**. Jadi **a** harus jadi **the**.",
+   "why_correct_en": "Our sun is one specific thing everyone knows. Unique things take **the**: **the sun**. So **a** should be **the**.",
+   "why_wrong_id": {
+    "0": "**Most living things need**, jamak plus V1. Aman.",
+    "2": "**which is** nunjuk ke **the sun**, tunggal. Aman.",
+    "3": "**the closest** itu superlative (bentuk paling) yang aman."
+   },
+   "why_wrong_en": {
+    "0": "**Most living things need** is plural plus V1. Fine.",
+    "2": "**which is** refers to **the sun**, singular. Fine.",
+    "3": "**the closest** is a fine superlative."
+   },
+   "analogy_id": "Di langit kita cuma ada satu matahari, jadi dia pakai **the**, sama kayak **the moon** dan **the sky**.",
+   "analogy_en": "There's only one sun in our sky, so it takes **the**, like **the moon** and **the sky**.",
+   "tip_id": "Benda unik kayak **the sun**, **the moon**, **the earth**, **the sky**, **the internet** selalu pakai **the**.",
+   "tip_en": "Unique things like **the sun**, **the moon**, **the earth**, **the sky**, **the internet** take **the**."
+  },
+  {
+   "section": "structure",
+   "type": "structure_error",
+   "prompt": "Each of the {A}research{/A} {B}teams{/B} received {C}a{/C} {D}funding{/D} from the university.",
+   "options": [
+    "research",
+    "teams",
+    "a",
+    "funding"
+   ],
+   "correct_index": 2,
+   "rule_tags": [
+    "S-ARTICLE",
+    "S-COUNT"
+   ],
+   "difficulty": 3,
+   "why_correct_id": "**funding**, pendanaan, itu [[uncountable noun|uncountable-noun]]. Benda tak terhitung nggak pakai **a** atau **an**. Jadi **a** harus dibuang, jadi **received funding**, atau diganti **some**.",
+   "why_correct_en": "**funding** is uncountable. Uncountables don't take **a** or **an**. So drop **a**, giving **received funding**, or use **some**.",
+   "why_wrong_id": {
+    "0": "**research** di sini nerangin **teams**, tim peneliti. Aman.",
+    "1": "**Each of the research teams** memang pakai jamak setelah **of the**.",
+    "3": "**funding** sendiri aman sebagai benda tak terhitung. Yang salah article di depannya."
+   },
+   "why_wrong_en": {
+    "0": "**research** here describes **teams**. Fine.",
+    "1": "**Each of the research teams** correctly uses a plural after **of the**.",
+    "3": "**funding** itself is fine as an uncountable. The article before it is the problem."
+   },
+   "analogy_id": "**A** itu kayak label satu buah di kemasan. Pendanaan nggak dijual per buah, jadi labelnya harus dicopot.",
+   "analogy_en": "**A** is a one item label on a package. Funding isn't sold by the item, so the label comes off.",
+   "tip_id": "Benda tak terhitung kayak **funding**, **advice**, **equipment** diawali **a** atau **an**? Kesalahannya di article.",
+   "tip_en": "An uncountable like **funding**, **advice**, **equipment** with **a** or **an**? The article is the error."
+  },
+  {
+   "section": "reading",
+   "title": "When the Desert Blooms",
+   "body": "In the deserts of the American Southwest, years can pass with very little rain. Then, after an unusually wet winter, the ground suddenly bursts into color as millions of wildflowers bloom at once. Visitors sometimes describe these events, known as super blooms, as miracles, but they are the result of careful biological timing.\n\nMany desert wildflowers are annuals, which means they complete their entire life cycle, from seed to flower to new seed, in a single season. For these plants, survival depends less on the adult plant than on the seed. A single plant can produce hundreds of seeds, and these seeds may lie in the soil for years, even decades, waiting for the right conditions.\n\nThe challenge for a seed is to avoid sprouting too early. A light shower might moisten the soil for only a day or two, which is not enough for a young plant to grow, flower, and produce new seeds before the ground dries out again. A seed that sprouts after such a shower will almost certainly die. To prevent this, the seed coats of many desert species contain chemicals that block germination. Only a heavy, **sustained** rainfall can wash these chemicals away.\n\nEven then, not all of the seeds sprout at once. In many species, a portion of the seeds remains dormant even after a good rain. Biologists believe this works like a savings account. If the first rain is followed by a long dry period and the young plants die, the seeds that stayed in the ground can try again in a later year.\n\nSuper blooms therefore require a combination of conditions: generous rain in fall and winter, mild temperatures, and few strong, drying winds. Because these conditions come together only occasionally, a particular desert may experience a super bloom only once every ten years or so.",
+   "questions": [
+    {
+     "type": "reading",
+     "subtype": "main_idea",
+     "prompt": "What does the passage mainly explain?",
+     "options": [
+      "How desert animals survive long periods without water",
+      "Why tourists visit the American Southwest in winter",
+      "Why desert wildflowers sometimes bloom in huge numbers",
+      "How farmers grow flowers in dry regions"
+     ],
+     "correct_index": 2,
+     "rule_tags": [
+      "R-MAIN"
+     ],
+     "difficulty": 1,
+     "evidence_quote": "Visitors sometimes describe these events, known as super blooms, as miracles, but they are the result of careful biological timing.",
+     "why_correct_id": "Paragraf 1 ngenalin **super blooms** dan bilang itu hasil **careful biological timing**. Paragraf berikutnya ngejelasin mekanismenya: biji yang nunggu, bahan kimia penghambat, biji yang tetap tidur, dan syarat cuaca. Jadi teksnya ngejelasin kenapa bunga gurun kadang mekar besar-besaran.",
+     "why_correct_en": "Paragraph 1 introduces **super blooms** as the result of **careful biological timing**. Later paragraphs explain how: waiting seeds, chemicals that stop sprouting, dormant seeds, weather. So it explains why desert flowers sometimes bloom in huge numbers.",
+     "why_wrong_id": {
+      "0": "Hewan gurun nggak dibahas.",
+      "1": "Wisatawan cuma lewat sekilas di paragraf 1.",
+      "3": "Petani dan budidaya bunga nggak dibahas. Ini soal tanaman liar."
+     },
+     "why_wrong_en": {
+      "0": "Desert animals aren't discussed.",
+      "1": "Visitors only get a quick mention in paragraph 1.",
+      "3": "Farming isn't covered. These are wild plants."
+     },
+     "analogy_id": "Ide pokok teks ini kayak judul film dokumenter: rahasia di balik gurun yang tiba-tiba berbunga.",
+     "analogy_en": "The main idea is a documentary title: the secret behind the desert that suddenly blooms.",
+     "tip_id": "Kalimat **X, but Y** di paragraf pertama sering ngenalin sudut pandang yang bakal dijelasin seluruh teks.",
+     "tip_en": "An **X, but Y** sentence in paragraph 1 often sets up the angle the whole passage explains."
+    },
+    {
+     "type": "reading",
+     "subtype": "inference",
+     "prompt": "It can be inferred from paragraph 3 that the chemicals in desert seed coats",
+     "options": [
+      "protect seeds from sprouting after rain that is too light",
+      "make the flowers more colorful",
+      "are carried away by strong winds",
+      "help seeds sprout during dry periods"
+     ],
+     "correct_index": 0,
+     "rule_tags": [
+      "R-INFER"
+     ],
+     "difficulty": 2,
+     "evidence_quote": "To prevent this, the seed coats of many desert species contain chemicals that block germination. Only a heavy, sustained rainfall can wash these chemicals away.",
+     "why_correct_id": "**this** nunjuk ke biji yang tumbuh habis hujan ringan terus mati. Bahan kimianya ngehambat biji buat tumbuh, dan cuma hujan deras yang lama yang bisa ngelarutinnya. Artinya hujan ringan nggak cukup, jadi biji terlindung dari tumbuh kecepetan.",
+     "why_correct_en": "**this** means seeds sprouting after a light shower and dying. The chemicals stop germination, and only heavy, sustained rain washes them away. So a light shower can't, and seeds are protected from sprouting too early.",
+     "why_wrong_id": {
+      "1": "Warna bunga nggak dihubungin sama bahan kimia di kulit biji.",
+      "2": "Bahan kimianya dilarutin hujan, bukan angin.",
+      "3": "Kebalikannya. Bahan kimia itu NCEGAH biji tumbuh pas kering."
+     },
+     "why_wrong_en": {
+      "1": "Flower colour isn't linked to the seed-coat chemicals.",
+      "2": "Rain washes the chemicals away, not wind.",
+      "3": "The opposite. They STOP seeds sprouting in dry spells."
+     },
+     "analogy_id": "Bahan kimia di kulit biji itu kayak gembok yang cuma bisa dibuka kunci gede, yaitu hujan deras. Gerimis nggak cukup buat bukanya.",
+     "analogy_en": "The seed-coat chemicals are a lock only a big key opens: heavy rain. A drizzle won't do it.",
+     "tip_id": "Gabungin dua kalimat bukti, tujuan plus cara kerjanya, buat nemu inferensinya.",
+     "tip_en": "Combine two evidence sentences, purpose plus mechanism, to find the inference."
+    },
+    {
+     "type": "reading",
+     "subtype": "vocabulary",
+     "prompt": "The word **sustained** in paragraph 3 is closest in meaning to",
+     "options": [
+      "brief",
+      "continuing",
+      "cold",
+      "unexpected"
+     ],
+     "correct_index": 1,
+     "rule_tags": [
+      "R-VOCAB"
+     ],
+     "difficulty": 2,
+     "evidence_quote": "Only a heavy, sustained rainfall can wash these chemicals away.",
+     "why_correct_id": "Paragraf ini ngontrasin hujan ringan yang cuma ngebasahin tanah sehari dua hari sama hujan yang bisa ngelarutin bahan kimia. Yang bisa itu hujan yang deras DAN lama. Jadi **sustained** artinya **continuing**, berlangsung terus.",
+     "why_correct_en": "The paragraph contrasts a light shower that wets the soil for a day or two with rain that washes chemicals away. Rain that's heavy AND lasting does it. So **sustained** means **continuing**.",
+     "why_wrong_id": {
+      "0": "**brief** (singkat) justru sifat hujan ringan yang nggak cukup.",
+      "2": "Suhu hujan nggak dibahas.",
+      "3": "Hujan yang nggak terduga beda sama hujan yang lama."
+     },
+     "why_wrong_en": {
+      "0": "**brief** describes the light shower that isn't enough.",
+      "2": "The rain's temperature isn't discussed.",
+      "3": "Unexpected rain isn't the same as lasting rain."
+     },
+     "analogy_id": "**Sustained** itu kayak keran yang dibiarin kebuka lama, bukan cipratan sekali.",
+     "analogy_en": "**Sustained** is a tap left running, not a single splash.",
+     "tip_id": "Kata yang ditanya sering kebalikan dari sesuatu yang disebut sebelumnya: **light shower** lawan **heavy, sustained rain**.",
+     "tip_en": "The tested word often opposes something earlier: **light shower** against **heavy, sustained rain**."
+    },
+    {
+     "type": "reading",
+     "subtype": "inference",
+     "prompt": "What can be inferred about seeds that remain dormant after a good rain?",
+     "options": [
+      "They are damaged and will never sprout.",
+      "They need more chemicals in their coats.",
+      "They belong to plants that are not annuals.",
+      "They give the species a second chance if conditions turn bad."
+     ],
+     "correct_index": 3,
+     "rule_tags": [
+      "R-INFER"
+     ],
+     "difficulty": 3,
+     "evidence_quote": "If the first rain is followed by a long dry period and the young plants die, the seeds that stayed in the ground can try again in a later year.",
+     "why_correct_id": "Paragraf 4 nyamain biji yang tetap tidur sama tabungan. Kalau tanaman mudanya mati gara-gara kemarau, biji yang masih di tanah bisa nyoba lagi tahun berikutnya. Jadi biji itu ngasih kesempatan kedua buat spesiesnya.",
+     "why_correct_en": "Paragraph 4 compares dormant seeds to savings. If young plants die in a dry spell, seeds still in the ground can try again later. So they give the species a second chance.",
+     "why_wrong_id": {
+      "0": "Bijinya nggak rusak. Dia sengaja nunggu dan bisa tumbuh di tahun lain.",
+      "1": "Nggak ada yang bilang bijinya butuh bahan kimia lebih banyak.",
+      "2": "Paragrafnya bahas spesies yang sama. Nggak disebut biji yang tidur itu dari tanaman yang bukan semusim."
+     },
+     "why_wrong_en": {
+      "0": "The seeds aren't damaged. They wait on purpose and can sprout in a later year.",
+      "1": "Nothing says they need more chemicals.",
+      "2": "The paragraph is about the same species. Nothing says dormant seeds come from non-annuals."
+     },
+     "analogy_id": "Biji yang tetap tidur itu kayak dana darurat. Nggak dipakai sekarang, tapi nyelametin pas keadaan jelek.",
+     "analogy_en": "Dormant seeds are emergency savings. Not used now, but they save you when things go wrong.",
+     "tip_id": "Perumpamaan di teks, kayak **savings account**, itu petunjuk kuat buat nebak tujuan.",
+     "tip_en": "An analogy in the text, like **savings account**, is a strong clue for inferring purpose."
+    },
+    {
+     "type": "reading",
+     "subtype": "not_except",
+     "prompt": "According to the passage, all of the following help produce a super bloom EXCEPT",
+     "options": [
+      "generous rain in fall and winter",
+      "mild temperatures",
+      "frequent strong winds",
+      "seeds stored in the soil for years"
+     ],
+     "correct_index": 2,
+     "rule_tags": [
+      "R-NOT",
+      "R-DETAIL"
+     ],
+     "difficulty": 2,
+     "evidence_quote": "Super blooms therefore require a combination of conditions: generous rain in fall and winter, mild temperatures, and few strong, drying winds.",
+     "why_correct_id": "Paragraf terakhir nyebut syarat super bloom: hujan banyak di musim gugur dan dingin, suhu sedang, dan SEDIKIT angin kencang. Biji yang disimpan bertahun-tahun disebut di paragraf 2. Yang nggak bantu itu angin kencang yang sering, karena teks bilang **few strong, drying winds**.",
+     "why_correct_en": "The last paragraph lists the conditions: generous fall and winter rain, mild temperatures, and FEW strong winds. Stored seeds are in paragraph 2. The odd one out is frequent strong winds, since the text says **few strong, drying winds**.",
+     "why_wrong_id": {
+      "0": "Hujan banyak di musim gugur dan dingin disebut sebagai syarat.",
+      "1": "Suhu sedang disebut sebagai syarat.",
+      "3": "Biji yang nunggu bertahun-tahun di tanah itu bagian penting prosesnya, di paragraf 2."
+     },
+     "why_wrong_en": {
+      "0": "Generous fall and winter rain is listed.",
+      "1": "Mild temperatures are listed.",
+      "3": "Seeds waiting in the soil for years are central to the process, paragraph 2."
+     },
+     "analogy_id": "Soal EXCEPT itu kayak nyari satu bebek di antara angsa. Centang semua yang disebut, sisain yang beda sendiri.",
+     "analogy_en": "An EXCEPT question is finding the duck among the geese. Tick everything mentioned and keep the odd one out.",
+     "tip_id": "Waspadai opsi yang make kata dari teks tapi ngebalik jumlahnya, kayak **few** jadi **frequent**.",
+     "tip_en": "Watch for options that reuse the text's words but flip the amount, like **few** into **frequent**."
+    }
+   ]
+  },
+  {
+   "section": "reading",
+   "title": "The Hidden Design of Menus",
+   "body": "Restaurant menus may look like simple lists of food, but many of them are carefully designed to influence what customers order. Menu designers, sometimes called menu engineers, use research from psychology to guide diners toward certain dishes.\n\nOne common technique concerns how prices are written. Some restaurants remove the currency symbol and write a price as \"18\" rather than \"$18.00.\" In one study, diners who saw prices without dollar signs spent noticeably more than diners who saw the symbol. Researchers suggest that the symbol reminds people that they are paying, which makes them more careful. For a similar reason, many menus avoid lining prices up in a neat column, which would make it easy to scan for the cheapest dish.\n\nPlacement matters as well. Designers often put the dishes they most want to sell in a box or near the top of a page, where many readers' eyes go first. They may also place one very expensive item near the top of the menu. Few customers actually order **it**, but its presence makes the other dishes look reasonably priced by comparison.\n\nDescriptions also play a role. A dish called \"grilled chicken\" sounds ordinary, while \"farm-fresh grilled chicken with garden herbs\" sounds like something special. Studies have found that longer, more vivid descriptions can increase sales of a dish and even lead diners to rate the food as tastier.\n\nNot every restaurant uses these methods, and some customers find them manipulative. Still, the next time you open a menu, it may be worth asking whether you are choosing your meal freely, or whether the menu is quietly choosing it for you.",
+   "questions": [
+    {
+     "type": "reading",
+     "subtype": "main_idea",
+     "prompt": "What is the main idea of the passage?",
+     "options": [
+      "Restaurants should print prices in larger letters.",
+      "Restaurant menus are often designed to influence what customers order.",
+      "Expensive dishes are usually the most popular ones.",
+      "Customers prefer short descriptions of food."
+     ],
+     "correct_index": 1,
+     "rule_tags": [
+      "R-MAIN"
+     ],
+     "difficulty": 1,
+     "evidence_quote": "Restaurant menus may look like simple lists of food, but many of them are carefully designed to influence what customers order.",
+     "why_correct_id": "Kalimat pertama udah nyatain gagasan utamanya: menu dirancang buat mempengaruhi pesanan pelanggan. Paragraf 2 sampai 4 ngasih tiga teknik: cara nulis harga, penempatan, dan deskripsi. Paragraf 5 nutup pakai ajakan mikir.",
+     "why_correct_en": "The first sentence states it: menus are designed to influence orders. Paragraphs 2 to 4 give three techniques: price format, placement, descriptions. Paragraph 5 closes with a reflection.",
+     "why_wrong_id": {
+      "0": "Ukuran huruf harga nggak dibahas. Yang dibahas simbol mata uangnya.",
+      "2": "Teks bilang hidangan yang mahal banget JARANG dipesan.",
+      "3": "Kebalikannya. Deskripsi yang panjang dan hidup malah naikin penjualan."
+     },
+     "why_wrong_en": {
+      "0": "Font size isn't covered. The currency symbol is.",
+      "2": "The text says very pricey dishes are RARELY ordered.",
+      "3": "The opposite. Longer, vivid descriptions boost sales."
+     },
+     "analogy_id": "Ide pokok di kalimat **X may look like…, but…** itu kayak buka tirai. Dia nunjukin sisi tersembunyi yang bakal dibahas.",
+     "analogy_en": "A main idea in **X may look like…, but…** pulls back a curtain on the hidden side the passage explores.",
+     "tip_id": "Buat soal main idea, pilih opsi yang bisa jadi payung buat semua teknik yang disebut.",
+     "tip_en": "For main idea questions, pick the option that can umbrella every technique mentioned."
+    },
+    {
+     "type": "reading",
+     "subtype": "reference",
+     "prompt": "The word **it** in paragraph 3 refers to",
+     "options": [
+      "the top of a page",
+      "the menu",
+      "a box",
+      "the very expensive item"
+     ],
+     "correct_index": 3,
+     "rule_tags": [
+      "R-REF"
+     ],
+     "difficulty": 1,
+     "evidence_quote": "They may also place one very expensive item near the top of the menu. Few customers actually order it",
+     "why_correct_id": "**Few customers actually order it**, apa yang jarang dipesan? Kalimat sebelumnya nyebut **one very expensive item**. Coba ganti: **Few customers actually order the very expensive item**. Pas.",
+     "why_correct_en": "**Few customers actually order it**, what's rarely ordered? The previous sentence mentions **one very expensive item**. Swap it in. It fits.",
+     "why_wrong_id": {
+      "0": "Bagian atas halaman nggak bisa dipesan.",
+      "1": "Pelanggan mesen dari menu, bukan mesen menunya.",
+      "2": "Kotak itu cara nyorot hidangan, bukan sesuatu yang dipesan."
+     },
+     "why_wrong_en": {
+      "0": "The top of a page can't be ordered.",
+      "1": "Customers order from the menu, not the menu itself.",
+      "2": "A box is a way to highlight a dish, not something you order."
+     },
+     "analogy_id": "Kata kerja setelah pronoun, **order**, itu kayak saringan. Cuma benda yang bisa dipesan yang lolos.",
+     "analogy_en": "The verb after the pronoun, **order**, is a filter. Only something orderable gets through.",
+     "tip_id": "Pakai kata kerja di sekitar pronoun buat nyaring calon yang nggak masuk akal.",
+     "tip_en": "Use the verb around the pronoun to filter out candidates that make no sense."
+    },
+    {
+     "type": "reading",
+     "subtype": "inference",
+     "prompt": "What can be inferred about a diner who sees the price written as \"$18.00\" instead of \"18\"?",
+     "options": [
+      "The diner may spend less money.",
+      "The diner will order the most expensive dish.",
+      "The diner will not notice the price.",
+      "The diner will leave the restaurant."
+     ],
+     "correct_index": 0,
+     "rule_tags": [
+      "R-INFER"
+     ],
+     "difficulty": 2,
+     "evidence_quote": "In one study, diners who saw prices without dollar signs spent noticeably more than diners who saw the symbol. Researchers suggest that the symbol reminds people that they are paying, which makes them more careful.",
+     "why_correct_id": "Studinya nemuin pengunjung yang lihat harga TANPA simbol dolar belanja lebih banyak. Artinya pengunjung yang lihat simbolnya cenderung lebih hati-hati. Jadi yang lihat **$18.00** mungkin belanja lebih sedikit.",
+     "why_correct_en": "The study found diners who saw prices WITHOUT dollar signs spent more. So those who see the symbol are more careful. A diner seeing **$18.00** may spend less.",
+     "why_wrong_id": {
+      "1": "Teks nggak ngehubungin simbol dolar sama mesen hidangan paling mahal.",
+      "2": "Kebalikannya. Simbol itu justru ngingetin kalau mereka lagi bayar.",
+      "3": "Teks nggak nyebut pengunjungnya pergi. Itu kejauhan dari bukti."
+     },
+     "why_wrong_en": {
+      "1": "The text doesn't link the dollar sign to ordering the priciest dish.",
+      "2": "The opposite. The symbol reminds them they're paying.",
+      "3": "Nothing suggests diners leave. That goes beyond the evidence."
+     },
+     "analogy_id": "Simbol dolar itu kayak bunyi dompet yang dibuka. Ngingetin kalau duit lagi keluar.",
+     "analogy_en": "The dollar sign is the sound of a wallet opening. A reminder that money is leaving.",
+     "tip_id": "Kalau teks ngebandingin dua kelompok, inferensi soal kelompok satunya biasanya kebalikannya.",
+     "tip_en": "When a text compares two groups, the inference about the other group is usually the reverse."
+    },
+    {
+     "type": "reading",
+     "subtype": "detail",
+     "prompt": "According to the passage, longer and more vivid descriptions of dishes can",
+     "options": [
+      "make the dishes cheaper to prepare",
+      "reduce the number of dishes on a menu",
+      "lead diners to rate the food as tastier",
+      "make customers order more quickly"
+     ],
+     "correct_index": 2,
+     "rule_tags": [
+      "R-DETAIL"
+     ],
+     "difficulty": 1,
+     "evidence_quote": "Studies have found that longer, more vivid descriptions can increase sales of a dish and even lead diners to rate the food as tastier.",
+     "why_correct_id": "Kata kunci **descriptions** ada di paragraf 4. Kalimat terakhirnya bilang deskripsi yang lebih panjang dan hidup bisa naikin penjualan dan bikin pengunjung nilai makanannya lebih enak.",
+     "why_correct_en": "**descriptions** is in paragraph 4. Its last sentence says longer, vivid descriptions can raise sales and make diners rate the food as tastier.",
+     "why_wrong_id": {
+      "0": "Biaya masak nggak dibahas.",
+      "1": "Jumlah hidangan di menu nggak dibahas.",
+      "3": "Kecepatan mesen nggak disebut."
+     },
+     "why_wrong_en": {
+      "0": "Cooking costs aren't discussed.",
+      "1": "The number of dishes isn't discussed.",
+      "3": "Ordering speed isn't mentioned."
+     },
+     "analogy_id": "Deskripsi yang hidup itu kayak foto makanan yang bagus. Makanannya sama, tapi kelihatan lebih ngiler.",
+     "analogy_en": "A vivid description is a good food photo. Same dish, more tempting.",
+     "tip_id": "Kata **even** sering muncul sebelum detail paling ngagetin, dan itu sering ditanya.",
+     "tip_en": "**Even** often comes before the most surprising detail, and that's often tested."
+    },
+    {
+     "type": "reading",
+     "subtype": "inference",
+     "prompt": "What does the author imply in the last paragraph?",
+     "options": [
+      "Restaurants should stop hiring menu engineers.",
+      "Customers may be influenced by menus without realizing it.",
+      "Most customers enjoy being manipulated.",
+      "Menus have no real effect on what people order."
+     ],
+     "correct_index": 1,
+     "rule_tags": [
+      "R-INFER",
+      "R-PURPOSE"
+     ],
+     "difficulty": 3,
+     "evidence_quote": "it may be worth asking whether you are choosing your meal freely, or whether the menu is quietly choosing it for you.",
+     "why_correct_id": "Penulis ngajak pembaca nanya: mereka milih makanan dengan bebas, atau menunya diam-diam milihin? Kata **quietly**, diam-diam, nunjukin pengaruh yang nggak disadari. Jadi pelanggan bisa kepengaruh tanpa sadar.",
+     "why_correct_en": "The author asks whether readers choose freely or the menu quietly chooses for them. **Quietly** signals an unnoticed influence. So customers may be swayed without realizing it.",
+     "why_wrong_id": {
+      "0": "Penulis nggak ngasih saran ke restoran. Dia ngajak pembaca mikir.",
+      "2": "Teks malah nyebut sebagian pelanggan ngerasa teknik ini manipulatif, bukan menikmatinya.",
+      "3": "Bentrok sama seluruh teks yang nunjukin menu itu berpengaruh."
+     },
+     "why_wrong_en": {
+      "0": "The author gives no advice to restaurants. The passage invites reflection.",
+      "2": "Some customers find it manipulative. Nothing says they enjoy it.",
+      "3": "This contradicts the whole passage, which shows menus have an effect."
+     },
+     "analogy_id": "Paragraf penutup ini kayak cermin yang disodorin ke pembaca: coba lihat, kamu juga kepengaruh nggak?",
+     "analogy_en": "The closing paragraph holds up a mirror: take a look, are you being influenced too?",
+     "tip_id": "Pertanyaan retoris di akhir teks biasanya nyiratin pendapat penulis. Cari kata kunci kayak **quietly**.",
+     "tip_en": "A rhetorical question at the end usually hints at the author's view. Look for keywords like **quietly**."
+    }
+   ]
+  }
+ ]
+}

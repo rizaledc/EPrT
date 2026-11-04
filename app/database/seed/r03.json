@@ -1,0 +1,1179 @@
+{
+ "rumah": "r03",
+ "material_id": "Hari ketiga: kita mengatur **jam di dasbor**, yaitu kapan mesin bekerja. Di Listening kita belajar membedakan orang yang setuju dan tidak setuju, dan di Reading kita menebak arti kata dari konteks.\n\n=== listening\n## Setuju atau tidak setuju?\nJawaban singkat seperti *So do I* dan *Neither do I* berarti **aku juga**. *So* dipakai setelah kalimat positif, *neither* setelah kalimat negatif. Ungkapan yang terdengar negatif seperti *I couldn't agree more* justru berarti **sangat setuju**, sedangkan *I'm not so sure about that* dan *I wouldn't say that* berarti **kurang setuju**.\nPerumpamaan: *So do I* itu seperti teman yang mengangkat tangan **aku juga!** setelah kamu bicara. *Neither do I* juga mengangkat tangan, tapi untuk hal yang sama-sama tidak dilakukan.\n> Positif + So … I = aku juga · Negatif + Neither … I = aku juga tidak\n✓ **I love it.** - **So do I.** → sama-sama suka\n✓ **I can't believe it.** - **Neither can I.** → sama-sama tidak percaya\n✓ **I couldn't agree more.** → sangat setuju\n✕ Mengira *couldn't agree more* berarti tidak setuju\n✕ Mengira *Neither do I* berarti tidak setuju\n\n=== structure\n## V1, V2, V3 dan penanda waktu\nSetiap [[verb]] punya tiga bentuk: [[base form (V1)|base-form]] (*go*), [[past form (V2)|past-form]] (*went*), dan [[past participle (V3)|past-participle]] (*gone*). [[simple present|simple-present]] untuk kebiasaan dan fakta (subject tunggal + -s), simple past (V2) untuk kejadian selesai di masa lalu, dan *will* + V1 untuk masa depan. Cari **penanda waktu** dulu: *every day, yesterday, last year, in 1969, tomorrow, next week*.\nPerumpamaan: penanda waktu itu kalender di dinding. Lihat tanggalnya dulu, baru pilih bentuk mesin.\n> every/usually → V1(+s) · yesterday/last/in 1969 → V2 · tomorrow/next → will + V1\n✓ The museum **opens** every day.\n✓ Last year, the team **discovered** a new frog.\n✓ Next semester, the university **will offer** a new course.\n✕ Yesterday the students **go** to the fair.\n✕ The professor will explain the project and **answered** questions.\n\n=== reading\n## Vocabulary in context\nSoal *closest in meaning to* tidak menguji hafalan kamus, tetapi kemampuan membaca **konteks**. Ganti kata yang ditanya dengan setiap pilihan, lalu pilih yang membuat kalimat tetap masuk akal. Petunjuk sering ada di kalimat yang sama atau sesudahnya (setelah titik koma, *so*, *because*, contoh).\nPerumpamaan: konteks itu seperti cahaya di ruangan gelap. Kata sulit terlihat jelas setelah kalimat di sekitarnya dinyalakan.\n> Ganti kata → baca ulang → cek petunjuk sebelum & sesudah\n✓ Perhatikan kata hubung: *so* (akibat), *but/however* (kontras), *such as* (contoh)\n✓ Pilih sinonim yang cocok dengan kalimat, bukan arti yang paling umum\n✓ Kata yang ditanya dicetak **tebal** di teks\n✕ Memilih kata yang mirip bunyinya\n✕ Memilih arti yang benar di kamus tetapi tidak cocok di kalimat",
+ "material_en": "Day three: we set the **dashboard clock**, deciding when the engine runs. In Listening we learn to tell agreement from disagreement, and in Reading we guess word meanings from context.\n\n=== listening\n## Agreeing or disagreeing?\nShort replies such as *So do I* and *Neither do I* both mean **me too**. *So* follows a positive statement; *neither* follows a negative one. Phrases that sound negative, like *I couldn't agree more*, actually mean **strong agreement**, while *I'm not so sure about that* and *I wouldn't say that* signal **disagreement**.\nAnalogy: *So do I* is a friend raising a hand, **me too!**, after you speak. *Neither do I* raises a hand too, but for something you both don't do.\n> Positive + So … I = me too · Negative + Neither … I = me neither\n✓ **I love it.** - **So do I.** → both like it\n✓ **I can't believe it.** - **Neither can I.** → both can't believe it\n✓ **I couldn't agree more.** → strongly agree\n✕ Thinking *couldn't agree more* means disagreement\n✕ Thinking *Neither do I* means disagreement\n\n=== structure\n## V1, V2, V3 and time markers\nEvery [[verb]] has three forms: [[base form (V1)|base-form]] (*go*), [[past form (V2)|past-form]] (*went*), and [[past participle (V3)|past-participle]] (*gone*). The [[simple present|simple-present]] is for habits and facts (singular subject + -s), the simple past (V2) for finished past events, and *will* + V1 for the future. Look for the **time marker** first: *every day, yesterday, last year, in 1969, tomorrow, next week*.\nAnalogy: a time marker is the wall calendar. Check the date first, then choose the engine's form.\n> every/usually → V1(+s) · yesterday/last/in 1969 → V2 · tomorrow/next → will + V1\n✓ The museum **opens** every day.\n✓ Last year, the team **discovered** a new frog.\n✓ Next semester, the university **will offer** a new course.\n✕ Yesterday the students **go** to the fair.\n✕ The professor will explain the project and **answered** questions.\n\n=== reading\n## Vocabulary in context\n*Closest in meaning to* questions don't test dictionary memory; they test reading **context**. Replace the word with each option and keep the one that still makes sense. Clues are often in the same or next sentence (after a semicolon, *so*, *because*, or an example).\nAnalogy: context is the light in a dark room. A hard word becomes clear once the sentences around it are switched on.\n> Replace the word → reread → check clues before & after\n✓ Watch connectors: *so* (result), *but/however* (contrast), *such as* (example)\n✓ Pick the synonym that fits the sentence, not the most common meaning\n✓ The tested word is printed in **bold**\n✕ Choosing a word that merely sounds similar\n✕ Choosing a dictionary meaning that doesn't fit the sentence",
+ "items": [
+  {
+   "section": "listening",
+   "part": "A",
+   "script": [
+    {
+     "speaker": "W1",
+     "text": "I really enjoy the guest lectures on Friday afternoons."
+    },
+    {
+     "speaker": "M1",
+     "text": "So do I. They're usually more interesting than our regular classes."
+    }
+   ],
+   "questions": [
+    {
+     "type": "listening_short",
+     "prompt": "What does the man mean?",
+     "options": [
+      "He prefers the regular classes.",
+      "He also enjoys the Friday lectures.",
+      "He has never attended a guest lecture.",
+      "He gives lectures on Fridays."
+     ],
+     "correct_index": 1,
+     "rule_tags": [
+      "L-AGREE",
+      "L-SECOND"
+     ],
+     "difficulty": 1,
+     "key_sentence": "So do I.",
+     "key_translation_id": "Aku juga.",
+     "why_correct_id": "Si wanita bikin pernyataan positif, **I really enjoy…**. Terus **So do I** artinya aku juga suka. Kalimat berikutnya nguatin: kuliah tamu lebih seru daripada kelas biasa.",
+     "why_correct_en": "She makes a positive statement, **I really enjoy…**. **So do I** means me too. Next he says guest lectures beat regular classes.",
+     "why_wrong_id": {
+      "0": "Kebalikannya. Dia bilang kuliah tamu LEBIH seru daripada kelas biasa.",
+      "2": "Dia jelas pernah ikut, soalnya bisa ngebandingin sama kelas biasa.",
+      "3": "Nggak ada petunjuk dia yang ngasih kuliah. Kata **lectures** dipakai sebagai jebakan."
+     },
+     "why_wrong_en": {
+      "0": "The opposite. He says guest lectures are MORE interesting than regular classes.",
+      "2": "He's clearly been, since he compares them with regular classes.",
+      "3": "Nothing says he gives lectures. **Lectures** is a same-word trap."
+     },
+     "analogy_id": "**So do I** itu kayak teman yang langsung angkat tangan, aku juga, habis kamu bilang suka sesuatu.",
+     "analogy_en": "**So do I** is a friend shooting a hand up, me too, right after you say you like something.",
+     "tip_id": "**So + auxiliary + I** habis kalimat positif artinya aku juga.",
+     "tip_en": "**So + auxiliary + I** after a positive statement means me too."
+    }
+   ]
+  },
+  {
+   "section": "listening",
+   "part": "A",
+   "script": [
+    {
+     "speaker": "M2",
+     "text": "I don't really understand the new grading policy."
+    },
+    {
+     "speaker": "W2",
+     "text": "Neither do I. Maybe we should ask the department office."
+    }
+   ],
+   "questions": [
+    {
+     "type": "listening_short",
+     "prompt": "What does the woman mean?",
+     "options": [
+      "She understands the policy well.",
+      "She wrote the grading policy.",
+      "She thinks the policy is unfair.",
+      "She is also confused by the policy."
+     ],
+     "correct_index": 3,
+     "rule_tags": [
+      "L-AGREE",
+      "L-SECOND"
+     ],
+     "difficulty": 1,
+     "key_sentence": "Neither do I.",
+     "key_translation_id": "Aku juga tidak (paham).",
+     "why_correct_id": "Si pria bikin pernyataan negatif, **I don't really understand…**. **Neither do I** artinya aku juga nggak paham. Sarannya buat nanya ke kantor jurusan nguatin kalau dia juga bingung.",
+     "why_correct_en": "He makes a negative statement, **I don't really understand…**. **Neither do I** means I don't either. Her idea to ask the office shows she's lost too.",
+     "why_wrong_id": {
+      "0": "Kebalikannya. **Neither do I** artinya dia juga NGGAK paham.",
+      "1": "Kalau dia yang nulis, ngapain nanya ke kantor jurusan.",
+      "2": "Dia nggak nilai kebijakannya adil atau nggak. Dia cuma belum paham."
+     },
+     "why_wrong_en": {
+      "0": "The opposite. **Neither do I** means she DOESN'T get it either.",
+      "1": "If she'd written it, she wouldn't need to ask the office.",
+      "2": "She doesn't judge fairness. She just doesn't get it."
+     },
+     "analogy_id": "**Neither do I** itu kayak dua orang yang barengan angkat bahu: aku juga nggak tahu.",
+     "analogy_en": "**Neither do I** is two people shrugging together: no idea either.",
+     "tip_id": "**Neither + auxiliary + I** habis kalimat negatif artinya aku juga nggak. Itu setuju, bukan ngebantah.",
+     "tip_en": "**Neither + auxiliary + I** after a negative means me neither. It's agreement, not disagreement."
+    }
+   ]
+  },
+  {
+   "section": "listening",
+   "part": "A",
+   "script": [
+    {
+     "speaker": "W1",
+     "text": "The campus needs more quiet places to study."
+    },
+    {
+     "speaker": "M2",
+     "text": "I couldn't agree more. The library is always full during exam week."
+    }
+   ],
+   "questions": [
+    {
+     "type": "listening_short",
+     "prompt": "What does the man mean?",
+     "options": [
+      "He completely agrees with the woman.",
+      "He disagrees with the woman.",
+      "The library has enough space for everyone.",
+      "He studies at home during exam week."
+     ],
+     "correct_index": 0,
+     "rule_tags": [
+      "L-AGREE",
+      "L-SECOND"
+     ],
+     "difficulty": 1,
+     "key_sentence": "I couldn't agree more.",
+     "key_translation_id": "Aku sangat setuju.",
+     "why_correct_id": "**I couldn't agree more** artinya nggak mungkin aku lebih setuju lagi. Alias setuju banget. Alasannya nguatin: perpustakaan selalu penuh pas minggu ujian, jadi kampus memang butuh tempat belajar tambahan.",
+     "why_correct_en": "**I couldn't agree more** means I couldn't possibly agree more. Strong agreement. His reason: the library is always full in exam week.",
+     "why_wrong_id": {
+      "1": "Jebakan di kata **couldn't**. Ungkapan ini justru artinya setuju banget.",
+      "2": "Kebalikannya. Perpustakaannya selalu PENUH.",
+      "3": "Belajar di kos sama sekali nggak disebut."
+     },
+     "why_wrong_en": {
+      "1": "A trap on **couldn't**. The phrase means strong agreement.",
+      "2": "The opposite. The library is always FULL.",
+      "3": "Studying at home never comes up."
+     },
+     "analogy_id": "**I couldn't agree more** itu kayak gelas yang udah penuh sampai bibir. Nggak bisa diisi lagi, setujunya udah mentok.",
+     "analogy_en": "**I couldn't agree more** is a glass full to the brim. No room for more, the agreement is maxed out.",
+     "tip_id": "Ungkapan **couldn't + more/better** biasanya maknanya positif banget.",
+     "tip_en": "**Couldn't + more/better** phrases are usually strongly positive."
+    }
+   ]
+  },
+  {
+   "section": "listening",
+   "part": "A",
+   "script": [
+    {
+     "speaker": "M1",
+     "text": "This new café will probably close in a month."
+    },
+    {
+     "speaker": "W2",
+     "text": "I'm not so sure about that. It's been packed every day since it opened."
+    }
+   ],
+   "questions": [
+    {
+     "type": "listening_short",
+     "prompt": "What does the woman imply?",
+     "options": [
+      "The café will close soon.",
+      "She has never been to the café.",
+      "The café seems to be doing well.",
+      "She is certain the café opened a month ago."
+     ],
+     "correct_index": 2,
+     "rule_tags": [
+      "L-AGREE",
+      "L-INFER"
+     ],
+     "difficulty": 2,
+     "key_sentence": "I'm not so sure about that. It's been packed every day since it opened.",
+     "key_translation_id": "Aku tidak yakin. Kafe itu selalu penuh setiap hari sejak dibuka.",
+     "why_correct_id": "**I'm not so sure about that** itu cara sopan buat nggak setuju. Alasannya, kafenya **packed every day**, penuh tiap hari. Kafe yang selalu penuh berarti usahanya lancar, jadi kecil kemungkinan cepat tutup.",
+     "why_correct_en": "**I'm not so sure about that** politely disagrees. Her reason: it's been **packed every day**. A café that's always full is doing well, so it's unlikely to close soon.",
+     "why_wrong_id": {
+      "0": "Itu pendapat si pria. Si wanita justru ngeraguinnya.",
+      "1": "Dia tahu kafenya selalu rame, jadi kemungkinan besar pernah lihat atau mampir.",
+      "3": "**A month** itu tebakan si pria soal kapan kafenya tutup, bukan kapan bukanya. Jebakan kata yang sama."
+     },
+     "why_wrong_en": {
+      "0": "That's the man's view. She doubts it.",
+      "1": "She knows it's always busy, so she's likely seen or visited it.",
+      "3": "**A month** is the man's guess about closing, not when it opened. Same-word trap."
+     },
+     "analogy_id": "**I'm not so sure about that** itu kayak rem halus. Nggak banting setir, tapi jelas memperlambat ide lawan ngobrolnya.",
+     "analogy_en": "**I'm not so sure about that** is a gentle brake. No swerving, but it clearly slows the other idea down.",
+     "tip_id": "Ungkapan ragu kayak **not so sure** atau **I wouldn't say that** plus alasan? Maksudnya kebalikan dari pendapat orang pertama.",
+     "tip_en": "A doubt phrase like **not so sure** or **I wouldn't say that** plus a reason means the opposite of the first speaker's view."
+    }
+   ]
+  },
+  {
+   "section": "listening",
+   "part": "A",
+   "script": [
+    {
+     "speaker": "W2",
+     "text": "The bus to campus was so crowded this morning."
+    },
+    {
+     "speaker": "M1",
+     "text": "You can say that again! I had to stand the whole way."
+    }
+   ],
+   "questions": [
+    {
+     "type": "listening_short",
+     "prompt": "What does the man mean?",
+     "options": [
+      "He did not hear the woman clearly.",
+      "He took a different bus.",
+      "He found a seat easily.",
+      "He agrees that the bus was crowded."
+     ],
+     "correct_index": 3,
+     "rule_tags": [
+      "L-AGREE",
+      "L-IDIOM"
+     ],
+     "difficulty": 1,
+     "key_sentence": "You can say that again!",
+     "key_translation_id": "Betul sekali!",
+     "why_correct_id": "**You can say that again!** itu ungkapan setuju yang kuat, bukan minta diulang. **I had to stand the whole way** ngebuktiin busnya memang penuh.",
+     "why_correct_en": "**You can say that again!** is strong agreement, not a request to repeat. **I had to stand the whole way** proves the bus was crowded.",
+     "why_wrong_id": {
+      "0": "Ini arti harfiah **say that again**, ulangi. Padahal ungkapan ini artinya setuju.",
+      "1": "Dia naik bus yang sama penuhnya, buktinya dia harus berdiri.",
+      "2": "Kebalikannya. Dia berdiri sepanjang jalan."
+     },
+     "why_wrong_en": {
+      "0": "That's the literal **say that again**. The phrase means agreement.",
+      "1": "He was on the same packed bus. He had to stand.",
+      "2": "The opposite. He stood the whole way."
+     },
+     "analogy_id": "**You can say that again!** itu kayak tepuk tangan setuju. Boleh diulang terus, soalnya bener banget.",
+     "analogy_en": "**You can say that again!** is applause. Say it as often as you like, it's so true.",
+     "tip_id": "Ungkapan setuju sering diikutin pengalaman pribadi yang ndukung, kayak **I had to stand…**.",
+     "tip_en": "Agreement phrases often come with a backing story, like **I had to stand…**."
+    }
+   ]
+  },
+  {
+   "section": "listening",
+   "part": "A",
+   "script": [
+    {
+     "speaker": "M2",
+     "text": "I've never been to the art museum downtown."
+    },
+    {
+     "speaker": "W1",
+     "text": "Me neither. Let's go together on Saturday."
+    }
+   ],
+   "questions": [
+    {
+     "type": "listening_short",
+     "prompt": "What will the speakers probably do?",
+     "options": [
+      "Ask someone for directions to the museum.",
+      "Go to the art museum together.",
+      "Meet downtown on Sunday.",
+      "Stay home because the museum is closed."
+     ],
+     "correct_index": 1,
+     "rule_tags": [
+      "L-AGREE",
+      "L-SUGGEST"
+     ],
+     "difficulty": 1,
+     "key_sentence": "Me neither. Let's go together on Saturday.",
+     "key_translation_id": "Aku juga belum pernah. Ayo pergi bersama hari Sabtu.",
+     "why_correct_id": "**Me neither** artinya aku juga belum pernah. **Let's go together on Saturday** itu ajakan. Jadi mereka kemungkinan bakal ke museum seni bareng.",
+     "why_correct_en": "**Me neither** means I haven't either. **Let's go together on Saturday** is an invitation. So they'll likely visit the art museum together.",
+     "why_wrong_id": {
+      "0": "Nanya arah nggak disebut.",
+      "2": "Harinya Sabtu, bukan Minggu. **Downtown** cuma jebakan kata yang sama.",
+      "3": "Nggak ada info museumnya tutup. Mereka justru mau ke sana."
+     },
+     "why_wrong_en": {
+      "0": "Asking for directions isn't mentioned.",
+      "2": "It's Saturday, not Sunday. **Downtown** is a same-word trap.",
+      "3": "Nothing says the museum is closed. They plan to go."
+     },
+     "analogy_id": "**Me neither** itu jabat tangan dua orang yang sama-sama belum pernah. Habis itu biasanya muncul rencana bareng.",
+     "analogy_en": "**Me neither** is a handshake between two people who've both never been. A shared plan usually follows.",
+     "tip_id": "Soal **What will they probably do?** Cari **Let's** atau **I'll** di kalimat terakhir, terus cek hari dan tempatnya.",
+     "tip_en": "**What will they probably do?** Find **Let's** or **I'll** in the last line, then check the day and place."
+    }
+   ]
+  },
+  {
+   "section": "listening",
+   "part": "A",
+   "script": [
+    {
+     "speaker": "W1",
+     "text": "I expected the exam to focus on chapter six."
+    },
+    {
+     "speaker": "M2",
+     "text": "That's what I thought too, but most of the questions came from chapter four."
+    }
+   ],
+   "questions": [
+    {
+     "type": "listening_short",
+     "prompt": "What does the man imply?",
+     "options": [
+      "The exam was different from what he expected.",
+      "Chapter six was the most important chapter.",
+      "He did not study chapter four at all.",
+      "He helped write the exam questions."
+     ],
+     "correct_index": 0,
+     "rule_tags": [
+      "L-AGREE",
+      "L-INFER"
+     ],
+     "difficulty": 2,
+     "key_sentence": "That's what I thought too, but most of the questions came from chapter four.",
+     "key_translation_id": "Aku juga berpikir begitu, tapi kebanyakan soal ternyata dari bab empat.",
+     "why_correct_id": "**That's what I thought too** artinya dugaannya sama kayak si wanita, bab enam. Terus **but** ngenalin kenyataan yang beda: soalnya kebanyakan dari bab empat. Jadi ujiannya beda dari yang dia kira.",
+     "why_correct_en": "**That's what I thought too** means he expected chapter six as well. **But** brings in a different reality: most questions came from chapter four. The exam wasn't what he expected.",
+     "why_wrong_id": {
+      "1": "Soal ujiannya justru lebih banyak dari bab empat, bukan bab enam.",
+      "2": "Nggak ada info dia belajar bab empat atau nggak.",
+      "3": "Kalau dia ikut bikin soal, mana mungkin salah nebak isinya."
+     },
+     "why_wrong_en": {
+      "1": "Most questions came from chapter four, not six.",
+      "2": "Nothing says whether he studied chapter four.",
+      "3": "If he'd written the questions, he wouldn't have guessed wrong."
+     },
+     "analogy_id": "**That's what I thought too, but…** itu kayak dua orang yang sama-sama salah baca peta. Tebakannya sama, kenyataannya beda.",
+     "analogy_en": "**That's what I thought too, but…** is two people misreading the same map. Same guess, different reality.",
+     "tip_id": "Kata **but** habis ungkapan setuju sering bawa info kunci buat soal **imply**.",
+     "tip_en": "**But** after an agreement phrase often carries the key to an **imply** question."
+    }
+   ]
+  },
+  {
+   "section": "listening",
+   "part": "A",
+   "script": [
+    {
+     "speaker": "M1",
+     "text": "I'm taking the early train to the conference tomorrow."
+    },
+    {
+     "speaker": "W2",
+     "text": "So am I. Do you want to meet at the station?"
+    }
+   ],
+   "questions": [
+    {
+     "type": "listening_short",
+     "prompt": "What does the woman mean?",
+     "options": [
+      "She is driving to the conference.",
+      "She missed the train last time.",
+      "She will take the same train.",
+      "She is organizing the conference."
+     ],
+     "correct_index": 2,
+     "rule_tags": [
+      "L-AGREE",
+      "L-SECOND"
+     ],
+     "difficulty": 1,
+     "key_sentence": "So am I.",
+     "key_translation_id": "Aku juga.",
+     "why_correct_id": "Si pria bilang **I'm taking the early train**, pakai auxiliary (kata kerja bantu) **am**. **So am I** artinya aku juga naik kereta pagi. Ajakan ketemu di stasiun nguatin itu.",
+     "why_correct_en": "He says **I'm taking the early train**, with the helper verb **am**. **So am I** means me too. Her offer to meet at the station confirms it.",
+     "why_wrong_id": {
+      "0": "Dia naik kereta, bukan nyetir. Buktinya dia ngajak ketemu di stasiun.",
+      "1": "Kejadian sebelumnya nggak diomongin.",
+      "3": "Nggak ada petunjuk dia panitia konferensi."
+     },
+     "why_wrong_en": {
+      "0": "She's taking the train, not driving. She suggests meeting at the station.",
+      "1": "No earlier trip comes up.",
+      "3": "Nothing suggests she's organizing the conference."
+     },
+     "analogy_id": "Auxiliary di **So am I** itu kayak gema. Dia mantulin kata kerja bantu orang pertama, **I'm** jadi **am**.",
+     "analogy_en": "The helper verb in **So am I** is an echo. It bounces back the first speaker's **am**.",
+     "tip_id": "**So/Neither + auxiliary + I** selalu pakai kata kerja bantu yang sama kayak kalimat pertama: **am**, **do**, **can**, **have**.",
+     "tip_en": "**So/Neither + auxiliary + I** reuses the first speaker's helper verb: **am**, **do**, **can**, **have**."
+    }
+   ]
+  },
+  {
+   "section": "listening",
+   "part": "A",
+   "script": [
+    {
+     "speaker": "W1",
+     "text": "Professor Lim's assignments are impossible."
+    },
+    {
+     "speaker": "M2",
+     "text": "I wouldn't say that. They're long, but the instructions are very clear."
+    }
+   ],
+   "questions": [
+    {
+     "type": "listening_short",
+     "prompt": "What does the man mean?",
+     "options": [
+      "He agrees that the assignments are impossible.",
+      "He has not done any of the assignments.",
+      "He finds the instructions confusing.",
+      "He does not think the assignments are impossible."
+     ],
+     "correct_index": 3,
+     "rule_tags": [
+      "L-AGREE",
+      "L-INFER"
+     ],
+     "difficulty": 3,
+     "key_sentence": "I wouldn't say that. They're long, but the instructions are very clear.",
+     "key_translation_id": "Aku tidak akan bilang begitu. Tugasnya memang panjang, tapi petunjuknya sangat jelas.",
+     "why_correct_id": "**I wouldn't say that** itu cara sopan buat NGGAK setuju. Yang dia tolak itu kata si wanita: **impossible**, mustahil. Dia memang ngaku tugasnya panjang, tapi itu cuma fakta tambahan, bukan setuju. Alasannya, petunjuknya jelas banget, jadi tugasnya bisa dikerjain.",
+     "why_correct_en": "**I wouldn't say that** is a polite way to DISAGREE. He rejects her word **impossible**. He admits the work is long, but that's just an extra fact. With very clear instructions, it's doable.",
+     "why_wrong_id": {
+      "0": "**I wouldn't say that** justru nolak pendapat kalau tugasnya mustahil.",
+      "1": "Dia tahu tugasnya panjang dan petunjuknya jelas, jadi kemungkinan besar udah ngerjain.",
+      "2": "Kebalikannya. Petunjuknya **very clear**."
+     },
+     "why_wrong_en": {
+      "0": "**I wouldn't say that** rejects the claim that they're impossible.",
+      "1": "He knows they're long with clear instructions, so he's likely done them.",
+      "2": "The opposite. The instructions are **very clear**."
+     },
+     "analogy_id": "**I wouldn't say that** itu kayak teman yang geleng pelan. Nggak ngebentak, tapi jelas nggak setuju. Ngaku memang panjang nggak ngubah gelengannya.",
+     "analogy_en": "**I wouldn't say that** is a gentle head shake. No shouting, but clearly no. Admitting they're long doesn't change the shake.",
+     "tip_id": "**I wouldn't say that** atau **I'm not so sure** artinya nggak setuju sama kata kunci orang pertama. Pilih opsi yang nyangkal kata itu.",
+     "tip_en": "**I wouldn't say that** or **I'm not so sure** disagrees with the first speaker's key word. Pick the option that denies it."
+    }
+   ]
+  },
+  {
+   "section": "listening",
+   "part": "A",
+   "script": [
+    {
+     "speaker": "M2",
+     "text": "I can't believe the semester is almost over."
+    },
+    {
+     "speaker": "W1",
+     "text": "Neither can I. It feels like it just started."
+    }
+   ],
+   "questions": [
+    {
+     "type": "listening_short",
+     "prompt": "What does the woman mean?",
+     "options": [
+      "She thinks the semester was too long.",
+      "She is also surprised that time passed so quickly.",
+      "She cannot attend the last week of classes.",
+      "She believes the semester started late."
+     ],
+     "correct_index": 1,
+     "rule_tags": [
+      "L-AGREE",
+      "L-SECOND"
+     ],
+     "difficulty": 1,
+     "key_sentence": "Neither can I. It feels like it just started.",
+     "key_translation_id": "Aku juga tidak percaya. Rasanya baru saja dimulai.",
+     "why_correct_id": "Si pria bilang **I can't believe…**, negatif pakai **can**. **Neither can I** artinya aku juga nggak percaya. **It feels like it just started** nunjukin dia ngerasa waktu cepet banget lewat.",
+     "why_correct_en": "He says **I can't believe…**, a negative with **can**. **Neither can I** means I can't either. **It feels like it just started** shows time flew for her.",
+     "why_wrong_id": {
+      "0": "Kebalikannya. Dia ngerasa semesternya cepet, bukan kelamaan.",
+      "2": "**Can't** di sini soal nggak percaya, bukan nggak bisa hadir. Jebakan kata yang sama.",
+      "3": "**It feels like it just started** itu perasaan, bukan fakta kalau semesternya telat mulai."
+     },
+     "why_wrong_en": {
+      "0": "The opposite. It felt quick, not too long.",
+      "2": "**Can't** here is about disbelief, not missing class. Same-word trap.",
+      "3": "**It feels like it just started** is a feeling, not a fact about a late start."
+     },
+     "analogy_id": "**Neither can I** itu dua orang yang barengan lihat kalender terus kaget: udah mau habis aja?!",
+     "analogy_en": "**Neither can I** is two people staring at the calendar together: it's almost over?!",
+     "tip_id": "Cocokin auxiliary-nya: **can't** jadi **Neither can I**, **don't** jadi **Neither do I**, **isn't** jadi **Neither is it**.",
+     "tip_en": "Match the helper verb: **can't** gives **Neither can I**, **don't** gives **Neither do I**, **isn't** gives **Neither is it**."
+    }
+   ]
+  },
+  {
+   "section": "structure",
+   "type": "structure_completion",
+   "prompt": "The museum ______ every day except Monday.",
+   "options": [
+    "open",
+    "opening",
+    "to open",
+    "opens"
+   ],
+   "correct_index": 3,
+   "rule_tags": [
+    "S-TENSE",
+    "S-AGREE"
+   ],
+   "difficulty": 1,
+   "why_correct_id": "**every day except Monday** itu jadwal rutin, jadi pakai [[simple present|simple-present]]. Pelakunya **The museum**, tunggal, jadi kata kerjanya ditambah -s: **opens**.",
+   "why_correct_en": "**every day except Monday** is a regular schedule, so use the simple present. **The museum** is singular, so add -s: **opens**.",
+   "why_wrong_id": {
+    "0": "**open** tanpa -s itu buat pelaku jamak kayak I, you, we, they. Bukan buat **the museum**.",
+    "1": "**opening** tanpa auxiliary (kata kerja bantu) bukan kata kerja utama.",
+    "2": "**to open** itu infinitive (to + kata kerja dasar), bukan kata kerja yang punya tense."
+   },
+   "why_wrong_en": {
+    "0": "**open** without -s is for plural subjects, not **the museum**.",
+    "1": "**opening** with no helper verb isn't a main verb.",
+    "2": "**to open** is an infinitive, not a tensed verb."
+   },
+   "analogy_id": "Jadwal rutin itu kayak jam dinding yang berdetak tiap hari. Pakai simple present.",
+   "analogy_en": "A regular schedule is a wall clock ticking every day. Use the simple present.",
+   "tip_id": "**every day**, **usually**, **always** plus pelaku tunggal? Pakai V1 + s.",
+   "tip_en": "**every day**, **usually**, **always** plus a singular subject? Use V1 + s."
+  },
+  {
+   "section": "structure",
+   "type": "structure_completion",
+   "prompt": "Last year, the research team ______ a new species of frog in the rainforest.",
+   "options": [
+    "discovers",
+    "has discover",
+    "discovered",
+    "will discover"
+   ],
+   "correct_index": 2,
+   "rule_tags": [
+    "S-TENSE",
+    "S-VFORM"
+   ],
+   "difficulty": 1,
+   "why_correct_id": "Penanda waktunya **Last year**, berarti kejadiannya udah kelar di masa lalu. Pakai simple past ([[past form (V2)|past-form]]): **discovered**.",
+   "why_correct_en": "**Last year** marks a finished past event. Use the simple past (V2): **discovered**.",
+   "why_wrong_id": {
+    "0": "**discovers** itu present. Bentrok sama **Last year**.",
+    "1": "**has discover** salah dobel. Habis **has** harus V3, dan **last year** nggak dipakai bareng present perfect.",
+    "3": "**will discover** itu masa depan. Bentrok sama **Last year**."
+   },
+   "why_wrong_en": {
+    "0": "**discovers** is present. It clashes with **Last year**.",
+    "1": "**has discover** is doubly wrong. **has** needs V3, and **last year** doesn't go with the present perfect.",
+    "3": "**will discover** is future. It clashes with **Last year**."
+   },
+   "analogy_id": "**Last year** itu cap tanggal di foto lama. Kejadiannya udah lewat dan kelar, jadi V2.",
+   "analogy_en": "**Last year** is the date stamp on an old photo. It's over, so V2.",
+   "tip_id": "**yesterday**, **last …**, **ago**, atau **in** + tahun lampau? Pakai V2.",
+   "tip_en": "**yesterday**, **last …**, **ago**, or **in** + a past year? Use V2."
+  },
+  {
+   "section": "structure",
+   "type": "structure_completion",
+   "prompt": "Next semester, the university ______ a new course on climate science.",
+   "options": [
+    "will offer",
+    "offered",
+    "offering",
+    "has offer"
+   ],
+   "correct_index": 0,
+   "rule_tags": [
+    "S-TENSE"
+   ],
+   "difficulty": 1,
+   "why_correct_id": "**Next semester** itu penanda masa depan. Pakai will + [[base form (V1)|base-form]]: **will offer**.",
+   "why_correct_en": "**Next semester** marks the future. Use will + base verb: **will offer**.",
+   "why_wrong_id": {
+    "1": "**offered** itu bentuk lampau. Bentrok sama **Next semester**.",
+    "2": "**offering** tanpa auxiliary (kata kerja bantu) bukan kata kerja utama.",
+    "3": "**has offer** bentuknya salah, harusnya **has offered**. Lagian nggak cocok buat masa depan."
+   },
+   "why_wrong_en": {
+    "1": "**offered** is past. It clashes with **Next semester**.",
+    "2": "**offering** with no helper verb isn't a main verb.",
+    "3": "**has offer** is the wrong form, it should be **has offered**. It doesn't fit the future anyway."
+   },
+   "analogy_id": "**Next semester** itu tiket buat perjalanan yang belum berangkat. Pakai **will**.",
+   "analogy_en": "**Next semester** is a ticket for a trip that hasn't left yet. Use **will**.",
+   "tip_id": "**tomorrow**, **next …**, **soon**, **in the future**? Pakai will + V1.",
+   "tip_en": "**tomorrow**, **next …**, **soon**, **in the future**? Use will + V1."
+  },
+  {
+   "section": "structure",
+   "type": "structure_completion",
+   "prompt": "Water ______ at 100 degrees Celsius at sea level, as the students saw in yesterday's lab.",
+   "options": [
+    "boiling",
+    "is boil",
+    "will boiled",
+    "boils"
+   ],
+   "correct_index": 3,
+   "rule_tags": [
+    "S-TENSE",
+    "S-VFORM"
+   ],
+   "difficulty": 2,
+   "why_correct_id": "Jangan kekecoh **yesterday**, cuy. Kata itu punya clause **as the students saw…**. Clause induknya nyatain fakta ilmiah yang selalu benar, jadi pakai [[simple present|simple-present]]. Pelakunya **Water**, tunggal, jadi **boils**.",
+   "why_correct_en": "Don't fall for **yesterday**. It belongs to **as the students saw…**. The main clause states a scientific fact, which takes the simple present. Singular **Water** gives **boils**.",
+   "why_wrong_id": {
+    "0": "**boiling** tanpa auxiliary (kata kerja bantu) bukan kata kerja utama. Kalimatnya jadi nggak punya mesin.",
+    "1": "**is boil** bentuknya salah. Habis **is** nggak boleh V1.",
+    "2": "**will boiled** salah dobel. Habis **will** harus V1, dan fakta umum nggak pakai **will**."
+   },
+   "why_wrong_en": {
+    "0": "**boiling** with no helper verb isn't a main verb, so the sentence has no engine.",
+    "1": "**is boil** is malformed. **is** can't be followed by V1.",
+    "2": "**will boiled** is doubly wrong. **will** needs V1, and general facts don't use **will**."
+   },
+   "analogy_id": "Fakta ilmiah itu kayak matahari terbit dari timur. Kemarin, hari ini, besok, tetap sama. Jadi simple present.",
+   "analogy_en": "A scientific fact is the sun rising in the east. Yesterday, today, tomorrow, always the same. So simple present.",
+   "tip_id": "Penanda waktu cuma berlaku buat clause-nya sendiri. Fakta umum pakai simple present.",
+   "tip_en": "A time marker only rules its own clause. General facts take the simple present."
+  },
+  {
+   "section": "structure",
+   "type": "structure_error",
+   "prompt": "Yesterday the students {A}go{/A} to the {B}science{/B} fair and {C}saw{/C} many {D}creative{/D} projects.",
+   "options": [
+    "go",
+    "science",
+    "saw",
+    "creative"
+   ],
+   "correct_index": 0,
+   "rule_tags": [
+    "S-TENSE",
+    "S-VFORM"
+   ],
+   "difficulty": 1,
+   "why_correct_id": "**Yesterday** butuh simple past. Kata kerja kedua, **saw**, udah V2. Tapi kata kerja pertama, **go**, masih V1. Jadi **go** harus jadi **went**.",
+   "why_correct_en": "**Yesterday** calls for the simple past. The second verb, **saw**, is already V2, but the first, **go**, is still V1. So **go** should be **went**.",
+   "why_wrong_id": {
+    "1": "**science fair** itu frasa benda yang aman, pameran sains.",
+    "2": "**saw** itu V2 dari **see**. Cocok sama **Yesterday**.",
+    "3": "**creative** itu adjective (kata sifat) yang nerangin **projects**. Aman."
+   },
+   "why_wrong_en": {
+    "1": "**science fair** is a fine noun phrase.",
+    "2": "**saw** is the V2 of **see**, matching **Yesterday**.",
+    "3": "**creative** is an adjective describing **projects**. Fine."
+   },
+   "analogy_id": "Dua mesin di perjalanan kemarin harus jalan di jam yang sama: **went** dan **saw**.",
+   "analogy_en": "Two engines on yesterday's trip run on the same clock: **went** and **saw**.",
+   "tip_id": "Dua kata kerja disambung **and** di waktu yang sama? Bentuknya harus sama, V2 dan V2.",
+   "tip_en": "Two verbs joined by **and** in the same time frame? Same form, V2 and V2."
+  },
+  {
+   "section": "structure",
+   "type": "structure_error",
+   "prompt": "The library {A}usually{/A} {B}close{/B} at nine, but it {C}stays{/C} open {D}later{/D} during exams.",
+   "options": [
+    "usually",
+    "close",
+    "stays",
+    "later"
+   ],
+   "correct_index": 1,
+   "rule_tags": [
+    "S-TENSE",
+    "S-AGREE"
+   ],
+   "difficulty": 1,
+   "why_correct_id": "**usually** nunjukin kebiasaan, jadi pakai [[simple present|simple-present]]. Pelakunya **The library**, tunggal, jadi kata kerjanya harus pakai -s: **close** jadi **closes**. Clause kedua, **it stays**, udah aman.",
+   "why_correct_en": "**usually** shows a habit, so use the simple present. **The library** is singular, so the verb needs -s: **close** becomes **closes**. The second clause, **it stays**, is already fine.",
+   "why_wrong_id": {
+    "0": "**usually** itu adverb (kata keterangan) frekuensi yang posisinya pas sebelum kata kerja.",
+    "2": "**it stays** udah tunggal dan pakai -s. Aman.",
+    "3": "**later** itu adverb pembanding yang pas, buka lebih lama."
+   },
+   "why_wrong_en": {
+    "0": "**usually** is a frequency adverb sitting nicely before the verb.",
+    "2": "**it stays** is singular with -s. Fine.",
+    "3": "**later** is a correct comparative adverb."
+   },
+   "analogy_id": "Clause kedua, **it stays**, itu contekan resmi. Kalau **it** pakai -s, **the library** juga harus pakai -s.",
+   "analogy_en": "The second clause, **it stays**, is a legal cheat sheet. If **it** takes -s, **the library** must too.",
+   "tip_id": "Bandingin dua clause yang pelakunya sama. Bentuk kata kerjanya harus konsisten.",
+   "tip_en": "Compare two clauses with the same subject. Their verb forms should match."
+  },
+  {
+   "section": "structure",
+   "type": "structure_error",
+   "prompt": "Tomorrow the professor will {A}explain{/A} the {B}final{/B} project and {C}answered{/C} {D}questions{/D}.",
+   "options": [
+    "explain",
+    "final",
+    "answered",
+    "questions"
+   ],
+   "correct_index": 2,
+   "rule_tags": [
+    "S-VFORM",
+    "S-TENSE"
+   ],
+   "difficulty": 2,
+   "why_correct_id": "**will** berlaku buat dua kata kerja yang disambung **and**: will explain … and (will) answer. Habis **will** selalu V1. Jadi **answered** harus jadi **answer**.",
+   "why_correct_en": "**will** covers both verbs joined by **and**: will explain … and (will) answer. **will** is always followed by V1, so **answered** should be **answer**.",
+   "why_wrong_id": {
+    "0": "**will explain** itu bentuk masa depan yang aman.",
+    "1": "**final** itu adjective (kata sifat) buat **project**. Aman.",
+    "3": "**questions** jamak itu wajar sebagai objek."
+   },
+   "why_wrong_en": {
+    "0": "**will explain** is a fine future form.",
+    "1": "**final** is an adjective for **project**. Fine.",
+    "3": "Plural **questions** is a fine object."
+   },
+   "analogy_id": "**Will** itu lokomotif yang narik dua gerbong, **explain** dan **answer**. Dua gerbongnya harus seukuran: V1.",
+   "analogy_en": "**Will** is a locomotive pulling two carriages, **explain** and **answer**. Both must be the same size: V1.",
+   "tip_id": "**will/can/should + V1 … and + V1**. Jangan biarin kata kerja kedua ganti bentuk.",
+   "tip_en": "**will/can/should + V1 … and + V1**. Don't let the second verb change form."
+  },
+  {
+   "section": "structure",
+   "type": "structure_error",
+   "prompt": "Marie Curie {A}won{/A} two Nobel Prizes and {B}become{/B} one of the most {C}famous{/C} {D}scientists{/D} of her time.",
+   "options": [
+    "won",
+    "become",
+    "famous",
+    "scientists"
+   ],
+   "correct_index": 1,
+   "rule_tags": [
+    "S-VFORM",
+    "S-TENSE"
+   ],
+   "difficulty": 1,
+   "why_correct_id": "Kalimat ini cerita masa lalu, ada **won** dan **of her time**. Kata kerja keduanya harus V2 juga. V2 dari **become** itu **became**. **become** sendiri itu V1 sekaligus V3.",
+   "why_correct_en": "The sentence tells a past story, with **won** and **of her time**. The second verb must be V2 too. The V2 of **become** is **became**. **become** itself is V1 and V3.",
+   "why_wrong_id": {
+    "0": "**won** itu V2 dari **win**. Aman.",
+    "2": "**the most famous** itu superlative (bentuk paling) yang aman.",
+    "3": "**one of the most … scientists** memang pakai kata benda jamak."
+   },
+   "why_wrong_en": {
+    "0": "**won** is the V2 of **win**. Fine.",
+    "2": "**the most famous** is a fine superlative.",
+    "3": "**one of the most … scientists** correctly takes a plural noun."
+   },
+   "analogy_id": "**Become** itu kayak kembar identik. Bentuk V1 dan V3-nya sama persis, jadi gampang ketuker sama V2 **became**.",
+   "analogy_en": "**Become** is like identical twins. Its V1 and V3 look the same, so it's easy to mix up with the V2 **became**.",
+   "tip_id": "Hafalin kata kerja tak beraturan yang V1 = V3: **become**, **come**, **run**. V2-nya beda: **became**, **came**, **ran**.",
+   "tip_en": "Learn irregulars where V1 = V3: **become**, **come**, **run**. Their V2 differs: **became**, **came**, **ran**."
+  },
+  {
+   "section": "structure",
+   "type": "structure_error",
+   "prompt": "Every morning, my roommate {A}drinks{/A} coffee, {B}reads{/B} the news, and {C}catches{/C} the bus that {D}leave{/D} at seven.",
+   "options": [
+    "drinks",
+    "reads",
+    "catches",
+    "leave"
+   ],
+   "correct_index": 3,
+   "rule_tags": [
+    "S-AGREE",
+    "S-TENSE"
+   ],
+   "difficulty": 2,
+   "why_correct_id": "**that leave at seven** itu [[relative clause|relative-clause]] yang nerangin **the bus**. **that** nunjuk ke **the bus**, tunggal. Jadi kata kerjanya harus tunggal: **leave** jadi **leaves**.",
+   "why_correct_en": "**that leave at seven** is a relative clause describing **the bus**. **that** points to **the bus**, singular. So **leave** should be **leaves**.",
+   "why_wrong_id": {
+    "0": "**my roommate drinks**, tunggal plus -s. Aman.",
+    "1": "**reads** sejajar sama **drinks**. Aman.",
+    "2": "**catches** sejajar sama dua kata kerja sebelumnya. Aman."
+   },
+   "why_wrong_en": {
+    "0": "**my roommate drinks** is singular with -s. Fine.",
+    "1": "**reads** is parallel with **drinks**. Fine.",
+    "2": "**catches** is parallel with the earlier verbs. Fine."
+   },
+   "analogy_id": "**That** itu kayak stiker yang ditempel di **the bus**. Kata kerja habis stiker itu harus cocok sama busnya, bukan sama roommate.",
+   "analogy_en": "**That** is a sticker on **the bus**. The verb after it matches the bus, not the roommate.",
+   "tip_id": "Kata kerja habis **that**, **which**, atau **who**? Cocokin sama kata benda pas sebelumnya.",
+   "tip_en": "Verb after **that**, **which**, or **who**? Match it to the noun right before."
+  },
+  {
+   "section": "structure",
+   "type": "structure_error",
+   "prompt": "In 1969, astronauts {A}first{/A} {B}walked{/B} on the Moon, and millions of people {C}watch{/C} the event on {D}television{/D}.",
+   "options": [
+    "first",
+    "walked",
+    "watch",
+    "television"
+   ],
+   "correct_index": 2,
+   "rule_tags": [
+    "S-TENSE"
+   ],
+   "difficulty": 1,
+   "why_correct_id": "**In 1969** nunjukin masa lalu yang udah kelar. Clause kedua juga nyeritain kejadian yang sama, jadi kata kerjanya harus V2: **watch** jadi **watched**.",
+   "why_correct_en": "**In 1969** marks a finished past time. The second clause tells the same event, so its verb must be V2: **watch** becomes **watched**.",
+   "why_wrong_id": {
+    "0": "**first** itu adverb (kata keterangan) yang artinya untuk pertama kalinya. Aman.",
+    "1": "**walked** itu V2, cocok sama 1969.",
+    "3": "**on television** itu frasa yang aman."
+   },
+   "why_wrong_en": {
+    "0": "**first** is an adverb meaning for the first time. Fine.",
+    "1": "**walked** is V2, matching 1969.",
+    "3": "**on television** is a fine phrase."
+   },
+   "analogy_id": "Tahun 1969 itu cap waktu buat seluruh cerita, termasuk penonton di depan TV.",
+   "analogy_en": "1969 is a time stamp for the whole story, viewers at their TVs included.",
+   "tip_id": "Tahun lampau di awal kalimat berlaku sampai akhir, kecuali ada penanda waktu baru.",
+   "tip_en": "A past year at the start covers the whole sentence unless a new time marker shows up."
+  },
+  {
+   "section": "reading",
+   "title": "Learning to Predict the Weather",
+   "body": "Today, millions of people check a weather forecast before leaving home, but reliable predictions are a fairly recent achievement. For most of history, people relied on folk sayings and careful observation of the sky. Sailors, for example, learned that a red sky in the morning often **signaled** stormy weather later in the day.\n\nScientific forecasting became possible only when observers in different places could share information quickly. The invention of the telegraph in the 1840s made this possible. For the first time, reports about wind, temperature, and air pressure from distant towns could reach a central office within minutes. By comparing these reports, scientists could see storms moving across a region and **anticipate** where they would arrive next.\n\nOne of the pioneers of this approach was Robert FitzRoy, a British naval officer. After a terrible storm sank many ships in 1859, FitzRoy set up a network of weather stations along the coast. In 1861, his office began publishing daily predictions in newspapers. He called them \"forecasts,\" a word he chose because he felt it was more modest than \"prophecies.\" His work was not always accurate, and critics often **ridiculed** his mistakes. Nevertheless, his storm warnings saved many lives at sea.\n\nIn the twentieth century, forecasting improved dramatically. Weather balloons carried instruments high into the atmosphere, and from the 1960s onward, satellites provided images of entire cloud systems. Most importantly, computers made it possible to solve the complex equations that describe how air moves. A modern five-day forecast is now roughly as **accurate** as a one-day forecast was in the early 1980s.\n\nEven so, the weather remains difficult to predict perfectly, because small changes in the atmosphere can grow into large differences over time.",
+   "questions": [
+    {
+     "type": "reading",
+     "subtype": "vocabulary",
+     "prompt": "The word **signaled** in paragraph 1 is closest in meaning to",
+     "options": [
+      "prevented",
+      "indicated",
+      "followed",
+      "described"
+     ],
+     "correct_index": 1,
+     "rule_tags": [
+      "R-VOCAB"
+     ],
+     "difficulty": 1,
+     "evidence_quote": "a red sky in the morning often signaled stormy weather later in the day.",
+     "why_correct_id": "Ganti **signaled** pakai opsinya: **a red sky in the morning often indicated stormy weather later in the day**. Langit merah pagi jadi tanda bakal ada badai. Jadi **signaled** artinya **indicated**, menandakan.",
+     "why_correct_en": "Swap in the option: **a red sky in the morning often indicated stormy weather later in the day**. The red sky was a sign of a coming storm. So **signaled** means **indicated**.",
+     "why_wrong_id": {
+      "0": "Langit merah nggak bisa nyegah badai. Pelaut cuma baca tandanya.",
+      "2": "**followed** (ngikutin) ngebalik urutannya. Langit merah datang DULUAN, pagi, badainya belakangan.",
+      "3": "**described** (ngegambarin) nggak cocok. Langit kan nggak ngejelasin cuaca pakai kata-kata."
+     },
+     "why_wrong_en": {
+      "0": "A red sky can't stop a storm. Sailors just read the sign.",
+      "2": "**followed** flips the order. The red sky comes FIRST, in the morning, the storm later.",
+      "3": "**described** doesn't fit. The sky doesn't explain the weather in words."
+     },
+     "analogy_id": "Langit merah itu kayak lampu kuning di jalan. Tanda kalau sesuatu bakal kejadian.",
+     "analogy_en": "A red sky is a yellow traffic light. A sign that something is coming.",
+     "tip_id": "Perhatiin urutan waktunya, **morning** lalu **later in the day**. Opsi yang ngebalik urutan itu salah.",
+     "tip_en": "Watch the time order, **morning** then **later in the day**. Options that flip it are wrong."
+    },
+    {
+     "type": "reading",
+     "subtype": "vocabulary",
+     "prompt": "The word **anticipate** in paragraph 2 is closest in meaning to",
+     "options": [
+      "predict",
+      "prevent",
+      "measure",
+      "ignore"
+     ],
+     "correct_index": 0,
+     "rule_tags": [
+      "R-VOCAB"
+     ],
+     "difficulty": 2,
+     "evidence_quote": "scientists could see storms moving across a region and anticipate where they would arrive next.",
+     "why_correct_id": "**where they would arrive next**, ke mana badai bakal tiba berikutnya, itu soal masa depan. Tahu hal yang belum kejadian berarti memperkirakan. Jadi **anticipate** artinya **predict**.",
+     "why_correct_en": "**where they would arrive next** is about the future. Knowing something before it happens means foreseeing it. So **anticipate** means **predict**.",
+     "why_wrong_id": {
+      "1": "Ilmuwan nggak bisa nyegah badai datang. Mereka cuma bisa ngira-ngira.",
+      "2": "Yang diukur itu angin dan suhu. Tempat badai tiba itu diperkirain, bukan diukur.",
+      "3": "**ignore** (ngabaikan) bentrok sama tujuan ngebandingin laporan."
+     },
+     "why_wrong_en": {
+      "1": "Scientists couldn't stop storms. They could only foresee them.",
+      "2": "Wind and temperature were measured. Where a storm lands was predicted.",
+      "3": "**ignore** clashes with the point of comparing reports."
+     },
+     "analogy_id": "Kayak kiper yang lihat arah lari penyerang terus nebak bolanya bakal ditendang ke mana.",
+     "analogy_en": "Like a goalkeeper reading the striker's run and guessing where the ball will go.",
+     "tip_id": "Ada **next** atau **would** habis kata yang ditanya? Artinya biasanya nyambung ke masa depan.",
+     "tip_en": "**next** or **would** after the word? Its meaning is probably about the future."
+    },
+    {
+     "type": "reading",
+     "subtype": "vocabulary",
+     "prompt": "The word **ridiculed** in paragraph 3 is closest in meaning to",
+     "options": [
+      "repeated",
+      "corrected",
+      "praised",
+      "made fun of"
+     ],
+     "correct_index": 3,
+     "rule_tags": [
+      "R-VOCAB"
+     ],
+     "difficulty": 2,
+     "evidence_quote": "His work was not always accurate, and critics often ridiculed his mistakes. Nevertheless, his storm warnings saved many lives at sea.",
+     "why_correct_id": "Kritikus bereaksi ke kesalahan FitzRoy. Terus **Nevertheless**, meskipun begitu, di kalimat berikutnya nunjukin reaksinya negatif, lalu dikontrasin sama hal positif. Jadi **ridiculed** artinya **made fun of**, ngejek.",
+     "why_correct_en": "Critics reacted to FitzRoy's mistakes. **Nevertheless** in the next sentence shows that reaction was negative, set against something positive. So **ridiculed** means **made fun of**.",
+     "why_wrong_id": {
+      "0": "Kritikus nggak ngulang kesalahannya. Mereka nanggepin.",
+      "1": "Kalau kritikus bantu benerin, **Nevertheless** nggak perlu ada.",
+      "2": "**praised** (muji) bentrok sama **Nevertheless** yang ngenalin sisi positif."
+     },
+     "why_wrong_en": {
+      "0": "The critics didn't repeat his mistakes. They reacted to them.",
+      "1": "If they'd helped correct him, **Nevertheless** wouldn't be needed.",
+      "2": "**praised** clashes with **Nevertheless**, which brings in the positive side."
+     },
+     "analogy_id": "**Nevertheless** itu jungkat-jungkit. Sisi sebelum kata itu negatif, sisi sesudahnya positif.",
+     "analogy_en": "**Nevertheless** is a see-saw. Negative before it, positive after.",
+     "tip_id": "Kata kontras kayak **nevertheless**, **however**, **but** bantu nebak kata yang ditanya positif atau negatif.",
+     "tip_en": "Contrast words like **nevertheless**, **however**, **but** tell you if the word is positive or negative."
+    },
+    {
+     "type": "reading",
+     "subtype": "detail",
+     "prompt": "According to paragraph 3, why did FitzRoy choose the word \"forecasts\"?",
+     "options": [
+      "Sailors already used it.",
+      "It was shorter than \"prophecies.\"",
+      "It sounded more modest than \"prophecies.\"",
+      "Newspapers asked him to use it."
+     ],
+     "correct_index": 2,
+     "rule_tags": [
+      "R-DETAIL"
+     ],
+     "difficulty": 1,
+     "evidence_quote": "He called them \"forecasts,\" a word he chose because he felt it was more modest than \"prophecies.\"",
+     "why_correct_id": "Kata kunci **forecasts** ada di paragraf 3. Kalimatnya nyebut alasannya pakai **because**: dia ngerasa kata itu lebih rendah hati, **modest**, daripada **prophecies**, ramalan.",
+     "why_correct_en": "**forecasts** is in paragraph 3. The sentence gives the reason with **because**: he felt it was more **modest** than **prophecies**.",
+     "why_wrong_id": {
+      "0": "Pelaut disebut di paragraf 1 bareng pepatah langit merah, bukan bareng kata **forecast**.",
+      "1": "Panjang kata nggak disebut sebagai alasan.",
+      "3": "Koran cuma nerbitin prakiraannya. Nggak disebut mereka minta kata itu."
+     },
+     "why_wrong_en": {
+      "0": "Sailors show up in paragraph 1 with the red-sky saying, not with the word **forecast**.",
+      "1": "Word length isn't given as a reason.",
+      "3": "Newspapers only printed the forecasts. They didn't ask for the word."
+     },
+     "analogy_id": "Kata **because** itu papan petunjuk bertuliskan ALASAN, lengkap sama panahnya. Ikutin panahnya buat soal **why**.",
+     "analogy_en": "**Because** is a signpost reading REASON, with an arrow. Follow it for **why** questions.",
+     "tip_id": "Soal **why**? Cari **because**, **since**, **so that**, atau **in order to** di dekat kata kunci.",
+     "tip_en": "**Why** questions? Look for **because**, **since**, **so that**, or **in order to** near the keyword."
+    },
+    {
+     "type": "reading",
+     "subtype": "vocabulary",
+     "prompt": "The word **accurate** in paragraph 4 is closest in meaning to",
+     "options": [
+      "popular",
+      "detailed",
+      "lengthy",
+      "correct"
+     ],
+     "correct_index": 3,
+     "rule_tags": [
+      "R-VOCAB"
+     ],
+     "difficulty": 1,
+     "evidence_quote": "A modern five-day forecast is now roughly as accurate as a one-day forecast was in the early 1980s.",
+     "why_correct_id": "Paragraf ini bahas prakiraan cuaca yang makin bagus. Prakiraan yang membaik berarti makin sering tepat. Jadi **accurate** artinya **correct**.",
+     "why_correct_en": "The paragraph is about forecasts improving. Better forecasts are right more often. So **accurate** means **correct**.",
+     "why_wrong_id": {
+      "0": "Popularitas nggak dibahas. Yang dibahas kualitas prakiraannya.",
+      "1": "Prakiraan yang rinci belum tentu tepat. Kalimat ini ngebandingin ketepatan.",
+      "2": "**lengthy** (panjang) nggak cocok. Yang dibandingin bukan panjang teksnya."
+     },
+     "why_wrong_en": {
+      "0": "Popularity isn't discussed. Quality is.",
+      "1": "Detailed isn't the same as right. The sentence compares correctness.",
+      "2": "**lengthy** doesn't fit. Text length isn't being compared."
+     },
+     "analogy_id": "Akurat itu kayak panah yang kena pas di tengah sasaran. Bukan panah paling panjang atau paling rame ditonton.",
+     "analogy_en": "Accurate is an arrow in the bullseye. Not the longest arrow, not the most watched one.",
+     "tip_id": "Perbandingan **as … as** ngebandingin kualitas yang sama di dua waktu. Cari kualitas itu di konteks.",
+     "tip_en": "An **as … as** comparison sets one quality at two times. Find that quality in context."
+    }
+   ]
+  },
+  {
+   "section": "reading",
+   "title": "Why We Put Things Off",
+   "body": "Almost every student has experienced it: an important assignment is due, yet hours pass while the student checks messages, cleans the room, or watches videos. This habit of delaying tasks is called procrastination, and researchers say it is far more common than many people **assume**. Surveys suggest that a large majority of university students procrastinate regularly.\n\nMany people believe procrastination is simply a problem of laziness or poor time management. Psychologists, however, increasingly describe it as a problem of managing emotions. When a task feels boring, difficult, or threatening, it creates unpleasant feelings such as anxiety or self-doubt. Putting the task off provides immediate **relief** from these feelings, even though the relief is only temporary.\n\nUnfortunately, the cycle tends to **reinforce** itself. Each time a student escapes an unpleasant task, the brain learns that avoidance feels good, which makes the next delay more likely. Meanwhile, the deadline comes closer, stress increases, and the quality of the final work often suffers.\n\nResearchers have tested several strategies for breaking this cycle. One simple method is to divide a large assignment into small, concrete steps, such as \"write the first paragraph\" rather than \"finish the essay.\" Small steps feel less **daunting**, so starting becomes easier. Another strategy is to remove distractions, for instance by leaving the phone in another room. Some studies also show that students who treat themselves kindly after procrastinating, instead of criticizing themselves harshly, are less likely to delay the next task.\n\nProcrastination may never disappear completely, but understanding its emotional causes can help students take the first step.",
+   "questions": [
+    {
+     "type": "reading",
+     "subtype": "vocabulary",
+     "prompt": "The word **assume** in paragraph 1 is closest in meaning to",
+     "options": [
+      "suppose",
+      "reject",
+      "measure",
+      "remember"
+     ],
+     "correct_index": 0,
+     "rule_tags": [
+      "R-VOCAB"
+     ],
+     "difficulty": 1,
+     "evidence_quote": "researchers say it is far more common than many people assume.",
+     "why_correct_id": "Kalimatnya ngebandingin kenyataan, yang ternyata umum banget, sama anggapan banyak orang. **than many people suppose**, daripada yang diduga banyak orang, pas. Jadi **assume** artinya **suppose**.",
+     "why_correct_en": "The sentence compares reality, very common, with what people believe. **than many people suppose** fits. So **assume** means **suppose**.",
+     "why_wrong_id": {
+      "1": "**reject** (nolak) nggak cocok. Orang nggak nolak seberapa umum kebiasaan menunda.",
+      "2": "Yang ngukur itu peneliti lewat survei, bukan banyak orang.",
+      "3": "**remember** (ngingat) nggak masuk akal. Orang nggak bisa ngingat seberapa umum sesuatu yang mereka sendiri nggak tahu."
+     },
+     "why_wrong_en": {
+      "1": "**reject** doesn't fit. People don't reject how common it is.",
+      "2": "Researchers measure with surveys, not many people.",
+      "3": "**remember** makes no sense here."
+     },
+     "analogy_id": "**More common than people assume** itu kayak gunung es. Jauh lebih gede dari yang dikira orang.",
+     "analogy_en": "**More common than people assume** is an iceberg. Much bigger than people think.",
+     "tip_id": "Pola **more … than people ___** biasanya diisi kata kerja mikir: **think**, **believe**, **assume**, **suppose**.",
+     "tip_en": "**more … than people ___** usually takes a thinking verb: **think**, **believe**, **assume**, **suppose**."
+    },
+    {
+     "type": "reading",
+     "subtype": "vocabulary",
+     "prompt": "The word **relief** in paragraph 2 is closest in meaning to",
+     "options": [
+      "punishment",
+      "comfort",
+      "excitement",
+      "information"
+     ],
+     "correct_index": 1,
+     "rule_tags": [
+      "R-VOCAB"
+     ],
+     "difficulty": 2,
+     "evidence_quote": "Putting the task off provides immediate relief from these feelings, even though the relief is only temporary.",
+     "why_correct_id": "**these feelings** nunjuk ke perasaan nggak enak, kayak cemas dan ragu sama diri sendiri. Nunda tugas ngasih sesuatu DARI perasaan itu, yaitu rasa lega. Jadi **relief** artinya **comfort**.",
+     "why_correct_en": "**these feelings** are unpleasant ones, like anxiety and self-doubt. Delaying gives a release FROM them. So **relief** means **comfort**.",
+     "why_wrong_id": {
+      "0": "Nunda nggak langsung ngasih hukuman. Malah kerasa enak sebentar.",
+      "2": "**excitement** (kegirangan) kelebayan. Yang dirasain cuma lepas dari rasa nggak enak.",
+      "3": "**information** nggak masuk akal di kalimat soal perasaan."
+     },
+     "why_wrong_en": {
+      "0": "Delaying doesn't punish you right away. It feels good for a moment.",
+      "2": "**excitement** is too strong. It's just escaping a bad feeling.",
+      "3": "**information** doesn't fit a sentence about feelings."
+     },
+     "analogy_id": "Lega pas nunda itu kayak naruh tas berat sebentar. Bahu kerasa ringan, tapi tasnya tetap harus dibawa nanti.",
+     "analogy_en": "The relief of delaying is like setting down a heavy bag. Lighter shoulders, but you still carry it later.",
+     "tip_id": "Pola **X from these feelings**? X itu sesuatu yang ngebebasin dari perasaan itu.",
+     "tip_en": "**X from these feelings**? X is something that frees you from them."
+    },
+    {
+     "type": "reading",
+     "subtype": "vocabulary",
+     "prompt": "The word **reinforce** in paragraph 3 is closest in meaning to",
+     "options": [
+      "weaken",
+      "explain",
+      "strengthen",
+      "repeat"
+     ],
+     "correct_index": 2,
+     "rule_tags": [
+      "R-VOCAB"
+     ],
+     "difficulty": 2,
+     "evidence_quote": "Unfortunately, the cycle tends to reinforce itself.",
+     "why_correct_id": "Kalimat-kalimat berikutnya ngejelasin tiap penundaan bikin penundaan berikutnya **more likely**, makin mungkin. Siklus yang makin kuat tiap kali kejadian berarti nguatin dirinya sendiri. Jadi **reinforce** artinya **strengthen**.",
+     "why_correct_en": "The next sentences say each delay makes the next **more likely**. A cycle that grows stronger each round strengthens itself. So **reinforce** means **strengthen**.",
+     "why_wrong_id": {
+      "0": "Kebalikannya. Siklusnya malah makin kuat, **more likely**.",
+      "1": "Siklus nggak ngejelasin dirinya sendiri.",
+      "3": "**repeat** (ngulang) mirip, tapi nggak nangkep makna makin kuat yang ditekenin teks."
+     },
+     "why_wrong_en": {
+      "0": "The opposite. The cycle gets stronger, **more likely**.",
+      "1": "A cycle doesn't explain itself.",
+      "3": "**repeat** is close, but it misses the getting stronger idea the text stresses."
+     },
+     "analogy_id": "Kayak jalan setapak di rumput. Makin sering dilewatin, makin jelas jalannya, dan makin gampang dilewatin lagi.",
+     "analogy_en": "Like a path across grass. The more it's walked, the clearer it gets, and the easier to walk again.",
+     "tip_id": "Ada dua opsi mirip kayak **strengthen** dan **repeat**? Pilih yang paling cocok sama penjelasan di kalimat sesudahnya.",
+     "tip_en": "Two close options, like **strengthen** and **repeat**? Pick the one matching the next sentence's explanation."
+    },
+    {
+     "type": "reading",
+     "subtype": "vocabulary",
+     "prompt": "The word **daunting** in paragraph 4 is closest in meaning to",
+     "options": [
+      "boring",
+      "expensive",
+      "useful",
+      "intimidating"
+     ],
+     "correct_index": 3,
+     "rule_tags": [
+      "R-VOCAB"
+     ],
+     "difficulty": 2,
+     "evidence_quote": "Small steps feel less daunting, so starting becomes easier.",
+     "why_correct_id": "**so starting becomes easier** itu akibatnya. Langkah kecil kerasa kurang **daunting**, jadi lebih gampang dimulai. Yang bikin susah mulai itu rasa takut atau gentar. Jadi **daunting** artinya **intimidating**.",
+     "why_correct_en": "**so starting becomes easier** is the result. Small steps feel less **daunting**, so they're easier to begin. What stops a start is feeling overwhelmed. So **daunting** means **intimidating**.",
+     "why_wrong_id": {
+      "0": "**boring** memang disebut di paragraf 2. Tapi di sini konteksnya tugas gede yang kerasa berat buat dimulai.",
+      "1": "Biaya nggak dibahas.",
+      "2": "Kurang **useful** nggak bakal bikin mulai jadi lebih gampang."
+     },
+     "why_wrong_en": {
+      "0": "**boring** appears in paragraph 2, but here it's about a big task that feels hard to start.",
+      "1": "Cost isn't discussed.",
+      "2": "Less **useful** wouldn't make starting easier."
+     },
+     "analogy_id": "Tugas gede itu kayak gunung dilihat dari kaki bukit: bikin gentar. Langkah kecil itu anak tangga pertama: santai aja.",
+     "analogy_en": "A big task is a mountain seen from the bottom: intimidating. A small step is the first stair: no big deal.",
+     "tip_id": "Kata **so** nunjukin akibat. Pakai akibatnya buat nebak arti kata sebelumnya.",
+     "tip_en": "**So** shows a result. Use the result to work out the word before it."
+    },
+    {
+     "type": "reading",
+     "subtype": "inference",
+     "prompt": "Which of the following would the author most likely recommend to a student who keeps delaying an essay?",
+     "options": [
+      "Criticize himself strongly every time he delays.",
+      "Wait until he feels completely ready to start.",
+      "Begin by writing just one paragraph with his phone in another room.",
+      "Spend more time checking messages to reduce stress."
+     ],
+     "correct_index": 2,
+     "rule_tags": [
+      "R-INFER"
+     ],
+     "difficulty": 3,
+     "evidence_quote": "One simple method is to divide a large assignment into small, concrete steps, such as \"write the first paragraph\" rather than \"finish the essay.\"",
+     "why_correct_id": "Paragraf 4 ngasih strategi yang udah diuji peneliti. Pecah tugas jadi langkah kecil, kayak **write the first paragraph**, dan jauhin gangguan, kayak **leaving the phone in another room**. Opsi C ngegabungin dua strategi itu. Nggak ditulis persis buat esai, tapi sarannya jelas tersirat.",
+     "why_correct_en": "Paragraph 4 lists tested strategies: small steps, like **write the first paragraph**, and removing distractions, like **leaving the phone in another room**. Option C combines both. Not stated word for word, but clearly implied.",
+     "why_wrong_id": {
+      "0": "Teks malah bilang baik ke diri sendiri lebih ampuh daripada ngritik keras.",
+      "1": "Nunggu sampai siap itu juga bentuk nunda. Teks nyaranin langkah kecil biar bisa langsung mulai.",
+      "3": "Ngecek pesan disebut di paragraf 1 sebagai contoh kebiasaan nunda, bukan solusi."
+     },
+     "why_wrong_en": {
+      "0": "The text says self-kindness works better than harsh self-criticism.",
+      "1": "Waiting until ready is procrastinating too. The text suggests small steps to start now.",
+      "3": "Checking messages is an example of procrastinating in paragraph 1, not a fix."
+     },
+     "analogy_id": "Nyimpulin saran itu kayak pakai resep di dapur baru. Bahannya ada di teks, kamu tinggal nyocokin sama masalahnya.",
+     "analogy_en": "Inferring advice is using a recipe in a new kitchen. The ingredients are in the text, you match them to the problem.",
+     "tip_id": "Soal **would the author recommend**? Cari paragraf solusinya, terus pilih opsi yang pakai strategi dari situ.",
+     "tip_en": "**Would the author recommend**? Find the solutions paragraph and pick the option that uses its strategies."
+    }
+   ]
+  }
+ ]
+}

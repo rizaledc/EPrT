@@ -1,0 +1,390 @@
+{
+ "rumah": "contoh",
+ "items": [
+  {
+   "section": "listening",
+   "part": "A",
+   "script": [
+    {
+     "speaker": "M1",
+     "text": "Have you finished reading the novel for our literature class?"
+    },
+    {
+     "speaker": "W1",
+     "text": "I'm only halfway through, and the discussion is tomorrow!"
+    }
+   ],
+   "questions": [
+    {
+     "type": "listening_short",
+     "prompt": "What does the woman mean?",
+     "options": [
+      "She has not finished the novel yet.",
+      "She enjoyed the second half of the novel.",
+      "The discussion has been moved to next week.",
+      "She will lead the discussion tomorrow."
+     ],
+     "correct_index": 0,
+     "rule_tags": [
+      "L-SECOND"
+     ],
+     "difficulty": 1,
+     "key_sentence": "I'm only halfway through, and the discussion is tomorrow!",
+     "key_translation_id": "Saya baru setengah jalan, padahal diskusinya besok!",
+     "why_correct_id": "Fokus ke kalimat si wanita, orang kedua. Dia bilang **only halfway through**, artinya baru baca setengah. Jadi novelnya belum kelar dia baca.",
+     "why_correct_en": "Focus on the woman, the second speaker. She says **only halfway through**, so she's read just half. She hasn't finished the novel.",
+     "why_wrong_id": {
+      "1": "Dia baru setengah jalan, jadi paruh kedua malah belum dibaca. Kata **half** di sini cuma jebakan yang mirip.",
+      "2": "Dia justru bilang diskusinya besok. Nggak ada yang dipindah kok.",
+      "3": "Dia nggak pernah bilang bakal mimpin diskusi."
+     },
+     "why_wrong_en": {
+      "1": "She's only halfway, so she hasn't read the second half. **Half** is just a look-alike trap.",
+      "2": "She says the discussion is tomorrow. Nothing has moved.",
+      "3": "She never says she'll lead it."
+     },
+     "analogy_id": "**Halfway through** itu kayak naik gunung dan baru nyampe pos tengah. Puncaknya masih jauh.",
+     "analogy_en": "**Halfway through** is like reaching the middle camp on a mountain. The summit is still far away.",
+     "tip_id": "Kata **only** sering berarti belum cukup. Dengerin nada panik di kalimat kedua.",
+     "tip_en": "**Only** often means not enough yet. Listen for worry in the second line."
+    }
+   ]
+  },
+  {
+   "section": "listening",
+   "part": "A",
+   "script": [
+    {
+     "speaker": "W2",
+     "text": "This printer keeps jamming every time I try to print my essay."
+    },
+    {
+     "speaker": "M2",
+     "text": "Why don't you email it to me? Mine works fine."
+    }
+   ],
+   "questions": [
+    {
+     "type": "listening_short",
+     "prompt": "What does the man suggest?",
+     "options": [
+      "Fixing the printer together.",
+      "Writing a shorter essay.",
+      "Printing the essay on his printer.",
+      "Buying new paper for the printer."
+     ],
+     "correct_index": 2,
+     "rule_tags": [
+      "L-SUGGEST",
+      "L-SECOND"
+     ],
+     "difficulty": 1,
+     "key_sentence": "Why don't you email it to me? Mine works fine.",
+     "key_translation_id": "Kenapa tidak kamu kirim lewat email ke saya? Punya saya berfungsi baik.",
+     "why_correct_id": "**Why don't you…?** itu bentuk saran, bukan nanya beneran. Si pria minta esainya dikirim ke dia, terus bilang **Mine works fine**, maksudnya printer dia lancar. Jadi esainya dicetak pakai printer si pria.",
+     "why_correct_en": "**Why don't you…?** is a suggestion. He asks her to email the essay and says **Mine works fine**, meaning his printer. So it gets printed on his printer.",
+     "why_wrong_id": {
+      "0": "Dia nggak nawarin benerin printer. Dia nawarin pakai printernya sendiri.",
+      "1": "Panjang esai sama sekali nggak dibahas.",
+      "3": "Kertas nggak disebut. Masalahnya printer yang macet."
+     },
+     "why_wrong_en": {
+      "0": "He doesn't offer to fix it. He offers his own printer.",
+      "1": "The essay's length never comes up.",
+      "3": "Paper isn't mentioned. The problem is a jammed printer."
+     },
+     "analogy_id": "**Mine** itu kayak bilang pakai payungku aja. Kata ganti milik nunjukin siapa yang nolong.",
+     "analogy_en": "**Mine** is like saying use my umbrella. The possessive shows who's helping.",
+     "tip_id": "Perhatiin kata milik kayak **mine** atau **yours** di kalimat kedua. Biasanya itu kunci siapa ngapain.",
+     "tip_en": "Watch for possessives like **mine** or **yours** in the second line. They show who does what."
+    }
+   ]
+  },
+  {
+   "section": "listening",
+   "part": "A",
+   "script": [
+    {
+     "speaker": "M1",
+     "text": "I heard the campus gym is free for students this month."
+    },
+    {
+     "speaker": "W2",
+     "text": "Tell me about it! I've been there every day this week."
+    }
+   ],
+   "questions": [
+    {
+     "type": "listening_short",
+     "prompt": "What does the woman mean?",
+     "options": [
+      "She wants the man to explain the offer.",
+      "She already knows and has been using the gym.",
+      "She has not been to the gym this week.",
+      "She thinks the gym is too expensive."
+     ],
+     "correct_index": 1,
+     "rule_tags": [
+      "L-IDIOM",
+      "L-SECOND"
+     ],
+     "difficulty": 2,
+     "key_sentence": "Tell me about it! I've been there every day this week.",
+     "key_translation_id": "Iya, betul sekali! Saya sudah ke sana setiap hari minggu ini.",
+     "why_correct_id": "**Tell me about it!** itu idiom yang artinya bener banget, aku tahu. Bukan minta diceritain. Kalimat berikutnya nguatin: dia udah ke gym tiap hari minggu ini. Jadi dia udah tahu dan udah pakai gym-nya.",
+     "why_correct_en": "**Tell me about it!** is an idiom meaning I know, totally. It's not a request for details. Next she says she's been every day this week.",
+     "why_wrong_id": {
+      "0": "Ini arti harfiah **tell me about it**. Dalam obrolan, idiom ini artinya setuju atau udah tahu. Jebakan kata yang sama, nih.",
+      "2": "Kebalikan dari audio. Dia malah ke gym tiap hari.",
+      "3": "Gym-nya gratis bulan ini, dan dia nggak ngeluh soal harga."
+     },
+     "why_wrong_en": {
+      "0": "That's the literal meaning. In conversation the idiom means I know. Classic same-word trap.",
+      "2": "The opposite. She's been every day.",
+      "3": "The gym is free this month, and she doesn't complain about cost."
+     },
+     "analogy_id": "Idiom itu kayak kode rahasia antar teman. **Tell me about it** bukan minta cerita, tapi aku juga ngalamin.",
+     "analogy_en": "Idioms are secret codes between friends. **Tell me about it** isn't asking for a story. It means I know exactly.",
+     "tip_id": "Ada opsi yang kedengeran kayak arti harfiah idiom? Hati-hati, biasanya itu jebakan.",
+     "tip_en": "If an option sounds like the idiom's literal meaning, be careful. It's usually the trap."
+    }
+   ]
+  },
+  {
+   "section": "structure",
+   "type": "structure_completion",
+   "prompt": "Bamboo grows ______ than most other plants, sometimes adding nearly a meter in a single day.",
+   "options": [
+    "fast",
+    "fastest",
+    "more fast",
+    "faster"
+   ],
+   "correct_index": 3,
+   "rule_tags": [
+    "S-COMPARE"
+   ],
+   "difficulty": 1,
+   "why_correct_id": "Lirik kata setelah rumpang: ada **than**. Ini tanda comparative (bentuk perbandingan lebih) antara dua hal. Kata **fast** itu pendek, jadi tinggal tambah -er: **faster**.",
+   "why_correct_en": "Look right after the blank: **than**. That signals a comparative. **Fast** is a short word, so it just takes -er: **faster**.",
+   "why_wrong_id": {
+    "0": "**fast** itu bentuk biasa. Nggak bisa dipasangin sama **than**.",
+    "1": "**fastest** itu superlative (bentuk paling). Temannya **the**, bukan **than**.",
+    "2": "Kata pendek satu suku kata nggak pakai **more**. Jadi **more fast** salah."
+   },
+   "why_wrong_en": {
+    "0": "Plain **fast** can't pair with **than**.",
+    "1": "**fastest** is a superlative. It goes with **the**, not **than**.",
+    "2": "One-syllable words don't use **more**, so **more fast** is wrong."
+   },
+   "analogy_id": "Comparative itu kayak adu lari dua orang. **Than** itu garis finis yang nyebutin siapa lawannya.",
+   "analogy_en": "A comparative is a two-runner race. **Than** is the finish line naming the rival.",
+   "tip_id": "Lihat **than**? Langsung cari bentuk -er atau more + adjective (kata sifat).",
+   "tip_en": "See **than**? Look for -er or more + adjective."
+  },
+  {
+   "section": "structure",
+   "type": "structure_completion",
+   "prompt": "The committee ______ its decision after the final meeting next Monday.",
+   "options": [
+    "announced",
+    "will announce",
+    "has announced",
+    "announcing"
+   ],
+   "correct_index": 1,
+   "rule_tags": [
+    "S-TENSE"
+   ],
+   "difficulty": 1,
+   "why_correct_id": "Cari dulu penanda waktunya: **next Monday**, Senin depan. Berarti kejadiannya di masa depan. Tense (bentuk waktu) masa depan itu will + V1: **will announce**.",
+   "why_correct_en": "Find the time marker first: **next Monday**. That's the future. Future tense is will + base verb: **will announce**.",
+   "why_wrong_id": {
+    "0": "**announced** itu bentuk lampau. Bentrok sama **next Monday**.",
+    "2": "**has announced** (present perfect) artinya udah kejadian. Nggak cocok buat masa depan.",
+    "3": "**announcing** tanpa auxiliary (kata kerja bantu) belum bisa jadi kata kerja utama."
+   },
+   "why_wrong_en": {
+    "0": "**announced** is past tense. It clashes with **next Monday**.",
+    "2": "**has announced** means it already happened. It doesn't fit the future.",
+    "3": "**announcing** with no helper verb can't be the main verb."
+   },
+   "analogy_id": "Penanda waktu itu kayak kalender di dinding. Cek tanggalnya dulu, baru pilih bentuk kata kerja.",
+   "analogy_en": "Time markers are the wall calendar. Check the date first, then pick the verb form.",
+   "tip_id": "Sebelum milih tense, cari kata waktu dulu: **yesterday**, **next**, **since**, **already**.",
+   "tip_en": "Before picking a tense, find the time word: **yesterday**, **next**, **since**, **already**."
+  },
+  {
+   "section": "structure",
+   "type": "structure_error",
+   "prompt": "Each of the {A}volunteers{/A} {B}were{/B} given a {C}map{/C} of the {D}area{/D}.",
+   "options": [
+    "volunteers",
+    "were",
+    "map",
+    "area"
+   ],
+   "correct_index": 1,
+   "rule_tags": [
+    "S-AGREE-EACH",
+    "S-AGREE-OF"
+   ],
+   "difficulty": 2,
+   "why_correct_id": "Pelaku sebenarnya itu **Each**, bukan **volunteers**. **Each** selalu tunggal, dan frasa **of the volunteers** nggak ngubah itu. Jadi kata kerjanya harus tunggal juga: **was** given.",
+   "why_correct_en": "The real subject is **Each**, not **volunteers**. **Each** is always singular, and **of the volunteers** doesn't change that. So the verb must be singular: **was** given.",
+   "why_wrong_id": {
+    "0": "Setelah **each of the** memang pakai noun (kata benda) jamak. Jadi **volunteers** aman.",
+    "2": "**a map** itu noun tunggal yang pas setelah article (kata sandang) **a**.",
+    "3": "**the area** pas jadi object setelah **of**."
+   },
+   "why_wrong_en": {
+    "0": "**each of the** is correctly followed by a plural noun, so **volunteers** is fine.",
+    "2": "**a map** is a correct singular noun after **a**.",
+    "3": "**the area** fits fine after **of**."
+   },
+   "analogy_id": "**Each** itu satu kursi sopir. **Of the volunteers** cuma daftar penumpang di belakang. Yang nyetir tetap satu orang.",
+   "analogy_en": "**Each** is the one driver's seat. **Of the volunteers** is just the passenger list. Only one person is driving.",
+   "tip_id": "Coret dulu frasa **of …**, terus cocokin kata kerjanya sama kata sebelum **of**.",
+   "tip_en": "Cross out the **of …** phrase, then match the verb to the word before **of**."
+  },
+  {
+   "section": "structure",
+   "type": "structure_error",
+   "prompt": "The museum's new exhibit {A}has attracted{/A} {B}thousands{/B} of visitors {C}since{/C} it {D}open{/D} in May.",
+   "options": [
+    "has attracted",
+    "thousands",
+    "since",
+    "open"
+   ],
+   "correct_index": 3,
+   "rule_tags": [
+    "S-VFORM",
+    "S-TENSE"
+   ],
+   "difficulty": 2,
+   "why_correct_id": "**in May** nunjuk waktu lampau yang spesifik. Habis **since**, kejadian titik awalnya pakai simple past (V2). Jadi **open** harus jadi **opened**.",
+   "why_correct_en": "**in May** is a specific past time. After **since**, the starting event takes the simple past (V2). So **open** should be **opened**.",
+   "why_wrong_id": {
+    "0": "**has attracted** (present perfect) pas banget sama **since**. Dampaknya masih lanjut sampai sekarang.",
+    "1": "**thousands of visitors** itu pola yang aman.",
+    "2": "**since** pas buat nandain titik awal waktu bareng present perfect."
+   },
+   "why_wrong_en": {
+    "0": "**has attracted** (present perfect) pairs nicely with **since**.",
+    "1": "**thousands of visitors** is correct.",
+    "2": "**since** correctly marks the starting point with the present perfect."
+   },
+   "analogy_id": "**Since** itu pita garis start. Pitanya dipasang di masa lalu (**opened**), tapi pelarinya masih lari sampai sekarang (**has attracted**).",
+   "analogy_en": "**Since** is the starting ribbon, set in the past (**opened**), while the runners keep going to now (**has attracted**).",
+   "tip_id": "Hafalin polanya: present perfect + since + simple past.",
+   "tip_en": "Remember the pattern: present perfect + since + simple past."
+  },
+  {
+   "section": "reading",
+   "title": "The Return of the Bicycle",
+   "body": "In many cities around the world, bicycles are returning to streets that were designed almost entirely for cars. City governments have discovered that encouraging cycling can solve several problems at once.\n\nThe first advantage is space. A single car lane can carry far more people per hour when it is turned into a protected bicycle lane, because bicycles are small and travel close together. Cities that once struggled with traffic jams have found that adding cycle lanes keeps people moving without the expense of building new roads. Some have even closed busy streets to cars on weekends.\n\nHealth is another reason for the change. Regular cycling strengthens the heart and lungs, and people who ride to work tend to take fewer sick days. Because bicycles produce no exhaust, **they** also improve air quality for everyone, including people who never ride.\n\nBike-sharing programs have made cycling even more **accessible**. Users can unlock a bicycle with a phone, ride it across town, and leave it at another station. Visitors and residents who do not own a bicycle can therefore travel cheaply and easily.\n\nNot everyone welcomed the change at first. Some shop owners worried that removing parking spaces would reduce the number of customers. However, studies in several cities found that cyclists visit local shops more often than drivers do, even if they spend slightly less on each visit. Over time, many business owners have become supporters of cycle lanes.\n\nThe bicycle, an invention more than two hundred years old, is once again shaping the future of city life.",
+   "questions": [
+    {
+     "type": "reading",
+     "subtype": "main_idea",
+     "prompt": "What is the main idea of the passage?",
+     "options": [
+      "Bicycles are expensive to maintain.",
+      "Car lanes are wider than bicycle lanes.",
+      "Cities are encouraging cycling because it brings many benefits.",
+      "Shop owners prefer customers who drive."
+     ],
+     "correct_index": 2,
+     "rule_tags": [
+      "R-MAIN"
+     ],
+     "difficulty": 1,
+     "evidence_quote": "City governments have discovered that encouraging cycling can solve several problems at once.",
+     "why_correct_id": "Paragraf 1 bilang kota-kota ngedorong orang bersepeda karena bisa beresin beberapa masalah sekaligus. Paragraf berikutnya ngerinci manfaatnya: ruang, kesehatan, bike-sharing, dan dampak ke toko. Jadi ide pokoknya kota ngedorong bersepeda karena banyak manfaatnya.",
+     "why_correct_en": "Paragraph 1 says cities encourage cycling because it solves several problems at once. The later paragraphs list those benefits: space, health, bike-sharing, shops. That's the main idea.",
+     "why_wrong_id": {
+      "0": "Biaya perawatan sepeda nggak dibahas sama sekali.",
+      "1": "Lebar jalur nggak dibandingin. Yang dibahas jumlah orang per jam.",
+      "3": "Kebalikan dari teks. Pesepeda justru lebih sering belanja di toko lokal."
+     },
+     "why_wrong_en": {
+      "0": "Maintenance costs never come up.",
+      "1": "Lane width isn't compared. People per hour is.",
+      "3": "The opposite. Cyclists visit local shops more often."
+     },
+     "analogy_id": "Main idea itu tujuan akhir perjalanan. Detail itu halte-halte yang dilewatin.",
+     "analogy_en": "The main idea is the journey's destination. Details are the stops along the way.",
+     "tip_id": "Cari kalimat yang ngasih janji isi teks. **several problems at once** artinya masalah-masalah itu bakal disebut satu-satu.",
+     "tip_en": "Look for the sentence that promises the content. **several problems at once** means they'll be listed."
+    },
+    {
+     "type": "reading",
+     "subtype": "reference",
+     "prompt": "The word **they** in paragraph 3 refers to",
+     "options": [
+      "bicycles",
+      "people",
+      "sick days",
+      "the heart and lungs"
+     ],
+     "correct_index": 0,
+     "rule_tags": [
+      "R-REF"
+     ],
+     "difficulty": 1,
+     "evidence_quote": "Because bicycles produce no exhaust, they also improve air quality for everyone, including people who never ride.",
+     "why_correct_id": "Kalimatnya: **Because bicycles produce no exhaust, they also improve air quality**. Yang nggak ngeluarin asap dan bikin udara bersih itu sepeda. Coba ganti: **bicycles also improve air quality**. Pas, kan?",
+     "why_correct_en": "The sentence: **Because bicycles produce no exhaust, they also improve air quality**. What makes no exhaust and cleans the air? Bicycles. Swap it in: **bicycles also improve air quality**. It fits.",
+     "why_wrong_id": {
+      "1": "**people** muncul di akhir kalimat sebagai yang ikut ngerasain udara bersih. Bukan penyebabnya.",
+      "2": "**sick days** (hari sakit) nggak mungkin memperbaiki udara.",
+      "3": "Jantung dan paru-paru ada di kalimat sebelumnya. Mereka nggak bikin udara kota jadi bersih."
+     },
+     "why_wrong_en": {
+      "1": "**people** shows up later as those who benefit, not the cause.",
+      "2": "**sick days** can't improve air quality.",
+      "3": "The heart and lungs are in the previous sentence. They don't clean city air."
+     },
+     "analogy_id": "Pronoun (kata ganti) **they** itu anak panah yang nunjuk ke belakang. Ikutin arahnya ke noun jamak terdekat yang masuk akal.",
+     "analogy_en": "**They** is an arrow pointing back. Follow it to the nearest plural noun that makes sense.",
+     "tip_id": "Pronoun di clause (anak kalimat) induk sering nunjuk ke pelaku clause **because** di depannya.",
+     "tip_en": "A pronoun in the main clause often points to the subject of the **because** clause before it."
+    },
+    {
+     "type": "reading",
+     "subtype": "vocabulary",
+     "prompt": "The word **accessible** in paragraph 4 is closest in meaning to",
+     "options": [
+      "dangerous",
+      "available",
+      "popular",
+      "modern"
+     ],
+     "correct_index": 1,
+     "rule_tags": [
+      "R-VOCAB"
+     ],
+     "difficulty": 2,
+     "evidence_quote": "Visitors and residents who do not own a bicycle can therefore travel cheaply and easily.",
+     "why_correct_id": "Kalimat sesudahnya ngejelasin: orang yang nggak punya sepeda pun bisa jalan-jalan dengan murah dan gampang. Sesuatu yang bisa dipakai siapa aja dengan mudah berarti tersedia. Jadi **accessible** ≈ **available**.",
+     "why_correct_en": "The next sentences say even people without bikes can travel cheaply and easily. Something anyone can easily use is available. So **accessible** ≈ **available**.",
+     "why_wrong_id": {
+      "0": "Nggak ada tanda bahaya. Konteksnya justru soal kemudahan.",
+      "2": "**popular** mungkin benar di dunia nyata. Tapi konteksnya nekenin gampang dipakai, bukan banyak penggemar.",
+      "3": "Ponsel memang disebut, tapi kata ini ngegambarin kemudahan, bukan kemodernan."
+     },
+     "why_wrong_en": {
+      "0": "No sign of danger. The context is about ease.",
+      "2": "**popular** may be true in real life, but the context stresses ease of use, not fans.",
+      "3": "Phones are mentioned, but the word describes ease, not being modern."
+     },
+     "analogy_id": "Konteks itu kayak lampu di ruangan gelap. Kalimat sebelum dan sesudah nerangin arti kata yang belum kamu kenal.",
+     "analogy_en": "Context is the light in a dark room. The sentences around a word reveal its meaning.",
+     "tip_id": "Jangan pilih arti yang cuma benar di dunia nyata. Pilih yang cocok sama kalimat di teks.",
+     "tip_en": "Don't pick what's only true in real life. Pick what fits the sentence in the text."
+    }
+   ]
+  }
+ ]
+}

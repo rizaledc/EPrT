@@ -1,0 +1,1137 @@
+{
+ "rumah": "r09",
+ "material_id": "Selamat datang di Level Lanjut! Hari kesembilan kita belajar membedakan **kata sambung** dan **kata depan**. Di Listening kita membongkar kalimat **andai** (*conditional* dan *wish*), dan di Reading kita membaca **cara penulis menyusun paragraf**.\n\n=== listening\n## Conditional dan wish: artinya sering kebalikan\nKalimat *If I had known…, I would have…* dan *I wish I…* menceritakan hal yang **tidak** terjadi. *If I'd known they'd sell out, I would have bought them* artinya dia **tidak** tahu dan **tidak** beli. *I wish I didn't have an exam* artinya dia **punya** ujian. Jawaban yang benar hampir selalu menyebut kenyataannya, bukan andainya.\nPerumpamaan: kalimat andai itu seperti foto yang diedit. Kamu harus membayangkan foto aslinya, karena soal menanyakan kenyataan.\n> If I had + V3, I would have + V3 = kejadian lampau yang TIDAK terjadi · I wish + V2 = kenyataan sekarang kebalikannya\n✓ Balik maknanya: had known → tidak tahu, wish I didn't → memang punya\n✓ Cari opsi yang menyebut kenyataan\n✕ Memilih opsi yang mengulang isi andai sebagai fakta\n✕ Mengira *would have* berarti sudah terjadi\n\n=== structure\n## Conjunction vs preposition\n[[conjunction]] (kata sambung) seperti *although, because, while, until, unless* diikuti **clause** (pelaku + kata kerja). [[preposition]] (kata depan) seperti *despite, in spite of, because of, due to, during* diikuti **kata benda** atau V-ing. Satu [[adverb clause|adverb-clause]] (anak kalimat keterangan) cukup punya satu kata sambung. Dalam anak kalimat waktu dan syarat (*when, until, unless, if*), masa depan ditulis dengan **present**, bukan *will*.\nPerumpamaan: conjunction itu gerbong penarik yang butuh kereta lengkap (pelaku + mesin), preposition itu troli yang cukup membawa satu barang (kata benda).\n> although / because / while + S + V · despite / because of / during + noun · unless/when + present\n✓ **Although** it rained, we went out.\n✓ **Despite** the rain, we went out.\n✓ **Unless** you **finish** today…\n✕ **Despite** it rained…\n✕ **Because** the rain…\n✕ **When** the guests arrived, **and** the host greeted them.\n\n=== reading\n## Organisasi paragraf\nSoal organisasi bertanya **bagaimana** teks disusun: masalah lalu solusi, sebab lalu akibat, urutan waktu, atau perbandingan dua hal. Soal fungsi paragraf bertanya **peran** satu paragraf: memberi contoh, menjelaskan sebab, atau membandingkan. Petunjuknya ada di kalimat pertama tiap paragraf dan kata penghubung seperti *however, by contrast, as a result, finally*.\nPerumpamaan: organisasi teks itu seperti denah gedung. Kamu tidak perlu menghafal semua barang, cukup tahu ruang mana dipakai untuk apa.\n> Kalimat pertama tiap paragraf = label ruangan · kata penghubung = pintu antarruangan\n✓ Skim kalimat pertama semua paragraf sebelum menjawab soal organisasi\n✓ *by contrast, while, however* = perbandingan · *as a result, so* = akibat\n✕ Memilih pola yang hanya cocok untuk satu paragraf\n✕ Menyamakan contoh dengan gagasan utama",
+ "material_en": "Welcome to the Advanced Level! On day nine we learn to tell **conjunctions** from **prepositions**. In Listening we unpack **what-if** sentences (*conditionals* and *wish*), and in Reading we look at **how writers organize paragraphs**.\n\n=== listening\n## Conditionals and wish: the meaning is often reversed\n*If I had known…, I would have…* and *I wish I…* describe things that did **not** happen. *If I'd known they'd sell out, I would have bought them* means he did **not** know and did **not** buy. *I wish I didn't have an exam* means she **does** have one. The right answer almost always states the reality, not the wish.\nAnalogy: a what-if sentence is an edited photo. Picture the original, because the question asks about reality.\n> If I had + V3, I would have + V3 = a past event that did NOT happen · I wish + V2 = the present reality is the opposite\n✓ Flip the meaning: had known → didn't know, wish I didn't → does have\n✓ Pick the option that states reality\n✕ Picking an option that repeats the wish as a fact\n✕ Thinking *would have* means it happened\n\n=== structure\n## Conjunctions vs prepositions\nA [[conjunction]] like *although, because, while, until, unless* is followed by a **clause** (subject + verb). A [[preposition]] like *despite, in spite of, because of, due to, during* is followed by a **noun** or V-ing. One [[adverb clause|adverb-clause]] needs only one connector. In time and condition clauses (*when, until, unless, if*), the future is written in the **present**, not with *will*.\nAnalogy: a conjunction is a locomotive that needs a full train (subject + engine); a preposition is a trolley that carries one item (a noun).\n> although / because / while + S + V · despite / because of / during + noun · unless/when + present\n✓ **Although** it rained, we went out.\n✓ **Despite** the rain, we went out.\n✓ **Unless** you **finish** today…\n✕ **Despite** it rained…\n✕ **Because** the rain…\n✕ **When** the guests arrived, **and** the host greeted them.\n\n=== reading\n## Paragraph organization\nOrganization questions ask **how** a passage is built: problem then solution, cause then effect, time order, or a comparison of two things. Paragraph-function questions ask what **role** one paragraph plays: giving an example, explaining a cause, or comparing. Clues sit in each paragraph's first sentence and in linking words like *however, by contrast, as a result, finally*.\nAnalogy: a passage's organization is a floor plan. You don't need to memorize every object, just what each room is for.\n> First sentence of each paragraph = room label · linking words = doors between rooms\n✓ Skim every first sentence before answering organization questions\n✓ *by contrast, while, however* = comparison · *as a result, so* = effect\n✕ Picking a pattern that fits only one paragraph\n✕ Mistaking an example for the main idea",
+ "items": [
+  {
+   "section": "listening",
+   "part": "A",
+   "script": [
+    {
+     "speaker": "W1",
+     "text": "Did you manage to get tickets for the jazz concert on Saturday?"
+    },
+    {
+     "speaker": "M1",
+     "text": "If I'd known they'd sell out in an hour, I would have bought them on Monday."
+    }
+   ],
+   "questions": [
+    {
+     "type": "listening_short",
+     "prompt": "What does the man mean?",
+     "options": [
+      "He bought the tickets on Monday.",
+      "The concert has been canceled.",
+      "He was not able to get tickets.",
+      "He does not enjoy jazz music."
+     ],
+     "correct_index": 2,
+     "rule_tags": [
+      "L-CONDITION",
+      "L-SECOND"
+     ],
+     "difficulty": 2,
+     "key_sentence": "If I'd known they'd sell out in an hour, I would have bought them on Monday.",
+     "key_translation_id": "Kalau aku tahu tiketnya habis dalam sejam, aku pasti udah beli hari Senin.",
+     "why_correct_id": "Kalimat si pria pakai pola **If I'd known…, I would have…**. Ini cerita andai soal masa lalu yang NGGAK kejadian. Dia nggak tahu tiketnya bakal cepat habis, jadi dia nggak beli. Kenyataannya, dia nggak dapat tiket.",
+     "why_correct_en": "He uses **If I'd known…, I would have…**, a past what-if that did NOT happen. He didn't know they'd sell out, so he didn't buy. In reality, he got no tickets.",
+     "why_wrong_id": {
+      "0": "Ini isi andainya, bukan kenyataan. **would have bought** artinya dia justru nggak beli hari Senin.",
+      "1": "Konsernya nggak disebut batal. Yang habis itu tiketnya.",
+      "3": "Dia nggak ngomongin selera musiknya. Dia malah nyesel nggak dapat tiket."
+     },
+     "why_wrong_en": {
+      "0": "That's the wish, not reality. **would have bought** means he did NOT buy on Monday.",
+      "1": "Nothing says the concert was canceled. The tickets sold out.",
+      "3": "He says nothing about his taste. He actually regrets missing out."
+     },
+     "analogy_id": "Kalimat **If I'd known** itu kayak foto yang diedit. Soal nanyain foto aslinya: dia telat dan nggak kebagian.",
+     "analogy_en": "**If I'd known** is an edited photo. The question asks about the original: he was too late.",
+     "tip_id": "Denger **would have + V3**? Balik maknanya. Yang kejadian justru kebalikannya.",
+     "tip_en": "Hear **would have + V3**? Flip it. What really happened is the opposite.",
+     "liaison_note": "**If I'd known** kedengeran kayak if-aid-nown, huruf d-nya nyaris hilang."
+    }
+   ]
+  },
+  {
+   "section": "listening",
+   "part": "A",
+   "script": [
+    {
+     "speaker": "M1",
+     "text": "Are you coming on the hiking trip this Saturday? Everyone from the club is going."
+    },
+    {
+     "speaker": "W1",
+     "text": "I wish I didn't have a chemistry exam first thing Monday morning."
+    }
+   ],
+   "questions": [
+    {
+     "type": "listening_short",
+     "prompt": "What does the woman imply?",
+     "options": [
+      "She will probably stay home to study.",
+      "Her chemistry exam has been moved to Saturday.",
+      "She has already finished studying for the exam.",
+      "She plans to go hiking on Monday morning."
+     ],
+     "correct_index": 0,
+     "rule_tags": [
+      "L-CONDITION",
+      "L-INFER"
+     ],
+     "difficulty": 2,
+     "key_sentence": "I wish I didn't have a chemistry exam first thing Monday morning.",
+     "key_translation_id": "Andai aku nggak ada ujian kimia Senin pagi-pagi.",
+     "why_correct_id": "**I wish I didn't have…** artinya kenyataannya dia PUNYA ujian kimia Senin pagi. Ujian sepagi itu bikin dia harus belajar di akhir pekan. Jadi dia kemungkinan nggak ikut hiking dan di kamar buat belajar.",
+     "why_correct_en": "**I wish I didn't have…** means she DOES have a chemistry exam early Monday. That means studying over the weekend. So she'll probably stay home and study.",
+     "why_wrong_id": {
+      "1": "Ujiannya tetap Senin pagi, **first thing Monday morning**. Nggak ada yang dipindah ke Sabtu.",
+      "2": "Kalau udah selesai belajar, dia nggak bakal ngeluh pakai **I wish**.",
+      "3": "Senin pagi itu jadwal ujian, bukan jadwal hiking. Hiking-nya hari Sabtu."
+     },
+     "why_wrong_en": {
+      "1": "The exam is still **first thing Monday morning**. Nothing moved to Saturday.",
+      "2": "If she were done studying, she wouldn't complain with **I wish**.",
+      "3": "Monday morning is the exam, not a hike. The hike is on Saturday."
+     },
+     "analogy_id": "**I wish I didn't have** itu kayak ngeliatin tumpukan PR sambil bilang andai nggak ada PR. PR-nya tetap ada, cuy.",
+     "analogy_en": "**I wish I didn't have** is staring at homework and saying if only there were none. The homework is still there.",
+     "tip_id": "**I wish + V2** artinya kenyataan sekarang kebalikannya. Terus tanya: akibatnya buat ajakan itu apa?",
+     "tip_en": "**I wish + V2** means the present reality is the opposite. Then ask what that means for the invitation."
+    }
+   ]
+  },
+  {
+   "section": "listening",
+   "part": "A",
+   "script": [
+    {
+     "speaker": "W1",
+     "text": "This printer is so slow. We've been standing here for twenty minutes."
+    },
+    {
+     "speaker": "M1",
+     "text": "If the library had a second printer, we wouldn't have to wait in this line."
+    }
+   ],
+   "questions": [
+    {
+     "type": "listening_short",
+     "prompt": "What can be inferred from the man's statement?",
+     "options": [
+      "The library is buying a second printer.",
+      "The printer is broken today.",
+      "They will go to another library.",
+      "The library has only one printer."
+     ],
+     "correct_index": 3,
+     "rule_tags": [
+      "L-CONDITION",
+      "L-INFER"
+     ],
+     "difficulty": 3,
+     "key_sentence": "If the library had a second printer, we wouldn't have to wait in this line.",
+     "key_translation_id": "Kalau perpustakaan punya printer kedua, kita nggak perlu antre kayak gini.",
+     "why_correct_id": "**If the library had a second printer** itu andai soal masa sekarang. Kenyataannya kebalikannya: perpustakaan NGGAK punya printer kedua. Jadi cuma ada satu printer, makanya antre.",
+     "why_correct_en": "**If the library had a second printer** is a present what-if. The reality is the opposite: there is NO second printer. So there's only one, hence the line.",
+     "why_wrong_id": {
+      "0": "Nggak ada info perpustakaan mau beli printer. Itu cuma andai.",
+      "1": "Printernya lambat, **so slow**, bukan rusak. Buktinya masih jalan dan orang masih antre.",
+      "2": "Nggak ada rencana pindah ke perpustakaan lain."
+     },
+     "why_wrong_en": {
+      "0": "No purchase is mentioned. It's only a what-if.",
+      "1": "The printer is **so slow**, not broken. It's still working and people are waiting.",
+      "2": "No one plans to go to another library."
+     },
+     "analogy_id": "**If + V2, would + V1** itu kayak ngomong andai kosanku punya dua kamar mandi. Artinya ya kamar mandinya cuma satu.",
+     "analogy_en": "**If + V2, would + V1** is saying if only my flat had two bathrooms. It means there's just one.",
+     "tip_id": "**If + V2** buat masa sekarang? Kenyataannya kebalikan dari isi **if**.",
+     "tip_en": "**If + V2** about now? Reality is the opposite of the **if** part."
+    }
+   ]
+  },
+  {
+   "section": "listening",
+   "part": "A",
+   "script": [
+    {
+     "speaker": "M1",
+     "text": "So did Professor Lee accept your late paper?"
+    },
+    {
+     "speaker": "W2",
+     "text": "She would have, if I'd emailed her before the deadline instead of after it."
+    }
+   ],
+   "questions": [
+    {
+     "type": "listening_short",
+     "prompt": "What does the woman mean?",
+     "options": [
+      "Her paper was accepted after the deadline.",
+      "She did not contact the professor in time.",
+      "The professor never reads her email.",
+      "She will email the professor before the deadline."
+     ],
+     "correct_index": 1,
+     "rule_tags": [
+      "L-CONDITION",
+      "L-SECOND"
+     ],
+     "difficulty": 3,
+     "key_sentence": "She would have, if I'd emailed her before the deadline instead of after it.",
+     "key_translation_id": "Bisa aja diterima, kalau aku email beliau sebelum tenggat, bukan sesudahnya.",
+     "why_correct_id": "**She would have** artinya dosennya bakal nerima, TAPI itu nggak kejadian. Syaratnya, **if I'd emailed her before the deadline**, juga nggak dia lakuin. Dia email-nya sesudah tenggat, **instead of after it**. Jadi dia telat ngehubungin dosennya.",
+     "why_correct_en": "**She would have** means the professor would have accepted it, but didn't. The condition, **if I'd emailed her before the deadline**, didn't happen either. She emailed after it. So she didn't contact the professor in time.",
+     "why_wrong_id": {
+      "0": "**would have** justru artinya papernya NGGAK diterima.",
+      "2": "Dia memang email kok, cuma telat. Nggak ada info dosennya nggak pernah baca email.",
+      "3": "Tenggatnya udah lewat. Dia ngomongin masa lalu, bukan rencana."
+     },
+     "why_wrong_en": {
+      "0": "**would have** means it was NOT accepted.",
+      "2": "She did email, just late. Nothing says the professor ignores email.",
+      "3": "The deadline has passed. She's talking about the past, not a plan."
+     },
+     "analogy_id": "**She would have, if…** itu kayak bilang aku pasti lulus kalau belajar. Dua-duanya nggak kejadian: nggak belajar, nggak lulus.",
+     "analogy_en": "**She would have, if…** is like saying I'd have passed if I'd studied. Neither happened.",
+     "tip_id": "Jawaban pendek **would have** plus **if I'd…**? Dua bagian kalimatnya sama-sama kebalikan dari kenyataan.",
+     "tip_en": "A short **would have** plus **if I'd…**? Both halves are the opposite of what happened."
+    }
+   ]
+  },
+  {
+   "section": "listening",
+   "part": "B",
+   "script": [
+    {
+     "speaker": "M1",
+     "text": "Hi, Ms. Ortiz. I'm thinking about dropping my statistics course. I'm really falling behind."
+    },
+    {
+     "speaker": "W2",
+     "text": "I see. Before you decide, do you know about the deadlines? If you drop it before Friday, it won't appear on your transcript at all."
+    },
+    {
+     "speaker": "M1",
+     "text": "And if I wait until next week?"
+    },
+    {
+     "speaker": "W2",
+     "text": "Then you'd get a W, for withdrawal, on your record. It doesn't affect your grade point average, but some graduate programs ask about it."
+    },
+    {
+     "speaker": "M1",
+     "text": "Hmm. The thing is, I need the course for my major."
+    },
+    {
+     "speaker": "W2",
+     "text": "In that case, have you tried the tutoring center? A lot of students in your situation catch up with two sessions a week."
+    },
+    {
+     "speaker": "M1",
+     "text": "I didn't even know they offered statistics tutoring."
+    },
+    {
+     "speaker": "W2",
+     "text": "They do. Why don't you book a session today, and if you still feel lost by Thursday, come back and we'll fill out the drop form together."
+    },
+    {
+     "speaker": "M1",
+     "text": "That sounds fair. I'll go there right after this."
+    }
+   ],
+   "questions": [
+    {
+     "type": "listening_long",
+     "prompt": "What is the conversation mainly about?",
+     "options": [
+      "Choosing a graduate program",
+      "Whether the student should drop a course",
+      "How to calculate a grade point average",
+      "Finding a job at the tutoring center"
+     ],
+     "correct_index": 1,
+     "rule_tags": [
+      "L-TOPIC"
+     ],
+     "difficulty": 1,
+     "key_sentence": "I'm thinking about dropping my statistics course.",
+     "key_translation_id": "Aku lagi mikir buat ngedrop mata kuliah statistika.",
+     "why_correct_id": "Kalimat pembuka si mahasiswa udah nyebut topiknya: **dropping my statistics course**. Seluruh obrolan bahas tenggat drop, akibatnya, dan pilihan lain sebelum mutusin.",
+     "why_correct_en": "His opening line names the topic: **dropping my statistics course**. The rest covers deadlines, consequences, and another option before deciding.",
+     "why_wrong_id": {
+      "0": "Program pascasarjana cuma disebut sekilas sebagai pihak yang kadang nanya soal nilai W.",
+      "2": "IPK cuma disebut buat bilang nilai W nggak ngaruh. Cara ngitungnya nggak dibahas.",
+      "3": "Pusat bimbingan disaranin buat belajar, bukan buat kerja."
+     },
+     "why_wrong_en": {
+      "0": "Graduate programs only come up as places that may ask about a W.",
+      "2": "The GPA is mentioned once, to say a W doesn't affect it. No calculation.",
+      "3": "The tutoring center is for help, not a job."
+     },
+     "analogy_id": "Kalimat pertama si mahasiswa itu kayak subjek email. Isinya sisa obrolan.",
+     "analogy_en": "The student's first line is the email subject. The rest is the body.",
+     "tip_id": "Soal **mainly about**? Pegang kalimat pertama orang yang datang minta bantuan.",
+     "tip_en": "**Mainly about**? Hold on to the first line of the person asking for help."
+    },
+    {
+     "type": "listening_long",
+     "prompt": "According to the adviser, what happens if the student drops the course before Friday?",
+     "options": [
+      "He will receive a W on his record.",
+      "His grade point average will go down.",
+      "Graduate programs will be informed.",
+      "The course will not appear on his transcript."
+     ],
+     "correct_index": 3,
+     "rule_tags": [
+      "L-DETAIL",
+      "L-CONDITION"
+     ],
+     "difficulty": 2,
+     "key_sentence": "If you drop it before Friday, it won't appear on your transcript at all.",
+     "key_translation_id": "Kalau kamu drop sebelum Jumat, mata kuliahnya sama sekali nggak bakal muncul di transkrip.",
+     "why_correct_id": "Penasihatnya bilang **If you drop it before Friday, it won't appear on your transcript at all**. Jadi kalau sebelum Jumat, mata kuliahnya nggak muncul sama sekali di transkrip.",
+     "why_correct_en": "The adviser says **If you drop it before Friday, it won't appear on your transcript at all**. Before Friday, no trace on the transcript.",
+     "why_wrong_id": {
+      "0": "Nilai W itu buat drop SETELAH Jumat, **if I wait until next week**.",
+      "1": "Nilai W pun nggak ngaruh ke IPK. Apalagi drop sebelum Jumat.",
+      "2": "Program pascasarjana nggak dikasih tahu. Mereka cuma kadang nanya soal nilai W."
+     },
+     "why_wrong_en": {
+      "0": "A W is for dropping AFTER Friday, **if I wait until next week**.",
+      "1": "Even a W doesn't affect the GPA, let alone dropping before Friday.",
+      "2": "No one informs graduate programs. They only sometimes ask about a W."
+     },
+     "analogy_id": "Dua tenggat dengan dua akibat itu kayak dua pintu keluar tol. Keluar sebelum Jumat gratis, keluar sesudahnya ada catatan W.",
+     "analogy_en": "Two deadlines, two results, like two highway exits. Before Friday is free, after it leaves a W.",
+     "tip_id": "Ada dua syarat dengan **if**? Pasangin tiap syarat sama akibatnya biar nggak ketuker.",
+     "tip_en": "Two **if** conditions? Pair each with its result so you don't mix them up."
+    },
+    {
+     "type": "listening_long",
+     "prompt": "What will the student probably do next?",
+     "options": [
+      "Fill out the drop form with the adviser",
+      "Wait until next week to decide",
+      "Go to the tutoring center",
+      "Change his major"
+     ],
+     "correct_index": 2,
+     "rule_tags": [
+      "L-SUGGEST",
+      "L-DETAIL"
+     ],
+     "difficulty": 2,
+     "key_sentence": "That sounds fair. I'll go there right after this.",
+     "key_translation_id": "Masuk akal. Aku ke sana habis ini.",
+     "why_correct_id": "Penasihatnya nyaranin **book a session today** di pusat bimbingan. Si mahasiswa setuju: **I'll go there right after this**. Jadi langkah berikutnya ke pusat bimbingan.",
+     "why_correct_en": "The adviser suggests booking a tutoring session today. He agrees: **I'll go there right after this**. So he's off to the tutoring center.",
+     "why_wrong_id": {
+      "0": "Ngisi formulir drop itu rencana cadangan kalau Kamis dia masih bingung, bukan langkah berikutnya.",
+      "1": "Nunggu minggu depan malah bikin dia dapat nilai W. Nggak ada yang nyaranin itu.",
+      "3": "Dia justru butuh mata kuliah itu buat jurusannya. Ganti jurusan nggak dibahas."
+     },
+     "why_wrong_en": {
+      "0": "The drop form is the backup plan if he's still lost by Thursday, not the next step.",
+      "1": "Waiting until next week would mean a W. Nobody suggests that.",
+      "3": "He needs the course for his major. Changing majors never comes up."
+     },
+     "analogy_id": "Saran terakhir yang diterima itu kayak tiket yang udah dibayar. Itulah perjalanan yang bakal dia ambil.",
+     "analogy_en": "The last accepted suggestion is a paid ticket. That's the trip he'll take.",
+     "tip_id": "Soal **probably do next**? Cari **I'll** di kalimat terakhir.",
+     "tip_en": "**Probably do next**? Find **I'll** in the last line."
+    }
+   ]
+  },
+  {
+   "section": "listening",
+   "part": "C",
+   "script": [
+    {
+     "speaker": "LEC",
+     "text": "Today let's talk about why leaves change color in the fall. During spring and summer, leaves are green because they're full of chlorophyll, the pigment plants use to make food from sunlight. But chlorophyll hides other pigments that are in the leaf all along, mainly yellows and oranges called carotenoids. In autumn, as the days get shorter, trees stop producing chlorophyll, and the green slowly fades. That's when the yellows and oranges finally show. Reds and purples are a different story. They come from pigments called anthocyanins, which many trees produce only in the fall. Interestingly, the brightest reds appear when autumn days are sunny and the nights are cool but not freezing. If the weather is cloudy and warm, the colors tend to be dull, and an early frost can end the show before it begins. So a spectacular autumn isn't just about the type of tree. It depends a great deal on the weather."
+    }
+   ],
+   "questions": [
+    {
+     "type": "listening_lecture",
+     "prompt": "What is the lecture mainly about?",
+     "options": [
+      "Why leaves change color in autumn",
+      "How plants make food from sunlight",
+      "Which trees grow best in cold climates",
+      "How to protect trees from frost"
+     ],
+     "correct_index": 0,
+     "rule_tags": [
+      "L-TOPIC",
+      "L-LECTURE"
+     ],
+     "difficulty": 1,
+     "key_sentence": "Today let's talk about why leaves change color in the fall.",
+     "key_translation_id": "Hari ini kita bahas kenapa daun berubah warna di musim gugur.",
+     "why_correct_id": "Kalimat pembukanya langsung nyebut topik: **why leaves change color in the fall**. Sisa kuliahnya ngejelasin asal warna kuning, oranye, dan merah, plus peran cuaca.",
+     "why_correct_en": "The opening names the topic: **why leaves change color in the fall**. The rest explains where the yellows, oranges, and reds come from, plus the weather's role.",
+     "why_wrong_id": {
+      "1": "Cara tanaman bikin makanan cuma disebut sekilas buat ngejelasin klorofil.",
+      "2": "Jenis pohon yang cocok di iklim dingin nggak dibahas.",
+      "3": "Embun beku cuma disebut sebagai hal yang bisa ngerusak warna, bukan cara ngelindungin pohon."
+     },
+     "why_wrong_en": {
+      "1": "Food-making is a quick note to explain chlorophyll.",
+      "2": "Which trees suit cold climates isn't covered.",
+      "3": "Frost is only something that can spoil the colors, not how to protect trees."
+     },
+     "analogy_id": "Kalimat **Today let's talk about…** itu kayak judul di papan tulis. Semua isi kelas nyambung ke situ.",
+     "analogy_en": "**Today let's talk about…** is the title on the board. Everything else hangs on it.",
+     "tip_id": "Lecture hampir selalu ngumumin topiknya di satu dua kalimat pertama. Catat kata bendanya.",
+     "tip_en": "Lectures almost always announce the topic in the first line or two. Note the noun."
+    },
+    {
+     "type": "listening_lecture",
+     "prompt": "According to the professor, why do yellow colors appear in autumn?",
+     "options": [
+      "Trees start producing yellow pigments in autumn.",
+      "Sunlight turns chlorophyll yellow.",
+      "Cold nights change red pigments into yellow ones.",
+      "Yellow pigments are revealed when the green fades."
+     ],
+     "correct_index": 3,
+     "rule_tags": [
+      "L-DETAIL",
+      "L-LECTURE"
+     ],
+     "difficulty": 2,
+     "key_sentence": "chlorophyll hides other pigments that are in the leaf all along",
+     "key_translation_id": "klorofil menutupi pigmen lain yang sebenarnya udah ada di daun dari awal",
+     "why_correct_id": "Dosennya bilang pigmen kuning dan oranye **are in the leaf all along**, udah ada dari awal, tapi ketutup klorofil. Pas klorofilnya pudar di musim gugur, warna kuning baru kelihatan.",
+     "why_correct_en": "The professor says the yellow pigments **are in the leaf all along**, hidden by chlorophyll. When the green fades in autumn, they finally show.",
+     "why_wrong_id": {
+      "0": "Yang baru diproduksi di musim gugur itu pigmen MERAH, anthocyanins. Pigmen kuning udah ada dari awal.",
+      "1": "Sinar matahari nggak ngubah klorofil jadi kuning. Klorofilnya berhenti diproduksi lalu pudar.",
+      "2": "Malam yang dingin ngaruh ke warna merah, bukan ngubah merah jadi kuning."
+     },
+     "why_wrong_en": {
+      "0": "The pigments made new in autumn are the REDS. The yellows were there all along.",
+      "1": "Sunlight doesn't turn chlorophyll yellow. The tree stops making it and it fades.",
+      "2": "Cool nights affect the reds. They don't turn red into yellow."
+     },
+     "analogy_id": "Pigmen kuning itu kayak tulisan di papan yang ketutup kertas hijau. Kertasnya dicopot, tulisannya kelihatan. Nggak ada yang nulis baru.",
+     "analogy_en": "The yellow pigment is writing on a board under a green sheet. Peel the sheet off and the writing shows. Nobody wrote anything new.",
+     "tip_id": "Di lecture sebab-akibat, bedain hal yang udah ada (**all along**) sama yang baru dibikin (**produce only in the fall**).",
+     "tip_en": "In cause-and-effect lectures, separate what was there **all along** from what is **produced only in the fall**."
+    },
+    {
+     "type": "listening_lecture",
+     "prompt": "According to the professor, what weather produces the brightest red leaves?",
+     "options": [
+      "Cloudy and warm days",
+      "Sunny days and cool nights",
+      "An early frost",
+      "Several weeks of heavy rain"
+     ],
+     "correct_index": 1,
+     "rule_tags": [
+      "L-DETAIL",
+      "L-CONDITION"
+     ],
+     "difficulty": 3,
+     "key_sentence": "the brightest reds appear when autumn days are sunny and the nights are cool but not freezing",
+     "key_translation_id": "warna merah paling terang muncul kalau siangnya cerah dan malamnya dingin tapi nggak sampai beku",
+     "why_correct_id": "Dosennya bilang **the brightest reds appear when autumn days are sunny and the nights are cool but not freezing**. Jadi siang cerah plus malam dingin, tapi nggak sampai beku.",
+     "why_correct_en": "The professor says **the brightest reds appear when autumn days are sunny and the nights are cool but not freezing**. Sunny days plus cool nights.",
+     "why_wrong_id": {
+      "0": "Cuaca mendung dan hangat malah bikin warnanya kusam, **dull**.",
+      "2": "Embun beku yang datang cepat justru bisa ngakhirin pertunjukan warnanya sebelum mulai.",
+      "3": "Hujan deras nggak disebut sama sekali."
+     },
+     "why_wrong_en": {
+      "0": "Cloudy and warm makes the colors **dull**.",
+      "2": "An early frost can end the show before it starts.",
+      "3": "Heavy rain is never mentioned."
+     },
+     "analogy_id": "Warna merah daun itu kayak kue yang butuh oven pas. Siang cerah buat manggang, malam sejuk buat ngedinginin. Kepanasan atau kebekuan, hasilnya gagal.",
+     "analogy_en": "Red leaves are like a cake that needs the right oven. Sunny days to bake, cool nights to set. Too warm or too frozen and it flops.",
+     "tip_id": "Hati-hati sama pengecoh yang ngambil kata dari lecture, kayak **frost** atau **cloudy**, tapi dengan peran kebalikannya.",
+     "tip_en": "Watch for distractors that borrow lecture words, like **frost** or **cloudy**, but with the opposite role."
+    }
+   ]
+  },
+  {
+   "section": "structure",
+   "type": "structure_completion",
+   "prompt": "______ the heavy rain, the outdoor concert continued as planned.",
+   "options": [
+    "Although",
+    "Despite",
+    "Because",
+    "Even"
+   ],
+   "correct_index": 1,
+   "rule_tags": [
+    "S-CONJ-PREP"
+   ],
+   "difficulty": 1,
+   "why_correct_id": "Habis rumpang cuma ada frasa benda: **the heavy rain**. Nggak ada kata kerjanya. Kata benda butuh [[preposition]], dan yang artinya walaupun itu **Despite**.",
+   "why_correct_en": "After the blank there's only a noun phrase, **the heavy rain**, with no verb. A noun needs a preposition, and the one meaning in spite of is **Despite**.",
+   "why_wrong_id": {
+    "0": "**Although** itu [[conjunction]]. Dia butuh pelaku plus kata kerja, kayak **Although it rained**.",
+    "2": "**Because** juga kata sambung, dan artinya karena. Konser tetap jalan walau hujan, bukan gara-gara hujan.",
+    "3": "**Even** sendirian nggak bisa nyambung ke frasa benda kayak gini. Harus **Even though** plus clause."
+   },
+   "why_wrong_en": {
+    "0": "**Although** is a conjunction. It needs a subject and verb, like **Although it rained**.",
+    "2": "**Because** is a conjunction meaning since. The concert went on in spite of the rain, not because of it.",
+    "3": "**Even** alone can't link to a noun phrase here. You'd need **Even though** plus a clause."
+   },
+   "analogy_id": "Preposition itu troli kecil. Cukup bawa satu barang, **the heavy rain**. Conjunction itu lokomotif yang butuh kereta lengkap.",
+   "analogy_en": "A preposition is a small trolley carrying one item, **the heavy rain**. A conjunction is a locomotive that needs a full train.",
+   "tip_id": "Lirik dulu yang ada setelah rumpang. Cuma kata benda? Pilih **despite** atau **because of**. Ada pelaku plus kata kerja? Pilih **although** atau **because**.",
+   "tip_en": "Look after the blank first. Just a noun? Pick **despite** or **because of**. Subject plus verb? Pick **although** or **because**."
+  },
+  {
+   "section": "structure",
+   "type": "structure_completion",
+   "prompt": "The flight was delayed ______ a problem with one of the engines.",
+   "options": [
+    "although",
+    "so that",
+    "because of",
+    "because"
+   ],
+   "correct_index": 2,
+   "rule_tags": [
+    "S-CONJ-PREP"
+   ],
+   "difficulty": 1,
+   "why_correct_id": "Setelah rumpang ada **a problem with one of the engines**. Itu frasa benda, nggak ada kata kerjanya. Buat alasan plus kata benda, pakai [[preposition]] **because of**.",
+   "why_correct_en": "After the blank comes **a problem with one of the engines**, a noun phrase with no verb. A reason plus a noun takes the preposition **because of**.",
+   "why_wrong_id": {
+    "0": "**although** artinya walaupun, dan butuh clause. Artinya juga nggak nyambung.",
+    "1": "**so that** artinya supaya, dan butuh clause. Pesawat nggak telat supaya ada masalah mesin.",
+    "3": "**because** itu kata sambung. Dia butuh pelaku plus kata kerja, kayak **because an engine failed**."
+   },
+   "why_wrong_en": {
+    "0": "**although** means even though, needs a clause, and doesn't fit the meaning.",
+    "1": "**so that** means in order to and needs a clause. The plane wasn't late in order to have engine trouble.",
+    "3": "**because** is a conjunction. It needs a subject and verb, like **because an engine failed**."
+   },
+   "analogy_id": "**Because of** itu kayak tag harga yang ditempel langsung ke barangnya. **Because** butuh kalimat lengkap kayak struk belanja.",
+   "analogy_en": "**Because of** is a price tag stuck right on the item. **Because** needs a whole receipt, a full clause.",
+   "tip_id": "Alasan plus kata benda pakai **because of**, **due to**, atau **owing to**. Alasan plus clause pakai **because** atau **since**.",
+   "tip_en": "Reason plus noun takes **because of**, **due to**, or **owing to**. Reason plus clause takes **because** or **since**."
+  },
+  {
+   "section": "structure",
+   "type": "structure_completion",
+   "prompt": "______ she had studied for weeks, Maya still felt nervous before the interview.",
+   "options": [
+    "Despite",
+    "In spite of",
+    "Although",
+    "Because of"
+   ],
+   "correct_index": 2,
+   "rule_tags": [
+    "S-CONJ-PREP",
+    "S-ADV-CLAUSE"
+   ],
+   "difficulty": 2,
+   "why_correct_id": "Setelah rumpang ada clause (anak kalimat) lengkap: pelaku **she** plus kata kerja **had studied**. Clause butuh [[conjunction]]. Artinya kontras: udah belajar lama tapi tetap gugup. Jadi **Although**.",
+   "why_correct_en": "After the blank comes a full clause: **she** plus **had studied**. A clause needs a conjunction, and the meaning is contrast. So **Although**.",
+   "why_wrong_id": {
+    "0": "**Despite** itu kata depan. Dia cuma bisa diikutin kata benda atau V-ing, kayak **Despite studying for weeks**.",
+    "1": "**In spite of** sama kayak **despite**. Kata depan, nggak bisa langsung ketemu pelaku plus kata kerja.",
+    "3": "**Because of** itu kata depan, dan artinya karena. Belajar lama bukan alasan dia gugup."
+   },
+   "why_wrong_en": {
+    "0": "**Despite** is a preposition. It takes a noun or V-ing, like **Despite studying for weeks**.",
+    "1": "**In spite of** works like **despite**. It can't take a subject plus verb.",
+    "3": "**Because of** is a preposition meaning due to. Studying wasn't why she was nervous."
+   },
+   "analogy_id": "Dua opsi pertama itu troli yang nyoba narik kereta penuh. Nggak kuat. Yang kuat ya lokomotif: **Although**.",
+   "analogy_en": "The first two options are trolleys trying to pull a full train. Too weak. You need a locomotive: **Although**.",
+   "tip_id": "Ada dua opsi yang artinya mirip, kayak **Despite** dan **Although**? Penentunya bukan arti, tapi bentuk yang ngikutin.",
+   "tip_en": "Two options with similar meanings, like **Despite** and **Although**? The deciding factor is what follows, not meaning."
+  },
+  {
+   "section": "structure",
+   "type": "structure_completion",
+   "prompt": "The library will remain open ______ the renovation is complete.",
+   "options": [
+    "by",
+    "during",
+    "despite",
+    "until"
+   ],
+   "correct_index": 3,
+   "rule_tags": [
+    "S-ADV-CLAUSE",
+    "S-CONJ-PREP"
+   ],
+   "difficulty": 2,
+   "why_correct_id": "Setelah rumpang ada clause: **the renovation** plus **is**. Jadi butuh [[conjunction]]. Maknanya batas waktu: buka terus sampai renovasi kelar. Kata sambung waktu yang pas itu **until**.",
+   "why_correct_en": "A clause follows: **the renovation** plus **is**. So you need a conjunction. The meaning is a time limit: open up to the point the work ends. That's **until**.",
+   "why_wrong_id": {
+    "0": "**by** di sini kata depan, kayak **by Friday**. Nggak bisa langsung diikutin pelaku plus kata kerja.",
+    "1": "**during** itu kata depan. Bisa **during the renovation**, tapi nggak bisa diikutin clause.",
+    "2": "**despite** itu kata depan dan artinya walaupun. Nggak nyambung sama batas waktu."
+   },
+   "why_wrong_en": {
+    "0": "**by** here is a preposition, like **by Friday**. It can't take a subject plus verb.",
+    "1": "**during** is a preposition. **during the renovation** works, but not a clause.",
+    "2": "**despite** is a preposition meaning in spite of. It doesn't express a time limit."
+   },
+   "analogy_id": "**Until** itu kayak pita garis finis. Perpustakaan lari terus sampai pita itu disentuh, yaitu renovasinya kelar.",
+   "analogy_en": "**Until** is a finish line ribbon. The library keeps going until it's crossed, when the work is done.",
+   "tip_id": "Kata waktu yang bisa jadi kata sambung: **until**, **when**, **while**, **before**, **after**, **since**. **During** dan **by** cuma kata depan.",
+   "tip_en": "Time words that work as conjunctions: **until**, **when**, **while**, **before**, **after**, **since**. **During** and **by** are prepositions only."
+  },
+  {
+   "section": "structure",
+   "type": "structure_error",
+   "prompt": "{A}Despite{/A} the museum {B}was{/B} closed, the tourists {C}took{/C} photos of its {D}famous{/D} entrance.",
+   "options": [
+    "Despite",
+    "was",
+    "took",
+    "famous"
+   ],
+   "correct_index": 0,
+   "rule_tags": [
+    "S-CONJ-PREP"
+   ],
+   "difficulty": 2,
+   "why_correct_id": "Setelah **Despite** ada clause lengkap: **the museum was closed**. Padahal **Despite** itu [[preposition]] yang cuma bisa diikutin kata benda. Nah, ini biang keroknya. Ganti jadi kata sambung: **Although** the museum was closed.",
+   "why_correct_en": "**Despite** is followed by a full clause, **the museum was closed**, but it's a preposition that takes only a noun. That's the culprit. Use a conjunction: **Although** the museum was closed.",
+   "why_wrong_id": {
+    "1": "**was** itu kata kerja yang pas buat **the museum**, tunggal dan lampau.",
+    "2": "**took** itu V2 dari **take**. Cocok buat cerita lampau.",
+    "3": "**famous** itu adjective (kata sifat) yang nerangin **entrance**. Aman."
+   },
+   "why_wrong_en": {
+    "1": "**was** fits **the museum**: singular and past.",
+    "2": "**took** is the V2 of **take**, fine for a past story.",
+    "3": "**famous** is an adjective describing **entrance**. Fine."
+   },
+   "analogy_id": "**Despite** plus clause itu kayak troli yang dipaksa narik kereta penuh. Rodanya patah, cuy.",
+   "analogy_en": "**Despite** plus a clause is a trolley forced to pull a whole train. The wheels snap.",
+   "tip_id": "Lihat **despite** atau **in spite of**? Cek tiga kata sesudahnya. Ada kata kerja? Itu salah.",
+   "tip_en": "See **despite** or **in spite of**? Check the next few words. A verb there means an error."
+  },
+  {
+   "section": "structure",
+   "type": "structure_error",
+   "prompt": "The game was {A}canceled{/A} {B}because{/B} the {C}strong{/C} winds {D}along{/D} the coast.",
+   "options": [
+    "canceled",
+    "because",
+    "strong",
+    "along"
+   ],
+   "correct_index": 1,
+   "rule_tags": [
+    "S-CONJ-PREP"
+   ],
+   "difficulty": 2,
+   "why_correct_id": "Setelah **because** cuma ada frasa benda: **the strong winds along the coast**. Nggak ada kata kerjanya. **because** itu [[conjunction]] yang butuh clause. Jadi harus **because of**.",
+   "why_correct_en": "After **because** there's only a noun phrase, **the strong winds along the coast**, with no verb. **because** needs a clause, so it should be **because of**.",
+   "why_wrong_id": {
+    "0": "**was canceled** itu passive (bentuk di-) yang pas. Pertandingannya dibatalin orang.",
+    "2": "**strong** itu adjective (kata sifat) yang nerangin **winds**. Aman.",
+    "3": "**along the coast** itu keterangan tempat yang aman."
+   },
+   "why_wrong_en": {
+    "0": "**was canceled** is a fine passive. Someone canceled the game.",
+    "2": "**strong** is an adjective describing **winds**. Fine.",
+    "3": "**along the coast** is a fine place phrase."
+   },
+   "analogy_id": "**Because** itu kayak pintu yang cuma kebuka kalau ada pelaku dan mesin. Di sini cuma ada barang, jadi pintunya nggak kebuka.",
+   "analogy_en": "**Because** is a door that opens only for a subject and engine. Here there's just a thing, so it stays shut.",
+   "tip_id": "Cari kata kerja setelah **because**. Nggak ketemu? Berarti butuh **because of**.",
+   "tip_en": "Look for a verb after **because**. None? Then it needs **because of**."
+  },
+  {
+   "section": "structure",
+   "type": "structure_error",
+   "prompt": "{A}Although{/A} of the high price, the new phone {B}sold{/B} {C}out{/C} {D}within{/D} a week.",
+   "options": [
+    "Although",
+    "sold",
+    "out",
+    "within"
+   ],
+   "correct_index": 0,
+   "rule_tags": [
+    "S-CONJ-PREP"
+   ],
+   "difficulty": 1,
+   "why_correct_id": "**Although of** itu nggak ada di bahasa Inggris. **Although** itu kata sambung yang butuh clause, sedangkan di sini cuma ada frasa benda **the high price**. Ganti jadi kata depan **Despite** the high price.",
+   "why_correct_en": "**Although of** doesn't exist. **Although** needs a clause, and here there's only a noun phrase, **the high price**. Use the preposition: **Despite** the high price.",
+   "why_wrong_id": {
+    "1": "**sold** itu V2 dari **sell**. Cocok buat kejadian lampau.",
+    "2": "**sold out** itu pasangan kata yang aman, artinya habis terjual.",
+    "3": "**within a week** itu keterangan waktu yang aman, dalam seminggu."
+   },
+   "why_wrong_en": {
+    "1": "**sold** is the V2 of **sell**, fine for a past event.",
+    "2": "**sold out** is a natural pairing meaning all gone.",
+    "3": "**within a week** is a fine time phrase."
+   },
+   "analogy_id": "**Although of** itu kayak nyampur dua kunci jadi satu. Hasilnya nggak bisa buka pintu mana pun.",
+   "analogy_en": "**Although of** is two keys welded together. It opens no door at all.",
+   "tip_id": "**because of** itu ada, **although of** nggak ada. Pasangan walaupun plus kata benda itu **despite** atau **in spite of**.",
+   "tip_en": "**because of** exists, **although of** doesn't. Contrast plus noun is **despite** or **in spite of**."
+  },
+  {
+   "section": "structure",
+   "type": "structure_error",
+   "prompt": "{A}When{/A} the guests {B}arrived{/B}, {C}and{/C} the host {D}greeted{/D} them at the door.",
+   "options": [
+    "When",
+    "arrived",
+    "and",
+    "greeted"
+   ],
+   "correct_index": 2,
+   "rule_tags": [
+    "S-ADV-CLAUSE",
+    "S-REDUNDANT"
+   ],
+   "difficulty": 3,
+   "why_correct_id": "Kalimat ini udah punya kata sambung **When**, yang nyambungin dua clause. Terus muncul **and** lagi. Nah, ini kelebihan. Satu kalimat dua clause cukup satu kata sambung. Hapus **and**: **When the guests arrived, the host greeted them**.",
+   "why_correct_en": "The sentence already has **When**, which links the two clauses. Then **and** appears too. One connector is enough. Drop **and**: **When the guests arrived, the host greeted them**.",
+   "why_wrong_id": {
+    "0": "**When** itu kata sambung waktu yang pas buat ngebuka [[adverb clause|adverb-clause]].",
+    "1": "**arrived** itu V2 yang pas buat kejadian lampau.",
+    "3": "**greeted** itu V2 yang pas, sejajar sama **arrived**."
+   },
+   "why_wrong_en": {
+    "0": "**When** correctly opens the adverb clause.",
+    "1": "**arrived** is a fine V2 for the past.",
+    "3": "**greeted** is a fine V2, matching **arrived**."
+   },
+   "analogy_id": "Dua gerbong cukup disambung satu pengait. Pasang dua pengait, **When** dan **and**, keretanya malah macet.",
+   "analogy_en": "Two carriages need one coupling. Add a second, **When** plus **and**, and the train jams.",
+   "tip_id": "Kalimat diawali **When**, **Although**, **Because**, atau **If**? Clause keduanya nggak boleh dibuka pakai **and** atau **but**.",
+   "tip_en": "Sentence starts with **When**, **Although**, **Because**, or **If**? The second clause can't open with **and** or **but**."
+  },
+  {
+   "section": "structure",
+   "type": "structure_error",
+   "prompt": "The experiment failed {A}due to{/A} the samples {B}had been{/B} {C}stored{/C} at the wrong {D}temperature{/D}.",
+   "options": [
+    "due to",
+    "had been",
+    "stored",
+    "temperature"
+   ],
+   "correct_index": 0,
+   "rule_tags": [
+    "S-CONJ-PREP"
+   ],
+   "difficulty": 3,
+   "why_correct_id": "Setelah **due to** ada clause lengkap: pelaku **the samples** plus kata kerja **had been stored**. Padahal **due to** itu [[preposition]] yang cuma bisa diikutin kata benda. Ganti jadi kata sambung **because**.",
+   "why_correct_en": "**due to** is followed by a full clause, **the samples had been stored**. But it's a preposition and takes only a noun. Use **because**.",
+   "why_wrong_id": {
+    "1": "**had been** itu bagian dari past perfect pasif. Sampelnya disimpan duluan sebelum eksperimennya gagal. Aman.",
+    "2": "**stored** itu V3 yang pas setelah **had been**.",
+    "3": "**the wrong temperature** itu frasa benda yang aman."
+   },
+   "why_wrong_en": {
+    "1": "**had been** is part of a past perfect passive. The samples were stored before the failure. Fine.",
+    "2": "**stored** is the right V3 after **had been**.",
+    "3": "**the wrong temperature** is a fine noun phrase."
+   },
+   "analogy_id": "**Due to** itu kerabat dekat **because of**. Dua-duanya troli kecil yang cuma bawa kata benda.",
+   "analogy_en": "**Due to** is a close cousin of **because of**. Both are trolleys that only carry a noun.",
+   "tip_id": "Jebakan susah biasanya nyembunyiin kata kerja agak jauh setelah **due to**. Baca sampai ketemu kata kerjanya.",
+   "tip_en": "Hard items hide the verb a few words after **due to**. Keep reading until you find it."
+  },
+  {
+   "section": "structure",
+   "type": "structure_error",
+   "prompt": "{A}Unless{/A} you {B}will finish{/B} the form today, your application {C}will not{/C} be {D}processed{/D}.",
+   "options": [
+    "Unless",
+    "will finish",
+    "will not",
+    "processed"
+   ],
+   "correct_index": 1,
+   "rule_tags": [
+    "S-ADV-CLAUSE",
+    "S-TENSE"
+   ],
+   "difficulty": 3,
+   "why_correct_id": "**Unless** ngebuka anak kalimat syarat. Di anak kalimat syarat dan waktu, masa depan ditulis pakai present, bukan **will**. Jadi **will finish** harus jadi **finish**.",
+   "why_correct_en": "**Unless** opens a condition clause. In condition and time clauses, the future uses the present, not **will**. So **will finish** should be **finish**.",
+   "why_wrong_id": {
+    "0": "**Unless** artinya kecuali kalau. Maknanya pas: aplikasinya nggak diproses kecuali formulirnya kelar.",
+    "2": "**will not** di clause utama itu pas buat masa depan.",
+    "3": "**processed** itu V3 yang pas buat pasif **be processed**."
+   },
+   "why_wrong_en": {
+    "0": "**Unless** means except if. The meaning fits.",
+    "2": "**will not** in the main clause is right for the future.",
+    "3": "**processed** is the right V3 for **be processed**."
+   },
+   "analogy_id": "Clause **if**, **unless**, **when** itu kayak ruang tunggu. Di situ masa depan duduk pakai baju present. **will** baru dipakai di ruang utama.",
+   "analogy_en": "An **if**, **unless**, or **when** clause is a waiting room where the future wears present clothes. **will** belongs in the main room.",
+   "tip_id": "Lihat **will** setelah **if**, **unless**, **when**, **until**, atau **as soon as**? Hampir pasti itu kesalahannya.",
+   "tip_en": "See **will** after **if**, **unless**, **when**, **until**, or **as soon as**? That's almost always the error."
+  },
+  {
+   "section": "reading",
+   "title": "Losing the Dark",
+   "body": "For most of human history, a clear night revealed thousands of stars. Today, however, about a third of the world's population can no longer see the Milky Way from where they live. The reason is artificial light. Streetlights, billboards, and brightly lit buildings fill the night sky with a glow that hides all but the brightest stars. Scientists call this light pollution.\n\nThe effects reach far beyond astronomy. Many animals depend on darkness. Newly hatched sea turtles, for example, find the ocean by moving toward the brightest horizon, which on a natural beach is the moonlit sea. Near a lit road, they crawl inland instead and often die. Migrating birds that fly at night can become confused by city lights and circle buildings until they are exhausted. Humans are affected too, since bright light at night can disturb sleep.\n\nMuch of this light is simply wasted. Many outdoor lights are poorly designed and send a large share of their light sideways or straight up into the sky, where it helps no one. Bluish-white lamps make the problem worse, because blue light scatters more easily in the air than warmer colors do.\n\nFortunately, light pollution is one of the easiest environmental problems to solve. Shielded fixtures, which are covered on top so that light points only downward, can reduce the glow dramatically. Warmer bulbs and timers that dim lights late at night help as well. The city of Flagstaff, Arizona, passed rules requiring outdoor lights to point downward decades ago, and residents can still see the Milky Way from town.\n\nUnlike many forms of pollution, light pollution disappears the moment the switch is turned off. With better design, cities could keep their streets safe and still give the night back to the stars.",
+   "questions": [
+    {
+     "type": "reading",
+     "subtype": "organization",
+     "prompt": "How is the passage organized?",
+     "options": [
+      "A problem is described, followed by its effects, causes, and possible solutions.",
+      "Two cities are compared to show which has better lighting.",
+      "Events in the history of astronomy are listed in time order.",
+      "An opinion is stated and then rejected with evidence."
+     ],
+     "correct_index": 0,
+     "rule_tags": [
+      "R-ORG"
+     ],
+     "difficulty": 2,
+     "evidence_quote": "Fortunately, light pollution is one of the easiest environmental problems to solve.",
+     "why_correct_id": "Skim kalimat pertama tiap paragraf. Paragraf 1 ngenalin masalahnya, polusi cahaya. Paragraf 2 akibatnya, **The effects reach far beyond astronomy**. Paragraf 3 penyebabnya, cahaya yang kebuang. Paragraf 4 solusinya, **Fortunately…**. Jadi polanya masalah, akibat, penyebab, solusi.",
+     "why_correct_en": "Skim each first sentence. Paragraph 1 names the problem, 2 the effects, 3 the causes, 4 the solutions with **Fortunately…**. Problem, effects, causes, solutions.",
+     "why_wrong_id": {
+      "1": "Cuma satu kota yang disebut, Flagstaff, sebagai contoh. Nggak ada perbandingan dua kota.",
+      "2": "Teks nggak nyeritain sejarah astronomi berurutan tahun.",
+      "3": "Penulis nggak ngebantah pendapatnya sendiri. Dia malah ngasih jalan keluar."
+     },
+     "why_wrong_en": {
+      "1": "Only one city, Flagstaff, appears as an example. No two cities are compared.",
+      "2": "There's no time-ordered history of astronomy.",
+      "3": "The author doesn't reject an opinion. The passage offers solutions."
+     },
+     "analogy_id": "Organisasi teks itu kayak denah gedung. Paragraf 1 ruang tamu (masalah), 2 dapur (akibat), 3 gudang (penyebab), 4 teras (solusi).",
+     "analogy_en": "Organization is a floor plan. Paragraph 1 is the living room (problem), 2 the kitchen (effects), 3 the storeroom (causes), 4 the porch (solutions).",
+     "tip_id": "Soal **How is the passage organized?** Tulis satu kata buat tiap paragraf, terus cocokin urutannya sama opsi.",
+     "tip_en": "**How is the passage organized?** Jot one word per paragraph, then match the sequence to an option."
+    },
+    {
+     "type": "reading",
+     "subtype": "organization",
+     "prompt": "What is the main purpose of paragraph 2?",
+     "options": [
+      "To explain why outdoor lights are poorly designed",
+      "To describe how light pollution affects living things",
+      "To show that sea turtles prefer dark beaches",
+      "To compare the brightness of different cities"
+     ],
+     "correct_index": 1,
+     "rule_tags": [
+      "R-ORG",
+      "R-PURPOSE"
+     ],
+     "difficulty": 2,
+     "evidence_quote": "The effects reach far beyond astronomy. Many animals depend on darkness.",
+     "why_correct_id": "Kalimat pertama paragraf 2, **The effects reach far beyond astronomy**, udah jadi label ruangannya: akibat. Isinya contoh penyu, burung, dan tidur manusia. Jadi fungsinya ngegambarin dampak polusi cahaya ke makhluk hidup.",
+     "why_correct_en": "Paragraph 2 opens with **The effects reach far beyond astronomy**, its label: effects. Then come turtles, birds, and human sleep. So it describes effects on living things.",
+     "why_wrong_id": {
+      "0": "Desain lampu yang buruk itu isi paragraf 3, bukan paragraf 2.",
+      "2": "Penyu cuma satu contoh. Fungsi paragrafnya lebih luas dari itu.",
+      "3": "Kecerahan kota nggak dibandingin di paragraf ini."
+     },
+     "why_wrong_en": {
+      "0": "Poor lamp design is paragraph 3.",
+      "2": "Turtles are only one example. The paragraph's role is broader.",
+      "3": "City brightness isn't compared here."
+     },
+     "analogy_id": "Fungsi paragraf itu kayak jabatan di kantor. Penyu dan burung itu staf. Jabatan paragrafnya: bagian dampak.",
+     "analogy_en": "A paragraph's function is a job title. Turtles and birds are staff. The paragraph's title: effects department.",
+     "tip_id": "Opsi yang cuma nyebut satu contoh biasanya kesempitan buat soal fungsi paragraf.",
+     "tip_en": "An option naming just one example is usually too narrow for a paragraph-function question."
+    },
+    {
+     "type": "reading",
+     "subtype": "vocabulary",
+     "prompt": "The word **shielded** in paragraph 4 is closest in meaning to",
+     "options": [
+      "brightened",
+      "colored",
+      "covered",
+      "repaired"
+     ],
+     "correct_index": 2,
+     "rule_tags": [
+      "R-VOCAB"
+     ],
+     "difficulty": 2,
+     "evidence_quote": "Shielded fixtures, which are covered on top so that light points only downward, can reduce the glow dramatically.",
+     "why_correct_id": "Teksnya langsung ngasih definisi setelah koma: **which are covered on top**. Lampu **shielded** itu lampu yang ditutup bagian atasnya biar cahayanya ke bawah. Jadi artinya **covered**.",
+     "why_correct_en": "The text defines it right after the comma: **which are covered on top**. A **shielded** lamp is covered so light points down. So it means **covered**.",
+     "why_wrong_id": {
+      "0": "**brightened** (dibikin lebih terang) kebalikan dari tujuannya. Lampu ini justru ngurangin silau.",
+      "1": "Warna lampu dibahas di kalimat berikutnya soal bohlam hangat, bukan arti **shielded**.",
+      "3": "**repaired** (diperbaiki) nggak ada hubungannya sama nutup bagian atas lampu."
+     },
+     "why_wrong_en": {
+      "0": "**brightened** is the opposite of the goal. These lamps reduce glow.",
+      "1": "Bulb color comes up in the next sentence, not in the meaning of **shielded**.",
+      "3": "**repaired** has nothing to do with covering the top."
+     },
+     "analogy_id": "Klausa **which are…** setelah kata sulit itu kayak catatan kaki gratis. Penulisnya udah ngasih artinya.",
+     "analogy_en": "A **which are…** clause after a hard word is a free footnote. The author gives you the meaning.",
+     "tip_id": "Cek koma setelah kata yang ditanya. **which is**, **that is**, atau **or** sering ngasih definisi langsung.",
+     "tip_en": "Check the comma after the word. **which is**, **that is**, or **or** often gives the definition."
+    },
+    {
+     "type": "reading",
+     "subtype": "detail",
+     "prompt": "According to paragraph 4, what did the city of Flagstaff do?",
+     "options": [
+      "It turned off all streetlights at night.",
+      "It built a new observatory.",
+      "It banned billboards in the town center.",
+      "It required outdoor lights to point downward."
+     ],
+     "correct_index": 3,
+     "rule_tags": [
+      "R-DETAIL"
+     ],
+     "difficulty": 1,
+     "evidence_quote": "The city of Flagstaff, Arizona, passed rules requiring outdoor lights to point downward decades ago",
+     "why_correct_id": "Scanning nama **Flagstaff** di paragraf 4. Kalimatnya bilang kota itu bikin aturan yang **requiring outdoor lights to point downward**, lampu luar harus ngarah ke bawah.",
+     "why_correct_en": "Scan for **Flagstaff** in paragraph 4. The city passed rules **requiring outdoor lights to point downward**.",
+     "why_wrong_id": {
+      "0": "Lampu jalan nggak dimatiin. Lampunya cuma diarahin ke bawah.",
+      "1": "Observatorium baru nggak disebut.",
+      "2": "Papan iklan cuma disebut di paragraf 1 sebagai sumber cahaya, bukan dilarang Flagstaff."
+     },
+     "why_wrong_en": {
+      "0": "Streetlights weren't switched off, just aimed down.",
+      "1": "No new observatory is mentioned.",
+      "2": "Billboards appear in paragraph 1 as a light source, not as a Flagstaff ban."
+     },
+     "analogy_id": "Nama tempat di teks itu kayak papan nama toko. Gampang dicari, tinggal baca isi tokonya.",
+     "analogy_en": "A place name is a shop sign. Easy to find, then just read what's inside.",
+     "tip_id": "Nama diri kayak **Flagstaff** itu kata kunci scanning paling cepat.",
+     "tip_en": "Proper names like **Flagstaff** are the fastest scanning keywords."
+    },
+    {
+     "type": "reading",
+     "subtype": "not_except",
+     "prompt": "All of the following are mentioned as ways to reduce light pollution EXCEPT",
+     "options": [
+      "using lamps covered on top",
+      "using warmer bulbs",
+      "using timers that dim lights late at night",
+      "using bluish-white lamps"
+     ],
+     "correct_index": 3,
+     "rule_tags": [
+      "R-NOT"
+     ],
+     "difficulty": 3,
+     "evidence_quote": "Bluish-white lamps make the problem worse, because blue light scatters more easily in the air than warmer colors do.",
+     "why_correct_id": "Centang solusi di paragraf 4: lampu yang ditutup atasnya, bohlam hangat, dan timer peredup. Lampu putih kebiruan justru disebut di paragraf 3 sebagai yang **make the problem worse**. Jadi itu pengecualiannya.",
+     "why_correct_en": "Tick the fixes in paragraph 4: covered lamps, warmer bulbs, dimming timers. Bluish-white lamps appear in paragraph 3 as things that **make the problem worse**. That's the exception.",
+     "why_wrong_id": {
+      "0": "Lampu yang ditutup atasnya, **shielded fixtures**, disebut sebagai solusi.",
+      "1": "**Warmer bulbs** disebut sebagai solusi.",
+      "2": "**timers that dim lights late at night** disebut sebagai solusi."
+     },
+     "why_wrong_en": {
+      "0": "Covered lamps, **shielded fixtures**, are listed as a fix.",
+      "1": "**Warmer bulbs** are listed.",
+      "2": "**timers that dim lights late at night** are listed."
+     },
+     "analogy_id": "Soal EXCEPT itu kayak nyari penyusup di barisan pahlawan. Lampu kebiruan nyamar jadi solusi, padahal dia biang keroknya.",
+     "analogy_en": "An EXCEPT question is spotting the villain in a line of heroes. Bluish lamps pose as a fix but are part of the problem.",
+     "tip_id": "Pengecoh EXCEPT sering diambil dari paragraf lain dengan peran kebalikan. Cek perannya, bukan cuma katanya.",
+     "tip_en": "EXCEPT answers often come from another paragraph with the opposite role. Check the role, not just the words."
+    }
+   ]
+  },
+  {
+   "section": "reading",
+   "title": "Two Kinds of Spinning Storms",
+   "body": "Hurricanes and tornadoes are both spinning storms with powerful winds, and people sometimes confuse the two. In fact, they differ in almost every important way: size, the conditions in which they form, how long they last, and how much warning people receive.\n\nThe first difference is size. A typical hurricane is several hundred kilometers wide and can cover an entire region at once. Its strongest winds circle a calm center called the eye, which can itself be dozens of kilometers across. Most tornadoes, by contrast, are less than a kilometer wide, and many are only a few dozen meters across.\n\nThe two storms also form in different places. Hurricanes develop over warm ocean water, usually at least 26 degrees Celsius, and they lose strength once they move over land and are cut off from that warm water. Tornadoes form over land, typically beneath large thunderstorms where winds change speed and direction at different heights.\n\nTheir life spans differ just as sharply. A hurricane can last for more than a week, and forecasters can follow it across the ocean for days. Tornadoes rarely last more than an hour, and most are over in minutes. Because they appear so suddenly, warnings often come only ten to fifteen minutes before they strike.\n\nFinally, the strongest tornadoes produce faster winds than the strongest hurricanes. Even so, hurricanes usually cause far more total damage, because they affect much larger areas and bring heavy rain and flooding along with their winds. In coastal areas, the rise in sea level that a hurricane pushes ashore, known as a storm surge, is often the most dangerous part of the storm.",
+   "questions": [
+    {
+     "type": "reading",
+     "subtype": "organization",
+     "prompt": "How does the author organize the information in the passage?",
+     "options": [
+      "By describing the history of one storm from start to finish",
+      "By comparing two types of storms point by point",
+      "By explaining a problem and then proposing a solution",
+      "By listing storms in order from weakest to strongest"
+     ],
+     "correct_index": 1,
+     "rule_tags": [
+      "R-ORG"
+     ],
+     "difficulty": 2,
+     "evidence_quote": "In fact, they differ in almost every important way: size, the conditions in which they form, how long they last, and how much warning people receive.",
+     "why_correct_id": "Paragraf 1 udah ngasih peta: dua badai beda di ukuran, tempat terbentuk, durasi, dan peringatan. Paragraf 2 sampai 5 ngebahas satu poin per paragraf buat dua-duanya. Penanda kayak **by contrast** dan **The first difference** nguatin kalau ini perbandingan poin demi poin.",
+     "why_correct_en": "Paragraph 1 gives the map: size, formation, duration, warning. Paragraphs 2 to 5 take one point each for both storms. Markers like **by contrast** and **The first difference** confirm a point-by-point comparison.",
+     "why_wrong_id": {
+      "0": "Teks nggak ngikutin satu badai dari awal sampai akhir. Ada dua jenis badai.",
+      "2": "Nggak ada solusi yang ditawarin. Teks cuma ngebandingin.",
+      "3": "Nggak ada daftar badai dari yang paling lemah ke paling kuat."
+     },
+     "why_wrong_en": {
+      "0": "The passage doesn't follow one storm from start to finish. It covers two types.",
+      "2": "No solution is offered. The text compares.",
+      "3": "There's no weakest-to-strongest list."
+     },
+     "analogy_id": "Teks perbandingan itu kayak tabel spesifikasi dua HP. Tiap baris satu fitur, dua kolomnya badai yang dibandingin.",
+     "analogy_en": "A comparison text is a spec sheet for two phones. Each row is one feature, the two columns are the storms.",
+     "tip_id": "Kalimat yang nyebut daftar perbedaan di paragraf 1 itu peta seluruh teks. Kata **by contrast** dan **difference** nandain pola perbandingan.",
+     "tip_en": "A list of differences in paragraph 1 maps the whole passage. **By contrast** and **difference** signal comparison."
+    },
+    {
+     "type": "reading",
+     "subtype": "organization",
+     "prompt": "Paragraph 3 mainly discusses",
+     "options": [
+      "how fast each storm's winds can blow",
+      "why hurricanes cause more damage",
+      "where and under what conditions each storm forms",
+      "how forecasters track storms"
+     ],
+     "correct_index": 2,
+     "rule_tags": [
+      "R-ORG",
+      "R-MAIN"
+     ],
+     "difficulty": 2,
+     "evidence_quote": "The two storms also form in different places.",
+     "why_correct_id": "Kalimat pertama paragraf 3, **The two storms also form in different places**, udah jadi labelnya. Isinya: hurricane terbentuk di atas laut hangat, tornado di atas daratan di bawah badai petir. Jadi paragraf ini bahas tempat dan kondisi terbentuknya.",
+     "why_correct_en": "Paragraph 3 opens with **The two storms also form in different places**. Hurricanes over warm ocean, tornadoes over land under thunderstorms. So it covers where and how each forms.",
+     "why_wrong_id": {
+      "0": "Kecepatan angin dibahas di paragraf 5.",
+      "1": "Kerusakan total juga dibahas di paragraf 5.",
+      "3": "Pelacakan badai dibahas di paragraf 4."
+     },
+     "why_wrong_en": {
+      "0": "Wind speed is paragraph 5.",
+      "1": "Total damage is also paragraph 5.",
+      "3": "Tracking storms is paragraph 4."
+     },
+     "analogy_id": "Tiap paragraf di teks ini kayak satu baris di tabel. Baris ketiga isinya tempat lahir badainya.",
+     "analogy_en": "Each paragraph is a row in the table. Row three is where the storms are born.",
+     "tip_id": "Pengecoh soal paragraf sering ngambil isi paragraf tetangga. Cek nomor paragrafnya.",
+     "tip_en": "Paragraph distractors often borrow from the next door paragraph. Check the paragraph number."
+    },
+    {
+     "type": "reading",
+     "subtype": "detail",
+     "prompt": "According to the passage, hurricanes become weaker when they",
+     "options": [
+      "move over land",
+      "meet a thunderstorm",
+      "reach warm ocean water",
+      "grow wider than a kilometer"
+     ],
+     "correct_index": 0,
+     "rule_tags": [
+      "R-DETAIL"
+     ],
+     "difficulty": 1,
+     "evidence_quote": "they lose strength once they move over land and are cut off from that warm water",
+     "why_correct_id": "Scanning kata yang artinya melemah. Ketemu **lose strength** di paragraf 3: hurricane melemah **once they move over land**, karena kepisah dari air laut yang hangat.",
+     "why_correct_en": "Scan for weakening. Paragraph 3 says hurricanes **lose strength once they move over land**, cut off from warm water.",
+     "why_wrong_id": {
+      "1": "Badai petir itu tempat lahirnya tornado, bukan penyebab hurricane melemah.",
+      "2": "Air laut hangat justru sumber tenaga hurricane. Kebalikannya.",
+      "3": "Hurricane memang jauh lebih lebar dari satu kilometer. Itu ukuran, bukan penyebab melemah."
+     },
+     "why_wrong_en": {
+      "1": "Thunderstorms are where tornadoes form, not what weakens hurricanes.",
+      "2": "Warm water powers hurricanes. The opposite.",
+      "3": "Hurricanes are far wider than a kilometer anyway. That's size, not weakening."
+     },
+     "analogy_id": "Hurricane itu kayak HP yang dicolok ke charger laut hangat. Pindah ke darat, kabelnya lepas, baterainya turun.",
+     "analogy_en": "A hurricane is a phone plugged into warm ocean. Move it to land and the cable comes out.",
+     "tip_id": "Kata di soal (**become weaker**) jarang sama persis di teks. Cari sinonimnya, kayak **lose strength**.",
+     "tip_en": "Question words like **become weaker** rarely match the text exactly. Look for synonyms like **lose strength**."
+    },
+    {
+     "type": "reading",
+     "subtype": "inference",
+     "prompt": "What can be inferred about people who live where tornadoes are common?",
+     "options": [
+      "They can follow approaching tornadoes for several days.",
+      "They rarely experience thunderstorms.",
+      "They often have very little time to reach safety.",
+      "They live mostly near warm ocean water."
+     ],
+     "correct_index": 2,
+     "rule_tags": [
+      "R-INFER"
+     ],
+     "difficulty": 3,
+     "evidence_quote": "Because they appear so suddenly, warnings often come only ten to fifteen minutes before they strike.",
+     "why_correct_id": "Paragraf 4 bilang peringatan tornado sering cuma datang **ten to fifteen minutes before they strike**. Teks nggak bilang langsung soal penduduknya. Tapi kalau peringatannya sesingkat itu, mereka sering punya waktu sedikit banget buat nyelametin diri.",
+     "why_correct_en": "Paragraph 4 says tornado warnings often come only **ten to fifteen minutes before they strike**. Not stated directly, but residents must often have very little time to get safe.",
+     "why_wrong_id": {
+      "0": "Yang bisa dilacak berhari-hari itu hurricane, bukan tornado.",
+      "1": "Tornado justru lahir di bawah badai petir besar. Jadi badai petir pasti sering ada di sana.",
+      "3": "Tornado terbentuk di atas daratan. Air laut hangat itu urusan hurricane."
+     },
+     "why_wrong_en": {
+      "0": "Days of tracking apply to hurricanes, not tornadoes.",
+      "1": "Tornadoes form under big thunderstorms, so thunderstorms must be common there.",
+      "3": "Tornadoes form over land. Warm ocean water is hurricane territory."
+     },
+     "analogy_id": "Inferensi di sini kayak tahu bus cuma berhenti 10 detik. Nggak ada yang bilang kamu harus lari, tapi kamu paham sendiri.",
+     "analogy_en": "This inference is like knowing the bus stops for ten seconds. Nobody says run, but you get it.",
+     "tip_id": "Opsi inferensi yang bener biasanya nyambung langsung ke satu fakta di teks, di sini **ten to fifteen minutes**.",
+     "tip_en": "A good inference ties directly to one fact, here **ten to fifteen minutes**."
+    },
+    {
+     "type": "reading",
+     "subtype": "reference",
+     "prompt": "The word **they** in the phrase **before they strike** in paragraph 4 refers to",
+     "options": [
+      "warnings",
+      "minutes",
+      "forecasters",
+      "tornadoes"
+     ],
+     "correct_index": 3,
+     "rule_tags": [
+      "R-REF"
+     ],
+     "difficulty": 3,
+     "evidence_quote": "Because they appear so suddenly, warnings often come only ten to fifteen minutes before they strike.",
+     "why_correct_id": "Ada dua **they** di kalimat itu: **they appear so suddenly** dan **before they strike**. Yang muncul tiba-tiba dan menyerang itu tornado. Coba ganti: **before tornadoes strike**. Pas.",
+     "why_correct_en": "The sentence has two: **they appear so suddenly** and **before they strike**. What appears suddenly and strikes? Tornadoes. Swap in: **before tornadoes strike**. It fits.",
+     "why_wrong_id": {
+      "0": "**warnings** itu pelaku di tengah kalimat. Peringatan nggak menyerang.",
+      "1": "**minutes** cuma ukuran waktu. Menit nggak bisa menyerang.",
+      "2": "**forecasters** disebut di kalimat sebelumnya soal hurricane, dan mereka nggak menyerang apa pun."
+     },
+     "why_wrong_en": {
+      "0": "**warnings** is the subject in the middle. Warnings don't strike.",
+      "1": "**minutes** is just a measure of time. Minutes can't strike.",
+      "2": "**forecasters** appear earlier, about hurricanes, and they strike nothing."
+     },
+     "analogy_id": "Kata kerja **strike** itu kayak filter kopi. Cuma calon yang bisa menyerang yang lolos.",
+     "analogy_en": "The verb **strike** is a coffee filter. Only something that can strike gets through.",
+     "tip_id": "Kata benda terdekat kayak **minutes** belum tentu jawabannya. Uji pakai kata kerja di samping pronoun.",
+     "tip_en": "The nearest noun, like **minutes**, isn't always it. Test with the verb next to the pronoun."
+    }
+   ]
+  }
+ ]
+}

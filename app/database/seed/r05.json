@@ -1,0 +1,1130 @@
+{
+ "rumah": "r05",
+ "material_id": "Selamat datang di Level B. Mulai hari ini Listening tidak hanya percakapan pendek: ada **percakapan panjang** (Part B) dan **kuliah singkat** (Part C). Di Structure kita belajar kalimat pasif, dan di Reading kita mencari ide pokok teks yang lebih panjang.\n\n=== listening\n## Percakapan panjang dan lecture\nDi Part B dan C, pertanyaan baru dibacakan **setelah** audio selesai, jadi kamu harus mendengar sambil mengingat. Kalimat pertama hampir selalu menyebut **topik** (**I heard the university offers summer storage…**, **Today I want to look at…**). Setelah itu, catat detail yang biasa ditanya: angka, tahun, alasan (*because*), larangan (*isn't accepted*), dan syarat (*you just need to…*).\nPerumpamaan: mendengar lecture itu seperti menonton pertandingan sambil mencatat skor. Kamu tidak perlu mengingat setiap umpan, cukup gol, waktu, dan siapa pencetaknya.\n> Kalimat pembuka = topik · angka/tahun/alasan/syarat = calon soal detail\n✓ Tulis kata kunci singkat: *May-Aug*, *4 boxes*, *free if returning*\n✓ Soal topik: pilih jawaban yang mencakup seluruh percakapan\n✓ Waspadai kejadian dari waktu yang berbeda (1300-an vs 1990-an)\n✕ Memilih detail kecil sebagai jawaban soal topik\n✕ Mencampur dua kejadian yang disebut di bagian berbeda\n\n=== structure\n## Kalimat pasif: be + V3\n[[passive voice|passive-voice]] dipakai ketika yang penting adalah **benda yang dikenai tindakan**, bukan pelakunya. Rumusnya selalu **be + V3** ([[past participle (V3)|past-participle]]). Bentuk *be* mengikuti tense dan subject: *is/are built*, *was/were built*, *has been built*, *will be built*. Hati-hati: kata kerja tanpa object seperti *arrive, happen, occur, die* **tidak bisa** dipasifkan.\nPerumpamaan: kalimat pasif itu penumpang yang duduk di kursi sopir. Ia di depan, tetapi bukan dia yang menyetir.\n> be (sesuai tense & subject) + V3 · pelaku boleh ditulis dengan by\n✓ The bridge **was built** in 1937.\n✓ The results **will be announced** next week.\n✓ Many paintings **have been restored**.\n✕ The bridge was **build** in 1937. (bukan V3)\n✕ The letter **was arrived** two days later. (arrive tidak bisa pasif)\n\n=== reading\n## Ide pokok teks panjang\nTeks 350-450 kata sering punya pola **masalah → penyebab → akibat → solusi**. Ide pokok seluruh teks ada di paragraf pertama, tetapi baru lengkap setelah kamu melihat isi semua paragraf. Untuk soal *Paragraph X mainly discusses*, baca kalimat pertama paragraf itu.\nPerumpamaan: ide pokok teks panjang itu seperti judul album, sedangkan tiap paragraf adalah satu lagu. Judul album harus mewakili semua lagu.\n> Skim kalimat pertama setiap paragraf → rangkai menjadi satu kalimat\n✓ Pilihan yang menyebut beberapa aspek (penyebab, akibat, solusi) sekaligus\n✓ Untuk soal tujuan paragraf: tanya **paragraf ini berfungsi sebagai apa?**\n✕ Pilihan yang hanya cocok untuk satu paragraf\n✕ Pilihan yang memakai kata dari teks tetapi topiknya bergeser",
+ "material_en": "Welcome to Level B. From today, Listening isn't only short conversations: there are **longer conversations** (Part B) and **short lectures** (Part C). In Structure we learn the passive voice, and in Reading we find the main idea of longer passages.\n\n=== listening\n## Long conversations and lectures\nIn Parts B and C, the questions come **after** the audio, so you must listen and remember. The first lines almost always state the **topic** (**I heard the university offers summer storage…**, **Today I want to look at…**). After that, note the details that are usually tested: numbers, years, reasons (*because*), restrictions (*isn't accepted*), and conditions (*you just need to…*).\nAnalogy: listening to a lecture is like watching a match and noting the score. You don't need every pass, just the goals, the times, and who scored.\n> Opening line = topic · numbers/years/reasons/conditions = likely detail questions\n✓ Jot short keywords: *May-Aug*, *4 boxes*, *free if returning*\n✓ Topic questions: pick the answer that covers the whole conversation\n✓ Watch for events from different times (the 1300s vs the 1990s)\n✕ Choosing a small detail for a topic question\n✕ Mixing up two events mentioned in different parts\n\n=== structure\n## The passive: be + V3\nThe [[passive voice|passive-voice]] is used when what matters is **the thing receiving the action**, not who does it. The formula is always **be + V3** ([[past participle (V3)|past-participle]]). The form of *be* follows the tense and subject: *is/are built*, *was/were built*, *has been built*, *will be built*. Careful: verbs with no object, such as *arrive, happen, occur, die*, **cannot** be passive.\nAnalogy: a passive sentence puts the passenger in the driver's seat. It sits in front, but it isn't driving.\n> be (matching tense & subject) + V3 · the doer may follow by\n✓ The bridge **was built** in 1937.\n✓ The results **will be announced** next week.\n✓ Many paintings **have been restored**.\n✕ The bridge was **build** in 1937. (not V3)\n✕ The letter **was arrived** two days later. (arrive can't be passive)\n\n=== reading\n## The main idea of a long passage\nPassages of 350-450 words often follow a **problem → causes → effects → solutions** pattern. The overall main idea is in the first paragraph, but it is only complete once you see what every paragraph covers. For *Paragraph X mainly discusses*, read that paragraph's first sentence.\nAnalogy: the main idea of a long passage is an album title, and each paragraph is one song. The title has to represent every song.\n> Skim each paragraph's first sentence → combine them into one sentence\n✓ Options naming several aspects (causes, effects, solutions) at once\n✓ For paragraph-purpose questions, ask **what job does this paragraph do?**\n✕ Options that fit only one paragraph\n✕ Options that reuse words from the text but shift the topic",
+ "items": [
+  {
+   "section": "listening",
+   "part": "A",
+   "script": [
+    {
+     "speaker": "W1",
+     "text": "Did you hear that the chemistry building is being repainted?"
+    },
+    {
+     "speaker": "M2",
+     "text": "Yes, and the labs on the second floor won't reopen until March."
+    }
+   ],
+   "questions": [
+    {
+     "type": "listening_short",
+     "prompt": "What does the man say about the labs?",
+     "options": [
+      "They are being painted blue.",
+      "They will stay closed until March.",
+      "They first opened in March.",
+      "They are on the third floor."
+     ],
+     "correct_index": 1,
+     "rule_tags": [
+      "L-DETAIL",
+      "L-SECOND"
+     ],
+     "difficulty": 1,
+     "key_sentence": "Yes, and the labs on the second floor won't reopen until March.",
+     "key_translation_id": "Ya, dan lab di lantai dua baru akan buka lagi bulan Maret.",
+     "why_correct_id": "Fokus ke kalimat si pria. **won't reopen until March** artinya lab-nya nggak bakal buka lagi sebelum Maret. Jadi tetap tutup sampai Maret. Opsi yang bener tinggal parafrase: **will stay closed until March**.",
+     "why_correct_en": "Focus on the man's line. **won't reopen until March** means the labs stay shut until March. The right option paraphrases it: **will stay closed until March**.",
+     "why_wrong_id": {
+      "0": "Gedungnya memang dicat ulang, tapi warnanya nggak disebut.",
+      "2": "**Reopen** artinya buka lagi. Maret itu waktu buka lagi, bukan pertama kali buka.",
+      "3": "Lab yang diomongin ada di lantai dua."
+     },
+     "why_wrong_en": {
+      "0": "The building is being repainted, but no colour comes up.",
+      "2": "**Reopen** means open again. March is when they reopen, not when they first opened.",
+      "3": "The labs are on the second floor."
+     },
+     "analogy_id": "**Won't … until March** itu kayak toko yang pasang tulisan buka lagi bulan Maret. Sebelum itu, pintunya tetap dikunci.",
+     "analogy_en": "**Won't … until March** is a shop sign saying reopening in March. Until then, the door stays locked.",
+     "tip_id": "Pola **not … until X** artinya baru kejadian pas X, sebelum itu nggak.",
+     "tip_en": "**not … until X** means it happens only at X, not before."
+    }
+   ]
+  },
+  {
+   "section": "listening",
+   "part": "A",
+   "script": [
+    {
+     "speaker": "M1",
+     "text": "I can't find my calculator anywhere."
+    },
+    {
+     "speaker": "W2",
+     "text": "Have you checked the lost and found? Someone turned in a calculator yesterday."
+    }
+   ],
+   "questions": [
+    {
+     "type": "listening_short",
+     "prompt": "What does the woman suggest?",
+     "options": [
+      "Buying a new calculator",
+      "Borrowing her calculator",
+      "Looking in the lost and found",
+      "Searching the classroom again tomorrow"
+     ],
+     "correct_index": 2,
+     "rule_tags": [
+      "L-SUGGEST",
+      "L-SECOND"
+     ],
+     "difficulty": 1,
+     "key_sentence": "Have you checked the lost and found?",
+     "key_translation_id": "Sudah cek di bagian barang hilang?",
+     "why_correct_id": "**Have you checked…?** di sini itu saran yang dibungkus pertanyaan. Dia nyaranin cek **lost and found**, tempat barang temuan, soalnya kemarin ada yang nyerahin kalkulator.",
+     "why_correct_en": "**Have you checked…?** is a suggestion dressed as a question. She suggests the **lost and found**, since someone turned in a calculator yesterday.",
+     "why_wrong_id": {
+      "0": "Beli kalkulator baru nggak disaranin.",
+      "1": "Dia nggak nawarin kalkulatornya sendiri.",
+      "3": "**Yesterday** itu waktu kalkulatornya diserahin, bukan waktu nyari. Kelas juga nggak disebut."
+     },
+     "why_wrong_en": {
+      "0": "Buying a new one isn't suggested.",
+      "1": "She doesn't offer her own calculator.",
+      "3": "**Yesterday** is when the calculator was handed in, not when to search. No classroom comes up."
+     },
+     "analogy_id": "**Have you checked…?** itu kayak teman yang nunjuk ke laci sambil nanya. Sebenarnya dia lagi ngasih petunjuk.",
+     "analogy_en": "**Have you checked…?** is a friend pointing at a drawer while asking. It's really a hint.",
+     "tip_id": "Pertanyaan **Have you tried/checked…?** dari orang kedua biasanya saran.",
+     "tip_en": "**Have you tried/checked…?** from the second speaker is usually a suggestion."
+    }
+   ]
+  },
+  {
+   "section": "listening",
+   "part": "A",
+   "script": [
+    {
+     "speaker": "W1",
+     "text": "Professor Diaz's lecture was moved to the main auditorium."
+    },
+    {
+     "speaker": "M1",
+     "text": "No wonder. Half the campus signed up for her class this year."
+    }
+   ],
+   "questions": [
+    {
+     "type": "listening_short",
+     "prompt": "What does the man imply?",
+     "options": [
+      "The class has become very popular.",
+      "The auditorium is being repaired.",
+      "He did not sign up for the class.",
+      "The lecture has been canceled."
+     ],
+     "correct_index": 0,
+     "rule_tags": [
+      "L-INFER",
+      "L-IDIOM"
+     ],
+     "difficulty": 2,
+     "key_sentence": "No wonder. Half the campus signed up for her class this year.",
+     "key_translation_id": "Pantas saja. Separuh kampus mendaftar di kelasnya tahun ini.",
+     "why_correct_id": "**No wonder** artinya pantes aja, jadi dia nggak heran kuliahnya dipindah. Alasannya, **half the campus**, banyak banget mahasiswa, daftar. Kelas yang diikutin orang sebanyak itu berarti populer, makanya butuh ruangan gede.",
+     "why_correct_en": "**No wonder** means he isn't surprised by the move. The reason: **half the campus** signed up. A class that full is very popular, so it needs a big room.",
+     "why_wrong_id": {
+      "1": "Perbaikan auditorium nggak disebut. Kuliahnya justru dipindah KE auditorium.",
+      "2": "Nggak ada info si pria daftar atau nggak.",
+      "3": "Kuliahnya dipindah, bukan dibatalin."
+     },
+     "why_wrong_en": {
+      "1": "No repairs come up. The lecture moved INTO the auditorium.",
+      "2": "Nothing says whether he signed up.",
+      "3": "The lecture was moved, not canceled."
+     },
+     "analogy_id": "**No wonder** itu kayak lihat antrean panjang terus bilang pantes restoran ini pindah ke gedung yang lebih gede.",
+     "analogy_en": "**No wonder** is seeing a long queue and saying that's why this restaurant moved somewhere bigger.",
+     "tip_id": "**Half the campus**, **everyone**, **the whole class** itu lebay (hiperbola). Artinya banyak banget, bukan angka pasti.",
+     "tip_en": "**Half the campus**, **everyone**, **the whole class** are exaggerations. They mean a lot, not exact numbers."
+    }
+   ]
+  },
+  {
+   "section": "listening",
+   "part": "A",
+   "script": [
+    {
+     "speaker": "M2",
+     "text": "Did the committee approve your request for travel funding?"
+    },
+    {
+     "speaker": "W2",
+     "text": "They approved it, but they're only covering half of what I asked for."
+    }
+   ],
+   "questions": [
+    {
+     "type": "listening_short",
+     "prompt": "What does the woman mean?",
+     "options": [
+      "Her request was rejected.",
+      "She will travel with the committee.",
+      "She will receive less money than she requested.",
+      "The committee needs more information from her."
+     ],
+     "correct_index": 2,
+     "rule_tags": [
+      "L-DETAIL",
+      "L-SECOND"
+     ],
+     "difficulty": 2,
+     "key_sentence": "They approved it, but they're only covering half of what I asked for.",
+     "key_translation_id": "Disetujui, tapi mereka hanya menanggung separuh dari yang aku minta.",
+     "why_correct_id": "**They approved it** artinya permohonannya disetujui. Tapi **they're only covering half** artinya dananya cuma dikasih setengah. Jadi dia dapat duit lebih sedikit dari yang diminta.",
+     "why_correct_en": "**They approved it** means the request went through. **they're only covering half** means only half the money is given. So she gets less than she asked for.",
+     "why_wrong_id": {
+      "0": "Permohonannya disetujui, **approved**, bukan ditolak.",
+      "1": "Komite ngasih dana. Nggak ada info komitenya ikut jalan-jalan.",
+      "3": "Nggak disebut ada permintaan info tambahan."
+     },
+     "why_wrong_en": {
+      "0": "It was **approved**, not rejected.",
+      "1": "The committee gives money. Nothing says it travels with her.",
+      "3": "No request for more information comes up."
+     },
+     "analogy_id": "Disetujui tapi cuma setengah itu kayak pesan dua porsi yang datang satu. Pesanannya diterima, jumlahnya berkurang.",
+     "analogy_en": "Approved but only half is ordering two plates and getting one. The order went through, but less arrived.",
+     "tip_id": "Bagian setelah **but** sering ngubah atau ngebatesin kabar baik di depannya.",
+     "tip_en": "The part after **but** often limits the good news before it."
+    }
+   ]
+  },
+  {
+   "section": "listening",
+   "part": "B",
+   "script": [
+    {
+     "speaker": "W1",
+     "text": "Hi, I'm moving out of my dorm room next week, and I heard the university offers summer storage. Is that right?"
+    },
+    {
+     "speaker": "M2",
+     "text": "It is. Students can store up to four boxes in the basement of Hartley Hall from May until the end of August."
+    },
+    {
+     "speaker": "W1",
+     "text": "Four boxes. What about larger items, like a desk lamp or a small bookshelf?"
+    },
+    {
+     "speaker": "M2",
+     "text": "Lamps are fine as long as they fit in a box. Furniture, unfortunately, isn't accepted, because we simply don't have the space."
+    },
+    {
+     "speaker": "W1",
+     "text": "I see. And how much does it cost?"
+    },
+    {
+     "speaker": "M2",
+     "text": "It's free for students who are returning in the fall. You just need to show your registration for the next semester."
+    },
+    {
+     "speaker": "W1",
+     "text": "Great. When can I drop the boxes off?"
+    },
+    {
+     "speaker": "M2",
+     "text": "Any weekday between nine and four. Just make sure each box is labeled with your name and student number, because we can't accept unlabeled boxes."
+    }
+   ],
+   "questions": [
+    {
+     "type": "listening_long",
+     "prompt": "What is the conversation mainly about?",
+     "options": [
+      "Finding a new dorm room for the fall",
+      "A storage service for students during the summer",
+      "Buying furniture for Hartley Hall",
+      "Registering for summer classes"
+     ],
+     "correct_index": 1,
+     "rule_tags": [
+      "L-TOPIC"
+     ],
+     "difficulty": 1,
+     "key_sentence": "I heard the university offers summer storage.",
+     "key_translation_id": "Aku dengar universitas menyediakan tempat penyimpanan barang selama liburan musim panas.",
+     "why_correct_id": "Kalimat pertama si mahasiswi udah nyebut topiknya: **summer storage**, penitipan barang selama musim panas. Seluruh obrolan bahas aturan layanan itu: jumlah kotak, barang yang boleh, biaya, dan waktu nyerahin barang.",
+     "why_correct_en": "Her first line names the topic: **summer storage**. The whole talk covers its rules: number of boxes, allowed items, cost, and drop-off times.",
+     "why_wrong_id": {
+      "0": "Dia pindah KELUAR dari kamar asrama. Nyari kamar baru nggak dibahas.",
+      "2": "Hartley Hall itu tempat penyimpanannya. Beli furnitur nggak dibahas.",
+      "3": "**Next semester** cuma disebut sebagai syarat gratis, bukan topik daftar kelas musim panas."
+     },
+     "why_wrong_en": {
+      "0": "She's moving OUT of her dorm. Finding a new room isn't discussed.",
+      "2": "Hartley Hall is where things are stored. Buying furniture isn't discussed.",
+      "3": "**Next semester** is just the condition for free storage, not summer class registration."
+     },
+     "analogy_id": "Soal topik itu kayak nebak judul film dari adegan pembuka. Kalimat pertama biasanya udah ngasih tahu ceritanya soal apa.",
+     "analogy_en": "A topic question is guessing a film's title from its opening scene. The first line usually gives it away.",
+     "tip_id": "Buat soal **mainly about**, dengerin baik-baik satu sampai dua kalimat pertama.",
+     "tip_en": "For **mainly about** questions, listen closely to the first line or two."
+    },
+    {
+     "type": "listening_long",
+     "prompt": "Which item will the university NOT store?",
+     "options": [
+      "A small bookshelf",
+      "A desk lamp packed in a box",
+      "A box of winter clothes",
+      "A labeled box of books"
+     ],
+     "correct_index": 0,
+     "rule_tags": [
+      "L-DETAIL"
+     ],
+     "difficulty": 2,
+     "key_sentence": "Furniture, unfortunately, isn't accepted, because we simply don't have the space.",
+     "key_translation_id": "Sayangnya furnitur tidak diterima, karena tempatnya memang tidak cukup.",
+     "why_correct_id": "Si mahasiswi nanya soal lampu meja dan rak buku kecil. Petugasnya jawab lampu boleh asal muat di kotak, tapi furnitur nggak diterima. Rak buku itu furnitur, jadi rak buku nggak bisa dititipin.",
+     "why_correct_en": "She asks about a desk lamp and a small bookshelf. The clerk says lamps are fine if boxed, but furniture isn't accepted. A bookshelf is furniture, so it can't be stored.",
+     "why_wrong_id": {
+      "1": "Lampu boleh dititipin, **as long as they fit in a box**.",
+      "2": "Barang dalam kotak boleh dititipin. Baju dalam kotak ya kotak biasa.",
+      "3": "Kotak berlabel justru syarat biar diterima."
+     },
+     "why_wrong_en": {
+      "1": "Lamps are fine, **as long as they fit in a box**.",
+      "2": "Boxed items are fine. Clothes in a box are just a regular box.",
+      "3": "A labeled box is exactly what's required."
+     },
+     "analogy_id": "Aturan penitipan ini kayak bagasi kabin pesawat. Apa aja boleh asal muat di koper, tapi lemari ya nggak bisa dibawa.",
+     "analogy_en": "These rules are like cabin luggage. Anything goes if it fits in the case, but a cupboard can't come.",
+     "tip_id": "Soal NOT: coret opsi yang disebut BOLEH, sisain satu yang dilarang.",
+     "tip_en": "NOT questions: cross out what IS allowed and keep the one that isn't."
+    },
+    {
+     "type": "listening_long",
+     "prompt": "What must the woman do to use the service for free?",
+     "options": [
+      "Pay a small fee in August",
+      "Move out before the end of May",
+      "Store fewer than four boxes",
+      "Show that she has registered for the fall semester"
+     ],
+     "correct_index": 3,
+     "rule_tags": [
+      "L-DETAIL"
+     ],
+     "difficulty": 2,
+     "key_sentence": "You just need to show your registration for the next semester.",
+     "key_translation_id": "Kamu cukup menunjukkan bukti pendaftaran untuk semester depan.",
+     "why_correct_id": "Layanannya gratis buat mahasiswa yang balik lagi di musim gugur, **returning in the fall**. Buktinya registrasi semester depan. Jadi dia harus nunjukin kalau dia udah terdaftar buat semester musim gugur.",
+     "why_correct_en": "It's free for students **returning in the fall**. The proof is next semester's registration. So she must show she's registered for the fall.",
+     "why_wrong_id": {
+      "0": "Layanannya gratis, nggak ada biaya. **August** itu akhir masa penyimpanan.",
+      "1": "**May** itu awal masa penyimpanan, bukan syarat pindah.",
+      "2": "Batasnya **up to four boxes**, maksimal empat, bukan harus kurang dari empat."
+     },
+     "why_wrong_en": {
+      "0": "It's free, no fee. **August** is when storage ends.",
+      "1": "**May** is when storage starts, not a move-out condition.",
+      "2": "The limit is **up to four boxes**, not fewer than four."
+     },
+     "analogy_id": "Syarat **just need to** itu kayak tiket masuk gratis yang cuma minta kartu mahasiswa. Tunjukin buktinya, terus masuk.",
+     "analogy_en": "A **just need to** condition is free entry that only asks for a student card. Show it and you're in.",
+     "tip_id": "**just need to**, **only have to**, **as long as** nandain syarat. Soal detail suka banget nanyain ini.",
+     "tip_en": "**just need to**, **only have to**, **as long as** mark conditions. Detail questions love them."
+    }
+   ]
+  },
+  {
+   "section": "listening",
+   "part": "C",
+   "script": [
+    {
+     "speaker": "LEC",
+     "text": "Good morning. Today I want to look at one of the most famous construction problems in history: the Leaning Tower of Pisa. Construction began in 1173, and the tower was designed as a bell tower for the city's cathedral. However, by the time workers had finished the third floor, the building had already started to tilt. The reason was the ground beneath it. The tower stands on soft soil made of clay, sand, and shells, and its foundation is only about three meters deep. As the weight increased, one side sank further than the other. Interestingly, construction was then stopped for almost a century because of wars. That long pause actually helped, because it gave the soil time to settle and become firmer. Otherwise, the tower would probably have fallen. When building resumed, engineers tried to correct the tilt by making the upper floors slightly taller on one side. The tower was finally completed in the 1370s. Much later, in the 1990s, engineers carefully removed soil from under the higher side, which reduced the lean by about forty-five centimeters. Today, experts believe the tower will remain stable for at least two hundred years."
+    }
+   ],
+   "questions": [
+    {
+     "type": "listening_lecture",
+     "prompt": "What is the lecture mainly about?",
+     "options": [
+      "The history of bells in Italian cathedrals",
+      "Wars between Italian cities in the Middle Ages",
+      "Modern methods for building tall towers",
+      "Why a famous tower leans and how engineers dealt with it"
+     ],
+     "correct_index": 3,
+     "rule_tags": [
+      "L-TOPIC",
+      "L-LECTURE"
+     ],
+     "difficulty": 1,
+     "key_sentence": "Today I want to look at one of the most famous construction problems in history: the Leaning Tower of Pisa.",
+     "key_translation_id": "Hari ini saya ingin membahas salah satu masalah konstruksi paling terkenal dalam sejarah: Menara Miring Pisa.",
+     "why_correct_id": "Kalimat **Today I want to look at…** nyebut topiknya: masalah konstruksi Menara Pisa. Sisa kuliahnya ngejelasin penyebab miringnya, yaitu tanah lunak dan fondasi dangkal. Terus usaha ngatasinnya: lantai atas dibikin lebih tinggi dan tanahnya dikeruk tahun 1990-an.",
+     "why_correct_en": "**Today I want to look at…** names the topic: the Tower of Pisa's construction problem. The rest explains why it leans, soft soil and a shallow foundation, and how it was handled.",
+     "why_wrong_id": {
+      "0": "Menaranya memang menara lonceng, tapi sejarah lonceng nggak dibahas.",
+      "1": "Perang cuma disebut sebagai alasan pembangunannya berhenti.",
+      "2": "Kuliahnya bahas satu menara bersejarah, bukan metode modern bikin menara."
+     },
+     "why_wrong_en": {
+      "0": "It was a bell tower, but the history of bells isn't covered.",
+      "1": "Wars are only mentioned as why work stopped.",
+      "2": "The lecture covers one historic tower, not modern building methods."
+     },
+     "analogy_id": "**Today I want to look at…** itu kayak judul yang ditulis di papan tulis sebelum kuliah mulai.",
+     "analogy_en": "**Today I want to look at…** is the title on the board before class starts.",
+     "tip_id": "Dosen hampir selalu nyebut topik di kalimat pertama atau kedua. Catat kata bendanya.",
+     "tip_en": "Lecturers almost always name the topic in the first or second sentence. Note the noun."
+    },
+    {
+     "type": "listening_lecture",
+     "prompt": "According to the professor, why did the long pause in construction help the tower?",
+     "options": [
+      "Workers had time to design a deeper foundation.",
+      "The soil had time to become firmer.",
+      "The bells were removed during the wars.",
+      "Engineers removed soil from the higher side."
+     ],
+     "correct_index": 1,
+     "rule_tags": [
+      "L-LECTURE",
+      "L-DETAIL"
+     ],
+     "difficulty": 3,
+     "key_sentence": "That long pause actually helped, because it gave the soil time to settle and become firmer.",
+     "key_translation_id": "Jeda panjang itu justru membantu, karena tanahnya punya waktu untuk mampat dan menjadi lebih padat.",
+     "why_correct_id": "Kata kunci **pause** muncul habis info kalau pembangunannya berhenti hampir satu abad. Alasannya dikasih pakai **because**: tanahnya punya waktu buat mampat dan jadi lebih padat.",
+     "why_correct_en": "**pause** comes right after we hear work stopped for almost a century. The reason follows **because**: the soil had time to settle and firm up.",
+     "why_wrong_id": {
+      "0": "Fondasinya nggak diperdalam. Tetap sekitar tiga meter.",
+      "2": "Lonceng nggak dibahas di kuliah.",
+      "3": "Pengerukan tanah kejadian tahun 1990-an, bukan pas jeda di Abad Pertengahan. Jebakan nyampur dua waktu."
+     },
+     "why_wrong_en": {
+      "0": "The foundation wasn't deepened. It stayed about three meters.",
+      "2": "Bells aren't discussed.",
+      "3": "Soil was removed in the 1990s, not during the medieval pause. A mixed-timeline trap."
+     },
+     "analogy_id": "Jeda pembangunan itu kayak adonan roti yang didiemin. Kelihatannya nggak ngapa-ngapain, padahal adonannya lagi ngembang dan nguat.",
+     "analogy_en": "The pause is like resting bread dough. It looks like nothing's happening, but the dough is setting and getting stronger.",
+     "tip_id": "Soal **why** di lecture? Dengerin **because** habis kata kunci. Jangan nyampur kejadian dari abad yang beda.",
+     "tip_en": "**Why** questions in lectures? Listen for **because** after the keyword, and don't mix events from different centuries."
+    },
+    {
+     "type": "listening_lecture",
+     "prompt": "What did engineers do in the 1990s?",
+     "options": [
+      "They added another floor to the tower.",
+      "They made the upper floors taller on one side.",
+      "They removed soil from under the higher side.",
+      "They moved the tower onto firmer ground."
+     ],
+     "correct_index": 2,
+     "rule_tags": [
+      "L-LECTURE",
+      "L-DETAIL"
+     ],
+     "difficulty": 3,
+     "key_sentence": "Much later, in the 1990s, engineers carefully removed soil from under the higher side, which reduced the lean by about forty-five centimeters.",
+     "key_translation_id": "Jauh setelahnya, pada tahun 1990-an, para insinyur dengan hati-hati mengeruk tanah dari bawah sisi yang lebih tinggi, sehingga kemiringannya berkurang sekitar empat puluh lima sentimeter.",
+     "why_correct_id": "Kata kunci tahun **1990s** muncul menjelang akhir kuliah. Di masa itu insinyur ngeruk tanah dari bawah sisi yang lebih tinggi. Hasilnya kemiringan berkurang sekitar 45 cm.",
+     "why_correct_en": "**1990s** comes near the end. Then engineers removed soil from under the higher side, cutting the lean by about 45 cm.",
+     "why_wrong_id": {
+      "0": "Nggak ada lantai tambahan yang dibangun tahun 1990-an.",
+      "1": "Lantai atas dibikin lebih tinggi di satu sisi pas pembangunan dilanjutin di Abad Pertengahan, bukan tahun 1990-an.",
+      "3": "Menaranya nggak dipindah. Tanah di bawahnya yang dikeruk."
+     },
+     "why_wrong_en": {
+      "0": "No floor was added in the 1990s.",
+      "1": "The taller upper floors come from when building resumed in the Middle Ages, not the 1990s.",
+      "3": "The tower wasn't moved. Soil beneath it was removed."
+     },
+     "analogy_id": "Lecture yang isinya banyak tahun itu kayak lini masa di dinding museum. Pasangin tiap kejadian sama tahunnya sendiri.",
+     "analogy_en": "A lecture full of dates is a museum timeline. Pin each event to its own year.",
+     "tip_id": "Catat tahun plus kata kerja singkat pas dengerin: 1173 mulai, 1370-an kelar, 1990-an keruk tanah.",
+     "tip_en": "Jot year plus a short verb while listening: 1173 start, 1370s done, 1990s soil removed."
+    }
+   ]
+  },
+  {
+   "section": "structure",
+   "type": "structure_completion",
+   "prompt": "The new science building ______ by a famous architect in 2019.",
+   "options": [
+    "designed",
+    "was designed",
+    "has designing",
+    "is design"
+   ],
+   "correct_index": 1,
+   "rule_tags": [
+    "S-PASSIVE"
+   ],
+   "difficulty": 1,
+   "why_correct_id": "Gedung nggak ngerancang dirinya sendiri. Dia dirancang arsitek, **by a famous architect**, jadi butuh [[passive voice|passive-voice]]. **in 2019** itu masa lalu, jadi was + V3: **was designed**.",
+   "why_correct_en": "A building doesn't design itself. It's designed **by a famous architect**, so use the passive. **in 2019** is past, so was + V3: **was designed**.",
+   "why_wrong_id": {
+    "0": "**designed** doang bikin kalimatnya aktif. Seolah-olah gedungnya yang ngerancang sesuatu.",
+    "2": "**has designing** bukan bentuk yang ada di bahasa Inggris.",
+    "3": "**is design** salah. Pasif pakai **is** harus diikutin V3, dan 2019 itu masa lalu."
+   },
+   "why_wrong_en": {
+    "0": "**designed** alone makes it active, as if the building designed something.",
+    "2": "**has designing** isn't a real form.",
+    "3": "**is design** is wrong. A passive **is** needs V3, and 2019 is past."
+   },
+   "analogy_id": "Gedungnya itu penumpang, arsiteknya sopir. Penumpang yang duduk di depan butuh **was designed**, bukan **designed**.",
+   "analogy_en": "The building is the passenger, the architect the driver. A passenger up front needs **was designed**, not **designed**.",
+   "tip_id": "Ada **by + pelaku** setelah rumpang? Hampir pasti butuh be + V3.",
+   "tip_en": "See **by + doer** after the blank? You almost certainly need be + V3."
+  },
+  {
+   "section": "structure",
+   "type": "structure_completion",
+   "prompt": "English ______ in many countries as a second language.",
+   "options": [
+    "is spoken",
+    "speaks",
+    "spoken",
+    "is speaking"
+   ],
+   "correct_index": 0,
+   "rule_tags": [
+    "S-PASSIVE"
+   ],
+   "difficulty": 1,
+   "why_correct_id": "Bahasa Inggris nggak ngomong. Bahasa itu dipakai orang, jadi [[passive voice|passive-voice]]. Fakta umum pakai present: is + V3 = **is spoken**.",
+   "why_correct_en": "English doesn't speak. People speak it, so use the passive. A general fact takes the present: is + V3 = **is spoken**.",
+   "why_wrong_id": {
+    "1": "**speaks** itu aktif. Seolah-olah bahasa Inggrisnya yang ngomong.",
+    "2": "**spoken** (V3) tanpa **is** bukan kata kerja utama. Kalimatnya jadi nggak punya mesin.",
+    "3": "**is speaking** itu aktif continuous. Artinya bahasanya lagi ngomong."
+   },
+   "why_wrong_en": {
+    "1": "**speaks** is active, as if English were talking.",
+    "2": "**spoken** (V3) without **is** isn't a main verb.",
+    "3": "**is speaking** is active: English would be talking."
+   },
+   "analogy_id": "Bahasa itu kayak lagu. Lagu nggak nyanyi, lagu dinyanyiin. **English is spoken.**",
+   "analogy_en": "A language is like a song. Songs don't sing, they are sung. **English is spoken.**",
+   "tip_id": "Tanya dulu: pelakunya bisa ngelakuin aksi itu sendiri nggak? Kalau nggak, pakai pasif.",
+   "tip_en": "Ask: can the subject do the action itself? If not, go passive."
+  },
+  {
+   "section": "structure",
+   "type": "structure_completion",
+   "prompt": "The results of the experiment ______ next week, after all the data have been checked.",
+   "options": [
+    "will announce",
+    "announced",
+    "will be announced",
+    "are announcing"
+   ],
+   "correct_index": 2,
+   "rule_tags": [
+    "S-PASSIVE",
+    "S-TENSE"
+   ],
+   "difficulty": 2,
+   "why_correct_id": "Hasil eksperimen diumumin sama orang, jadi [[passive voice|passive-voice]]. **next week** nunjukin masa depan: will + be + V3 = **will be announced**.",
+   "why_correct_en": "Results are announced by people, so it's passive. **next week** is future: will + be + V3 = **will be announced**.",
+   "why_wrong_id": {
+    "0": "**will announce** itu aktif. Seolah-olah hasilnya yang ngumumin sesuatu.",
+    "1": "**announced** itu bentuk lampau dan aktif. Bentrok sama **next week**.",
+    "3": "**are announcing** itu aktif. Hasilnya lagi ngumumin."
+   },
+   "why_wrong_en": {
+    "0": "**will announce** is active, as if the results announce something.",
+    "1": "**announced** is past and active, clashing with **next week**.",
+    "3": "**are announcing** is active: the results would be announcing."
+   },
+   "analogy_id": "Pasif masa depan itu kayak nyusun tiga balok: will + be + V3. Satu balok hilang, menaranya roboh.",
+   "analogy_en": "The future passive is a three-piece tower: will + be + V3. Pull one and it falls.",
+   "tip_id": "Pasif + masa depan = **will be + V3**. Pasif + sedang = **is being + V3**. Pasif + udah = **has been + V3**.",
+   "tip_en": "Future passive = **will be + V3**. Progressive = **is being + V3**. Perfect = **has been + V3**."
+  },
+  {
+   "section": "structure",
+   "type": "structure_completion",
+   "prompt": "Many of the paintings in the museum ______ since the fire in 1998.",
+   "options": [
+    "have restored",
+    "were restoring",
+    "has been restored",
+    "have been restored"
+   ],
+   "correct_index": 3,
+   "rule_tags": [
+    "S-PASSIVE",
+    "S-PERFECT-V3"
+   ],
+   "difficulty": 3,
+   "why_correct_id": "**since the fire in 1998** butuh [[present perfect|present-perfect]]. Lukisannya direstorasi orang, jadi pasif. Pelakunya **Many of the paintings**, jamak. Jadi have + been + V3 = **have been restored**.",
+   "why_correct_en": "**since the fire in 1998** calls for the present perfect. Paintings are restored by people, so it's passive. **Many of the paintings** is plural: **have been restored**.",
+   "why_wrong_id": {
+    "0": "**have restored** itu aktif. Seolah-olah lukisannya yang ngerestorasi sesuatu.",
+    "1": "**were restoring** itu aktif dan lampau. Nggak cocok sama **since**.",
+    "2": "**has** itu tunggal, padahal **Many of the paintings** jamak."
+   },
+   "why_wrong_en": {
+    "0": "**have restored** is active, as if the paintings restored something.",
+    "1": "**were restoring** is active and past. It doesn't fit **since**.",
+    "2": "**has** is singular, but **Many of the paintings** is plural."
+   },
+   "analogy_id": "Soal ini nguji tiga hal sekaligus, kayak gembok tiga angka: waktu (**since**), arah (pasif), dan jumlah (jamak). Ketiganya harus pas.",
+   "analogy_en": "This tests three things at once, like a three-digit lock: time (**since**), voice (passive), number (plural). All three must match.",
+   "tip_id": "Cek berurutan: tense dari penanda waktu, terus aktif atau pasif, terus tunggal atau jamak.",
+   "tip_en": "Check in order: tense from the time marker, then active or passive, then singular or plural."
+  },
+  {
+   "section": "structure",
+   "type": "structure_error",
+   "prompt": "The bridge {A}was{/A} {B}build{/B} in 1937 and {C}is{/C} still {D}used{/D} today.",
+   "options": [
+    "was",
+    "build",
+    "is",
+    "used"
+   ],
+   "correct_index": 1,
+   "rule_tags": [
+    "S-PASSIVE",
+    "S-VFORM"
+   ],
+   "difficulty": 1,
+   "why_correct_id": "**was … in 1937** itu [[passive voice|passive-voice]] lampau, jadi habis **was** harus V3. V3 dari **build** itu **built**. Jadi **was build** harus jadi **was built**.",
+   "why_correct_en": "**was … in 1937** is a past passive, so **was** needs V3. The V3 of **build** is **built**. So **was build** should be **was built**.",
+   "why_wrong_id": {
+    "0": "**was** itu tunggal dan lampau. Cocok sama **The bridge** dan 1937.",
+    "2": "**is** pas buat keadaan sekarang, **today**.",
+    "3": "**is still used** itu pasif present yang aman."
+   },
+   "why_wrong_en": {
+    "0": "**was** is singular and past, matching **The bridge** and 1937.",
+    "2": "**is** fits the present, **today**.",
+    "3": "**is still used** is a fine present passive."
+   },
+   "analogy_id": "Kernet **was** di kalimat pasif cuma nerima penumpang berseragam V3.",
+   "analogy_en": "In a passive, the **was** conductor only lets V3 passengers on.",
+   "tip_id": "Habis **is**, **was**, **were**, atau **been** di kalimat pasif, cek V3-nya. Kata kerja tak beraturan sering jadi jebakan.",
+   "tip_en": "After **is**, **was**, **were**, or **been** in a passive, check the V3. Irregular verbs love to trap you."
+  },
+  {
+   "section": "structure",
+   "type": "structure_error",
+   "prompt": "Every year, thousands of trees {A}is{/A} {B}planted{/B} by {C}volunteers{/C} {D}along{/D} the river.",
+   "options": [
+    "is",
+    "planted",
+    "volunteers",
+    "along"
+   ],
+   "correct_index": 0,
+   "rule_tags": [
+    "S-PASSIVE",
+    "S-AGREE"
+   ],
+   "difficulty": 1,
+   "why_correct_id": "Pelaku kalimat ini **thousands of trees**, jamak. Di kalimat pasif pun, bentuk **be** harus cocok sama pelakunya. Jadi **is** harus jadi **are** planted.",
+   "why_correct_en": "The subject is **thousands of trees**, plural. Even in the passive, **be** must match the subject. So **is** should be **are** planted.",
+   "why_wrong_id": {
+    "1": "**planted** itu V3 yang pas buat pasif.",
+    "2": "**by volunteers** nyebut pelakunya dengan pas.",
+    "3": "**along the river** itu keterangan tempat yang aman."
+   },
+   "why_wrong_en": {
+    "1": "**planted** is the right V3 for the passive.",
+    "2": "**by volunteers** names the doer correctly.",
+    "3": "**along the river** is a fine place phrase."
+   },
+   "analogy_id": "Pasif nggak ngebebasin dari aturan jumlah. Ribuan pohon tetap butuh **are**, kayak ribuan penumpang tetap butuh banyak kursi.",
+   "analogy_en": "The passive doesn't cancel agreement. Thousands of trees still need **are**, like thousands of passengers still need many seats.",
+   "tip_id": "Di kalimat pasif, cocokin **is/are** atau **was/were** sama pelaku di depannya.",
+   "tip_en": "In the passive, match **is/are** or **was/were** to the subject in front."
+  },
+  {
+   "section": "structure",
+   "type": "structure_error",
+   "prompt": "The ancient city {A}was{/A} {B}discovered{/B} by farmers who {C}were dug{/C} a {D}well{/D}.",
+   "options": [
+    "was",
+    "discovered",
+    "were dug",
+    "well"
+   ],
+   "correct_index": 2,
+   "rule_tags": [
+    "S-PASSIVE"
+   ],
+   "difficulty": 2,
+   "why_correct_id": "Di clause **who were dug a well**, para petani yang NGELAKUIN penggalian, dan ada objeknya, **a well**. Jadi kalimatnya harus aktif, bukan pasif. **were dug** harus jadi **were digging**, lagi gali, atau **dug**.",
+   "why_correct_en": "In **who were dug a well**, the farmers DO the digging, and there's an object, **a well**. So it must be active: **were digging** or **dug**.",
+   "why_wrong_id": {
+    "0": "**was discovered** itu pasif yang pas. Kotanya ditemuin petani.",
+    "1": "**discovered** itu V3 yang pas setelah **was**.",
+    "3": "**a well**, sumur, itu objek yang pas buat **dig**."
+   },
+   "why_wrong_en": {
+    "0": "**was discovered** is a correct passive. The city was found by farmers.",
+    "1": "**discovered** is the right V3 after **was**.",
+    "3": "**a well** is the right object for **dig**."
+   },
+   "analogy_id": "Petaninya itu sopir yang beneran nyetir, alias nggali. Kalau dibikin pasif, seolah-olah petaninya yang digali.",
+   "analogy_en": "The farmers are drivers really steering, doing the digging. Make it passive and the farmers get dug.",
+   "tip_id": "Kalimat pasif hampir nggak pernah langsung diikutin objek. Ada objek habis be + V3? Curigai.",
+   "tip_en": "A passive almost never takes a direct object. Object after be + V3? Be suspicious."
+  },
+  {
+   "section": "structure",
+   "type": "structure_error",
+   "prompt": "The final exam {A}will{/A} {B}be held{/B} in the gymnasium and will {C}be{/C} {D}supervise{/D} by two professors.",
+   "options": [
+    "will",
+    "be held",
+    "be",
+    "supervise"
+   ],
+   "correct_index": 3,
+   "rule_tags": [
+    "S-PASSIVE"
+   ],
+   "difficulty": 2,
+   "why_correct_id": "Ujiannya diawasi dua dosen, **by two professors**, jadi pasif. Pasif masa depan itu will + be + V3. Jadi **supervise** harus jadi **supervised**.",
+   "why_correct_en": "The exam is supervised **by two professors**, so it's passive. Future passive is will + be + V3. So **supervise** should be **supervised**.",
+   "why_wrong_id": {
+    "0": "**will** pas buat masa depan.",
+    "1": "**be held** itu pasif yang aman. Ujiannya diadain.",
+    "2": "**be** memang perlu di will + be + V3."
+   },
+   "why_wrong_en": {
+    "0": "**will** marks the future correctly.",
+    "1": "**be held** is a fine passive. The exam is held.",
+    "2": "**be** is needed in will + be + V3."
+   },
+   "analogy_id": "Kalimat ini punya dua pasif yang jejer. Yang pertama lengkap (**be held**), yang kedua kehilangan seragam V3-nya.",
+   "analogy_en": "Two passives side by side. The first is complete (**be held**), the second lost its V3 uniform.",
+   "tip_id": "Ada dua kata kerja pasif di satu kalimat? Cek V3 di dua-duanya.",
+   "tip_en": "Two passive verbs in one sentence? Check the V3 in both."
+  },
+  {
+   "section": "structure",
+   "type": "structure_error",
+   "prompt": "This novel {A}has been{/A} {B}translated{/B} into more than forty languages {C}since{/C} it {D}was publish{/D} in 1960.",
+   "options": [
+    "has been",
+    "translated",
+    "since",
+    "was publish"
+   ],
+   "correct_index": 3,
+   "rule_tags": [
+    "S-PASSIVE",
+    "S-VFORM"
+   ],
+   "difficulty": 2,
+   "why_correct_id": "Novel diterbitin penerbit, jadi pasif. Habis **was** di kalimat pasif harus V3: **was publish** jadi **was published**.",
+   "why_correct_en": "A novel is published by a publisher, so it's passive. A passive **was** needs V3: **was publish** becomes **was published**.",
+   "why_wrong_id": {
+    "0": "**has been** cocok sama **since**, present perfect pasif.",
+    "1": "**translated** itu V3 yang pas setelah **has been**.",
+    "2": "**since** pas buat nunjukin titik awal waktu."
+   },
+   "why_wrong_en": {
+    "0": "**has been** fits **since**, a present perfect passive.",
+    "1": "**translated** is the right V3 after **has been**.",
+    "2": "**since** marks the starting point correctly."
+   },
+   "analogy_id": "Dua pasif di satu kalimat. Yang pertama pakai seragam lengkap (**has been translated**), yang kedua lupa pakai sepatu -ed.",
+   "analogy_en": "Two passives in one sentence. The first fully dressed (**has been translated**), the second forgot its -ed shoes.",
+   "tip_id": "Cek tiap **be** atau **been** di kalimat panjang. Bagian setelah **since** atau **when** juga bisa pasif.",
+   "tip_en": "Check every **be** or **been** in a long sentence. Clauses after **since** or **when** can be passive too."
+  },
+  {
+   "section": "structure",
+   "type": "structure_error",
+   "prompt": "The letter {A}was arrived{/A} two days {B}after{/B} it {C}had been{/C} {D}sent{/D}.",
+   "options": [
+    "was arrived",
+    "after",
+    "had been",
+    "sent"
+   ],
+   "correct_index": 0,
+   "rule_tags": [
+    "S-PASSIVE"
+   ],
+   "difficulty": 3,
+   "why_correct_id": "**arrive** itu kata kerja tanpa objek (intransitive). Nggak ada yang bisa di-arrive-kan. Kata kerja kayak gini nggak bisa dibikin pasif. Jadi **was arrived** harus jadi **arrived**.",
+   "why_correct_en": "**arrive** takes no object, it's intransitive. Nothing can be arrived. Such verbs can't be passive. So **was arrived** should be **arrived**.",
+   "why_wrong_id": {
+    "1": "**after** itu conjunction (kata sambung) waktu yang pas.",
+    "2": "**had been** bagian dari past perfect pasif **had been sent** yang aman. Suratnya dikirim duluan, baru nyampe.",
+    "3": "**sent** itu V3 dari **send**. Pas setelah **had been**."
+   },
+   "why_wrong_en": {
+    "1": "**after** is a correct time conjunction.",
+    "2": "**had been** is part of the correct **had been sent**. The letter was sent first, then arrived.",
+    "3": "**sent** is the V3 of **send**, right after **had been**."
+   },
+   "analogy_id": "Kata kerja tanpa objek itu kayak kursi tanpa penumpang. Nggak ada yang bisa diduduki, jadi nggak bisa dibalik jadi pasif.",
+   "analogy_en": "An intransitive verb is a seat with no passenger. Nothing to act on, so it can't flip into the passive.",
+   "tip_id": "**arrive**, **happen**, **occur**, **die**, **exist**, **appear** nggak pernah pasif.",
+   "tip_en": "**arrive**, **happen**, **occur**, **die**, **exist**, **appear** are never passive."
+  },
+  {
+   "section": "reading",
+   "title": "Why Cities Run Hot",
+   "body": "On a summer afternoon, the center of a large city can be several degrees warmer than the countryside only a short drive away. Scientists call this effect the urban heat island, and understanding it has become increasingly important as more of the world's population moves into cities.\n\nSeveral factors combine to create the effect. Dark surfaces such as asphalt roads and roofs absorb a large share of the sunlight that falls on them and release the heat slowly, even after sunset. Concrete and brick store heat in a similar way. Meanwhile, cities have far fewer trees and fields than rural areas. Plants cool their surroundings by releasing water vapor through their leaves, a process that works much like sweating. When vegetation is replaced by pavement, this natural cooling largely disappears.\n\nHuman activity adds to the problem. Cars, factories, and air conditioners all give off heat. Ironically, the more people use air conditioning to stay cool indoors, the more heat is pushed into the streets outside. Tall buildings can also trap warm air by blocking the wind that would otherwise carry it away.\n\nThe consequences are more serious than mere discomfort. Higher temperatures increase the demand for electricity, raise levels of certain air pollutants, and can be dangerous for elderly people and young children during heat waves. Because the effect is often strongest at night, city residents may get little relief even after the sun goes down.\n\nFortunately, cities have a number of tools to **counter** the heat. Planting trees along streets provides shade and restores some natural cooling. Painting roofs white or light gray allows them to reflect sunlight instead of absorbing it. Some cities have also experimented with pavements that let rainwater soak through, which helps the ground stay cooler. Studies suggest that combining several of these measures can lower neighborhood temperatures by one or two degrees, a change that may sound small but can significantly reduce heat-related illness.\n\nAs cities continue to grow, planners increasingly treat temperature as something that can be designed, not simply endured.",
+   "questions": [
+    {
+     "type": "reading",
+     "subtype": "main_idea",
+     "prompt": "What is the passage mainly about?",
+     "options": [
+      "The causes, effects, and possible solutions of higher temperatures in cities",
+      "The history of air conditioning in large cities",
+      "How plants release water vapor through their leaves",
+      "Why people are moving from the countryside to cities"
+     ],
+     "correct_index": 0,
+     "rule_tags": [
+      "R-MAIN"
+     ],
+     "difficulty": 1,
+     "evidence_quote": "Scientists call this effect the urban heat island",
+     "why_correct_id": "Paragraf 1 ngenalin topiknya: urban heat island, kota yang lebih panas daripada desa. Skim kalimat pertama tiap paragraf: penyebab di paragraf 2 dan 3, akibat di paragraf 4, solusi di paragraf 5. Opsi yang nyakup ketiganya itulah ide pokoknya.",
+     "why_correct_en": "Paragraph 1 introduces the urban heat island. Skim each first sentence: causes in 2 and 3, effects in 4, solutions in 5. The option covering all three is the main idea.",
+     "why_wrong_id": {
+      "1": "AC cuma satu penyebab di paragraf 3. Sejarahnya nggak dibahas.",
+      "2": "Penguapan dari daun cuma penjelasan kecil di paragraf 2. Kesempitan.",
+      "3": "Perpindahan penduduk ke kota cuma latar belakang di paragraf 1."
+     },
+     "why_wrong_en": {
+      "1": "AC is one cause in paragraph 3. Its history isn't covered.",
+      "2": "Water vapor from leaves is a small point in paragraph 2. Too narrow.",
+      "3": "Moving to cities is just background in paragraph 1."
+     },
+     "analogy_id": "Ide pokok teks panjang itu kayak judul album. Harus mewakili lagu penyebab, lagu akibat, dan lagu solusi sekaligus.",
+     "analogy_en": "The main idea of a long passage is an album title. It has to cover the causes, effects, and solutions tracks.",
+     "tip_id": "Teks berpola masalah, penyebab, akibat, solusi? Pilih ide pokok yang nyebut lebih dari satu bagian itu.",
+     "tip_en": "Problem, cause, effect, solution passage? Pick the main idea that names more than one part."
+    },
+    {
+     "type": "reading",
+     "subtype": "main_idea",
+     "prompt": "Paragraph 2 mainly discusses",
+     "options": [
+      "how rural areas stay cool at night",
+      "physical features of cities that make them warmer",
+      "why asphalt is cheaper than concrete",
+      "the way people sweat in hot weather"
+     ],
+     "correct_index": 1,
+     "rule_tags": [
+      "R-MAIN"
+     ],
+     "difficulty": 2,
+     "evidence_quote": "Several factors combine to create the effect.",
+     "why_correct_id": "Kalimat pertama paragraf 2: **Several factors combine to create the effect**. Faktor yang dirinci itu permukaan gelap, beton dan bata, plus sedikitnya pohon. Itu semua ciri fisik kota. Aktivitas manusia baru dibahas di paragraf 3.",
+     "why_correct_en": "Paragraph 2 opens with **Several factors combine to create the effect**. The factors are dark surfaces, concrete and brick, and few trees: physical features. Human activity comes in paragraph 3.",
+     "why_wrong_id": {
+      "0": "Desa cuma pembanding. Paragraf ini nggak bahas gimana desa tetap adem di malam hari.",
+      "2": "Harga aspal dan beton nggak dibahas.",
+      "3": "Keringetan cuma perumpamaan buat penguapan tanaman, bukan topik paragrafnya."
+     },
+     "why_wrong_en": {
+      "0": "The countryside is only a comparison. How it stays cool at night isn't covered.",
+      "2": "The cost of asphalt and concrete isn't discussed.",
+      "3": "Sweating is only an analogy for plant evaporation, not the topic."
+     },
+     "analogy_id": "Kalimat pertama paragraf itu kayak label rak di supermarket: Penyebab. Barang di raknya ya aspal, beton, dan pohon yang hilang.",
+     "analogy_en": "A paragraph's first sentence is a shelf label: Causes. On the shelf sit asphalt, concrete, and missing trees.",
+     "tip_id": "Bedain paragraf yang mirip: paragraf 2 soal ciri fisik kota, paragraf 3 soal aktivitas manusia.",
+     "tip_en": "Separate similar paragraphs: 2 is physical features, 3 is human activity."
+    },
+    {
+     "type": "reading",
+     "subtype": "detail",
+     "prompt": "According to the passage, why does air conditioning make the problem worse?",
+     "options": [
+      "It uses water that would otherwise cool the ground.",
+      "It blocks the wind between tall buildings.",
+      "It pushes heat into the streets outside.",
+      "It increases the number of cars in the city."
+     ],
+     "correct_index": 2,
+     "rule_tags": [
+      "R-DETAIL"
+     ],
+     "difficulty": 1,
+     "evidence_quote": "the more people use air conditioning to stay cool indoors, the more heat is pushed into the streets outside.",
+     "why_correct_id": "Kata kunci **air conditioning** ada di paragraf 3. Kalimatnya ngejelasin: makin banyak orang pakai AC di dalam ruangan, makin banyak panas yang kedorong ke jalan di luar.",
+     "why_correct_en": "**air conditioning** is in paragraph 3. The more people use it indoors, the more heat is pushed into the streets outside.",
+     "why_wrong_id": {
+      "0": "Air yang ngedinginin tanah itu dibahas di trotoar berpori, paragraf 5, bukan AC.",
+      "1": "Yang ngehalangin angin itu gedung tinggi, bukan AC.",
+      "3": "Mobil itu sumber panas lain, bukan akibat dari AC."
+     },
+     "why_wrong_en": {
+      "0": "Water cooling the ground is about porous pavements in paragraph 5, not AC.",
+      "1": "Tall buildings stop the wind, not AC.",
+      "3": "Cars are a separate heat source, not caused by AC."
+     },
+     "analogy_id": "AC itu kayak nyapu debu dari kamar ke teras. Kamarnya bersih, tapi terasnya makin kotor.",
+     "analogy_en": "AC is like sweeping dust from your room onto the porch. Clean room, dirtier porch.",
+     "tip_id": "Pola **the more X, the more Y** nunjukin sebab-akibat. Soal **why** sering nanyain ini.",
+     "tip_en": "**The more X, the more Y** signals cause and effect, a favourite for **why** questions."
+    },
+    {
+     "type": "reading",
+     "subtype": "vocabulary",
+     "prompt": "The word **counter** in paragraph 5 is closest in meaning to",
+     "options": [
+      "count",
+      "measure",
+      "increase",
+      "fight against"
+     ],
+     "correct_index": 3,
+     "rule_tags": [
+      "R-VOCAB"
+     ],
+     "difficulty": 2,
+     "evidence_quote": "Fortunately, cities have a number of tools to counter the heat.",
+     "why_correct_id": "**Fortunately** nandain kabar baik habis paragraf soal bahaya panas. Alat-alat yang disebut sesudahnya, kayak pohon, atap putih, dan trotoar berpori, semuanya nurunin panas. Jadi **counter** artinya **fight against**, ngelawan.",
+     "why_correct_en": "**Fortunately** signals good news after the dangers. The tools listed, trees, white roofs, porous pavements, all cut heat. So **counter** means **fight against**.",
+     "why_wrong_id": {
+      "0": "**count** (ngitung) cuma mirip bentuknya. Kota nggak lagi ngitung panas.",
+      "1": "Ngukur panas nggak bikin panasnya turun. Contoh-contohnya itu aksi buat ngedinginin.",
+      "2": "**increase** kebalikan dari tujuan semua langkah itu."
+     },
+     "why_wrong_en": {
+      "0": "**count** just looks similar. Cities aren't counting the heat.",
+      "1": "Measuring heat doesn't lower it. The examples are cooling actions.",
+      "2": "**increase** is the opposite of the goal."
+     },
+     "analogy_id": "**Counter** di sini kayak pemain bertahan yang ngehadang serangan. Tugasnya ngelawan, bukan ngitung.",
+     "analogy_en": "**Counter** here is a defender stopping an attack. The job is to fight back, not count.",
+     "tip_id": "Jangan kejebak kata yang ejaannya mirip kayak **counter** dan **count**. Cek contoh yang ngikutin kata itu.",
+     "tip_en": "Don't fall for look-alikes like **counter** and **count**. Check the examples after it."
+    },
+    {
+     "type": "reading",
+     "subtype": "inference",
+     "prompt": "What can be inferred about a city that paints its roofs white and plants more trees along its streets?",
+     "options": [
+      "It will no longer need any electricity.",
+      "It may have fewer cases of heat-related illness.",
+      "It will become colder than the surrounding countryside.",
+      "Its night temperatures will rise."
+     ],
+     "correct_index": 1,
+     "rule_tags": [
+      "R-INFER"
+     ],
+     "difficulty": 3,
+     "evidence_quote": "combining several of these measures can lower neighborhood temperatures by one or two degrees, a change that may sound small but can significantly reduce heat-related illness.",
+     "why_correct_id": "Atap putih dan pohon itu dua langkah dari paragraf 5. Menurut teks, gabungan beberapa langkah bisa nurunin suhu satu atau dua derajat. Penurunan itu **can significantly reduce heat-related illness**. Jadi kota itu mungkin punya lebih sedikit kasus sakit gara-gara panas.",
+     "why_correct_en": "White roofs and street trees are two measures from paragraph 5. Combined measures can cut temperatures by one or two degrees, which **can significantly reduce heat-related illness**. So the city may see fewer cases.",
+     "why_wrong_id": {
+      "0": "Teks cuma bilang kebutuhan listrik naik pas panas. Nggak ada yang bilang kotanya bisa berhenti pakai listrik sama sekali.",
+      "2": "Turunnya cuma satu atau dua derajat. Nggak cukup buat bikin kota lebih adem dari desa yang bisa beberapa derajat lebih sejuk.",
+      "3": "Kebalikannya. Langkah-langkah itu justru nurunin suhu."
+     },
+     "why_wrong_en": {
+      "0": "The text only says power demand rises with heat. Nothing suggests using none at all.",
+      "2": "The drop is only one or two degrees, not enough to beat a countryside several degrees cooler.",
+      "3": "The opposite. The measures lower temperatures."
+     },
+     "analogy_id": "Inferensi yang bagus itu kayak ramalan cuaca yang hati-hati: mungkin hujan, bukan pasti banjir.",
+     "analogy_en": "A good inference is a careful forecast: it may rain, not there will definitely be a flood.",
+     "tip_id": "Opsi inferensi yang bener sering pakai kata hati-hati kayak **may** atau **likely**. Opsi mutlak kayak **no longer** atau **any** biasanya salah.",
+     "tip_en": "Right inferences often use careful words like **may** or **likely**. Absolutes like **no longer** or **any** are usually wrong."
+    }
+   ]
+  },
+  {
+   "section": "reading",
+   "title": "Languages Made with Hands",
+   "body": "Many people assume that sign languages are simply gestures that copy spoken words, or that there is a single sign language used by deaf people everywhere. Neither belief is true. Sign languages are complete, natural languages with their own vocabulary and grammar, and hundreds of them exist around the world.\n\nOne surprising fact is that sign languages do not follow the borders of spoken languages. The United States and the United Kingdom share English as a spoken language, yet American Sign Language and British Sign Language are very different from each other. In fact, American Sign Language is more closely related to French Sign Language, because a French teacher helped establish the first permanent school for deaf students in the United States in the early nineteenth century.\n\nThe grammar of sign languages makes use of resources that spoken languages lack. Signers can place people or objects at points in the space around their bodies and then refer back to them simply by pointing to those locations. Facial expressions also carry grammatical meaning. A raised eyebrow, for example, can turn a statement into a question.\n\nLinguists have even been able to watch a new sign language appear. In the late 1970s, schools for deaf children opened in Nicaragua. The children had previously been isolated at home, each using simple gestures with family members. Once **they** were brought together, they began combining their gestures into a shared system. Younger children who joined later made the system more regular and complex, and within a few decades it had become a full language, now known as Nicaraguan Sign Language.\n\nThis case has given researchers valuable evidence about how human languages develop. It suggests that children do not merely learn language from adults; when necessary, they can create one.",
+   "questions": [
+    {
+     "type": "reading",
+     "subtype": "main_idea",
+     "prompt": "What is the main idea of the passage?",
+     "options": [
+      "Deaf children should learn spoken languages first.",
+      "Most sign languages are based on French Sign Language.",
+      "Sign languages are full natural languages with their own structure and history.",
+      "Facial expressions are more important than hand signs."
+     ],
+     "correct_index": 2,
+     "rule_tags": [
+      "R-MAIN"
+     ],
+     "difficulty": 1,
+     "evidence_quote": "Sign languages are complete, natural languages with their own vocabulary and grammar, and hundreds of them exist around the world.",
+     "why_correct_id": "Paragraf 1 ngebantah dua anggapan keliru, terus nyatain gagasan utamanya: bahasa isyarat itu bahasa alami yang lengkap. Paragraf berikutnya ndukung itu: asal-usulnya beda dari bahasa lisan, punya tata bahasa sendiri, dan ada bahasa isyarat baru yang lahir di Nikaragua.",
+     "why_correct_en": "Paragraph 1 rejects two false beliefs, then states the main idea: sign languages are complete natural languages. Later paragraphs back it up: separate histories, their own grammar, and a new one born in Nicaragua.",
+     "why_wrong_id": {
+      "0": "Teks nggak ngasih saran urutan belajar bahasa.",
+      "1": "Cuma ASL yang disebut berkerabat sama bahasa isyarat Prancis, bukan sebagian besar bahasa isyarat.",
+      "3": "Ekspresi wajah cuma satu contoh tata bahasa di paragraf 3, dan nggak dibandingin seberapa penting."
+     },
+     "why_wrong_en": {
+      "0": "The text gives no advice on learning order.",
+      "1": "Only ASL is linked to French Sign Language, not most sign languages.",
+      "3": "Facial expressions are one grammar example in paragraph 3. Their importance isn't compared."
+     },
+     "analogy_id": "Teks yang dibuka pakai banyak orang ngira… padahal… biasanya naruh ide pokok pas setelah bantahannya.",
+     "analogy_en": "A passage opening with many people assume… but… usually puts the main idea right after the correction.",
+     "tip_id": "Pola **Many people assume X. Neither belief is true.** Ide pokoknya ada di kalimat berikutnya.",
+     "tip_en": "**Many people assume X. Neither belief is true.** The main idea comes next."
+    },
+    {
+     "type": "reading",
+     "subtype": "detail",
+     "prompt": "According to the passage, why is American Sign Language closely related to French Sign Language?",
+     "options": [
+      "The two countries share a spoken language.",
+      "A French teacher helped found an early American school for deaf students.",
+      "British Sign Language was not allowed in the United States.",
+      "Both languages first developed in Nicaragua."
+     ],
+     "correct_index": 1,
+     "rule_tags": [
+      "R-DETAIL"
+     ],
+     "difficulty": 2,
+     "evidence_quote": "because a French teacher helped establish the first permanent school for deaf students in the United States in the early nineteenth century.",
+     "why_correct_id": "Kata kunci **French Sign Language** ada di akhir paragraf 2. Alasannya dikasih pakai **because**: seorang guru dari Prancis ikut ndiriin sekolah tunarungu permanen pertama di Amerika Serikat.",
+     "why_correct_en": "**French Sign Language** is at the end of paragraph 2. The reason follows **because**: a French teacher helped found the first permanent school for deaf students in the US.",
+     "why_wrong_id": {
+      "0": "Amerika Serikat dan Prancis nggak berbagi bahasa lisan. Yang sama-sama pakai bahasa Inggris itu AS dan Inggris.",
+      "2": "Nggak ada larangan yang disebut. Teks cuma bilang ASL dan BSL beda banget.",
+      "3": "Nikaragua itu contoh bahasa isyarat lain yang lahir tahun 1970-an."
+     },
+     "why_wrong_en": {
+      "0": "The US and France don't share a spoken language. The US and UK share English.",
+      "2": "No ban is mentioned. The text only says ASL and BSL are very different.",
+      "3": "Nicaragua is a separate example from the 1970s."
+     },
+     "analogy_id": "Bahasa isyarat itu kayak resep keluarga. Rasanya ditentuin siapa gurunya, bukan negara mana yang tetanggaan.",
+     "analogy_en": "A sign language is a family recipe. Its flavour comes from who taught it, not who lives next door.",
+     "tip_id": "Soal **why**? Cari **because** di dekat kata kunci, terus pilih parafrasenya.",
+     "tip_en": "**Why** question? Find **because** near the keyword and pick its paraphrase."
+    },
+    {
+     "type": "reading",
+     "subtype": "detail",
+     "prompt": "According to paragraph 3, a raised eyebrow can",
+     "options": [
+      "show that the signer is angry",
+      "replace pointing to a location",
+      "change the topic of a conversation",
+      "turn a statement into a question"
+     ],
+     "correct_index": 3,
+     "rule_tags": [
+      "R-DETAIL"
+     ],
+     "difficulty": 1,
+     "evidence_quote": "A raised eyebrow, for example, can turn a statement into a question.",
+     "why_correct_id": "Soalnya nunjuk paragraf 3, jadi langsung ke sana. Kalimat terakhirnya bilang alis yang diangkat bisa ngubah pernyataan jadi pertanyaan.",
+     "why_correct_en": "The question points to paragraph 3. Its last sentence says a raised eyebrow can turn a statement into a question.",
+     "why_wrong_id": {
+      "0": "Marah nggak disebut. Ekspresi wajah di sini bawa makna tata bahasa, bukan emosi.",
+      "1": "Nunjuk lokasi itu alat tata bahasa lain di kalimat sebelumnya.",
+      "2": "Ganti topik nggak disebut."
+     },
+     "why_wrong_en": {
+      "0": "Anger isn't mentioned. The expression carries grammar, not emotion.",
+      "1": "Pointing to locations is a separate grammar tool in the previous sentence.",
+      "2": "Changing the topic isn't mentioned."
+     },
+     "analogy_id": "Alis yang diangkat itu kayak tanda tanya yang ditulis di wajah.",
+     "analogy_en": "A raised eyebrow is a question mark written on your face.",
+     "tip_id": "**for example** sering muncul pas sebelum jawaban soal detail. Baca kalimat contohnya baik-baik.",
+     "tip_en": "**For example** often comes right before a detail answer. Read the example carefully."
+    },
+    {
+     "type": "reading",
+     "subtype": "reference",
+     "prompt": "The word **they** in paragraph 4 refers to",
+     "options": [
+      "the schools",
+      "family members",
+      "the children",
+      "simple gestures"
+     ],
+     "correct_index": 2,
+     "rule_tags": [
+      "R-REF"
+     ],
+     "difficulty": 2,
+     "evidence_quote": "Once they were brought together, they began combining their gestures into a shared system.",
+     "why_correct_id": "Siapa yang **were brought together**, dikumpulin? Kalimat sebelumnya bahas anak-anak yang tadinya terisolasi bareng keluarga masing-masing. Coba ganti: **Once the children were brought together**. Pas.",
+     "why_correct_en": "Who **were brought together**? The previous sentence is about children isolated at home. Swap in: **Once the children were brought together**. It fits.",
+     "why_wrong_id": {
+      "0": "Sekolah itu tempat mereka dikumpulin, bukan yang dikumpulin.",
+      "1": "Anggota keluarga cuma disebut sebagai lawan ngobrol sehari-hari. Mereka nggak dikumpulin di sekolah.",
+      "3": "Isyarat itu yang digabungin, bukan yang dikumpulin terus mulai ngegabungin."
+     },
+     "why_wrong_en": {
+      "0": "The schools are where they gathered, not who gathered.",
+      "1": "Family members were only partners at home. They weren't gathered at school.",
+      "3": "Gestures got combined. They didn't do the combining."
+     },
+     "analogy_id": "**They** di sini kayak nama panggilan buat tokoh utama paragraf itu: anak-anak.",
+     "analogy_en": "**They** here is a nickname for the paragraph's main characters: the children.",
+     "tip_id": "Ganti pronoun-nya pakai tiap opsi di DUA bagian kalimat: **they were brought…** dan **they began…**.",
+     "tip_en": "Swap each option into BOTH parts: **they were brought…** and **they began…**."
+    },
+    {
+     "type": "reading",
+     "subtype": "purpose",
+     "prompt": "Which of the following best describes the purpose of paragraph 4?",
+     "options": [
+      "To give an example of a new language forming among children",
+      "To argue that schools for deaf children should be closed",
+      "To compare Nicaraguan Sign Language with British Sign Language",
+      "To explain how facial expressions carry meaning"
+     ],
+     "correct_index": 0,
+     "rule_tags": [
+      "R-PURPOSE",
+      "R-MAIN"
+     ],
+     "difficulty": 3,
+     "evidence_quote": "Linguists have even been able to watch a new sign language appear.",
+     "why_correct_id": "Kalimat pertama paragraf 4 udah nyebut fungsinya: ahli bahasa bahkan bisa nyaksiin lahirnya bahasa isyarat baru. Sisa paragrafnya nyeritain contoh nyata di Nikaragua. Terus paragraf 5 nyimpulin kalau anak-anak bisa nyiptain bahasa. Jadi paragraf 4 itu contoh.",
+     "why_correct_en": "The first sentence of paragraph 4 says linguists could watch a new sign language appear. The rest tells the Nicaragua case, and paragraph 5 concludes children can create language. So paragraph 4 is the example.",
+     "why_wrong_id": {
+      "1": "Sekolah justru jadi tempat bahasa itu lahir. Nggak ada ajakan buat nutup.",
+      "2": "Bahasa isyarat Inggris dibahas di paragraf 2, nggak dibandingin di paragraf 4.",
+      "3": "Ekspresi wajah dibahas di paragraf 3."
+     },
+     "why_wrong_en": {
+      "1": "The schools are where the language was born. No one says close them.",
+      "2": "British Sign Language is in paragraph 2 and isn't compared in paragraph 4.",
+      "3": "Facial expressions are in paragraph 3."
+     },
+     "analogy_id": "Nanya tujuan paragraf itu kayak nanya pemain ini posisinya apa di tim. Paragraf 4 main sebagai bukti nyata.",
+     "analogy_en": "Asking a paragraph's purpose is asking what position a player plays. Paragraph 4 plays the real-life example.",
+     "tip_id": "Kata **even**, **for example**, **one case** di awal paragraf nandain paragraf contoh.",
+     "tip_en": "**Even**, **for example**, **one case** at the start signal an example paragraph."
+    }
+   ]
+  }
+ ]
+}

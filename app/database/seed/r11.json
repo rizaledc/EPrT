@@ -1,0 +1,1128 @@
+{
+ "rumah": "r11",
+ "material_id": "Hari kesebelas, Hari terakhir Level Lanjut. Kita membedah tiga pola canggih: **noun clause**, **inversi**, dan **correlative**. Di Listening kita membaca **nada kaget dan ragu** (*You did?*), dan di Reading kita menaklukkan **teks akademik sains**.\n\n=== listening\n## Makna tersirat dari intonasi dan kejutan\nJawaban pendek seperti *You did?*, *Is it?*, *Everyone?*, atau *Six?* sering bukan pertanyaan biasa. Nada naik menunjukkan **kaget**, **ragu**, atau **tidak percaya**. Kalimat sesudahnya biasanya memberi alasan: *Even Tom, who skipped half the questions?* artinya pembicara meragukan kabar itu.\nPerumpamaan: nada kaget itu seperti alis yang terangkat. Kata-katanya pendek, tapi wajahnya sudah bercerita.\n> Kata diulang + nada naik = kaget/ragu · lanjutan setelahnya = alasannya\n✓ Dengarkan alasan setelah pengulangan kata\n✓ *Is it? Then…* = baru tahu dan langsung berubah rencana\n✕ Mengira *You did?* sebagai permintaan mengulang\n✕ Memilih opsi yang menganggap pembicara setuju penuh\n\n=== structure\n## Noun clause, inversi, dan correlative\n[[noun clause|noun-clause]] (anak kalimat kata benda) bisa jadi pelaku atau objek: *What she said surprised everyone*, *Nobody knows when the bridge will be finished*. Urutannya seperti kalimat biasa, **bukan** urutan pertanyaan. [[inversion]] (inversi): setelah kata negatif di awal kalimat (*Never, Rarely, Not only, Seldom*), kata kerja bantu pindah ke depan pelaku: *Rarely have we seen…*. [[correlative conjunction|correlative-conjunction]] (kata sambung berpasangan) wajib pasangannya benar: *both … and*, *either … or*, *neither … nor*, *not only … but also*, *whether … or*, dan bentuk kedua sisinya sejajar.\nPerumpamaan: correlative itu seperti sepasang sarung tangan. Kiri dan kanan harus dari pasangan yang sama, dan ukurannya sama.\n> Noun clause = urutan biasa · Never/Rarely/Not only + auxiliary + S + V · both … and, either … or, neither … nor\n✓ Nobody knows when **the bridge will** be finished.\n✓ **Rarely have we** seen such a crowd.\n✓ **Neither** the manager **nor** her assistant…\n✕ Nobody knows when **will the bridge** be finished.\n✕ **Not only the city built**…\n✕ **Both** the library **or** the student center…\n\n=== reading\n## Teks akademik sains\nTeks sains sering memakai istilah asing, angka, dan kata hati-hati (*may, suggests, appears*). Jangan panik dengan istilahnya, karena biasanya dijelaskan di kalimat yang sama atau sesudahnya. Fokus pada **klaim**, **bukti**, dan **batasan** penelitian.\nPerumpamaan: teks sains itu seperti laporan detektif. Ada dugaan, ada barang bukti, dan ada bagian yang masih misteri.\n> Istilah baru → cari penjelasan di sekitarnya · klaim + bukti + batasan\n✓ Garis bawahi angka dan satuannya\n✓ Bedakan yang sudah terbukti dan yang baru dugaan\n✕ Menganggap kata *may* sebagai kepastian\n✕ Memilih opsi yang memakai istilah teks tetapi mengubah faktanya",
+ "material_en": "Day eleven, the last Day of the Advanced Level. We take apart three advanced patterns: **noun clauses**, **inversion**, and **correlatives**. In Listening we read **surprise and doubt** in the voice (*You did?*), and in Reading we tackle **academic science texts**.\n\n=== listening\n## Implied meaning from intonation and surprise\nShort replies like *You did?*, *Is it?*, *Everyone?*, or *Six?* are often not real questions. Rising intonation shows **surprise**, **doubt**, or **disbelief**. The next sentence usually gives the reason: *Even Tom, who skipped half the questions?* means the speaker doubts the news.\nAnalogy: a surprised tone is a raised eyebrow. The words are short, but the face tells the story.\n> Repeated word + rising tone = surprise/doubt · what follows = the reason\n✓ Listen for the reason after the repeated word\n✓ *Is it? Then…* = just learned something and is changing plans\n✕ Taking *You did?* as a request to repeat\n✕ Picking an option that has the speaker fully agreeing\n\n=== structure\n## Noun clauses, inversion, and correlatives\nA [[noun clause|noun-clause]] can be a subject or object: *What she said surprised everyone*, *Nobody knows when the bridge will be finished*. Its word order is a statement, **not** a question. [[inversion]]: after a negative word at the start (*Never, Rarely, Not only, Seldom*), the helper verb moves before the subject: *Rarely have we seen…*. A [[correlative conjunction|correlative-conjunction]] must use the right pair: *both … and*, *either … or*, *neither … nor*, *not only … but also*, *whether … or*, with parallel forms on both sides.\nAnalogy: correlatives are a pair of gloves. Left and right must come from the same pair and be the same size.\n> Noun clause = statement order · Never/Rarely/Not only + auxiliary + S + V · both … and, either … or, neither … nor\n✓ Nobody knows when **the bridge will** be finished.\n✓ **Rarely have we** seen such a crowd.\n✓ **Neither** the manager **nor** her assistant…\n✕ Nobody knows when **will the bridge** be finished.\n✕ **Not only the city built**…\n✕ **Both** the library **or** the student center…\n\n=== reading\n## Academic science texts\nScience passages use unfamiliar terms, numbers, and careful words (*may, suggests, appears*). Don't panic at the terms; they're usually explained in the same or next sentence. Focus on the **claim**, the **evidence**, and the **limits** of the research.\nAnalogy: a science text is a detective's report. There's a theory, there's evidence, and there's a part that's still a mystery.\n> New term → look for the explanation nearby · claim + evidence + limits\n✓ Underline numbers and their units\n✓ Separate what is proven from what is only suggested\n✕ Treating *may* as certainty\n✕ Picking an option that uses the text's terms but changes the facts",
+ "items": [
+  {
+   "section": "listening",
+   "part": "A",
+   "script": [
+    {
+     "speaker": "W1",
+     "text": "I finished the whole research paper last night."
+    },
+    {
+     "speaker": "M1",
+     "text": "You did? I thought you hadn't even started the reading yet."
+    }
+   ],
+   "questions": [
+    {
+     "type": "listening_short",
+     "prompt": "What does the man imply?",
+     "options": [
+      "He wants the woman to repeat what she said.",
+      "He has already read the woman's paper.",
+      "He is surprised that the woman finished so quickly.",
+      "He thinks the paper is too short."
+     ],
+     "correct_index": 2,
+     "rule_tags": [
+      "L-SURPRISE",
+      "L-INFER"
+     ],
+     "difficulty": 2,
+     "key_sentence": "You did? I thought you hadn't even started the reading yet.",
+     "key_translation_id": "Serius? Aku kira kamu bahkan belum mulai baca bahannya.",
+     "why_correct_id": "**You did?** dengan nada naik itu nada kaget, bukan minta diulang. Alasannya di kalimat berikutnya: **I thought you hadn't even started the reading yet**. Dia kaget soalnya ngira temannya belum mulai sama sekali.",
+     "why_correct_en": "**You did?** with a rising tone is surprise, not a request to repeat. The reason follows: **I thought you hadn't even started the reading yet**.",
+     "why_wrong_id": {
+      "0": "Ini arti harfiah **You did?**. Dia nggak minta diulang, dia kaget.",
+      "1": "Dia nggak nyebut udah baca papernya. Dia malah ngira papernya belum dimulai.",
+      "3": "Panjang paper nggak dikomentarin."
+     },
+     "why_wrong_en": {
+      "0": "That's the literal reading of **You did?**. He's surprised, not asking for a repeat.",
+      "1": "He never says he read it. He thought it hadn't been started.",
+      "3": "The paper's length isn't mentioned."
+     },
+     "analogy_id": "**You did?** itu kayak alis yang langsung naik. Katanya cuma dua, tapi mukanya udah teriak serius lo?",
+     "analogy_en": "**You did?** is an eyebrow shooting up. Two words, but the face is shouting seriously?",
+     "tip_id": "Kata kerja bantu diulang pakai nada naik, kayak **You did?** atau **She has?**, biasanya artinya kaget. Cari alasannya di kalimat sesudahnya.",
+     "tip_en": "A repeated helper verb with a rising tone, like **You did?** or **She has?**, usually means surprise. Find the reason next."
+    }
+   ]
+  },
+  {
+   "section": "listening",
+   "part": "A",
+   "script": [
+    {
+     "speaker": "M1",
+     "text": "Did you know the library is open until midnight during exam week?"
+    },
+    {
+     "speaker": "W1",
+     "text": "Is it? Then I don't have to study in my noisy dorm anymore."
+    }
+   ],
+   "questions": [
+    {
+     "type": "listening_short",
+     "prompt": "What can be inferred about the woman?",
+     "options": [
+      "She did not know about the library's late hours.",
+      "She works at the library at night.",
+      "She prefers studying in her dorm.",
+      "She thinks the library closes too early."
+     ],
+     "correct_index": 0,
+     "rule_tags": [
+      "L-SURPRISE",
+      "L-INFER"
+     ],
+     "difficulty": 1,
+     "key_sentence": "Is it? Then I don't have to study in my noisy dorm anymore.",
+     "key_translation_id": "Oh ya? Berarti aku nggak perlu belajar di asrama yang berisik lagi.",
+     "why_correct_id": "**Is it?** nunjukin dia baru tahu. Terus **Then…** nunjukin dia langsung ganti rencana: nggak perlu belajar di asrama yang berisik. Jadi sebelumnya dia nggak tahu perpustakaan buka sampai tengah malam.",
+     "why_correct_en": "**Is it?** shows she just found out. **Then…** shows an instant change of plan. So she didn't know about the late hours.",
+     "why_wrong_id": {
+      "1": "Kalau dia kerja di sana malam-malam, dia pasti udah tahu jam bukanya.",
+      "2": "Kebalikannya. Asramanya berisik, dan dia senang bisa pindah belajar.",
+      "3": "Dia justru senang perpustakaannya buka sampai larut."
+     },
+     "why_wrong_en": {
+      "1": "If she worked there at night, she'd already know the hours.",
+      "2": "The opposite. Her dorm is noisy and she's glad to leave it.",
+      "3": "She's happy it's open late."
+     },
+     "analogy_id": "**Is it? Then…** itu kayak notifikasi baru masuk, terus kamu langsung ubah jadwal hari itu.",
+     "analogy_en": "**Is it? Then…** is a new notification, and you rearrange your day on the spot.",
+     "tip_id": "**Is it?** atau **Really?** plus **Then…** artinya baru tahu dan langsung ambil keputusan.",
+     "tip_en": "**Is it?** or **Really?** plus **Then…** means just learned and deciding right away."
+    }
+   ]
+  },
+  {
+   "section": "listening",
+   "part": "A",
+   "script": [
+    {
+     "speaker": "W1",
+     "text": "Professor Chen gave everyone in the class an A on the quiz."
+    },
+    {
+     "speaker": "M1",
+     "text": "Everyone? Even Tom, who skipped half the questions?"
+    }
+   ],
+   "questions": [
+    {
+     "type": "listening_short",
+     "prompt": "What does the man imply?",
+     "options": [
+      "He also received an A on the quiz.",
+      "He thinks Tom deserved a better grade.",
+      "He wants to retake the quiz.",
+      "He doubts that the woman's statement is accurate."
+     ],
+     "correct_index": 3,
+     "rule_tags": [
+      "L-SURPRISE",
+      "L-INFER"
+     ],
+     "difficulty": 3,
+     "key_sentence": "Everyone? Even Tom, who skipped half the questions?",
+     "key_translation_id": "Semuanya? Termasuk Tom, yang ngelewatin setengah soalnya?",
+     "why_correct_id": "**Everyone?** dengan nada naik itu tanda nggak percaya. Alasannya **Even Tom, who skipped half the questions?** Orang yang ngelewatin setengah soal nggak mungkin dapat A. Jadi dia ragu kabar dari si wanita itu bener.",
+     "why_correct_en": "**Everyone?** with a rising tone signals disbelief. His reason: Tom skipped half the questions. Someone like that couldn't get an A, so he doubts her claim.",
+     "why_wrong_id": {
+      "0": "Dia nggak nyebut nilainya sendiri.",
+      "1": "Kebalikannya. Dia ragu Tom bisa dapat A, bukan ngerasa Tom pantas lebih.",
+      "2": "Ngulang kuis nggak disebut sama sekali."
+     },
+     "why_wrong_en": {
+      "0": "He never mentions his own grade.",
+      "1": "The opposite. He doubts Tom earned an A at all.",
+      "2": "Retaking the quiz never comes up."
+     },
+     "analogy_id": "**Everyone? Even Tom…?** itu kayak dengar semua kucing bisa terbang, terus nunjuk kucing gendut di sofa. Contohnya ngebantah kabarnya.",
+     "analogy_en": "**Everyone? Even Tom…?** is hearing all cats can fly and pointing at the fat cat on the sofa. The example disproves the claim.",
+     "tip_id": "Kata **Even** plus contoh yang aneh habis nada kaget? Artinya pembicara ragu sama kabar sebelumnya.",
+     "tip_en": "**Even** plus an odd example after a surprised tone? The speaker doubts the claim."
+    }
+   ]
+  },
+  {
+   "section": "listening",
+   "part": "A",
+   "script": [
+    {
+     "speaker": "M1",
+     "text": "I'm thinking of taking six courses next semester."
+    },
+    {
+     "speaker": "W1",
+     "text": "Six? While working twenty hours a week?"
+    }
+   ],
+   "questions": [
+    {
+     "type": "listening_short",
+     "prompt": "What does the woman imply?",
+     "options": [
+      "She also plans to take six courses.",
+      "She thinks the man's plan may be too much to handle.",
+      "She wants the man to work more hours.",
+      "She did not hear how many courses he said."
+     ],
+     "correct_index": 1,
+     "rule_tags": [
+      "L-SURPRISE",
+      "L-INFER"
+     ],
+     "difficulty": 3,
+     "key_sentence": "Six? While working twenty hours a week?",
+     "key_translation_id": "Enam? Sambil kerja dua puluh jam seminggu?",
+     "why_correct_id": "**Six?** dengan nada naik itu kaget campur ragu. Terus dia nambahin **While working twenty hours a week?**, ngingetin bebannya. Jadi dia nyiratin rencana itu kemungkinan kebanyakan buat si pria.",
+     "why_correct_en": "**Six?** with a rising tone mixes surprise and doubt. **While working twenty hours a week?** reminds him of the load. She hints it may be too much.",
+     "why_wrong_id": {
+      "0": "Dia nggak nyebut rencana kuliahnya sendiri.",
+      "2": "Kebalikannya. Dia khawatir bebannya udah kebanyakan.",
+      "3": "Dia jelas dengar, buktinya dia ngulang angka **Six**."
+     },
+     "why_wrong_en": {
+      "0": "She doesn't mention her own plans.",
+      "2": "The opposite. She's worried the load is already heavy.",
+      "3": "She clearly heard, since she repeats **Six**."
+     },
+     "analogy_id": "**Six? While working…?** itu kayak teman yang ngelihat kamu bawa enam kantong belanja sambil gendong kucing. Nggak ngelarang, tapi jelas khawatir.",
+     "analogy_en": "**Six? While working…?** is a friend watching you carry six shopping bags and a cat. Not forbidding it, but clearly worried.",
+     "tip_id": "Angka diulang pakai nada naik plus **While…?** artinya ragu orang itu sanggup.",
+     "tip_en": "A repeated number with a rising tone plus **While…?** means doubt that the person can manage."
+    }
+   ]
+  },
+  {
+   "section": "listening",
+   "part": "B",
+   "script": [
+    {
+     "speaker": "W1",
+     "text": "Did you hear that the geology field trip has been moved to Saturday?"
+    },
+    {
+     "speaker": "M1",
+     "text": "Saturday? I thought it was always on Friday."
+    },
+    {
+     "speaker": "W1",
+     "text": "It was, but the bus company had a scheduling problem, so the department changed the date."
+    },
+    {
+     "speaker": "M1",
+     "text": "That's a problem for me. I work at the bookstore every Saturday morning."
+    },
+    {
+     "speaker": "W1",
+     "text": "Could you switch shifts with someone? Maria said she'd be happy to pick up extra hours."
+    },
+    {
+     "speaker": "M1",
+     "text": "Maybe. I'll ask her this afternoon. Do we still meet in front of the science building?"
+    },
+    {
+     "speaker": "W1",
+     "text": "No, that changed too. We're meeting in the north parking lot at seven, because the buses can't park near the science building on weekends."
+    },
+    {
+     "speaker": "M1",
+     "text": "Seven in the morning? I'd better set two alarms."
+    }
+   ],
+   "questions": [
+    {
+     "type": "listening_long",
+     "prompt": "What are the speakers mainly discussing?",
+     "options": [
+      "Changes to a class field trip",
+      "A new job at the bookstore",
+      "Problems with the campus bus service",
+      "How to get to the science building"
+     ],
+     "correct_index": 0,
+     "rule_tags": [
+      "L-TOPIC"
+     ],
+     "difficulty": 1,
+     "key_sentence": "Did you hear that the geology field trip has been moved to Saturday?",
+     "key_translation_id": "Kamu udah dengar kalau field trip geologi dipindah ke hari Sabtu?",
+     "why_correct_id": "Kalimat pembukanya nyebut field trip geologi yang dipindah. Sisa obrolannya bahas perubahan lain: tempat kumpul dan jamnya. Jadi topiknya perubahan jadwal field trip.",
+     "why_correct_en": "The opening line says the geology field trip moved. The rest covers more changes: meeting place and time. So it's about changes to the trip.",
+     "why_wrong_id": {
+      "1": "Toko buku cuma tempat kerja si pria yang bentrok sama jadwal baru. Kerjaannya bukan kerjaan baru.",
+      "2": "Perusahaan bus cuma alasan jadwalnya pindah, bukan layanan bus kampus.",
+      "3": "Gedung sains disebut, tapi justru bukan tempat kumpulnya lagi."
+     },
+     "why_wrong_en": {
+      "1": "The bookstore is just his job that clashes with the new date. It isn't new.",
+      "2": "The bus company is only why the date moved, not campus buses.",
+      "3": "The science building comes up, but it's no longer the meeting point."
+     },
+     "analogy_id": "Obrolan ini kayak pengumuman revisi jadwal. Judulnya perubahan, detailnya hari, tempat, dan jam.",
+     "analogy_en": "This talk is a schedule update. The headline is the change, the details are day, place, and time.",
+     "tip_id": "Kalimat **Did you hear that…?** di awal biasanya langsung nyebut topik obrolan.",
+     "tip_en": "An opening **Did you hear that…?** usually names the topic right away."
+    },
+    {
+     "type": "listening_long",
+     "prompt": "Why was the field trip moved?",
+     "options": [
+      "The weather forecast was bad.",
+      "The professor was not available on Friday.",
+      "The bus company had a scheduling problem.",
+      "The science building is closed on Fridays."
+     ],
+     "correct_index": 2,
+     "rule_tags": [
+      "L-DETAIL"
+     ],
+     "difficulty": 2,
+     "key_sentence": "It was, but the bus company had a scheduling problem, so the department changed the date.",
+     "key_translation_id": "Tadinya iya, tapi perusahaan busnya ada masalah jadwal, jadi jurusannya ganti tanggal.",
+     "why_correct_id": "Alasannya disebut pakai **so**: **the bus company had a scheduling problem, so the department changed the date**. Masalah jadwal bus itulah penyebabnya.",
+     "why_correct_en": "The reason comes with **so**: **the bus company had a scheduling problem, so the department changed the date**.",
+     "why_wrong_id": {
+      "0": "Cuaca nggak disebut.",
+      "1": "Dosennya nggak disebut berhalangan.",
+      "3": "Gedung sains cuma soal parkir bus di akhir pekan, bukan tutup tiap Jumat."
+     },
+     "why_wrong_en": {
+      "0": "Weather isn't mentioned.",
+      "1": "Nothing says the professor was busy.",
+      "3": "The science building issue is weekend bus parking, not Friday closures."
+     },
+     "analogy_id": "Pola **X, so Y** itu kayak domino. Domino pertama, masalah bus, jatuh duluan dan bikin tanggalnya geser.",
+     "analogy_en": "**X, so Y** is dominoes. The first one, the bus problem, falls and pushes the date.",
+     "tip_id": "Soal **why**? Kalau nggak ada **because**, cari **so**. Penyebabnya ada sebelum **so**.",
+     "tip_en": "**Why**? No **because**? Look for **so**. The cause sits before it."
+    },
+    {
+     "type": "listening_long",
+     "prompt": "What will the man probably do this afternoon?",
+     "options": [
+      "Go to the north parking lot",
+      "Buy an alarm clock",
+      "Ask the professor to change the date",
+      "Ask a coworker to switch shifts with him"
+     ],
+     "correct_index": 3,
+     "rule_tags": [
+      "L-INFER",
+      "L-DETAIL"
+     ],
+     "difficulty": 3,
+     "key_sentence": "Maybe. I'll ask her this afternoon.",
+     "key_translation_id": "Mungkin. Nanti sore aku tanya dia.",
+     "why_correct_id": "Si wanita nyaranin tukar shift, dan nyebut **Maria said she'd be happy to pick up extra hours**. Si pria jawab **I'll ask her this afternoon**. **her** itu Maria, rekan kerjanya di toko buku. Jadi sore ini dia bakal minta Maria tukar shift.",
+     "why_correct_en": "She suggests switching shifts and mentions Maria wants extra hours. He says **I'll ask her this afternoon**. **her** is Maria, his coworker. So he'll ask her to switch.",
+     "why_wrong_id": {
+      "0": "Parkiran utara itu tempat kumpul hari Sabtu jam tujuh, bukan rencana sore ini.",
+      "1": "Dia cuma bilang mau pasang dua alarm, bukan beli jam weker.",
+      "2": "Tanggalnya diubah jurusan karena masalah bus. Dia nggak bilang mau minta diganti."
+     },
+     "why_wrong_en": {
+      "0": "The north lot is Saturday's meeting place at seven, not this afternoon.",
+      "1": "He'll set two alarms. Buying one isn't mentioned.",
+      "2": "The department changed the date for the bus. He doesn't plan to ask for another change."
+     },
+     "analogy_id": "**I'll ask her** itu kayak nyatet tugas di agenda. Kuncinya tahu **her** itu siapa: Maria.",
+     "analogy_en": "**I'll ask her** is a note in a planner. The key is knowing **her** is Maria.",
+     "tip_id": "Soal **probably do**? Cari **I'll**, terus cek kata ganti di dalamnya nunjuk ke siapa.",
+     "tip_en": "**Probably do**? Find **I'll**, then check who the pronoun points to."
+    }
+   ]
+  },
+  {
+   "section": "listening",
+   "part": "C",
+   "script": [
+    {
+     "speaker": "LEC",
+     "text": "Have you ever noticed that the Moon always shows us the same face? No matter where you are on Earth or what time of year it is, you see the same craters and the same dark patches. This happens because the Moon spins on its axis exactly once for every trip it makes around Earth, about every twenty-seven days. Astronomers call this tidal locking. Earth's gravity pulls slightly harder on the side of the Moon that faces us, which stretches the Moon a little. Billions of years ago, the Moon spun faster, but this pull acted like a brake and slowly reduced its spin until the two motions matched. By the way, you may have heard people talk about the dark side of the Moon. That's a misleading name. The far side gets just as much sunlight as the near side; we simply never see it from Earth. And here's the interesting part: the same kind of braking is happening to Earth, because the Moon's gravity pulls on our oceans. As a result, our days are getting longer, but only by about two thousandths of a second every century."
+    }
+   ],
+   "questions": [
+    {
+     "type": "listening_lecture",
+     "prompt": "What is the lecture mainly about?",
+     "options": [
+      "How the Moon's craters were formed",
+      "Why the far side of the Moon is cold",
+      "Why people on Earth always see the same side of the Moon",
+      "How astronomers measure the length of a day"
+     ],
+     "correct_index": 2,
+     "rule_tags": [
+      "L-TOPIC",
+      "L-LECTURE"
+     ],
+     "difficulty": 1,
+     "key_sentence": "Have you ever noticed that the Moon always shows us the same face?",
+     "key_translation_id": "Pernah sadar nggak kalau Bulan selalu nunjukin sisi yang sama ke kita?",
+     "why_correct_id": "Kuliahnya dibuka pakai pertanyaan **the Moon always shows us the same face?**, terus ngejelasin penyebabnya: tidal locking. Jadi topiknya kenapa kita selalu lihat sisi Bulan yang sama.",
+     "why_correct_en": "It opens with **the Moon always shows us the same face?**, then explains why: tidal locking. So it's why we always see the same side.",
+     "why_wrong_id": {
+      "0": "Kawah cuma disebut sebagai ciri yang selalu kelihatan sama. Cara terbentuknya nggak dibahas.",
+      "1": "Sisi jauh Bulan justru dapat sinar matahari sama banyaknya. Suhunya nggak dibahas.",
+      "3": "Panjang hari cuma disebut di akhir sebagai efek tambahan, bukan cara ngukurnya."
+     },
+     "why_wrong_en": {
+      "0": "Craters are just features we always see. Their origin isn't covered.",
+      "1": "The far side gets as much sunlight. Its temperature isn't discussed.",
+      "3": "Day length is an add-on at the end, not how it's measured."
+     },
+     "analogy_id": "Pertanyaan pembuka di lecture itu kayak umpan di kail. Topiknya ya jawaban dari pertanyaan itu.",
+     "analogy_en": "An opening question is bait on a hook. The topic is the answer to it.",
+     "tip_id": "Lecture dibuka pakai **Have you ever noticed…?** Topiknya biasanya penjelasan buat hal yang ditanyain itu.",
+     "tip_en": "A lecture opening with **Have you ever noticed…?** is usually about explaining that thing."
+    },
+    {
+     "type": "listening_lecture",
+     "prompt": "According to the professor, what is wrong with the phrase \"dark side of the Moon\"?",
+     "options": [
+      "The far side receives as much sunlight as the near side.",
+      "The far side is actually brighter than the near side.",
+      "The far side can be seen from Earth once a month.",
+      "The far side has no craters."
+     ],
+     "correct_index": 0,
+     "rule_tags": [
+      "L-DETAIL",
+      "L-LECTURE"
+     ],
+     "difficulty": 2,
+     "key_sentence": "The far side gets just as much sunlight as the near side; we simply never see it from Earth.",
+     "key_translation_id": "Sisi jauh dapat sinar matahari sama banyaknya kayak sisi dekat; kita aja yang nggak pernah lihat dari Bumi.",
+     "why_correct_id": "Dosennya nyebut nama itu **misleading**, nyesatin. Alasannya: **The far side gets just as much sunlight as the near side**. Sisi itu nggak gelap, cuma nggak pernah kelihatan dari Bumi.",
+     "why_correct_en": "The professor calls the name **misleading**: **The far side gets just as much sunlight as the near side**. It isn't dark, just never seen from Earth.",
+     "why_wrong_id": {
+      "1": "Dosennya bilang **just as much**, sama banyaknya, bukan lebih terang.",
+      "2": "Kebalikannya. Kita **never** lihat sisi itu dari Bumi.",
+      "3": "Kawah di sisi jauh nggak dibahas sama sekali."
+     },
+     "why_wrong_en": {
+      "1": "The professor says **just as much**, not brighter.",
+      "2": "The opposite. We **never** see it from Earth.",
+      "3": "Far-side craters aren't discussed."
+     },
+     "analogy_id": "Sisi jauh Bulan itu kayak punggung temanmu pas foto. Nggak kelihatan di kamera, tapi bukan berarti gelap.",
+     "analogy_en": "The far side is your friend's back in a photo. Not in the shot, but not in the dark either.",
+     "tip_id": "Kata **misleading** atau **actually** di lecture nandain koreksi salah kaprah. Itu sering ditanyain.",
+     "tip_en": "**misleading** or **actually** in a lecture marks a corrected myth, a frequent test point."
+    },
+    {
+     "type": "listening_lecture",
+     "prompt": "What does the professor say about the length of Earth's day?",
+     "options": [
+      "It has stayed the same for billions of years.",
+      "It is slowly getting longer.",
+      "It matches the Moon's orbit.",
+      "It is getting shorter by two seconds each century."
+     ],
+     "correct_index": 1,
+     "rule_tags": [
+      "L-DETAIL",
+      "L-LECTURE"
+     ],
+     "difficulty": 2,
+     "key_sentence": "As a result, our days are getting longer, but only by about two thousandths of a second every century.",
+     "key_translation_id": "Akibatnya, hari kita makin panjang, tapi cuma sekitar dua per seribu detik tiap abad.",
+     "why_correct_id": "Dosennya bilang **our days are getting longer**, tapi pelan banget: **about two thousandths of a second every century**. Jadi hari di Bumi pelan-pelan makin panjang.",
+     "why_correct_en": "The professor says **our days are getting longer**, by about two thousandths of a second every century. So the day is slowly lengthening.",
+     "why_wrong_id": {
+      "0": "Kebalikannya. Harinya berubah, walaupun dikit banget.",
+      "2": "Yang cocok sama orbit itu putaran BULAN, bukan hari di Bumi.",
+      "3": "Arahnya kebalik dan angkanya salah: makin panjang, dan cuma dua per seribu detik."
+     },
+     "why_wrong_en": {
+      "0": "The opposite. It is changing, if only slightly.",
+      "2": "It's the MOON's spin that matches its orbit, not Earth's day.",
+      "3": "Wrong direction and wrong number: longer, and only two thousandths of a second."
+     },
+     "analogy_id": "Hari di Bumi itu kayak jam pasir yang direm pelan-pelan sama Bulan. Rem-nya halus banget, tapi jalan terus.",
+     "analogy_en": "Earth's day is an hourglass being gently braked by the Moon. A very soft brake, but it never stops.",
+     "tip_id": "Hati-hati sama angka dan satuannya. **two thousandths of a second** beda jauh sama **two seconds**.",
+     "tip_en": "Watch numbers and units. **two thousandths of a second** is far from **two seconds**."
+    }
+   ]
+  },
+  {
+   "section": "structure",
+   "type": "structure_completion",
+   "prompt": "Neither the manager ______ her assistant was able to attend the meeting.",
+   "options": [
+    "or",
+    "and",
+    "nor",
+    "but"
+   ],
+   "correct_index": 2,
+   "rule_tags": [
+    "S-CORRELATIVE"
+   ],
+   "difficulty": 1,
+   "why_correct_id": "Kalimatnya dibuka pakai **Neither**. [[correlative conjunction|correlative-conjunction]] ini pasangannya selalu **nor**: **neither … nor**, bukan dua-duanya.",
+   "why_correct_en": "The sentence opens with **Neither**. This correlative pair is always **neither … nor**.",
+   "why_wrong_id": {
+    "0": "**or** itu pasangan **either**, bukan **neither**.",
+    "1": "**and** itu pasangan **both**.",
+    "3": "**but** itu pasangan **not only … but also**."
+   },
+   "why_wrong_en": {
+    "0": "**or** pairs with **either**, not **neither**.",
+    "1": "**and** pairs with **both**.",
+    "3": "**but** belongs to **not only … but also**."
+   },
+   "analogy_id": "Correlative itu kayak sepasang sandal. **Neither** cuma cocok sama **nor**. Pasangannya nggak bisa dicampur.",
+   "analogy_en": "Correlatives are a pair of sandals. **Neither** only matches **nor**. No mixing pairs.",
+   "tip_id": "Hafalin pasangannya: **both … and**, **either … or**, **neither … nor**, **not only … but also**, **whether … or**.",
+   "tip_en": "Learn the pairs: **both … and**, **either … or**, **neither … nor**, **not only … but also**, **whether … or**."
+  },
+  {
+   "section": "structure",
+   "type": "structure_completion",
+   "prompt": "______ the experiment will succeed depends on the quality of the samples.",
+   "options": [
+    "If",
+    "Because",
+    "So",
+    "Whether"
+   ],
+   "correct_index": 3,
+   "rule_tags": [
+    "S-NOUN-CLAUSE"
+   ],
+   "difficulty": 2,
+   "why_correct_id": "Kata kerja utamanya **depends**. Pelakunya satu anak kalimat utuh, **___ the experiment will succeed**. [[noun clause|noun-clause]] yang artinya apakah dan bisa jadi pelaku itu dibuka pakai **Whether**.",
+   "why_correct_en": "The main verb is **depends**. Its subject is a whole clause, **___ the experiment will succeed**. A noun clause meaning whether that can be a subject opens with **Whether**.",
+   "why_wrong_id": {
+    "0": "**If** artinya juga apakah, tapi nggak bisa dipakai buat anak kalimat yang jadi pelaku di awal kalimat.",
+    "1": "**Because** ngebuka anak kalimat sebab, bukan pelaku. Kata kerja **depends** jadi nggak punya pelaku.",
+    "2": "**So** artinya jadi atau maka. Nggak bisa ngebuka pelaku kalimat."
+   },
+   "why_wrong_en": {
+    "0": "**If** can mean whether, but it can't open a clause used as the subject at the start.",
+    "1": "**Because** opens a reason clause, not a subject. **depends** would have no subject.",
+    "2": "**So** means therefore. It can't open a subject."
+   },
+   "analogy_id": "Noun clause itu kayak paket yang dibungkus rapi terus ditaruh di kursi sopir. **Whether** itu pita pembungkusnya.",
+   "analogy_en": "A noun clause is a parcel placed in the driver's seat. **Whether** is the ribbon wrapping it.",
+   "tip_id": "Rumpang di awal, terus ada clause, terus kata kerja utama? Butuh pembuka noun clause: **Whether**, **What**, **That**, **How**.",
+   "tip_en": "Blank first, then a clause, then the main verb? You need a noun clause opener: **Whether**, **What**, **That**, **How**."
+  },
+  {
+   "section": "structure",
+   "type": "structure_completion",
+   "prompt": "Rarely ______ such a large crowd at a university lecture.",
+   "options": [
+    "have we seen",
+    "we have seen",
+    "we seen",
+    "seen we have"
+   ],
+   "correct_index": 0,
+   "rule_tags": [
+    "S-INVERSION"
+   ],
+   "difficulty": 2,
+   "why_correct_id": "Kalimatnya dibuka pakai **Rarely**, kata yang maknanya negatif. Habis kata kayak gini, terjadi [[inversion]]: kata kerja bantu pindah ke depan pelaku. Jadi **have we seen**.",
+   "why_correct_en": "**Rarely** is a negative word at the start. That triggers inversion: the helper verb jumps before the subject: **have we seen**.",
+   "why_wrong_id": {
+    "1": "**we have seen** pakai urutan kalimat biasa. Habis **Rarely** di awal, urutannya harus dibalik.",
+    "2": "**we seen** kehilangan kata kerja bantu **have**.",
+    "3": "**seen we have** urutannya kacau."
+   },
+   "why_wrong_en": {
+    "1": "**we have seen** is normal order. After a fronted **Rarely**, it must flip.",
+    "2": "**we seen** drops the helper **have**.",
+    "3": "**seen we have** is scrambled."
+   },
+   "analogy_id": "Kata negatif di awal kalimat itu kayak VIP yang dateng. Kata kerja bantu langsung maju ke depan nyambut, pelakunya mundur.",
+   "analogy_en": "A negative word at the front is a VIP arriving. The helper verb steps forward to greet it, and the subject steps back.",
+   "tip_id": "**Rarely**, **Never**, **Seldom**, **Not only**, **Hardly** di awal kalimat? Cari opsi yang urutannya kayak pertanyaan.",
+   "tip_en": "**Rarely**, **Never**, **Seldom**, **Not only**, **Hardly** at the start? Pick the question-style order."
+  },
+  {
+   "section": "structure",
+   "type": "structure_completion",
+   "prompt": "The researchers could not explain ______.",
+   "options": [
+    "why had the birds returned early",
+    "the birds why returned early",
+    "why did the birds return early",
+    "why the birds had returned early"
+   ],
+   "correct_index": 3,
+   "rule_tags": [
+    "S-NOUN-CLAUSE"
+   ],
+   "difficulty": 3,
+   "why_correct_id": "Rumpangnya jadi objek dari **explain**, jadi isinya [[noun clause|noun-clause]]. Noun clause pakai urutan kalimat biasa: kata tanya, pelaku, terus kata kerja. Jadi **why the birds had returned early**.",
+   "why_correct_en": "The blank is the object of **explain**, so it's a noun clause. Noun clauses use statement order: question word, subject, verb: **why the birds had returned early**.",
+   "why_wrong_id": {
+    "0": "**why had the birds…** pakai urutan pertanyaan. Di dalam kalimat, urutannya harus balik ke biasa.",
+    "1": "**the birds why returned** naruh kata tanya di tengah. Urutannya kacau.",
+    "2": "**why did the birds return** juga urutan pertanyaan langsung. Nggak boleh di tengah kalimat."
+   },
+   "why_wrong_en": {
+    "0": "**why had the birds…** is question order. Inside a sentence, use statement order.",
+    "1": "**the birds why returned** puts the question word in the middle.",
+    "2": "**why did the birds return** is direct-question order. Not allowed mid-sentence."
+   },
+   "analogy_id": "Pertanyaan yang masuk ke dalam kalimat itu kayak tamu yang udah duduk di ruang tamu. Dia nggak berdiri lagi kayak di depan pintu.",
+   "analogy_en": "A question inside a sentence is a guest already seated in the living room. It doesn't stand at the door anymore.",
+   "tip_id": "Kata tanya di tengah kalimat? Cek urutannya. Harus pelaku dulu, baru kata kerja.",
+   "tip_en": "A question word mid-sentence? Check the order. Subject first, then verb."
+  },
+  {
+   "section": "structure",
+   "type": "structure_error",
+   "prompt": "{A}Both{/A} the library {B}or{/B} the student center {C}are{/C} open {D}late{/D} during exam week.",
+   "options": [
+    "Both",
+    "or",
+    "are",
+    "late"
+   ],
+   "correct_index": 1,
+   "rule_tags": [
+    "S-CORRELATIVE"
+   ],
+   "difficulty": 1,
+   "why_correct_id": "Kalimatnya dibuka pakai **Both**. Pasangan **both** itu selalu **and**, bukan **or**. Jadi **or** harus jadi **and**.",
+   "why_correct_en": "The sentence opens with **Both**, which always pairs with **and**, not **or**.",
+   "why_wrong_id": {
+    "0": "**Both** itu awal pasangan yang aman. Yang salah pasangannya.",
+    "2": "**are** jamak, pas buat dua tempat yang disambung **both … and**.",
+    "3": "**late** itu adverb (kata keterangan) yang pas, buka sampai larut."
+   },
+   "why_wrong_en": {
+    "0": "**Both** is a fine start. Its partner is the problem.",
+    "2": "**are** is plural, right for two places joined by **both … and**.",
+    "3": "**late** is a fine adverb."
+   },
+   "analogy_id": "**Both … or** itu kayak sandal kiri merek A, kanan merek B. Nggak matching, cuy.",
+   "analogy_en": "**Both … or** is a left sandal from one brand and a right from another. They don't match.",
+   "tip_id": "Lihat **both**? Langsung cari **and** di bagian berikutnya.",
+   "tip_en": "See **both**? Look for **and** later on."
+  },
+  {
+   "section": "structure",
+   "type": "structure_error",
+   "prompt": "{A}Not only{/A} {B}the city built{/B} a new park, but it {C}also planted{/C} {D}hundreds{/D} of trees.",
+   "options": [
+    "Not only",
+    "the city built",
+    "also planted",
+    "hundreds"
+   ],
+   "correct_index": 1,
+   "rule_tags": [
+    "S-INVERSION",
+    "S-CORRELATIVE"
+   ],
+   "difficulty": 2,
+   "why_correct_id": "**Not only** di awal kalimat itu kata negatif yang bikin [[inversion]]. Kata kerja bantunya harus maju ke depan pelaku. **the city built** harus jadi **did the city build**.",
+   "why_correct_en": "**Not only** at the start triggers inversion. The helper verb moves before the subject: **did the city build**.",
+   "why_wrong_id": {
+    "0": "**Not only** itu awal pasangan **not only … but also** yang aman.",
+    "2": "**also planted** itu pasangan **but also** yang pas.",
+    "3": "**hundreds of trees** itu frasa yang aman."
+   },
+   "why_wrong_en": {
+    "0": "**Not only** is fine. It starts the **not only … but also** pair.",
+    "2": "**also planted** completes **but also** correctly.",
+    "3": "**hundreds of trees** is fine."
+   },
+   "analogy_id": "**Not only** di depan itu kayak bel pintu. Begitu bunyi, **did** langsung lari ke depan buat bukain pintu.",
+   "analogy_en": "**Not only** at the front is a doorbell. As it rings, **did** runs ahead to open the door.",
+   "tip_id": "**Not only** di awal kalimat butuh kata kerja bantu sebelum pelaku: **did**, **does**, **has**, **can**. Di tengah kalimat, nggak perlu.",
+   "tip_en": "Sentence-initial **Not only** needs a helper before the subject: **did**, **does**, **has**, **can**. Mid-sentence, it doesn't."
+  },
+  {
+   "section": "structure",
+   "type": "structure_error",
+   "prompt": "Nobody knows {A}when{/A} {B}will the bridge{/B} {C}be{/C} {D}finished{/D}.",
+   "options": [
+    "when",
+    "will the bridge",
+    "be",
+    "finished"
+   ],
+   "correct_index": 1,
+   "rule_tags": [
+    "S-NOUN-CLAUSE"
+   ],
+   "difficulty": 2,
+   "why_correct_id": "**when … finished** itu [[noun clause|noun-clause]] yang jadi objek **knows**. Di dalam noun clause, urutannya kayak kalimat biasa: pelaku dulu, baru kata kerja bantu. Jadi **will the bridge** harus jadi **the bridge will**.",
+   "why_correct_en": "**when … finished** is a noun clause, the object of **knows**. Inside it, use statement order: **the bridge will**, not **will the bridge**.",
+   "why_wrong_id": {
+    "0": "**when** pas buat ngebuka noun clause soal waktu.",
+    "2": "**be** pas setelah **will** buat pasif masa depan.",
+    "3": "**finished** itu V3 yang pas setelah **be**."
+   },
+   "why_wrong_en": {
+    "0": "**when** correctly opens a time noun clause.",
+    "2": "**be** fits after **will** in a future passive.",
+    "3": "**finished** is the right V3 after **be**."
+   },
+   "analogy_id": "Pertanyaan langsung itu orang yang lagi berdiri nanya. Begitu masuk ke kalimat lain, dia duduk rapi dengan urutan biasa.",
+   "analogy_en": "A direct question is someone standing to ask. Inside another sentence, it sits down in normal order.",
+   "tip_id": "Kata tanya di tengah kalimat plus kata kerja bantu langsung sesudahnya? Hampir pasti salah urutan.",
+   "tip_en": "A mid-sentence question word followed directly by a helper verb? Almost always the wrong order."
+  },
+  {
+   "section": "structure",
+   "type": "structure_error",
+   "prompt": "{A}Never{/A} before {B}the town has experienced{/B} such a severe {C}drought{/C} as {D}the one{/D} this year.",
+   "options": [
+    "Never",
+    "the town has experienced",
+    "drought",
+    "the one"
+   ],
+   "correct_index": 1,
+   "rule_tags": [
+    "S-INVERSION"
+   ],
+   "difficulty": 3,
+   "why_correct_id": "**Never before** di awal kalimat bikin [[inversion]]. Kata kerja bantu **has** harus maju sebelum pelaku: **has the town experienced**. Jadi **the town has experienced** salah urutan.",
+   "why_correct_en": "**Never before** at the start triggers inversion. **has** moves before the subject: **has the town experienced**.",
+   "why_wrong_id": {
+    "0": "**Never** di awal kalimat itu aman. Justru dia pemicu inversinya.",
+    "2": "**drought**, kekeringan, itu kata benda yang pas setelah **severe**.",
+    "3": "**the one** nunjuk ke **drought**, kekeringan tahun ini. Aman."
+   },
+   "why_wrong_en": {
+    "0": "**Never** at the start is fine. It's what triggers the inversion.",
+    "2": "**drought** is the right noun after **severe**.",
+    "3": "**the one** refers to **drought**, this year's. Fine."
+   },
+   "analogy_id": "Kalimat yang dibuka **Never** itu kayak panggung yang lampunya dinyalain buat kata kerja bantu. **has** harus naik duluan.",
+   "analogy_en": "A sentence opening with **Never** turns the spotlight on the helper verb. **has** takes the stage first.",
+   "tip_id": "Kata negatif di awal kadang dipisah kata lain, kayak **Never before** atau **Only after**. Inversinya tetap wajib.",
+   "tip_en": "A fronted negative may come with extra words, like **Never before** or **Only after**. Inversion still applies."
+  },
+  {
+   "section": "structure",
+   "type": "structure_error",
+   "prompt": "The committee must decide {A}whether{/A} to approve the plan {B}or{/B} {C}rejecting{/C} {D}it{/D}.",
+   "options": [
+    "whether",
+    "or",
+    "rejecting",
+    "it"
+   ],
+   "correct_index": 2,
+   "rule_tags": [
+    "S-CORRELATIVE",
+    "S-PARALLEL"
+   ],
+   "difficulty": 3,
+   "why_correct_id": "Pasangan **whether … or** nyambungin dua pilihan yang bentuknya harus sejajar. Sisi pertama **to approve**, jadi sisi kedua harus bentuk dasar juga: **reject** atau **to reject**. Jadi **rejecting** salah.",
+   "why_correct_en": "**whether … or** links two choices that must be parallel. The first is **to approve**, so the second must be **reject** or **to reject**.",
+   "why_wrong_id": {
+    "0": "**whether** pas buat pilihan antara dua hal.",
+    "1": "**or** itu pasangan **whether** yang pas.",
+    "3": "**it** nunjuk ke **the plan**. Aman."
+   },
+   "why_wrong_en": {
+    "0": "**whether** fits a choice between two options.",
+    "1": "**or** is the right partner for **whether**.",
+    "3": "**it** refers to **the plan**. Fine."
+   },
+   "analogy_id": "Dua pilihan di **whether … or** itu kayak dua gelas di nampan. Harus sama bentuknya, biar nampannya nggak miring.",
+   "analogy_en": "The two choices in **whether … or** are two glasses on a tray. Same shape, or the tray tips.",
+   "tip_id": "Correlative bukan cuma soal pasangan katanya. Cek juga bentuk kata di kedua sisinya harus sama.",
+   "tip_en": "Correlatives aren't just about the pair. Both sides must share the same form too."
+  },
+  {
+   "section": "structure",
+   "type": "structure_error",
+   "prompt": "{A}What{/A} the speaker said {B}it{/B} {C}surprised{/C} {D}everyone{/D} in the room.",
+   "options": [
+    "What",
+    "it",
+    "surprised",
+    "everyone"
+   ],
+   "correct_index": 1,
+   "rule_tags": [
+    "S-NOUN-CLAUSE",
+    "S-REDUNDANT"
+   ],
+   "difficulty": 2,
+   "why_correct_id": "Pelaku kalimat ini satu noun clause utuh: **What the speaker said**. Terus muncul **it** sebelum kata kerja **surprised**. Pelakunya jadi dobel. Hapus **it**.",
+   "why_correct_en": "The subject is the whole noun clause **What the speaker said**. Then **it** appears before **surprised**. A double subject. Drop **it**.",
+   "why_wrong_id": {
+    "0": "**What** pas buat ngebuka noun clause yang jadi pelaku.",
+    "2": "**surprised** itu kata kerja utama yang pas buat cerita lampau.",
+    "3": "**everyone** itu objek yang pas."
+   },
+   "why_wrong_en": {
+    "0": "**What** correctly opens the subject clause.",
+    "2": "**surprised** is the right past main verb.",
+    "3": "**everyone** is a fine object."
+   },
+   "analogy_id": "Noun clause itu udah jadi sopir lengkap. **it** itu sopir kedua yang nekat ikut duduk. Turunin.",
+   "analogy_en": "The noun clause is already a full driver. **it** is a second driver squeezing in. Out it goes.",
+   "tip_id": "Kalimat diawali **What**, **Whether**, atau **That** plus clause? Jangan ada **it** sebelum kata kerja utama.",
+   "tip_en": "Starts with **What**, **Whether**, or **That** plus a clause? No **it** before the main verb."
+  },
+  {
+   "section": "reading",
+   "title": "Tiny Survivors",
+   "body": "Tardigrades, sometimes called water bears, are among the toughest animals on Earth. Most are less than a millimeter long, and they live almost everywhere there is moisture: in moss, in soil, on the ocean floor, and even in the ice of mountaintops.\n\nTheir secret is a state called cryptobiosis. When their surroundings dry out, tardigrades lose almost all the water in their bodies and curl into a tiny, dry ball known as a tun. In this form, their metabolism slows to less than 0.01 percent of its normal rate, so low that the animals appear dead. When water returns, they can rehydrate and become active again, sometimes after many years.\n\nTardigrades in the tun state have survived conditions that would kill almost any other animal. In laboratory tests, they have endured temperatures close to absolute zero and, for a few minutes, temperatures above 150 degrees Celsius. In 2007, tardigrades carried into orbit survived ten days exposed to the vacuum of space, and some even survived strong ultraviolet radiation from the Sun. Nearly all of these records were set by tardigrades that had first entered the tun state.\n\nScientists are still learning how this protection works. In 2016, researchers discovered a protein in one species, named Dsup, that appears to shield the animal's DNA from radiation damage. When the protein was added to human cells grown in a laboratory, those cells suffered noticeably less damage from X-rays.\n\nSuch findings have practical interest. If scientists can understand how tardigrades protect their cells, they may one day be able to help preserve medicines or protect astronauts on long space missions.",
+   "questions": [
+    {
+     "type": "reading",
+     "subtype": "main_idea",
+     "prompt": "What is the passage mainly about?",
+     "options": [
+      "How tardigrades find water in moss and soil",
+      "Why tardigrades are popular in space research programs",
+      "How tardigrades survive extreme conditions and what scientists are learning from them",
+      "The discovery of a new human protein"
+     ],
+     "correct_index": 2,
+     "rule_tags": [
+      "R-MAIN"
+     ],
+     "difficulty": 1,
+     "evidence_quote": "Tardigrades, sometimes called water bears, are among the toughest animals on Earth.",
+     "why_correct_id": "Kalimat pertama nyebut tardigrade termasuk hewan paling tangguh. Paragraf 2 dan 3 ngejelasin cara mereka bertahan, paragraf 4 dan 5 bahas yang lagi dipelajarin ilmuwan. Opsi C nyakup dua bagian itu.",
+     "why_correct_en": "The first sentence calls tardigrades among the toughest animals. Paragraphs 2 and 3 show how they survive, 4 and 5 what scientists are learning. Option C covers both.",
+     "why_wrong_id": {
+      "0": "Tempat hidupnya cuma disebut sekilas di paragraf 1.",
+      "1": "Luar angkasa cuma satu contoh uji di paragraf 3.",
+      "3": "Protein Dsup itu ditemuin di tardigrade, bukan protein manusia."
+     },
+     "why_wrong_en": {
+      "0": "Habitat gets a quick mention in paragraph 1.",
+      "1": "Space is one test example in paragraph 3.",
+      "3": "Dsup was found in tardigrades, not humans."
+     },
+     "analogy_id": "Main idea teks sains itu kayak abstrak penelitian. Harus ngerangkum temuan dan arah risetnya.",
+     "analogy_en": "The main idea of a science text is the abstract. It sums up the findings and where research is heading.",
+     "tip_id": "Teks sains sering berpola: fenomena, cara kerja, bukti, manfaat. Main idea yang bener nyakup lebih dari satu bagian.",
+     "tip_en": "Science texts often go phenomenon, mechanism, evidence, use. The right main idea spans more than one part."
+    },
+    {
+     "type": "reading",
+     "subtype": "detail",
+     "prompt": "According to paragraph 2, what happens when a tardigrade enters the tun state?",
+     "options": [
+      "It grows a hard outer shell.",
+      "It loses most of its body water and its metabolism nearly stops.",
+      "It moves deeper into the soil to find water.",
+      "It produces large amounts of a protein called Dsup."
+     ],
+     "correct_index": 1,
+     "rule_tags": [
+      "R-DETAIL"
+     ],
+     "difficulty": 2,
+     "evidence_quote": "tardigrades lose almost all the water in their bodies and curl into a tiny, dry ball known as a tun. In this form, their metabolism slows to less than 0.01 percent of its normal rate",
+     "why_correct_id": "Paragraf 2 bilang tardigrade **lose almost all the water in their bodies**, terus metabolismenya turun jadi **less than 0.01 percent of its normal rate**. Itu artinya hampir berhenti.",
+     "why_correct_en": "Paragraph 2 says they **lose almost all the water in their bodies**, and metabolism drops below **0.01 percent of its normal rate**, nearly stopped.",
+     "why_wrong_id": {
+      "0": "Cangkang keras nggak disebut. Mereka cuma ngegulung jadi bola kering.",
+      "2": "Mereka nggak pindah. Mereka nunggu airnya balik.",
+      "3": "Dsup dibahas di paragraf 4, dan nggak disebut diproduksi banyak pas jadi tun."
+     },
+     "why_wrong_en": {
+      "0": "No shell is mentioned. They curl into a dry ball.",
+      "2": "They don't move. They wait for water to return.",
+      "3": "Dsup is in paragraph 4, and nothing links its amount to the tun state."
+     },
+     "analogy_id": "Tun itu kayak HP yang masuk mode hemat baterai ekstrem. Layarnya mati, tapi belum mati beneran.",
+     "analogy_en": "A tun is a phone in ultra power-saving mode. The screen is off, but it isn't dead.",
+     "tip_id": "Angka di teks sains, kayak **0.01 percent**, sering jadi kunci soal detail. Cek opsi yang ngegambarin artinya.",
+     "tip_en": "Numbers like **0.01 percent** often anchor detail questions. Find the option that describes what they mean."
+    },
+    {
+     "type": "reading",
+     "subtype": "inference",
+     "prompt": "It can be inferred from paragraph 3 that a tardigrade in its active state",
+     "options": [
+      "would probably not survive the extreme conditions described",
+      "is more resistant than one in the tun state",
+      "can survive in space for longer than ten days",
+      "does not need water to stay alive"
+     ],
+     "correct_index": 0,
+     "rule_tags": [
+      "R-INFER"
+     ],
+     "difficulty": 3,
+     "evidence_quote": "Nearly all of these records were set by tardigrades that had first entered the tun state.",
+     "why_correct_id": "Kalimat terakhir paragraf 3 bilang hampir semua rekor itu dipecahin tardigrade yang **had first entered the tun state**. Artinya ketangguhan ekstremnya muncul pas mode tun. Jadi tardigrade yang lagi aktif kemungkinan nggak bakal selamat di kondisi seekstrem itu.",
+     "why_correct_en": "Paragraph 3 ends: nearly all records were set by tardigrades that **had first entered the tun state**. So active ones probably wouldn't survive such extremes.",
+     "why_wrong_id": {
+      "1": "Kebalikannya. Ketangguhannya justru datang dari mode tun.",
+      "2": "Sepuluh hari di luar angkasa itu rekor tardigrade mode tun. Nggak ada info yang aktif lebih lama.",
+      "3": "Teks bilang mereka hidup di mana pun ada kelembapan. Yang aktif jelas butuh air."
+     },
+     "why_wrong_en": {
+      "1": "The opposite. Their toughness comes from the tun state.",
+      "2": "The ten days in space were set in the tun state. Nothing suggests active ones last longer.",
+      "3": "They live wherever there's moisture. Active ones clearly need water."
+     },
+     "analogy_id": "Kayak pemain yang cuma kuat kalau pakai baju pelindung. Lepas bajunya, dia biasa aja.",
+     "analogy_en": "Like a player who's tough only in armor. Take it off and they're ordinary.",
+     "tip_id": "Kalimat penutup paragraf yang pakai **Nearly all** atau **only** sering jadi kunci soal inferensi.",
+     "tip_en": "A closing sentence with **Nearly all** or **only** often holds the inference."
+    },
+    {
+     "type": "reading",
+     "subtype": "vocabulary",
+     "prompt": "The word **shield** in paragraph 4 is closest in meaning to",
+     "options": [
+      "copy",
+      "repair",
+      "detect",
+      "protect"
+     ],
+     "correct_index": 3,
+     "rule_tags": [
+      "R-VOCAB"
+     ],
+     "difficulty": 2,
+     "evidence_quote": "a protein in one species, named Dsup, that appears to shield the animal's DNA from radiation damage",
+     "why_correct_id": "Pola **shield … from radiation damage** artinya ngejaga sesuatu dari kerusakan. Kalimat berikutnya nguatin: sel manusia yang dikasih Dsup **suffered noticeably less damage**. Jadi **shield** artinya **protect**.",
+     "why_correct_en": "**shield … from radiation damage** means keeping something safe from harm. Next, cells with Dsup **suffered noticeably less damage**. So **shield** means **protect**.",
+     "why_wrong_id": {
+      "0": "**copy** (nyalin) nggak cocok sama **from radiation damage**.",
+      "1": "**repair** (benerin) itu setelah rusak. **shield from** artinya nyegah sebelum rusak.",
+      "2": "**detect** (ndeteksi) cuma tahu ada kerusakan, nggak ngurangin kerusakannya."
+     },
+     "why_wrong_en": {
+      "0": "**copy** doesn't fit **from radiation damage**.",
+      "1": "**repair** happens after damage. **shield from** prevents it.",
+      "2": "**detect** only notices damage. It doesn't reduce it."
+     },
+     "analogy_id": "**Shield** itu kayak payung buat DNA. Hujannya radiasi, payungnya Dsup.",
+     "analogy_en": "**Shield** is an umbrella for DNA. The rain is radiation, the umbrella is Dsup.",
+     "tip_id": "Kata kerja plus **from + bahaya**, kayak **shield from** atau **guard from**, hampir selalu artinya ngelindungin.",
+     "tip_en": "A verb plus **from + danger**, like **shield from** or **guard from**, almost always means protect."
+    },
+    {
+     "type": "reading",
+     "subtype": "not_except",
+     "prompt": "All of the following are mentioned as conditions tardigrades have survived EXCEPT",
+     "options": [
+      "temperatures close to absolute zero",
+      "the vacuum of space",
+      "strong ultraviolet radiation",
+      "being frozen in ice for a thousand years"
+     ],
+     "correct_index": 3,
+     "rule_tags": [
+      "R-NOT"
+     ],
+     "difficulty": 3,
+     "evidence_quote": "In laboratory tests, they have endured temperatures close to absolute zero and, for a few minutes, temperatures above 150 degrees Celsius.",
+     "why_correct_id": "Centang yang disebut di paragraf 3: suhu mendekati nol mutlak, ruang hampa luar angkasa, dan radiasi ultraviolet kuat. Es memang disebut di paragraf 1 sebagai tempat hidup, tapi beku seribu tahun nggak pernah disebut. Itu pengecualiannya.",
+     "why_correct_en": "Tick paragraph 3: near absolute zero, the vacuum of space, strong UV. Ice appears in paragraph 1 as a habitat, but a thousand years frozen is never mentioned.",
+     "why_wrong_id": {
+      "0": "Suhu mendekati nol mutlak disebut di paragraf 3.",
+      "1": "Ruang hampa luar angkasa disebut, sepuluh hari di orbit.",
+      "2": "Radiasi ultraviolet kuat dari Matahari disebut."
+     },
+     "why_wrong_en": {
+      "0": "Near absolute zero is in paragraph 3.",
+      "1": "The vacuum of space is mentioned, ten days in orbit.",
+      "2": "Strong ultraviolet radiation is mentioned."
+     },
+     "analogy_id": "Opsi D itu kayak gosip yang kedengeran masuk akal. Kedengerannya kayak tardigrade banget, tapi sumbernya nggak ada di teks.",
+     "analogy_en": "Option D is a believable rumor. It sounds very tardigrade, but there's no source in the text.",
+     "tip_id": "Pengecoh NOT MENTIONED sering nyomot kata dari teks, kayak **ice**, terus nambahin klaim baru. Cek klaimnya, bukan cuma katanya.",
+     "tip_en": "NOT MENTIONED traps borrow a text word, like **ice**, and add a new claim. Check the claim, not just the word."
+    }
+   ]
+  },
+  {
+   "section": "reading",
+   "title": "A Theory Before Its Time",
+   "body": "In 1912, a German scientist named Alfred Wegener proposed an idea that most geologists found absurd. He argued that the continents had not always been where they are today. Instead, he suggested, they had once been joined in a single giant landmass and had slowly drifted apart over millions of years.\n\nWegener gathered several kinds of evidence. The coastlines of South America and Africa fit together like pieces of a puzzle. Fossils of the same ancient reptile, Mesosaurus, were found in both places, even though the animal could not have crossed an ocean. Layers of rock in the mountains of eastern North America also matched those in Scotland and Norway.\n\nDespite this evidence, his theory was rejected by most experts. The main objection was that Wegener could not explain what mechanism could move entire continents. He proposed forces related to Earth's rotation, but physicists calculated that these forces were far too weak. Without a convincing explanation of how the continents moved, few scientists were willing to accept that they moved at all.\n\nWegener died in 1930 during an expedition to Greenland. Decades later, in the 1950s and 1960s, scientists mapping the ocean floor found long underwater mountain ranges and stripes of rock that recorded changes in Earth's magnetic field. These discoveries showed that new ocean floor forms at the ridges and slowly spreads outward, carrying the continents with it. By the late 1960s, the theory of plate tectonics had become the foundation of modern geology, and Wegener's once-mocked idea was largely accepted.",
+   "questions": [
+    {
+     "type": "reading",
+     "subtype": "organization",
+     "prompt": "How is the passage organized?",
+     "options": [
+      "An idea is described from its proposal, through its rejection, to its later acceptance.",
+      "Two competing theories are compared point by point.",
+      "A problem is described, and several solutions are evaluated.",
+      "A process is explained step by step from beginning to end."
+     ],
+     "correct_index": 0,
+     "rule_tags": [
+      "R-ORG"
+     ],
+     "difficulty": 2,
+     "evidence_quote": "By the late 1960s, the theory of plate tectonics had become the foundation of modern geology",
+     "why_correct_id": "Teksnya ngikutin urutan waktu. Paragraf 1 ide diajukan tahun 1912, paragraf 2 buktinya, paragraf 3 ditolak, paragraf 4 akhirnya diterima di akhir 1960-an. Jadi polanya ide diajukan, ditolak, lalu diterima.",
+     "why_correct_en": "It runs in time order: proposed in 1912, evidence, rejection, acceptance by the late 1960s.",
+     "why_wrong_id": {
+      "1": "Cuma ada satu teori utama. Gaya rotasi Bumi itu penjelasan Wegener sendiri, bukan teori saingan.",
+      "2": "Nggak ada beberapa solusi yang dinilai.",
+      "3": "Teks nggak ngejelasin satu proses langkah demi langkah. Yang diikutin nasib sebuah ide."
+     },
+     "why_wrong_en": {
+      "1": "There's one main theory. Earth's rotation was Wegener's own explanation, not a rival theory.",
+      "2": "No set of solutions is evaluated.",
+      "3": "It doesn't explain a process step by step. It follows the fate of an idea."
+     },
+     "analogy_id": "Teks ini kayak biografi sebuah ide: lahir, diejek, terus akhirnya jadi juara.",
+     "analogy_en": "This passage is a biography of an idea: born, mocked, and finally crowned.",
+     "tip_id": "Banyak tahun di kalimat pertama tiap paragraf, kayak 1912, 1930, 1960-an? Polanya hampir pasti urutan waktu.",
+     "tip_en": "Years opening several paragraphs, like 1912, 1930, the 1960s? The pattern is almost surely time order."
+    },
+    {
+     "type": "reading",
+     "subtype": "detail",
+     "prompt": "According to paragraph 2, which of the following was evidence for Wegener's idea?",
+     "options": [
+      "Fossils of the same reptile were found on continents separated by an ocean.",
+      "Earth's rotation was strong enough to move continents.",
+      "The ocean floor contained stripes of magnetic rock.",
+      "Mountains in Greenland matched mountains in Africa."
+     ],
+     "correct_index": 0,
+     "rule_tags": [
+      "R-DETAIL"
+     ],
+     "difficulty": 1,
+     "evidence_quote": "Fossils of the same ancient reptile, Mesosaurus, were found in both places, even though the animal could not have crossed an ocean.",
+     "why_correct_id": "Paragraf 2 nyebut fosil reptil yang sama, Mesosaurus, ditemuin di Amerika Selatan dan Afrika, padahal hewan itu nggak mungkin nyebrang samudra. Itu bukti dari Wegener.",
+     "why_correct_en": "Paragraph 2: the same reptile, Mesosaurus, was found in South America and Africa, though it couldn't cross an ocean. That's Wegener's evidence.",
+     "why_wrong_id": {
+      "1": "Kebalikannya. Fisikawan ngitung gaya rotasi Bumi kelemahan buat mindahin benua.",
+      "2": "Garis batuan magnetik di dasar laut ditemuin puluhan tahun SETELAH Wegener meninggal.",
+      "3": "Batuan yang cocok itu antara Amerika Utara bagian timur dan Skotlandia atau Norwegia, bukan Greenland dan Afrika."
+     },
+     "why_wrong_en": {
+      "1": "The opposite. Physicists found Earth's rotation far too weak.",
+      "2": "Magnetic stripes were found decades AFTER Wegener died.",
+      "3": "The matching rocks were in eastern North America and Scotland or Norway, not Greenland and Africa."
+     },
+     "analogy_id": "Fosil yang sama di dua benua itu kayak dua potongan foto yang gambarnya nyambung. Dulu pasti satu lembar.",
+     "analogy_en": "The same fossil on two continents is two halves of a photo that line up. It must have been one sheet once.",
+     "tip_id": "Soal detail sejarah sains? Cek siapa yang nemuin bukti dan kapan. Pengecoh sering nyomot bukti dari masa lain.",
+     "tip_en": "Science history details? Check who found the evidence and when. Traps borrow evidence from another era."
+    },
+    {
+     "type": "reading",
+     "subtype": "vocabulary",
+     "prompt": "The word **mechanism** in paragraph 3 is closest in meaning to",
+     "options": [
+      "a piece of equipment",
+      "a way of measuring",
+      "a process that explains how something happens",
+      "a group of experts"
+     ],
+     "correct_index": 2,
+     "rule_tags": [
+      "R-VOCAB"
+     ],
+     "difficulty": 2,
+     "evidence_quote": "The main objection was that Wegener could not explain what mechanism could move entire continents.",
+     "why_correct_id": "Kalimat terakhir paragraf 3 ngulang masalahnya: **Without a convincing explanation of how the continents moved**. Jadi **mechanism** di sini artinya penjelasan soal gimana sesuatu terjadi, yaitu proses yang ngegerakin benua.",
+     "why_correct_en": "Paragraph 3 ends by restating it: **Without a convincing explanation of how the continents moved**. So **mechanism** means a process explaining how something happens.",
+     "why_wrong_id": {
+      "0": "**mechanism** memang bisa berarti alat mesin. Tapi di sini konteksnya gaya yang ngegerakin benua, bukan alat.",
+      "1": "Cara ngukur nggak dibahas. Yang dicari itu penyebab gerakannya.",
+      "3": "Kelompok ahli itu yang nolak teorinya, bukan arti kata **mechanism**."
+     },
+     "why_wrong_en": {
+      "0": "**mechanism** can mean a device, but here it's the force moving continents.",
+      "1": "Measuring isn't the issue. The cause of the movement is.",
+      "3": "The experts rejected the idea. They aren't what **mechanism** means."
+     },
+     "analogy_id": "**Mechanism** itu kayak jawaban buat pertanyaan gimana caranya. Wegener tahu benuanya gerak, tapi nggak bisa jawab gimana.",
+     "analogy_en": "**Mechanism** answers how does it work. Wegener knew the continents moved but couldn't say how.",
+     "tip_id": "Kata akademik sering dijelasin ulang pakai bahasa sederhana di kalimat yang sama paragrafnya. Cari pengulangan itu.",
+     "tip_en": "Academic words are often restated simply in the same paragraph. Look for the restatement."
+    },
+    {
+     "type": "reading",
+     "subtype": "detail",
+     "prompt": "According to paragraph 3, why did most experts reject Wegener's theory?",
+     "options": [
+      "His fossils were shown to be fake.",
+      "The coastlines of the continents did not really match.",
+      "He could not explain what force moved the continents.",
+      "He had never visited South America or Africa."
+     ],
+     "correct_index": 2,
+     "rule_tags": [
+      "R-DETAIL"
+     ],
+     "difficulty": 2,
+     "evidence_quote": "The main objection was that Wegener could not explain what mechanism could move entire continents.",
+     "why_correct_id": "Paragraf 3 nyebut **The main objection**, keberatan utamanya: Wegener nggak bisa ngejelasin mekanisme yang bisa mindahin benua. Gaya yang dia usulin juga dihitung kelemahan.",
+     "why_correct_en": "Paragraph 3 names **The main objection**: Wegener couldn't explain what moved the continents. His proposed forces were too weak.",
+     "why_wrong_id": {
+      "0": "Fosilnya nggak disebut palsu sama sekali.",
+      "1": "Teks justru bilang garis pantainya pas kayak puzzle.",
+      "3": "Perjalanan Wegener ke Amerika Selatan atau Afrika nggak dibahas."
+     },
+     "why_wrong_en": {
+      "0": "Nothing says the fossils were fake.",
+      "1": "The text says the coastlines fit like a puzzle.",
+      "3": "His travels to South America or Africa aren't discussed."
+     },
+     "analogy_id": "Kayak detektif yang punya sidik jari tapi nggak bisa jelasin gimana pelakunya masuk. Juri belum mau percaya.",
+     "analogy_en": "Like a detective with fingerprints but no idea how the thief got in. The jury isn't convinced.",
+     "tip_id": "Frasa **The main objection** atau **The main reason** itu tanda jawaban soal **why** ada di kalimat itu.",
+     "tip_en": "**The main objection** or **The main reason** flags the answer to a **why** question."
+    },
+    {
+     "type": "reading",
+     "subtype": "inference",
+     "prompt": "What can be inferred about Wegener from paragraph 4?",
+     "options": [
+      "He discovered the magnetic stripes on the ocean floor.",
+      "He changed his theory before he died.",
+      "He mapped the ocean floor in the 1950s.",
+      "He did not live to see his idea widely accepted."
+     ],
+     "correct_index": 3,
+     "rule_tags": [
+      "R-INFER"
+     ],
+     "difficulty": 3,
+     "evidence_quote": "Wegener died in 1930 during an expedition to Greenland.",
+     "why_correct_id": "Wegener meninggal tahun 1930. Teorinya baru diterima luas di akhir 1960-an, puluhan tahun kemudian. Teks nggak bilang langsung, tapi jelas dia nggak sempat lihat idenya diterima.",
+     "why_correct_en": "Wegener died in 1930. His idea was widely accepted only by the late 1960s. Not stated outright, but he never saw it accepted.",
+     "why_wrong_id": {
+      "0": "Garis magnetik ditemuin di tahun 1950-an dan 1960-an, lama setelah dia meninggal.",
+      "1": "Nggak ada info dia ngubah teorinya.",
+      "2": "Pemetaan dasar laut dilakuin ilmuwan lain, puluhan tahun setelah dia meninggal."
+     },
+     "why_wrong_en": {
+      "0": "The magnetic stripes were found in the 1950s and 1960s, long after his death.",
+      "1": "Nothing says he changed his theory.",
+      "2": "Others mapped the ocean floor decades after he died."
+     },
+     "analogy_id": "Kayak penulis yang bukunya baru laris puluhan tahun setelah dia tiada. Ceritanya sedih, tapi itu inferensi dari dua tahun di teks.",
+     "analogy_en": "Like an author whose book becomes a hit decades after they're gone. A sad story, inferred from two dates.",
+     "tip_id": "Ada dua tahun di paragraf yang sama? Bandingin. Jaraknya sering jadi kunci inferensi.",
+     "tip_en": "Two years in one paragraph? Compare them. The gap often holds the inference."
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,1173 @@
+{
+ "rumah": "r04",
+ "material_id": "Hari keempat, Hari terakhir Level Fondasi. Kita bertemu dua **kernet** yang paling cerewet: *have/has/had* dan modal. Di Listening kita melawan jebakan bunyi mirip, dan di Reading kita melacak ke mana kata ganti menunjuk.\n\n=== listening\n## Bunyi mirip vs sinonim\nPenyusun tes sering memasang pilihan yang berisi kata yang **bunyinya mirip** dengan audio (*lake-late, commute-computer, accept-expect*) atau **kata yang sama persis** tetapi maknanya lain. Jawaban benar justru biasanya memakai **sinonim** atau parafrase.\nPerumpamaan: pilihan bunyi mirip itu seperti orang yang wajahnya mirip temanmu dari jauh. Setelah didekati, ternyata orang lain.\n> Kata yang sama/mirip bunyi → curigai · Sinonim/parafrase → kemungkinan besar benar\n✓ *sharp* (foto) → *very clear*\n✓ *ran out of time* → *did not finish*\n✓ *long commute* → *spend less time traveling*\n✕ Memilih *late* karena mendengar *lake*\n✕ Memilih *sign on the door* karena mendengar *sign in*\n\n=== structure\n## Kernet have/has/had dan modal\n[[auxiliary]] *have/has/had* hanya mau ditemani [[past participle (V3)|past-participle]]: *has built, had left*. [[present perfect|present-perfect]] (*have/has* + V3) sering muncul bersama *since/for/already/so far*; [[past perfect|past-perfect]] (*had* + V3) untuk kejadian yang selesai **sebelum** kejadian lampau lain. [[modal]] (*can, should, must, might, will*) selalu diikuti V1 polos, tanpa *to*, *-s*, *-ed*, atau *-ing*.\nPerumpamaan: *have/has/had* itu kernet bus jurusan V3, sedangkan modal itu kernet bus jurusan V1. Salah naik bus, penumpangnya ditolak.\n> have/has/had + V3 · modal + V1 (tanpa to)\n✓ The city **has built** three parks since 2018.\n✓ The fire **had destroyed** the building by the time help arrived.\n✓ Visitors **can see** Saturn's rings.\n✕ The library **has retain** its style.\n✕ Students **should to read** the instructions.\n\n=== reading\n## Reference: ke mana kata ganti menunjuk?\nSoal *The word **they/it/this/those** refers to* meminta kita mencari kata benda yang diwakili. Kandidatnya biasanya ada **sebelum** kata ganti, sering di kalimat yang sama atau sebelumnya. Cocokkan jumlah (*it* tunggal, *they/those* jamak), lalu **ganti** kata ganti dengan pilihan dan baca ulang.\nPerumpamaan: kata ganti itu panah petunjuk. Ikuti panahnya ke belakang sampai bertemu benda yang masuk akal.\n> Tunggal/jamak cocok → substitusi → kalimat masih logis?\n✓ *it* → benda tunggal · *they/them/those* → benda jamak\n✓ *this/that* bisa menunjuk satu gagasan utuh dari kalimat sebelumnya\n✓ Pilih yang masuk akal secara makna, bukan yang paling dekat posisinya\n✕ Otomatis memilih kata benda terdekat\n✕ Memilih subject kalimat padahal kata ganti adalah object di clause yang sama",
+ "material_en": "Day four, the last Day of the Foundation Level. We meet the two fussiest **conductors**: *have/has/had* and modals. In Listening we fight sound-alike traps, and in Reading we track where pronouns point.\n\n=== listening\n## Sound-alikes vs synonyms\nTest writers often plant options with words that **sound like** the audio (*lake-late, commute-computer, accept-expect*) or the **exact same word** used with a different meaning. The correct answer usually uses a **synonym** or paraphrase.\nAnalogy: a sound-alike option is like someone who looks like your friend from far away. Up close, it's a stranger.\n> Same or similar-sounding word → be suspicious · Synonym/paraphrase → probably right\n✓ *sharp* (photo) → *very clear*\n✓ *ran out of time* → *did not finish*\n✓ *long commute* → *spend less time traveling*\n✕ Choosing *late* because you heard *lake*\n✕ Choosing *sign on the door* because you heard *sign in*\n\n=== structure\n## The have/has/had and modal conductors\nThe [[auxiliary]] *have/has/had* only accepts a [[past participle (V3)|past-participle]]: *has built, had left*. The [[present perfect|present-perfect]] (*have/has* + V3) often appears with *since/for/already/so far*; the [[past perfect|past-perfect]] (*had* + V3) marks an action finished **before** another past action. A [[modal]] (*can, should, must, might, will*) is always followed by a bare V1: no *to*, *-s*, *-ed*, or *-ing*.\nAnalogy: *have/has/had* is the conductor on the V3 bus; modals are the conductor on the V1 bus. Board the wrong bus and you're turned away.\n> have/has/had + V3 · modal + V1 (no to)\n✓ The city **has built** three parks since 2018.\n✓ The fire **had destroyed** the building by the time help arrived.\n✓ Visitors **can see** Saturn's rings.\n✕ The library **has retain** its style.\n✕ Students **should to read** the instructions.\n\n=== reading\n## Reference: where does the pronoun point?\n*The word **they/it/this/those** refers to* asks which noun the pronoun stands for. Candidates usually come **before** the pronoun, often in the same or previous sentence. Match number (*it* singular, *they/those* plural), then **substitute** each option and reread.\nAnalogy: a pronoun is an arrow. Follow it backwards until you reach a noun that makes sense.\n> Number matches → substitute → does the sentence still make sense?\n✓ *it* → a singular noun · *they/them/those* → a plural noun\n✓ *this/that* can point to a whole idea from the previous sentence\n✓ Choose what makes sense, not simply the closest noun\n✕ Automatically picking the nearest noun\n✕ Picking the subject when the pronoun is the object in the same clause",
+ "items": [
+  {
+   "section": "listening",
+   "part": "A",
+   "script": [
+    {
+     "speaker": "W1",
+     "text": "Did you get a chance to look at the photos from the field trip?"
+    },
+    {
+     "speaker": "M2",
+     "text": "Yes, I did. The one of the lake was really sharp."
+    }
+   ],
+   "questions": [
+    {
+     "type": "listening_short",
+     "prompt": "What does the man say about the photo of the lake?",
+     "options": [
+      "It was taken too late.",
+      "It was very clear.",
+      "It showed some sharp rocks.",
+      "He has not seen it yet."
+     ],
+     "correct_index": 1,
+     "rule_tags": [
+      "L-SOUNDALIKE",
+      "L-SECOND"
+     ],
+     "difficulty": 1,
+     "key_sentence": "The one of the lake was really sharp.",
+     "key_translation_id": "Foto danaunya sangat tajam (jelas).",
+     "why_correct_id": "Si pria jawab **Yes, I did**, jadi dia udah lihat foto-fotonya. Foto yang **sharp** artinya gambarnya tajam dan jelas. Jadi opsi yang bener pakai sinonimnya: **very clear**.",
+     "why_correct_en": "He says **Yes, I did**, so he's seen the photos. A **sharp** photo means a crisp image. The right option uses a synonym: **very clear**.",
+     "why_wrong_id": {
+      "0": "Jebakan bunyi mirip: **late** kedengeran kayak **lake**.",
+      "2": "**sharp** di sini soal gambar yang tajam, bukan batu yang tajam. Jebakan kata yang sama.",
+      "3": "Dia udah lihat kok, **Yes, I did**."
+     },
+     "why_wrong_en": {
+      "0": "Sound-alike trap: **late** sounds like **lake**.",
+      "2": "**Sharp** here is about image quality, not sharp rocks. Same-word trap.",
+      "3": "He has seen it, **Yes, I did**."
+     },
+     "analogy_id": "Opsi bunyi mirip itu kayak kembaran palsu. Dari jauh mirip, dari dekat jelas beda.",
+     "analogy_en": "A sound-alike option is a fake twin. Similar from afar, clearly different up close.",
+     "tip_id": "Denger kata kayak **lake**? Curigai opsi yang isinya **late**, **lame**, atau **lane**.",
+     "tip_en": "Heard **lake**? Be wary of options with **late**, **lame**, or **lane**."
+    }
+   ]
+  },
+  {
+   "section": "listening",
+   "part": "A",
+   "script": [
+    {
+     "speaker": "M1",
+     "text": "Where should I put these boxes of books?"
+    },
+    {
+     "speaker": "W2",
+     "text": "Just leave them by the door. I'll sort them out later."
+    }
+   ],
+   "questions": [
+    {
+     "type": "listening_short",
+     "prompt": "What does the woman tell the man to do?",
+     "options": [
+      "Put the boxes near the door.",
+      "Sort the books by color.",
+      "Store the boxes in a drawer.",
+      "Take the books to the store."
+     ],
+     "correct_index": 0,
+     "rule_tags": [
+      "L-SOUNDALIKE",
+      "L-SECOND"
+     ],
+     "difficulty": 1,
+     "key_sentence": "Just leave them by the door.",
+     "key_translation_id": "Taruh saja di dekat pintu.",
+     "why_correct_id": "Pertanyaannya, kardusnya ditaruh di mana. Si wanita jawab **leave them by the door**. **By the door** sama dengan **near the door**. Dia sendiri yang bakal nyortir nanti.",
+     "why_correct_en": "The question is where the boxes go. She says **leave them by the door**. **By the door** means **near the door**. She'll sort them herself later.",
+     "why_wrong_id": {
+      "1": "Yang nyortir nanti si wanita, bukan si pria. Warna juga nggak disebut.",
+      "2": "Jebakan bunyi mirip: **drawer** kedengeran kayak **door**.",
+      "3": "Jebakan bunyi mirip: **store** mirip **sort**. Nggak ada toko yang disebut."
+     },
+     "why_wrong_en": {
+      "1": "She'll sort them later, not him. Colour isn't mentioned.",
+      "2": "Sound-alike trap: **drawer** sounds like **door**.",
+      "3": "Sound-alike trap: **store** resembles **sort**. No store comes up."
+     },
+     "analogy_id": "**Door** dan **drawer** itu kayak dua kunci yang bentuknya mirip. Cuma satu yang pas sama lubangnya.",
+     "analogy_en": "**Door** and **drawer** are two similar keys. Only one fits the lock.",
+     "tip_id": "Jawaban bener sering pakai kata depan sinonim: **by** = **near** = **next to**.",
+     "tip_en": "Right answers often swap prepositions: **by** = **near** = **next to**."
+    }
+   ]
+  },
+  {
+   "section": "listening",
+   "part": "A",
+   "script": [
+    {
+     "speaker": "W1",
+     "text": "How was your presentation on renewable energy?"
+    },
+    {
+     "speaker": "M1",
+     "text": "Not bad, but I ran out of time before the last slide."
+    }
+   ],
+   "questions": [
+    {
+     "type": "listening_short",
+     "prompt": "What does the man mean?",
+     "options": [
+      "He was late because he ran.",
+      "He talked too much about the weather.",
+      "He did not finish his presentation.",
+      "He ran out of energy halfway through."
+     ],
+     "correct_index": 2,
+     "rule_tags": [
+      "L-SOUNDALIKE",
+      "L-SECOND"
+     ],
+     "difficulty": 1,
+     "key_sentence": "Not bad, but I ran out of time before the last slide.",
+     "key_translation_id": "Lumayan, tapi waktuku habis sebelum slide terakhir.",
+     "why_correct_id": "**ran out of time** itu ungkapan buat kehabisan waktu. Kehabisan waktu sebelum slide terakhir berarti presentasinya nggak kelar. Opsi yang bener tinggal parafrase itu.",
+     "why_correct_en": "**ran out of time** means had no time left. Running out before the last slide means he didn't finish. The right option paraphrases that.",
+     "why_wrong_id": {
+      "0": "Jebakan di kata **ran**. Dia nggak lari.",
+      "1": "Topiknya energi terbarukan, bukan cuaca.",
+      "3": "Jebakan di kata **energy** dan **ran out**. Yang habis waktunya, bukan tenaganya."
+     },
+     "why_wrong_en": {
+      "0": "A trap on **ran**. He didn't run.",
+      "1": "The topic was renewable energy, not weather.",
+      "3": "A trap on **energy** and **ran out**. He ran out of time, not energy."
+     },
+     "analogy_id": "**Run out of** itu kayak tangki bensin kosong. Yang habis bisa waktu, duit, atau kertas, tergantung kata sesudahnya.",
+     "analogy_en": "**Run out of** is an empty fuel tank. What's gone could be time, money, or paper, depending on the next word.",
+     "tip_id": "Opsi yang ngulang dua kata dari audio sekaligus, kayak **ran** dan **energy**, patut dicurigai banget.",
+     "tip_en": "An option recycling two audio words at once, like **ran** and **energy**, is very suspicious."
+    }
+   ]
+  },
+  {
+   "section": "listening",
+   "part": "A",
+   "script": [
+    {
+     "speaker": "M2",
+     "text": "Have you finished the reading for the history seminar?"
+    },
+    {
+     "speaker": "W2",
+     "text": "I've read most of it, but I still have the last chapter to go."
+    }
+   ],
+   "questions": [
+    {
+     "type": "listening_short",
+     "prompt": "What does the woman mean?",
+     "options": [
+      "She has already read all of it.",
+      "She lost the history book.",
+      "She will go to the seminar later.",
+      "She still needs to read the final chapter."
+     ],
+     "correct_index": 3,
+     "rule_tags": [
+      "L-SECOND",
+      "L-SOUNDALIKE"
+     ],
+     "difficulty": 1,
+     "key_sentence": "I've read most of it, but I still have the last chapter to go.",
+     "key_translation_id": "Aku sudah baca sebagian besar, tapi masih ada bab terakhir yang belum.",
+     "why_correct_id": "**most of it** artinya sebagian besar, bukan semuanya. **I still have the last chapter to go** artinya bab terakhir belum dibaca. **The last chapter** sama dengan **the final chapter**.",
+     "why_correct_en": "**most of it** means most, not all. **I still have the last chapter to go** means the last chapter is left. **Last** equals **final**.",
+     "why_wrong_id": {
+      "0": "**most** itu bukan **all**. Masih ada bab yang belum dibaca.",
+      "1": "Kehilangan buku nggak disebut.",
+      "2": "Jebakan di kata **go**. **To go** di sini artinya masih tersisa, bukan pergi ke seminar."
+     },
+     "why_wrong_en": {
+      "0": "**most** isn't **all**. A chapter is still left.",
+      "1": "Losing the book isn't mentioned.",
+      "2": "A trap on **go**. **To go** means still remaining, not going to the seminar."
+     },
+     "analogy_id": "**Still have … to go** itu kayak papan sisa jarak di jalan tol. Masih ada sekian kilo lagi.",
+     "analogy_en": "**Still have … to go** is a road sign showing the distance left. A few more kilometres.",
+     "tip_id": "Perhatiin kata pembatas kayak **most**, **almost**, **nearly**. Artinya BELUM semua.",
+     "tip_en": "Watch limiting words like **most**, **almost**, **nearly**. They mean NOT all."
+    }
+   ]
+  },
+  {
+   "section": "listening",
+   "part": "A",
+   "script": [
+    {
+     "speaker": "W2",
+     "text": "Can you lend me your notes from Monday's lecture?"
+    },
+    {
+     "speaker": "M1",
+     "text": "Sure, but my handwriting is hard to read. I'll type them up for you tonight."
+    }
+   ],
+   "questions": [
+    {
+     "type": "listening_short",
+     "prompt": "What will the man probably do?",
+     "options": [
+      "Copy the notes by hand again.",
+      "Lend her his laptop.",
+      "Type his notes this evening.",
+      "Buy her a new notebook."
+     ],
+     "correct_index": 2,
+     "rule_tags": [
+      "L-SECOND"
+     ],
+     "difficulty": 1,
+     "key_sentence": "I'll type them up for you tonight.",
+     "key_translation_id": "Nanti malam aku ketik catatannya untukmu.",
+     "why_correct_id": "Soal **What will … do?** langsung cari **I'll**. **I'll type them up for you tonight** artinya dia bakal ngetik catatannya malam ini. **Tonight** sama dengan **this evening**.",
+     "why_correct_en": "**What will … do?** Look for **I'll**. **I'll type them up for you tonight** means he'll type the notes tonight. **Tonight** equals **this evening**.",
+     "why_wrong_id": {
+      "0": "Jebakan di kata **handwriting**. Dia justru nggak mau nulis tangan karena tulisannya susah dibaca.",
+      "1": "Dia minjemin catatan, bukan laptop.",
+      "3": "Beli buku catatan nggak disebut."
+     },
+     "why_wrong_en": {
+      "0": "A trap on **handwriting**. He won't handwrite because it's hard to read.",
+      "1": "He's lending notes, not a laptop.",
+      "3": "Buying a notebook isn't mentioned."
+     },
+     "analogy_id": "**Type up** itu kayak mindahin tulisan cakar ayam jadi huruf cetak yang rapi.",
+     "analogy_en": "**Type up** is turning messy handwriting into neat print.",
+     "tip_id": "**I'll + kata kerja** di kalimat kedua itu jawaban buat soal **What will he probably do?**.",
+     "tip_en": "**I'll + verb** in the second line answers **What will he probably do?**."
+    }
+   ]
+  },
+  {
+   "section": "listening",
+   "part": "A",
+   "script": [
+    {
+     "speaker": "M2",
+     "text": "Is the chemistry lab open this afternoon?"
+    },
+    {
+     "speaker": "W1",
+     "text": "It is, but you'll need to sign in at the front desk first."
+    }
+   ],
+   "questions": [
+    {
+     "type": "listening_short",
+     "prompt": "What does the woman mean?",
+     "options": [
+      "The lab is closed this afternoon.",
+      "The man must register at the desk before using the lab.",
+      "There is a sign on the lab door.",
+      "The front desk is inside the lab."
+     ],
+     "correct_index": 1,
+     "rule_tags": [
+      "L-SOUNDALIKE",
+      "L-SECOND"
+     ],
+     "difficulty": 2,
+     "key_sentence": "It is, but you'll need to sign in at the front desk first.",
+     "key_translation_id": "Buka, tapi kamu harus mengisi daftar hadir di meja depan dulu.",
+     "why_correct_id": "**It is** artinya lab-nya buka. **sign in** artinya nyatet nama alias registrasi. **first** nunjukin itu dilakuin sebelum masuk lab. **Register** itu sinonim **sign in**.",
+     "why_correct_en": "**It is** means the lab is open. **sign in** means registering your name. **first** means before going in. **Register** is a synonym of **sign in**.",
+     "why_wrong_id": {
+      "0": "Kebalikannya. **It is** artinya lab-nya buka.",
+      "2": "Jebakan di kata **sign**. **sign in** itu registrasi, bukan papan tanda.",
+      "3": "Meja depan itu tempat registrasi sebelum masuk, bukan di dalam lab."
+     },
+     "why_wrong_en": {
+      "0": "The opposite. **It is** means it's open.",
+      "2": "A trap on **sign**. **sign in** means register, not a notice.",
+      "3": "The front desk is where you register before going in, not inside the lab."
+     },
+     "analogy_id": "**Sign in** itu kayak absen sebelum masuk kelas. Bukan papan nama yang digantung di pintu.",
+     "analogy_en": "**Sign in** is taking attendance before class, not a nameplate on the door.",
+     "tip_id": "Phrasal verb kayak **sign in**, **check out**, **fill out** punya makna khusus. Jangan pilih arti kata tunggalnya.",
+     "tip_en": "Phrasal verbs like **sign in**, **check out**, **fill out** have special meanings. Don't pick the single word's meaning."
+    }
+   ]
+  },
+  {
+   "section": "listening",
+   "part": "A",
+   "script": [
+    {
+     "speaker": "W1",
+     "text": "I heard you're moving to an apartment closer to campus."
+    },
+    {
+     "speaker": "M2",
+     "text": "That's right. I'm tired of the long commute."
+    }
+   ],
+   "questions": [
+    {
+     "type": "listening_short",
+     "prompt": "What does the man mean?",
+     "options": [
+      "He is tired after a long walk.",
+      "He will live farther from campus.",
+      "He is moving his computer.",
+      "He wants to spend less time traveling."
+     ],
+     "correct_index": 3,
+     "rule_tags": [
+      "L-SOUNDALIKE",
+      "L-INFER"
+     ],
+     "difficulty": 2,
+     "key_sentence": "I'm tired of the long commute.",
+     "key_translation_id": "Aku lelah dengan perjalanan pulang-pergi yang jauh.",
+     "why_correct_id": "**commute** itu perjalanan rutin ke kampus atau kantor. Dia capek karena perjalanannya jauh, jadi pindah lebih dekat ke kampus biar waktu perjalanannya lebih singkat. Opsi yang bener ngeparafrase maksud ini.",
+     "why_correct_en": "A **commute** is the regular trip to campus or work. He's fed up with a long one, so he's moving closer to travel less. The right option paraphrases that.",
+     "why_wrong_id": {
+      "0": "Jebakan di kata **tired**. **Tired of** artinya bosen sama sesuatu, bukan capek habis jalan kaki.",
+      "1": "Kebalikannya. Dia pindah LEBIH DEKAT ke kampus.",
+      "2": "Jebakan bunyi mirip: **computer** mirip **commute**."
+     },
+     "why_wrong_en": {
+      "0": "A trap on **tired**. **Tired of** means fed up with something, not tired after a walk.",
+      "1": "The opposite. He's moving CLOSER to campus.",
+      "2": "Sound-alike trap: **computer** resembles **commute**."
+     },
+     "analogy_id": "**Commute** dan **computer** itu kayak dua nama yang awalannya sama, Com…, tapi orangnya beda.",
+     "analogy_en": "**Commute** and **computer** are two names that start the same, Com…, but belong to different people.",
+     "tip_id": "**Tired of + kata benda** artinya bosen sama. **Tired from** artinya capek gara-gara. Dengerin kata depannya.",
+     "tip_en": "**Tired of + noun** means fed up with. **Tired from** means worn out by. Listen to the preposition."
+    }
+   ]
+  },
+  {
+   "section": "listening",
+   "part": "A",
+   "script": [
+    {
+     "speaker": "M1",
+     "text": "Did the professor accept your proposal for the research project?"
+    },
+    {
+     "speaker": "W2",
+     "text": "Not yet. She wants me to narrow the topic first."
+    }
+   ],
+   "questions": [
+    {
+     "type": "listening_short",
+     "prompt": "What does the woman mean?",
+     "options": [
+      "Her proposal has already been accepted.",
+      "She needs to make her topic more specific.",
+      "The professor wants a longer proposal.",
+      "She expects to change professors."
+     ],
+     "correct_index": 1,
+     "rule_tags": [
+      "L-SOUNDALIKE",
+      "L-SECOND"
+     ],
+     "difficulty": 2,
+     "key_sentence": "Not yet. She wants me to narrow the topic first.",
+     "key_translation_id": "Belum. Beliau ingin aku mempersempit topiknya dulu.",
+     "why_correct_id": "**Not yet** artinya proposalnya belum diterima. **narrow the topic** artinya mempersempit topik, alias bikin lebih spesifik. Itu parafrase di opsi yang bener.",
+     "why_correct_en": "**Not yet** means not accepted yet. **narrow the topic** means make it more specific. That's the paraphrase in the right option.",
+     "why_wrong_id": {
+      "0": "Kebalikan dari **Not yet**.",
+      "2": "Mempersempit topik biasanya bikin proposal lebih fokus, bukan lebih panjang.",
+      "3": "Jebakan bunyi mirip: **expects** kedengeran kayak **accept**. Ganti dosen nggak disebut."
+     },
+     "why_wrong_en": {
+      "0": "The opposite of **Not yet**.",
+      "2": "Narrowing a topic makes it more focused, not longer.",
+      "3": "Sound-alike trap: **expects** resembles **accept**. Changing professors isn't mentioned."
+     },
+     "analogy_id": "**Narrow the topic** itu kayak nge-zoom kamera. Dari satu kota jadi satu jalan aja.",
+     "analogy_en": "**Narrow the topic** is zooming the camera in. From a whole city to one street.",
+     "tip_id": "**accept**, **except**, **expect** sering dituker-tuker di opsi. Dengerin suku kata pertamanya.",
+     "tip_en": "**accept**, **except**, **expect** often get swapped in options. Listen to the first syllable."
+    }
+   ]
+  },
+  {
+   "section": "listening",
+   "part": "A",
+   "script": [
+    {
+     "speaker": "W2",
+     "text": "This coffee machine never seems to work properly."
+    },
+    {
+     "speaker": "M2",
+     "text": "Try pressing the button twice. That usually does the trick."
+    }
+   ],
+   "questions": [
+    {
+     "type": "listening_short",
+     "prompt": "What does the man suggest?",
+     "options": [
+      "Buying coffee somewhere else.",
+      "Calling a repair truck.",
+      "Pressing a different button for tea.",
+      "Pressing the button two times."
+     ],
+     "correct_index": 3,
+     "rule_tags": [
+      "L-SUGGEST",
+      "L-SOUNDALIKE"
+     ],
+     "difficulty": 1,
+     "key_sentence": "Try pressing the button twice.",
+     "key_translation_id": "Coba tekan tombolnya dua kali.",
+     "why_correct_id": "**Try …ing** itu bentuk saran. **pressing the button twice** artinya mencet tombolnya dua kali. **Twice** sama dengan **two times**. Terus **That usually does the trick** artinya cara itu biasanya berhasil.",
+     "why_correct_en": "**Try …ing** is a suggestion. **pressing the button twice** means two presses. **Twice** equals **two times**. **That usually does the trick** means it usually works.",
+     "why_wrong_id": {
+      "0": "Beli kopi di tempat lain nggak disaranin.",
+      "1": "Jebakan bunyi mirip: **truck** mirip **trick**.",
+      "2": "Nggak ada tombol lain atau teh yang disebut."
+     },
+     "why_wrong_en": {
+      "0": "Buying coffee elsewhere isn't suggested.",
+      "1": "Sound-alike trap: **truck** resembles **trick**.",
+      "2": "No other button or tea is mentioned."
+     },
+     "analogy_id": "**Does the trick** itu kayak kunci serep yang selalu bisa buka pintu macet.",
+     "analogy_en": "**Does the trick** is a spare key that always opens a stuck door.",
+     "tip_id": "**Twice** = **two times**, **once** = **one time**. Jawaban bener sering nulis angka dengan cara beda.",
+     "tip_en": "**Twice** = **two times**, **once** = **one time**. Right answers often say numbers differently."
+    }
+   ]
+  },
+  {
+   "section": "listening",
+   "part": "A",
+   "script": [
+    {
+     "speaker": "M2",
+     "text": "Did you see the notice about the library's new hours?"
+    },
+    {
+     "speaker": "W2",
+     "text": "I did. It's a shame they cut the weekend hours in half."
+    }
+   ],
+   "questions": [
+    {
+     "type": "listening_short",
+     "prompt": "What does the woman mean?",
+     "options": [
+      "The library will be open less on weekends.",
+      "She is ashamed of the library.",
+      "The library notice was torn in half.",
+      "The library will close on weekdays."
+     ],
+     "correct_index": 0,
+     "rule_tags": [
+      "L-SOUNDALIKE",
+      "L-INFER"
+     ],
+     "difficulty": 3,
+     "key_sentence": "It's a shame they cut the weekend hours in half.",
+     "key_translation_id": "Sayang sekali jam buka akhir pekan dipotong setengahnya.",
+     "why_correct_id": "**It's a shame** artinya sayang banget, bukan malu. **cut the weekend hours in half** artinya jam buka akhir pekan dipotong setengah. Jadi perpustakaan buka lebih singkat pas akhir pekan, dan si wanita nyayangin itu.",
+     "why_correct_en": "**It's a shame** means that's too bad, not embarrassment. **cut the weekend hours in half** means weekend hours were halved. So the library is open less on weekends, which she regrets.",
+     "why_wrong_id": {
+      "1": "Jebakan di kata **shame**. **It's a shame** artinya sayang banget, bukan malu.",
+      "2": "Jebakan di **cut … in half**. Yang dipotong jam bukanya, bukan kertas pengumuman.",
+      "3": "Yang berubah jam akhir pekan, bukan hari kerja."
+     },
+     "why_wrong_en": {
+      "1": "A trap on **shame**. **It's a shame** means too bad, not ashamed.",
+      "2": "A trap on **cut … in half**. The hours were cut, not the notice.",
+      "3": "Weekend hours changed, not weekdays."
+     },
+     "analogy_id": "**Cut in half** di sini kayak motong durasi film jadi setengah. Yang dipotong waktunya, bukan pitanya.",
+     "analogy_en": "**Cut in half** here is like cutting a film's running time. The time is cut, not the reel.",
+     "tip_id": "Satu opsi bisa pasang DUA jebakan sekaligus, kayak **shame/ashamed** dan **cut/torn**. Pilih yang ngeparafrase maknanya, bukan katanya.",
+     "tip_en": "One option can stack TWO traps, like **shame/ashamed** and **cut/torn**. Pick the one that paraphrases the meaning, not the words."
+    }
+   ]
+  },
+  {
+   "section": "structure",
+   "type": "structure_completion",
+   "prompt": "Since the new bridge opened, traffic in the city center ______ considerably.",
+   "options": [
+    "has decreased",
+    "decreases",
+    "decreasing",
+    "will decreased"
+   ],
+   "correct_index": 0,
+   "rule_tags": [
+    "S-PERFECT-V3",
+    "S-TENSE"
+   ],
+   "difficulty": 1,
+   "why_correct_id": "**Since …** nunjukin perubahan dari satu titik di masa lalu sampai sekarang, jadi pakai [[present perfect|present-perfect]]. Pelakunya **traffic**, tunggal, jadi has + V3: **has decreased**.",
+   "why_correct_en": "**Since …** shows a change from a past point until now, so use the present perfect. **traffic** is singular, so has + V3: **has decreased**.",
+   "why_wrong_id": {
+    "1": "**decreases** itu simple present buat kebiasaan. Nggak cocok sama **since**.",
+    "2": "**decreasing** tanpa auxiliary (kata kerja bantu) bukan kata kerja utama.",
+    "3": "**will decreased** salah. Habis **will** harus V1, dan **since** nggak dipakai buat masa depan."
+   },
+   "why_wrong_en": {
+    "1": "**decreases** is a simple present habit. It doesn't fit **since**.",
+    "2": "**decreasing** with no helper verb isn't a main verb.",
+    "3": "**will decreased** is wrong. **will** needs V1, and **since** doesn't go with the future."
+   },
+   "analogy_id": "**Since** itu kayak meteran yang ditarik dari satu titik di masa lalu sampai hari ini. Pakai present perfect.",
+   "analogy_en": "**Since** is a tape measure stretched from a past point to today. Present perfect.",
+   "tip_id": "Lihat **since** atau **for + durasi** sampai sekarang? Pilih have/has + V3.",
+   "tip_en": "See **since** or **for + duration** up to now? Choose have/has + V3."
+  },
+  {
+   "section": "structure",
+   "type": "structure_completion",
+   "prompt": "Students ______ submit their assignments before midnight on Friday.",
+   "options": [
+    "must to",
+    "musting",
+    "are must",
+    "must"
+   ],
+   "correct_index": 3,
+   "rule_tags": [
+    "S-MODAL"
+   ],
+   "difficulty": 1,
+   "why_correct_id": "Kalimatnya butuh kata kerja yang nyatain kewajiban. [[modal]] **must** langsung diikutin V1 tanpa **to**: **must** submit.",
+   "why_correct_en": "The sentence needs a verb of obligation. The modal **must** is followed directly by V1, no **to**: **must** submit.",
+   "why_wrong_id": {
+    "0": "Modal nggak pakai **to** sesudahnya. **Must to submit** salah.",
+    "1": "Modal nggak punya bentuk -ing.",
+    "2": "Modal nggak didahuluin **are**. **Are must** nggak ada di bahasa Inggris."
+   },
+   "why_wrong_en": {
+    "0": "Modals don't take **to**. **Must to submit** is wrong.",
+    "1": "Modals have no -ing form.",
+    "2": "Modals aren't preceded by **are**. **Are must** doesn't exist."
+   },
+   "analogy_id": "Modal itu kernet yang galak. Cuma ngizinin V1 polos naik: tanpa tas **to**, tanpa topi -s, tanpa jaket -ing.",
+   "analogy_en": "A modal is a strict conductor. Only a bare V1 boards: no **to** bag, no -s hat, no -ing jacket.",
+   "tip_id": "Modal nggak pernah ganti bentuk dan nggak pernah diikutin **to**.",
+   "tip_en": "Modals never change form and never take **to**."
+  },
+  {
+   "section": "structure",
+   "type": "structure_completion",
+   "prompt": "By the time the firefighters arrived, the fire ______ most of the building.",
+   "options": [
+    "has destroyed",
+    "destroys",
+    "had destroyed",
+    "had destroy"
+   ],
+   "correct_index": 2,
+   "rule_tags": [
+    "S-PERFECT-V3",
+    "S-TENSE"
+   ],
+   "difficulty": 2,
+   "why_correct_id": "**By the time the firefighters arrived** itu kejadian lampau. Apinya ngancurin gedung SEBELUM pemadam datang, jadi butuh [[past perfect|past-perfect]]. Had + V3 jadinya **had destroyed**.",
+   "why_correct_en": "**By the time the firefighters arrived** is a past event. The fire destroyed the building BEFORE they came, so use the past perfect: **had destroyed**.",
+   "why_wrong_id": {
+    "0": "**has destroyed** itu present perfect, nyambung sampai sekarang. Padahal patokannya kejadian lampau, **arrived**.",
+    "1": "**destroys** itu present. Nggak cocok buat cerita lampau.",
+    "3": "**had destroy** bentuknya salah. Habis **had** harus V3, **destroyed**."
+   },
+   "why_wrong_en": {
+    "0": "**has destroyed** is present perfect, up to now, but the reference point is past: **arrived**.",
+    "1": "**destroys** is present. It doesn't fit a past story.",
+    "3": "**had destroy** is malformed. **had** needs V3, **destroyed**."
+   },
+   "analogy_id": "Past perfect itu kayak nyampe stasiun dan keretanya UDAH berangkat. Dua kejadian lampau, yang satu duluan.",
+   "analogy_en": "The past perfect is reaching the station after the train HAD left. Two past events, one earlier.",
+   "tip_id": "**By the time + V2**? Clause induknya biasanya had + V3.",
+   "tip_en": "**By the time + past tense**? The main clause usually takes had + V3."
+  },
+  {
+   "section": "structure",
+   "type": "structure_completion",
+   "prompt": "Visitors to the observatory can ______ the rings of Saturn on clear nights.",
+   "options": [
+    "seeing",
+    "saw",
+    "to see",
+    "see"
+   ],
+   "correct_index": 3,
+   "rule_tags": [
+    "S-MODAL"
+   ],
+   "difficulty": 1,
+   "why_correct_id": "Ada [[modal]] **can** sebelum rumpang. Habis modal selalu V1 polos: **see**.",
+   "why_correct_en": "The modal **can** comes before the blank. A modal is always followed by a bare V1: **see**.",
+   "why_wrong_id": {
+    "0": "**seeing** (V-ing) nggak boleh setelah modal.",
+    "1": "**saw** (V2) nggak boleh setelah modal.",
+    "2": "**to see** pakai **to**. Modal nggak diikutin **to**."
+   },
+   "why_wrong_en": {
+    "0": "**seeing** can't follow a modal.",
+    "1": "**saw** (V2) can't follow a modal.",
+    "2": "**to see** has **to**, and modals don't take **to**."
+   },
+   "analogy_id": "Modal itu pintu khusus V1. Bentuk lain nggak punya kartu aksesnya.",
+   "analogy_en": "A modal is a V1-only door. Other forms don't have the key card.",
+   "tip_id": "Begitu lihat **can**, **could**, **will**, **would**, **should**, **may**, **might**, atau **must**, langsung cari V1.",
+   "tip_en": "As soon as you see **can**, **could**, **will**, **would**, **should**, **may**, **might**, or **must**, look for V1."
+  },
+  {
+   "section": "structure",
+   "type": "structure_error",
+   "prompt": "The city {A}has{/A} {B}build{/B} three new {C}parks{/C} {D}since{/D} 2018.",
+   "options": [
+    "has",
+    "build",
+    "parks",
+    "since"
+   ],
+   "correct_index": 1,
+   "rule_tags": [
+    "S-PERFECT-V3"
+   ],
+   "difficulty": 1,
+   "why_correct_id": "[[auxiliary]] **has** harus diikutin [[past participle (V3)|past-participle]]. V3 dari **build** itu **built**. Jadi **has build** harus jadi **has built**.",
+   "why_correct_en": "The helper **has** must be followed by V3. The V3 of **build** is **built**. So **has build** should be **has built**.",
+   "why_wrong_id": {
+    "0": "**has** itu tunggal, cocok sama **The city**.",
+    "2": "**three new parks** jamak. Aman.",
+    "3": "**since 2018** cocok sama present perfect."
+   },
+   "why_wrong_en": {
+    "0": "**has** is singular, matching **The city**.",
+    "2": "**three new parks** is a fine plural.",
+    "3": "**since 2018** fits the present perfect."
+   },
+   "analogy_id": "**Has** itu kernet bus jurusan V3. **Build** masih pakai seragam V1, jadi nggak boleh naik.",
+   "analogy_en": "**Has** is the V3 bus conductor. **Build** is still in its V1 uniform, so it can't board.",
+   "tip_id": "Tiap lihat **have**, **has**, atau **had**, cek kata kerja sesudahnya. Udah V3 belum?",
+   "tip_en": "Every time you see **have**, **has**, or **had**, check the next verb. Is it V3?"
+  },
+  {
+   "section": "structure",
+   "type": "structure_error",
+   "prompt": "Before the exam, students {A}should{/A} read the instructions carefully and {B}must{/B} not {C}to{/C} use their {D}phones{/D}.",
+   "options": [
+    "should",
+    "must",
+    "to",
+    "phones"
+   ],
+   "correct_index": 2,
+   "rule_tags": [
+    "S-MODAL"
+   ],
+   "difficulty": 1,
+   "why_correct_id": "[[modal]] **must not** langsung diikutin V1. Jadi **to** di antara **must not** dan **use** harus dibuang: **must not use**.",
+   "why_correct_en": "The modal **must not** is followed directly by V1. The **to** between **must not** and **use** has to go: **must not use**.",
+   "why_wrong_id": {
+    "0": "**should read** itu modal + V1 yang aman.",
+    "1": "**must not** itu bentuk larangan yang aman.",
+    "3": "**their phones** jamak, cocok sama **students**."
+   },
+   "why_wrong_en": {
+    "0": "**should read** is a fine modal + V1.",
+    "1": "**must not** is a fine prohibition.",
+    "3": "**their phones** is plural, matching **students**."
+   },
+   "analogy_id": "**To** setelah modal itu kayak penumpang gelap. Nggak punya tiket, harus diturunin.",
+   "analogy_en": "**To** after a modal is a stowaway with no ticket. Off it goes.",
+   "tip_id": "Yang mirip modal tapi pakai **to**: **have to**, **ought to**, **need to**. Modal asli nggak.",
+   "tip_en": "Look-alikes that DO take **to**: **have to**, **ought to**, **need to**. True modals don't."
+  },
+  {
+   "section": "structure",
+   "type": "structure_error",
+   "prompt": "Although {A}numerous{/A} renovations were made, the old library {B}has retain{/B} its {C}classically{/C} simple {D}style{/D}.",
+   "options": [
+    "numerous",
+    "has retain",
+    "classically",
+    "style"
+   ],
+   "correct_index": 1,
+   "rule_tags": [
+    "S-PERFECT-V3"
+   ],
+   "difficulty": 1,
+   "why_correct_id": "Cari dulu pelakunya: **the old library**. Terus cari kata kerjanya: **has retain**. Nah, ini biang keroknya. Habis **has**, kata kerjanya harus bentuk ketiga (V3). Jadi yang bener **has retained**.",
+   "why_correct_en": "Find the subject first: **the old library**. Then the verb: **has retain**. That's the culprit. After **has**, the verb has to be V3. So it should be **has retained**.",
+   "why_wrong_id": {
+    "0": "**numerous** itu adjective (kata sifat) yang nemenin **renovations**. Aman, nggak ada yang salah.",
+    "2": "**classically** itu adverb (kata keterangan) yang nemenin **simple**. Ini juga aman.",
+    "3": "**style** itu kata benda setelah kata sifat **simple**. Pasangannya pas."
+   },
+   "why_wrong_en": {
+    "0": "**numerous** is an adjective going with **renovations**. Nothing wrong there.",
+    "2": "**classically** is an adverb going with **simple**. Also fine.",
+    "3": "**style** is a noun after the adjective **simple**. Good pair."
+   },
+   "analogy_id": "Anggap aja **has** itu kernet yang cuma mau naik bus jurusan V3. Kata kerjanya masih V1? Ya ditolak, nggak boleh naik.",
+   "analogy_en": "Think of **has** as a conductor who only rides the V3 bus. Verb still in V1? Rejected, no boarding.",
+   "tip_id": "Tiap ketemu **has**, **have**, atau **had**, langsung lirik kata kerja sesudahnya. Udah V3 belum?",
+   "tip_en": "Every time you spot **has**, **have**, or **had**, glance at the next verb. Is it V3 yet?"
+  },
+  {
+   "section": "structure",
+   "type": "structure_error",
+   "prompt": "Dr. Santos {A}has worked{/A} at the hospital {B}for{/B} ten years before she {C}moved{/C} to {D}Jakarta{/D}.",
+   "options": [
+    "has worked",
+    "for",
+    "moved",
+    "Jakarta"
+   ],
+   "correct_index": 0,
+   "rule_tags": [
+    "S-PERFECT-V3",
+    "S-TENSE"
+   ],
+   "difficulty": 3,
+   "why_correct_id": "**before she moved** (V2) jadi patokan di masa lalu. Kerja sepuluh tahun itu kejadian SEBELUM pindah, jadi butuh [[past perfect|past-perfect]], bukan present perfect. **has worked** harus jadi **had worked**.",
+   "why_correct_en": "**before she moved** (V2) sets a past reference point. The ten years happened BEFORE the move, so it needs the past perfect, not the present perfect: **had worked**.",
+   "why_wrong_id": {
+    "1": "**for ten years** itu keterangan durasi yang aman.",
+    "2": "**moved** (V2) pas buat kejadian lampau yang jadi patokan.",
+    "3": "Nama kota aman sebagai tujuan setelah **to**."
+   },
+   "why_wrong_en": {
+    "1": "**for ten years** is a fine duration phrase.",
+    "2": "**moved** (V2) fits the past reference event.",
+    "3": "The city name is fine after **to**."
+   },
+   "analogy_id": "Present perfect itu kabel yang nyambung sampai hari ini. Dia udah pindah, jadi kabelnya putus di masa lalu. Pakai **had**.",
+   "analogy_en": "The present perfect is a cable plugged into today. She has moved away, so the cable ends in the past. Use **had**.",
+   "tip_id": "Ada **before**, **after**, atau **when + V2** di kalimat? Present perfect di clause lain hampir pasti salah.",
+   "tip_en": "See **before**, **after**, or **when + V2**? A present perfect in the other clause is almost certainly wrong."
+  },
+  {
+   "section": "structure",
+   "type": "structure_error",
+   "prompt": "Because of the heavy {A}rain{/A}, the museum {B}might{/B} close early, so we {C}should{/C} {D}leaving{/D} now.",
+   "options": [
+    "rain",
+    "might",
+    "should",
+    "leaving"
+   ],
+   "correct_index": 3,
+   "rule_tags": [
+    "S-MODAL"
+   ],
+   "difficulty": 2,
+   "why_correct_id": "[[modal]] **should** harus diikutin V1. Jadi **leaving** (V-ing) harus jadi **leave**.",
+   "why_correct_en": "The modal **should** must be followed by V1. So **leaving** should be **leave**.",
+   "why_wrong_id": {
+    "0": "**heavy rain** itu frasa benda yang aman.",
+    "1": "**might close** itu modal + V1 yang aman.",
+    "2": "**should** pas buat ngasih saran."
+   },
+   "why_wrong_en": {
+    "0": "**heavy rain** is a fine noun phrase.",
+    "1": "**might close** is a fine modal + V1.",
+    "2": "**should** works for advice."
+   },
+   "analogy_id": "Di kalimat ini ada dua modal. Tiap kernet ngecek penumpangnya sendiri: **might close** lolos, **should leaving** ditolak.",
+   "analogy_en": "Two modals here. Each conductor checks its own passenger: **might close** gets on, **should leaving** doesn't.",
+   "tip_id": "Ada lebih dari satu modal? Cek kata kerja setelah TIAP modal.",
+   "tip_en": "More than one modal? Check the verb after EACH one."
+  },
+  {
+   "section": "structure",
+   "type": "structure_error",
+   "prompt": "Several {A}species{/A} of birds {B}have{/B} {C}disappear{/C} from the island {D}since{/D} the forest was cleared.",
+   "options": [
+    "species",
+    "have",
+    "disappear",
+    "since"
+   ],
+   "correct_index": 2,
+   "rule_tags": [
+    "S-PERFECT-V3"
+   ],
+   "difficulty": 2,
+   "why_correct_id": "Pelakunya **Several species**, jamak, jadi **have** udah pas. Tapi habis **have** harus [[past participle (V3)|past-participle]]: **disappear** jadi **disappeared**.",
+   "why_correct_en": "**Several species** is plural, so **have** is right. But **have** needs V3: **disappear** becomes **disappeared**.",
+   "why_wrong_id": {
+    "0": "**species** bentuk tunggal dan jamaknya sama. Di sini jamak karena ada **Several**.",
+    "1": "**have** jamak, cocok sama **Several species**.",
+    "3": "**since** cocok sama present perfect."
+   },
+   "why_wrong_en": {
+    "0": "**species** is the same in singular and plural. **Several** makes it plural.",
+    "1": "Plural **have** matches **Several species**.",
+    "3": "**since** fits the present perfect."
+   },
+   "analogy_id": "Kernet **have** udah naik bus yang bener, tapi penumpangnya, **disappear**, belum ganti seragam V3.",
+   "analogy_en": "The **have** conductor is on the right bus, but the passenger, **disappear**, hasn't changed into the V3 uniform.",
+   "tip_id": "**species**, **series**, **means** bentuknya sama buat tunggal dan jamak. Lihat kata penentunya.",
+   "tip_en": "**species**, **series**, **means** look the same in singular and plural. Check the word before them."
+  },
+  {
+   "section": "reading",
+   "title": "The Long Journey of Migrating Birds",
+   "body": "Every autumn, billions of birds leave their summer homes and fly hundreds or even thousands of kilometers to warmer regions. For centuries, people wondered where the birds went. Some early writers believed that swallows slept at the bottom of ponds during the winter, while others thought **they** simply changed into different species.\n\nToday, scientists know that migration is driven mainly by food. In winter, insects disappear and plants stop producing seeds in cold regions, so birds must move to places where food is still available. When spring returns, the northern regions offer long days and a sudden supply of insects. **This** makes them ideal places to raise young birds.\n\nHow birds find their way is a more difficult question. Research shows that they use several tools at once. Many species follow the position of the sun during the day. Others, especially those that fly at night, rely on the stars. In laboratory experiments, young birds raised under an artificial sky learned to use whatever star pattern turned around the center of **it**, which suggests that they learn the night sky rather than being born with a map of it.\n\nBirds also appear to sense Earth's magnetic field. Scientists believe that special cells in **their** eyes allow them to detect magnetic lines, giving them a kind of internal compass. Familiar landmarks, such as coastlines and mountain ranges, help as well, especially near the end of a journey.\n\nMigration is dangerous. Storms, predators, and exhaustion kill many birds along the way, and bright lights on tall buildings can confuse **those** that travel at night. For this reason, some cities now dim their lights during the busiest migration seasons.",
+   "questions": [
+    {
+     "type": "reading",
+     "subtype": "reference",
+     "prompt": "The word **they** in paragraph 1 refers to",
+     "options": [
+      "early writers",
+      "swallows",
+      "ponds",
+      "species"
+     ],
+     "correct_index": 1,
+     "rule_tags": [
+      "R-REF"
+     ],
+     "difficulty": 1,
+     "evidence_quote": "Some early writers believed that swallows slept at the bottom of ponds during the winter, while others thought they simply changed into different species.",
+     "why_correct_id": "**they** itu jamak. Calonnya **early writers**, **swallows**, dan **ponds**. Coba ganti: **others thought swallows simply changed into different species**. Yang berubah wujud itu burung layang-layang, bukan penulis atau kolam.",
+     "why_correct_en": "**they** is plural. Candidates: **early writers**, **swallows**, **ponds**. Swap in: **others thought swallows simply changed into different species**. The birds change, not the writers or ponds.",
+     "why_wrong_id": {
+      "0": "**others**, penulis lain, itu yang mikir. **they** itu yang dipikir berubah. Kalau **they** = penulis, artinya jadi aneh.",
+      "2": "Kolam nggak mungkin berubah jadi spesies lain.",
+      "3": "**species** muncul SETELAH **they** sebagai hasil perubahannya, bukan yang berubah."
+     },
+     "why_wrong_en": {
+      "0": "**others**, other writers, do the thinking. **they** is what changes. Writers changing species makes no sense.",
+      "2": "Ponds can't turn into another species.",
+      "3": "**species** comes AFTER **they** as the result, not the thing changing."
+     },
+     "analogy_id": "Pronoun (kata ganti) itu kayak panah yang nunjuk ke belakang. Panah ini ngelewatin **writers** dan berhenti di **swallows**, satu-satunya yang masuk akal.",
+     "analogy_en": "A pronoun is an arrow pointing back. This one passes **writers** and lands on **swallows**, the only sensible target.",
+     "tip_id": "Jangan otomatis milih pelaku terdekat. Uji tiap calon pakai substitusi.",
+     "tip_en": "Don't just grab the nearest subject. Test each candidate by swapping it in."
+    },
+    {
+     "type": "reading",
+     "subtype": "reference",
+     "prompt": "The word **This** in paragraph 2 refers to",
+     "options": [
+      "the return of spring",
+      "the winter",
+      "the long days and sudden supply of insects",
+      "raising young birds"
+     ],
+     "correct_index": 2,
+     "rule_tags": [
+      "R-REF"
+     ],
+     "difficulty": 2,
+     "evidence_quote": "When spring returns, the northern regions offer long days and a sudden supply of insects. This makes them ideal places to raise young birds.",
+     "why_correct_id": "**This** di awal kalimat sering nunjuk ke gagasan di kalimat sebelumnya. Apa yang bikin wilayah utara ideal buat ngebesarin anak burung? Siang yang panjang dan serangga yang melimpah. Jadi **This** = **the long days and sudden supply of insects**.",
+     "why_correct_en": "**This** at the start of a sentence often points to the previous sentence's idea. What makes the north ideal for raising young? Long days and plenty of insects. So **This** = **the long days and sudden supply of insects**.",
+     "why_wrong_id": {
+      "0": "Datangnya musim semi cuma soal waktu. Yang bikin wilayahnya ideal itu apa yang ditawarin.",
+      "1": "Musim dingin justru bikin burung pergi, di paragraf yang sama.",
+      "3": "Ngebesarin anak burung itu tujuannya, bukan alasan wilayahnya ideal."
+     },
+     "why_wrong_en": {
+      "0": "Spring's return is just timing. What makes the region ideal is what it offers.",
+      "1": "Winter makes birds leave, in the same paragraph.",
+      "3": "Raising young birds is the goal, not why the region is ideal."
+     },
+     "analogy_id": "**This** itu kayak jari yang nunjuk ke seluruh tumpukan barang di meja sebelumnya, bukan satu barang aja.",
+     "analogy_en": "**This** is a finger pointing at the whole pile on the previous table, not one item.",
+     "tip_id": "**This** atau **That** di awal kalimat? Rangkum kalimat sebelumnya. Pilih opsi yang paling lengkap ngerangkumnya.",
+     "tip_en": "Sentence-initial **This** or **That**? Sum up the previous sentence. Pick the option that captures it best."
+    },
+    {
+     "type": "reading",
+     "subtype": "reference",
+     "prompt": "The word **it** in paragraph 3 refers to",
+     "options": [
+      "the center",
+      "the laboratory",
+      "the star pattern",
+      "the artificial sky"
+     ],
+     "correct_index": 3,
+     "rule_tags": [
+      "R-REF"
+     ],
+     "difficulty": 2,
+     "evidence_quote": "young birds raised under an artificial sky learned to use whatever star pattern turned around the center of it",
+     "why_correct_id": "**it** itu tunggal. Calonnya **an artificial sky**, **star pattern**, dan **the center**. Bintang muter ngelilingin pusat dari… langit. **the center of the artificial sky** masuk akal. Ujung kalimatnya, **a map of it**, juga nunjuk ke langit.",
+     "why_correct_en": "**it** is singular. Candidates: **an artificial sky**, **star pattern**, **the center**. Stars turn around the center of the sky, so **the center of the artificial sky** works. **a map of it** at the end points to the sky too.",
+     "why_wrong_id": {
+      "0": "**the center of the center** nggak masuk akal.",
+      "1": "**Laboratory** cuma nerangin **experiments**. Pola bintang nggak muter ngelilingin pusat laboratorium.",
+      "2": "Pola bintang itu yang muter. Di sini dia nggak muter ngelilingin pusat dirinya sendiri."
+     },
+     "why_wrong_en": {
+      "0": "**the center of the center** makes no sense.",
+      "1": "**Laboratory** only describes the experiments. A lab has no center that stars turn around.",
+      "2": "The star pattern is what turns. It doesn't turn around its own center here."
+     },
+     "analogy_id": "Bayangin planetarium. Bintang-bintang muter ngelilingin titik tengah kubah langit buatan.",
+     "analogy_en": "Picture a planetarium. Stars turn around the middle of the artificial sky dome.",
+     "tip_id": "Di frasa **the X of it**, ganti **it** terus baca frasanya utuh. The center of [sky]?",
+     "tip_en": "In **the X of it**, swap in each option and read the whole phrase. The center of [the sky]?"
+    },
+    {
+     "type": "reading",
+     "subtype": "reference",
+     "prompt": "The word **their** in paragraph 4 refers to",
+     "options": [
+      "birds",
+      "scientists",
+      "magnetic lines",
+      "cells"
+     ],
+     "correct_index": 0,
+     "rule_tags": [
+      "R-REF"
+     ],
+     "difficulty": 1,
+     "evidence_quote": "Scientists believe that special cells in their eyes allow them to detect magnetic lines, giving them a kind of internal compass.",
+     "why_correct_id": "**their eyes**, mata punya siapa? Paragrafnya bahas burung yang bisa ngerasain medan magnet, **Birds also appear to sense…**. Jadi sel khusus di mata burung yang bikin mereka bisa ndeteksi garis magnet.",
+     "why_correct_en": "Whose eyes? The paragraph is about birds sensing the magnetic field, **Birds also appear to sense…**. Special cells in the eyes of the birds let them detect magnetic lines.",
+     "why_wrong_id": {
+      "1": "Ilmuwan itu yang **believe**, percaya, bukan yang punya kompas internal. Jebakan pelaku terdekat.",
+      "2": "Garis magnet itu yang dideteksi. Garis nggak punya mata.",
+      "3": "Selnya ada DI DALAM mata. Sel nggak punya mata."
+     },
+     "why_wrong_en": {
+      "1": "Scientists do the believing. They don't have the internal compass. Nearest-subject trap.",
+      "2": "Magnetic lines get detected. Lines don't have eyes.",
+      "3": "The cells are IN the eyes. Cells don't own eyes."
+     },
+     "analogy_id": "Kata kepunyaan kayak **their** itu label nama di tas. Cari pemilik tas yang masuk akal.",
+     "analogy_en": "A possessive like **their** is a name tag on a bag. Find the owner that makes sense.",
+     "tip_id": "Waspadai **Scientists believe that…**. Kata ganti sesudahnya sering nunjuk ke topik penelitian, bukan ilmuwannya.",
+     "tip_en": "Watch out for **Scientists believe that…**. Pronouns after it often point to the research topic, not the scientists."
+    },
+    {
+     "type": "reading",
+     "subtype": "reference",
+     "prompt": "The word **those** in paragraph 5 refers to",
+     "options": [
+      "lights",
+      "tall buildings",
+      "birds",
+      "storms"
+     ],
+     "correct_index": 2,
+     "rule_tags": [
+      "R-REF"
+     ],
+     "difficulty": 1,
+     "evidence_quote": "bright lights on tall buildings can confuse those that travel at night.",
+     "why_correct_id": "**those that travel at night** artinya mereka yang bepergian di malam hari. Paragrafnya bahas bahaya buat burung. Coba ganti: **can confuse birds that travel at night**. Pas.",
+     "why_correct_en": "**those that travel at night** means the ones traveling at night. The paragraph is about dangers to birds. Swap in: **can confuse birds that travel at night**. It fits.",
+     "why_wrong_id": {
+      "0": "Cahaya itu yang bikin bingung, bukan yang dibikin bingung.",
+      "1": "Gedung nggak jalan-jalan malam.",
+      "3": "Badai nggak dibikin bingung sama cahaya."
+     },
+     "why_wrong_en": {
+      "0": "The lights do the confusing. They aren't confused.",
+      "1": "Buildings don't travel at night.",
+      "3": "Storms aren't confused by lights."
+     },
+     "analogy_id": "**Those that…** artinya mereka yang… Cari kelompok yang bisa ngelakuin kata kerja sesudahnya, **travel at night**.",
+     "analogy_en": "**Those that…** means the ones that… Find the group that can do the verb after it, **travel at night**.",
+     "tip_id": "Buat **those that/who + kata kerja**, pilih calon yang bisa ngelakuin kata kerja itu.",
+     "tip_en": "For **those that/who + verb**, pick the candidate that can do that verb."
+    }
+   ]
+  },
+  {
+   "section": "reading",
+   "title": "Kitchens on Wheels",
+   "body": "In many cities, food trucks have become a familiar sight outside offices, parks, and university campuses. Although mobile food sellers have existed for centuries, the modern food truck boom began in the late 2000s, when an economic downturn left many trained cooks without jobs. Opening a restaurant was too expensive for most of **them**, but a truck required far less money.\n\nA food truck offers several advantages to a new business owner. Rent is low, and the owner can move to wherever customers gather, such as a concert in the evening or a business district at lunchtime. Social media made **this** flexibility even more valuable, because owners could announce their daily location to followers within seconds.\n\nCustomers, too, have reasons to love food trucks. Prices are usually lower than in sit-down restaurants, and the menus are often creative. A truck that serves only one kind of dish can perfect **it** in a way that a large restaurant with a long menu rarely can.\n\nRunning a truck is not easy, however. Owners work long hours in small, hot kitchens, and **they** must follow strict health and parking regulations that differ from city to city. Bad weather can empty the streets of customers for days. Some owners also find that a truck limits how much food they can prepare, which places a ceiling on their income.\n\nFor many cooks, nevertheless, the truck is a stepping stone. Several successful restaurants today started as a single truck, using the loyal customers it attracted to open a permanent location.",
+   "questions": [
+    {
+     "type": "reading",
+     "subtype": "reference",
+     "prompt": "The word **them** in paragraph 1 refers to",
+     "options": [
+      "trained cooks",
+      "mobile food sellers",
+      "centuries",
+      "jobs"
+     ],
+     "correct_index": 0,
+     "rule_tags": [
+      "R-REF"
+     ],
+     "difficulty": 1,
+     "evidence_quote": "an economic downturn left many trained cooks without jobs. Opening a restaurant was too expensive for most of them",
+     "why_correct_id": "**most of them**, sebagian besar dari siapa? Yang pengen buka restoran itu para juru masak yang kehilangan kerjaan. Coba ganti: **too expensive for most of the trained cooks**. Pas.",
+     "why_correct_en": "**most of them**, most of whom? The people who might open restaurants are the cooks who lost their jobs. Swap in: **too expensive for most of the trained cooks**. It fits.",
+     "why_wrong_id": {
+      "1": "Penjual makanan keliling disebut sebagai sejarah, **for centuries**, bukan yang kena krisis.",
+      "2": "**centuries** itu waktu. Waktu nggak bisa buka restoran.",
+      "3": "Pekerjaan nggak bisa buka restoran."
+     },
+     "why_wrong_en": {
+      "1": "Mobile sellers come up as history, **for centuries**, not as those hit by the downturn.",
+      "2": "**centuries** is time. Time can't open a restaurant.",
+      "3": "Jobs can't open a restaurant."
+     },
+     "analogy_id": "**Most of them** itu kayak ngitung kepala di satu kelompok yang baru aja disebut: para juru masak.",
+     "analogy_en": "**Most of them** is counting heads in the group just mentioned: the cooks.",
+     "tip_id": "Pronoun di awal kalimat baru sering nunjuk ke kata benda di ujung kalimat sebelumnya.",
+     "tip_en": "A pronoun early in a new sentence often points to a noun at the end of the last one."
+    },
+    {
+     "type": "reading",
+     "subtype": "reference",
+     "prompt": "The word **this** in paragraph 2 refers to",
+     "options": [
+      "low rent",
+      "a concert in the evening",
+      "the ability to move to where customers are",
+      "social media"
+     ],
+     "correct_index": 2,
+     "rule_tags": [
+      "R-REF"
+     ],
+     "difficulty": 2,
+     "evidence_quote": "the owner can move to wherever customers gather, such as a concert in the evening or a business district at lunchtime. Social media made this flexibility even more valuable",
+     "why_correct_id": "**this flexibility**, kelenturan yang mana? Kalimat sebelumnya bilang pemiliknya bisa pindah ke mana aja pelanggan ngumpul. Itulah kelenturannya: kemampuan pindah ke tempat pelanggan.",
+     "why_correct_en": "**this flexibility**, which flexibility? The previous sentence says the owner can move wherever customers gather. That's it: the ability to move to where customers are.",
+     "why_wrong_id": {
+      "0": "Sewa murah itu keuntungan lain, bukan kelenturan.",
+      "1": "Konser cuma contoh tempat. Contoh bukan kelenturannya.",
+      "3": "Media sosial itu yang bikin kelenturannya makin berharga, bukan kelenturan itu sendiri."
+     },
+     "why_wrong_en": {
+      "0": "Low rent is a different advantage, not flexibility.",
+      "1": "A concert is just an example of a place.",
+      "3": "Social media makes the flexibility more valuable. It isn't the flexibility."
+     },
+     "analogy_id": "**This + kata benda** itu kayak judul yang ngerangkum cerita sebelumnya. **this flexibility** ngerangkum bisa pindah ke mana aja.",
+     "analogy_en": "**This + noun** is a headline summing up the story before it. **this flexibility** sums up can move anywhere.",
+     "tip_id": "Kalau **this** diikutin kata benda, kayak **this flexibility** atau **this problem**, cari gagasan sebelumnya yang cocok sama kata benda itu.",
+     "tip_en": "If **this** comes with a noun, like **this flexibility** or **this problem**, find the earlier idea that fits it."
+    },
+    {
+     "type": "reading",
+     "subtype": "reference",
+     "prompt": "The word **it** in paragraph 3 refers to",
+     "options": [
+      "a truck",
+      "the menu",
+      "a large restaurant",
+      "one kind of dish"
+     ],
+     "correct_index": 3,
+     "rule_tags": [
+      "R-REF"
+     ],
+     "difficulty": 1,
+     "evidence_quote": "A truck that serves only one kind of dish can perfect it in a way that a large restaurant with a long menu rarely can.",
+     "why_correct_id": "**perfect it**, nyempurnain apa? Truk yang cuma jual satu jenis hidangan bisa nyempurnain hidangan itu. Coba ganti: **can perfect one kind of dish**. Pas.",
+     "why_correct_en": "**perfect it**, perfect what? A truck serving one dish can perfect that dish. Swap in: **can perfect one kind of dish**. It fits.",
+     "why_wrong_id": {
+      "0": "Truknya itu pelaku yang nyempurnain. **it** itu objek yang disempurnain.",
+      "1": "**menu** muncul setelah **it** dan punyanya restoran besar.",
+      "2": "Restoran besar itu pembanding, bukan yang disempurnain."
+     },
+     "why_wrong_en": {
+      "0": "The truck does the perfecting. **it** is the object.",
+      "1": "**menu** comes after **it** and belongs to the large restaurant.",
+      "2": "The large restaurant is the comparison, not what gets perfected."
+     },
+     "analogy_id": "Kayak tukang martabak yang cuma bikin martabak. Karena fokus ke satu menu, hasilnya bisa sempurna banget.",
+     "analogy_en": "Like a vendor who only makes one dish. Focusing on one thing lets them perfect it.",
+     "tip_id": "Pronoun objek kayak **it** atau **them** jarang nunjuk ke pelaku di clause yang sama.",
+     "tip_en": "Object pronouns like **it** or **them** rarely point to the subject of their own clause."
+    },
+    {
+     "type": "reading",
+     "subtype": "reference",
+     "prompt": "The word **they** in paragraph 4 refers to",
+     "options": [
+      "kitchens",
+      "owners",
+      "regulations",
+      "cities"
+     ],
+     "correct_index": 1,
+     "rule_tags": [
+      "R-REF"
+     ],
+     "difficulty": 1,
+     "evidence_quote": "Owners work long hours in small, hot kitchens, and they must follow strict health and parking regulations",
+     "why_correct_id": "**they must follow … regulations**, siapa yang harus patuh sama aturan? Pemilik truk. Coba ganti: **owners must follow strict … regulations**. Pas.",
+     "why_correct_en": "**they must follow … regulations**, who must obey? The owners. Swap in: **owners must follow strict … regulations**. It fits.",
+     "why_wrong_id": {
+      "0": "Dapur nggak bisa patuh aturan. Jebakan kata benda jamak terdekat.",
+      "2": "Aturan itu yang dipatuhi, bukan yang matuhin.",
+      "3": "Kota bikin aturan, bukan matuhin. Lagian **cities** muncul setelah **they**."
+     },
+     "why_wrong_en": {
+      "0": "Kitchens can't obey rules. Nearest-plural trap.",
+      "2": "Regulations are obeyed. They don't obey.",
+      "3": "Cities make the rules, and **cities** comes after **they** anyway."
+     },
+     "analogy_id": "Dua clause yang disambung **and** sering pakai sopir yang sama: **Owners … and they …**.",
+     "analogy_en": "Two clauses joined by **and** often share a driver: **Owners … and they …**.",
+     "tip_id": "Kata benda terdekat kayak **kitchens** belum tentu jawabannya. Cek siapa yang bisa **must follow**.",
+     "tip_en": "The nearest noun, like **kitchens**, isn't always it. Check who can **must follow**."
+    },
+    {
+     "type": "reading",
+     "subtype": "inference",
+     "prompt": "What can be inferred from the last paragraph?",
+     "options": [
+      "Most food trucks eventually become restaurants.",
+      "A food truck can help a cook build a group of customers before opening a restaurant.",
+      "Restaurants are cheaper to open than food trucks.",
+      "Food trucks are not allowed in some cities."
+     ],
+     "correct_index": 1,
+     "rule_tags": [
+      "R-INFER"
+     ],
+     "difficulty": 3,
+     "evidence_quote": "Several successful restaurants today started as a single truck, using the loyal customers it attracted to open a permanent location.",
+     "why_correct_id": "Paragraf terakhir nyebut truk sebagai **stepping stone**, batu loncatan. Beberapa restoran sukses make pelanggan setia dari truknya buat buka tempat permanen. Jadi truk bisa bantu ngebangun basis pelanggan sebelum buka restoran.",
+     "why_correct_en": "The last paragraph calls the truck a **stepping stone**. Some successful restaurants used their truck's loyal customers to open a permanent place. So a truck can help build a customer base first.",
+     "why_wrong_id": {
+      "0": "Teks bilang **several**, bukan **most**. Jebakan generalisasi kelebihan.",
+      "2": "Kebalikan dari paragraf 1. Restoran justru kemahalan.",
+      "3": "Aturannya beda-beda tiap kota di paragraf 4, tapi nggak ada yang bilang truk dilarang."
+     },
+     "why_wrong_en": {
+      "0": "The text says **several**, not **most**. An overgeneralization trap.",
+      "2": "The opposite of paragraph 1. Restaurants are too expensive.",
+      "3": "Rules differ by city in paragraph 4, but nothing says trucks are banned."
+     },
+     "analogy_id": "Batu loncatan itu kayak batu di sungai. Bukan tujuan akhir, tapi bantu kamu nyebrang.",
+     "analogy_en": "A stepping stone is a rock in a river. Not the destination, but it gets you across.",
+     "tip_id": "Waspadai kata ukuran kayak **most**, **all**, **never** di opsi inferensi. Teks sering cuma bilang **some** atau **several**.",
+     "tip_en": "Watch quantity words like **most**, **all**, **never** in inference options. The text often only says **some** or **several**."
+    }
+   ]
+  }
+ ]
+}

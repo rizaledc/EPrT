@@ -1,0 +1,1129 @@
+{
+ "rumah": "r08",
+ "material_id": "Hari kedelapan, Hari terakhir Level Menengah. Kita menyusun **gerbong yang sejajar** dan membandingkan dengan tepat. Di Listening kita mencari **tujuan** dan **saran**, dan di Reading kita membaca **tujuan serta nada** penulis.\n\n=== listening\n## Tujuan dan saran dalam percakapan panjang\nSoal Part B sering bertanya *Why did the student go to…?* (tujuan) dan *What does the adviser suggest?* (saran). Tujuan biasanya ada di awal (*I came in because…*). Saran ditandai *you might, in that case, I'd, why don't you, then look at…*. Perhatikan juga **alasan penolakan** (*but they're unpaid*), karena sering ditanya.\nPerumpamaan: percakapan dengan penasihat itu seperti konsultasi ke dokter. Pasien menyebut keluhan di awal, dokter memberi beberapa resep, dan pasien menolak resep yang tidak cocok sambil memberi alasan.\n> Awal = tujuan · in that case / then / I'd = saran · but … = alasan menolak\n✓ Catat setiap saran dan reaksi orang kedua terhadapnya\n✓ Saran terakhir yang diterima biasanya yang akan dilakukan\n✕ Memilih saran pertama padahal sudah ditolak\n✕ Mengira detail kecil di awal sebagai tujuan kedatangan\n\n=== structure\n## Struktur paralel dan perbandingan\n[[parallel structure|parallel-structure]]: bagian yang dihubungkan *and, or, but* harus berbentuk sama, misalnya V1-V1-V1 atau V-ing-V-ing-V-ing. [[comparative]]: kata pendek + *-er than* (*faster than*), kata panjang *more … than* (*more successful than*). [[superlative]]: *the + -est* atau *the most …* untuk tiga atau lebih. Pola *as … as* tidak memakai *than*. Bandingkan hal yang sejenis: *the population of A* dengan *that of B*.\nPerumpamaan: struktur paralel itu rangkaian gerbong kereta. Semua gerbong harus memakai lebar rel yang sama agar bisa disambung.\n> X, Y, and Z → bentuk sama · -er/more + than · the -est/the most · as … as\n✓ write reports, manage her time, and **communicate**\n✓ lighter, faster, and **cheaper**\n✓ **the fewer** mistakes (the more …, the fewer …)\n✕ hiking, **to swim**, and riding\n✕ not as long **than** (harus *as*)\n\n=== reading\n## Tujuan dan nada penulis\nSoal *purpose* bertanya **mengapa** penulis menulis teks atau menyebut sesuatu: untuk menjelaskan, membujuk, membandingkan, atau memberi contoh. Soal *tone/attitude* bertanya **perasaan** penulis: setuju, khawatir, kritis, netral, seimbang. Petunjuknya ada pada kata opini (*I believe, unfortunately, surprisingly, embarrassing but valuable*).\nPerumpamaan: nada penulis itu seperti nada suara di telepon. Kata-katanya sama, tetapi dari nadanya kamu tahu ia senang, cemas, atau kesal.\n> Kata opini → nada · contoh/perbandingan → tujuan menyebut sesuatu\n✓ *explain, argue, describe, compare, illustrate* untuk tujuan\n✓ *concerned, critical, balanced, enthusiastic, neutral* untuk nada\n✕ Memilih nada yang terlalu ekstrem (*furious, mocking*) tanpa bukti\n✕ Menganggap teks opini sebagai teks netral",
+ "material_en": "Day eight, the last Day of the Intermediate Level. We line up **parallel carriages** and compare things correctly. In Listening we look for **purpose** and **suggestions**, and in Reading we read the author's **purpose and tone**.\n\n=== listening\n## Purpose and suggestions in long conversations\nPart B often asks *Why did the student go to…?* (purpose) and *What does the adviser suggest?* (suggestion). The purpose usually comes early (*I came in because…*). Suggestions are marked by *you might, in that case, I'd, why don't you, then look at…*. Also watch **reasons for rejecting** an idea (*but they're unpaid*), which are often tested.\nAnalogy: a talk with an adviser is like a doctor's visit. The patient states the complaint first, the doctor offers several prescriptions, and the patient turns down the ones that don't fit, giving reasons.\n> Opening = purpose · in that case / then / I'd = suggestion · but … = reason for rejecting\n✓ Note each suggestion and the other person's reaction to it\n✓ The last suggestion that is accepted is usually what will happen\n✕ Choosing the first suggestion after it was rejected\n✕ Mistaking a small opening detail for the reason for the visit\n\n=== structure\n## Parallel structure and comparisons\n[[parallel structure|parallel-structure]]: items joined by *and, or, but* must share a form, such as V1-V1-V1 or V-ing-V-ing-V-ing. The [[comparative]]: short words + *-er than* (*faster than*); long words *more … than* (*more successful than*). The [[superlative]]: *the + -est* or *the most …* for three or more. *as … as* never takes *than*. Compare like with like: *the population of A* with *that of B*.\nAnalogy: parallel structure is a train. Every carriage must run on the same gauge to be coupled.\n> X, Y, and Z → same form · -er/more + than · the -est/the most · as … as\n✓ write reports, manage her time, and **communicate**\n✓ lighter, faster, and **cheaper**\n✓ **the fewer** mistakes (the more …, the fewer …)\n✕ hiking, **to swim**, and riding\n✕ not as long **than** (should be *as*)\n\n=== reading\n## The author's purpose and tone\n*Purpose* questions ask **why** the author wrote the passage or mentions something: to explain, persuade, compare, or give an example. *Tone/attitude* questions ask how the author **feels**: supportive, concerned, critical, neutral, balanced. Clues are opinion words (*I believe, unfortunately, surprisingly, embarrassing but valuable*).\nAnalogy: an author's tone is like a voice on the phone. The words may be the same, but the tone tells you if they're happy, worried, or annoyed.\n> Opinion words → tone · examples/comparisons → purpose of mentioning something\n✓ *explain, argue, describe, compare, illustrate* for purpose\n✓ *concerned, critical, balanced, enthusiastic, neutral* for tone\n✕ Choosing an extreme tone (*furious, mocking*) without evidence\n✕ Treating an opinion piece as neutral",
+ "items": [
+  {
+   "section": "listening",
+   "part": "A",
+   "script": [
+    {
+     "speaker": "W2",
+     "text": "I can't decide between the red backpack and the gray one."
+    },
+    {
+     "speaker": "M1",
+     "text": "Why not get the gray one? It's lighter and has more pockets."
+    }
+   ],
+   "questions": [
+    {
+     "type": "listening_short",
+     "prompt": "What does the man suggest?",
+     "options": [
+      "Buying the red backpack",
+      "Buying the gray backpack",
+      "Buying both backpacks",
+      "Waiting for a sale"
+     ],
+     "correct_index": 1,
+     "rule_tags": [
+      "L-SUGGEST",
+      "L-SECOND"
+     ],
+     "difficulty": 1,
+     "key_sentence": "Why not get the gray one?",
+     "key_translation_id": "Kenapa tidak ambil yang abu-abu saja?",
+     "why_correct_id": "**Why not…?** itu pola saran. Dia nyaranin **the gray one**, tas abu-abu, soalnya lebih ringan dan kantongnya lebih banyak.",
+     "why_correct_en": "**Why not…?** is a suggestion. He suggests **the gray one** because it's lighter with more pockets.",
+     "why_wrong_id": {
+      "0": "Tas merah itu pilihan lain yang nggak dia saranin.",
+      "2": "Dia nyaranin satu tas, bukan dua-duanya.",
+      "3": "Diskon atau obral nggak disebut."
+     },
+     "why_wrong_en": {
+      "0": "The red one is the option he doesn't suggest.",
+      "2": "He suggests one backpack, not both.",
+      "3": "No sale is mentioned."
+     },
+     "analogy_id": "Saran plus alasan perbandingan, kayak **lighter** dan **more pockets**, itu kayak teman yang nunjuk satu barang di rak sambil nyebutin kelebihannya.",
+     "analogy_en": "A suggestion with comparisons, like **lighter** and **more pockets**, is a friend pointing at one shelf item and listing its perks.",
+     "tip_id": "**Why not** atau **Why don't you** plus pilihan? Itulah sarannya. Alasan perbandingan nguatin itu.",
+     "tip_en": "**Why not** or **Why don't you** plus a choice? That's the suggestion. Comparisons back it up."
+    }
+   ]
+  },
+  {
+   "section": "listening",
+   "part": "A",
+   "script": [
+    {
+     "speaker": "M2",
+     "text": "My presentation is tomorrow, and I'm still not sure my slides make sense."
+    },
+    {
+     "speaker": "W1",
+     "text": "Send them to me tonight. I'll look them over before I go to bed."
+    }
+   ],
+   "questions": [
+    {
+     "type": "listening_short",
+     "prompt": "What does the woman offer to do?",
+     "options": [
+      "Give the presentation for him",
+      "Make new slides for him",
+      "Review his slides tonight",
+      "Meet him early tomorrow"
+     ],
+     "correct_index": 2,
+     "rule_tags": [
+      "L-SUGGEST",
+      "L-SECOND"
+     ],
+     "difficulty": 1,
+     "key_sentence": "Send them to me tonight. I'll look them over before I go to bed.",
+     "key_translation_id": "Kirimkan ke aku malam ini. Aku periksa sebelum tidur.",
+     "why_correct_id": "**I'll look them over** artinya aku bakal ngecek. **before I go to bed** artinya malam ini. Jadi dia nawarin buat ngecek slide si pria malam ini.",
+     "why_correct_en": "**I'll look them over** means I'll check them. **before I go to bed** means tonight. So she offers to review his slides tonight.",
+     "why_wrong_id": {
+      "0": "Dia nggak nawarin buat gantiin presentasinya.",
+      "1": "Dia ngecek slide yang udah ada, bukan bikin yang baru.",
+      "3": "**Tomorrow** itu hari presentasinya, bukan waktu ketemu."
+     },
+     "why_wrong_en": {
+      "0": "She doesn't offer to present for him.",
+      "1": "She checks the slides he has, not new ones.",
+      "3": "**Tomorrow** is the presentation day, not a meeting."
+     },
+     "analogy_id": "**Look over** itu kayak guru yang baca cepat lembar jawaban buat nyari kesalahan sebelum dikumpulin.",
+     "analogy_en": "**Look over** is a teacher skimming an answer sheet for mistakes before it's handed in.",
+     "tip_id": "Phrasal verb **look over**, **go over**, **check out** artinya ngecek.",
+     "tip_en": "**look over**, **go over**, **check out** all mean review."
+    }
+   ]
+  },
+  {
+   "section": "listening",
+   "part": "A",
+   "script": [
+    {
+     "speaker": "W2",
+     "text": "Did you like the new science fiction movie?"
+    },
+    {
+     "speaker": "M2",
+     "text": "The special effects were impressive, but the story was even more predictable than the last one."
+    }
+   ],
+   "questions": [
+    {
+     "type": "listening_short",
+     "prompt": "What does the man imply about the movie?",
+     "options": [
+      "The effects were the weakest part.",
+      "It was better than the last movie in every way.",
+      "He did not watch the whole movie.",
+      "He found the story too easy to guess."
+     ],
+     "correct_index": 3,
+     "rule_tags": [
+      "L-INFER"
+     ],
+     "difficulty": 2,
+     "key_sentence": "The special effects were impressive, but the story was even more predictable than the last one.",
+     "key_translation_id": "Efek khususnya mengesankan, tapi ceritanya bahkan lebih mudah ditebak daripada film sebelumnya.",
+     "why_correct_id": "Dia muji efek khususnya, **impressive**. Tapi **the story was even more predictable** artinya ceritanya lebih gampang ditebak. **Predictable** itu kritik. Jadi dia ngerasa ceritanya kegampangan ditebak.",
+     "why_correct_en": "He praises the effects, **impressive**. But **the story was even more predictable** means the plot was easy to guess. That's a criticism.",
+     "why_wrong_id": {
+      "0": "Kebalikannya. Efek khusus justru bagian yang dia puji.",
+      "1": "Ceritanya lebih gampang ditebak dari film sebelumnya, jadi nggak lebih bagus di segala hal.",
+      "2": "Dia bisa nilai efek dan ceritanya, berarti dia nonton filmnya."
+     },
+     "why_wrong_en": {
+      "0": "The opposite. The effects are what he praises.",
+      "1": "The story was more predictable than the last one, so not better in every way.",
+      "2": "He can judge both effects and story, so he watched it."
+     },
+     "analogy_id": "**Even more … than the last one** itu kayak nilai rapor yang turun lagi. Jeleknya nambah, bukan membaik.",
+     "analogy_en": "**Even more … than the last one** is a report card slipping again. Worse, not better.",
+     "tip_id": "Kalimat **X was good, but Y was …**? Soal imply biasanya soal Y.",
+     "tip_en": "**X was good, but Y was …**? Imply questions are usually about Y."
+    }
+   ]
+  },
+  {
+   "section": "listening",
+   "part": "A",
+   "script": [
+    {
+     "speaker": "M1",
+     "text": "Should I take the train or the bus to the conference?"
+    },
+    {
+     "speaker": "W1",
+     "text": "The train costs a bit more, but it's twice as fast, and you won't have to change."
+    }
+   ],
+   "questions": [
+    {
+     "type": "listening_short",
+     "prompt": "What does the woman imply?",
+     "options": [
+      "The man should probably take the train.",
+      "The bus is twice as fast as the train.",
+      "The train is cheaper than the bus.",
+      "The man will have to change trains."
+     ],
+     "correct_index": 0,
+     "rule_tags": [
+      "L-INFER",
+      "L-SUGGEST"
+     ],
+     "difficulty": 2,
+     "key_sentence": "The train costs a bit more, but it's twice as fast, and you won't have to change.",
+     "key_translation_id": "Kereta sedikit lebih mahal, tapi dua kali lebih cepat, dan kamu tidak perlu ganti kendaraan.",
+     "why_correct_id": "Dia nyebut satu kekurangan kereta, sedikit lebih mahal, terus dua kelebihan setelah **but**: dua kali lebih cepat dan nggak perlu ganti kendaraan. Kelebihan yang ditekenin nunjukin dia nyaranin naik kereta.",
+     "why_correct_en": "She gives one drawback, a bit pricier, then two perks after **but**: twice as fast and no changes. Stressing the perks means she's recommending the train.",
+     "why_wrong_id": {
+      "1": "Kebalikannya. KERETA yang dua kali lebih cepat.",
+      "2": "Kebalikannya. Keretanya sedikit lebih mahal.",
+      "3": "**You won't have to change** artinya nggak perlu ganti kendaraan."
+     },
+     "why_wrong_en": {
+      "1": "The opposite. The TRAIN is twice as fast.",
+      "2": "The opposite. The train costs a bit more.",
+      "3": "**You won't have to change** means no changes."
+     },
+     "analogy_id": "Kalimat kayak gini itu timbangan. Satu beban kecil di kiri, lebih mahal. Dua beban gede di kanan, cepat dan tanpa ganti. Timbangannya miring ke kereta.",
+     "analogy_en": "This sentence is a scale. One small weight on the left, pricier. Two big ones on the right, faster and no changes. It tips to the train.",
+     "tip_id": "Pola **X costs more, but …**? Yang disebut setelah **but** biasanya yang disaranin.",
+     "tip_en": "**X costs more, but …**? What follows **but** is usually the recommendation."
+    }
+   ]
+  },
+  {
+   "section": "listening",
+   "part": "B",
+   "script": [
+    {
+     "speaker": "W1",
+     "text": "Hi, I'm a third-year biology student, and I came in because I'm not sure what to do this summer."
+    },
+    {
+     "speaker": "M2",
+     "text": "Well, what are you hoping to get out of it? Experience, money, or both?"
+    },
+    {
+     "speaker": "W1",
+     "text": "Mostly experience. I'm thinking about graduate school, so I'd like to do something related to research."
+    },
+    {
+     "speaker": "M2",
+     "text": "In that case, you might apply for one of the summer research assistant positions in the biology department. The deadline is the end of this month."
+    },
+    {
+     "speaker": "W1",
+     "text": "I saw those, but they're unpaid, and I really need to cover my rent."
+    },
+    {
+     "speaker": "M2",
+     "text": "Then look at the campus lab technician jobs. They're paid, and many of them are in research labs, so you'd get both."
+    },
+    {
+     "speaker": "W1",
+     "text": "That sounds perfect. Do I need a recommendation?"
+    },
+    {
+     "speaker": "M2",
+     "text": "Yes, one letter from a professor. I'd ask someone who knows your lab work well."
+    }
+   ],
+   "questions": [
+    {
+     "type": "listening_long",
+     "prompt": "Why did the woman go to the career center?",
+     "options": [
+      "To get advice about her summer plans",
+      "To apply for graduate school",
+      "To complain about her rent",
+      "To find a professor for her research"
+     ],
+     "correct_index": 0,
+     "rule_tags": [
+      "L-TOPIC"
+     ],
+     "difficulty": 1,
+     "key_sentence": "I came in because I'm not sure what to do this summer.",
+     "key_translation_id": "Saya datang karena saya belum tahu mau melakukan apa musim panas ini.",
+     "why_correct_id": "Tujuan dia datang disebut di kalimat pertama pakai **I came in because…**. Dia belum tahu mau ngapain selama musim panas, jadi dia datang buat minta saran.",
+     "why_correct_en": "Her reason comes first, with **I came in because…**. She doesn't know what to do this summer, so she came for advice.",
+     "why_wrong_id": {
+      "1": "Sekolah pascasarjana cuma rencana jangka panjang yang ngaruh ke pilihannya.",
+      "2": "Sewa disebut sebagai alasan dia butuh kerjaan berbayar, bukan keluhan.",
+      "3": "Profesor cuma disebut buat surat rekomendasi."
+     },
+     "why_wrong_en": {
+      "1": "Grad school is a long-term plan shaping her choice, not why she came.",
+      "2": "Rent is why she needs paid work, not a complaint.",
+      "3": "A professor comes up only for a recommendation letter."
+     },
+     "analogy_id": "**I came in because…** itu kayak formulir pasien. Kolom keluhan utama diisi di baris pertama.",
+     "analogy_en": "**I came in because…** is a patient form. The main complaint goes in the first box.",
+     "tip_id": "Soal **Why did X go to…?** Dengerin kalimat pertama X, terutama **because**.",
+     "tip_en": "**Why did X go to…?** Listen to X's first line, especially **because**."
+    },
+    {
+     "type": "listening_long",
+     "prompt": "Why does the woman not want a summer research assistant position?",
+     "options": [
+      "The deadline has already passed.",
+      "It is not related to biology.",
+      "It does not pay.",
+      "She has no lab experience."
+     ],
+     "correct_index": 2,
+     "rule_tags": [
+      "L-DETAIL"
+     ],
+     "difficulty": 2,
+     "key_sentence": "I saw those, but they're unpaid, and I really need to cover my rent.",
+     "key_translation_id": "Saya sudah lihat, tapi posisinya tidak dibayar, dan saya benar-benar perlu membayar sewa.",
+     "why_correct_id": "Penasihatnya nyaranin posisi asisten riset. Si mahasiswi nolak pakai **but they're unpaid**, nggak dibayar, karena dia perlu bayar sewa.",
+     "why_correct_en": "The adviser suggests research assistant spots. She turns them down with **but they're unpaid**, since she needs rent money.",
+     "why_wrong_id": {
+      "0": "Tenggatnya akhir bulan ini. Belum lewat.",
+      "1": "Posisinya ada di jurusan biologi.",
+      "3": "Pengalaman lab-nya nggak dibahas sebagai masalah. Malah ada dosen yang tahu kerja lab-nya."
+     },
+     "why_wrong_en": {
+      "0": "The deadline is the end of this month. It hasn't passed.",
+      "1": "The positions are in the biology department.",
+      "3": "Her lab experience isn't a problem. A professor even knows her lab work."
+     },
+     "analogy_id": "Nolak pakai **but** itu kayak pasien yang bilang obatnya bagus, tapi saya alergi. Alasannya ada setelah **but**.",
+     "analogy_en": "Saying no with **but** is a patient saying that medicine sounds good, but I'm allergic. The reason follows **but**.",
+     "tip_id": "Soal **Why does X not want…?** Cari **but** pas setelah saran ditawarin.",
+     "tip_en": "**Why does X not want…?** Look for **but** right after the suggestion."
+    },
+    {
+     "type": "listening_long",
+     "prompt": "What does the adviser suggest the woman do about the recommendation?",
+     "options": [
+      "Write the letter herself",
+      "Ask the career center for a form",
+      "Get letters from three professors",
+      "Ask a professor who knows her lab work well"
+     ],
+     "correct_index": 3,
+     "rule_tags": [
+      "L-SUGGEST"
+     ],
+     "difficulty": 2,
+     "key_sentence": "I'd ask someone who knows your lab work well.",
+     "key_translation_id": "Saya akan meminta kepada dosen yang benar-benar mengenal pekerjaan lab kamu.",
+     "why_correct_id": "Penasihatnya bilang cukup satu surat dari satu profesor. Sarannya ditandain **I'd ask…**, kalau aku sih bakal minta… ke dosen yang kenal baik kerja lab-nya.",
+     "why_correct_en": "The adviser says one professor's letter is enough. The tip is marked by **I'd ask…**: ask someone who knows her lab work well.",
+     "why_wrong_id": {
+      "0": "Surat rekomendasi harus dari profesor, bukan dari dirinya sendiri.",
+      "1": "Formulir dari pusat karier nggak disebut.",
+      "2": "Yang dibutuhin cuma **one letter**, satu surat."
+     },
+     "why_wrong_en": {
+      "0": "The letter has to come from a professor, not herself.",
+      "1": "No career center form is mentioned.",
+      "2": "Only **one letter** is needed."
+     },
+     "analogy_id": "**I'd ask…** itu kayak penasihat yang bilang kalau aku jadi kamu… Saran yang dibungkus pengalaman.",
+     "analogy_en": "**I'd ask…** is an adviser saying if I were you… A tip wrapped in experience.",
+     "tip_id": "**I'd + V1** (I would) di kalimat penasihat artinya saran.",
+     "tip_en": "**I'd + V1** (I would) from an adviser means a suggestion."
+    }
+   ]
+  },
+  {
+   "section": "listening",
+   "part": "C",
+   "script": [
+    {
+     "speaker": "LEC",
+     "text": "In today's class, I'd like to look at language loss and, more importantly, at what communities are doing about it. There are roughly seven thousand languages spoken in the world today, but linguists estimate that around forty percent of them are endangered. Usually a language disappears not because people decide to abandon it, but because parents stop passing it on to their children, often because another language seems more useful for school and work. Once a language has no young speakers, it can vanish within a generation or two. But language loss isn't always permanent. Hebrew is the most famous example of revival. For centuries it was used mainly for reading religious texts, yet by the late twentieth century it had become the everyday language of millions of people. A more recent example is Hawaiian. In the 1980s, when very few children could speak it, families opened preschools where young children heard only Hawaiian all day. Today there are schools that teach in Hawaiian through high school. The lesson from these cases is that schools and families working together seem to matter more than any single government policy."
+    }
+   ],
+   "questions": [
+    {
+     "type": "listening_lecture",
+     "prompt": "What is the main purpose of the lecture?",
+     "options": [
+      "To compare the grammar of Hebrew and Hawaiian",
+      "To explain why languages disappear and how some have been revived",
+      "To argue that governments should choose school languages",
+      "To describe the history of religious texts"
+     ],
+     "correct_index": 1,
+     "rule_tags": [
+      "L-TOPIC",
+      "L-LECTURE"
+     ],
+     "difficulty": 1,
+     "key_sentence": "In today's class, I'd like to look at language loss and, more importantly, at what communities are doing about it.",
+     "key_translation_id": "Di kelas hari ini, saya ingin membahas hilangnya bahasa dan, yang lebih penting, apa yang dilakukan masyarakat untuk mengatasinya.",
+     "why_correct_id": "Kalimat pembukanya nyebut dua bagian: hilangnya bahasa, dan usaha masyarakat buat ngatasinnya. Isi kuliahnya ngikutin urutan itu: penyebab bahasa hilang, terus contoh kebangkitan bahasa Ibrani dan Hawaii.",
+     "why_correct_en": "The opening names two parts: language loss and what communities do about it. The lecture follows that order: why languages vanish, then the Hebrew and Hawaiian revivals.",
+     "why_wrong_id": {
+      "0": "Tata bahasa dua bahasa itu nggak dibandingin.",
+      "2": "Dosennya justru nyebut kebijakan pemerintah kurang penting dibanding kerja sama sekolah dan keluarga.",
+      "3": "Teks keagamaan cuma disebut sebagai pemakaian bahasa Ibrani di masa lalu."
+     },
+     "why_wrong_en": {
+      "0": "The grammar of the two languages isn't compared.",
+      "2": "The lecturer says policy matters less than schools and families together.",
+      "3": "Religious texts are only Hebrew's past use."
+     },
+     "analogy_id": "Kalimat **I'd like to look at X and, more importantly, Y** itu kayak daftar isi dua bab. Kuliahnya bahas dua-duanya, dengan bab kedua sebagai sorotan.",
+     "analogy_en": "**I'd like to look at X and, more importantly, Y** is a two-chapter table of contents. Both get covered, the second one highlighted.",
+     "tip_id": "Soal **main purpose**? Pilih jawaban yang nyakup SEMUA bagian yang disebut di kalimat pembuka.",
+     "tip_en": "**Main purpose**? Pick the answer covering ALL parts named in the opening."
+    },
+    {
+     "type": "listening_lecture",
+     "prompt": "According to the professor, why do most languages disappear?",
+     "options": [
+      "Governments ban them.",
+      "Parents stop teaching them to their children.",
+      "They are too difficult to learn.",
+      "People decide to abandon them on purpose."
+     ],
+     "correct_index": 1,
+     "rule_tags": [
+      "L-LECTURE",
+      "L-DETAIL"
+     ],
+     "difficulty": 3,
+     "key_sentence": "Usually a language disappears not because people decide to abandon it, but because parents stop passing it on to their children",
+     "key_translation_id": "Biasanya sebuah bahasa hilang bukan karena orang memutuskan untuk meninggalkannya, tetapi karena orang tua berhenti mewariskannya kepada anak-anak mereka",
+     "why_correct_id": "Dosennya pakai pola **not because X, but because Y**. X, orang sengaja ninggalin bahasanya, ditolak. Y alasan sebenarnya: orang tua berhenti ngewarisin bahasa itu ke anak-anak.",
+     "why_correct_en": "The lecturer uses **not because X, but because Y**. X, people choosing to abandon it, is rejected. Y is the real reason: parents stop passing it on.",
+     "why_wrong_id": {
+      "0": "Larangan pemerintah nggak disebut sebagai penyebab.",
+      "2": "Susah nggaknya bahasa nggak disebut.",
+      "3": "Ini justru alasan yang dibantah dosen pakai **not because**. Jebakan kata yang sama."
+     },
+     "why_wrong_en": {
+      "0": "Government bans aren't the cause given.",
+      "2": "Difficulty isn't mentioned.",
+      "3": "This is exactly what the lecturer rejects with **not because**. Same-word trap."
+     },
+     "analogy_id": "**Not because X, but because Y** itu kayak hakim yang ngebebasin tersangka pertama terus nunjuk pelaku aslinya.",
+     "analogy_en": "**Not because X, but because Y** is a judge clearing the first suspect and naming the real culprit.",
+     "tip_id": "Pola **not … but …**: jawabannya selalu bagian setelah **but**. Bagian setelah **not** itu jebakan.",
+     "tip_en": "**Not … but …**: the answer is always after **but**. The part after **not** is the trap."
+    },
+    {
+     "type": "listening_lecture",
+     "prompt": "What does the professor suggest is most important for reviving a language?",
+     "options": [
+      "A strong government policy",
+      "Using the language in religious texts",
+      "Schools and families working together",
+      "Teaching the language only to adults"
+     ],
+     "correct_index": 2,
+     "rule_tags": [
+      "L-LECTURE",
+      "L-INFER"
+     ],
+     "difficulty": 3,
+     "key_sentence": "The lesson from these cases is that schools and families working together seem to matter more than any single government policy.",
+     "key_translation_id": "Pelajaran dari kasus-kasus ini adalah kerja sama sekolah dan keluarga tampaknya lebih penting daripada kebijakan pemerintah mana pun.",
+     "why_correct_id": "Kalimat terakhir dibuka pakai **The lesson from these cases is…**, tanda kesimpulan dosennya. Kerja sama sekolah dan keluarga **matter more than any single government policy**. Jadi itu yang paling penting menurutnya.",
+     "why_correct_en": "The last sentence opens with **The lesson from these cases is…**, the conclusion. Schools and families together **matter more than any single government policy**. That's what matters most.",
+     "why_wrong_id": {
+      "0": "Kebijakan pemerintah disebut KURANG penting dibanding kerja sama sekolah dan keluarga.",
+      "1": "Teks keagamaan itu pemakaian lama bahasa Ibrani, bukan cara ngebangkitin bahasa.",
+      "3": "Contoh Hawaii justru nekenin anak-anak kecil di prasekolah."
+     },
+     "why_wrong_en": {
+      "0": "Government policy matters LESS than schools and families together.",
+      "1": "Religious texts were Hebrew's old use, not a revival method.",
+      "3": "The Hawaiian example focuses on small kids in preschools."
+     },
+     "analogy_id": "**The lesson is…** itu kayak pesan moral di akhir dongeng. Ringkasan yang pengen diingat pendengarnya.",
+     "analogy_en": "**The lesson is…** is the moral at the end of a fable. The takeaway to remember.",
+     "tip_id": "Penanda kesimpulan kayak **The lesson is**, **In short**, **So** di akhir lecture? Itu jawaban soal **suggest** atau **conclude**.",
+     "tip_en": "Conclusion markers like **The lesson is**, **In short**, **So** at the end answer **suggest** or **conclude** questions."
+    }
+   ]
+  },
+  {
+   "section": "structure",
+   "type": "structure_completion",
+   "prompt": "This year's festival was ______ than last year's, with twice as many visitors.",
+   "options": [
+    "more success",
+    "most successful",
+    "more successful",
+    "successfuller"
+   ],
+   "correct_index": 2,
+   "rule_tags": [
+    "S-COMPARE"
+   ],
+   "difficulty": 1,
+   "why_correct_id": "Ada **than**, jadi butuh [[comparative]]. **successful** itu kata panjang, tiga suku kata, jadi pakai **more** + adjective (kata sifat): **more successful**.",
+   "why_correct_en": "**than** calls for a comparative. **successful** is a long word, three syllables, so it's **more** + adjective: **more successful**.",
+   "why_wrong_id": {
+    "0": "**success** itu kata benda. Habis **was** dan sebelum **than** butuh kata sifat.",
+    "1": "**most successful** itu superlative (bentuk paling). Temannya **the**, bukan **than**.",
+    "3": "Kata panjang nggak pakai -er. **successfuller** nggak ada."
+   },
+   "why_wrong_en": {
+    "0": "**success** is a noun. After **was** and before **than** you need an adjective.",
+    "1": "**most successful** is a superlative. It goes with **the**, not **than**.",
+    "3": "Long words don't take -er. **successfuller** doesn't exist."
+   },
+   "analogy_id": "Kata pendek pakai jaket -er, kata panjang pakai jas **more**. **Successful** kepanjangan buat jaketnya.",
+   "analogy_en": "Short words wear the -er jacket, long words wear the **more** coat. **Successful** is too long for the jacket.",
+   "tip_id": "Satu suku kata pakai -er, tiga suku kata ke atas pakai **more**. Lihat **than**? Pilih bentuk comparative.",
+   "tip_en": "One syllable takes -er, three or more take **more**. See **than**? Choose a comparative."
+  },
+  {
+   "section": "structure",
+   "type": "structure_completion",
+   "prompt": "Mount Everest is ______ mountain in the world.",
+   "options": [
+    "the highest",
+    "higher",
+    "the most high",
+    "highest than"
+   ],
+   "correct_index": 0,
+   "rule_tags": [
+    "S-COMPARE"
+   ],
+   "difficulty": 1,
+   "why_correct_id": "**in the world** ngebandingin satu gunung sama semua gunung lain, jadi butuh [[superlative]]. **high** itu kata pendek, jadi the + -est: **the highest**.",
+   "why_correct_en": "**in the world** compares one mountain with all others, so you need a superlative. **high** is short, so the + -est: **the highest**.",
+   "why_wrong_id": {
+    "1": "**higher** itu comparative buat dua benda dan butuh **than**.",
+    "2": "Kata pendek nggak pakai **the most**. Yang bener **the highest**.",
+    "3": "Superlative nggak dipakai bareng **than**. Lagian **the**-nya hilang."
+   },
+   "why_wrong_en": {
+    "1": "**higher** is a comparative for two things and needs **than**.",
+    "2": "Short words don't take **the most**. It should be **the highest**.",
+    "3": "Superlatives don't take **than**, and **the** is missing."
+   },
+   "analogy_id": "Superlative itu podium juara satu. Cuma ada satu pemenang dari semua peserta, dan dia pakai mahkota **the**.",
+   "analogy_en": "A superlative is the top of the podium. One winner from everyone, wearing the crown **the**.",
+   "tip_id": "**in the world**, **of all**, **in the class**? Pakai superlative: **the -est** atau **the most**.",
+   "tip_en": "**in the world**, **of all**, **in the class**? Use a superlative: **the -est** or **the most**."
+  },
+  {
+   "section": "structure",
+   "type": "structure_completion",
+   "prompt": "The internship taught her how to write reports, manage her time, and ______ with clients.",
+   "options": [
+    "communicating",
+    "communication",
+    "to communicating",
+    "communicate"
+   ],
+   "correct_index": 3,
+   "rule_tags": [
+    "S-PARALLEL"
+   ],
+   "difficulty": 2,
+   "why_correct_id": "Ada tiga hal yang disambung **and** setelah **how to**: **write**, **manage**, ___. [[parallel structure|parallel-structure]] nuntut bentuk yang sama, yaitu V1: **communicate**.",
+   "why_correct_en": "Three items follow **how to**: **write**, **manage**, ___. Parallel structure needs the same form, V1: **communicate**.",
+   "why_wrong_id": {
+    "0": "**communicating** (V-ing) nggak sejajar sama **write** dan **manage** yang V1.",
+    "1": "**communication** itu kata benda. Nggak sejajar sama dua kata kerja sebelumnya.",
+    "2": "**to communicating** bentuknya salah dan nggak sejajar."
+   },
+   "why_wrong_en": {
+    "0": "**communicating** (V-ing) isn't parallel with **write** and **manage**.",
+    "1": "**communication** is a noun, not parallel with the two verbs.",
+    "2": "**to communicating** is malformed and not parallel."
+   },
+   "analogy_id": "Tiga gerbong yang ditarik **how to** harus seukuran: **write**, **manage**, **communicate**.",
+   "analogy_en": "Three carriages pulled by **how to** must be the same size: **write**, **manage**, **communicate**.",
+   "tip_id": "Di daftar **X, Y, and ___**, lihat bentuk X dan Y terus salin bentuknya.",
+   "tip_en": "In a list **X, Y, and ___**, look at X and Y and copy their form."
+  },
+  {
+   "section": "structure",
+   "type": "structure_completion",
+   "prompt": "The more carefully you read the instructions, ______ mistakes you will make.",
+   "options": [
+    "the fewer",
+    "fewer",
+    "the less",
+    "the fewest"
+   ],
+   "correct_index": 0,
+   "rule_tags": [
+    "S-COMPARE",
+    "S-COUNT"
+   ],
+   "difficulty": 3,
+   "why_correct_id": "Pola **The more …, the …**, makin … makin …, nuntut **the** + comparative di bagian kedua juga. **mistakes** itu [[countable noun|countable-noun]] jamak, jadi pakai **fewer**, bukan **less**. Jawabannya **the fewer**.",
+   "why_correct_en": "**The more …, the …** needs **the** + comparative in the second half too. **mistakes** is a plural countable, so **fewer**, not **less**. The answer is **the fewer**.",
+   "why_wrong_id": {
+    "1": "**fewer** tanpa **the** ngerusak pola **The more …, the …**.",
+    "2": "**less** buat benda tak terhitung. **mistakes** itu terhitung.",
+    "3": "**the fewest** itu superlative, bukan comparative yang dibutuhin pola ini."
+   },
+   "why_wrong_en": {
+    "1": "**fewer** without **the** breaks the **The more …, the …** pattern.",
+    "2": "**less** is for uncountables. **mistakes** is countable.",
+    "3": "**the fewest** is a superlative, not the comparative this pattern needs."
+   },
+   "analogy_id": "Pola **the more …, the fewer …** itu kayak jungkat-jungkit. Satu sisi naik (teliti), sisi lain turun (kesalahan). Dua-duanya pakai **the**.",
+   "analogy_en": "**The more …, the fewer …** is a see-saw. Care goes up, mistakes come down. Both sides take **the**.",
+   "tip_id": "**The + comparative …, the + comparative …**. **fewer** buat yang terhitung, **less** buat yang tak terhitung.",
+   "tip_en": "**The + comparative …, the + comparative …**. **fewer** for countables, **less** for uncountables."
+  },
+  {
+   "section": "structure",
+   "type": "structure_error",
+   "prompt": "The new laptop is {A}lighter{/A}, {B}faster{/B}, and {C}more cheap{/C} than the old {D}model{/D}.",
+   "options": [
+    "lighter",
+    "faster",
+    "more cheap",
+    "model"
+   ],
+   "correct_index": 2,
+   "rule_tags": [
+    "S-COMPARE",
+    "S-PARALLEL"
+   ],
+   "difficulty": 1,
+   "why_correct_id": "**cheap** itu kata pendek, satu suku kata. Jadi bentuk [[comparative]]-nya **cheaper**, bukan **more cheap**. Perbaikan ini juga bikin daftarnya sejajar: **lighter**, **faster**, **cheaper**.",
+   "why_correct_en": "**cheap** is one syllable, so its comparative is **cheaper**, not **more cheap**. That also makes the list parallel: **lighter**, **faster**, **cheaper**.",
+   "why_wrong_id": {
+    "0": "**lighter** itu comparative yang aman.",
+    "1": "**faster** itu comparative yang aman.",
+    "3": "**the old model** itu frasa benda yang pas setelah **than**."
+   },
+   "why_wrong_en": {
+    "0": "**lighter** is a fine comparative.",
+    "1": "**faster** is a fine comparative.",
+    "3": "**the old model** is a fine noun phrase after **than**."
+   },
+   "analogy_id": "Dua gerbong pertama pakai -er. Gerbong ketiga tiba-tiba pakai **more**, padahal ukurannya sama-sama pendek.",
+   "analogy_en": "The first two carriages use -er. The third suddenly uses **more**, though it's just as short.",
+   "tip_id": "Kata satu suku kata plus **more**? Hampir pasti salah. Ubah jadi -er.",
+   "tip_en": "One-syllable word plus **more**? Almost always wrong. Use -er."
+  },
+  {
+   "section": "structure",
+   "type": "structure_error",
+   "prompt": "She enjoys {A}hiking{/A}, {B}to swim{/B}, and {C}riding{/C} her {D}bicycle{/D} on weekends.",
+   "options": [
+    "hiking",
+    "to swim",
+    "riding",
+    "bicycle"
+   ],
+   "correct_index": 1,
+   "rule_tags": [
+    "S-PARALLEL",
+    "S-GERUND-INF"
+   ],
+   "difficulty": 1,
+   "why_correct_id": "Ada tiga kegiatan disambung **and** setelah **enjoys**. Dua di antaranya pakai V-ing, **hiking** dan **riding**, dan **enjoy** memang diikutin V-ing. Jadi **to swim** harus jadi **swimming**.",
+   "why_correct_en": "Three activities follow **enjoys**. Two use V-ing, **hiking** and **riding**, and **enjoy** takes V-ing. So **to swim** should be **swimming**.",
+   "why_wrong_id": {
+    "0": "**hiking** (V-ing) pas setelah **enjoys**.",
+    "2": "**riding** (V-ing) sejajar sama **hiking**.",
+    "3": "**her bicycle** itu objek yang aman."
+   },
+   "why_wrong_en": {
+    "0": "**hiking** (V-ing) fits after **enjoys**.",
+    "2": "**riding** (V-ing) is parallel with **hiking**.",
+    "3": "**her bicycle** is a fine object."
+   },
+   "analogy_id": "Tiga hobi baris kayak seragam tim. Dua pakai -ing, satu pakai **to**. Yang beda seragam harus ganti.",
+   "analogy_en": "Three hobbies lined up in a team kit. Two wear -ing, one wears **to**. The odd one changes.",
+   "tip_id": "**enjoy**, **finish**, **avoid**, **consider** plus V-ing. Ditambah aturan sejajar, semua daftar sesudahnya juga V-ing.",
+   "tip_en": "**enjoy**, **finish**, **avoid**, **consider** take V-ing. With parallelism, the whole list is V-ing."
+  },
+  {
+   "section": "structure",
+   "type": "structure_error",
+   "prompt": "Of all the planets, Jupiter is {A}the{/A} {B}larger{/B}, with a mass {C}greater{/C} than all the others {D}combined{/D}.",
+   "options": [
+    "the",
+    "larger",
+    "greater",
+    "combined"
+   ],
+   "correct_index": 1,
+   "rule_tags": [
+    "S-COMPARE"
+   ],
+   "difficulty": 2,
+   "why_correct_id": "**Of all the planets** ngebandingin Jupiter sama semua planet, jadi butuh [[superlative]]. **larger** itu comparative. Yang bener **largest**.",
+   "why_correct_en": "**Of all the planets** compares Jupiter with every planet, so a superlative is needed. **larger** is a comparative. It should be **largest**.",
+   "why_wrong_id": {
+    "0": "**the** memang dibutuhin sebelum superlative.",
+    "2": "**greater than** udah pas, karena ngebandingin dua hal: massa Jupiter dan gabungan massa planet lain.",
+    "3": "**combined**, digabung, itu bentuk yang pas."
+   },
+   "why_wrong_en": {
+    "0": "**the** is needed before a superlative.",
+    "2": "**greater than** is right. It compares two things: Jupiter's mass and the others combined.",
+    "3": "**combined** is the right form."
+   },
+   "analogy_id": "**Of all** itu kayak lomba yang pesertanya banyak. Pemenangnya **the largest**, bukan **the larger**.",
+   "analogy_en": "**Of all** is a race with many runners. The winner is **the largest**, not **the larger**.",
+   "tip_id": "**Of all**, **among**, **in the world** plus **the ___** butuh superlative. **than** di kalimat yang sama bisa aja ngebandingin dua hal lain.",
+   "tip_en": "**Of all**, **among**, **in the world** plus **the ___** need a superlative. A **than** in the same sentence may compare two other things."
+  },
+  {
+   "section": "structure",
+   "type": "structure_error",
+   "prompt": "Good leaders listen {A}carefully{/A}, speak {B}clearly{/B}, and act {C}fairly{/C} and {D}decisive{/D}.",
+   "options": [
+    "carefully",
+    "clearly",
+    "fairly",
+    "decisive"
+   ],
+   "correct_index": 3,
+   "rule_tags": [
+    "S-PARALLEL",
+    "S-ADJ-ADV"
+   ],
+   "difficulty": 2,
+   "why_correct_id": "Tiap kata kerja diikutin [[adverb]]: **listen carefully**, **speak clearly**, **act fairly**. Kata terakhir juga nerangin **act**, jadi harus adverb: **decisive** jadi **decisively**.",
+   "why_correct_en": "Each verb takes an adverb: **listen carefully**, **speak clearly**, **act fairly**. The last word also describes **act**, so **decisive** becomes **decisively**.",
+   "why_wrong_id": {
+    "0": "**carefully** itu adverb yang pas buat **listen**.",
+    "1": "**clearly** itu adverb yang pas buat **speak**.",
+    "2": "**fairly** itu adverb yang pas buat **act**."
+   },
+   "why_wrong_en": {
+    "0": "**carefully** fits **listen**.",
+    "1": "**clearly** fits **speak**.",
+    "2": "**fairly** fits **act**."
+   },
+   "analogy_id": "Semua gaya nyetir di daftar ini pakai -ly. Satu yang nggak pakai -ly ngerusak barisan.",
+   "analogy_en": "Every driving style in this list ends in -ly. The one without it breaks the line.",
+   "tip_id": "Di daftar panjang, kesalahan sering ada di item terakhir. Cek bentuknya, samain sama item pertama.",
+   "tip_en": "In a long list, the error is often the last item. Check it against the first."
+  },
+  {
+   "section": "structure",
+   "type": "structure_error",
+   "prompt": "This route is {A}not as{/A} {B}long{/B} {C}than{/C} the one through the {D}mountains{/D}.",
+   "options": [
+    "not as",
+    "long",
+    "than",
+    "mountains"
+   ],
+   "correct_index": 2,
+   "rule_tags": [
+    "S-COMPARE"
+   ],
+   "difficulty": 2,
+   "why_correct_id": "Pola perbandingan setara itu **as … as**, atau **not as … as**. **as long than** nyampur dua pola. Jadi **than** harus jadi **as**.",
+   "why_correct_en": "Equal comparisons use **as … as**, or **not as … as**. **as long than** mixes two patterns. So **than** should be **as**.",
+   "why_wrong_id": {
+    "0": "**not as** itu awal pola **not as … as** yang aman.",
+    "1": "**long**, kata sifat bentuk dasar, memang dipakai di pola **as … as**.",
+    "3": "**the mountains** itu frasa benda yang pas."
+   },
+   "why_wrong_en": {
+    "0": "**not as** correctly starts **not as … as**.",
+    "1": "The plain adjective **long** belongs inside **as … as**.",
+    "3": "**the mountains** is a fine noun phrase."
+   },
+   "analogy_id": "**As … as** itu kayak sepasang sepatu: kiri **as**, kanan **as**. Pakai **than** di kaki kanan bikin pasangannya nggak matching.",
+   "analogy_en": "**As … as** is a pair of shoes: left **as**, right **as**. Putting **than** on the right foot breaks the pair.",
+   "tip_id": "**as + kata sifat + AS**. **-er/more + kata sifat + THAN**. Jangan dicampur.",
+   "tip_en": "**as + adjective + AS**. **-er/more + adjective + THAN**. Never mix them."
+  },
+  {
+   "section": "structure",
+   "type": "structure_error",
+   "prompt": "The population of Jakarta is much {A}larger{/A} than {B}Bandung{/B}, although {C}both{/C} cities are {D}growing{/D}.",
+   "options": [
+    "larger",
+    "Bandung",
+    "both",
+    "growing"
+   ],
+   "correct_index": 1,
+   "rule_tags": [
+    "S-COMPARE"
+   ],
+   "difficulty": 3,
+   "why_correct_id": "Yang dibandingin harus sejenis. Bagian pertama **the population of Jakarta**, tapi bagian kedua cuma **Bandung**, kota, bukan populasi. Bandingin populasi sama populasi: **Bandung** jadi **that of Bandung**.",
+   "why_correct_en": "Compare like with like. The first part is **the population of Jakarta**, but the second is just **Bandung**, a city. Population with population: **that of Bandung**.",
+   "why_wrong_id": {
+    "0": "**much larger** itu comparative yang aman dengan penguat **much**.",
+    "2": "**both cities** pas buat dua kota.",
+    "3": "**are growing** itu present continuous yang aman."
+   },
+   "why_wrong_en": {
+    "0": "**much larger** is a fine comparative with **much**.",
+    "2": "**both cities** is right for two cities.",
+    "3": "**are growing** is a fine present continuous."
+   },
+   "analogy_id": "Ngebandingin populasi Jakarta sama kota Bandung itu kayak ngebandingin berat apel sama sebuah jeruk. Yang adil ya berat sama berat.",
+   "analogy_en": "Comparing Jakarta's population with the city of Bandung is like comparing an apple's weight with an orange. Weight against weight is fair.",
+   "tip_id": "Habis **than**, cek yang dibandingin sejenis nggak. Pakai **that of** atau **those of** kalau perlu.",
+   "tip_en": "After **than**, check like is compared with like. Use **that of** or **those of** when needed."
+  },
+  {
+   "section": "reading",
+   "title": "In Praise of Boredom",
+   "body": "We live in an age that treats boredom as a problem to be solved. The moment a line at the supermarket slows down or a bus is late, most of us reach for our phones. Entertainment is always available, and many people now go entire days without experiencing a single empty minute. This may seem like progress, but I believe we are losing something valuable.\n\nBoredom, unpleasant as it is, serves a purpose. Psychologists have suggested that it acts as a signal, telling us that our current activity is not satisfying and pushing us to look for something more meaningful. In one well-known experiment, participants who first completed a dull task, such as copying numbers from a phone book, later came up with more creative ideas than participants who had not been bored. When the mind has nothing to hold on to, it begins to wander, and wandering minds make unexpected connections.\n\nChildren may benefit most of all. A child who is never allowed to be bored never has to invent a game, build a fort out of chairs, or simply sit and imagine. Parents who rush to fill every free moment with organized activities or screens may be **depriving** their children of the chance to discover what truly interests them.\n\nNone of this means that we should seek out boredom for its own sake, or that long, empty afternoons are always pleasant. But the next time you find yourself waiting with nothing to do, consider leaving your phone in your pocket. You might be surprised by where your thoughts take you.",
+   "questions": [
+    {
+     "type": "reading",
+     "subtype": "purpose",
+     "prompt": "What is the author's main purpose in the passage?",
+     "options": [
+      "To argue that boredom can have benefits",
+      "To describe how smartphones are designed",
+      "To criticize supermarkets for long lines",
+      "To explain a new method of teaching children"
+     ],
+     "correct_index": 0,
+     "rule_tags": [
+      "R-PURPOSE"
+     ],
+     "difficulty": 2,
+     "evidence_quote": "This may seem like progress, but I believe we are losing something valuable.",
+     "why_correct_id": "Paragraf 1 ditutup pakai pendapat penulis: **I believe we are losing something valuable**. Paragraf 2 dan 3 ngasih alasan kenapa bosan itu bermanfaat: mancing kreativitas dan ngelatih imajinasi anak. Paragraf 4 ngajak pembaca ngebiarin diri bosan. Jadi tujuannya berargumen kalau bosan itu ada manfaatnya.",
+     "why_correct_en": "Paragraph 1 ends with the author's view: **I believe we are losing something valuable**. Paragraphs 2 and 3 show how boredom helps. Paragraph 4 urges readers to allow it. So the aim is to argue boredom has benefits.",
+     "why_wrong_id": {
+      "1": "Ponsel cuma contoh kebiasaan ngisi waktu kosong. Desainnya nggak dibahas.",
+      "2": "Antrean di supermarket cuma contoh situasi nunggu.",
+      "3": "Anak-anak memang dibahas, tapi nggak ada metode ngajar baru."
+     },
+     "why_wrong_en": {
+      "1": "Phones are just an example of filling empty time. Their design isn't discussed.",
+      "2": "The supermarket queue is just an example of waiting.",
+      "3": "Children come up, but no new teaching method is offered."
+     },
+     "analogy_id": "Teks opini itu kayak pengacara di ruang sidang. **I believe** itu tuntutannya, paragraf berikutnya barang buktinya.",
+     "analogy_en": "An opinion piece is a lawyer in court. **I believe** is the claim, the next paragraphs are the evidence.",
+     "tip_id": "Kata **I believe**, **should**, **consider** nandain teks argumen. Tujuannya biasanya **to argue**.",
+     "tip_en": "**I believe**, **should**, **consider** signal an argument. The purpose is usually **to argue**."
+    },
+    {
+     "type": "reading",
+     "subtype": "purpose",
+     "prompt": "The author's attitude toward constantly filling free time with entertainment can best be described as",
+     "options": [
+      "enthusiastic",
+      "indifferent",
+      "concerned",
+      "amused"
+     ],
+     "correct_index": 2,
+     "rule_tags": [
+      "R-PURPOSE"
+     ],
+     "difficulty": 2,
+     "evidence_quote": "This may seem like progress, but I believe we are losing something valuable.",
+     "why_correct_id": "Penulis bilang kebiasaan nyari hiburan terus **may seem like progress**, kelihatan kayak kemajuan. Tapi dia percaya **we are losing something valuable**, kita kehilangan sesuatu yang berharga. Rasa kehilangan ini nunjukin sikap **concerned**, khawatir.",
+     "why_correct_en": "The author says constant entertainment **may seem like progress**, but believes **we are losing something valuable**. That sense of loss shows a **concerned** attitude.",
+     "why_wrong_id": {
+      "0": "**enthusiastic** (antusias) artinya ndukung. Penulis justru kritis sama kebiasaan ini.",
+      "1": "**indifferent** (cuek) nggak cocok, soalnya penulis nulis satu teks penuh soal ini.",
+      "3": "**amused** (geli) nggak didukung kata-kata di teks. Nadanya serius."
+     },
+     "why_wrong_en": {
+      "0": "**enthusiastic** means supportive. The author is critical.",
+      "1": "**indifferent** doesn't fit someone who wrote a whole piece on it.",
+      "3": "**amused** isn't supported. The tone is serious."
+     },
+     "analogy_id": "Nada khawatir itu kayak orang tua yang bilang kelihatannya sih oke, tapi Ibu cemas…",
+     "analogy_en": "A concerned tone is a parent saying it looks fine, but I'm worried…",
+     "tip_id": "Pola **may seem X, but I believe we are losing Y**? Nadanya khawatir atau kritis, bukan antusias.",
+     "tip_en": "**May seem X, but I believe we are losing Y**? The tone is concerned, not enthusiastic."
+    },
+    {
+     "type": "reading",
+     "subtype": "detail",
+     "prompt": "According to paragraph 2, participants who first completed a dull task",
+     "options": [
+      "became angry with the researchers",
+      "came up with more creative ideas",
+      "copied more numbers than others",
+      "used their phones more often"
+     ],
+     "correct_index": 1,
+     "rule_tags": [
+      "R-DETAIL"
+     ],
+     "difficulty": 1,
+     "evidence_quote": "participants who first completed a dull task, such as copying numbers from a phone book, later came up with more creative ideas than participants who had not been bored.",
+     "why_correct_id": "Kata kunci **dull task** ada di paragraf 2. Kalimatnya bilang peserta yang ngerjain tugas ngebosenin duluan, belakangan ngehasilin ide yang lebih kreatif.",
+     "why_correct_en": "**dull task** is in paragraph 2. Participants who did the dull task first later came up with more creative ideas.",
+     "why_wrong_id": {
+      "0": "Rasa marah nggak disebut.",
+      "2": "Nyalin nomor itu tugas ngebosenin-nya, bukan hasilnya.",
+      "3": "Ponsel nggak disebut di eksperimen ini."
+     },
+     "why_wrong_en": {
+      "0": "Anger isn't mentioned.",
+      "2": "Copying numbers was the dull task, not the result.",
+      "3": "Phones aren't part of this experiment."
+     },
+     "analogy_id": "Hasil eksperimen itu kayak papan skor habis pertandingan. Baca kalimat setelah **later** buat tahu hasilnya.",
+     "analogy_en": "An experiment's result is the scoreboard after the match. Read what follows **later**.",
+     "tip_id": "Di deskripsi eksperimen, bedain perlakuannya (**copying numbers**) sama hasilnya (**more creative ideas**).",
+     "tip_en": "In an experiment, separate the treatment (**copying numbers**) from the result (**more creative ideas**)."
+    },
+    {
+     "type": "reading",
+     "subtype": "vocabulary",
+     "prompt": "The word **depriving** in paragraph 3 is closest in meaning to",
+     "options": [
+      "teaching",
+      "protecting",
+      "reminding",
+      "taking away from"
+     ],
+     "correct_index": 3,
+     "rule_tags": [
+      "R-VOCAB"
+     ],
+     "difficulty": 1,
+     "evidence_quote": "Parents who rush to fill every free moment with organized activities or screens may be depriving their children of the chance to discover what truly interests them.",
+     "why_correct_id": "Orang tua yang selalu ngisi waktu luang anak **may be depriving their children of the chance…**. Menurut penulis, anaknya jadi nggak punya kesempatan nemuin minatnya. Jadi **depriving … of** artinya **taking away from**, ngerampas.",
+     "why_correct_en": "Parents who fill every free moment **may be depriving their children of the chance…**. The kids lose the chance to find their interests. So **depriving … of** means **taking away from**.",
+     "why_wrong_id": {
+      "0": "**teaching … of the chance** nggak masuk akal maknanya.",
+      "1": "**protecting** itu positif. Bentrok sama kritik penulis.",
+      "2": "**reminding … of the chance** artinya ngingetin, kebalikan dari ngilangin."
+     },
+     "why_wrong_en": {
+      "0": "**teaching … of the chance** makes no sense.",
+      "1": "**protecting** is positive, clashing with the author's criticism.",
+      "2": "**reminding … of the chance** is the opposite of removing it."
+     },
+     "analogy_id": "**Deprive of** itu kayak ngambil mainan dari tangan anak. Kesempatannya ilang.",
+     "analogy_en": "**Deprive of** is taking a toy out of a child's hands. The chance is gone.",
+     "tip_id": "Pola **deprive/rob/strip + orang + OF + sesuatu** artinya ngambil sesuatu dari orang itu.",
+     "tip_en": "**deprive/rob/strip + someone + OF + something** means taking it away from them."
+    },
+    {
+     "type": "reading",
+     "subtype": "purpose",
+     "prompt": "Why does the author mention building a fort out of chairs?",
+     "options": [
+      "To give an example of how a bored child might use imagination",
+      "To show that children prefer outdoor games",
+      "To criticize parents who buy too much furniture",
+      "To explain how forts are built"
+     ],
+     "correct_index": 0,
+     "rule_tags": [
+      "R-PURPOSE"
+     ],
+     "difficulty": 3,
+     "evidence_quote": "A child who is never allowed to be bored never has to invent a game, build a fort out of chairs, or simply sit and imagine.",
+     "why_correct_id": "Kalimat itu nyebut hal-hal yang NGGAK perlu dilakuin anak yang nggak pernah bosan: nyiptain permainan, bikin benteng dari kursi, ngelamun. Ketiganya contoh kegiatan imajinatif yang muncul gara-gara bosan. Jadi benteng kursi itu contoh cara anak yang bosan make imajinasinya.",
+     "why_correct_en": "The sentence lists what a never-bored child never has to do: invent a game, build a chair fort, imagine. All three come from boredom. So the chair fort shows a bored child using imagination.",
+     "why_wrong_id": {
+      "1": "Benteng kursi itu mainan di dalam ruangan, dan nggak ada perbandingan sama mainan luar ruangan.",
+      "2": "Penulis ngritik orang tua yang ngisi semua waktu luang, bukan yang beli furnitur.",
+      "3": "Cara bikin benteng nggak dijelasin."
+     },
+     "why_wrong_en": {
+      "1": "A chair fort is an indoor game, and outdoor games aren't compared.",
+      "2": "The author criticizes parents who fill all free time, not furniture buyers.",
+      "3": "How to build a fort isn't explained."
+     },
+     "analogy_id": "Contoh kecil di teks itu kayak foto di album. Bukan fokus utamanya, tapi bikin pesan penulis jadi hidup.",
+     "analogy_en": "A small example is a photo in an album. Not the main point, but it brings the message to life.",
+     "tip_id": "Soal **Why does the author mention X?** sering dijawab **to give an example of …**. Cek gagasan yang dicontohin.",
+     "tip_en": "**Why does the author mention X?** is often **to give an example of …**. Check which idea it illustrates."
+    }
+   ]
+  },
+  {
+   "section": "reading",
+   "title": "The Bridge That Danced",
+   "body": "In June 2000, thousands of people gathered to cross London's newest bridge, a sleek steel footbridge over the River Thames. Within minutes, something unexpected happened: the bridge began to sway from side to side. Walkers grabbed the railings, and many found themselves spreading their feet apart to keep their balance. Two days later, the bridge was closed.\n\nEngineers were puzzled at first. The bridge had been designed to support heavy crowds, and it was in no danger of collapsing. The problem was not its strength but its movement. Investigations eventually revealed a surprising cause: the pedestrians themselves.\n\nWhen people walk, their bodies push slightly to the left and right with each step. Normally, in a crowd, these sideways pushes happen at random and cancel each other out. On the new bridge, however, a small initial sway caused walkers to adjust their steps to the movement, and many began stepping in time with it. As more people fell into the same rhythm, their combined pushes made the sway larger, which in turn caused even more people to step in time. Engineers call this kind of process a positive feedback loop.\n\nThe solution was not to make the bridge stiffer but to absorb the energy of the movement. Engineers installed dozens of dampers, devices that work somewhat like the shock absorbers in a car. The repairs took nearly two years, and when the bridge reopened in 2002, it stood still under the feet of crowds.\n\nThe episode was embarrassing for the designers, but it proved valuable for the engineering profession. Building codes around the world were updated to consider the sideways forces of walking crowds, a factor that had previously received little attention.",
+   "questions": [
+    {
+     "type": "reading",
+     "subtype": "purpose",
+     "prompt": "What is the main purpose of the passage?",
+     "options": [
+      "To criticize the engineers who designed the bridge",
+      "To describe the history of the River Thames",
+      "To compare bridges in different countries",
+      "To explain why a new bridge swayed and how the problem was solved"
+     ],
+     "correct_index": 3,
+     "rule_tags": [
+      "R-PURPOSE",
+      "R-MAIN"
+     ],
+     "difficulty": 1,
+     "evidence_quote": "Investigations eventually revealed a surprising cause: the pedestrians themselves.",
+     "why_correct_id": "Paragraf 1 ngegambarin masalahnya: jembatannya goyang. Paragraf 2 dan 3 ngejelasin penyebabnya, pejalan kaki dan umpan balik positif. Paragraf 4 ngasih solusinya, peredam, dan paragraf 5 dampaknya. Jadi tujuannya ngejelasin kenapa jembatannya goyang dan gimana diberesin.",
+     "why_correct_en": "Paragraph 1 shows the problem: the bridge swayed. Paragraphs 2 and 3 give the cause, walkers and positive feedback. Paragraph 4 gives the fix, dampers, and 5 the impact. So it explains why it swayed and how it was fixed.",
+     "why_wrong_id": {
+      "0": "Penulis nyebut kejadiannya memalukan, tapi juga berharga. Tujuannya ngejelasin, bukan ngritik.",
+      "1": "Sungai Thames cuma lokasi jembatannya.",
+      "2": "Nggak ada jembatan di negara lain yang dibandingin."
+     },
+     "why_wrong_en": {
+      "0": "The author calls it embarrassing but also valuable. The aim is to explain, not criticize.",
+      "1": "The Thames is just where the bridge is.",
+      "2": "No bridges in other countries are compared."
+     },
+     "analogy_id": "Teks masalah, penyebab, solusi itu kayak laporan bengkel: keluhan, diagnosis, perbaikan, dan pelajaran.",
+     "analogy_en": "A problem, cause, solution text is a garage report: complaint, diagnosis, repair, lessons.",
+     "tip_id": "Buat soal tujuan utama, pilih kata kerja yang cocok sama pola teksnya: **explain**, **describe**, **argue**, **compare**.",
+     "tip_en": "For main purpose, pick the verb that matches the text's pattern: **explain**, **describe**, **argue**, **compare**."
+    },
+    {
+     "type": "reading",
+     "subtype": "detail",
+     "prompt": "According to the passage, why was the bridge closed?",
+     "options": [
+      "It was in danger of collapsing.",
+      "It moved from side to side under walkers.",
+      "It was too narrow for large crowds.",
+      "Its railings were broken."
+     ],
+     "correct_index": 1,
+     "rule_tags": [
+      "R-DETAIL"
+     ],
+     "difficulty": 1,
+     "evidence_quote": "the bridge began to sway from side to side.",
+     "why_correct_id": "Paragraf 1 nyeritain jembatannya mulai goyang ke kiri dan ke kanan pas dilewatin banyak orang. Dua hari kemudian jembatannya ditutup. Paragraf 2 nguatin kalau masalahnya gerakan, bukan kekuatan.",
+     "why_correct_en": "Paragraph 1 says the bridge began to sway side to side under the crowds. Two days later it closed. Paragraph 2 confirms the issue was movement, not strength.",
+     "why_wrong_id": {
+      "0": "Teks jelas-jelas bilang **it was in no danger of collapsing**.",
+      "2": "Lebar jembatan nggak disebut sebagai masalah.",
+      "3": "Pagarnya dipegangin pejalan kaki, tapi nggak disebut rusak."
+     },
+     "why_wrong_en": {
+      "0": "The text clearly says **it was in no danger of collapsing**.",
+      "2": "Width isn't raised as a problem.",
+      "3": "Walkers grabbed the railings, but they weren't broken."
+     },
+     "analogy_id": "Pengecoh yang paling serem, kayak roboh, sering langsung dibantah di teks. Cari kalimat bantahannya.",
+     "analogy_en": "The scariest distractor, like collapse, is often denied outright. Find the denial.",
+     "tip_id": "Opsi dramatis yang dibantah teks, kayak **no danger of**, itu jebakan klasik soal detail.",
+     "tip_en": "A dramatic option the text denies, like **no danger of**, is a classic detail trap."
+    },
+    {
+     "type": "reading",
+     "subtype": "purpose",
+     "prompt": "Why does the author mention the shock absorbers in a car?",
+     "options": [
+      "To help explain how the dampers work",
+      "To show that cars could also cross the bridge",
+      "To compare the cost of the repairs with the price of a car",
+      "To suggest that car makers built the bridge"
+     ],
+     "correct_index": 0,
+     "rule_tags": [
+      "R-PURPOSE",
+      "R-ORG"
+     ],
+     "difficulty": 2,
+     "evidence_quote": "Engineers installed dozens of dampers, devices that work somewhat like the shock absorbers in a car.",
+     "why_correct_id": "Kata **dampers** mungkin asing buat pembaca. Penulis langsung ngejelasinnya pakai perbandingan yang akrab: alat yang kerjanya mirip peredam kejut mobil. Jadi tujuannya bantu ngejelasin cara kerja peredamnya.",
+     "why_correct_en": "**dampers** may be unfamiliar. The author explains them with something familiar: devices that work like a car's shock absorbers. So it helps explain how dampers work.",
+     "why_wrong_id": {
+      "1": "Jembatan ini jembatan pejalan kaki, **footbridge**. Mobil nggak lewat situ.",
+      "2": "Biaya perbaikan nggak disebut.",
+      "3": "Nggak ada info soal pembuat mobil."
+     },
+     "why_wrong_en": {
+      "1": "It's a **footbridge**. Cars don't cross it.",
+      "2": "Repair costs aren't mentioned.",
+      "3": "Nothing is said about car makers."
+     },
+     "analogy_id": "Penulis pakai perumpamaan kayak guru yang ngejelasin atom pakai bola pingpong. Benda akrab buat ngejelasin yang asing.",
+     "analogy_en": "The author uses a comparison like a teacher explaining atoms with ping-pong balls. Something familiar for something new.",
+     "tip_id": "Frasa **work like**, **similar to**, **much as**? Tujuannya ngejelasin lewat perbandingan.",
+     "tip_en": "**work like**, **similar to**, **much as**? The purpose is to explain by comparison."
+    },
+    {
+     "type": "reading",
+     "subtype": "purpose",
+     "prompt": "Which of the following best describes the author's attitude toward the designers' mistake?",
+     "options": [
+      "Angry and blaming",
+      "Mocking and amused",
+      "Balanced, noting both the embarrassment and the benefits",
+      "Uninterested in the outcome"
+     ],
+     "correct_index": 2,
+     "rule_tags": [
+      "R-PURPOSE"
+     ],
+     "difficulty": 3,
+     "evidence_quote": "The episode was embarrassing for the designers, but it proved valuable for the engineering profession.",
+     "why_correct_id": "Penulis ngakuin kejadiannya **embarrassing**, memalukan, buat perancangnya. Tapi dia juga bilang kejadian itu **valuable**, berharga, buat profesi teknik. Nyebut sisi negatif dan positif sekaligus nunjukin sikap yang seimbang.",
+     "why_correct_en": "The author admits it was **embarrassing** for the designers, but also calls it **valuable** for engineering. Naming both sides shows a balanced attitude.",
+     "why_wrong_id": {
+      "0": "Penulis nggak nyalahin perancangnya. Dia nyebut insinyurnya awalnya bingung dan penyebabnya ngagetin.",
+      "1": "Nggak ada kata yang ngejek. Nadanya informatif.",
+      "3": "Penulis ngejelasin hasil dan dampaknya panjang lebar, jadi jelas peduli."
+     },
+     "why_wrong_en": {
+      "0": "The author doesn't blame the designers. Engineers were puzzled and the cause was surprising.",
+      "1": "No mocking words appear. The tone is informative.",
+      "3": "The author details the outcome and impact, so the author clearly cares."
+     },
+     "analogy_id": "Nada seimbang itu kayak wasit yang adil. Ngakuin pelanggaran, tapi juga nyatet sisi bagus permainannya.",
+     "analogy_en": "A balanced tone is a fair referee. It calls the foul but also notes the good play.",
+     "tip_id": "Pola **X was embarrassing, but it proved valuable** artinya seimbang. Opsi nada ekstrem biasanya salah di teks informatif.",
+     "tip_en": "**X was embarrassing, but it proved valuable** means balanced. Extreme tones are usually wrong in informative texts."
+    },
+    {
+     "type": "reading",
+     "subtype": "inference",
+     "prompt": "It can be inferred from the last paragraph that before 2000, building codes",
+     "options": [
+      "required footbridges to be made of steel",
+      "banned large crowds on footbridges",
+      "were stricter in London than elsewhere",
+      "gave little attention to the sideways forces of walking crowds"
+     ],
+     "correct_index": 3,
+     "rule_tags": [
+      "R-INFER"
+     ],
+     "difficulty": 2,
+     "evidence_quote": "Building codes around the world were updated to consider the sideways forces of walking crowds, a factor that had previously received little attention.",
+     "why_correct_id": "Habis kejadian ini, aturan bangunan diperbarui biar ngitung gaya ke samping dari kerumunan pejalan kaki. Frasa **a factor that had previously received little attention** nunjukin kalau sebelumnya faktor itu kurang diperhatiin.",
+     "why_correct_en": "After the episode, building codes were updated to consider the sideways forces of crowds. **a factor that had previously received little attention** shows it was mostly ignored before.",
+     "why_wrong_id": {
+      "0": "Bahan baja cuma deskripsi jembatan ini, bukan aturan.",
+      "1": "Nggak ada larangan kerumunan yang disebut.",
+      "2": "Teks bilang aturannya diperbarui **around the world**, tanpa ngebandingin London sama tempat lain."
+     },
+     "why_wrong_en": {
+      "0": "Steel only describes this bridge. It isn't a code.",
+      "1": "No ban on crowds is mentioned.",
+      "2": "Codes were updated **around the world**, with no London comparison."
+     },
+     "analogy_id": "Kalimat diperbarui buat mempertimbangkan X itu kayak tambalan di peta. Artinya bagian itu dulunya kosong.",
+     "analogy_en": "Updated to consider X is a patch on a map. It means that area used to be blank.",
+     "tip_id": "Frasa **previously**, **until then**, **for the first time** itu petunjuk buat nyimpulin keadaan sebelumnya.",
+     "tip_en": "**Previously**, **until then**, **for the first time** are clues for inferring what came before."
+    }
+   ]
+  }
+ ]
+}
