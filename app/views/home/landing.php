@@ -72,7 +72,7 @@ $blokCards = [
     <?php foreach ($blokCards as $b): $k = strtolower($b['code']); ?>
       <article class="card blok-card <?= $b['cls'] ?> reveal">
         <?= partial('pin') ?>
-        <div class="row-between"><span class="blok-letter"><?= $b['code'] ?></span><span class="chip"><?= e(t('landing.cur.qcount', ['n' => $b['n']])) ?></span></div>
+        <div class="row-between"><span class="blok-letter"><?= $b['code'] ?></span><span class="row" style="gap:6px"><span class="chip <?= $b['code'] === 'A' ? 'chip-free' : 'chip-premium' ?>"><?= e(t($b['code'] === 'A' ? 'landing.cur.free' : 'landing.cur.premium')) ?></span><span class="chip"><?= e(t('landing.cur.qcount', ['n' => $b['n']])) ?></span></span></div>
         <h3 class="mt-16"><?= e(t("landing.cur.$k.name")) ?></h3>
         <p class="muted small mb-0"><?= e(t('landing.cur.range', ['r' => $b['range']])) ?></p>
         <ul>

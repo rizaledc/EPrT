@@ -25,8 +25,9 @@ return [
 
     // Kontak admin untuk halaman /kontak (tampil publik). Ganti placeholder ini.
     'contact' => [
-        'email'    => 'admin@perumahaninggris.my.id',
-        'whatsapp' => '+62 812-0000-0000',
+        'email'    => 'hello.rizalwahyu@gmail.com',
+        // Opsional. Kosongkan untuk menyembunyikan WhatsApp di seluruh website.
+        'whatsapp' => '',
     ],
 
     // Zona waktu tampilan

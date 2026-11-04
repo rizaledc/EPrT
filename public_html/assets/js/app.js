@@ -186,6 +186,25 @@ if (acct) {
   });
 }
 
+// Salin email di halaman Kontak
+const copyBtn = $('[data-copy-btn]');
+if (copyBtn) {
+  const text = $('[data-copy-text]')?.textContent.trim() || '';
+  const status = $('[data-copy-status]');
+  copyBtn.addEventListener('click', async () => {
+    let ok = false;
+    try { await navigator.clipboard.writeText(text); ok = true; } catch (e) {
+      // Cadangan untuk browser tanpa Clipboard API
+      const ta = document.createElement('textarea');
+      ta.value = text; ta.setAttribute('readonly', ''); ta.style.position = 'fixed'; ta.style.opacity = '0';
+      document.body.appendChild(ta); ta.select();
+      try { ok = document.execCommand('copy'); } catch (err) { ok = false; }
+      ta.parentNode.removeChild(ta);
+    }
+    if (ok && status) status.textContent = copyBtn.dataset.copied;
+  });
+}
+
 // Flash
 $$('[data-flash-close]').forEach((b) => b.addEventListener('click', () => b.closest('[data-flash]').remove()));
 setTimeout(() => $$('[data-flash]').forEach((f) => f.remove()), 7000);

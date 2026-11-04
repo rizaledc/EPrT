@@ -13,17 +13,29 @@ final class LegalController
 
     public static function content(): array
     {
-        static $all = null;
-        $all ??= require APP_PATH . '/content/legal.php';
-        return $all[active_lang()] ?? $all['id'];
+        static $cache = [];
+        $lang = active_lang();
+        if (!isset($cache[$lang])) {
+            $all = require APP_PATH . '/content/legal.php';
+            $c = $all[$lang] ?? $all['id'];
+            // Saluran kontak menyesuaikan config: tanpa WhatsApp, cukup email
+            $channels = self::contact()['wa'] !== '' ? $c['contact']['channels_both'] : $c['contact']['channels_email'];
+            array_walk_recursive($c, function (&$v) use ($channels) {
+                if (is_string($v)) {
+                    $v = str_replace('{channels}', $channels, $v);
+                }
+            });
+            $cache[$lang] = $c;
+        }
+        return $cache[$lang];
     }
 
-    /** Kontak admin dari config; nilai bawaan hanya placeholder. */
+    /** Kontak admin dari config. WhatsApp opsional: kosong = tidak ditampilkan di mana pun. */
     public static function contact(): array
     {
-        $email = (string) config('contact.email', 'admin@perumahaninggris.my.id');
-        $wa = (string) config('contact.whatsapp', '+62 812-0000-0000');
-        return ['email' => $email, 'wa' => $wa, 'wa_link' => 'https://wa.me/' . preg_replace('/\D/', '', $wa)];
+        $email = trim((string) config('contact.email', 'hello.rizalwahyu@gmail.com')) ?: 'hello.rizalwahyu@gmail.com';
+        $wa = trim((string) config('contact.whatsapp', ''));
+        return ['email' => $email, 'wa' => $wa, 'wa_link' => $wa !== '' ? 'https://wa.me/' . preg_replace('/\D/', '', $wa) : null];
     }
 
     /** Ubah nama halaman di teks legal menjadi link (setelah di-escape). */

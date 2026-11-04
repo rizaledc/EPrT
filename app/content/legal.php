@@ -104,7 +104,7 @@ return [
                 ]],
                 ['h' => '3. Cara mengajukan', 'list' => [
                     'Ajukan paling lambat 7 hari sejak tanggal pembayaran.',
-                    'Hubungi kami lewat email atau WhatsApp di halaman Kontak.',
+                    'Hubungi kami lewat {channels} di halaman Kontak.',
                     'Sertakan username, tanggal pembayaran, nominal, dan bukti pembayaran.',
                 ]],
                 ['h' => '4. Proses', 'p' => [
@@ -122,6 +122,8 @@ return [
             'hours_h' => 'Jam respons',
             'hours' => 'Senin sampai Jumat, 09.00 sampai 17.00 WIB. Pesan biasanya dibalas dalam 1x24 jam kerja.',
             'tips_h' => 'Biar cepat dibantu',
+            'copy' => 'Salin', 'copied' => 'Email disalin', 'write' => 'Tulis email',
+            'channels_email' => 'email', 'channels_both' => 'email atau WhatsApp',
             'tips' => [
                 'Sebutkan username kamu, tapi jangan pernah kirim password.',
                 'Untuk urusan pembayaran, lampirkan tanggal, nominal, dan bukti pembayaran.',
@@ -251,7 +253,7 @@ return [
                 ]],
                 ['h' => '3. How to request', 'list' => [
                     'Submit your request within 7 days of the payment date.',
-                    'Contact us by email or WhatsApp on the Contact page.',
+                    'Contact us by {channels} on the Contact page.',
                     'Include your username, payment date, amount, and proof of payment.',
                 ]],
                 ['h' => '4. Process', 'p' => [
@@ -269,6 +271,8 @@ return [
             'hours_h' => 'Response hours',
             'hours' => 'Monday to Friday, 09:00 to 17:00 Western Indonesia Time (UTC+7). We usually reply within one working day.',
             'tips_h' => 'To get help faster',
+            'copy' => 'Copy', 'copied' => 'Email copied', 'write' => 'Write an email',
+            'channels_email' => 'email', 'channels_both' => 'email or WhatsApp',
             'tips' => [
                 'Mention your username, but never send your password.',
                 'For payment issues, include the date, amount, and proof of payment.',

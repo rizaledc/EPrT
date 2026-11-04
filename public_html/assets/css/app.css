@@ -1165,3 +1165,12 @@ html.menu-lock .nav { background: #fff; }
   .price .amount { font-size: 34px; }
 }
 @media (max-width: 960px), (pointer: coarse) { .legal-nav a { min-height: var(--touch); } }
+
+.trial-banner { display: flex; align-items: flex-start; gap: 8px; margin: 0 0 16px; padding: 10px 14px; border-radius: 12px; background: var(--lime-100, #f4fbd9); border: 1px solid var(--lime-300); font-size: 14px; color: var(--ink-900); max-width: 68ch; }
+.trial-banner svg { flex-shrink: 0; margin-top: 2px; color: var(--ink-700); }
+.chip-free { background: var(--good-100); color: #0e5f36; }
+.chip-premium { background: var(--pink-500); color: #fff; }
+
+.contact-single { grid-template-columns: minmax(0, 1fr); max-width: 560px; }
+.contact-email { user-select: all; }
+.contact-actions { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 8px; }

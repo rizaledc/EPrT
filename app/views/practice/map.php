@@ -45,6 +45,9 @@ $nextId = $next ? (int) $next['id'] : 0;
       <span class="btn btn-secondary btn-sm" aria-disabled="true" title="<?= e(t('map.blok_locked')) ?>"><?= icon('lock', 16) ?> <?= e(t('map.download_blok', ['b' => $b['code']])) ?></span>
     <?php endif; ?>
   </div>
+  <?php if ($b['code'] !== 'A'): ?>
+    <p class="trial-banner"><?= icon('sparkle', 16) ?><span><?= e(t('map.trial_banner')) ?></span></p>
+  <?php endif; ?>
   <div class="houses">
     <?php foreach ($inBlok as $r):
       $p = $progress[(int) $r['id']] ?? null;
@@ -73,6 +76,7 @@ $nextId = $next ? (int) $next['id'] : 0;
   <div class="blok-head">
     <div><span class="eyebrow"><?= e(t('map.sim_eyebrow')) ?></span><h2 id="sim-h"><?= e(t('map.sim_h')) ?></h2></div>
   </div>
+  <p class="trial-banner"><?= icon('sparkle', 16) ?><span><?= e(t('map.trial_banner')) ?></span></p>
   <div class="grid-2">
     <?php foreach ($sims as $s):
       $p = $progress[(int) $s['id']] ?? null; $state = Practice::rumahState($p); $total = Rumah::total($s); ?>
