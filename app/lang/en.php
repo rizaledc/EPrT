@@ -268,4 +268,5 @@ return [
     'history.col.day' => 'Day', 'pdf.col.day' => 'Day',
     'nav.continue' => 'Continue Practice', 'nav.report' => 'Report', 'nav.admin' => 'Admin Panel', 'nav.account_menu' => 'Account menu',
     'auth.register_cta' => 'Sign up free',
+    'legal.pricing' => 'Pricing', 'legal.terms' => 'Terms & Conditions', 'legal.privacy' => 'Privacy Policy', 'legal.refund' => 'Refund Policy', 'legal.contact' => 'Contact', 'footer.legal' => 'Information', 'legal.nav' => 'Information pages',
 ];

@@ -26,6 +26,16 @@ $compact = !empty($compactSponsors);
         </ul>
       </div>
       <div>
+        <h4><?= e(t('footer.legal')) ?></h4>
+        <ul>
+          <li><a href="<?= e(url('harga')) ?>"><?= e(t('legal.pricing')) ?></a></li>
+          <li><a href="<?= e(url('syarat-ketentuan')) ?>"><?= e(t('legal.terms')) ?></a></li>
+          <li><a href="<?= e(url('privasi')) ?>"><?= e(t('legal.privacy')) ?></a></li>
+          <li><a href="<?= e(url('pengembalian-dana')) ?>"><?= e(t('legal.refund')) ?></a></li>
+          <li><a href="<?= e(url('kontak')) ?>"><?= e(t('legal.contact')) ?></a></li>
+        </ul>
+      </div>
+      <div>
         <h4><?= e(t('footer.account')) ?></h4>
         <ul>
           <?php if (current_user()): ?>

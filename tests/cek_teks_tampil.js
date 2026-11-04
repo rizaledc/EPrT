@@ -15,7 +15,7 @@ const BASE = (process.env.BASE || 'http://127.0.0.1:8000').replace(/\/$/, '');
 const MEMBER = (process.env.MEMBER || '').split(':');
 const ADMIN = (process.env.ADMIN || '').split(':');
 
-const GUEST = ['/', '/kamus', '/daftar', '/masuk', '/lupa-password', '/tidak-ada', '/coba'];
+const GUEST = ['/', '/kamus', '/daftar', '/masuk', '/lupa-password', '/tidak-ada', '/harga', '/syarat-ketentuan', '/privasi', '/pengembalian-dana', '/kontak', '/coba'];
 const DAYS = [['a', [1, 2, 3, 4]], ['b', [5, 6, 7, 8]], ['c', [9, 10, 11]], ['d', [12, 13, 14]]]
   .flatMap(([l, ns]) => ns.map((n) => `/latihan/level-${l}/hari-${n}`));
 const MEMBER_PAGES = ['/', '/latihan', ...DAYS, '/simulasi/1', '/simulasi/2', '/riwayat', '/rapor/akhir', '/akun', '/kamus'];

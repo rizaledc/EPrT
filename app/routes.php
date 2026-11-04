@@ -8,6 +8,11 @@ declare(strict_types=1);
 return [
     ['GET',      '/',                                   'HomeController@landing'],
     ['GET',      '/kamus',                              'HomeController@glossary'],
+    ['GET',      '/syarat-ketentuan',                  'LegalController@terms'],
+    ['GET',      '/privasi',                           'LegalController@privacy'],
+    ['GET',      '/pengembalian-dana',                 'LegalController@refund'],
+    ['GET',      '/kontak',                            'LegalController@contactPage'],
+    ['GET',      '/harga',                             'LegalController@pricing'],
     ['GET',      '/bahasa/{lang}',                      'HomeController@setLang'],
     ['GET',      '/robots.txt',                         'HomeController@robots'],
     ['GET',      '/sitemap.xml',                        'HomeController@sitemap'],

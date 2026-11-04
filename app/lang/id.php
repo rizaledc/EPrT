@@ -284,4 +284,5 @@ return [
     'history.col.day' => 'Hari', 'pdf.col.day' => 'Hari',
     'nav.continue' => 'Lanjut Latihan', 'nav.report' => 'Rapor', 'nav.admin' => 'Panel Admin', 'nav.account_menu' => 'Menu akun',
     'auth.register_cta' => 'Daftar gratis',
+    'legal.pricing' => 'Harga', 'legal.terms' => 'Syarat & Ketentuan', 'legal.privacy' => 'Kebijakan Privasi', 'legal.refund' => 'Pengembalian Dana', 'legal.contact' => 'Kontak', 'footer.legal' => 'Informasi', 'legal.nav' => 'Halaman informasi',
 ];

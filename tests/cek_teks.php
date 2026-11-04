@@ -63,7 +63,7 @@ function report(string $area, string $where, string $text): void
 }
 
 /* ---------- 1. File bahasa ---------- */
-foreach (glob("$root/app/lang/*.php") as $file) {
+foreach (array_merge(glob("$root/app/lang/*.php"), glob("$root/app/content/*.php")) as $file) {
     $strings = require $file;
     $walk = function ($v, string $k) use (&$walk, $file) {
         if (is_array($v)) {

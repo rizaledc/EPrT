@@ -58,7 +58,7 @@ final class HomeController
     public function sitemap(): void
     {
         header('Content-Type: application/xml; charset=utf-8');
-        $urls = ['/', '/coba', '/kamus', '/daftar', '/masuk'];
+        $urls = ['/', '/coba', '/kamus', '/harga', '/syarat-ketentuan', '/privasi', '/pengembalian-dana', '/kontak', '/daftar', '/masuk'];
         echo '<?xml version="1.0" encoding="UTF-8"?>' . "\n";
         echo '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">' . "\n";
         foreach ($urls as $u) {

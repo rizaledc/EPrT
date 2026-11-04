@@ -23,6 +23,12 @@ return [
         'charset' => 'utf8mb4',
     ],
 
+    // Kontak admin untuk halaman /kontak (tampil publik). Ganti placeholder ini.
+    'contact' => [
+        'email'    => 'admin@perumahaninggris.my.id',
+        'whatsapp' => '+62 812-0000-0000',
+    ],
+
     // Zona waktu tampilan
     'timezone' => 'Asia/Jakarta',
 
