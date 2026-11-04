@@ -188,12 +188,12 @@
      "why_correct_en": "**Monday?** with a rising tone shows surprise. She thought it was due next Friday, so she expected more time.",
      "why_wrong_id": {
       "0": "Kalau udah dikumpulin, dia nggak bakal kaget soal tenggat.",
-      "1": "Dia kaget soal tenggatnya, bukan soal isi lab-nya.",
+      "1": "Dia nggak bilang Profesor Tan salah. Dia cuma kaget karena tenggatnya ternyata lebih cepat dari yang dia kira.",
       "3": "Jumat itu tenggat yang dia kira, bukan jadwal ketemu dosen."
      },
      "why_wrong_en": {
       "0": "If she'd handed it in, the deadline wouldn't surprise her.",
-      "1": "She's surprised by the deadline, not the lab itself.",
+      "1": "She never says Professor Tan is wrong. She's just surprised the deadline is earlier than she thought.",
       "3": "Friday is the deadline she assumed, not a meeting."
      },
      "analogy_id": "Kayak kaget denger ujian dimajuin. Rasanya waktu belajarmu tiba-tiba kepotong.",
@@ -798,7 +798,7 @@
      "why_correct_id": "Paragraf 1 nyeritain kereta malam yang dulu banyak terus menghilang. Paragraf 2 sampai 5 bahas kebangkitannya: rute baru, alasan, tantangan, dan peran pemerintah. Jadi topiknya turun dan bangkitnya kereta malam di Eropa.",
      "why_correct_en": "Paragraph 1 tells of decline. Paragraphs 2 to 5 cover the revival: new routes, reasons, challenges, and policy. So it's the decline and revival of night trains.",
      "why_wrong_id": {
-      "0": "Maskapai murah cuma satu alasan kereta malam menghilang di paragraf 1. Kesempitan.",
+      "0": "Maskapai murah cuma satu alasan kereta malam menghilang di paragraf 1. Terlalu sempit.",
       "2": "Cara pesan kursi tidur nggak dibahas.",
       "3": "Italia cuma salah satu tujuan rute baru."
      },

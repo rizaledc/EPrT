@@ -4,16 +4,34 @@
  "material_en": "Final Day! This Day has no fixed question set. The system builds **30 questions (10 per section)** from your **Mistake Book**: up to 6 per section that you got wrong before, plus new questions testing the same rules. If your Mistake Book is still thin, the rest comes from the **Level D bank**, with questions you haven't seen placed first. Each time you restart a section, the set is refreshed. A question leaves the Mistake Book after you answer it correctly **2 times in a row**.\n\n=== listening\n## Listening review: find your pattern\nOpen the Mistake Book and check which Listening rules you miss most. Usually it's one of these: the answer is in the second speaker's line, idioms, suggestions, conditionals, or a surprised tone. Once you know your pattern, your ears stay alert for it.\nAnalogy: reviewing is like rewatching a match. You look for the goals you conceded, not every goal you scored.\n> Second speaker → idiom meaning → suggestion form → conditional (opposite of fact) → surprised tone\n✓ Read all four options before the audio starts\n✓ Cross out options that just repeat words from the audio\n✓ In Parts B and C, note numbers, names, and order\n✕ Choosing an option because it repeats an exact word from the audio\n✕ Getting stuck on one missed word\n\n=== structure\n## Structure review: the 30-second check\nOn the test you have about 37 seconds per Structure question. Use the same checking order every time so you don't panic.\nAnalogy: the checking order is a pilot's pre-flight checklist. Same every time, so nothing is missed even when you're in a hurry.\n> [[subject]] + [[verb]] present? → singular/plural match? → verb form → word class → parallel → conjunction vs preposition → comparison → active/passive\n✓ Find the real subject first; skip *of* phrases and clauses in the middle\n✓ In completion questions, cross out options that leave no verb or create two verbs\n✕ Picking a part that just sounds unusual but is grammatically fine\n✕ Spending more than 1 minute on one question\n\n=== reading\n## Reading review: question type first, then the text\nCheck which Reading question types you miss most: main idea, detail, vocabulary, reference, inference, NOT/EXCEPT, or organization. Each type has its own way of reading.\nAnalogy: the question type is the address you give a driver. Once you know it, you don't have to tour the whole city.\n> Main idea → first sentence of each paragraph · detail → scan for keywords · vocabulary → swap the word and reread the sentence · NOT/EXCEPT → tick the three options that appear in the text\n✓ Do questions that name a paragraph number first\n✓ Make sure an inference answer is backed by a sentence in the text\n✕ Choosing an option that is true in general but not in the text\n✕ Choosing a main idea that fits only one paragraph",
  "items": [
   {
-   "section": "listening", "part": "A",
+   "section": "listening",
+   "part": "A",
    "script": [
-    {"speaker": "W1", "text": "I've read this chapter twice, and I still can't keep the dates straight."},
-    {"speaker": "M2", "text": "Why don't you put them on a timeline instead of rereading the whole thing?"}
+    {
+     "speaker": "W1",
+     "text": "I've read this chapter twice, and I still can't keep the dates straight."
+    },
+    {
+     "speaker": "M2",
+     "text": "Why don't you put them on a timeline instead of rereading the whole thing?"
+    }
    ],
    "questions": [
     {
-     "type": "listening_short", "prompt": "What does the man suggest the woman do?",
-     "options": ["Read the chapter a third time.", "Arrange the dates visually in order.", "Ask the professor which dates are important.", "Skip the chapter and study the next one."],
-     "correct_index": 1, "rule_tags": ["L-SUGGEST", "L-SECOND"], "difficulty": 1,
+     "type": "listening_short",
+     "prompt": "What does the man suggest the woman do?",
+     "options": [
+      "Read the chapter a third time.",
+      "Arrange the dates visually in order.",
+      "Ask the professor which dates are important.",
+      "Skip the chapter and study the next one."
+     ],
+     "correct_index": 1,
+     "rule_tags": [
+      "L-SUGGEST",
+      "L-SECOND"
+     ],
+     "difficulty": 1,
      "key_sentence": "Why don't you put them on a timeline instead of rereading the whole thing?",
      "key_translation_id": "Kenapa nggak kamu taruh aja tanggal-tanggalnya di garis waktu, daripada baca ulang semuanya?",
      "why_correct_id": "**Why don't you** itu bentuk saran. Sarannya: taruh tanggalnya di **timeline** (garis waktu). Artinya nyusun tanggal secara visual dan berurutan.",
@@ -37,16 +55,33 @@
    ]
   },
   {
-   "section": "listening", "part": "A",
+   "section": "listening",
+   "part": "A",
    "script": [
-    {"speaker": "M1", "text": "Did you end up going to the career fair on Saturday?"},
-    {"speaker": "W2", "text": "If I'd known the engineering firms were coming, I wouldn't have stayed home."}
+    {
+     "speaker": "M1",
+     "text": "Did you end up going to the career fair on Saturday?"
+    },
+    {
+     "speaker": "W2",
+     "text": "If I'd known the engineering firms were coming, I wouldn't have stayed home."
+    }
    ],
    "questions": [
     {
-     "type": "listening_short", "prompt": "What does the woman imply?",
-     "options": ["She talked with several engineering firms.", "She plans to stay home next Saturday.", "She did not know where the fair was held.", "She missed the fair and now regrets it."],
-     "correct_index": 3, "rule_tags": ["L-CONDITION"], "difficulty": 2,
+     "type": "listening_short",
+     "prompt": "What does the woman imply?",
+     "options": [
+      "She talked with several engineering firms.",
+      "She plans to stay home next Saturday.",
+      "She did not know where the fair was held.",
+      "She missed the fair and now regrets it."
+     ],
+     "correct_index": 3,
+     "rule_tags": [
+      "L-CONDITION"
+     ],
+     "difficulty": 2,
      "key_sentence": "If I'd known the engineering firms were coming, I wouldn't have stayed home.",
      "key_translation_id": "Kalau aku tahu perusahaan teknik bakal datang, aku nggak bakal cuma diam di kos.",
      "why_correct_id": "**If I'd known... I wouldn't have stayed home** itu conditional (pengandaian) masa lalu. Faktanya kebalikannya: dia nggak tahu dan tetap di tempatnya. Jadi dia nggak datang dan sekarang nyesel.",
@@ -70,16 +105,33 @@
    ]
   },
   {
-   "section": "listening", "part": "A",
+   "section": "listening",
+   "part": "A",
    "script": [
-    {"speaker": "W1", "text": "Are you ready for tomorrow's chemistry practical?"},
-    {"speaker": "M4", "text": "Not quite. I'll be burning the midnight oil tonight, I'm afraid."}
+    {
+     "speaker": "W1",
+     "text": "Are you ready for tomorrow's chemistry practical?"
+    },
+    {
+     "speaker": "M4",
+     "text": "Not quite. I'll be burning the midnight oil tonight, I'm afraid."
+    }
    ],
    "questions": [
     {
-     "type": "listening_short", "prompt": "What does the man mean?",
-     "options": ["He will study until very late tonight.", "He will cook something before the practical.", "He needs to buy more supplies for the lab.", "He has finished preparing for the practical."],
-     "correct_index": 0, "rule_tags": ["L-IDIOM"], "difficulty": 2,
+     "type": "listening_short",
+     "prompt": "What does the man mean?",
+     "options": [
+      "He will study until very late tonight.",
+      "He will cook something before the practical.",
+      "He needs to buy more supplies for the lab.",
+      "He has finished preparing for the practical."
+     ],
+     "correct_index": 0,
+     "rule_tags": [
+      "L-IDIOM"
+     ],
+     "difficulty": 2,
      "key_sentence": "I'll be burning the midnight oil tonight, I'm afraid.",
      "key_translation_id": "Kayaknya aku bakal begadang belajar malam ini.",
      "why_correct_id": "**burn the midnight oil** itu idiom yang artinya belajar atau kerja sampai larut malam. Dia belum siap, jadi malam ini begadang.",
@@ -103,16 +155,34 @@
    ]
   },
   {
-   "section": "listening", "part": "A",
+   "section": "listening",
+   "part": "A",
    "script": [
-    {"speaker": "M1", "text": "Apparently the library's closing the third floor for renovation next week."},
-    {"speaker": "W2", "text": "Again? They only reopened it in March."}
+    {
+     "speaker": "M1",
+     "text": "Apparently the library's closing the third floor for renovation next week."
+    },
+    {
+     "speaker": "W2",
+     "text": "Again? They only reopened it in March."
+    }
    ],
    "questions": [
     {
-     "type": "listening_short", "prompt": "What can be inferred about the woman?",
-     "options": ["She is pleased that the floor will be improved.", "She often studies on the third floor.", "She believes the floor was renovated not long ago.", "She thinks the library will close in March."],
-     "correct_index": 2, "rule_tags": ["L-SURPRISE", "L-INFER"], "difficulty": 3,
+     "type": "listening_short",
+     "prompt": "What can be inferred about the woman?",
+     "options": [
+      "She is pleased that the floor will be improved.",
+      "She often studies on the third floor.",
+      "She believes the floor was renovated not long ago.",
+      "She thinks the library will close in March."
+     ],
+     "correct_index": 2,
+     "rule_tags": [
+      "L-SURPRISE",
+      "L-INFER"
+     ],
+     "difficulty": 3,
      "key_sentence": "Again? They only reopened it in March.",
      "key_translation_id": "Lagi? Kan baru dibuka lagi bulan Maret.",
      "why_correct_id": "**Again?** dengan nada naik itu tanda kaget. Lalu **They only reopened it in March** artinya lantainya baru aja selesai direnovasi. Jadi dia merasa renovasinya belum lama.",
@@ -136,22 +206,57 @@
    ]
   },
   {
-   "section": "listening", "part": "B",
+   "section": "listening",
+   "part": "B",
    "script": [
-    {"speaker": "M1", "text": "Hey, Rina. Have you heard from Tom about our marketing presentation?"},
-    {"speaker": "W1", "text": "Not a word. He was supposed to send the survey results on Monday, and it's already Thursday."},
-    {"speaker": "M1", "text": "That's what worries me. Without his data, our slides are basically empty."},
-    {"speaker": "W1", "text": "I know. I've sent him two messages, but he hasn't answered either of them."},
-    {"speaker": "M1", "text": "Do you think we should tell Professor Lim?"},
-    {"speaker": "W1", "text": "Not yet. Let's give him until tonight. If he still doesn't reply, we can run a quick survey ourselves in the cafeteria tomorrow."},
-    {"speaker": "M1", "text": "That could work. Fifty responses would be enough for the charts."},
-    {"speaker": "W1", "text": "Right. And if Tom sends his data later, we'll just compare the two sets."}
+    {
+     "speaker": "M1",
+     "text": "Hey, Rina. Have you heard from Tom about our marketing presentation?"
+    },
+    {
+     "speaker": "W1",
+     "text": "Not a word. He was supposed to send the survey results on Monday, and it's already Thursday."
+    },
+    {
+     "speaker": "M1",
+     "text": "That's what worries me. Without his data, our slides are basically empty."
+    },
+    {
+     "speaker": "W1",
+     "text": "I know. I've sent him two messages, but he hasn't answered either of them."
+    },
+    {
+     "speaker": "M1",
+     "text": "Do you think we should tell Professor Lim?"
+    },
+    {
+     "speaker": "W1",
+     "text": "Not yet. Let's give him until tonight. If he still doesn't reply, we can run a quick survey ourselves in the cafeteria tomorrow."
+    },
+    {
+     "speaker": "M1",
+     "text": "That could work. Fifty responses would be enough for the charts."
+    },
+    {
+     "speaker": "W1",
+     "text": "Right. And if Tom sends his data later, we'll just compare the two sets."
+    }
    ],
    "questions": [
     {
-     "type": "listening_long", "prompt": "What are the speakers mainly discussing?",
-     "options": ["How to write good survey questions", "Why Professor Lim changed the deadline", "A missing part of their group presentation", "Where they should give their presentation"],
-     "correct_index": 2, "rule_tags": ["L-TOPIC"], "difficulty": 1,
+     "type": "listening_long",
+     "prompt": "What are the speakers mainly discussing?",
+     "options": [
+      "How to write good survey questions",
+      "Why Professor Lim changed the deadline",
+      "A missing part of their group presentation",
+      "Where they should give their presentation"
+     ],
+     "correct_index": 2,
+     "rule_tags": [
+      "L-TOPIC"
+     ],
+     "difficulty": 1,
      "key_sentence": "Without his data, our slides are basically empty.",
      "key_translation_id": "Tanpa datanya, slide kita pada dasarnya kosong.",
      "why_correct_id": "Dari awal sampai akhir mereka bahas data survei Tom yang belum dikirim. Tanpa data itu **our slides are basically empty**. Jadi topiknya bagian presentasi yang hilang.",
@@ -172,9 +277,19 @@
      "tip_en": "Topic question? Listen for the problem in the first 2 to 3 turns. The rest is usually the fix."
     },
     {
-     "type": "listening_long", "prompt": "When was Tom supposed to send the survey results?",
-     "options": ["On Monday", "On Thursday", "Tonight", "Tomorrow"],
-     "correct_index": 0, "rule_tags": ["L-DETAIL"], "difficulty": 2,
+     "type": "listening_long",
+     "prompt": "When was Tom supposed to send the survey results?",
+     "options": [
+      "On Monday",
+      "On Thursday",
+      "Tonight",
+      "Tomorrow"
+     ],
+     "correct_index": 0,
+     "rule_tags": [
+      "L-DETAIL"
+     ],
+     "difficulty": 2,
      "key_sentence": "He was supposed to send the survey results on Monday, and it's already Thursday.",
      "key_translation_id": "Harusnya dia kirim hasil survei hari Senin, dan sekarang udah Kamis.",
      "why_correct_id": "**was supposed to send... on Monday** artinya harusnya dikirim Senin. Kamis itu hari ini, waktu mereka ngobrol.",
@@ -195,9 +310,20 @@
      "tip_en": "When many times are mentioned, note each with its event. **supposed to** marks the original plan."
     },
     {
-     "type": "listening_long", "prompt": "What will the speakers probably do if Tom does not reply tonight?",
-     "options": ["Report Tom to Professor Lim immediately", "Present their slides without any charts", "Ask Tom to repeat his survey", "Collect their own survey responses"],
-     "correct_index": 3, "rule_tags": ["L-DETAIL", "L-INFER"], "difficulty": 3,
+     "type": "listening_long",
+     "prompt": "What will the speakers probably do if Tom does not reply tonight?",
+     "options": [
+      "Report Tom to Professor Lim immediately",
+      "Present their slides without any charts",
+      "Ask Tom to repeat his survey",
+      "Collect their own survey responses"
+     ],
+     "correct_index": 3,
+     "rule_tags": [
+      "L-DETAIL",
+      "L-INFER"
+     ],
+     "difficulty": 3,
      "key_sentence": "If he still doesn't reply, we can run a quick survey ourselves in the cafeteria tomorrow.",
      "key_translation_id": "Kalau dia tetap nggak balas, besok kita bisa bikin survei kilat sendiri di kafetaria.",
      "why_correct_id": "Rina bilang **we can run a quick survey ourselves**. Si pria setuju dan bilang lima puluh jawaban cukup. Jadi mereka bakal ngumpulin jawaban survei sendiri.",
@@ -220,28 +346,43 @@
    ]
   },
   {
-   "section": "listening", "part": "C",
+   "section": "listening",
+   "part": "C",
    "script": [
-    {"speaker": "LEC", "text": "Today I want to look at a decision that honeybees make only rarely, but that matters enormously: choosing a new nest site. In late spring, a large colony often splits. The old queen leaves with about ten thousand workers, and the swarm hangs from a tree branch while it decides where to live. Surprisingly, the queen plays no part in this choice. Instead, a few hundred older bees act as scouts. They fly off, inspect hollow trees, and judge each cavity by its size, the width of its entrance, and how dry it is. When a scout returns, she performs a dance on the surface of the swarm. The better the site, the longer and more energetically she dances, so more bees are recruited to visit it. Over several hours, support shifts toward the best option. The decision is made once about fifteen scouts are gathered at the same site at the same time. At that point, the scouts return and signal the whole swarm to warm up its flight muscles, and within an hour the colony takes off for its new home."}
+    {
+     "speaker": "LEC",
+     "text": "Today I want to talk about one of the strangest timetables in the plant world: the flowering of bamboo. Most plants flower every year, but many bamboo species flower only once every few decades, and then they die. One Chinese species, for example, flowers roughly every one hundred and twenty years. What is truly remarkable is that all the plants of a species tend to flower at the same time, even when they are growing in different countries, because they seem to share the same internal clock. Biologists believe this strategy protects the seeds. When a whole forest flowers together, it produces far more seeds than animals can possibly eat, so many of them survive to grow. However, the strategy has a side effect. In parts of northeastern India, one common species flowers about every forty-eight years. The sudden supply of seeds causes the rat population to explode. Once the seeds are gone, the rats move into farmers' fields and eat the crops, which can lead to serious food shortages. Today, local governments watch the bamboo closely, and when flowering begins, they help farmers store grain and protect their fields."
+    }
    ],
    "questions": [
     {
-     "type": "listening_lecture", "prompt": "What is the lecture mainly about?",
-     "options": ["Why old queens leave their colonies", "How a bee swarm selects a new nest site", "How bees build cavities inside trees", "How long worker bees usually live"],
-     "correct_index": 1, "rule_tags": ["L-TOPIC", "L-LECTURE"], "difficulty": 2,
-     "key_sentence": "Today I want to look at a decision that honeybees make only rarely, but that matters enormously: choosing a new nest site.",
-     "key_translation_id": "Hari ini saya mau membahas keputusan yang jarang dibuat lebah madu, tapi sangat penting: memilih lokasi sarang baru.",
-     "why_correct_id": "Dosen langsung nyebut topiknya di kalimat pertama: **choosing a new nest site**. Sisa ceramah ngejelasin cara kawanan lebah milih lokasi itu.",
-     "why_correct_en": "The lecturer states it up front: **choosing a new nest site**. The rest explains how the swarm makes that choice.",
+     "type": "listening_lecture",
+     "prompt": "What is the lecture mainly about?",
+     "options": [
+      "Why bamboo grows faster than other plants",
+      "The unusual flowering cycle of bamboo and its effects",
+      "How farmers in India grow bamboo",
+      "Why rats prefer to live in bamboo forests"
+     ],
+     "correct_index": 1,
+     "rule_tags": [
+      "L-TOPIC",
+      "L-LECTURE"
+     ],
+     "difficulty": 2,
+     "key_sentence": "Today I want to talk about one of the strangest timetables in the plant world: the flowering of bamboo.",
+     "key_translation_id": "Hari ini saya mau membahas salah satu jadwal paling aneh di dunia tumbuhan: pembungaan bambu.",
+     "why_correct_id": "Dosen langsung nyebut topiknya di kalimat pertama: **the flowering of bamboo**. Sisanya ngejelasin siklus berbunganya dan akibatnya buat petani.",
+     "why_correct_en": "The lecturer names it up front: **the flowering of bamboo**. The rest covers the cycle and its effects.",
      "why_wrong_id": {
-      "0": "Ratu yang pergi cuma latar belakang, bukan fokus ceramah.",
-      "2": "Lebah memeriksa lubang pohon yang sudah ada, bukan membangunnya.",
-      "3": "Umur lebah pekerja nggak dibahas."
+      "0": "Kecepatan tumbuh bambu nggak dibahas.",
+      "2": "Petani India disebut karena sawahnya dirusak tikus, bukan karena nanam bambu.",
+      "3": "Tikus datang karena bijinya melimpah, bukan karena suka hutan bambu."
      },
      "why_wrong_en": {
-      "0": "The queen leaving is just background.",
-      "2": "Bees inspect existing hollows; they don't build them.",
-      "3": "Worker life span isn't discussed."
+      "0": "Growth speed isn't discussed.",
+      "2": "Indian farmers suffer from the rats; they don't grow bamboo.",
+      "3": "Rats come for the seeds, not the forest."
      },
      "analogy_id": "Kalimat pertama ceramah itu kayak judul film di poster. Isinya ya sesuai judulnya.",
      "analogy_en": "A lecture's first sentence is the title on the poster. The film matches it.",
@@ -249,58 +390,89 @@
      "tip_en": "The lecture topic is almost always in **Today I want to** or **Let's look at**."
     },
     {
-     "type": "listening_lecture", "prompt": "According to the professor, how many scouts must be at one site for the decision to be made?",
-     "options": ["About ten", "A few hundred", "About ten thousand", "About fifteen"],
-     "correct_index": 3, "rule_tags": ["L-LECTURE", "L-DETAIL"], "difficulty": 2,
-     "key_sentence": "The decision is made once about fifteen scouts are gathered at the same site at the same time.",
-     "key_translation_id": "Keputusan diambil begitu sekitar lima belas pengintai berkumpul di lokasi yang sama pada waktu yang sama.",
-     "why_correct_id": "Kalimat kuncinya: **once about fifteen scouts are gathered at the same site**. Jadi butuh sekitar lima belas pengintai di satu lokasi.",
-     "why_correct_en": "The key line: **once about fifteen scouts are gathered at the same site**. About fifteen.",
+     "type": "listening_lecture",
+     "prompt": "According to the professor, how often does one common bamboo species flower in northeastern India?",
+     "options": [
+      "Every year",
+      "About every eight years",
+      "About every one hundred and twenty years",
+      "About every forty-eight years"
+     ],
+     "correct_index": 3,
+     "rule_tags": [
+      "L-LECTURE",
+      "L-DETAIL"
+     ],
+     "difficulty": 2,
+     "key_sentence": "In parts of northeastern India, one common species flowers about every forty-eight years.",
+     "key_translation_id": "Di sebagian wilayah timur laut India, satu spesies yang umum berbunga sekitar tiap empat puluh delapan tahun.",
+     "why_correct_id": "Kalimat kuncinya: **In parts of northeastern India, one common species flowers about every forty-eight years**. Jadi sekitar empat puluh delapan tahun sekali.",
+     "why_correct_en": "The key line: in northeastern India it **flowers about every forty-eight years**.",
      "why_wrong_id": {
-      "0": "Sepuluh itu dari **ten thousand**, jumlah lebah pekerja. Jebakan bunyi.",
-      "1": "**A few hundred** itu jumlah semua pengintai, bukan yang harus kumpul di satu lokasi.",
-      "2": "Sepuluh ribu itu jumlah lebah pekerja yang ikut ratu."
+      "0": "Tiap tahun itu kebiasaan kebanyakan tumbuhan lain, bukan bambu.",
+      "1": "Delapan tahun nggak disebut. Ini jebakan bunyi dari **forty-eight**.",
+      "2": "Seratus dua puluh tahun itu spesies dari Tiongkok."
      },
      "why_wrong_en": {
-      "0": "Ten comes from **ten thousand**, the workers. A sound trap.",
-      "1": "**A few hundred** is all the scouts, not those needed at one site.",
-      "2": "Ten thousand is the number of workers with the queen."
+      "0": "Every year is most other plants.",
+      "1": "Eight isn't mentioned; it echoes **forty-eight**.",
+      "2": "One hundred and twenty years is the Chinese species."
      },
-     "analogy_id": "Ini kayak rapat yang baru sah kalau kuorum. Kuorumnya lebah: sekitar lima belas pengintai di satu lokasi.",
-     "analogy_en": "It's like a meeting that needs a quorum. For bees, the quorum is about fifteen scouts at one site.",
-     "tip_id": "Lecture yang penuh angka? Catat tiap angka dengan bendanya. Soal biasanya ngejebak pakai angka lain.",
-     "tip_en": "Number-heavy lecture? Note each number with its noun. Distractors use the other numbers."
+     "analogy_id": "Ada dua angka tahun di lecture ini, kayak dua jadwal kereta. Soalnya nanya jadwal yang di India.",
+     "analogy_en": "Two numbers, like two train timetables. The question asks for the India one.",
+     "tip_id": "Lecture yang penuh angka? Catat tiap angka dengan tempatnya. Pengecohnya biasanya angka lain dari lecture itu juga.",
+     "tip_en": "Number-heavy lecture? Note each number with its place. Distractors reuse the other numbers."
     },
     {
-     "type": "listening_lecture", "prompt": "What happens after the scouts reach agreement?",
-     "options": ["The swarm warms up its muscles before flying.", "The queen inspects the chosen site.", "The scouts perform a longer dance.", "The swarm divides into two groups."],
-     "correct_index": 0, "rule_tags": ["L-LECTURE"], "difficulty": 3,
-     "key_sentence": "At that point, the scouts return and signal the whole swarm to warm up its flight muscles, and within an hour the colony takes off for its new home.",
-     "key_translation_id": "Saat itu, para pengintai kembali dan memberi isyarat ke seluruh kawanan untuk memanaskan otot terbangnya, dan dalam satu jam koloni berangkat ke tempat barunya.",
-     "why_correct_id": "**At that point** nyambung ke saat keputusan diambil. Habis itu kawanan disuruh **warm up its flight muscles**, lalu terbang. Jadi otot dipanaskan dulu baru terbang.",
-     "why_correct_en": "**At that point** follows the decision. The swarm is told to **warm up its flight muscles**, then it flies off.",
+     "type": "listening_lecture",
+     "prompt": "What happens after the bamboo seeds are gone?",
+     "options": [
+      "The rats move into farmers' fields.",
+      "The bamboo plants begin to flower again.",
+      "Farmers plant new bamboo forests.",
+      "Local governments stop watching the bamboo."
+     ],
+     "correct_index": 0,
+     "rule_tags": [
+      "L-LECTURE"
+     ],
+     "difficulty": 3,
+     "key_sentence": "Once the seeds are gone, the rats move into farmers' fields and eat the crops, which can lead to serious food shortages.",
+     "key_translation_id": "Begitu bijinya habis, tikus pindah ke ladang petani dan memakan tanamannya, yang bisa menyebabkan kekurangan pangan serius.",
+     "why_correct_id": "**Once the seeds are gone** itu penanda urutan. Begitu bijinya habis, tikus-tikus itu pindah ke ladang petani: **the rats move into** the fields.",
+     "why_correct_en": "**Once the seeds are gone**, **the rats move into** the farm fields.",
      "why_wrong_id": {
-      "1": "Dosen bilang ratu **plays no part in this choice**.",
-      "2": "Tarian terjadi sebelum kesepakatan, buat ngajak lebah lain.",
-      "3": "Koloni terbelah di awal cerita, sebelum pengintai berangkat."
+      "1": "Bambunya justru mati setelah berbunga, dan baru berbunga lagi puluhan tahun kemudian.",
+      "2": "Nanam bambu baru nggak disebut.",
+      "3": "Kebalikannya. Pemerintah setempat justru mengawasi bambu dengan ketat."
      },
      "why_wrong_en": {
-      "1": "The queen **plays no part in this choice**.",
-      "2": "Dancing happens before agreement, to recruit bees.",
-      "3": "The colony splits at the start, before scouting."
+      "1": "The bamboo dies after flowering and won't flower for decades.",
+      "2": "Planting bamboo isn't mentioned.",
+      "3": "The opposite: governments watch it closely."
      },
-     "analogy_id": "Ini kayak pelari sebelum lomba. Begitu aba-aba siap terdengar, pemanasan dulu, baru lari.",
-     "analogy_en": "It's like runners before a race. At the ready call, they warm up, then go.",
-     "tip_id": "Soal urutan? Pegang kata penanda kayak **At that point**, **then**, atau **after**. Itu penunjuk langkah berikutnya.",
-     "tip_en": "Sequence question? Hold on to markers like **At that point**, **then**, **after**."
+     "analogy_id": "Ini kayak prasmanan yang tiba-tiba habis. Tamunya nggak pulang, malah pindah ke dapur sebelah.",
+     "analogy_en": "It's like a buffet running out. The guests don't leave; they raid the kitchen next door.",
+     "tip_id": "Soal urutan? Pegang kata penanda kayak **Once**, **then**, atau **after**. Itu penunjuk langkah berikutnya.",
+     "tip_en": "Sequence question? Hold on to markers like **Once**, **then**, **after**."
     }
    ]
   },
   {
-   "section": "structure", "type": "structure_completion",
+   "section": "structure",
+   "type": "structure_completion",
    "prompt": "Not only ______ the exam early, but she also helped her classmates review the difficult chapters.",
-   "options": ["she finished", "finished she", "did she finish", "she did finish"],
-   "correct_index": 2, "rule_tags": ["S-INVERSION"], "difficulty": 2,
+   "options": [
+    "she finished",
+    "finished she",
+    "did she finish",
+    "she did finish"
+   ],
+   "correct_index": 2,
+   "rule_tags": [
+    "S-INVERSION"
+   ],
+   "difficulty": 2,
    "why_correct_id": "Kalimat dibuka **Not only**, jadi harus inversi (urutan dibalik). Polanya: **Not only + did + pelaku + V1**. Jadi **did she finish**.",
    "why_correct_en": "Opening with **Not only** triggers inversion: **Not only + did + subject + base verb**. So **did she finish**.",
    "why_wrong_id": {
@@ -319,10 +491,21 @@
    "tip_en": "Opening with **Not only, Never, Rarely**? Pick the option with helper + subject."
   },
   {
-   "section": "structure", "type": "structure_completion",
+   "section": "structure",
+   "type": "structure_completion",
    "prompt": "The number of students who live on campus ______ every year since the new dormitories opened.",
-   "options": ["has increased", "have increased", "are increasing", "increasing"],
-   "correct_index": 0, "rule_tags": ["S-AGREE", "S-PERFECT-V3"], "difficulty": 2,
+   "options": [
+    "has increased",
+    "have increased",
+    "are increasing",
+    "increasing"
+   ],
+   "correct_index": 0,
+   "rule_tags": [
+    "S-AGREE",
+    "S-PERFECT-V3"
+   ],
+   "difficulty": 2,
    "why_correct_id": "Pelaku aslinya **The number**, tunggal. Ada **since**, jadi pakai present perfect (have/has + V3). Tunggal + present perfect = **has increased**.",
    "why_correct_en": "The real subject is **The number**, singular. **since** calls for present perfect. Singular: **has increased**.",
    "why_wrong_id": {
@@ -341,21 +524,31 @@
    "tip_en": "**The number of** is singular. **A number of** is plural. This pair shows up a lot."
   },
   {
-   "section": "structure", "type": "structure_completion",
-   "prompt": "______ the heavy rain, the outdoor concert continued as planned.",
-   "options": ["Although", "Because", "Even though", "Despite"],
-   "correct_index": 3, "rule_tags": ["S-CONJ-PREP"], "difficulty": 1,
-   "why_correct_id": "Setelah rumpang cuma ada frasa benda **the heavy rain**, tanpa kata kerja. Frasa benda butuh preposition (kata depan). Maknanya bertentangan, jadi **Despite**.",
-   "why_correct_en": "After the blank is a noun phrase, **the heavy rain**, with no verb. That needs a preposition, and the meaning is contrast: **Despite**.",
+   "section": "structure",
+   "type": "structure_completion",
+   "prompt": "______ the strong winds along the coast, the sailing race started exactly on time.",
+   "options": [
+    "Although",
+    "However",
+    "Even though",
+    "Despite"
+   ],
+   "correct_index": 3,
+   "rule_tags": [
+    "S-CONJ-PREP"
+   ],
+   "difficulty": 1,
+   "why_correct_id": "Setelah rumpang cuma ada frasa benda **the strong winds along the coast**, tanpa kata kerja. Frasa benda butuh preposition (kata depan). Maknanya bertentangan, jadi **Despite**.",
+   "why_correct_en": "After the blank is a noun phrase with no verb. That needs a preposition of contrast: **Despite**.",
    "why_wrong_id": {
     "0": "**Although** itu conjunction (kata sambung). Dia butuh pelaku + kata kerja, bukan cuma frasa benda.",
-    "1": "**Because** juga kata sambung. Maknanya juga salah: hujan bukan alasan konser lanjut.",
+    "1": "**However** itu kata penghubung antarkalimat, biasanya diikuti koma. Nggak bisa langsung nempel ke frasa benda.",
     "2": "**Even though** sama kayak **Although**. Butuh anak kalimat lengkap."
    },
    "why_wrong_en": {
-    "0": "**Although** is a conjunction. It needs a subject and verb, not just a noun phrase.",
-    "1": "**Because** is a conjunction, and rain isn't why the concert went on.",
-    "2": "**Even though** works like **Although**. It needs a full clause."
+    "0": "**Although** needs a subject and verb.",
+    "1": "**However** links sentences and takes a comma; it can't take a noun phrase.",
+    "2": "**Even though** needs a full clause."
    },
    "analogy_id": "Kata sambung itu gandengan truk, butuh truk lengkap di belakangnya. Kata depan cukup ditempel satu kardus, alias frasa benda.",
    "analogy_en": "A conjunction is a trailer hitch that needs a full truck behind it. A preposition just needs one box: a noun phrase.",
@@ -363,32 +556,53 @@
    "tip_en": "Verb after the blank? **Although**. Just a noun? **Despite**."
   },
   {
-   "section": "structure", "type": "structure_completion",
-   "prompt": "The museum, ______ in 1890, attracts thousands of visitors every summer.",
-   "options": ["which built", "built", "was built", "it was built"],
-   "correct_index": 1, "rule_tags": ["S-REDUCED"], "difficulty": 3,
-   "why_correct_id": "Kalimat utamanya **The museum attracts**. Rumpang di antara koma cuma keterangan. Bentuk lengkapnya **which was built**, dan bisa dipendekkan jadi reduced clause (anak kalimat yang dipendekkan) **built**.",
-   "why_correct_en": "The main clause is **The museum attracts**. The blank is extra info: **which was built**, reduced to **built**.",
+   "section": "structure",
+   "type": "structure_completion",
+   "prompt": "The observatory, ______ on a hilltop outside the city in 1925, still holds its original telescope.",
+   "options": [
+    "which was building",
+    "constructed",
+    "has constructed",
+    "was constructed"
+   ],
+   "correct_index": 1,
+   "rule_tags": [
+    "S-REDUCED"
+   ],
+   "difficulty": 3,
+   "why_correct_id": "Kalimat utamanya **The observatory still holds**. Rumpang di antara koma cuma keterangan. Bentuk lengkapnya **which was constructed**, dan bisa dipendekkan jadi reduced clause (anak kalimat yang dipendekkan) **constructed**.",
+   "why_correct_en": "The main clause is **The observatory still holds**. The blank is extra info: **which was constructed**, reduced to **constructed**.",
    "why_wrong_id": {
-    "0": "**which built** itu aktif: museumnya yang membangun sesuatu. Harusnya museum yang dibangun.",
-    "2": "**was built** bikin kalimat punya dua kata kerja utama tanpa kata sambung.",
-    "3": "**it was built** nambah pelaku dan kata kerja baru di tengah kalimat. Jadi dobel."
+    "0": "**which was building** itu aktif: observatoriumnya yang lagi membangun sesuatu. Harusnya dia yang dibangun.",
+    "2": "**has constructed** juga aktif dan bikin kalimat punya dua kata kerja utama.",
+    "3": "**was constructed** tanpa **which** bikin dua kata kerja utama tanpa kata sambung."
    },
    "why_wrong_en": {
-    "0": "**which built** is active: the museum built something. It was built.",
-    "2": "**was built** gives two main verbs with no connector.",
-    "3": "**it was built** adds a second subject and verb mid-sentence."
+    "0": "**which was building** is active: the observatory would be building something.",
+    "2": "**has constructed** is active and adds a second main verb.",
+    "3": "**was constructed** without **which** gives two main verbs."
    },
-   "analogy_id": "**which was built** itu koper besar. Biar muat di kabin, buang **which was** dan bawa **built** aja.",
-   "analogy_en": "**which was built** is a big suitcase. To fit the cabin, drop **which was** and carry **built**.",
+   "analogy_id": "**which was constructed** itu koper besar. Biar muat di kabin, buang **which was** dan bawa **constructed** aja.",
+   "analogy_en": "**which was constructed** is a big suitcase. To fit the cabin, drop **which was** and carry **constructed**.",
    "tip_id": "Rumpang di antara dua koma setelah kata benda? Coba bentuk V3 atau -ing tanpa **which**.",
    "tip_en": "Blank between commas after a noun? Try a V3 or -ing form without **which**."
   },
   {
-   "section": "structure", "type": "structure_error",
+   "section": "structure",
+   "type": "structure_error",
    "prompt": "Each of the volunteers {A}who joined{/A} the beach cleanup {B}were given{/B} a {C}reusable{/C} water bottle {D}at the end{/D} of the day.",
-   "options": ["who joined", "were given", "reusable", "at the end"],
-   "correct_index": 1, "rule_tags": ["S-AGREE-EACH", "S-AGREE-OF"], "difficulty": 2,
+   "options": [
+    "who joined",
+    "were given",
+    "reusable",
+    "at the end"
+   ],
+   "correct_index": 1,
+   "rule_tags": [
+    "S-AGREE-EACH",
+    "S-AGREE-OF"
+   ],
+   "difficulty": 2,
    "why_correct_id": "Pelaku aslinya **Each**, tunggal. Frasa **of the volunteers** cuma tempelan. Jadi kata kerjanya harus tunggal: **was given**, bukan **were given**.",
    "why_correct_en": "The real subject is **Each**, singular. **of the volunteers** is just attached. So: **was given**.",
    "why_wrong_id": {
@@ -407,10 +621,20 @@
    "tip_en": "See **Each of**, **One of**, **Every**? Cross out the **of** phrase and check for a singular verb."
   },
   {
-   "section": "structure", "type": "structure_error",
+   "section": "structure",
+   "type": "structure_error",
    "prompt": "The new software allows users {A}to organize{/A} files, share documents, and {B}track{/B} changes {C}far{/C} more {D}efficient{/D} than before.",
-   "options": ["to organize", "track", "far", "efficient"],
-   "correct_index": 3, "rule_tags": ["S-ADJ-ADV"], "difficulty": 2,
+   "options": [
+    "to organize",
+    "track",
+    "far",
+    "efficient"
+   ],
+   "correct_index": 3,
+   "rule_tags": [
+    "S-ADJ-ADV"
+   ],
+   "difficulty": 2,
    "why_correct_id": "Yang diterangin di sini kata kerja **track** (dan dua kata kerja sebelumnya): cara melacaknya. Yang nerangin kata kerja harus adverb (kata keterangan). Jadi **more efficiently**.",
    "why_correct_en": "The word describes how users **track** changes, a verb. Verbs take adverbs: **more efficiently**.",
    "why_wrong_id": {
@@ -429,10 +653,21 @@
    "tip_en": "Adjective after a verb + object? Ask: does it describe the thing or the way? The way needs -ly."
   },
   {
-   "section": "structure", "type": "structure_error",
+   "section": "structure",
+   "type": "structure_error",
    "prompt": "The marine biologist {A}whose{/A} research {B}on coral reefs{/B} won the award {C}she has{/C} spent twenty years {D}studying{/D} ocean temperatures.",
-   "options": ["whose", "on coral reefs", "she has", "studying"],
-   "correct_index": 2, "rule_tags": ["S-REDUNDANT", "S-RELATIVE"], "difficulty": 3,
+   "options": [
+    "whose",
+    "on coral reefs",
+    "she has",
+    "studying"
+   ],
+   "correct_index": 2,
+   "rule_tags": [
+    "S-REDUNDANT",
+    "S-RELATIVE"
+   ],
+   "difficulty": 3,
    "why_correct_id": "Pelakunya **The marine biologist**, lalu ada anak kalimat **whose research... won the award**. Terus muncul **she** lagi. Itu pelaku dobel. Yang bener cukup **has spent**.",
    "why_correct_en": "The subject is **The marine biologist**, followed by the clause **whose research... won the award**. Then **she** repeats the subject. It should be just **has spent**.",
    "why_wrong_id": {
@@ -451,10 +686,21 @@
    "tip_en": "Long clause after the subject? Skip it, then check for a repeated subject."
   },
   {
-   "section": "structure", "type": "structure_error",
+   "section": "structure",
+   "type": "structure_error",
    "prompt": "The {A}popular{/A} of online courses {B}has grown{/B} rapidly {C}because{/C} they allow students {D}to learn{/D} at their own pace.",
-   "options": ["popular", "has grown", "because", "to learn"],
-   "correct_index": 0, "rule_tags": ["S-WORDFORM", "S-WORDCLASS"], "difficulty": 1,
+   "options": [
+    "popular",
+    "has grown",
+    "because",
+    "to learn"
+   ],
+   "correct_index": 0,
+   "rule_tags": [
+    "S-WORDFORM",
+    "S-WORDCLASS"
+   ],
+   "difficulty": 1,
    "why_correct_id": "Setelah **The** dan sebelum **of**, posisinya harus noun (kata benda). **popular** itu kata sifat. Bentuk bendanya **popularity**.",
    "why_correct_en": "Between **The** and **of** you need a noun. **popular** is an adjective; the noun is **popularity**.",
    "why_wrong_id": {
@@ -473,10 +719,20 @@
    "tip_en": "**the ___ of** almost always wants a noun. Check the ending: -ity, -tion, -ment, -ness."
   },
   {
-   "section": "structure", "type": "structure_error",
+   "section": "structure",
+   "type": "structure_error",
    "prompt": "Of all the routes {A}to the summit{/A}, the northern trail is {B}by far{/B} {C}the more dangerous{/C} {D}one{/D}.",
-   "options": ["to the summit", "by far", "the more dangerous", "one"],
-   "correct_index": 2, "rule_tags": ["S-COMPARE"], "difficulty": 2,
+   "options": [
+    "to the summit",
+    "by far",
+    "the more dangerous",
+    "one"
+   ],
+   "correct_index": 2,
+   "rule_tags": [
+    "S-COMPARE"
+   ],
+   "difficulty": 2,
    "why_correct_id": "**Of all the routes** artinya dibandingin sama banyak jalur, lebih dari dua. Itu butuh superlative (bentuk paling): **the most dangerous**.",
    "why_correct_en": "**Of all the routes** compares many routes, more than two. That needs a superlative: **the most dangerous**.",
    "why_wrong_id": {
@@ -495,10 +751,20 @@
    "tip_en": "See **of all** or **in the world**? That signals a superlative: **the most** or -est."
   },
   {
-   "section": "structure", "type": "structure_error",
+   "section": "structure",
+   "type": "structure_error",
    "prompt": "After {A}finishing{/A} her thesis, Maya seriously considered {B}to apply{/B} for a {C}research{/C} position {D}abroad{/D}.",
-   "options": ["finishing", "to apply", "research", "abroad"],
-   "correct_index": 1, "rule_tags": ["S-GERUND-INF"], "difficulty": 3,
+   "options": [
+    "finishing",
+    "to apply",
+    "research",
+    "abroad"
+   ],
+   "correct_index": 1,
+   "rule_tags": [
+    "S-GERUND-INF"
+   ],
+   "difficulty": 3,
    "why_correct_id": "Kata kerja **consider** selalu diikuti gerund (kata kerja + ing), bukan to + V1. Jadi yang bener **considered applying**.",
    "why_correct_en": "**consider** is always followed by a gerund, not to + verb. It should be **considered applying**.",
    "why_wrong_id": {
@@ -517,38 +783,61 @@
    "tip_en": "Memorize the -ing crew: **consider, enjoy, avoid, finish, suggest, mind**. Check the verb after them."
   },
   {
-   "section": "reading", "title": "Farming Above the City",
-   "body": "In many large cities, the most promising new farmland is not on the edge of town but directly overhead. Over the past two decades, rooftop farms have spread from a handful of experimental gardens to thousands of commercial operations in cities such as Singapore, Montreal, and New York. Their supporters argue that flat roofs, which are otherwise wasted space, can supply fresh vegetables to the neighborhoods below while making buildings more comfortable.\n\nThe environmental benefits are easiest to measure in summer. A bare roof can reach temperatures above 60 degrees Celsius, and that heat passes into the rooms beneath it. A layer of soil and plants absorbs much of this energy and releases moisture into the air, so the floors under a green roof often need **considerably** less air conditioning. Rooftop beds also hold rainwater that would otherwise rush into storm drains, reducing the risk of flooding during heavy storms.\n\nHowever, rooftop farming is far from simple. Soil is heavy, especially when wet, and many older buildings were never designed to carry that kind of load. Before planting, owners usually have to hire engineers to inspect the structure, and some roofs must be reinforced at great expense. To limit the weight, many farms use shallow beds of lightweight growing material instead of ordinary earth, which restricts them to crops with short roots, such as lettuce, herbs, and tomatoes.\n\nEconomic questions remain as well. Because rooftop space is limited, these farms produce only a small fraction of the food that a city consumes. Most survive by selling to restaurants that will pay high prices for produce picked the same morning, or by charging residents a monthly fee for a weekly box of vegetables. A few operators have discovered that **they** earn more from tours and workshops than from the crops themselves.\n\nEven so, city planners increasingly see rooftop farms as part of a broader strategy rather than a complete solution. A single farm will not feed a city, but hundreds of them could cool neighborhoods, manage stormwater, and reconnect urban residents with the way their food is grown.",
+   "section": "reading",
+   "title": "Saving Seeds for the Future",
+   "body": "Around the world, more than 1,700 seed banks store samples of the plants that humans depend on for food. The best known is the Svalbard Global Seed Vault, built inside a mountain on a remote Norwegian island about 1,300 kilometers from the North Pole. Since it opened in 2008, it has received more than a million samples from almost every country. Its purpose is simple: if crops are lost to war, disease, or natural disaster, the stored seeds can be used to grow them again.\n\nThe location was chosen carefully. The vault sits about 130 meters above sea level, high enough to remain dry even if polar ice melts. The surrounding rock is permanently frozen, so even if the cooling system failed, the seeds would stay cold. Inside, they are kept at minus 18 degrees Celsius, a temperature at which many seeds can survive **considerably** longer than they would in an ordinary storeroom, in some cases for hundreds of years.\n\nStoring seeds is not as simple as putting them in a freezer, however. Each sample must first be dried until only a small percentage of water remains, because ice crystals would otherwise damage the cells. Not every plant can be saved this way. The seeds of many tropical trees, as well as those of crops such as cocoa and avocado, die when they are dried, so they must be preserved by other methods, such as growing living plants in field collections.\n\nSeed banks also face practical problems. Even frozen seeds slowly lose their ability to sprout, so samples have to be tested every few years and replaced when too many fail. This requires planting them, growing new plants, and collecting fresh seeds, a process that takes space, time, and money. Many national seed banks struggle to pay for this work, which is one reason **they** send duplicate samples to Svalbard for safekeeping.\n\nThe vault has already proved its value. In 2015, researchers whose seed bank near Aleppo, Syria, had been damaged by war withdrew samples they had deposited years earlier. They used them to rebuild their collection in Lebanon and Morocco, and later returned new samples to the vault. For its supporters, this was proof that a frozen room in the Arctic can protect something as important as the future of farming.",
    "questions": [
     {
-     "type": "reading", "subtype": "main_idea", "prompt": "What does the passage mainly discuss?",
-     "options": ["The benefits and challenges of farming on city rooftops", "Methods for reinforcing the roofs of older buildings", "Why restaurants prefer vegetables picked the same morning", "The history of farming in Singapore and Montreal"],
-     "correct_index": 0, "rule_tags": ["R-MAIN"], "difficulty": 1,
-     "evidence_quote": "Their supporters argue that flat roofs, which are otherwise wasted space, can supply fresh vegetables to the neighborhoods below while making buildings more comfortable.",
-     "why_correct_id": "Paragraf 1 ngenalin kebun atap. Paragraf 2 manfaatnya, paragraf 3 dan 4 tantangannya, paragraf 5 kesimpulannya. Jadi isinya manfaat plus tantangan kebun di atap kota.",
-     "why_correct_en": "Paragraph 1 introduces rooftop farms, 2 gives benefits, 3 and 4 give challenges, 5 concludes. Benefits and challenges.",
+     "type": "reading",
+     "subtype": "main_idea",
+     "prompt": "What does the passage mainly discuss?",
+     "options": [
+      "The purpose and challenges of storing seeds in seed banks",
+      "The history of farming in Norway",
+      "How war damaged a seed bank in Syria",
+      "Why tropical trees cannot grow in the Arctic"
+     ],
+     "correct_index": 0,
+     "rule_tags": [
+      "R-MAIN"
+     ],
+     "difficulty": 1,
+     "evidence_quote": "Its purpose is simple: if crops are lost to war, disease, or natural disaster, the stored seeds can be used to grow them again.",
+     "why_correct_id": "Paragraf 1 dan 2 jelasin tujuan dan lokasi bank benih. Paragraf 3 dan 4 tantangannya. Paragraf 5 buktinya berguna. Jadi isinya tujuan plus tantangan nyimpan benih.",
+     "why_correct_en": "Paragraphs 1 and 2 give the purpose and site, 3 and 4 the challenges, 5 a success. Purpose and challenges.",
      "why_wrong_id": {
-      "1": "Penguatan atap cuma satu detail di paragraf 3.",
-      "2": "Restoran cuma disebut sekilas di paragraf 4.",
-      "3": "Singapura dan Montreal cuma contoh kota. Sejarah pertaniannya nggak dibahas."
+      "1": "Norwegia cuma lokasi bank benihnya. Sejarah pertaniannya nggak dibahas.",
+      "2": "Kisah Suriah cuma contoh di paragraf terakhir.",
+      "3": "Pohon tropis disebut karena bijinya mati kalau dikeringkan, bukan soal tumbuh di Arktik."
      },
      "why_wrong_en": {
-      "1": "Reinforcing roofs is one detail in paragraph 3.",
-      "2": "Restaurants appear briefly in paragraph 4.",
-      "3": "Singapore and Montreal are just examples. No farming history."
+      "1": "Norway is only the location.",
+      "2": "Syria is one example in the last paragraph.",
+      "3": "Tropical seeds die when dried; it's not about the Arctic."
      },
      "analogy_id": "Main idea itu payung. Harus nutupin semua paragraf, bukan cuma satu orang yang kehujanan.",
      "analogy_en": "The main idea is an umbrella. It must cover every paragraph, not just one.",
-     "tip_id": "Ada kata **However** di tengah teks? Biasanya teksnya bahas dua sisi: plus dan minus.",
-     "tip_en": "A **However** mid-text often means the passage covers both sides."
+     "tip_id": "Ada kata **however** atau **also face problems** di tengah teks? Biasanya teksnya bahas dua sisi.",
+     "tip_en": "A **however** mid-text often means the passage covers both sides."
     },
     {
-     "type": "reading", "subtype": "vocabulary", "prompt": "The word **considerably** in paragraph 2 is closest in meaning to",
-     "options": ["slightly", "occasionally", "substantially", "carefully"],
-     "correct_index": 2, "rule_tags": ["R-VOCAB"], "difficulty": 2,
-     "evidence_quote": "A layer of soil and plants absorbs much of this energy and releases moisture into the air, so the floors under a green roof often need considerably less air conditioning.",
-     "why_correct_id": "Tanah dan tanaman menyerap **much of this energy**, banyak banget panasnya. Jadi AC-nya berkurang banyak. **considerably** artinya cukup besar, sama dengan **substantially**.",
-     "why_correct_en": "Plants absorb **much of this energy**, so cooling needs drop a lot. **considerably** means **substantially**.",
+     "type": "reading",
+     "subtype": "vocabulary",
+     "prompt": "The word **considerably** in paragraph 2 is closest in meaning to",
+     "options": [
+      "slightly",
+      "occasionally",
+      "substantially",
+      "carefully"
+     ],
+     "correct_index": 2,
+     "rule_tags": [
+      "R-VOCAB"
+     ],
+     "difficulty": 2,
+     "evidence_quote": "Inside, they are kept at minus 18 degrees Celsius, a temperature at which many seeds can survive considerably longer than they would in an ordinary storeroom, in some cases for hundreds of years.",
+     "why_correct_id": "Di suhu minus 18 derajat, benih bisa tahan **in some cases for hundreds of years**, jauh lebih lama. **considerably** artinya cukup besar, sama dengan **substantially**.",
+     "why_correct_en": "Seeds last **for hundreds of years** in some cases, much longer. **considerably** = **substantially**.",
      "why_wrong_id": {
       "0": "**slightly** artinya sedikit. Kebalikan dari maksud kalimatnya.",
       "1": "**occasionally** artinya kadang-kadang. Itu soal frekuensi, bukan jumlah.",
@@ -565,65 +854,98 @@
      "tip_en": "Swap each option into the sentence and reread. Keep the one that keeps the meaning."
     },
     {
-     "type": "reading", "subtype": "detail", "prompt": "According to paragraph 3, why do many rooftop farms grow crops such as lettuce and herbs?",
-     "options": ["These crops sell for the highest prices.", "Their shallow growing beds cannot support plants with deep roots.", "These crops need very little water.", "Engineers recommend them for older buildings."],
-     "correct_index": 1, "rule_tags": ["R-DETAIL"], "difficulty": 2,
-     "evidence_quote": "To limit the weight, many farms use shallow beds of lightweight growing material instead of ordinary earth, which restricts them to crops with short roots, such as lettuce, herbs, and tomatoes.",
-     "why_correct_id": "Biar ringan, kebun atap pakai bedengan dangkal. Itu **restricts them to crops with short roots**. Jadi mereka cuma bisa nanam yang akarnya pendek.",
-     "why_correct_en": "To save weight, farms use shallow beds, which **restricts them to crops with short roots**.",
+     "type": "reading",
+     "subtype": "detail",
+     "prompt": "According to paragraph 3, why can the seeds of cocoa and avocado NOT be stored in the usual way?",
+     "options": [
+      "They are too large to fit in the vault.",
+      "They die when they are dried.",
+      "They need warm temperatures to sprout.",
+      "They are not important food crops."
+     ],
+     "correct_index": 1,
+     "rule_tags": [
+      "R-DETAIL"
+     ],
+     "difficulty": 2,
+     "evidence_quote": "The seeds of many tropical trees, as well as those of crops such as cocoa and avocado, die when they are dried, so they must be preserved by other methods, such as growing living plants in field collections.",
+     "why_correct_id": "Sebelum dibekukan, benih harus dikeringkan dulu. Biji kakao dan alpukat **die when they are dried**. Jadi cara biasa nggak bisa dipakai.",
+     "why_correct_en": "Seeds must be dried first, and cocoa and avocado seeds **die when they are dried**.",
      "why_wrong_id": {
-      "0": "Harga tinggi dibahas di paragraf 4, dan itu soal kesegaran, bukan jenis tanaman.",
-      "2": "Kebutuhan air tanaman nggak disebut.",
-      "3": "Insinyur memeriksa bangunan, bukan merekomendasikan tanaman."
+      "0": "Ukuran biji nggak disebut.",
+      "2": "Suhu buat bertunas nggak dibahas.",
+      "3": "Kakao dan alpukat justru disebut sebagai tanaman pangan."
      },
      "why_wrong_en": {
-      "0": "High prices are in paragraph 4 and are about freshness.",
-      "2": "Water needs aren't mentioned.",
-      "3": "Engineers inspect buildings; they don't pick crops."
+      "0": "Seed size isn't mentioned.",
+      "2": "Sprouting temperature isn't discussed.",
+      "3": "They are named as crops."
      },
-     "analogy_id": "Bedengan dangkal itu kayak kolam anak. Cuma muat yang pendek, yang jangkung nggak bisa berdiri di situ.",
-     "analogy_en": "Shallow beds are like a kiddie pool. Only short things fit; tall ones can't stand there.",
-     "tip_id": "Soal **why** di Reading? Cari kata sebab kayak **because**, **so**, **to limit**, atau **which restricts**.",
-     "tip_en": "A **why** question? Scan for cause words: **because**, **so**, **to limit**, **which restricts**."
+     "analogy_id": "Ini kayak baju yang nggak boleh masuk mesin pengering. Cara cuci biasa malah bikin rusak.",
+     "analogy_en": "Like clothes that can't go in the dryer. The usual method ruins them.",
+     "tip_id": "Soal **why** di Reading? Cari kata sebab kayak **because**, **so**, atau keterangan yang nempel langsung ke kata kunci.",
+     "tip_en": "A **why** question? Scan for **because**, **so**, or a phrase attached to the keyword."
     },
     {
-     "type": "reading", "subtype": "inference", "prompt": "It can be inferred from paragraph 4 that some rooftop farms",
-     "options": ["supply most of the vegetables sold in large cities", "rarely sell their produce to restaurants", "are cheaper to operate than ordinary farms", "may find activities related to the farm more profitable than farming itself"],
-     "correct_index": 3, "rule_tags": ["R-INFER"], "difficulty": 3,
-     "evidence_quote": "A few operators have discovered that they earn more from tours and workshops than from the crops themselves.",
-     "why_correct_id": "Beberapa pengelola **earn more from tours and workshops than from the crops**. Tur dan pelatihan itu kegiatan seputar kebun, dan hasilnya lebih gede dari panen. Jadi opsi D.",
-     "why_correct_en": "Some operators **earn more from tours and workshops than from the crops**. Farm-related activities beat farming itself.",
+     "type": "reading",
+     "subtype": "inference",
+     "prompt": "It can be inferred from paragraph 4 that keeping a seed collection usable",
+     "options": [
+      "requires only a reliable freezer",
+      "is cheaper for national seed banks than for Svalbard",
+      "can be done without ever planting the seeds",
+      "involves ongoing work, not just storage"
+     ],
+     "correct_index": 3,
+     "rule_tags": [
+      "R-INFER"
+     ],
+     "difficulty": 3,
+     "evidence_quote": "Even frozen seeds slowly lose their ability to sprout, so samples have to be tested every few years and replaced when too many fail.",
+     "why_correct_id": "Benih beku pun lama-lama melemah, jadi harus **tested every few years and replaced**. Artinya ada kerja terus-menerus, bukan cuma disimpan.",
+     "why_correct_en": "Samples must be **tested every few years and replaced**, so it's ongoing work.",
      "why_wrong_id": {
-      "0": "Teks bilang mereka cuma ngasih **a small fraction**, sebagian kecil.",
-      "1": "Kebalikannya. **Most survive by selling to restaurants**.",
-      "2": "Biaya dibanding kebun biasa nggak dibahas. Malah ada biaya penguatan atap yang mahal."
+      "0": "Kebalikannya. Teks bilang nyimpan benih **not as simple as putting them in a freezer**.",
+      "1": "Teks bilang bank benih nasional justru kesulitan biaya.",
+      "2": "Kebalikannya. Penggantian butuh **planting them**."
      },
      "why_wrong_en": {
-      "0": "They produce only **a small fraction**.",
-      "1": "The opposite: **Most survive by selling to restaurants**.",
-      "2": "No cost comparison; roof reinforcement is actually expensive."
+      "0": "It's **not as simple as putting them in a freezer**.",
+      "1": "National banks struggle to pay.",
+      "2": "Replacement requires **planting them**."
      },
-     "analogy_id": "Kayak kafe yang untungnya lebih gede dari kelas memasak daripada jualan kopinya.",
-     "analogy_en": "Like a café that earns more from cooking classes than from selling coffee.",
+     "analogy_id": "Kayak baterai cadangan di laci. Walau nggak dipakai, tetap harus dicek dan diganti berkala.",
+     "analogy_en": "Like spare batteries in a drawer. Unused, they still need checking and replacing.",
      "tip_id": "Jawaban inference itu langkah kecil dari teks, bukan lompatan jauh. Cari opsi yang paling dekat sama kalimat bukti.",
-     "tip_en": "An inference is a small step from the text, not a leap. Pick the option closest to the evidence."
+     "tip_en": "An inference is a small step from the text. Pick the option closest to the evidence."
     },
     {
-     "type": "reading", "subtype": "reference", "prompt": "The word **they** in paragraph 4 refers to",
-     "options": ["restaurants", "operators", "residents", "crops"],
-     "correct_index": 1, "rule_tags": ["R-REF"], "difficulty": 2,
-     "evidence_quote": "A few operators have discovered that they earn more from tours and workshops than from the crops themselves.",
-     "why_correct_id": "Yang **have discovered** sesuatu itu **A few operators**. Yang dapat duit dari tur ya pengelolanya juga. Jadi **they** = **operators**.",
-     "why_correct_en": "**A few operators** discovered something, and they are the ones earning from tours. **they** = **operators**.",
+     "type": "reading",
+     "subtype": "reference",
+     "prompt": "The word **they** in paragraph 4 refers to",
+     "options": [
+      "seeds",
+      "national seed banks",
+      "new plants",
+      "duplicate samples"
+     ],
+     "correct_index": 1,
+     "rule_tags": [
+      "R-REF"
+     ],
+     "difficulty": 2,
+     "evidence_quote": "Many national seed banks struggle to pay for this work, which is one reason they send duplicate samples to Svalbard for safekeeping.",
+     "why_correct_id": "Yang **struggle to pay** itu **Many national seed banks**. Yang ngirim sampel cadangan ke Svalbard ya mereka juga. Jadi **they** = **national seed banks**.",
+     "why_correct_en": "**Many national seed banks** struggle to pay, so **they** send copies. **they** = national seed banks.",
      "why_wrong_id": {
-      "0": "Restoran itu pembeli sayur, bukan yang ngadain tur.",
-      "2": "Warga bayar langganan sayur. Mereka nggak dapat untung dari tur.",
-      "3": "**crops** muncul sesudah **they** dan justru dibandingin. Tanaman nggak bisa dapat duit."
+      "0": "Benih nggak bisa ngirim apa-apa.",
+      "2": "Tanaman baru bagian dari proses penggantian, bukan yang ngirim sampel.",
+      "3": "**duplicate samples** itu barang yang dikirim, muncul sesudah **they**."
      },
      "why_wrong_en": {
-      "0": "Restaurants buy produce; they don't run tours.",
-      "2": "Residents pay fees; they don't earn from tours.",
-      "3": "**crops** come after **they** and are compared with it. Crops can't earn."
+      "0": "Seeds can't send anything.",
+      "2": "New plants don't send samples.",
+      "3": "**duplicate samples** are what is sent."
      },
      "analogy_id": "Kata ganti itu kayak panggilan nama pendek di grup. Cari siapa yang barusan disebut dan cocok sama aksinya.",
      "analogy_en": "A pronoun is a nickname in a group chat. Find who was just mentioned and fits the action.",
@@ -633,112 +955,168 @@
    ]
   },
   {
-   "section": "reading", "title": "How Railways Changed the Clock",
-   "body": "Until the late nineteenth century, nearly every town in North America kept its own time. Local noon was set at the moment the sun stood highest in the sky, and because the sun appears to move westward, noon in Boston arrived several minutes earlier than noon in New York. For most of history, such small differences hardly mattered. A farmer or shopkeeper rarely traveled far enough in a day to notice them.\n\nThe railways changed that. By the 1870s, trains could carry passengers hundreds of kilometers in a single day, and each railway company ran its timetable on the local time of its headquarters or main station. A traveler crossing the country might pass through dozens of local times, and a single large station could display several clocks, one for each railway that used it. Missed connections were common, and, more seriously, confusion over times contributed to collisions on lines where trains ran in both directions on a single track.\n\nSeveral proposals for a simpler system had circulated for years. One of the most influential came from Sandford Fleming, a Canadian railway engineer who, according to a popular story, missed a train in Ireland because a printed timetable listed the wrong hour. Fleming proposed dividing the world into twenty-four zones, each one hour apart. Within each zone, every clock would show the same time, regardless of the exact position of the sun.\n\nThe railways did not wait for governments to act. On November 18, 1883, railway companies in the United States and Canada adopted four standard zones. At noon on that day, many clocks were reset, some moving backward by several minutes, an event that newspapers described as the day of two noons. Although many towns accepted the new system quickly, others **resisted** it for years, insisting that time belonged to the sun rather than to railway companies.\n\nInternational agreement followed slowly. In 1884, delegates from twenty-five countries met in Washington and chose the meridian passing through Greenwich, England, as the starting point for measuring longitude. Even then, standard time did not become law in the United States until 1918. Today the system seems so natural that few people stop to consider that it was created, in large part, to keep trains on schedule.",
+   "section": "reading",
+   "title": "Keeping the Sea Out",
+   "body": "About a quarter of the Netherlands lies below sea level, and without protection much of the country would be flooded twice a day by the tides. For centuries, the Dutch lived with this danger by building their villages on artificial mounds and surrounding their fields with simple earth walls called dikes. These defenses worked most of the time, but when a powerful storm pushed seawater inland, entire regions could disappear under water in a single night.\n\nOver time, farmers learned not only to keep water out but also to take land back from it. They enclosed shallow lakes with dikes and then pumped the water out, creating new farmland known as polders. Because the land kept sinking as it dried, the water had to be removed constantly. From the fifteenth century onward, this work was done by thousands of windmills, which turned large wheels that lifted water into canals and, eventually, into the sea.\n\nThe most serious test came on the night of January 31, 1953. A violent storm combined with an unusually high tide, and the sea broke through dikes across the southwest of the country. More than 1,800 people died, and around 100,000 had to leave the area. The disaster showed that defenses built gradually over the centuries were no longer strong enough.\n\nThe government responded with the Delta Works, one of the largest engineering projects of the twentieth century. Over the next four decades, engineers closed off several sea inlets with huge dams and barriers. Some local fishermen **resisted** the plan, arguing that sealing the inlets would destroy the oyster and mussel industries that depended on salt water. As a result, the largest barrier, finished in 1986, was built with enormous gates that normally stay open, allowing the tide to flow in and out, and close only during dangerous storms.\n\nToday the Dutch are rethinking their approach once again. Rather than simply building higher walls, planners have begun to give rivers more room to flood safely, lowering some fields so that they can store extra water in wet years. The idea reflects a lesson learned over many centuries: in a country shaped by water, safety depends on working with the water as well as against it.",
    "questions": [
     {
-     "type": "reading", "subtype": "main_idea", "prompt": "What is the passage mainly about?",
-     "options": ["The life and career of Sandford Fleming", "Why trains in the nineteenth century often collided", "How the needs of railways led to standard time zones", "A meeting of international delegates in 1884"],
-     "correct_index": 2, "rule_tags": ["R-MAIN"], "difficulty": 1,
-     "evidence_quote": "Today the system seems so natural that few people stop to consider that it was created, in large part, to keep trains on schedule.",
-     "why_correct_id": "Teks mulai dari waktu lokal, lalu kereta bikin masalah, lalu muncul usulan zona waktu, sampai zona waktu diresmikan. Kalimat terakhir nutup: semua ini **to keep trains on schedule**.",
-     "why_correct_en": "The text moves from local time to railway problems to time zones, ending with **to keep trains on schedule**.",
+     "type": "reading",
+     "subtype": "main_idea",
+     "prompt": "What is the passage mainly about?",
+     "options": [
+      "The daily life of Dutch farmers in the fifteenth century",
+      "Why windmills were first invented",
+      "How the Dutch have protected their land from the sea over time",
+      "The causes of the storm of January 1953"
+     ],
+     "correct_index": 2,
+     "rule_tags": [
+      "R-MAIN"
+     ],
+     "difficulty": 1,
+     "evidence_quote": "The idea reflects a lesson learned over many centuries: in a country shaped by water, safety depends on working with the water as well as against it.",
+     "why_correct_id": "Teks mulai dari tanggul tanah, lanjut ke polder dan kincir angin, banjir 1953, Delta Works, sampai cara baru sekarang. Semuanya soal cara Belanda melindungi daratannya dari laut.",
+     "why_correct_en": "From dikes to polders, 1953, the Delta Works, and today's approach: it's all about protecting the land from the sea.",
      "why_wrong_id": {
-      "0": "Fleming cuma dibahas di satu paragraf, dan bukan riwayat hidupnya.",
-      "1": "Tabrakan cuma satu contoh masalah di paragraf 2.",
-      "3": "Pertemuan 1884 cuma satu detail di paragraf 5."
+      "0": "Petani abad ke-15 cuma disebut di paragraf 2.",
+      "1": "Kincir angin dipakai buat mompa air. Penemuannya nggak dibahas.",
+      "3": "Badai 1953 cuma satu paragraf, dan penyebabnya cuma disebut singkat."
      },
      "why_wrong_en": {
-      "0": "Fleming appears in one paragraph, and it's not his biography.",
-      "1": "Collisions are one example in paragraph 2.",
-      "3": "The 1884 meeting is one detail in paragraph 5."
+      "0": "Farmers appear only in paragraph 2.",
+      "1": "Windmills pump water; their invention isn't covered.",
+      "3": "1953 is one paragraph."
      },
-     "analogy_id": "Main idea itu kayak sinopsis film, bukan satu adegan. Fleming dan tabrakan cuma adegan.",
-     "analogy_en": "The main idea is the film's synopsis, not one scene. Fleming and the collisions are scenes.",
-     "tip_id": "Opsi main idea yang nyebut satu nama orang atau satu tanggal biasanya terlalu sempit.",
-     "tip_en": "A main-idea option naming one person or one date is usually too narrow."
+     "analogy_id": "Main idea itu kayak sinopsis film, bukan satu adegan. Badai 1953 dan kincir angin cuma adegan.",
+     "analogy_en": "The main idea is the synopsis, not one scene. The 1953 storm and the windmills are scenes.",
+     "tip_id": "Opsi main idea yang nyebut satu tanggal atau satu benda biasanya terlalu sempit.",
+     "tip_en": "A main-idea option naming one date or one object is usually too narrow."
     },
     {
-     "type": "reading", "subtype": "detail", "prompt": "According to paragraph 1, why did noon in Boston arrive earlier than noon in New York?",
-     "options": ["Local time was based on the position of the sun.", "Boston adopted standard time before New York.", "Railway companies set the clocks in Boston.", "Clocks in Boston were set by Sandford Fleming."],
-     "correct_index": 0, "rule_tags": ["R-DETAIL"], "difficulty": 2,
-     "evidence_quote": "Local noon was set at the moment the sun stood highest in the sky, and because the sun appears to move westward, noon in Boston arrived several minutes earlier than noon in New York.",
-     "why_correct_id": "Jam dua belas lokal ditentukan saat **the sun stood highest in the sky**. Matahari kelihatan gerak ke barat, jadi kota di timur kayak Boston dapat siang duluan.",
-     "why_correct_en": "Local noon was when **the sun stood highest in the sky**. The sun seems to move west, so Boston, further east, got noon first.",
+     "type": "reading",
+     "subtype": "detail",
+     "prompt": "According to paragraph 2, why did water have to be removed from the polders constantly?",
+     "options": [
+      "The land kept sinking as it dried.",
+      "Windmills could work only in winter.",
+      "The tides flooded them twice a day.",
+      "Farmers needed the water for their crops."
+     ],
+     "correct_index": 0,
+     "rule_tags": [
+      "R-DETAIL"
+     ],
+     "difficulty": 2,
+     "evidence_quote": "Because the land kept sinking as it dried, the water had to be removed constantly.",
+     "why_correct_id": "Kalimat buktinya pakai **Because**: **the land kept sinking as it dried**. Tanahnya terus turun, jadi air harus terus dipompa.",
+     "why_correct_en": "**Because the land kept sinking as it dried**, pumping never stopped.",
      "why_wrong_id": {
-      "1": "Zona standar baru dipakai tahun 1883, dan nggak ada info Boston duluan.",
-      "2": "Di paragraf 1 belum ada perusahaan kereta. Mereka baru muncul di paragraf 2.",
-      "3": "Fleming nggak pernah nyetel jam di Boston."
+      "1": "Musim kerja kincir angin nggak disebut.",
+      "2": "Banjir pasang dua kali sehari itu ancaman kalau nggak ada pelindung, di paragraf 1.",
+      "3": "Kebalikannya. Airnya dibuang, bukan dipakai."
      },
      "why_wrong_en": {
-      "1": "Standard zones came in 1883; Boston isn't said to be first.",
-      "2": "Railways only appear in paragraph 2.",
-      "3": "Fleming never set Boston's clocks."
+      "1": "Windmill seasons aren't mentioned.",
+      "2": "Tidal flooding is the threat in paragraph 1, not the reason here.",
+      "3": "The water was removed, not used."
      },
-     "analogy_id": "Matahari itu kayak lampu sorot yang geser dari timur ke barat. Kota yang di timur kena sorot duluan.",
-     "analogy_en": "The sun is a spotlight sliding east to west. Eastern cities are lit first.",
+     "analogy_id": "Kayak perahu bocor. Selama bocornya ada, airnya harus terus diciduk.",
+     "analogy_en": "Like a leaky boat. As long as it leaks, you keep bailing.",
      "tip_id": "Soal detail yang nyebut nomor paragraf? Langsung ke paragraf itu, cari kata **because**.",
      "tip_en": "Detail question with a paragraph number? Go there and find **because**."
     },
     {
-     "type": "reading", "subtype": "not_except", "prompt": "According to paragraph 2, all of the following were problems caused by the many local times EXCEPT",
-     "options": ["travelers missing connecting trains", "stations displaying several different clocks", "collisions on lines with a single track", "railway companies refusing to share stations"],
-     "correct_index": 3, "rule_tags": ["R-NOT"], "difficulty": 3,
-     "evidence_quote": "A traveler crossing the country might pass through dozens of local times, and a single large station could display several clocks, one for each railway that used it.",
-     "why_correct_id": "Teks bilang satu stasiun dipakai beberapa perusahaan, **one for each railway that used it**. Jadi mereka malah berbagi stasiun. Opsi D nggak ada di teks.",
-     "why_correct_en": "One station showed **one for each railway that used it**, so railways did share stations. D isn't in the text.",
+     "type": "reading",
+     "subtype": "not_except",
+     "prompt": "According to the passage, all of the following have been used to protect Dutch land from water EXCEPT",
+     "options": [
+      "villages built on artificial mounds",
+      "windmills that lifted water",
+      "dams and barriers across sea inlets",
+      "underground tunnels that carry water away"
+     ],
+     "correct_index": 3,
+     "rule_tags": [
+      "R-NOT"
+     ],
+     "difficulty": 3,
+     "evidence_quote": "For centuries, the Dutch lived with this danger by building their villages on artificial mounds and surrounding their fields with simple earth walls called dikes.",
+     "why_correct_id": "Gundukan buatan ada di paragraf 1, kincir angin di paragraf 2, bendungan dan penghalang di paragraf 4. Terowongan bawah tanah nggak pernah disebut.",
+     "why_correct_en": "Mounds (paragraph 1), windmills (2), and dams and barriers (4) are mentioned. Tunnels never are.",
      "why_wrong_id": {
-      "0": "Ada: **Missed connections were common**.",
-      "1": "Ada: **a single large station could display several clocks**.",
-      "2": "Ada: **collisions on lines where trains ran in both directions on a single track**."
+      "0": "Ada: **building their villages on artificial mounds**.",
+      "1": "Ada: **windmills, which turned large wheels that lifted water**.",
+      "2": "Ada: **closed off several sea inlets with huge dams and barriers**."
      },
      "why_wrong_en": {
-      "0": "Stated: **Missed connections were common**.",
-      "1": "Stated: **a single large station could display several clocks**.",
-      "2": "Stated: collisions on single-track lines."
+      "0": "Stated: **artificial mounds**.",
+      "1": "Stated: windmills **lifted water**.",
+      "2": "Stated: **dams and barriers**."
      },
      "analogy_id": "Soal EXCEPT itu kayak nyari tamu tak diundang. Tiga nama ada di daftar, satu nggak ada.",
-     "analogy_en": "An EXCEPT question is spotting the uninvited guest. Three names are on the list; one isn't.",
+     "analogy_en": "An EXCEPT question is spotting the uninvited guest.",
      "tip_id": "Di soal NOT/EXCEPT, centang tiga opsi yang ketemu di teks. Sisanya jawabannya, santai aja.",
      "tip_en": "For NOT/EXCEPT, tick the three options you find. The leftover is the answer."
     },
     {
-     "type": "reading", "subtype": "vocabulary", "prompt": "The word **resisted** in paragraph 4 is closest in meaning to",
-     "options": ["supported", "opposed", "ignored", "measured"],
-     "correct_index": 1, "rule_tags": ["R-VOCAB"], "difficulty": 2,
-     "evidence_quote": "Although many towns accepted the new system quickly, others resisted it for years, insisting that time belonged to the sun rather than to railway companies.",
-     "why_correct_id": "Ada **Although many towns accepted**, jadi kota lainnya kebalikannya: menolak. Mereka juga **insisting** waktu itu milik matahari. **resisted** = **opposed**, menentang.",
-     "why_correct_en": "**Although many towns accepted** sets up a contrast: the others refused, **insisting** on sun time. **resisted** = **opposed**.",
+     "type": "reading",
+     "subtype": "vocabulary",
+     "prompt": "The word **resisted** in paragraph 4 is closest in meaning to",
+     "options": [
+      "supported",
+      "opposed",
+      "ignored",
+      "measured"
+     ],
+     "correct_index": 1,
+     "rule_tags": [
+      "R-VOCAB"
+     ],
+     "difficulty": 2,
+     "evidence_quote": "Some local fishermen resisted the plan, arguing that sealing the inlets would destroy the oyster and mussel industries that depended on salt water.",
+     "why_correct_id": "Para nelayan **arguing** bahwa rencana itu bakal ngerusak usaha tiram dan kerang mereka. Jadi mereka menentang. **resisted** = **opposed**.",
+     "why_correct_en": "The fishermen argued the plan would ruin their industry, so they fought it. **resisted** = **opposed**.",
      "why_wrong_id": {
-      "0": "**supported** artinya mendukung. Itu yang dilakukan kota-kota yang menerima.",
-      "2": "**ignored** artinya cuek. Mereka nggak cuek, mereka ngotot berdebat.",
-      "3": "**measured** artinya mengukur. Nggak nyambung sama penolakan."
+      "0": "**supported** artinya mendukung. Kebalikan dari protes nelayan.",
+      "2": "**ignored** artinya cuek. Mereka nggak cuek, mereka berdebat.",
+      "3": "**measured** artinya mengukur. Nggak nyambung sama protes."
      },
      "why_wrong_en": {
-      "0": "**supported** is what the accepting towns did.",
-      "2": "**ignored** is passive; they actively argued.",
-      "3": "**measured** has nothing to do with refusing."
+      "0": "**supported** is the opposite of their protest.",
+      "2": "**ignored** is passive; they argued.",
+      "3": "**measured** has nothing to do with protest."
      },
-     "analogy_id": "**Although** itu kayak tuas rel kereta. Begitu ditarik, arah maknanya pindah ke jalur sebaliknya.",
-     "analogy_en": "**Although** is a railway switch. Pull it and the meaning moves to the opposite track.",
-     "tip_id": "Lihat **Although** atau **but** dekat kata yang ditanya? Artinya kemungkinan besar kebalikan dari sisi lainnya.",
-     "tip_en": "**Although** or **but** near the word? It likely means the opposite of the other side."
+     "analogy_id": "Kata **arguing** sesudahnya itu kayak rekaman CCTV. Kelihatan jelas para nelayan lagi protes.",
+     "analogy_en": "The word **arguing** after it is the CCTV footage: clearly a protest.",
+     "tip_id": "Bingung arti kata? Baca keterangan sesudahnya. Di sini **arguing that... would destroy** jelas nunjukin penolakan.",
+     "tip_en": "Unsure of a word? Read what follows. **arguing that... would destroy** shows opposition."
     },
     {
-     "type": "reading", "subtype": "organization", "prompt": "How is the passage organized?",
-     "options": ["A problem is described, and several competing solutions are compared in detail.", "Two systems of measuring time are contrasted point by point.", "A historical problem is explained, followed by the steps that led to its solution.", "An argument is presented and then supported with scientific data."],
-     "correct_index": 2, "rule_tags": ["R-ORG"], "difficulty": 3,
-     "evidence_quote": "Several proposals for a simpler system had circulated for years.",
-     "why_correct_id": "Paragraf 1 dan 2 ngejelasin masalahnya: banyak waktu lokal. Paragraf 3 usulan Fleming, paragraf 4 kereta mulai pakai, paragraf 5 kesepakatan dunia. Itu masalah lalu langkah-langkah solusinya.",
-     "why_correct_en": "Paragraphs 1 and 2 explain the problem; 3 to 5 trace the steps to a solution: proposal, railway adoption, international agreement.",
+     "type": "reading",
+     "subtype": "organization",
+     "prompt": "How is the passage organized?",
+     "options": [
+      "A problem is described, and several competing solutions are compared in detail.",
+      "Two methods of farming are contrasted point by point.",
+      "A long-standing problem is explained, followed by the steps taken to deal with it.",
+      "An argument is presented and then supported with scientific data."
+     ],
+     "correct_index": 2,
+     "rule_tags": [
+      "R-ORG"
+     ],
+     "difficulty": 3,
+     "evidence_quote": "The government responded with the Delta Works, one of the largest engineering projects of the twentieth century.",
+     "why_correct_id": "Paragraf 1 jelasin masalahnya: daratan di bawah laut. Paragraf 2 sampai 5 nyeritain langkah-langkah ngatasinnya, dari polder sampai cara baru sekarang. Itu masalah lalu langkah penanganannya.",
+     "why_correct_en": "Paragraph 1 states the problem; 2 to 5 trace the steps taken: polders, the Delta Works, a new approach.",
      "why_wrong_id": {
-      "0": "Ada beberapa usulan, tapi cuma usulan Fleming yang dijelasin. Nggak ada perbandingan detail.",
-      "1": "Waktu lokal dan waktu standar memang beda, tapi nggak dibandingin poin per poin.",
+      "0": "Langkah-langkahnya diceritakan berurutan, bukan dibandingin secara detail.",
+      "1": "Teks nggak membandingkan dua cara bertani.",
       "3": "Teks ini cerita sejarah, bukan argumen yang dibuktikan pakai data ilmiah."
      },
      "why_wrong_en": {
-      "0": "Only Fleming's proposal is described; nothing is compared in detail.",
-      "1": "Local and standard time aren't contrasted point by point.",
+      "0": "The steps are told in order, not compared.",
+      "1": "No two farming methods are contrasted.",
       "3": "It's a history, not an argument backed by data."
      },
      "analogy_id": "Organisasi teks itu kayak alur cerita: ada masalah, ada usaha, ada akhir. Di sini akhirnya zona waktu.",

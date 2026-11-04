@@ -539,12 +539,12 @@
    "why_wrong_id": {
     "0": "Kata panjang nggak pakai -er. **accurater** nggak ada.",
     "1": "**most accurate** itu superlative, pasangannya **the**, bukan **than**.",
-    "2": "**the more accurate** cuma dipakai di pola khusus kayak **the more …, the more …**."
+    "2": "**the more accurate** cuma dipakai di pola khusus, misalnya **the more …, the more …** atau **the more accurate of the two**. Nggak bisa dipasangin sama **than**."
    },
    "why_wrong_en": {
     "0": "Long words don't take -er. **accurater** doesn't exist.",
     "1": "**most accurate** is a superlative. It pairs with **the**, not **than**.",
-    "2": "**the more accurate** only appears in patterns like **the more …, the more …**."
+    "2": "**the more accurate** only works in set patterns like **the more …, the more …** or **the more accurate of the two**, never with **than**."
    },
    "analogy_id": "Kata panjang pakai jas **more**. Jaket -er cuma muat buat kata pendek.",
    "analogy_en": "Long words wear the **more** coat. The -er jacket only fits short words.",
@@ -569,12 +569,12 @@
    "why_correct_id": "Surat nggak bisa ngirim dirinya sendiri. Surat dikirim orang, jadi butuh pasif. Kejadiannya lampau, **after the interview was broadcast**. Jadi **were sent**.",
    "why_correct_en": "Letters can't send themselves; people send them. So it's passive, and past: **were sent**.",
    "why_wrong_id": {
-    "1": "**sent** sendirian bikin kalimat aktif: surat yang ngirim sesuatu, tapi nggak ada objeknya.",
+    "1": "**sent** sendirian bikin kalimat aktif: surat yang ngirim sesuatu, tapi nggak ada objeknya. Kalau dibaca sebagai V3 penjelas, kalimatnya malah nggak punya kata kerja utama.",
     "2": "**were sending** itu aktif continuous. Suratnya jadi pelaku yang lagi ngirim.",
     "3": "**have sent** juga aktif, dan nggak cocok sama urutan waktu lampau di kalimat ini."
    },
    "why_wrong_en": {
-    "1": "**sent** alone makes it active: the letters would send something, with no object.",
+    "1": "**sent** alone makes it active: the letters would send something, with no object. Read as a describing V3, the sentence has no main verb.",
     "2": "**were sending** is active: the letters would be doing the sending.",
     "3": "**have sent** is active and doesn't fit the past sequence here."
    },
@@ -778,7 +778,7 @@
   {
    "section": "reading",
    "title": "How Long Does a Habit Take?",
-   "body": "Many popular books claim that it takes exactly twenty-one days to form a new habit. The number sounds precise and encouraging, and it appears in countless articles and advertisements. Yet researchers who have studied habits closely tell a more complicated story. The time needed varies widely from person to person and from one behavior to another.\n\nIn one well-known study, published in 2009, psychologists asked about a hundred volunteers to choose a new daily behavior, such as drinking a glass of water after breakfast or going for a short run before dinner. Each day, the volunteers reported whether they had performed the behavior and how automatic it felt. The researchers then measured how long it took for the behavior to reach a stable level of automaticity, the point at which it no longer required much conscious effort.\n\nOn average, this took about sixty-six days, roughly three times longer than the popular claim. The range was enormous, however. For some volunteers, a simple behavior became automatic in less than three weeks; for others, the estimate stretched to more than eight months. Not surprisingly, easy behaviors such as drinking water became automatic sooner than demanding ones such as daily exercise.\n\nThe study also produced a reassuring result. Missing a single day did not seriously damage the process. Volunteers who skipped the behavior occasionally still built the habit, as long as they returned to it the next day. This suggests that perfection is not required; consistency over time matters more than an unbroken record.\n\nOther research helps explain why some habits form faster than others. Behaviors tied to a clear cue, a specific time, place, or preceding action, tend to become automatic more quickly. A plan such as I will stretch for five minutes after I brush my teeth links the new behavior to an existing routine, so the old habit acts as a reminder for the new one.\n\nFor learners preparing for a test, the lesson is practical. Instead of expecting a new study routine to feel natural after three weeks, it may be wiser to expect two months or more, and to attach the routine to something already fixed in the day. Progress may feel slow at first, but the effort required usually shrinks as the behavior becomes automatic.",
+   "body": "Many popular books claim that it takes exactly twenty-one days to form a new habit. The number sounds precise and encouraging, and it appears in countless articles and advertisements. Yet researchers who have studied habits closely tell a more complicated story. The time needed varies widely from person to person and from one behavior to another.\n\nIn one well-known study, published in 2009, psychologists asked about a hundred volunteers to choose a new daily behavior, such as drinking a glass of water after breakfast or going for a short run before dinner. Each day, the volunteers reported whether they had performed the behavior and how automatic it felt. The researchers then measured how long it took for the behavior to reach a stable level of automaticity, the point at which it no longer required much conscious effort.\n\nOn average, this took about sixty-six days, roughly three times longer than the popular claim. The range was enormous, however. For some volunteers, a simple behavior became automatic in less than three weeks; for others, the estimate stretched to more than eight months. Not surprisingly, easy behaviors such as drinking water became automatic sooner than demanding ones such as daily exercise.\n\nThe study also produced a reassuring result. Missing a single day did not seriously damage the process. Volunteers who skipped the behavior occasionally still built the habit, as long as they returned to it the next day. This suggests that perfection is not required; consistency over time matters more than an unbroken record.\n\nOther research helps explain why some habits form faster than others. Behaviors tied to a clear cue, a specific time, place, or preceding action, tend to become automatic more quickly. A plan to stretch for five minutes right after brushing your teeth links the new behavior to an existing routine, so the old habit acts as a reminder for the new one.\n\nFor learners preparing for a test, the lesson is practical. Instead of expecting a new study routine to feel natural after three weeks, it may be wiser to expect two months or more, and to attach the routine to something already fixed in the day. Progress may feel slow at first, but the effort required usually shrinks as the behavior becomes automatic.",
    "questions": [
     {
      "type": "reading",
@@ -799,7 +799,7 @@
      "why_correct_id": "Paragraf 1 ngebantah klaim 21 hari: waktunya beda-beda tiap orang dan tiap kebiasaan. Paragraf berikutnya ngasih bukti (rata-rata 66 hari, rentangnya lebar), penjelasan, dan pelajarannya. Jadi ide pokoknya: bentuk kebiasaan biasanya lebih lama dan lebih bervariasi dari klaim populer.",
      "why_correct_en": "Paragraph 1 challenges the 21-day claim. Later paragraphs give evidence (66 days on average, a wide range), explanations, and the lesson. So habits usually take longer and vary more than the claim suggests.",
      "why_wrong_id": {
-      "0": "Minum air cuma contoh kebiasaan gampang di paragraf 3. Kesempitan.",
+      "0": "Minum air cuma contoh kebiasaan gampang di paragraf 3. Terlalu sempit.",
       "2": "Teks nggak bilang buku-buku populer ditulis psikolog.",
       "3": "Kebalikannya. Paragraf 4 bilang bolong sehari nggak ngerusak prosesnya."
      },
@@ -819,7 +819,7 @@
      "prompt": "According to the 2009 study, about how long did it take on average for a behavior to become automatic?",
      "options": [
       "Twenty-one days",
-      "About three weeks",
+      "Less than three weeks",
       "About sixty-six days",
       "More than eight months"
      ],
