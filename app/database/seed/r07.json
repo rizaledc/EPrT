@@ -261,7 +261,7 @@
      "why_wrong_id": {
       "1": "Dapur disebut sebagai tempat tempat kompos dan tanda, bukan jadwal bersih-bersih.",
       "2": "Tidak ada tempat sampah yang rusak.",
-      "3": "Email itu dari pengelola program, dan tidak disebut dari dosen."
+      "3": "Email itu tentang program daur ulang; tidak disebut bahwa email itu dari dosen."
      },
      "why_wrong_en": {
       "1": "The kitchen is where compost bins and a sign go, not a cleaning schedule.",
@@ -955,7 +955,7 @@
   {
    "section": "reading",
    "title": "A Drink That Traveled the World",
-   "body": "Tea is the most widely consumed drink in the world after water, but for most of history it was known only in a small part of Asia. According to Chinese tradition, people in southwestern China were drinking tea thousands of years ago, at first mainly as a medicine.\n\nOver the centuries, tea spread along trade routes. Buddhist monks carried tea seeds from China to Japan, where drinking tea developed into a carefully practiced ceremony. Traders also brought tea across Central Asia and into Russia, where it was often transported by camel caravans.\n\nEuropeans did not taste tea until the early seventeenth century, when Dutch merchants began shipping it from Asia. At first it was an expensive luxury. In Britain, tea became fashionable after the Portuguese princess Catherine of Braganza, who was already **fond** of the drink, married King Charles II in 1662. Within a century, tea had become a daily habit for people of all classes.\n\nThe British demand for tea was so great that the country wanted to stop depending on China for its supply. In the 1830s, British companies began growing tea in the Assam region of India, where a local variety of the plant was found. Later, plantations were established in what is now Sri Lanka and in East Africa, which are still major producers today.\n\nEven the way tea is prepared has changed. According to a popular story, the tea bag was invented by accident in the early 1900s, when a New York merchant sent samples of tea in small silk bags and customers dropped the bags directly into hot water.",
+   "body": "Tea is the most widely consumed drink in the world after water, but for most of history it was known only in a small part of Asia. According to Chinese tradition, people in southwestern China were drinking tea thousands of years ago, at first mainly as a medicine.\n\nOver the centuries, tea spread along trade routes. Buddhist monks carried tea seeds from China to Japan, where drinking tea developed into a carefully practiced ceremony. Traders also brought tea across Central Asia and into Russia, where it was often transported by camel caravans.\n\nTea did not reach Europe as a trade good until the early seventeenth century, when Dutch merchants began shipping it from Asia. At first it was an expensive luxury. In Britain, tea became fashionable after the Portuguese princess Catherine of Braganza, who was already **fond** of the drink, married King Charles II in 1662. Within a century, tea had become a daily habit for people of all classes.\n\nThe British demand for tea was so great that the country wanted to stop depending on China for its supply. In the 1830s, British companies began growing tea in the Assam region of India, where a local variety of the plant was found. Later, plantations were established in what is now Sri Lanka and in East Africa, which are still major producers today.\n\nEven the way tea is prepared has changed. According to a popular story, the tea bag was invented by accident in the early 1900s, when a New York merchant sent samples of tea in small silk bags and customers dropped the bags directly into hot water.",
    "questions": [
     {
      "type": "reading",
@@ -1071,9 +1071,9 @@
       "R-NOT"
      ],
      "difficulty": 3,
-     "evidence_quote": "Europeans did not taste tea until the early seventeenth century, when Dutch merchants began shipping it from Asia.",
-     "why_correct_id": "Langkah 1: centang pernyataan yang benar: pedagang Belanda yang mengirim teh (benar), awalnya barang mewah (benar), di Inggris menjadi kebiasaan semua kalangan (benar). Langkah 2: teks berkata orang Eropa baru mencicipi teh pada awal abad ke-17 (1600-an). Jadi 'sebelum tahun 1500' salah.",
-     "why_correct_en": "Step 1: tick the true statements: Dutch merchants shipped it (true), it was first a luxury (true), it became a habit for all classes in Britain (true). Step 2: the text says Europeans first tasted tea in the early seventeenth century (the 1600s). So 'before 1500' is false.",
+     "evidence_quote": "Tea did not reach Europe as a trade good until the early seventeenth century, when Dutch merchants began shipping it from Asia.",
+     "why_correct_id": "Langkah 1: centang pernyataan yang benar: pedagang Belanda yang mengirim teh (benar), awalnya barang mewah (benar), di Inggris menjadi kebiasaan semua kalangan (benar). Langkah 2: teks berkata teh baru masuk ke Eropa sebagai barang dagangan pada awal abad ke-17 (1600-an). Jadi 'sebelum tahun 1500' salah.",
+     "why_correct_en": "Step 1: tick the true statements: Dutch merchants shipped it (true), it was first a luxury (true), it became a habit for all classes in Britain (true). Step 2: the text says tea first reached Europe as a trade good in the early seventeenth century (the 1600s). So 'before 1500' is false.",
      "why_wrong_id": {
       "1": "Teks: 'when Dutch merchants began shipping it from Asia'.",
       "2": "Teks: 'At first it was an expensive luxury'.",

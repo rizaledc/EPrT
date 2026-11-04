@@ -834,7 +834,7 @@
      "difficulty": 2,
      "evidence_quote": "This may seem like progress, but I believe we are losing something valuable.",
      "why_correct_id": "Langkah 1: penulis berkata kebiasaan selalu mencari hiburan 'may seem like progress' (tampak seperti kemajuan). Langkah 2: tetapi ia percaya 'we are losing something valuable' (kita kehilangan sesuatu yang berharga). Rasa kehilangan ini menunjukkan sikap **concerned** (khawatir).",
-     "why_correct_en": "Step 1: the author says constant entertainment 'may seem like progress'. Step 2: but he believes 'we are losing something valuable'. That sense of loss shows a **concerned** attitude.",
+     "why_correct_en": "Step 1: the author says constant entertainment 'may seem like progress'. Step 2: but the author believes 'we are losing something valuable'. That sense of loss shows a **concerned** attitude.",
      "why_wrong_id": {
       "0": "'enthusiastic' (antusias) berarti mendukung; penulis justru kritis terhadap kebiasaan ini.",
       "1": "'indifferent' (tidak peduli) tidak cocok, karena penulis menulis satu teks penuh tentangnya.",

@@ -635,7 +635,7 @@
     "S-AGREE"
    ],
    "difficulty": 1,
-   "why_correct_id": "Langkah 1: subject (pelaku) kalimat ini 'thousands of trees' (jamak). Langkah 2: dalam pasif pun, bentuk 'be' harus cocok dengan subject. Jadi 'is' harus menjadi **are** planted.",
+   "why_correct_id": "Langkah 1: subject (subjek) kalimat ini 'thousands of trees' (jamak). Langkah 2: dalam pasif pun, bentuk 'be' harus cocok dengan subject. Jadi 'is' harus menjadi **are** planted.",
    "why_correct_en": "Step 1: the subject is 'thousands of trees' (plural). Step 2: even in the passive, 'be' must match the subject. So 'is' should be **are** planted.",
    "why_wrong_id": {
     "1": "'planted' adalah V3 yang benar untuk pasif.",
@@ -752,14 +752,14 @@
   {
    "section": "structure",
    "type": "structure_error",
-   "prompt": "The letter {A}was{/A} {B}arrived{/B} two days {C}after{/C} it {D}had been sent{/D}.",
+   "prompt": "The letter {A}was arrived{/A} two days {B}after{/B} it {C}had been{/C} {D}sent{/D}.",
    "options": [
-    "was",
-    "arrived",
+    "was arrived",
     "after",
-    "had been sent"
+    "had been",
+    "sent"
    ],
-   "correct_index": 1,
+   "correct_index": 0,
    "rule_tags": [
     "S-PASSIVE"
    ],
@@ -767,14 +767,14 @@
    "why_correct_id": "Langkah 1: 'arrive' adalah verb (kata kerja) tanpa object (intransitive): tidak ada yang 'di-arrive-kan'. Langkah 2: verb seperti ini tidak bisa dibuat pasif. Jadi 'was arrived' harus menjadi **arrived**.",
    "why_correct_en": "Step 1: 'arrive' takes no object (it's intransitive): nothing can be 'arrived'. Step 2: such verbs can't be passive. So 'was arrived' should be **arrived**.",
    "why_wrong_id": {
-    "0": "Soal menandai 'was' sebagai bagian A. Yang salah adalah kombinasi 'was arrived'; bagian yang memuat bentuk kata kerja yang tidak mungkin adalah B ('arrived' setelah 'was'). Memperbaiki B menjadi 'arrived' berarti juga menghapus 'was'.",
-    "2": "'after' adalah conjunction (kata sambung) waktu yang tepat.",
-    "3": "'had been sent' pasif past perfect yang benar: surat dikirim (oleh seseorang) sebelum tiba."
+    "1": "'after' adalah conjunction (kata sambung) waktu yang tepat.",
+    "2": "'had been' adalah bagian dari past perfect passive 'had been sent' yang benar: surat dikirim lebih dulu, lalu tiba.",
+    "3": "'sent' adalah V3 dari 'send', tepat setelah 'had been'."
    },
    "why_wrong_en": {
-    "0": "The error is the combination 'was arrived'; the impossible verb form is in B ('arrived' after 'was'). Fixing B to plain 'arrived' also removes 'was'.",
-    "2": "'after' is a correct time conjunction.",
-    "3": "'had been sent' is a correct past perfect passive: the letter was sent before it arrived."
+    "1": "'after' is a correct time conjunction.",
+    "2": "'had been' is part of the correct past perfect passive 'had been sent': the letter was sent first, then arrived.",
+    "3": "'sent' is the V3 of 'send', correct after 'had been'."
    },
    "analogy_id": "Kata kerja tanpa object itu seperti kursi tanpa penumpang: tidak ada yang bisa 'diduduki' sehingga tidak bisa dibalik menjadi pasif.",
    "analogy_en": "An intransitive verb is a seat with no passenger: there's nothing to act on, so it can't flip into the passive.",

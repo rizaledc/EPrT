@@ -445,7 +445,7 @@
       "3": "Pemilihan topik penelitian tidak disebut."
      },
      "why_wrong_en": {
-      "0": "The lecturer doesn't compare intelligence; he compares decision-making methods.",
+      "0": "The lecturer doesn't compare intelligence, but decision-making methods.",
       "2": "How bees are studied isn't discussed.",
       "3": "Choosing research topics isn't mentioned."
      },
@@ -652,12 +652,12 @@
   {
    "section": "structure",
    "type": "structure_error",
-   "prompt": "During the holidays, {A}there{/A} are {B}fewer{/B} cars on the highways but {C}many{/C} more {D}noise{/D} in the city center.",
+   "prompt": "During the holidays, {A}there{/A} are {B}fewer{/B} cars on the highways but {C}many{/C} more noise in the city {D}center{/D}.",
    "options": [
     "there",
     "fewer",
     "many",
-    "noise"
+    "center"
    ],
    "correct_index": 2,
    "rule_tags": [
@@ -669,12 +669,12 @@
    "why_wrong_id": {
     "0": "'there are' tepat sebelum 'fewer cars' (jamak).",
     "1": "'fewer' benar untuk benda terhitung jamak 'cars'.",
-    "3": "'noise' sebagai kebisingan umum memang tak terhitung, jadi bentuknya benar."
+    "3": "'city center' adalah frasa benda yang benar."
    },
    "why_wrong_en": {
     "0": "'there are' is right before plural 'fewer cars'.",
     "1": "'fewer' is correct for the plural countable 'cars'.",
-    "3": "'noise' as general sound is uncountable, so its form is right."
+    "3": "'city center' is a correct noun phrase."
    },
    "analogy_id": "Kalimat ini punya dua timbangan: mobil dihitung (fewer), kebisingan diukur (much more).",
    "analogy_en": "This sentence has two scales: cars are counted (fewer), noise is measured (much more).",
@@ -699,12 +699,12 @@
    "why_correct_id": "Langkah 1: 'equipment' adalah [[uncountable noun|uncountable-noun]]. Langkah 2: 'the number of' hanya untuk benda terhitung jamak. Untuk benda tak terhitung pakai 'the amount of'. Jadi 'number' harus menjadi **amount**.",
    "why_correct_en": "Step 1: 'equipment' is uncountable. Step 2: 'the number of' is only for plural countables; uncountables take 'the amount of'. So 'number' should be **amount**.",
    "why_wrong_id": {
-    "1": "'equipment' memang tak terhitung, bentuknya benar tanpa -s.",
+    "1": "'equipment' memang tak terhitung, bentuknya benar tanpa -s. Mengganti 'equipment' dengan noun jamak lain berarti mengganti katanya, bukan bentuknya; soal ini menguji pasangan number/amount.",
     "2": "'has' tunggal, cocok dengan 'The amount/number' sebagai subject.",
     "3": "'has increased' adalah present perfect yang benar."
    },
    "why_wrong_en": {
-    "1": "'equipment' is uncountable; no -s is correct.",
+    "1": "'equipment' is uncountable; no -s is correct. Replacing it with another plural noun changes the word, not its form; the item tests number vs amount.",
     "2": "'has' is singular, matching 'The amount/number' as subject.",
     "3": "'has increased' is a correct present perfect."
    },
@@ -1113,7 +1113,7 @@
       "3": "Bertentangan dengan seluruh teks yang menunjukkan menu berpengaruh."
      },
      "why_wrong_en": {
-      "0": "The author gives no advice to restaurants; he invites reflection.",
+      "0": "The author gives no advice to restaurants; the passage invites reflection.",
       "2": "Some customers find it manipulative; nothing says they enjoy it.",
       "3": "This contradicts the whole passage, which shows menus do have an effect."
      },
