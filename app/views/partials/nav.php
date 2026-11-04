@@ -31,6 +31,7 @@ $ctaLabel = $u ? t('nav.continue') : t('nav.start');
 $accountItems = [];
 if ($u) {
     $accountItems = [
+        [url('latihan'), t('nav.practice'), $path === '/latihan'],
         [url('akun'), t('nav.account'), $path === '/akun'],
         [url('riwayat'), t('nav.history'), $path === '/riwayat'],
         [url('rapor/akhir'), t('nav.report'), str_starts_with($path, '/rapor')],
