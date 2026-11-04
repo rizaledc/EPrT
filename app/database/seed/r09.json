@@ -478,10 +478,10 @@
     "S-CONJ-PREP"
    ],
    "difficulty": 1,
-   "why_correct_id": "Habis rumpang cuma ada frasa benda: **the heavy rain**. Nggak ada kata kerjanya. Kata benda butuh [[preposition]] (kata depan), dan yang artinya walaupun itu **Despite**.",
+   "why_correct_id": "Habis rumpang cuma ada frasa benda: **the heavy rain**. Nggak ada kata kerjanya. Kata benda butuh [[preposition]], dan yang artinya walaupun itu **Despite**.",
    "why_correct_en": "After the blank there's only a noun phrase, **the heavy rain**, with no verb. A noun needs a preposition, and the one meaning in spite of is **Despite**.",
    "why_wrong_id": {
-    "0": "**Although** itu [[conjunction]] (kata sambung). Dia butuh pelaku plus kata kerja, kayak **Although it rained**.",
+    "0": "**Although** itu [[conjunction]]. Dia butuh pelaku plus kata kerja, kayak **Although it rained**.",
     "2": "**Because** juga kata sambung, dan artinya karena. Konser tetap jalan walau hujan, bukan gara-gara hujan.",
     "3": "**Even** sendirian nggak bisa nyambung ke frasa benda kayak gini. Harus **Even though** plus clause."
    },

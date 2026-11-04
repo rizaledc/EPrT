@@ -471,10 +471,10 @@
     "S-COUNT"
    ],
    "difficulty": 1,
-   "why_correct_id": "**milk** itu [[uncountable noun|uncountable-noun]] (kata benda tak terhitung). Kita nggak bisa bilang **two milks**. Buat benda tak terhitung di kalimat negatif, pakai **much**.",
+   "why_correct_id": "**milk** itu [[uncountable noun|uncountable-noun]]. Kita nggak bisa bilang **two milks**. Buat benda tak terhitung di kalimat negatif, pakai **much**.",
    "why_correct_en": "**milk** is uncountable. We don't say **two milks**. In a negative sentence with an uncountable noun, use **much**.",
    "why_wrong_id": {
-    "0": "**many** cuma buat [[countable noun|countable-noun]] (kata benda terhitung) jamak, kayak **many bottles**.",
+    "0": "**many** cuma buat [[countable noun|countable-noun]] jamak, kayak **many bottles**.",
     "1": "**few** juga cuma buat benda terhitung jamak.",
     "2": "**a few** buat benda terhitung jamak, kayak **a few eggs**. Bukan susu."
    },
@@ -568,7 +568,7 @@
     "S-ARTICLE"
    ],
    "difficulty": 3,
-   "why_correct_id": "Nama sungai di bahasa Inggris pakai [[article]] (kata sandang) **the**: **the Nile**, **the Mississippi**, **the Amazon**. Sungai ini juga cuma satu, jadi spesifik. Jawabannya **The**.",
+   "why_correct_id": "Nama sungai di bahasa Inggris pakai [[article]] **the**: **the Nile**, **the Mississippi**, **the Amazon**. Sungai ini juga cuma satu, jadi spesifik. Jawabannya **The**.",
    "why_correct_en": "River names in English take **the**: **the Nile**, **the Mississippi**, **the Amazon**. This river is one specific river. The answer is **The**.",
    "why_wrong_id": {
     "0": "**An** artinya sebuah, yang mana aja. Nggak cocok buat nama sungai yang spesifik.",

@@ -503,7 +503,7 @@
     "S-ADJ-ADV"
    ],
    "difficulty": 1,
-   "why_correct_id": "Kata yang hilang nerangin cara si pemandu ngomong, alias nerangin kata kerja **spoke**. Yang nerangin kata kerja itu [[adverb]] (kata keterangan), biasanya akhirannya -ly: **enthusiastically**.",
+   "why_correct_id": "Kata yang hilang nerangin cara si pemandu ngomong, alias nerangin kata kerja **spoke**. Yang nerangin kata kerja itu [[adverb]], biasanya akhirannya -ly: **enthusiastically**.",
    "why_correct_en": "The missing word tells how the guide spoke, so it modifies **spoke**. Verbs take adverbs, usually ending in -ly: **enthusiastically**.",
    "why_wrong_id": {
     "0": "**enthusiasm** itu kata benda, semangat. Nggak bisa langsung nerangin kata kerja.",
@@ -535,7 +535,7 @@
     "S-WORDFORM"
    ],
    "difficulty": 2,
-   "why_correct_id": "Rumpangnya ada di antara **a** dan kata benda **effect**. Posisi sebelum kata benda diisi [[adjective]] (kata sifat). Akhiran -ant nandain kata sifat: **significant**.",
+   "why_correct_id": "Rumpangnya ada di antara **a** dan kata benda **effect**. Posisi sebelum kata benda diisi [[adjective]]. Akhiran -ant nandain kata sifat: **significant**.",
    "why_correct_en": "The blank sits between **a** and the noun **effect**. Before a noun goes an adjective. The -ant ending marks one: **significant**.",
    "why_wrong_id": {
     "0": "**signify** itu kata kerja.",
@@ -568,7 +568,7 @@
     "S-COMPARE"
    ],
    "difficulty": 3,
-   "why_correct_id": "Pola **find it + ___ + to …** butuh [[adjective]] (kata sifat) setelah **it**, kayak **find it easy** atau **find it difficult**. Ada **than**, jadi butuh bentuk perbandingan. Kata sifat plus perbandingan jadinya **more productive**.",
+   "why_correct_id": "Pola **find it + ___ + to …** butuh [[adjective]] setelah **it**, kayak **find it easy** atau **find it difficult**. Ada **than**, jadi butuh bentuk perbandingan. Kata sifat plus perbandingan jadinya **more productive**.",
    "why_correct_en": "**find it + ___ + to …** needs an adjective after **it**, like **find it easy**. **than** calls for a comparative. So: **more productive**.",
    "why_wrong_id": {
     "0": "**more productively** itu adverb. Habis **find it** butuh kata sifat.",
@@ -601,7 +601,7 @@
     "S-ADJ-ADV"
    ],
    "difficulty": 1,
-   "why_correct_id": "**clearly** nongkrong di antara **a** dan kata benda **explanation**. Posisi sebelum kata benda butuh [[adjective]] (kata sifat), bukan adverb. Jadi **clearly** harus jadi **clear**.",
+   "why_correct_id": "**clearly** nongkrong di antara **a** dan kata benda **explanation**. Posisi sebelum kata benda butuh [[adjective]], bukan adverb. Jadi **clearly** harus jadi **clear**.",
    "why_correct_en": "**clearly** sits between **a** and the noun **explanation**. Before a noun you need an adjective, not an adverb. So **clearly** should be **clear**.",
    "why_wrong_id": {
     "0": "**manager** itu kata benda yang pas jadi pelaku.",

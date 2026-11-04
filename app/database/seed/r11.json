@@ -472,7 +472,7 @@
     "S-CORRELATIVE"
    ],
    "difficulty": 1,
-   "why_correct_id": "Kalimatnya dibuka pakai **Neither**. [[correlative conjunction|correlative-conjunction]] (kata sambung berpasangan) ini pasangannya selalu **nor**: **neither … nor**, bukan dua-duanya.",
+   "why_correct_id": "Kalimatnya dibuka pakai **Neither**. [[correlative conjunction|correlative-conjunction]] ini pasangannya selalu **nor**: **neither … nor**, bukan dua-duanya.",
    "why_correct_en": "The sentence opens with **Neither**. This correlative pair is always **neither … nor**.",
    "why_wrong_id": {
     "0": "**or** itu pasangan **either**, bukan **neither**.",
@@ -504,7 +504,7 @@
     "S-NOUN-CLAUSE"
    ],
    "difficulty": 2,
-   "why_correct_id": "Kata kerja utamanya **depends**. Pelakunya satu anak kalimat utuh, **___ the experiment will succeed**. [[noun clause|noun-clause]] (anak kalimat kata benda) yang artinya apakah dan bisa jadi pelaku itu dibuka pakai **Whether**.",
+   "why_correct_id": "Kata kerja utamanya **depends**. Pelakunya satu anak kalimat utuh, **___ the experiment will succeed**. [[noun clause|noun-clause]] yang artinya apakah dan bisa jadi pelaku itu dibuka pakai **Whether**.",
    "why_correct_en": "The main verb is **depends**. Its subject is a whole clause, **___ the experiment will succeed**. A noun clause meaning whether that can be a subject opens with **Whether**.",
    "why_wrong_id": {
     "0": "**If** artinya juga apakah, tapi nggak bisa dipakai buat anak kalimat yang jadi pelaku di awal kalimat.",
@@ -536,7 +536,7 @@
     "S-INVERSION"
    ],
    "difficulty": 2,
-   "why_correct_id": "Kalimatnya dibuka pakai **Rarely**, kata yang maknanya negatif. Habis kata kayak gini, terjadi [[inversion]] (inversi): kata kerja bantu pindah ke depan pelaku. Jadi **have we seen**.",
+   "why_correct_id": "Kalimatnya dibuka pakai **Rarely**, kata yang maknanya negatif. Habis kata kayak gini, terjadi [[inversion]]: kata kerja bantu pindah ke depan pelaku. Jadi **have we seen**.",
    "why_correct_en": "**Rarely** is a negative word at the start. That triggers inversion: the helper verb jumps before the subject: **have we seen**.",
    "why_wrong_id": {
     "1": "**we have seen** pakai urutan kalimat biasa. Habis **Rarely** di awal, urutannya harus dibalik.",

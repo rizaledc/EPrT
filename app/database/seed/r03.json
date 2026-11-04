@@ -782,7 +782,7 @@
     "S-TENSE"
    ],
    "difficulty": 2,
-   "why_correct_id": "**that leave at seven** itu [[relative clause|relative-clause]] (anak kalimat penjelas) yang nerangin **the bus**. **that** nunjuk ke **the bus**, tunggal. Jadi kata kerjanya harus tunggal: **leave** jadi **leaves**.",
+   "why_correct_id": "**that leave at seven** itu [[relative clause|relative-clause]] yang nerangin **the bus**. **that** nunjuk ke **the bus**, tunggal. Jadi kata kerjanya harus tunggal: **leave** jadi **leaves**.",
    "why_correct_en": "**that leave at seven** is a relative clause describing **the bus**. **that** points to **the bus**, singular. So **leave** should be **leaves**.",
    "why_wrong_id": {
     "0": "**my roommate drinks**, tunggal plus -s. Aman.",

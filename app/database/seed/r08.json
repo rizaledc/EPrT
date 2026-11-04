@@ -470,7 +470,7 @@
     "S-COMPARE"
    ],
    "difficulty": 1,
-   "why_correct_id": "Ada **than**, jadi butuh [[comparative]] (bentuk perbandingan lebih). **successful** itu kata panjang, tiga suku kata, jadi pakai **more** + adjective (kata sifat): **more successful**.",
+   "why_correct_id": "Ada **than**, jadi butuh [[comparative]]. **successful** itu kata panjang, tiga suku kata, jadi pakai **more** + adjective (kata sifat): **more successful**.",
    "why_correct_en": "**than** calls for a comparative. **successful** is a long word, three syllables, so it's **more** + adjective: **more successful**.",
    "why_wrong_id": {
     "0": "**success** itu kata benda. Habis **was** dan sebelum **than** butuh kata sifat.",
@@ -502,7 +502,7 @@
     "S-COMPARE"
    ],
    "difficulty": 1,
-   "why_correct_id": "**in the world** ngebandingin satu gunung sama semua gunung lain, jadi butuh [[superlative]] (bentuk paling). **high** itu kata pendek, jadi the + -est: **the highest**.",
+   "why_correct_id": "**in the world** ngebandingin satu gunung sama semua gunung lain, jadi butuh [[superlative]]. **high** itu kata pendek, jadi the + -est: **the highest**.",
    "why_correct_en": "**in the world** compares one mountain with all others, so you need a superlative. **high** is short, so the + -est: **the highest**.",
    "why_wrong_id": {
     "1": "**higher** itu comparative buat dua benda dan butuh **than**.",
@@ -534,7 +534,7 @@
     "S-PARALLEL"
    ],
    "difficulty": 2,
-   "why_correct_id": "Ada tiga hal yang disambung **and** setelah **how to**: **write**, **manage**, ___. [[parallel structure|parallel-structure]] (struktur sejajar) nuntut bentuk yang sama, yaitu V1: **communicate**.",
+   "why_correct_id": "Ada tiga hal yang disambung **and** setelah **how to**: **write**, **manage**, ___. [[parallel structure|parallel-structure]] nuntut bentuk yang sama, yaitu V1: **communicate**.",
    "why_correct_en": "Three items follow **how to**: **write**, **manage**, ___. Parallel structure needs the same form, V1: **communicate**.",
    "why_wrong_id": {
     "0": "**communicating** (V-ing) nggak sejajar sama **write** dan **manage** yang V1.",
@@ -665,7 +665,7 @@
     "S-COMPARE"
    ],
    "difficulty": 2,
-   "why_correct_id": "**Of all the planets** ngebandingin Jupiter sama semua planet, jadi butuh [[superlative]] (bentuk paling). **larger** itu comparative. Yang bener **largest**.",
+   "why_correct_id": "**Of all the planets** ngebandingin Jupiter sama semua planet, jadi butuh [[superlative]]. **larger** itu comparative. Yang bener **largest**.",
    "why_correct_en": "**Of all the planets** compares Jupiter with every planet, so a superlative is needed. **larger** is a comparative. It should be **largest**.",
    "why_wrong_id": {
     "0": "**the** memang dibutuhin sebelum superlative.",
@@ -698,7 +698,7 @@
     "S-ADJ-ADV"
    ],
    "difficulty": 2,
-   "why_correct_id": "Tiap kata kerja diikutin [[adverb]] (kata keterangan): **listen carefully**, **speak clearly**, **act fairly**. Kata terakhir juga nerangin **act**, jadi harus adverb: **decisive** jadi **decisively**.",
+   "why_correct_id": "Tiap kata kerja diikutin [[adverb]]: **listen carefully**, **speak clearly**, **act fairly**. Kata terakhir juga nerangin **act**, jadi harus adverb: **decisive** jadi **decisively**.",
    "why_correct_en": "Each verb takes an adverb: **listen carefully**, **speak clearly**, **act fairly**. The last word also describes **act**, so **decisive** becomes **decisively**.",
    "why_wrong_id": {
     "0": "**carefully** itu adverb yang pas buat **listen**.",

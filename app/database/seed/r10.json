@@ -541,7 +541,7 @@
     "S-PASSIVE"
    ],
    "difficulty": 2,
-   "why_correct_id": "Lukisan itu dipajang orang, jadi maknanya pasif: **which were displayed**. [[reduced clause|reduced-clause]] (anak kalimat ringkas) ngebuang **which were** dan nyisain V3: **displayed**. Kata kerja utamanya tetap **were borrowed**.",
+   "why_correct_id": "Lukisan itu dipajang orang, jadi maknanya pasif: **which were displayed**. [[reduced clause|reduced-clause]] ngebuang **which were** dan nyisain V3: **displayed**. Kata kerja utamanya tetap **were borrowed**.",
    "why_correct_en": "Paintings are displayed by people, so the meaning is passive: **which were displayed**. The reduced clause drops **which were**, leaving V3: **displayed**. The main verb stays **were borrowed**.",
    "why_wrong_id": {
     "0": "**displaying** (V-ing) maknanya aktif, seolah lukisannya yang mamerin sesuatu.",
