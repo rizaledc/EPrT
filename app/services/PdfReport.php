@@ -103,9 +103,15 @@ final class PdfReport
             $tip = $tipRow ? tr($tipRow, 'tip') : '';
             $name = $w['info'] ? tr($w['info'], 'name') : $w['tag'];
             $h .= '<tr><td style="width:34%"><b>' . e($name) . '</b><br><span class="muted">' . e($w['tag']) . '</span></td><td class="num" style="width:10%">' . (int) $w['wrong'] . '×</td>'
-                . '<td>' . e(t('pdf.advice_line', ['rule' => $name])) . ($tip ? ' ' . e($tip) : '') . '</td></tr>';
+                . '<td>' . e(t('pdf.advice_line', ['rule' => $name])) . ($tip ? ' ' . e(self::glyphSafe($tip)) : '') . '</td></tr>';
         }
         return $h . '</table>';
+    }
+
+    /** Font PDF (subset Latin) tidak punya beberapa simbol; ganti dengan padanan ASCII. */
+    private static function glyphSafe(string $s): string
+    {
+        return strtr($s, ['→' => '->', '←' => '<-', '✓' => 'v', '✕' => 'x', '…' => '...']);
     }
 
     private static function stream(Dompdf $d, string $html, string $filename): never
