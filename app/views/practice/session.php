@@ -24,6 +24,7 @@ $section = $attempt['section'];
     <span class="eyebrow"><?= e($mode === 'simulation' ? t('session.mode_sim') : section_label($section === 'mixed' ? 'structure' : $section)) ?></span>
     <h2 class="mt-8" data-start-title><?= e(t('session.start_t')) ?></h2>
     <ul class="rich-list" data-start-rules></ul>
+    <div class="st-directions" data-st-dir hidden></div>
     <button class="btn btn-primary" type="button" data-start-btn><span><?= e(t('session.start_btn')) ?></span><span class="btn-arrow" aria-hidden="true"><?= icon('arrow-right', 18) ?></span></button>
     <p class="kbd-hint mt-24 mb-0 hide-sm"><?= t('session.kbd_hint') ?></p>
   </div>
@@ -53,6 +54,7 @@ $section = $attempt['section'];
           <button type="button" class="btn btn-secondary btn-sm" data-read-transcript hidden><?= icon('file', 16) ?> <?= e(t('session.read_transcript')) ?></button>
         </div>
         <div class="transcript-box card card-sm mb-16" data-transcript-box hidden></div>
+        <div class="q-instr" data-instr hidden></div>
         <div class="q-prompt" data-prompt></div>
         <div class="options" data-options role="group" aria-label="<?= e(t('session.options')) ?>"></div>
         <div class="q-actions">

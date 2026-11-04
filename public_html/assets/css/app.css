@@ -564,6 +564,16 @@ h1.session-title, .session-title { font-family: var(--font-body); font-weight: 8
 }
 .q-card .q-num { font-family: var(--font-mono); font-size: 13px; color: var(--ink-500); margin-bottom: 8px; }
 .q-prompt { font-size: 19px; line-height: 1.6; margin-bottom: 24px; }
+.q-instr { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 12px; margin-bottom: 16px; font-size: 15px; font-weight: 600; color: var(--ink-700); }
+.q-instr .chip, .st-dir-part .chip { text-transform: uppercase; letter-spacing: .04em; }
+.st-directions { text-align: left; margin: 8px 0 24px; padding-top: 16px; border-top: 1px solid var(--line, #eadde3); }
+.st-dir-part + .st-dir-part { margin-top: 20px; }
+.st-dir-part > p { margin: 10px 0; }
+.st-dir-ex { background: var(--plum-100); border-radius: 12px; padding: 12px 16px; }
+.st-dir-ex .q-prompt { font-size: 17px; margin: 6px 0 4px; }
+.start-overlay .st-dir-opts { list-style: none; padding: 0; margin: 4px 0 0; max-width: none; display: flex; flex-wrap: wrap; justify-content: flex-start; gap: 4px 20px; font-size: 15px; }
+.start-overlay .st-dir-opts li { margin: 0; padding: 0; }
+.start-overlay .st-dir-opts li::before { content: none; }
 .q-prompt .blank { letter-spacing: .1em; color: var(--pink-700); font-weight: 700; }
 .ul-part { position: relative; display: inline-block; padding-bottom: 16px; margin: 0 2px; }
 .ul-part u { text-decoration-thickness: 2px; text-underline-offset: 4px; }
