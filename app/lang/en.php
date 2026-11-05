@@ -73,7 +73,7 @@ return [
     'auth.agree' => 'I understand the scores here are estimates only.',
     'auth.show_password' => 'Show password',
     'auth.rule.length' => 'At least 10 characters', 'auth.rule.upper' => 'An uppercase letter (A-Z)', 'auth.rule.lower' => 'A lowercase letter (a-z)',
-    'auth.rule.digit' => 'A number (0-9)', 'auth.rule.symbol' => 'A symbol (!@#$…)', 'auth.rule.not_met' => 'not met',
+    'auth.rule.digit' => 'A number (0-9)', 'auth.rule.symbol' => 'A symbol (!@#$…)', 'auth.rule.nouser' => 'Does not contain your username', 'auth.rule.not_met' => 'not met',
     'auth.meter.0' => 'Password strength',
     'auth.pw_example_hint' => 'Tip: combine 3 words + a number + a symbol, for example', 'auth.pw_example_note' => 'Don\'t use this exact example.',
     'auth.have_account' => 'Already have an account?', 'auth.no_account' => 'No account yet?',

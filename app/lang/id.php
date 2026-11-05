@@ -76,7 +76,7 @@ return [
     'auth.agree' => 'Saya paham skor di sini hanya perkiraan.',
     'auth.show_password' => 'Tampilkan password',
     'auth.rule.length' => 'Minimal 10 karakter', 'auth.rule.upper' => 'Ada huruf besar (A-Z)', 'auth.rule.lower' => 'Ada huruf kecil (a-z)',
-    'auth.rule.digit' => 'Ada angka (0-9)', 'auth.rule.symbol' => 'Ada simbol (!@#$…)', 'auth.rule.not_met' => 'belum terpenuhi',
+    'auth.rule.digit' => 'Ada angka (0-9)', 'auth.rule.symbol' => 'Ada simbol (!@#$…)', 'auth.rule.nouser' => 'Tidak mengandung username', 'auth.rule.not_met' => 'belum terpenuhi',
     'auth.meter.0' => 'Kekuatan password',
     'auth.pw_example_hint' => 'Tips: gabungkan 3 kata + angka + simbol, misalnya', 'auth.pw_example_note' => 'Contoh ini tidak boleh dipakai persis.',
     'auth.have_account' => 'Sudah punya akun?', 'auth.no_account' => 'Belum punya akun?',

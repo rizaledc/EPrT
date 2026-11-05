@@ -24,7 +24,7 @@
     <form class="form" method="post" action="<?= e(url('akun')) ?>" novalidate>
       <?= csrf_field() ?><input type="hidden" name="action" value="password">
       <?= partial('pw-field', ['name' => 'old_password', 'id' => 'old_password', 'label' => t('account.pw.old'), 'autocomplete' => 'current-password']) ?>
-      <?= partial('pw-field', ['name' => 'password', 'id' => 'password', 'label' => t('auth.new_password'), 'autocomplete' => 'new-password', 'guide' => true]) ?>
+      <?= partial('pw-field', ['name' => 'password', 'id' => 'password', 'label' => t('auth.new_password'), 'autocomplete' => 'new-password', 'guide' => true, 'pwUsername' => $user['username']]) ?>
       <?= partial('pw-field', ['name' => 'password_confirm', 'id' => 'password_confirm', 'label' => t('auth.password_confirm'), 'autocomplete' => 'new-password', 'confirmOf' => 'password']) ?>
       <div><button class="btn btn-dark" type="submit"><?= e(t('account.pw.submit')) ?></button></div>
     </form>
