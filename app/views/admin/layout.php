@@ -3,7 +3,7 @@ $path = request_path();
 $nav = [
     ['admin', 'Dashboard', 'chart'], ['admin/pengguna', 'Pengguna', 'users'], ['admin/soal', 'Soal', 'list'],
     ['admin/grup', 'Grup & Teks', 'headphones'], ['admin/impor', 'Impor / Ekspor', 'upload'], ['admin/kamus', 'Kamus', 'book'],
-    ['admin/sponsor', 'Sponsor', 'pin'], ['admin/pengaturan', 'Pengaturan', 'settings'], ['admin/log', 'Log admin', 'file'],
+    ['admin/sponsor', 'Sponsor', 'pin'], ['admin/koin', 'Koin & AI', 'coin'], ['admin/pengaturan', 'Pengaturan', 'settings'], ['admin/log', 'Log admin', 'file'],
 ];
 $flashes = take_flashes();
 ?><!doctype html>

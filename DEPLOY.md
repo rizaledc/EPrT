@@ -195,6 +195,37 @@ python tools/make_audio.py --only r05
 
 Lalu unggah `public_html/audio/` dan `app/database/seed/audio-manifest.json` ke lokasi yang sama di server. Selama MP3 belum ada, pemutar memakai suara browser dan soal ditandai `audio_missing` di admin. MP3 juga bisa diunggah satu per satu dari Admin → Grup & Teks.
 
+## Koin, pembayaran Mayar, dan Analisis AI
+
+Fitur ini membaca kunci dari `app/config.php` di server. Kunci tidak pernah ditulis di repo.
+Selama kunci kosong, halaman /koin dan /rekomendasi tetap tampil: tombol beli dan tombol Analisis AI nonaktif,
+sedangkan target jumlah benar per seksi (gratis) tetap jalan.
+
+1. Buka `app/config.php` di server (File Manager hPanel atau SSH) dan tambahkan blok berikut sebelum `];` terakhir:
+
+```php
+    'openrouter' => [
+        'api_key' => 'ISI_KEY_OPENROUTER',
+        'model'   => 'anthropic/claude-haiku-5.5',
+    ],
+    'mayar' => [
+        'api_key'       => 'ISI_API_KEY_MAYAR',
+        'sandbox'       => false,   // true = uji coba di web.mayar.io
+        'webhook_token' => 'ISI_STRING_ACAK',
+    ],
+```
+
+   Buat token webhook dengan `php -r "echo bin2hex(random_bytes(16));"`.
+2. Mayar: dashboard, Integration, API Key. Kunci sandbox (web.mayar.io) dan produksi berbeda; pastikan cocok dengan `sandbox`.
+3. Daftarkan webhook di dashboard Mayar (Integration, Webhook). URL lengkapnya ada di Admin, Koin & AI
+   (bentuknya `https://perumahaninggris.my.id/api/mayar/webhook?token=...`).
+4. Uji: beli paket 1 koin di /koin, bayar, lalu kembali ke /koin. Koin masuk setelah status dicek ulang ke API Mayar
+   (dari webhook, saat membuka /koin, atau tombol Cek ke Mayar di Admin). Webhook Mayar tidak bertanda tangan,
+   jadi isinya tidak pernah dipercaya langsung.
+5. Admin, Koin & AI: ubah harga dan jumlah koin per paket, buka atau tutup pembelian, nyalakan atau matikan AI,
+   batas analisis per hari, dan lihat biaya per analisis (dari `usage.cost` OpenRouter).
+   Penyesuaian saldo per pengguna ada di detail pengguna.
+
 ## Menambah konten
 
 ```bash

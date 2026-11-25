@@ -275,3 +275,20 @@ if (tabs.length) {
   const h = location.hash.replace('#', '');
   if (tabs.some((t) => t.dataset.tab === h)) show(h);
 }
+
+// Tombol sekali tekan (beli koin, Analisis AI): cegah kirim ganda
+document.addEventListener('submit', (ev) => {
+  const btn = ev.target.querySelector && ev.target.querySelector('[data-once]');
+  if (!btn || ev.defaultPrevented) return;
+  if (btn.dataset.sent) { ev.preventDefault(); return; }
+  btn.dataset.sent = '1';
+  setTimeout(() => {
+    btn.disabled = true;
+    btn.setAttribute('aria-busy', 'true');
+    const label = btn.dataset.busyLabel;
+    const span = btn.querySelector('span');
+    if (label && span) span.textContent = label;
+  }, 0);
+  // Kalau halaman kembali dari cache (tombol Back), aktifkan lagi
+  window.addEventListener('pageshow', (e) => { if (e.persisted) { btn.disabled = false; delete btn.dataset.sent; btn.removeAttribute('aria-busy'); } }, { once: true });
+});

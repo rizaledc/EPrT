@@ -8,6 +8,7 @@
     <?php if ($suspicious): ?><p class="small" style="color:var(--bad)">Pemakaian janggal: <?= e(implode(', ', $suspicious)) ?>.</p><?php endif; ?>
     <p class="small mb-0">Role: <?= e($u['role']) ?> · Plan: <?= e($u['plan']) ?> · Bahasa: <?= e(strtoupper($u['lang'])) ?> · Target: <?= (int) $u['target_score'] ?><br>
     Daftar: <?= e(fmt_date($u['created_at'])) ?> · Terakhir aktif: <?= e(fmt_date($u['last_active_at'])) ?><br>
+    Koin: <strong><?= (int) $u['coin_balance'] ?></strong> ·
     Perkiraan skor: <strong><?= $estimate['total'] ?? '-' ?></strong> <?= $estimate['total'] ? '(' . $estimate['low'] . '-' . $estimate['high'] . ')' : '' ?> · <?= $estimate['answers'] ?> jawaban
     <?= (int) $u['must_change_password'] ? '<br><span class="chip chip-xs chip-lime">wajib ganti password</span>' : '' ?></p>
   </div>
@@ -19,6 +20,10 @@
       <form method="post" action="<?= e(url('admin/pengguna/' . $u['id'] . '/aksi')) ?>"><?= csrf_field() ?><input type="hidden" name="action" value="revoke_sessions"><button class="btn btn-secondary btn-sm" data-confirm="Cabut semua sesi <?= e($u['username']) ?>?">Cabut semua sesi (<?= (int) $activeSessions ?> aktif)</button></form>
       <form method="post" action="<?= e(url('admin/pengguna/' . $u['id'] . '/aksi')) ?>"><?= csrf_field() ?><input type="hidden" name="action" value="toggle_status"><button class="btn btn-secondary btn-sm"><?= $u['status'] === 'active' ? 'Nonaktifkan' : 'Aktifkan' ?></button></form>
     </div>
+    <form class="row" method="post" action="<?= e(url('admin/pengguna/' . $u['id'] . '/aksi')) ?>"><?= csrf_field() ?><input type="hidden" name="action" value="coins">
+      <input class="input" style="max-width:90px;min-height:40px" name="delta" type="number" min="-1000" max="1000" value="1" aria-label="Tambah atau kurangi koin">
+      <input class="input" style="max-width:220px;min-height:40px" name="note" maxlength="120" placeholder="Catatan, mis. kompensasi" aria-label="Catatan">
+      <button class="btn btn-secondary btn-sm" data-confirm="Ubah saldo koin <?= e($u['username']) ?>?">Ubah koin</button></form>
     <form class="row" method="post" action="<?= e(url('admin/pengguna/' . $u['id'] . '/aksi')) ?>"><?= csrf_field() ?><input type="hidden" name="action" value="plan">
       <input class="input" style="max-width:160px;min-height:40px" name="plan" value="<?= e($u['plan']) ?>" aria-label="Plan"><button class="btn btn-secondary btn-sm">Ganti plan</button></form>
     <?php if ($u['role'] !== 'admin'): ?>
@@ -78,3 +83,10 @@
     </tbody></table></div>
   </div>
 </div>
+
+<h2 class="mt-32">Riwayat koin (15 terbaru)</h2>
+<div class="table-wrap"><table class="table"><thead><tr><th>Waktu</th><th>Jenis</th><th class="num">Perubahan</th><th class="num">Saldo</th><th>Ref / catatan</th></tr></thead><tbody>
+  <?php if (!$coinLedger): ?><tr><td colspan="5" class="muted">Belum ada.</td></tr><?php endif; ?>
+  <?php foreach ($coinLedger as $l): ?><tr><td><?= e(fmt_date($l['created_at'])) ?></td><td><?= e(['purchase' => 'beli', 'analysis' => 'analisis AI', 'refund' => 'dikembalikan', 'admin' => 'admin'][$l['reason']] ?? $l['reason']) ?></td>
+    <td class="num mono"><?= (int) $l['delta'] > 0 ? '+' : '' ?><?= (int) $l['delta'] ?></td><td class="num mono"><?= (int) $l['balance_after'] ?></td><td class="small"><?= e(trim(($l['ref'] ?? '') . ' ' . ($l['note'] ?? ''))) ?></td></tr><?php endforeach; ?>
+</tbody></table></div>
