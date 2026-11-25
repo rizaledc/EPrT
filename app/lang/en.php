@@ -312,7 +312,7 @@ return [
     'coins.order.paid' => '{n} coins have arrived. Your balance is now {b} coins.',
     'coins.order.pending' => 'Payment not confirmed yet. If you have paid, wait a moment and press Check status.',
     'coins.order.expired' => 'This order is no longer valid. Create a new order from the Coins page.',
-    'coins.order.redirect' => 'Opening the Mayar payment page… If it does not open automatically, press Pay now.',
+    'coins.order.pay_hint' => 'Press Pay now. The Mayar payment page opens in a new tab. After paying, close the Mayar tab and come back here: the status updates automatically.',
     'coins.order.failed' => 'This order could not be created. Create a new order from the Coins page.',
     'coins.back' => 'Back to Coins', 'coins.to_advice' => 'Open AI Recommendations',
 

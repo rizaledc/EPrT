@@ -328,7 +328,7 @@ return [
     'coins.order.paid' => '{n} koin sudah masuk. Saldo sekarang {b} koin.',
     'coins.order.pending' => 'Pembayaran belum terkonfirmasi. Kalau sudah membayar, tunggu sebentar lalu tekan Cek status.',
     'coins.order.expired' => 'Pesanan ini sudah tidak berlaku. Buat pesanan baru dari halaman Koin.',
-    'coins.order.redirect' => 'Membuka halaman pembayaran Mayar… Kalau tidak terbuka otomatis, tekan Bayar sekarang.',
+    'coins.order.pay_hint' => 'Tekan Bayar sekarang. Halaman pembayaran Mayar terbuka di tab baru. Setelah membayar, tutup tab Mayar dan kembali ke halaman ini: status diperbarui otomatis.',
     'coins.order.failed' => 'Pesanan ini gagal dibuat. Buat pesanan baru dari halaman Koin.',
     'coins.back' => 'Kembali ke Koin', 'coins.to_advice' => 'Buka Rekomendasi AI',
 

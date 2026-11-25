@@ -8,6 +8,7 @@ final class CoinController
         $u = require_login();
         if (Mayar::configured()) {
             Payments::reconcileUser((int) $u['id']);
+            reload_user(); // saldo di menu profil ikut terbaru
         }
         render('coins/index', [
             'title'    => t('coins.title'),
@@ -42,8 +43,9 @@ final class CoinController
             redirect('/koin');
         }
         // Tidak langsung dialihkan ke Mayar: CSP form-action 'self' memblokir redirect form ke domain lain.
-        // Halaman pesanan membuka tautan bayar (navigasi biasa, bukan kiriman form).
-        redirect('/koin/pesanan/' . $order['code'] . '?bayar=1', 303);
+        // Halaman pesanan membuka tautan bayar Mayar di tab baru (navigasi biasa, bukan kiriman form),
+        // lalu memantau status sehingga pembeli tidak kehilangan jalan kembali ke situs.
+        redirect('/koin/pesanan/' . $order['code'], 303);
     }
 
     public function order(string $code): void
@@ -55,11 +57,11 @@ final class CoinController
         }
         if ($o['status'] === 'pending' && Mayar::configured() && (!$o['checked_at'] || strtotime((string) $o['checked_at']) < time() - 10)) {
             $o = Payments::reconcile($o);
+            reload_user();
         }
         render('coins/order', [
             'title'   => t('coins.order.title'),
             'o'       => $o,
-            'autoPay' => isset($_GET['bayar']) && $o['status'] === 'pending' && !empty($o['pay_link']),
             'balance' => Coins::balance((int) $u['id']),
             'noindex' => true,
         ]);
