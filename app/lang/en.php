@@ -339,4 +339,10 @@ return [
     'advice.err.failed' => 'The analysis failed. Your coin has been returned. Try again shortly.',
     'advice.card_h' => 'Want a more personal plan?',
     'advice.card_p' => 'See target correct answers per section to reach your target score, then ask for an AI Analysis.',
+    'premium.item' => 'Premium 1 year', 'premium.see' => 'See the Premium plan', 'premium.unlock' => 'Unlock with Premium',
+    'premium.free' => 'Free', 'premium.active_until' => 'Premium until {d}', 'premium.back' => 'Back to Pricing',
+    'premium.locked' => 'This part belongs to the Premium plan. Activate Premium to open it.',
+    'premium.map_locked' => 'This Level belongs to the Premium plan.',
+    'premium.order_paid' => 'Your Premium is active until {d}. All Levels and Simulations are open.',
+    'premium.err.closed' => 'Premium purchases are not open yet.',
 ];

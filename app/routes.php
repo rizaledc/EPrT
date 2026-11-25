@@ -37,6 +37,7 @@ return [
     ['GET',      '/hasil/{id}',                         'PracticeController@result'],
     ['GET',      '/riwayat',                            'PracticeController@history'],
 
+    ['POST',     '/premium/beli',                       'PremiumController@buy'],
     ['GET',      '/koin',                               'CoinController@index'],
     ['POST',     '/koin/beli',                          'CoinController@buy'],
     ['GET',      '/koin/pesanan/{code}',                'CoinController@order'],

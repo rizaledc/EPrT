@@ -31,6 +31,8 @@ final class PracticeController
             'allBloksDone' => $allBloksDone,
             'announcement' => is_array($ann) ? trim((string) ($ann[active_lang()] ?? $ann['id'] ?? '')) : '',
             'estimate'  => ScoreEstimator::estimate((int) $u['id']),
+            'isPremium' => Premium::isActive($u),
+            'premiumRequired' => Premium::required(),
             'compactSponsors' => true,
             'noindex'   => true,
         ]);
@@ -46,6 +48,7 @@ final class PracticeController
         if (Rumah::isLegacyRoute($blok, $rumah)) {
             redirect(Rumah::url($r), 301);
         }
+        Premium::guard($u, $r);
         $status = [];
         foreach (Practice::SECTIONS as $s) {
             $status[$s] = Practice::sectionStatus((int) $u['id'], $r, $s);
@@ -72,6 +75,7 @@ final class PracticeController
         if (Rumah::isLegacyRoute($blok, $rumah)) {
             redirect(Rumah::url($r, $section), 301);
         }
+        Premium::guard($u, $r);
         $a = Practice::openAttempt($u, $r, $section, 'practice');
         if (!$a) {
             flash('info', t('session.no_questions'));
@@ -87,6 +91,7 @@ final class PracticeController
         if (!$r) {
             abort(404);
         }
+        Premium::guard($u, $r);
         $status = [];
         foreach (Practice::SECTIONS as $s) {
             $status[$s] = Practice::sectionStatus((int) $u['id'], $r, $s, 'simulation');
@@ -101,6 +106,7 @@ final class PracticeController
         if (!$r || !in_array($section, Practice::SECTIONS, true)) {
             abort(404);
         }
+        Premium::guard($u, $r);
         $a = Practice::openAttempt($u, $r, $section, 'simulation');
         if (!$a) {
             flash('info', t('session.no_questions'));
@@ -253,6 +259,9 @@ final class PracticeController
     {
         $u = require_login();
         $a = Practice::ownedAttempt((int) $id, $u);
+        if ($r = Rumah::byId((int) $a['rumah_id'])) {
+            Premium::guard($u, $r);
+        }
         $wrong = [];
         foreach ($a['question_ids'] as $qid) {
             $ans = q_one('SELECT is_correct FROM answers WHERE attempt_id = ? AND question_id = ?', [$a['id'], $qid]);

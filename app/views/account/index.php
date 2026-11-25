@@ -2,7 +2,7 @@
 <section class="container container-narrow page-head">
   <span class="eyebrow"><?= e(t('account.eyebrow')) ?></span>
   <h1><?= e(t('account.h1')) ?> <span class="hl"><?= e($user['username']) ?></span></h1>
-  <p class="muted"><?= e(t('account.joined', ['date' => fmt_date($user['created_at'], false)])) ?> · <?= e(t('account.plan')) ?>: <span class="chip chip-outline"><?= e($user['plan']) ?></span></p>
+  <p class="muted"><?= e(t('account.joined', ['date' => fmt_date($user['created_at'], false)])) ?> · <?= e(t('account.plan')) ?>: <?php if (Premium::isActive($user) && $user['role'] !== 'admin'): ?><span class="chip chip-premium"><?= e(t('premium.active_until', ['d' => fmt_date($user['premium_until'], false)])) ?></span><?php else: ?><span class="chip chip-outline"><?= e(t('premium.free')) ?></span> <a class="small" href="<?= e(url('harga')) ?>"><?= e(t('premium.see')) ?></a><?php endif; ?></p>
 </section>
 <section class="container container-narrow stack">
   <?= partial('form-errors', ['errors' => $errors]) ?>

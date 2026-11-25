@@ -32,5 +32,12 @@ final class Installer
         if (!in_array('coin_balance', $uc, true)) {
             db()->exec('ALTER TABLE users ADD COLUMN coin_balance INT NOT NULL DEFAULT 0 AFTER target_score');
         }
+        if (!in_array('premium_until', $uc, true)) {
+            db()->exec('ALTER TABLE users ADD COLUMN premium_until DATETIME NULL AFTER coin_balance');
+        }
+        $oc = array_column(q_all('SHOW COLUMNS FROM coin_orders'), 'Field');
+        if (!in_array('product', $oc, true)) {
+            db()->exec("ALTER TABLE coin_orders ADD COLUMN product VARCHAR(16) NOT NULL DEFAULT 'coins' AFTER code");
+        }
     }
 }
