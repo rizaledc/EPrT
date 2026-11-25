@@ -8,8 +8,8 @@ $link = fn(string $anchor) => $isHome ? '#' . $anchor : url('/#' . $anchor);
 $items = [
     ['href' => url('/'), 'label' => t('nav.home'), 'home' => true, 'active' => $isHome, 'spy' => 'top'],
     ['href' => url('latihan'), 'label' => t('nav.practice'), 'active' => $path === '/latihan'],
-    ['href' => $link('kurikulum'), 'label' => t('nav.curriculum'), 'spy' => 'kurikulum'],
-    ['href' => $link('cara-kerja'), 'label' => t('nav.how'), 'spy' => 'cara-kerja'],
+    ['href' => $link('kurikulum'), 'label' => t('nav.curriculum'), 'spy' => 'kurikulum', 'opt' => true],
+    ['href' => $link('cara-kerja'), 'label' => t('nav.how'), 'spy' => 'cara-kerja', 'opt' => true],
     ['href' => url('kamus'), 'label' => t('nav.glossary'), 'active' => $path === '/kamus'],
     ['href' => $link('faq'), 'label' => 'FAQ', 'spy' => 'faq'],
 ];
@@ -23,6 +23,9 @@ $attrs = function (array $it) use ($isHome): string {
     }
     if (!empty($it['active'])) {
         $a .= ' aria-current="page"';
+    }
+    if (!empty($it['opt'])) {
+        $a .= ' class="nav-opt"';
     }
     return $a;
 };
@@ -45,7 +48,7 @@ if ($u) {
 }
 $initial = $u ? mb_strtoupper(mb_substr($u['username'], 0, 1)) : '';
 ?>
-<header class="nav">
+<header class="nav<?= $u ? ' is-member' : '' ?>">
   <div class="container nav-inner">
     <a class="logo" href="<?= e(url('/')) ?>" data-home-link aria-label="PerumahanInggris, <?= e(t('nav.home')) ?>"><?= partial('logo') ?></a>
     <nav class="nav-links" aria-label="<?= e(t('nav.main')) ?>">
