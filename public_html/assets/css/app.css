@@ -1216,3 +1216,14 @@ html.menu-lock .nav { background: #fff; }
 .house-card.is-locked:hover, .sim-card.is-locked:hover { opacity: 1; }
 .premium-lock { background: var(--pink-50, #fff0f5); border-color: var(--pink-200, #f9c6d8); }
 .premium-offer form { flex-shrink: 0; }
+
+/* Navbar: teks menu tidak pernah patah baris. Member punya tombol akun, jadi di desktop yang
+   muat menu Kurikulum dan Cara Kerja (bagian Beranda) disembunyikan untuk member di desktop; tetap ada di menu HP. */
+.nav-links a { white-space: nowrap; }
+.nav-links { min-width: 0; }
+@media (min-width: 961px) {
+  .nav.is-member .nav-links .nav-opt { display: none; }
+}
+@media (min-width: 961px) and (max-width: 1100px) {
+  .nav:not(.is-member) .nav-links .nav-opt { display: none; }
+}
