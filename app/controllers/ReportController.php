@@ -17,6 +17,7 @@ final class ReportController
     public function final(): void
     {
         $u = require_login();
+        Premium::guardLevel($u, 'D');
         $unlocked = $this->allBloksDone((int) $u['id']);
         $est = ScoreEstimator::estimate((int) $u['id']);
         $simDone = (int) q_val("SELECT COUNT(*) FROM attempts t JOIN rumahs r ON r.id = t.rumah_id WHERE t.user_id = ? AND r.kind = 'simulation' AND t.finished_at IS NOT NULL", [$u['id']]);
@@ -35,6 +36,7 @@ final class ReportController
     public function finalPdf(): void
     {
         $u = require_login();
+        Premium::guardLevel($u, 'D');
         if (!$this->allBloksDone((int) $u['id'])) {
             flash('info', t('final.locked'));
             redirect('/rapor/akhir');
@@ -53,6 +55,7 @@ final class ReportController
         if (!in_array($code, ['A', 'B', 'C', 'D'], true)) {
             abort(404);
         }
+        Premium::guardLevel($u, $code);
         if (!Practice::blokCompleted((int) $u['id'], $code)) {
             flash('info', t('map.blok_locked'));
             redirect('/latihan');

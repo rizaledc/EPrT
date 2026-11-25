@@ -26,7 +26,7 @@ $avg = (int) $month['n'] > 0 ? (float) $month['cost'] / (int) $month['n'] : 0.0;
 
 <form class="card mt-24 form" method="post" action="<?= e(url('admin/koin')) ?>">
   <?= csrf_field() ?><input type="hidden" name="action" value="settings">
-  <h2>Paket koin dan AI</h2>
+  <h2>Paket Premium, koin, dan AI</h2>
   <div class="table-wrap"><table class="table"><thead><tr><th>Paket</th><th>Jumlah koin</th><th>Harga (Rp)</th><th>Aktif</th></tr></thead><tbody>
     <?php foreach ($packages as $i => $p): ?>
       <tr><td class="mono"><?= e($p['id']) ?></td>
@@ -35,6 +35,14 @@ $avg = (int) $month['n'] > 0 ? (float) $month['cost'] / (int) $month['n'] : 0.0;
         <td><input type="checkbox" name="pkg_active[<?= $i ?>]" value="1" <?= $p['active'] ? 'checked' : '' ?> aria-label="Paket <?= $i + 1 ?> aktif"></td></tr>
     <?php endforeach; ?>
   </tbody></table></div>
+  <h3 class="mt-24">Premium</h3>
+  <p class="small muted">Harga sekarang <strong><?= e(Coins::rupiah($premiumPrice)) ?></strong> (tingkat dari halaman Harga) · pembeli tercatat <?= (int) $premiumSold ?> · Premium aktif <?= (int) $premiumActive ?> pengguna</p>
+  <div class="grid-2">
+    <label class="row small"><input type="checkbox" name="premium_sales_open" value="1" <?= $premiumOpen ? 'checked' : '' ?>> Pembelian Premium dibuka</label>
+    <label class="row small"><input type="checkbox" name="premium_required" value="1" <?= $premiumRequired ? 'checked' : '' ?>> Kunci Level B sampai D, Simulasi, dan Rapor untuk pengguna tanpa Premium (matikan = masa uji coba, semua terbuka)</label>
+    <div class="field"><label for="premium_sold_extra">Pembeli di luar situs (ditambahkan ke hitungan tingkat harga)</label><input class="input" id="premium_sold_extra" name="premium_sold_extra" type="number" min="0" value="<?= (int) $premiumExtra ?>"></div>
+  </div>
+  <h3 class="mt-24">Koin dan AI</h3>
   <div class="grid-2">
     <label class="row small"><input type="checkbox" name="sales_open" value="1" <?= $salesOpen ? 'checked' : '' ?>> Pembelian koin dibuka</label>
     <label class="row small"><input type="checkbox" name="ai_enabled" value="1" <?= $aiEnabled ? 'checked' : '' ?>> Analisis AI aktif</label>
@@ -50,7 +58,7 @@ $avg = (int) $month['n'] > 0 ? (float) $month['cost'] / (int) $month['n'] : 0.0;
   <?php foreach ($orders as $o): ?><tr>
     <td><?= e(fmt_date($o['created_at'])) ?></td><td class="mono small"><?= e($o['code']) ?></td>
     <td><a href="<?= e(url('admin/pengguna/' . $o['user_id'])) ?>"><?= e($o['username']) ?></a></td>
-    <td><?= (int) $o['coins'] ?> koin</td><td class="num mono"><?= e(Coins::rupiah((int) $o['amount'])) ?></td>
+    <td><?= ($o['product'] ?? 'coins') === 'premium' ? 'Premium 1 th' : (int) $o['coins'] . ' koin' ?></td><td class="num mono"><?= e(Coins::rupiah((int) $o['amount'])) ?></td>
     <td><span class="chip chip-xs <?= $o['status'] === 'paid' ? 'chip-good' : ($o['status'] === 'pending' ? 'chip-lime' : 'chip-outline') ?>"><?= e($o['status']) ?></span><?= $o['paid_at'] ? '<br><span class="small muted">' . e(fmt_date($o['paid_at'])) . '</span>' : '' ?></td>
     <td class="mono small"><?= e((string) $o['mayar_id']) ?></td>
     <td><?php if ($o['status'] === 'pending' && $mayarKey): ?><form method="post" action="<?= e(url('admin/koin')) ?>"><?= csrf_field() ?><input type="hidden" name="action" value="check_order"><input type="hidden" name="order_id" value="<?= (int) $o['id'] ?>"><button class="btn btn-secondary btn-sm">Cek ke Mayar</button></form><?php endif; ?></td>

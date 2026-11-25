@@ -8,6 +8,7 @@
     <?php if ($suspicious): ?><p class="small" style="color:var(--bad)">Pemakaian janggal: <?= e(implode(', ', $suspicious)) ?>.</p><?php endif; ?>
     <p class="small mb-0">Role: <?= e($u['role']) ?> · Plan: <?= e($u['plan']) ?> · Bahasa: <?= e(strtoupper($u['lang'])) ?> · Target: <?= (int) $u['target_score'] ?><br>
     Daftar: <?= e(fmt_date($u['created_at'])) ?> · Terakhir aktif: <?= e(fmt_date($u['last_active_at'])) ?><br>
+    Premium: <strong><?= $u['premium_until'] && strtotime($u['premium_until']) > time() ? 'aktif sampai ' . e(fmt_date($u['premium_until'], false)) : 'tidak aktif' ?></strong> ·
     Koin: <strong><?= (int) $u['coin_balance'] ?></strong> ·
     Perkiraan skor: <strong><?= $estimate['total'] ?? '-' ?></strong> <?= $estimate['total'] ? '(' . $estimate['low'] . '-' . $estimate['high'] . ')' : '' ?> · <?= $estimate['answers'] ?> jawaban
     <?= (int) $u['must_change_password'] ? '<br><span class="chip chip-xs chip-lime">wajib ganti password</span>' : '' ?></p>
@@ -18,6 +19,8 @@
       <form method="post" action="<?= e(url('admin/pengguna/' . $u['id'] . '/aksi')) ?>"><?= csrf_field() ?><input type="hidden" name="action" value="reset_password"><button class="btn btn-dark btn-sm" data-confirm="Reset password <?= e($u['username']) ?>?">Reset password</button></form>
       <form method="post" action="<?= e(url('admin/pengguna/' . $u['id'] . '/aksi')) ?>"><?= csrf_field() ?><input type="hidden" name="action" value="recovery"><button class="btn btn-secondary btn-sm">Kode pemulihan baru</button></form>
       <form method="post" action="<?= e(url('admin/pengguna/' . $u['id'] . '/aksi')) ?>"><?= csrf_field() ?><input type="hidden" name="action" value="revoke_sessions"><button class="btn btn-secondary btn-sm" data-confirm="Cabut semua sesi <?= e($u['username']) ?>?">Cabut semua sesi (<?= (int) $activeSessions ?> aktif)</button></form>
+      <form method="post" action="<?= e(url('admin/pengguna/' . $u['id'] . '/aksi')) ?>"><?= csrf_field() ?><input type="hidden" name="action" value="premium_grant"><button class="btn btn-secondary btn-sm" data-confirm="Aktifkan atau perpanjang Premium 1 tahun untuk <?= e($u['username']) ?>?">Premium +1 tahun</button></form>
+      <?php if ($u['premium_until']): ?><form method="post" action="<?= e(url('admin/pengguna/' . $u['id'] . '/aksi')) ?>"><?= csrf_field() ?><input type="hidden" name="action" value="premium_revoke"><button class="btn btn-secondary btn-sm" data-confirm="Cabut Premium <?= e($u['username']) ?>?">Cabut Premium</button></form><?php endif; ?>
       <form method="post" action="<?= e(url('admin/pengguna/' . $u['id'] . '/aksi')) ?>"><?= csrf_field() ?><input type="hidden" name="action" value="toggle_status"><button class="btn btn-secondary btn-sm"><?= $u['status'] === 'active' ? 'Nonaktifkan' : 'Aktifkan' ?></button></form>
     </div>
     <form class="row" method="post" action="<?= e(url('admin/pengguna/' . $u['id'] . '/aksi')) ?>"><?= csrf_field() ?><input type="hidden" name="action" value="coins">

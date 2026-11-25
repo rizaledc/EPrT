@@ -1,5 +1,5 @@
 <?php
-/** @var array $c @var array $tiers @var int $current */
+/** @var array $c @var array $tiers @var int $current @var ?array $user @var bool $isPremium @var bool $salesOpen */
 $price = LegalController::rupiah((int) $tiers[$current]['price']);
 ?>
 <section class="container page-head">
@@ -19,8 +19,21 @@ $price = LegalController::rupiah((int) $tiers[$current]['price']);
       <div class="row-between"><h2><?= e($c['premium_name']) ?></h2><span class="chip"><?= e($c['popular']) ?></span></div>
       <p class="price"><span class="amount"><?= e($price) ?></span> <span class="muted"><?= e($c['premium_period']) ?></span></p>
       <ul class="price-list"><?php foreach ($c['premium_items'] as $li): ?><li><?= icon('check', 18) ?><span><?= e($li) ?></span></li><?php endforeach; ?></ul>
-      <button type="button" class="btn btn-primary" disabled aria-disabled="true"><?= e($c['premium_cta']) ?></button>
-      <p class="small muted mb-0 mt-8"><?= e($c['premium_note']) ?></p>
+      <?php if (!empty($user) && $isPremium && $user['role'] !== 'admin'): ?>
+        <p class="mb-8"><strong><?= e(strtr($c['premium_active'], ['{d}' => fmt_date($user['premium_until'], false)])) ?></strong></p>
+      <?php endif; ?>
+      <?php if (!$salesOpen): ?>
+        <button type="button" class="btn btn-primary" disabled aria-disabled="true"><?= e($c['premium_cta']) ?></button>
+        <p class="small muted mb-0 mt-8"><?= e($c['premium_note']) ?></p>
+      <?php elseif (empty($user)): ?>
+        <a class="btn btn-primary" href="<?= e(url('masuk?next=' . rawurlencode('/harga'))) ?>"><?= e($c['premium_login']) ?></a>
+        <p class="small muted mb-0 mt-8"><?= e($c['premium_note_open']) ?></p>
+      <?php else: ?>
+        <form method="post" action="<?= e(url('premium/beli')) ?>"><?= csrf_field() ?>
+          <button type="submit" class="btn btn-primary btn-block" data-once><span><?= e($isPremium ? $c['premium_renew'] : $c['premium_buy']) ?> · <?= e($price) ?></span><span class="btn-arrow" aria-hidden="true"><?= icon('arrow-right', 16) ?></span></button>
+        </form>
+        <p class="small muted mb-0 mt-8"><?= e($c['premium_note_open']) ?></p>
+      <?php endif; ?>
     </article>
   </div>
   <article class="card legal-card mt-24">

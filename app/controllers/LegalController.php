@@ -63,7 +63,7 @@ final class LegalController
     /** Indeks tingkat harga yang berlaku sekarang (berdasarkan jumlah pembeli Premium). */
     public static function currentTier(): int
     {
-        $sold = (int) setting('premium_sold', 0);
+        $sold = Premium::sold();
         foreach (self::PRICE_TIERS as $i => $t) {
             if ($t['to'] === null || $sold < $t['to']) {
                 return $i;
@@ -102,6 +102,10 @@ final class LegalController
     public function pricing(): void
     {
         $c = self::content()['pricing'];
-        render('legal/pricing', ['title' => $c['title'], 'description' => $c['lead'], 'c' => $c, 'tiers' => self::PRICE_TIERS, 'current' => self::currentTier()]);
+        $u = current_user();
+        render('legal/pricing', [
+            'title' => $c['title'], 'description' => $c['lead'], 'c' => $c, 'tiers' => self::PRICE_TIERS, 'current' => self::currentTier(),
+            'user' => $u, 'isPremium' => $u && Premium::isActive($u), 'salesOpen' => Premium::salesOpen(),
+        ]);
     }
 }

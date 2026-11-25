@@ -355,4 +355,10 @@ return [
     'advice.err.failed' => 'Analisis gagal. Koin kamu sudah dikembalikan. Coba lagi sebentar lagi.',
     'advice.card_h' => 'Mau rencana yang lebih personal?',
     'advice.card_p' => 'Lihat target jumlah benar per seksi untuk mencapai skor targetmu, lalu minta Analisis AI.',
+    'premium.item' => 'Premium 1 tahun', 'premium.see' => 'Lihat paket Premium', 'premium.unlock' => 'Buka dengan Premium',
+    'premium.free' => 'Gratis', 'premium.active_until' => 'Premium sampai {d}', 'premium.back' => 'Kembali ke Harga',
+    'premium.locked' => 'Bagian ini termasuk paket Premium. Aktifkan Premium untuk membukanya.',
+    'premium.map_locked' => 'Level ini termasuk paket Premium.',
+    'premium.order_paid' => 'Premium kamu sudah aktif sampai {d}. Semua Level dan Simulasi terbuka.',
+    'premium.err.closed' => 'Pembelian Premium belum dibuka.',
 ];

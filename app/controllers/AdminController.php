@@ -176,6 +176,16 @@ final class AdminController
                 admin_log('revoke_sessions', $u['username'], ['count' => $n]);
                 flash('success', $n . ' sesi dicabut.');
                 break;
+            case 'premium_grant':
+                $until = Premium::activate((int) $u['id']);
+                admin_log('premium_grant', $u['username'], ['until' => $until]);
+                flash('success', 'Premium aktif sampai ' . $until . '.');
+                break;
+            case 'premium_revoke':
+                Premium::revoke((int) $u['id']);
+                admin_log('premium_revoke', $u['username']);
+                flash('success', 'Premium dicabut.');
+                break;
             case 'coins':
                 $delta = max(-1000, min(1000, (int) input('delta')));
                 $note = trim((string) input('note')) ?: 'Penyesuaian admin';
@@ -724,6 +734,9 @@ final class AdminController
                 }
                 setting_save('coin_packages', $pk);
                 setting_save('coins_sales_open', (bool) input('sales_open'));
+                setting_save('premium_sales_open', (bool) input('premium_sales_open'));
+                setting_save('premium_required', (bool) input('premium_required'));
+                setting_save('premium_sold', max(0, min(100000, (int) input('premium_sold_extra', 0))));
                 setting_save('ai_enabled', (bool) input('ai_enabled'));
                 setting_save('ai_daily_limit', max(1, min(50, (int) input('ai_daily_limit', 5))));
                 $model = trim((string) input('ai_model'));
@@ -746,9 +759,15 @@ final class AdminController
                         WHERE status = 'paid' AND paid_at >= DATE_FORMAT(NOW(), '%Y-%m-01')");
         $token = (string) config('mayar.webhook_token', '');
         $this->page('coins', [
-            'title'     => 'Koin & AI',
+            'title'     => 'Koin, Premium & AI',
             'packages'  => Coins::packages(),
             'salesOpen' => setting('coins_sales_open', true) !== false,
+            'premiumOpen' => setting('premium_sales_open', true) !== false,
+            'premiumRequired' => Premium::required(),
+            'premiumExtra' => (int) setting('premium_sold', 0),
+            'premiumSold' => Premium::sold(),
+            'premiumPrice' => Premium::price(),
+            'premiumActive' => (int) q_val('SELECT COUNT(*) FROM users WHERE premium_until > NOW()'),
             'aiEnabled' => setting('ai_enabled', true) !== false,
             'aiLimit'   => AiAdvisor::dailyLimit(),
             'aiModel'   => (string) setting('ai_model', ''),

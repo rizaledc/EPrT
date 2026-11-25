@@ -10,22 +10,20 @@ final class Payments
 {
     public const ORDER_TTL_HOURS = 24;
 
-    /** Buat pesanan dan payment request Mayar. @throws RuntimeException */
+    /** Buat pesanan koin atau Premium dan payment request Mayar. @throws RuntimeException */
     public static function createOrder(array $user, array $pkg): array
     {
+        $product = ($pkg['product'] ?? 'coins') === 'premium' ? 'premium' : 'coins';
         $code = 'PI' . date('ymd') . strtoupper(bin2hex(random_bytes(4)));
         $expires = new DateTimeImmutable('+' . self::ORDER_TTL_HOURS . ' hours');
-        q('INSERT INTO coin_orders (user_id, code, package, coins, amount, status, expires_at) VALUES (?, ?, ?, ?, ?, ?, ?)',
-            [$user['id'], $code, $pkg['id'], $pkg['coins'], $pkg['price'], 'pending', $expires->format('Y-m-d H:i:s')]);
+        q('INSERT INTO coin_orders (user_id, code, product, package, coins, amount, status, expires_at) VALUES (?, ?, ?, ?, ?, ?, ?, ?)',
+            [$user['id'], $code, $product, $pkg['id'], $pkg['coins'], $pkg['price'], 'pending', $expires->format('Y-m-d H:i:s')]);
         $id = (int) db()->lastInsertId();
+        $desc = $product === 'premium'
+            ? 'Premium PerumahanInggris 1 tahun untuk ' . $user['username'] . ' (pesanan ' . $code . ')'
+            : $pkg['coins'] . ' koin PerumahanInggris untuk ' . $user['username'] . ' (pesanan ' . $code . ')';
         try {
-            $p = Mayar::createPayment(
-                (string) $user['username'],
-                (int) $pkg['price'],
-                $pkg['coins'] . ' koin PerumahanInggris untuk ' . $user['username'] . ' (pesanan ' . $code . ')',
-                $expires,
-                ['order' => $code]
-            );
+            $p = Mayar::createPayment((string) $user['username'], (int) $pkg['price'], $desc, $expires, ['order' => $code]);
         } catch (Throwable $e) {
             q("UPDATE coin_orders SET status = 'failed' WHERE id = ?", [$id]);
             app_log('error', 'Mayar createPayment ' . $code . ': ' . $e->getMessage());
@@ -87,7 +85,11 @@ final class Payments
             if ($st->rowCount() !== 1) {
                 return false;
             }
-            Coins::credit((int) $order['user_id'], (int) $order['coins'], 'purchase', (string) $order['code'], Coins::rupiah((int) $order['amount']));
+            if (($order['product'] ?? 'coins') === 'premium') {
+                Premium::activate((int) $order['user_id']);
+            } else {
+                Coins::credit((int) $order['user_id'], (int) $order['coins'], 'purchase', (string) $order['code'], Coins::rupiah((int) $order['amount']));
+            }
             return true;
         });
     }
