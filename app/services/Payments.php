@@ -87,6 +87,9 @@ final class Payments
             }
             if (($order['product'] ?? 'coins') === 'premium') {
                 Premium::activate((int) $order['user_id']);
+                if (($bonus = Premium::bonusCoins()) > 0) {
+                    Coins::credit((int) $order['user_id'], $bonus, 'purchase', (string) $order['code'], 'Bonus Premium');
+                }
             } else {
                 Coins::credit((int) $order['user_id'], (int) $order['coins'], 'purchase', (string) $order['code'], Coins::rupiah((int) $order['amount']));
             }

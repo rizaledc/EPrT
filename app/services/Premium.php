@@ -40,9 +40,47 @@ final class Premium
         return in_array($rumah['kind'], ['practice', 'adaptive'], true) && strtoupper((string) $rumah['blok_code']) !== 'A';
     }
 
+    /**
+     * Pengguna awal: akun yang dibuat sebelum penguncian dinyalakan tetap bisa membuka semua Level
+     * (masa uji coba dihormati), selama setting premium_grandfather menyala.
+     */
+    public static function grandfathered(?array $u): bool
+    {
+        $cutoff = (string) setting('premium_cutoff', '');
+        return $u && $cutoff !== '' && setting('premium_grandfather', true) !== false
+            && strtotime((string) $u['created_at']) < strtotime($cutoff);
+    }
+
+    /** Boleh membuka bagian Premium: Premium aktif, admin, atau pengguna awal */
+    public static function hasAccess(?array $u): bool
+    {
+        return self::isActive($u) || self::grandfathered($u);
+    }
+
     public static function canAccess(array $u, array $rumah): bool
     {
-        return !self::required() || !self::needsPremium($rumah) || self::isActive($u);
+        return !self::required() || !self::needsPremium($rumah) || self::hasAccess($u);
+    }
+
+    /** Kartu di peta terkunci untuk pengguna ini */
+    public static function locked(?array $u, array $rumah): bool
+    {
+        return self::required() && self::needsPremium($rumah) && !self::hasAccess($u);
+    }
+
+    /** Sisa kuota harga awal: ['price', 'left', 'size'] atau null bila sudah tingkat terakhir */
+    public static function quota(): ?array
+    {
+        $tier = LegalController::PRICE_TIERS[LegalController::currentTier()];
+        if ($tier['to'] === null) {
+            return null;
+        }
+        return ['price' => (int) $tier['price'], 'left' => max(1, (int) $tier['to'] - self::sold()), 'size' => (int) $tier['to'] - (int) $tier['from'] + 1];
+    }
+
+    public static function bonusCoins(): int
+    {
+        return max(0, (int) setting('premium_bonus_coins', 2));
     }
 
     /** Hentikan akses ke bagian Premium: arahkan ke halaman Harga. */
@@ -56,7 +94,7 @@ final class Premium
 
     public static function guardLevel(array $u, string $code): void
     {
-        if (self::required() && strtoupper($code) !== 'A' && !self::isActive($u)) {
+        if (self::required() && strtoupper($code) !== 'A' && !self::hasAccess($u)) {
             flash('info', t('premium.locked'));
             redirect('/harga');
         }

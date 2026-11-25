@@ -1210,3 +1210,9 @@ html.menu-lock .nav { background: #fff; }
 .ai-body h4 { font-size: 12px; text-transform: uppercase; letter-spacing: .12em; color: var(--ink-500); margin: 20px 0 8px; }
 .ai-body h4:first-child { margin-top: 0; }
 .ai-body p { margin: 0 0 .8em; }
+
+/* Premium: kartu terkunci dan tawaran */
+.house-card.is-locked, .sim-card.is-locked { opacity: .72; }
+.house-card.is-locked:hover, .sim-card.is-locked:hover { opacity: 1; }
+.premium-lock { background: var(--pink-50, #fff0f5); border-color: var(--pink-200, #f9c6d8); }
+.premium-offer form { flex-shrink: 0; }

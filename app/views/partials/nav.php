@@ -4,9 +4,10 @@ $path = request_path();
 $isHome = $path === '/';
 $here = current_uri();
 $link = fn(string $anchor) => $isHome ? '#' . $anchor : url('/#' . $anchor);
-// Item menu utama, sama untuk tamu dan member: Beranda · Kurikulum · Cara Kerja · Kamus · FAQ
+// Item menu utama, sama untuk tamu dan member: Beranda · Peta Belajar · Kurikulum · Cara Kerja · Kamus · FAQ
 $items = [
     ['href' => url('/'), 'label' => t('nav.home'), 'home' => true, 'active' => $isHome, 'spy' => 'top'],
+    ['href' => url('latihan'), 'label' => t('nav.practice'), 'active' => $path === '/latihan'],
     ['href' => $link('kurikulum'), 'label' => t('nav.curriculum'), 'spy' => 'kurikulum'],
     ['href' => $link('cara-kerja'), 'label' => t('nav.how'), 'spy' => 'cara-kerja'],
     ['href' => url('kamus'), 'label' => t('nav.glossary'), 'active' => $path === '/kamus'],

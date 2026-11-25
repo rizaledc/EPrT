@@ -5,7 +5,20 @@ final class PracticeController
 {
     public function map(): void
     {
-        $u = require_login();
+        $u = current_user();
+        if (!$u) {
+            // Tamu: lihat peta saja; klik Hari mengarah ke Daftar gratis
+            $rumahs = Rumah::all();
+            render('practice/map', [
+                'title' => t('map.title'), 'user' => null, 'guest' => true, 'progress' => [], 'rumahs' => $rumahs,
+                'bloks' => q_all('SELECT * FROM bloks ORDER BY sort'), 'doneCount' => 0,
+                'totalCount' => count(array_filter($rumahs, fn($r) => in_array($r['kind'], ['practice', 'adaptive'], true))),
+                'next' => null, 'continue' => null, 'allBloksDone' => false, 'announcement' => '',
+                'estimate' => ['total' => null], 'isPremium' => false, 'premiumRequired' => Premium::required(),
+                'compactSponsors' => true,
+                'description' => t('map.guest_sub'),
+            ]);
+        }
         $progress = Practice::progressMap((int) $u['id']);
         $rumahs = Rumah::all();
         $bloks = q_all('SELECT * FROM bloks ORDER BY sort');
@@ -31,7 +44,8 @@ final class PracticeController
             'allBloksDone' => $allBloksDone,
             'announcement' => is_array($ann) ? trim((string) ($ann[active_lang()] ?? $ann['id'] ?? '')) : '',
             'estimate'  => ScoreEstimator::estimate((int) $u['id']),
-            'isPremium' => Premium::isActive($u),
+            'isPremium' => Premium::hasAccess($u),
+            'guest'     => false,
             'premiumRequired' => Premium::required(),
             'compactSponsors' => true,
             'noindex'   => true,
@@ -248,6 +262,8 @@ final class PracticeController
             'answers'  => $answers,
             'nextSection' => $nextSection,
             'wrongCount'  => $wrongCount,
+            'premiumOffer' => $a['mode'] === 'practice' && strtoupper((string) $r['blok_code']) === 'A'
+                && Premium::required() && !Premium::hasAccess($u) && Premium::salesOpen(),
             'progress' => Practice::progressMap((int) $a['user_id'])[(int) $r['id']] ?? null,
             'noindex'  => true,
             'compactSponsors' => true,

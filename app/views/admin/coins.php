@@ -40,6 +40,8 @@ $avg = (int) $month['n'] > 0 ? (float) $month['cost'] / (int) $month['n'] : 0.0;
   <div class="grid-2">
     <label class="row small"><input type="checkbox" name="premium_sales_open" value="1" <?= $premiumOpen ? 'checked' : '' ?>> Pembelian Premium dibuka</label>
     <label class="row small"><input type="checkbox" name="premium_required" value="1" <?= $premiumRequired ? 'checked' : '' ?>> Kunci Level B sampai D, Simulasi, dan Rapor untuk pengguna tanpa Premium (matikan = masa uji coba, semua terbuka)</label>
+    <label class="row small"><input type="checkbox" name="premium_grandfather" value="1" <?= $premiumGrandfather ? 'checked' : '' ?>> Pengguna awal tetap gratis: akun yang dibuat sebelum penguncian dinyalakan<?= $premiumCutoff !== '' ? ' (sebelum ' . e(fmt_date($premiumCutoff)) . ')' : '' ?> tetap membuka semua Level</label>
+    <div class="field"><label for="premium_bonus_coins">Bonus koin AI untuk pembeli Premium</label><input class="input" id="premium_bonus_coins" name="premium_bonus_coins" type="number" min="0" max="20" value="<?= (int) $premiumBonus ?>"></div>
     <div class="field"><label for="premium_sold_extra">Pembeli di luar situs (ditambahkan ke hitungan tingkat harga)</label><input class="input" id="premium_sold_extra" name="premium_sold_extra" type="number" min="0" value="<?= (int) $premiumExtra ?>"></div>
   </div>
   <h3 class="mt-24">Koin dan AI</h3>

@@ -35,6 +35,11 @@ final class Installer
         if (!in_array('premium_until', $uc, true)) {
             db()->exec('ALTER TABLE users ADD COLUMN premium_until DATETIME NULL AFTER coin_balance');
         }
+        // Sponsor bawaan lama (orbitani, kodinginaja) dihapus sekali; sponsor lain dari Admin tidak disentuh
+        if (!q_val("SELECT 1 FROM settings WHERE `key` = 'sponsors_default_removed'")) {
+            q("DELETE FROM sponsors WHERE url IN ('https://orbitani.com', 'https://kodinginaja.biz.id')");
+            q("INSERT IGNORE INTO settings (`key`, value) VALUES ('sponsors_default_removed', 'true')");
+        }
         $oc = array_column(q_all('SHOW COLUMNS FROM coin_orders'), 'Field');
         if (!in_array('product', $oc, true)) {
             db()->exec("ALTER TABLE coin_orders ADD COLUMN product VARCHAR(16) NOT NULL DEFAULT 'coins' AFTER code");

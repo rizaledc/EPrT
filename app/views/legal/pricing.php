@@ -18,7 +18,9 @@ $price = LegalController::rupiah((int) $tiers[$current]['price']);
     <article class="card price-card price-premium">
       <div class="row-between"><h2><?= e($c['premium_name']) ?></h2><span class="chip"><?= e($c['popular']) ?></span></div>
       <p class="price"><span class="amount"><?= e($price) ?></span> <span class="muted"><?= e($c['premium_period']) ?></span></p>
-      <ul class="price-list"><?php foreach ($c['premium_items'] as $li): ?><li><?= icon('check', 18) ?><span><?= e($li) ?></span></li><?php endforeach; ?></ul>
+      <ul class="price-list"><?php foreach ($c['premium_items'] as $li): ?><li><?= icon('check', 18) ?><span><?= e($li) ?></span></li><?php endforeach; ?>
+        <?php if (Premium::bonusCoins() > 0): ?><li><?= icon('check', 18) ?><span><?= e(t('premium.bonus_item', ['n' => Premium::bonusCoins()])) ?></span></li><?php endif; ?></ul>
+      <?php if ($q = Premium::quota()): ?><p class="small mb-8"><span class="chip chip-lime chip-xs"><?= e(t('premium.quota', ['p' => Coins::rupiah($q['price']), 'n' => $q['left'], 't' => $q['size']])) ?></span></p><?php endif; ?>
       <?php if (!empty($user) && $isPremium && $user['role'] !== 'admin'): ?>
         <p class="mb-8"><strong><?= e(strtr($c['premium_active'], ['{d}' => fmt_date($user['premium_until'], false)])) ?></strong></p>
       <?php endif; ?>
