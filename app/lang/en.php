@@ -54,11 +54,12 @@ return [
     'landing.how.s2.t' => 'Do 30 questions per Day', 'landing.how.s2.d' => 'Every answer is explained right away. Progress saves automatically.',
     'landing.how.s3.t' => 'Download reports & see your estimate', 'landing.how.s3.d' => 'A PDF report per Level and a final estimated score from 310 to 677.',
     'landing.faq.h2a' => 'Frequently asked', 'landing.faq.h2b' => 'questions',
-    'landing.faq.q1' => 'Is it free?', 'landing.faq.a1' => 'Level A is free forever. Levels B to D and the 2 Simulations are part of the Premium plan (payments open soon).',
+    'landing.faq.q1' => 'Is it free?', 'landing.faq.a1' => 'Level A is free forever. Levels B to D and the 2 Simulations are part of the Premium plan: one payment, active for 1 year, no automatic renewal. See the Pricing page for prices.',
     'landing.faq.q2' => 'Is this an official test?', 'landing.faq.a2' => 'No. PerumahanInggris is for practice. The scores shown are estimates, not official scores from any organization.',
     'landing.faq.q3' => 'Can I finish it in one day?', 'landing.faq.a3' => 'Yes. The 1 → 14 order is only a suggestion; you can start from any Day you have access to.',
     'landing.faq.q4' => 'Forgot your password?', 'landing.faq.a4' => 'Use the recovery code you saved when signing up on the Forgot Password page. If you lost it too, contact the admin for a reset.',
     'landing.faq.q5' => 'Does it work on a phone?', 'landing.faq.a5' => 'Yes. The site is built for phones, and progress is saved to your account so you can continue on another device.',
+    'landing.faq.q7' => 'Having a problem or a question?', 'landing.faq.a7' => 'Email {email}. Include your username (never send your password). For payment issues, attach the order code and proof of payment. We reply within 1 business day.',
     'landing.faq.q6' => 'Can I replay the audio?', 'landing.faq.a6' => 'In Practice mode you can replay it after answering, with a transcript. In Simulation mode audio plays only once, just like the real test.',
     'landing.cta.eyebrow' => 'READY?', 'landing.cta.h2' => 'Your first Day is waiting.',
 

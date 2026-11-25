@@ -56,11 +56,12 @@ return [
     'landing.how.s2.t' => 'Kerjakan 30 soal per Hari', 'landing.how.s2.d' => 'Setiap jawaban langsung dibahas. Progres tersimpan otomatis.',
     'landing.how.s3.t' => 'Unduh rapor & lihat perkiraan skor', 'landing.how.s3.d' => 'Rapor PDF per Level dan perkiraan skor akhir 310-677.',
     'landing.faq.h2a' => 'Pertanyaan yang', 'landing.faq.h2b' => 'sering muncul',
-    'landing.faq.q1' => 'Apakah gratis?', 'landing.faq.a1' => 'Level A gratis selamanya. Level B sampai D dan 2 Simulasi termasuk paket Premium (pembayaran segera dibuka).',
+    'landing.faq.q1' => 'Apakah gratis?', 'landing.faq.a1' => 'Level A gratis selamanya. Level B sampai D dan 2 Simulasi termasuk paket Premium: sekali bayar, aktif 1 tahun, tanpa langganan otomatis. Harga ada di halaman Harga.',
     'landing.faq.q2' => 'Apakah ini tes resmi?', 'landing.faq.a2' => 'Tidak. PerumahanInggris adalah tempat latihan. Skor yang ditampilkan adalah perkiraan, bukan skor resmi dari lembaga mana pun.',
     'landing.faq.q3' => 'Bisa dikerjakan dalam 1 hari?', 'landing.faq.a3' => 'Bisa. Urutan 1 → 14 hanya saran, kamu bebas mulai dari Hari mana pun yang bisa kamu akses.',
     'landing.faq.q4' => 'Lupa password?', 'landing.faq.a4' => 'Gunakan kode pemulihan yang kamu simpan saat mendaftar di halaman Lupa Password. Jika kode juga hilang, hubungi admin untuk reset.',
     'landing.faq.q5' => 'Bisa dari HP?', 'landing.faq.a5' => 'Bisa. Tampilan dirancang untuk HP, dan progres tersimpan di akun sehingga bisa dilanjutkan dari perangkat lain.',
+    'landing.faq.q7' => 'Ada kendala atau pertanyaan?', 'landing.faq.a7' => 'Kirim email ke {email}. Sebutkan username kamu (jangan pernah kirim password). Untuk urusan pembayaran, lampirkan kode pesanan dan bukti bayar. Pesan dibalas dalam 1x24 jam kerja.',
     'landing.faq.q6' => 'Audionya bisa diulang?', 'landing.faq.a6' => 'Di mode Latihan bisa diputar ulang setelah menjawab, lengkap dengan transkrip. Di mode Simulasi audio hanya diputar sekali, seperti tes sungguhan.',
     'landing.cta.eyebrow' => 'SIAP MULAI?', 'landing.cta.h2' => 'Hari pertamamu sudah menunggu.',
 
