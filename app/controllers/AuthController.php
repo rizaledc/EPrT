@@ -156,6 +156,7 @@ final class AuthController
                 if (!$errors && $user) {
                     q('UPDATE users SET password_hash = ?, must_change_password = 0 WHERE id = ?', [Auth::hash($password), $user['id']]);
                     q('DELETE FROM remember_tokens WHERE user_id = ?', [$user['id']]);
+                    UserSession::revokeAll((int) $user['id'], null, 'password');
                     $newCode = Auth::setRecovery((int) $user['id']);
                     Auth::login($user);
                     $_SESSION['new_recovery_code'] = $newCode;

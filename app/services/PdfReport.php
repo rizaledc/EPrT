@@ -167,7 +167,9 @@ final class PdfReport
         foreach ($secC as $s => $c) {
             $pcts[$s] = $secN[$s] ? round($c / $secN[$s] * 100, 1) : null;
         }
-        $est = ScoreEstimator::estimate($uid);
+        // Perkiraan dari data Level ini (berbeda tiap rapor), plus perkiraan keseluruhan saat ini
+        $est = ScoreEstimator::estimate($uid, $code);
+        $overall = ScoreEstimator::estimate($uid);
         $weak = ScoreEstimator::weakestTags($uid, 5, $code);
         $title = t('pdf.blok_title', ['b' => $code, 'name' => tr($blok, 'name')]);
 
@@ -178,11 +180,12 @@ final class PdfReport
             . '<table><tr><th>' . e(t('pdf.col.day')) . '</th><th class="num">L</th><th class="num">S</th><th class="num">R</th><th class="num">Total</th><th class="num">' . e(t('pdf.time')) . '</th></tr>' . $rows . '</table>'
             . '<h2>' . e(t('pdf.pct_section')) . '</h2>' . self::bars($pcts)
             . '<h2>' . e(t('pdf.weakest5')) . '</h2>' . self::weakTable($weak, $uid)
-            . '<h2>' . e(t('pdf.estimate_tmp')) . '</h2>'
+            . '<h2>' . e(t('pdf.estimate_level', ['b' => $code])) . '</h2>'
             . '<div class="box">' . ($est['total'] !== null
                 ? '<span class="display" style="font-size:28px">' . $est['total'] . '</span> &nbsp;<span class="muted">' . e(t('score.range', ['a' => $est['low'], 'b' => $est['high']])) . '</span> &nbsp;<span class="chip">' . e(t('score.estimated')) . '</span>'
-                  . ($est['low_data'] ? '<br><span class="muted">' . e(t('score.low_data')) . '</span>' : '')
-                : e(t('score.not_enough'))) . '</div>'
+                : e(t('score.not_enough')))
+              . ($overall['total'] !== null ? '<br><span class="muted">' . e(t('pdf.estimate_overall', ['s' => $overall['total']])) . '</span>' : '')
+              . '</div>'
             . '</body></html>';
         $filename = sprintf('PerumahanInggris-Rapor-Level%s-%s-%s.pdf', $code, preg_replace('/[^A-Za-z0-9_]/', '', $user['username']), date('Y-m-d'));
         self::stream(self::dompdf(), $html, $filename);

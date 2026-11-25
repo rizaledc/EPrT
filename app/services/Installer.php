@@ -24,5 +24,9 @@ final class Installer
         if (!in_array('tick_at', $cols, true)) {
             db()->exec('ALTER TABLE attempts ADD COLUMN tick_at DATETIME NULL AFTER remaining_s');
         }
+        $rt = array_column(q_all('SHOW COLUMNS FROM remember_tokens'), 'Field');
+        if (!in_array('user_session_id', $rt, true)) {
+            db()->exec('ALTER TABLE remember_tokens ADD COLUMN user_session_id INT UNSIGNED NULL AFTER expires_at, ADD KEY idx_rt_us (user_session_id)');
+        }
     }
 }

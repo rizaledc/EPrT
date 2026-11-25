@@ -24,7 +24,7 @@
     <form class="form" method="post" action="<?= e(url('akun')) ?>" novalidate>
       <?= csrf_field() ?><input type="hidden" name="action" value="password">
       <?= partial('pw-field', ['name' => 'old_password', 'id' => 'old_password', 'label' => t('account.pw.old'), 'autocomplete' => 'current-password']) ?>
-      <?= partial('pw-field', ['name' => 'password', 'id' => 'password', 'label' => t('auth.new_password'), 'autocomplete' => 'new-password', 'guide' => true]) ?>
+      <?= partial('pw-field', ['name' => 'password', 'id' => 'password', 'label' => t('auth.new_password'), 'autocomplete' => 'new-password', 'guide' => true, 'pwUsername' => $user['username']]) ?>
       <?= partial('pw-field', ['name' => 'password_confirm', 'id' => 'password_confirm', 'label' => t('auth.password_confirm'), 'autocomplete' => 'new-password', 'confirmOf' => 'password']) ?>
       <div><button class="btn btn-dark" type="submit"><?= e(t('account.pw.submit')) ?></button></div>
     </form>
@@ -59,6 +59,30 @@
       <?= partial('pw-field', ['name' => 'confirm_password', 'id' => 'confirm_password_rc', 'label' => t('account.confirm_with_password'), 'autocomplete' => 'current-password']) ?>
       <div><button class="btn btn-secondary" type="submit"><?= icon('refresh', 18) ?> <?= e(t('account.recovery.submit')) ?></button></div>
     </form>
+  </div>
+
+  <div class="card" id="perangkat">
+    <h2><?= e(t('account.devices.h')) ?></h2>
+    <?php if ($user['role'] !== 'admin'): ?><p class="muted"><?= e(t('account.devices.d', ['n' => $sessionLimit])) ?></p><?php endif; ?>
+    <ul class="device-list">
+      <?php foreach ($devices as $d): $isThis = (int) $d['id'] === (int) $currentSession; ?>
+      <li class="device-row">
+        <span class="device-icon" aria-hidden="true"><?= icon(preg_match('/Android|iPhone|iPad/', $d['device_label']) ? 'phone' : 'monitor', 20) ?></span>
+        <div class="device-info">
+          <span class="device-name"><strong><?= e($d['device_label'] ?: '-') ?></strong><?php if ($isThis): ?> <span class="chip chip-xs chip-good"><?= e(t('account.devices.this')) ?></span><?php endif; ?></span>
+          <span class="small muted"><?= e(t('account.devices.last', ['t' => fmt_date($d['last_seen_at'])])) ?> · <?= e(t('account.devices.since', ['t' => fmt_date($d['created_at'])])) ?></span>
+        </div>
+        <?php if (!$isThis): ?>
+        <form method="post" action="<?= e(url('akun')) ?>"><?= csrf_field() ?><input type="hidden" name="action" value="revoke_session"><input type="hidden" name="session_id" value="<?= (int) $d['id'] ?>">
+          <button class="btn btn-secondary btn-sm" type="submit"><?= e(t('account.devices.revoke')) ?></button></form>
+        <?php endif; ?>
+      </li>
+      <?php endforeach; ?>
+    </ul>
+    <?php if (count($devices) > 1): ?>
+    <form method="post" action="<?= e(url('akun')) ?>" class="mt-16"><?= csrf_field() ?><input type="hidden" name="action" value="revoke_others">
+      <button class="btn btn-dark btn-sm" type="submit"><?= icon('logout', 16) ?> <?= e(t('account.devices.revoke_others')) ?></button></form>
+    <?php endif; ?>
   </div>
 
   <div class="card">

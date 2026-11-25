@@ -23,13 +23,34 @@ export async function api(url, body) {
   }
   let data = null;
   try { data = await res.json(); } catch { data = null; }
-  if (res.status === 401) { location.href = '/masuk?next=' + encodeURIComponent(location.pathname); }
+  if (res.status === 401 && data && data.error === 'session_revoked') {
+    // Sesi dicabut (login di perangkat lain): tampilkan pesan, jawaban yang sudah tersimpan aman di server
+    showSessionRevoked(data);
+  } else if (res.status === 401) { location.href = '/masuk?next=' + encodeURIComponent(location.pathname); }
   if (!res.ok || !data || data.ok === false) {
     const err = new Error((data && data.error) || 'request_failed');
     err.data = data; err.status = res.status;
     throw err;
   }
   return data;
+}
+
+let revokedShown = false;
+export function showSessionRevoked(data) {
+  window.dispatchEvent(new CustomEvent('session-revoked'));
+  if (revokedShown) return;
+  revokedShown = true;
+  const next = location.pathname + location.search;
+  const href = (data.login || '/masuk') + '?next=' + encodeURIComponent(next);
+  const wrap = document.createElement('div');
+  wrap.className = 'revoked-overlay';
+  wrap.setAttribute('role', 'alertdialog');
+  wrap.setAttribute('aria-modal', 'true');
+  wrap.innerHTML = `<div class="card"><p class="mb-16"><strong>${escapeHtml(data.message || '')}</strong></p>`
+    + `<a class="btn btn-primary" href="${escapeHtml(href)}">${escapeHtml(data.login_label || 'OK')}</a></div>`;
+  document.body.appendChild(wrap);
+  const btn = wrap.querySelector('a');
+  if (btn) btn.focus();
 }
 
 /**
@@ -51,6 +72,8 @@ export async function apiRetry(url, body, { delays = [1000, 2000, 4000, 8000, 16
 }
 
 export function toast(message, type = 'info') {
+  // Pesan sesi dicabut sudah tampil: jangan tumpuk dengan pesan gagal simpan
+  if (revokedShown && type === 'error') return;
   let wrap = $('.flash-wrap');
   if (!wrap) {
     wrap = document.createElement('div');

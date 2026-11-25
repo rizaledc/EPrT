@@ -3,7 +3,9 @@
   <button type="button" class="btn btn-secondary btn-sm mt-16" data-copy="#once"><?= icon('copy', 16) ?> <span data-copy-label>Salin</span></button></div><?php endif; ?>
 <div class="grid-2">
   <div class="card card-sm">
-    <h3><?= e($u['username']) ?> <span class="chip chip-xs <?= $u['status'] === 'active' ? 'chip-good' : 'chip-bad' ?>"><?= e($u['status']) ?></span></h3>
+    <h3><?= e($u['username']) ?> <span class="chip chip-xs <?= $u['status'] === 'active' ? 'chip-good' : 'chip-bad' ?>"><?= e($u['status']) ?></span>
+      <?php if ($suspicious): ?><span class="chip chip-xs chip-bad" title="<?= e(implode(', ', $suspicious)) ?>">Pemakaian janggal</span><?php endif; ?></h3>
+    <?php if ($suspicious): ?><p class="small" style="color:var(--bad)">Pemakaian janggal: <?= e(implode(', ', $suspicious)) ?>.</p><?php endif; ?>
     <p class="small mb-0">Role: <?= e($u['role']) ?> · Plan: <?= e($u['plan']) ?> · Bahasa: <?= e(strtoupper($u['lang'])) ?> · Target: <?= (int) $u['target_score'] ?><br>
     Daftar: <?= e(fmt_date($u['created_at'])) ?> · Terakhir aktif: <?= e(fmt_date($u['last_active_at'])) ?><br>
     Perkiraan skor: <strong><?= $estimate['total'] ?? '-' ?></strong> <?= $estimate['total'] ? '(' . $estimate['low'] . '-' . $estimate['high'] . ')' : '' ?> · <?= $estimate['answers'] ?> jawaban
@@ -14,6 +16,7 @@
     <div class="row">
       <form method="post" action="<?= e(url('admin/pengguna/' . $u['id'] . '/aksi')) ?>"><?= csrf_field() ?><input type="hidden" name="action" value="reset_password"><button class="btn btn-dark btn-sm" data-confirm="Reset password <?= e($u['username']) ?>?">Reset password</button></form>
       <form method="post" action="<?= e(url('admin/pengguna/' . $u['id'] . '/aksi')) ?>"><?= csrf_field() ?><input type="hidden" name="action" value="recovery"><button class="btn btn-secondary btn-sm">Kode pemulihan baru</button></form>
+      <form method="post" action="<?= e(url('admin/pengguna/' . $u['id'] . '/aksi')) ?>"><?= csrf_field() ?><input type="hidden" name="action" value="revoke_sessions"><button class="btn btn-secondary btn-sm" data-confirm="Cabut semua sesi <?= e($u['username']) ?>?">Cabut semua sesi (<?= (int) $activeSessions ?> aktif)</button></form>
       <form method="post" action="<?= e(url('admin/pengguna/' . $u['id'] . '/aksi')) ?>"><?= csrf_field() ?><input type="hidden" name="action" value="toggle_status"><button class="btn btn-secondary btn-sm"><?= $u['status'] === 'active' ? 'Nonaktifkan' : 'Aktifkan' ?></button></form>
     </div>
     <form class="row" method="post" action="<?= e(url('admin/pengguna/' . $u['id'] . '/aksi')) ?>"><?= csrf_field() ?><input type="hidden" name="action" value="plan">
@@ -59,6 +62,14 @@
     <h2>Buku Kesalahan</h2>
     <?php if (!$book): ?><p class="muted">Kosong.</p><?php endif; ?>
     <?php foreach ($book as $g): ?><div class="row-between card card-sm mb-16"><span class="chip chip-<?= e($g['section']) ?>"><?= e($g['tag']) ?></span><span class="mono"><?= count($g['questions']) ?> soal · <?= $g['wrong'] ?>× salah</span></div><?php endforeach; ?>
+  </div>
+  <div>
+    <h2>Sesi perangkat (30 terbaru)</h2>
+    <div class="table-wrap"><table class="table"><thead><tr><th>Perangkat</th><th>Masuk</th><th>Terakhir aktif</th><th>IP (disamarkan)</th><th>Status</th></tr></thead><tbody>
+      <?php if (!$sessions): ?><tr><td colspan="5" class="muted">Belum ada sesi.</td></tr><?php endif; ?>
+      <?php foreach ($sessions as $s): ?><tr><td><?= e($s['device_label']) ?><?= (int) $s['remember'] ? ' <span class="chip chip-xs">ingat saya</span>' : '' ?></td><td><?= e(fmt_date($s['created_at'])) ?></td><td><?= e(fmt_date($s['last_seen_at'])) ?></td><td class="mono"><?= e(substr($s['ip_hash'], 0, 10)) ?>…</td>
+        <td><?= $s['revoked_at'] ? 'dicabut (' . e(['limit' => 'batas perangkat', 'logout' => 'keluar', 'user' => 'dikeluarkan pengguna', 'admin' => 'admin', 'admin_reset' => 'reset password', 'password' => 'ganti password', 'expired' => 'kedaluwarsa', 'disabled' => 'akun nonaktif'][$s['revoke_reason']] ?? (string) $s['revoke_reason']) . ')' : '<span class="chip chip-xs chip-good">aktif</span>' ?></td></tr><?php endforeach; ?>
+    </tbody></table></div>
   </div>
   <div>
     <h2>Riwayat login</h2>

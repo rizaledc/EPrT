@@ -44,6 +44,7 @@ return [
     ['GET',      '/api/attempt/{id}',                   'ApiController@attempt'],
     ['POST',     '/api/answer',                         'ApiController@answer'],
     ['POST',     '/api/flag',                           'ApiController@flag'],
+    ['POST',     '/api/audio-played',                   'ApiController@audioPlayed'],
     ['POST',     '/api/attempt/{id}/tick',              'ApiController@tick'],
     ['POST',     '/api/attempt/{id}/finish',            'ApiController@finish'],
     ['GET',      '/api/sample',                         'ApiController@sample'],

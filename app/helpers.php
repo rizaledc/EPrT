@@ -513,6 +513,16 @@ function current_user(): ?array
         unset($_SESSION['user_id']);
         return $user = null;
     }
+    // Sesi perangkat ini masih aktif? (bisa dicabut oleh login di perangkat lain, Keluarkan, admin)
+    try {
+        $active = UserSession::check($user);
+    } catch (Throwable $e) {
+        $active = true; // tabel belum dimigrasi: jangan kunci pengguna
+    }
+    if (!$active) {
+        UserSession::kick();
+        return $user = null;
+    }
     // Sesi admin kedaluwarsa setelah 2 jam tanpa aktivitas
     $now = time();
     if ($user['role'] === 'admin' && isset($_SESSION['last_seen']) && $now - (int) $_SESSION['last_seen'] > 7200) {
@@ -527,6 +537,40 @@ function current_user(): ?array
     return $user;
 }
 
+/**
+ * Sesi dicabut: API → 401 session_revoked (mesin soal menampilkan pesannya), halaman → /masuk
+ * dengan pesan. Dipanggil di awal setiap request dan oleh require_login().
+ */
+function session_revoked_response(): never
+{
+    $msg = t('auth.session_revoked');
+    if (is_api_request()) {
+        json_response(['ok' => false, 'error' => 'session_revoked', 'message' => $msg, 'login' => url('masuk'), 'login_label' => t('auth.login_again')], 401);
+    }
+    flash('info', $msg);
+    $back = request_method_is_get() ? current_uri() : '/';
+    redirect('/masuk' . ($back && $back !== '/' && !str_starts_with($back, '/masuk') ? '?next=' . rawurlencode($back) : ''));
+}
+
+function request_method_is_get(): bool
+{
+    return strtoupper((string) ($_SERVER['REQUEST_METHOD'] ?? 'GET')) === 'GET';
+}
+
+/** Cek sesi di awal request: jika baru saja dicabut, langsung arahkan (kecuali di halaman masuk). */
+function enforce_user_session(): void
+{
+    if (!empty($_SESSION['user_id']) || !empty($_COOKIE['pi_remember'])) {
+        current_user();
+        if (UserSession::wasRevoked() && !in_array(request_path(), ['/masuk', '/keluar'], true)) {
+            session_revoked_response();
+        }
+        if (UserSession::wasRevoked()) {
+            flash('info', t('auth.session_revoked'));
+        }
+    }
+}
+
 function reload_user(): void
 {
     $GLOBALS['__user_reload'] = true;
@@ -536,6 +580,9 @@ function require_login(): array
 {
     $u = current_user();
     if (!$u) {
+        if (UserSession::wasRevoked()) {
+            session_revoked_response();
+        }
         if (is_api_request()) {
             json_response(['ok' => false, 'error' => 'auth'], 401);
         }
@@ -621,6 +668,8 @@ function icon(string $name, int $size = 20, string $class = ''): string
 {
     $paths = [
         'arrow-right' => '<path d="M5 12h14M13 6l6 6-6 6"/>',
+        'phone'       => '<rect x="7" y="2.5" width="10" height="19" rx="2.5"/><path d="M11 18.5h2"/>',
+        'monitor'     => '<rect x="3" y="4" width="18" height="12" rx="2"/><path d="M9 20h6M12 16v4"/>',
         'arrow-left'  => '<path d="M19 12H5M11 6l-6 6 6 6"/>',
         'arrow-up-right' => '<path d="M7 17 17 7M8 7h9v9"/>',
         'check'       => '<path d="m5 12.5 4.5 4.5L19 7.5"/>',

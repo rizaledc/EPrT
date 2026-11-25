@@ -8,6 +8,15 @@ const RULES = {
   digit: (p) => /[0-9]/.test(p),
   symbol: (p) => /[^A-Za-z0-9]/.test(p),
 };
+// Username untuk aturan tambahan: dari kolom username di form, atau data-pw-username (halaman Akun)
+const usernameField = (input) => (input.form ? input.form.querySelector('[data-username], input[name=username]') : null);
+const usernameFor = (input) => {
+  if (input.dataset.pwUsername) return input.dataset.pwUsername;
+  const f = usernameField(input);
+  return f ? f.value.trim() : '';
+};
+// Sama seperti server (Auth::validatePassword): password tidak boleh mengandung username
+const noUser = (p, user) => !p || !user || !p.toLowerCase().includes(user.toLowerCase());
 const LABELS = {
   id: ['Lemah', 'Lemah', 'Cukup', 'Kuat', 'Sangat kuat'],
   en: ['Weak', 'Weak', 'Fair', 'Strong', 'Very strong'],
@@ -15,8 +24,9 @@ const LABELS = {
 const STATE = { id: ['belum terpenuhi', 'terpenuhi'], en: ['not met', 'met'] };
 const lang = document.documentElement.lang === 'en' ? 'en' : 'id';
 
-function score(p) {
+function score(p, user = '') {
   if (!p) return 0;
+  if (!noUser(p, user)) return 1;
   const met = Object.values(RULES).filter((f) => f(p)).length;
   let s = met <= 2 ? 1 : met === 3 || met === 4 ? 2 : 3;
   if (met === 5 && (p.length >= 14 || new Set(p).size >= 12)) s = 4;
@@ -42,18 +52,23 @@ $$('[data-pw-input]').forEach((input) => {
   if (!guide) return;
   const update = () => {
     const p = input.value;
+    const user = usernameFor(input);
     $$('[data-rule]', guide).forEach((li) => {
-      const ok = RULES[li.dataset.rule](p);
+      const rule = li.dataset.rule;
+      const ok = rule === 'nouser' ? (p !== '' && noUser(p, user)) : RULES[rule](p);
       li.classList.toggle('ok', ok);
       const st = $('[data-rule-state]', li);
       if (st) st.textContent = STATE[lang][ok ? 1 : 0];
     });
-    const lv = score(p);
+    const lv = score(p, user);
     $('[data-pw-meter]', guide).dataset.level = String(lv);
     $('[data-pw-label]', guide).textContent = p ? LABELS[lang][lv] : LABELS[lang][0];
     input.dispatchEvent(new CustomEvent('pw:update', { bubbles: true }));
   };
   input.addEventListener('input', update);
+  // Username berubah: aturan tidak mengandung username ikut diperbarui
+  const uField = usernameField(input);
+  if (uField && uField !== input) uField.addEventListener('input', update);
   update();
 });
 
@@ -86,7 +101,7 @@ if (form) {
   const validate = () => {
     const p = pw.value;
     const rulesOk = Object.values(RULES).every((f) => f(p));
-    const notUser = !u.value || !p.toLowerCase().includes(u.value.toLowerCase());
+    const notUser = noUser(p, u.value.trim());
     const notExample = p !== 'Langit!Biru7Kopi';
     submit.disabled = !(userLocal() && userOk && rulesOk && notUser && notExample && pc.value === p && agree.checked);
   };

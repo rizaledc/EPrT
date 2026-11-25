@@ -9,6 +9,8 @@ final class ScoreEstimator
 {
     public const MAX_RAW = ['listening' => 50, 'structure' => 40, 'reading' => 50];
     public const WEIGHTS = ['sim' => 0.60, 'd' => 0.25, 'ac' => 0.15];
+    /** Simulasi baru dihitung bila minimal separuh soal seksinya dijawab (bukan dibuka lalu ditinggal). */
+    public const SIM_MIN_ANSWERED = 0.5;
     public const DEFAULT_TABLE = [
         'points'    => [0, 5, 10, 15, 20, 25, 30, 35, 40, 45, 50],
         'listening' => [31, 32, 37, 41, 44, 47, 50, 53, 57, 61, 68],
@@ -56,15 +58,20 @@ final class ScoreEstimator
     }
 
     /**
+     * Bobot tiap sumber (Simulasi 60%, Level D 25%, Level A-C 15%) dikalikan seberapa penuh datanya:
+     * min(1, jumlah jawaban / panjang seksi tes). Data yang masih sedikit tidak menguasai perkiraan,
+     * dan perkiraan terus bergerak mengikuti latihan baru.
+     *
      * @param ?string $blokCode batasi pada satu Blok (untuk Rapor Blok); null = semua data
      * @return array{total:?int,low:?int,high:?int,sections:array,answers:int,low_data:bool}
      */
     public static function estimate(int $userId, ?string $blokCode = null): array
     {
+        // Latihan: hanya soal yang dijawab
         $sql = "SELECT q.section, r.kind, b.code AS blok, SUM(a.is_correct) c, COUNT(*) n
                 FROM answers a JOIN attempts t ON t.id = a.attempt_id JOIN questions q ON q.id = a.question_id
                 JOIN rumahs r ON r.id = t.rumah_id LEFT JOIN bloks b ON b.id = r.blok_id
-                WHERE a.user_id = ? AND t.mode IN ('practice','simulation') AND (a.chosen_index IS NOT NULL OR t.mode = 'simulation')";
+                WHERE a.user_id = ? AND t.mode = 'practice' AND a.chosen_index IS NOT NULL";
         $params = [$userId];
         if ($blokCode) {
             $sql .= ' AND b.code = ?';
@@ -77,10 +84,35 @@ final class ScoreEstimator
             if ($row['kind'] === 'sample') {
                 continue;
             }
-            $cat = $row['kind'] === 'simulation' ? 'sim' : ($row['blok'] === 'D' ? 'd' : 'ac');
+            $cat = $row['blok'] === 'D' ? 'd' : 'ac';
             $agg[$row['section']][$cat]['c'] = ($agg[$row['section']][$cat]['c'] ?? 0) + (int) $row['c'];
             $agg[$row['section']][$cat]['n'] = ($agg[$row['section']][$cat]['n'] ?? 0) + (int) $row['n'];
             $answers += (int) $row['n'];
+        }
+        // Simulasi (tidak termasuk Rapor per Level): per percobaan seksi yang sudah selesai.
+        // Soal kosong dihitung salah seperti tes asli, tetapi percobaan yang ditinggal sebelum
+        // separuh soalnya dijawab tidak dihitung sama sekali.
+        if (!$blokCode) {
+            $sims = q_all(
+                "SELECT t.id, t.section, t.total, SUM(a.is_correct) c, SUM(a.chosen_index IS NOT NULL) answered
+                 FROM attempts t JOIN answers a ON a.attempt_id = t.id
+                 WHERE t.user_id = ? AND t.mode = 'simulation' AND t.finished_at IS NOT NULL
+                 GROUP BY t.id, t.section, t.total
+                 ORDER BY t.id DESC",
+                [$userId]
+            );
+            $usedSim = [];
+            foreach ($sims as $row) {
+                $total = max(1, (int) $row['total']);
+                // Hanya Simulasi terbaru yang dikerjakan per seksi: hasil Simulasi baru langsung menggantikan yang lama
+                if (isset($usedSim[$row['section']]) || (int) $row['answered'] / $total < self::SIM_MIN_ANSWERED) {
+                    continue;
+                }
+                $usedSim[$row['section']] = true;
+                $agg[$row['section']]['sim']['c'] = ($agg[$row['section']]['sim']['c'] ?? 0) + (int) $row['c'];
+                $agg[$row['section']]['sim']['n'] = ($agg[$row['section']]['sim']['n'] ?? 0) + $total;
+                $answers += (int) $row['answered'];
+            }
         }
         $sections = [];
         foreach (Practice::SECTIONS as $sec) {
@@ -91,6 +123,7 @@ final class ScoreEstimator
             foreach (self::WEIGHTS as $cat => $w) {
                 $d = $agg[$sec][$cat] ?? null;
                 if ($d && $d['n'] > 0) {
+                    $w *= min(1.0, $d['n'] / self::MAX_RAW[$sec]);
                     $wSum += $w;
                     $pSum += $w * ($d['c'] / $d['n']);
                     $n += $d['n'];

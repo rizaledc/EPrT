@@ -126,6 +126,9 @@ final class AdminController
             'answers'  => $answers,
             'book'     => Practice::mistakeBook((int) $u['id']),
             'logins'   => $logins,
+            'sessions' => UserSession::recent((int) $u['id'], 30),
+            'activeSessions' => count(UserSession::active((int) $u['id'])),
+            'suspicious' => UserSession::suspicious((int) $u['id']),
             'estimate' => ScoreEstimator::estimate((int) $u['id']),
             'once'     => $once,
         ]);
@@ -144,6 +147,7 @@ final class AdminController
                 $temp = 'Hari-' . Auth::newRecoveryCode() . '!' . random_int(10, 99);
                 q('UPDATE users SET password_hash = ?, must_change_password = 1 WHERE id = ?', [Auth::hash($temp), $u['id']]);
                 q('DELETE FROM remember_tokens WHERE user_id = ?', [$u['id']]);
+                UserSession::revokeAll((int) $u['id'], $self ? UserSession::currentId() : null, 'admin_reset');
                 $_SESSION['admin_once'] = ['label' => 'Password sementara (tampil sekali). Pengguna wajib menggantinya saat login berikutnya:', 'value' => $temp];
                 admin_log('reset_password', $u['username']);
                 break;
@@ -161,9 +165,15 @@ final class AdminController
                 q('UPDATE users SET status = ? WHERE id = ?', [$new, $u['id']]);
                 if ($new === 'disabled') {
                     q('DELETE FROM remember_tokens WHERE user_id = ?', [$u['id']]);
+                    UserSession::revokeAll((int) $u['id'], null, 'disabled');
                 }
                 admin_log('set_status', $u['username'], ['status' => $new]);
                 flash('success', 'Status diubah menjadi ' . $new . '.');
+                break;
+            case 'revoke_sessions':
+                $n = UserSession::revokeAll((int) $u['id'], $self ? UserSession::currentId() : null, 'admin');
+                admin_log('revoke_sessions', $u['username'], ['count' => $n]);
+                flash('success', $n . ' sesi dicabut.');
                 break;
             case 'plan':
                 $plan = preg_replace('/[^a-z0-9_\-]/', '', strtolower((string) input('plan'))) ?: 'free';
@@ -671,6 +681,7 @@ final class AdminController
                 setting_save('score_table', $table);
                 setting_save('default_target', max(310, min(677, (int) input('default_target', 500))));
                 setting_save('registration_open', (bool) input('registration_open'));
+                setting_save('max_sessions', max(1, min(10, (int) input('max_sessions', UserSession::DEFAULT_LIMIT))));
                 setting_save('announcement', ['id' => trim((string) input('announcement_id')), 'en' => trim((string) input('announcement_en'))]);
                 admin_log('update_settings');
                 flash('success', 'Pengaturan disimpan.');
@@ -682,6 +693,7 @@ final class AdminController
             'title' => 'Pengaturan', 'errors' => $errors,
             'scoreTable' => (string) ($_POST['score_table'] ?? json_encode(ScoreEstimator::table(), JSON_PRETTY_PRINT)),
             'target' => (int) setting('default_target', 500), 'open' => setting('registration_open', true) !== false,
+            'maxSessions' => UserSession::limit(),
             'ann' => is_array($ann) ? $ann : [],
         ]);
     }
