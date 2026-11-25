@@ -158,10 +158,11 @@ $blokCards = [
     <h2><?= e(t('landing.faq.h2a')) ?> <span class="hl"><?= e(t('landing.faq.h2b')) ?></span></h2>
   </div>
   <div class="faq">
-    <?php foreach ([1, 2, 3, 4, 5, 6] as $i): ?>
+    <?php $faqEmail = trim((string) config('contact.email', 'hello.rizalwahyu@gmail.com')) ?: 'hello.rizalwahyu@gmail.com';
+    foreach ([1, 2, 3, 4, 5, 6, 7] as $i): ?>
       <details class="reveal">
         <summary><?= e(t("landing.faq.q$i")) ?><?= icon('chevron-down', 20) ?></summary>
-        <div class="faq-body"><?= e(t("landing.faq.a$i")) ?></div>
+        <div class="faq-body"><?= str_replace(e('{email}'), '<a href="mailto:' . e($faqEmail) . '">' . e($faqEmail) . '</a>', e(t("landing.faq.a$i"))) ?></div>
       </details>
     <?php endforeach; ?>
   </div>
