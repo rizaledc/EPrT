@@ -37,6 +37,13 @@ return [
     ['GET',      '/hasil/{id}',                         'PracticeController@result'],
     ['GET',      '/riwayat',                            'PracticeController@history'],
 
+    ['GET',      '/koin',                               'CoinController@index'],
+    ['POST',     '/koin/beli',                          'CoinController@buy'],
+    ['GET',      '/koin/pesanan/{code}',                'CoinController@order'],
+    ['POST',     '/api/mayar/webhook',                  'CoinController@webhook'],
+    ['GET',      '/rekomendasi',                        'AdviceController@index'],
+    ['POST',     '/rekomendasi/analisis',               'AdviceController@analyze'],
+
     ['GET',      '/rapor/akhir',                        'ReportController@final'],
     ['GET',      '/rapor/akhir.pdf',                    'ReportController@finalPdf'],
     ['GET',      '/rapor/{blok}.pdf',                   'ReportController@blokPdf'],
@@ -70,5 +77,6 @@ return [
     ['GET|POST', '/admin/kamus',                        'AdminController@glossary'],
     ['GET|POST', '/admin/sponsor',                      'AdminController@sponsors'],
     ['GET|POST', '/admin/pengaturan',                   'AdminController@settings'],
+    ['GET|POST', '/admin/koin',                         'AdminController@coins'],
     ['GET',      '/admin/log',                          'AdminController@log'],
 ];

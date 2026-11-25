@@ -57,6 +57,10 @@ $pos = fn($v) => max(0, min(100, ($v - 310) / (677 - 310) * 100));
       <?php endforeach; ?>
     </div>
   </div>
+  <div class="card card-hl mt-32 row-between">
+    <div><h2 class="mb-0"><?= icon('sparkle', 22) ?> <?= e(t('advice.card_h')) ?></h2><p class="muted mb-0"><?= e(t('advice.card_p')) ?></p></div>
+    <?= btn_primary(t('nav.advice'), url('rekomendasi')) ?>
+  </div>
   <p class="small muted mt-24 prose"><?= e(t('final.formula')) ?></p>
 <?php endif; ?>
 </section>

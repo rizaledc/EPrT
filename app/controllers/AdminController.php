@@ -130,6 +130,7 @@ final class AdminController
             'activeSessions' => count(UserSession::active((int) $u['id'])),
             'suspicious' => UserSession::suspicious((int) $u['id']),
             'estimate' => ScoreEstimator::estimate((int) $u['id']),
+            'coinLedger' => Coins::history((int) $u['id'], 15),
             'once'     => $once,
         ]);
     }
@@ -174,6 +175,15 @@ final class AdminController
                 $n = UserSession::revokeAll((int) $u['id'], $self ? UserSession::currentId() : null, 'admin');
                 admin_log('revoke_sessions', $u['username'], ['count' => $n]);
                 flash('success', $n . ' sesi dicabut.');
+                break;
+            case 'coins':
+                $delta = max(-1000, min(1000, (int) input('delta')));
+                $note = trim((string) input('note')) ?: 'Penyesuaian admin';
+                if ($delta !== 0) {
+                    $bal = Coins::credit((int) $u['id'], $delta, 'admin', null, $note, (int) $this->admin['id']);
+                    admin_log('adjust_coins', $u['username'], ['delta' => $delta, 'balance' => $bal, 'note' => $note]);
+                    flash('success', 'Saldo koin sekarang ' . $bal . '.');
+                }
                 break;
             case 'plan':
                 $plan = preg_replace('/[^a-z0-9_\-]/', '', strtolower((string) input('plan'))) ?: 'free';
@@ -695,6 +705,65 @@ final class AdminController
             'target' => (int) setting('default_target', 500), 'open' => setting('registration_open', true) !== false,
             'maxSessions' => UserSession::limit(),
             'ann' => is_array($ann) ? $ann : [],
+        ]);
+    }
+
+    /** Koin, pembayaran Mayar, dan Analisis AI */
+    public function coins(): void
+    {
+        if (is_post()) {
+            $action = (string) input('action');
+            if ($action === 'settings') {
+                $pk = [];
+                foreach (Coins::DEFAULT_PACKAGES as $i => $def) {
+                    $pk[] = [
+                        'coins'  => max(1, min(1000, (int) ($_POST['pkg_coins'][$i] ?? $def['coins']))),
+                        'price'  => max(1000, min(10000000, (int) ($_POST['pkg_price'][$i] ?? $def['price']))),
+                        'active' => !empty($_POST['pkg_active'][$i]),
+                    ];
+                }
+                setting_save('coin_packages', $pk);
+                setting_save('coins_sales_open', (bool) input('sales_open'));
+                setting_save('ai_enabled', (bool) input('ai_enabled'));
+                setting_save('ai_daily_limit', max(1, min(50, (int) input('ai_daily_limit', 5))));
+                $model = trim((string) input('ai_model'));
+                setting_save('ai_model', preg_match('#^[a-z0-9._\-]+/[a-z0-9._:\-]+$#i', $model) ? $model : '');
+                admin_log('update_coin_settings', null, ['packages' => $pk]);
+                flash('success', 'Pengaturan koin dan AI disimpan.');
+            } elseif ($action === 'check_order') {
+                $o = Payments::find((int) input('order_id'));
+                if ($o && Mayar::configured()) {
+                    $o = Payments::reconcile($o);
+                    admin_log('check_order', $o['code'], ['status' => $o['status']]);
+                    flash('success', 'Status pesanan ' . $o['code'] . ' sekarang ' . $o['status'] . '.');
+                }
+            }
+            redirect('/admin/koin');
+        }
+        $month = q_one("SELECT COUNT(*) n, COALESCE(SUM(cost_usd), 0) cost, COALESCE(SUM(prompt_tokens), 0) pt, COALESCE(SUM(completion_tokens), 0) ct
+                        FROM ai_analyses WHERE status = 'ok' AND created_at >= DATE_FORMAT(NOW(), '%Y-%m-01')");
+        $sales = q_one("SELECT COUNT(*) n, COALESCE(SUM(amount), 0) amount, COALESCE(SUM(coins), 0) coins FROM coin_orders
+                        WHERE status = 'paid' AND paid_at >= DATE_FORMAT(NOW(), '%Y-%m-01')");
+        $token = (string) config('mayar.webhook_token', '');
+        $this->page('coins', [
+            'title'     => 'Koin & AI',
+            'packages'  => Coins::packages(),
+            'salesOpen' => setting('coins_sales_open', true) !== false,
+            'aiEnabled' => setting('ai_enabled', true) !== false,
+            'aiLimit'   => AiAdvisor::dailyLimit(),
+            'aiModel'   => (string) setting('ai_model', ''),
+            'modelNow'  => OpenRouter::model(),
+            'orKey'     => OpenRouter::configured(),
+            'mayarKey'  => Mayar::configured(),
+            'sandbox'   => Mayar::sandbox(),
+            'hasToken'  => $token !== '',
+            'hookUrl'   => abs_url('api/mayar/webhook') . ($token !== '' ? '?token=' . rawurlencode($token) : ''),
+            'month'     => $month,
+            'sales'     => $sales,
+            'orders'    => q_all('SELECT o.*, u.username FROM coin_orders o JOIN users u ON u.id = o.user_id ORDER BY o.id DESC LIMIT 50'),
+            'analyses'  => q_all('SELECT a.id, a.user_id, a.target, a.model, a.prompt_tokens, a.completion_tokens, a.cost_usd, a.status, a.error, a.created_at, u.username
+                                  FROM ai_analyses a JOIN users u ON u.id = a.user_id ORDER BY a.id DESC LIMIT 50'),
+            'usdIdr'    => 16500,
         ]);
     }
 

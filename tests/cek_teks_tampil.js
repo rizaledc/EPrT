@@ -18,9 +18,9 @@ const ADMIN = (process.env.ADMIN || '').split(':');
 const GUEST = ['/', '/kamus', '/daftar', '/masuk', '/lupa-password', '/tidak-ada', '/harga', '/syarat-ketentuan', '/privasi', '/pengembalian-dana', '/kontak', '/coba'];
 const DAYS = [['a', [1, 2, 3, 4]], ['b', [5, 6, 7, 8]], ['c', [9, 10, 11]], ['d', [12, 13, 14]]]
   .flatMap(([l, ns]) => ns.map((n) => `/latihan/level-${l}/hari-${n}`));
-const MEMBER_PAGES = ['/', '/latihan', ...DAYS, '/simulasi/1', '/simulasi/2', '/riwayat', '/rapor/akhir', '/akun', '/kamus'];
+const MEMBER_PAGES = ['/', '/latihan', ...DAYS, '/simulasi/1', '/simulasi/2', '/riwayat', '/rapor/akhir', '/akun', '/kamus', '/koin', '/rekomendasi'];
 const ADMIN_PAGES = ['/admin', '/admin/pengguna', '/admin/soal', '/admin/grup', '/admin/impor', '/admin/kamus',
-  '/admin/sponsor', '/admin/pengaturan', '/admin/log'];
+  '/admin/sponsor', '/admin/koin', '/admin/pengaturan', '/admin/log'];
 
 function scan() {
   // textarea/input berisi data yang diedit (mis. JSON konversi skor), bukan teks antarmuka

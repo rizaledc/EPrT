@@ -50,4 +50,20 @@ return [
     // Hostinger dengan repo di ~/apps: '/home/u123456789/domains/perumahaninggris.my.id/public_html'
     // null = ../public_html dari folder app (struktur repo).
     'public_path' => null,
+
+    // Analisis AI lewat OpenRouter (https://openrouter.ai/keys). Kosong = fitur AI nonaktif.
+    'openrouter' => [
+        'api_key' => '',
+        'model'   => 'anthropic/claude-haiku-5.5',
+    ],
+
+    // Pembayaran koin lewat Mayar (dashboard Mayar: Integration, API Key).
+    // sandbox true = web.mayar.io (uji coba), false = produksi.
+    // webhook_token: string acak; URL webhook di dashboard Mayar menjadi
+    // https://domain-anda.com/api/mayar/webhook?token=ISI_TOKEN_INI
+    'mayar' => [
+        'api_key'       => '',
+        'sandbox'       => true,
+        'webhook_token' => '',
+    ],
 ];

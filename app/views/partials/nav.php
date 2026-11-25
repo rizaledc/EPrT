@@ -35,6 +35,8 @@ if ($u) {
         [url('akun'), t('nav.account'), $path === '/akun'],
         [url('riwayat'), t('nav.history'), $path === '/riwayat'],
         [url('rapor/akhir'), t('nav.report'), str_starts_with($path, '/rapor')],
+        [url('rekomendasi'), t('nav.advice'), $path === '/rekomendasi'],
+        [url('koin'), t('nav.coins') . ' (' . (int) ($u['coin_balance'] ?? 0) . ')', str_starts_with($path, '/koin')],
     ];
     if ($u['role'] === 'admin') {
         $accountItems[] = [url('admin'), t('nav.admin'), str_starts_with($path, '/admin')];

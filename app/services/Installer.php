@@ -28,5 +28,9 @@ final class Installer
         if (!in_array('user_session_id', $rt, true)) {
             db()->exec('ALTER TABLE remember_tokens ADD COLUMN user_session_id INT UNSIGNED NULL AFTER expires_at, ADD KEY idx_rt_us (user_session_id)');
         }
+        $uc = array_column(q_all('SHOW COLUMNS FROM users'), 'Field');
+        if (!in_array('coin_balance', $uc, true)) {
+            db()->exec('ALTER TABLE users ADD COLUMN coin_balance INT NOT NULL DEFAULT 0 AFTER target_score');
+        }
     }
 }

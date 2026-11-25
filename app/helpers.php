@@ -713,6 +713,7 @@ function icon(string $name, int $size = 20, string $class = ''): string
         'volume'      => '<path d="M4 9.5h3.5L12 5.5v13l-4.5-4H4z"/><path d="M15.5 9a4 4 0 0 1 0 6M18 6.5a7.5 7.5 0 0 1 0 11"/>',
         'refresh'     => '<path d="M20 11a8 8 0 0 0-14.6-4.5L3 9M4 13a8 8 0 0 0 14.6 4.5L21 15"/><path d="M3 4v5h5M21 20v-5h-5"/>',
         'shield'      => '<path d="M12 3 4.5 6v6c0 4.5 3.2 7.8 7.5 9 4.3-1.2 7.5-4.5 7.5-9V6L12 3Z"/>',
+        'coin'        => '<circle cx="12" cy="12" r="8.5"/><circle cx="12" cy="12" r="4.5"/>',
         'pin'         => '<path d="M12 21v-6M8 4h8l-1 6 3 3H6l3-3-1-6Z"/>',
     ];
     $p = $paths[$name] ?? $paths['circle'];

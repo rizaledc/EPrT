@@ -14,6 +14,7 @@ CREATE TABLE IF NOT EXISTS users (
   lang            ENUM('id','en') NOT NULL DEFAULT 'id',
   plan            VARCHAR(20) NOT NULL DEFAULT 'free',
   target_score    SMALLINT UNSIGNED NOT NULL DEFAULT 500,
+  coin_balance    INT NOT NULL DEFAULT 0,
   recovery_hash   VARCHAR(255) NULL,
   must_change_password TINYINT(1) NOT NULL DEFAULT 0,
   status          ENUM('active','disabled') NOT NULL DEFAULT 'active',
@@ -37,6 +38,63 @@ CREATE TABLE IF NOT EXISTS user_sessions (
   revoke_reason VARCHAR(20) NULL,
   KEY idx_us_user (user_id, revoked_at),
   CONSTRAINT fk_us_user FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+-- Koin: buku besar setiap perubahan saldo (pembelian, analisis AI, pengembalian, penyesuaian admin)
+CREATE TABLE IF NOT EXISTS coin_ledger (
+  id            INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+  user_id       INT UNSIGNED NOT NULL,
+  delta         INT NOT NULL,
+  balance_after INT NOT NULL,
+  reason        ENUM('purchase','analysis','refund','admin') NOT NULL,
+  ref           VARCHAR(64) NULL,
+  note          VARCHAR(255) NULL,
+  admin_id      INT UNSIGNED NULL,
+  created_at    DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  KEY idx_cl_user (user_id, id),
+  CONSTRAINT fk_cl_user FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+-- Pesanan koin lewat Mayar (payment request). Koin hanya masuk setelah status dicek ulang ke API Mayar.
+CREATE TABLE IF NOT EXISTS coin_orders (
+  id           INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+  user_id      INT UNSIGNED NOT NULL,
+  code         VARCHAR(24) NOT NULL,
+  package      VARCHAR(16) NOT NULL,
+  coins        INT NOT NULL,
+  amount       INT NOT NULL,
+  status       ENUM('pending','paid','expired','failed') NOT NULL DEFAULT 'pending',
+  mayar_id     VARCHAR(64) NULL,
+  mayar_tx_id  VARCHAR(64) NULL,
+  pay_link     VARCHAR(255) NULL,
+  created_at   DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  expires_at   DATETIME NULL,
+  checked_at   DATETIME NULL,
+  paid_at      DATETIME NULL,
+  UNIQUE KEY uq_co_code (code),
+  KEY idx_co_user (user_id, id),
+  KEY idx_co_status (status, created_at),
+  KEY idx_co_mayar (mayar_id),
+  KEY idx_co_tx (mayar_tx_id),
+  CONSTRAINT fk_co_user FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+-- Analisis AI (rekomendasi target dan tips), 1 koin per analisis
+CREATE TABLE IF NOT EXISTS ai_analyses (
+  id                INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+  user_id           INT UNSIGNED NOT NULL,
+  target            SMALLINT UNSIGNED NOT NULL,
+  input_json        MEDIUMTEXT NOT NULL,
+  output            MEDIUMTEXT NULL,
+  model             VARCHAR(80) NOT NULL DEFAULT '',
+  prompt_tokens     INT UNSIGNED NOT NULL DEFAULT 0,
+  completion_tokens INT UNSIGNED NOT NULL DEFAULT 0,
+  cost_usd          DECIMAL(10,6) NOT NULL DEFAULT 0,
+  status            ENUM('pending','ok','failed') NOT NULL DEFAULT 'pending',
+  error             VARCHAR(255) NULL,
+  created_at        DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  KEY idx_ai_user (user_id, id),
+  CONSTRAINT fk_ai_user FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 CREATE TABLE IF NOT EXISTS remember_tokens (

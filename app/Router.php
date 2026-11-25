@@ -3,6 +3,8 @@ declare(strict_types=1);
 
 final class Router
 {
+    private const CSRF_EXEMPT = ['/api/mayar/webhook'];
+
     public function __construct(private array $routes)
     {
     }
@@ -23,7 +25,9 @@ final class Router
                 continue;
             }
             $params = array_filter($m, 'is_string', ARRAY_FILTER_USE_KEY);
-            if ($method === 'POST') {
+            // Webhook dari server lain (Mayar) tidak membawa token CSRF; keamanannya dari token URL
+            // dan verifikasi ulang status ke API Mayar.
+            if ($method === 'POST' && !in_array($pattern, self::CSRF_EXEMPT, true)) {
                 verify_csrf();
             }
             [$class, $fn] = explode('@', $handler);
