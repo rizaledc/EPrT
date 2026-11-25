@@ -250,6 +250,8 @@ return [
     'pdf.weakest5' => '5 weakest rules', 'pdf.rule' => 'Rule', 'pdf.wrong' => 'Missed', 'pdf.advice' => 'Advice',
     'pdf.advice_line' => 'Drill the rule {rule} from your Mistake Book.', 'pdf.no_weak' => 'No mistakes recorded. Great job!',
     'pdf.estimate_tmp' => 'Current estimated score',
+    'pdf.estimate_level' => 'Estimated score from Level {b}',
+    'pdf.estimate_overall' => 'Current overall estimate (all Levels and Simulations): {s}',
 
     'glossary.title' => 'Grammar Glossary', 'glossary.meta' => 'A glossary of English grammar terms with Indonesian meanings, examples, and everyday analogies.',
     'glossary.eyebrow' => 'GLOSSARY', 'glossary.h1a' => 'Grammar terms,', 'glossary.h1b' => 'made simple',

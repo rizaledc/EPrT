@@ -263,6 +263,8 @@ return [
     'pdf.weakest5' => '5 aturan terlemah', 'pdf.rule' => 'Aturan', 'pdf.wrong' => 'Salah', 'pdf.advice' => 'Saran',
     'pdf.advice_line' => 'Latih ulang aturan {rule} lewat Buku Kesalahan.', 'pdf.no_weak' => 'Tidak ada kesalahan yang tercatat. Hebat!',
     'pdf.estimate_tmp' => 'Perkiraan skor sementara',
+    'pdf.estimate_level' => 'Perkiraan skor dari Level {b}',
+    'pdf.estimate_overall' => 'Perkiraan keseluruhan saat ini (semua Level dan Simulasi): {s}',
 
     // Kamus
     'glossary.title' => 'Kamus Istilah Grammar', 'glossary.meta' => 'Kamus istilah grammar bahasa Inggris dengan arti Indonesia, contoh, dan perumpamaan sehari-hari.',
