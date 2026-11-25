@@ -293,9 +293,11 @@ document.addEventListener('submit', (ev) => {
   window.addEventListener('pageshow', (e) => { if (e.persisted) { btn.disabled = false; delete btn.dataset.sent; btn.removeAttribute('aria-busy'); } }, { once: true });
 });
 
-// Halaman pesanan koin: buka halaman bayar Mayar otomatis (navigasi biasa, diizinkan CSP)
-const autogo = document.querySelector('[data-autogo]');
-if (autogo && /^https:\/\//.test(autogo.href)) {
-  history.replaceState(null, '', location.pathname);
-  setTimeout(() => { location.href = autogo.href; }, 600);
+// Halaman pesanan koin yang masih menunggu pembayaran: muat ulang berkala agar status (dan saldo) ikut terbaru.
+// Pembayaran dibuka di tab baru, jadi pembeli tetap punya jalan kembali ke situs.
+if (document.querySelector('[data-order-poll]')) {
+  const started = Date.now();
+  const check = () => { if (Date.now() - started < 15 * 60 * 1000) location.reload(); };
+  setInterval(() => { if (document.visibilityState === 'visible') check(); }, 10000);
+  document.addEventListener('visibilitychange', () => { if (document.visibilityState === 'visible') check(); });
 }

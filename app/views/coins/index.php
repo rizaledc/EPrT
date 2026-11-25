@@ -48,7 +48,7 @@ $base = $packages[0]['price'] / max(1, $packages[0]['coins']);
           <td><?= e(t('coins.pkg', ['n' => (int) $o['coins']])) ?></td>
           <td class="num mono"><?= e(Coins::rupiah((int) $o['amount'])) ?></td>
           <td><span class="chip chip-xs <?= $o['status'] === 'paid' ? 'chip-good' : ($o['status'] === 'pending' ? 'chip-lime' : 'chip-outline') ?>"><?= e(t('coins.st.' . $o['status'])) ?></span></td>
-          <td><?php if ($o['status'] === 'pending' && $o['pay_link']): ?><a href="<?= e($o['pay_link']) ?>" rel="noopener"><?= e(t('coins.pay_now')) ?></a> · <?php endif; ?><a href="<?= e(url('koin/pesanan/' . $o['code'])) ?>"><?= e(t('coins.detail')) ?></a></td>
+          <td><?php if ($o['status'] === 'pending' && $o['pay_link']): ?><a href="<?= e($o['pay_link']) ?>" target="_blank" rel="noopener"><?= e(t('coins.pay_now')) ?></a> · <?php endif; ?><a href="<?= e(url('koin/pesanan/' . $o['code'])) ?>"><?= e(t('coins.detail')) ?></a></td>
         </tr>
       <?php endforeach; ?>
       </tbody>
