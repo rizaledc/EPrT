@@ -66,15 +66,28 @@ final class CoinController
     public function webhook(): void
     {
         $token = (string) config('mayar.webhook_token', '');
+        $raw = (string) file_get_contents('php://input');
+        $ctype = (string) ($_SERVER['CONTENT_TYPE'] ?? '');
         if ($token !== '' && !hash_equals($token, (string) ($_GET['token'] ?? ''))) {
-            json_response(['ok' => false], 403);
+            app_log('warning', 'Webhook Mayar ditolak: token tidak cocok (' . strlen((string) ($_GET['token'] ?? '')) . ' karakter)');
+            json_response(['ok' => false, 'error' => 'token'], 403);
         }
         if (!rate_hit('mayar-hook', 60, 60)) {
             json_response(['ok' => false, 'error' => 'rate'], 429);
         }
-        $payload = json_decode((string) file_get_contents('php://input'), true);
+        $payload = json_decode($raw, true);
         if (!is_array($payload)) {
-            json_response(['ok' => false], 400);
+            // Cadangan: kiriman berbentuk form, atau JSON di dalam satu field
+            $payload = $_POST;
+            if (count($payload) === 1 && is_string(reset($payload)) && is_array($j = json_decode((string) reset($payload), true))) {
+                $payload = $j;
+            }
+        }
+        $event = is_array($payload) ? (string) ($payload['event'] ?? '') : '';
+        app_log('info', 'Webhook Mayar diterima: event ' . ($event !== '' ? $event : '-') . ', content-type ' . ($ctype !== '' ? $ctype : '-') . ', ' . strlen($raw) . ' byte');
+        // Tes dari dashboard Mayar: cukup dijawab berhasil
+        if (!$payload || in_array(strtolower($event), ['testing', 'test'], true)) {
+            json_response(['ok' => true, 'test' => true]);
         }
         $n = Mayar::configured() ? Payments::handleWebhook($payload) : 0;
         json_response(['ok' => true, 'checked' => $n]);
