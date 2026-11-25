@@ -1,11 +1,33 @@
 <?php
-/** @var array $user @var array $progress @var array $rumahs @var array $bloks */
+/** @var ?array $user @var array $progress @var array $rumahs @var array $bloks @var bool $guest */
+$guest = !empty($guest);
+// Tujuan kartu: tamu ke Daftar, kartu Premium yang terkunci ke Harga
+$cardHref = function (array $r) use ($guest, $user): string {
+    if ($guest) {
+        return url('daftar?next=' . rawurlencode(parse_url(Rumah::url($r), PHP_URL_PATH) ?: '/latihan'));
+    }
+    return Premium::locked($user, $r) ? url('harga') : Rumah::url($r);
+};
+$isLocked = fn(array $r): bool => !$guest && Premium::locked($user, $r);
 $pct = $totalCount ? round($doneCount / $totalCount * 100) : 0;
 $sims = array_values(array_filter($rumahs, fn($r) => $r['kind'] === 'simulation'));
 $nextId = $next ? (int) $next['id'] : 0;
 ?>
 <section class="container" style="padding-top:40px">
   <?php if ($announcement !== ''): ?><div class="announce mb-24"><?= icon('sparkle', 18) ?> <span><?= e($announcement) ?></span></div><?php endif; ?>
+  <?php if ($guest): ?>
+  <div class="card dots greet-card">
+    <div>
+      <span class="eyebrow"><?= e(t('map.eyebrow')) ?></span>
+      <h2><?= e(t('map.guest_h')) ?></h2>
+      <p class="muted mb-0"><?= e(t('map.guest_sub')) ?></p>
+    </div>
+    <div class="stack">
+      <?= btn_primary(t('map.guest_cta'), url('daftar')) ?>
+      <a class="btn btn-secondary" href="<?= e(url('masuk?next=' . rawurlencode('/latihan'))) ?>"><?= e(t('nav.login')) ?></a>
+    </div>
+  </div>
+  <?php else: ?>
   <div class="card dots greet-card">
     <div>
       <span class="eyebrow"><?= e(t('map.eyebrow')) ?></span>
@@ -24,11 +46,12 @@ $nextId = $next ? (int) $next['id'] : 0;
       <?php endif; ?>
     </div>
   </div>
+  <?php endif; ?>
 </section>
 
 <?php foreach ($bloks as $b):
   $inBlok = array_values(array_filter($rumahs, fn($r) => $r['blok_code'] === $b['code'] && in_array($r['kind'], ['practice', 'adaptive'], true)));
-  $blokDone = Practice::blokCompleted((int) $user['id'], $b['code'], $progress);
+  $blokDone = !$guest && Practice::blokCompleted((int) $user['id'], $b['code'], $progress);
 ?>
 <section class="container blok-section" aria-labelledby="blok-<?= e($b['code']) ?>">
   <div class="blok-head">
@@ -39,13 +62,14 @@ $nextId = $next ? (int) $next['id'] : 0;
         <h2 id="blok-<?= e($b['code']) ?>"><?= e(tr($b, 'name')) ?></h2>
       </div>
     </div>
-    <?php if ($blokDone): ?>
+    <?php if ($guest): ?>
+    <?php elseif ($blokDone): ?>
       <a class="btn btn-secondary btn-sm" href="<?= e(url('rapor/level-' . strtolower($b['code']) . '.pdf')) ?>"><?= icon('download', 16) ?> <?= e(t('map.download_blok', ['b' => $b['code']])) ?></a>
     <?php else: ?>
       <span class="btn btn-secondary btn-sm" aria-disabled="true" title="<?= e(t('map.blok_locked')) ?>"><?= icon('lock', 16) ?> <?= e(t('map.download_blok', ['b' => $b['code']])) ?></span>
     <?php endif; ?>
   </div>
-  <?php if ($b['code'] !== 'A'): ?><?= partial('premium-banner', ['isPremium' => $isPremium, 'required' => $premiumRequired]) ?><?php endif; ?>
+  <?php if ($b['code'] !== 'A'): ?><?= partial('premium-banner', ['isPremium' => $isPremium, 'required' => $premiumRequired, 'guest' => $guest]) ?><?php endif; ?>
   <div class="houses">
     <?php foreach ($inBlok as $r):
       $p = $progress[(int) $r['id']] ?? null;
@@ -53,7 +77,8 @@ $nextId = $next ? (int) $next['id'] : 0;
       $total = Rumah::total($r);
       $soon = $total === 0;
     ?>
-      <a class="house-card state-<?= $state ?> <?= $soon ? 'soon' : '' ?>" href="<?= e(Rumah::url($r)) ?>">
+      <a class="house-card state-<?= $state ?> <?= $soon ? 'soon' : '' ?> <?= $isLocked($r) ? 'is-locked' : '' ?>" href="<?= e($cardHref($r)) ?>">
+        <?php if ($isLocked($r)): ?><span class="chip chip-premium badge-next"><?= icon('lock', 12) ?> Premium</span><?php endif; ?>
         <?php if ((int) $r['id'] === $nextId): ?><span class="chip chip-lime badge-next"><?= e(t('map.suggested')) ?></span><?php endif; ?>
         <span class="house-num" aria-hidden="true"><?= (int) $r['number'] ?></span>
         <?= partial('house') ?>
@@ -74,18 +99,18 @@ $nextId = $next ? (int) $next['id'] : 0;
   <div class="blok-head">
     <div><span class="eyebrow"><?= e(t('map.sim_eyebrow')) ?></span><h2 id="sim-h"><?= e(t('map.sim_h')) ?></h2></div>
   </div>
-  <?= partial('premium-banner', ['isPremium' => $isPremium, 'required' => $premiumRequired]) ?>
+  <?= partial('premium-banner', ['isPremium' => $isPremium, 'required' => $premiumRequired, 'guest' => $guest]) ?>
   <div class="grid-2">
     <?php foreach ($sims as $s):
       $p = $progress[(int) $s['id']] ?? null; $state = Practice::rumahState($p); $total = Rumah::total($s); ?>
-      <a class="card sim-card state-<?= $state ?>" href="<?= e(Rumah::url($s)) ?>">
+      <a class="card sim-card state-<?= $state ?> <?= $isLocked($s) ? 'is-locked' : '' ?>" href="<?= e($cardHref($s)) ?>">
         <?= partial('house') ?>
         <div>
           <?php if ((int) $s['id'] === $nextId): ?><span class="chip chip-lime"><?= e(t('map.suggested')) ?></span><?php endif; ?>
           <h3 class="mt-8"><?= e(Rumah::title($s)) ?></h3>
           <p class="small muted mb-0"><?= $total ? e(t('map.sim_meta')) : e(t('map.soon')) ?></p>
         </div>
-        <span class="link-arrow"><?= e($state === 'done' ? t('map.done') : t('map.open')) ?> <?= icon('arrow-right', 16) ?></span>
+        <span class="link-arrow"><?php if ($isLocked($s)): ?><?= icon('lock', 14) ?> <?= e(t('premium.unlock')) ?><?php else: ?><?= e($state === 'done' ? t('map.done') : t('map.open')) ?> <?= icon('arrow-right', 16) ?><?php endif; ?></span>
       </a>
     <?php endforeach; ?>
   </div>

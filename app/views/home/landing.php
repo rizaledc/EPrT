@@ -19,6 +19,7 @@ $blokCards = [
         <?= btn_primary(t('landing.hero.cta'), url(current_user() ? 'latihan' : 'daftar')) ?>
         <a class="link-arrow" href="<?= e(url('coba')) ?>"><?= e(t('landing.hero.try')) ?> <?= icon('arrow-right', 16) ?></a>
       </div>
+      <?php if ($q = Premium::quota()): ?><p class="small mt-16 mb-0 hero-quota"><a href="<?= e(url('harga')) ?>"><span class="chip chip-lime chip-xs"><?= e(t('premium.quota', ['p' => Coins::rupiah($q['price']), 'n' => $q['left'], 't' => $q['size']])) ?></span></a></p><?php endif; ?>
     </div>
     <div class="hero-art"><?= partial('hero-art') ?></div>
     <div class="hero-side" aria-hidden="true"><span>LISTENING</span><span>STRUCTURE</span><span>READING</span></div>

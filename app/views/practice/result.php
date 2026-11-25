@@ -50,6 +50,22 @@ if ($isSim) {
   </div>
 </section>
 
+<?php if (!empty($premiumOffer)): $q = Premium::quota(); ?>
+<section class="container mt-32">
+  <div class="card card-hl dots row-between premium-offer">
+    <div>
+      <span class="eyebrow"><?= e(t('premium.offer_eyebrow')) ?></span>
+      <h2 class="mt-8 mb-8"><?= e(t('premium.offer_h')) ?></h2>
+      <p class="muted mb-0"><?= e(t('premium.offer_p', ['p' => Coins::rupiah(Premium::price())])) ?><?= Premium::bonusCoins() > 0 ? ' ' . e(t('premium.offer_bonus', ['n' => Premium::bonusCoins()])) : '' ?></p>
+      <?php if ($q): ?><p class="small mt-8 mb-0"><strong><?= e(t('premium.quota', ['p' => Coins::rupiah($q['price']), 'n' => $q['left'], 't' => $q['size']])) ?></strong></p><?php endif; ?>
+    </div>
+    <form method="post" action="<?= e(url('premium/beli')) ?>"><?= csrf_field() ?>
+      <button class="btn btn-primary" type="submit" data-once><span><?= e(t('premium.offer_btn', ['p' => Coins::rupiah(Premium::price())])) ?></span><span class="btn-arrow" aria-hidden="true"><?= icon('arrow-right', 16) ?></span></button>
+    </form>
+  </div>
+</section>
+<?php endif; ?>
+
 <section class="container mt-48">
   <h2><?= e(t('result.review_h')) ?></h2>
   <div class="stack">

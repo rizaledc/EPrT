@@ -735,7 +735,14 @@ final class AdminController
                 setting_save('coin_packages', $pk);
                 setting_save('coins_sales_open', (bool) input('sales_open'));
                 setting_save('premium_sales_open', (bool) input('premium_sales_open'));
-                setting_save('premium_required', (bool) input('premium_required'));
+                $req = (bool) input('premium_required');
+                setting_save('premium_required', $req);
+                if ($req && (string) setting('premium_cutoff', '') === '') {
+                    // Akun yang sudah ada sebelum penguncian pertama kali dinyalakan = pengguna awal
+                    setting_save('premium_cutoff', date('Y-m-d H:i:s'));
+                }
+                setting_save('premium_grandfather', (bool) input('premium_grandfather'));
+                setting_save('premium_bonus_coins', max(0, min(20, (int) input('premium_bonus_coins', 2))));
                 setting_save('premium_sold', max(0, min(100000, (int) input('premium_sold_extra', 0))));
                 setting_save('ai_enabled', (bool) input('ai_enabled'));
                 setting_save('ai_daily_limit', max(1, min(50, (int) input('ai_daily_limit', 5))));
@@ -764,6 +771,9 @@ final class AdminController
             'salesOpen' => setting('coins_sales_open', true) !== false,
             'premiumOpen' => setting('premium_sales_open', true) !== false,
             'premiumRequired' => Premium::required(),
+            'premiumGrandfather' => setting('premium_grandfather', true) !== false,
+            'premiumCutoff' => (string) setting('premium_cutoff', ''),
+            'premiumBonus' => Premium::bonusCoins(),
             'premiumExtra' => (int) setting('premium_sold', 0),
             'premiumSold' => Premium::sold(),
             'premiumPrice' => Premium::price(),
