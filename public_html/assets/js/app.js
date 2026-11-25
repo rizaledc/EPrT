@@ -292,3 +292,10 @@ document.addEventListener('submit', (ev) => {
   // Kalau halaman kembali dari cache (tombol Back), aktifkan lagi
   window.addEventListener('pageshow', (e) => { if (e.persisted) { btn.disabled = false; delete btn.dataset.sent; btn.removeAttribute('aria-busy'); } }, { once: true });
 });
+
+// Halaman pesanan koin: buka halaman bayar Mayar otomatis (navigasi biasa, diizinkan CSP)
+const autogo = document.querySelector('[data-autogo]');
+if (autogo && /^https:\/\//.test(autogo.href)) {
+  history.replaceState(null, '', location.pathname);
+  setTimeout(() => { location.href = autogo.href; }, 600);
+}

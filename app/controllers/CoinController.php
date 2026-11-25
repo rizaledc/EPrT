@@ -41,7 +41,9 @@ final class CoinController
             flash('error', t('coins.err.gateway'));
             redirect('/koin');
         }
-        redirect((string) $order['pay_link'], 303);
+        // Tidak langsung dialihkan ke Mayar: CSP form-action 'self' memblokir redirect form ke domain lain.
+        // Halaman pesanan membuka tautan bayar (navigasi biasa, bukan kiriman form).
+        redirect('/koin/pesanan/' . $order['code'] . '?bayar=1', 303);
     }
 
     public function order(string $code): void
@@ -57,6 +59,7 @@ final class CoinController
         render('coins/order', [
             'title'   => t('coins.order.title'),
             'o'       => $o,
+            'autoPay' => isset($_GET['bayar']) && $o['status'] === 'pending' && !empty($o['pay_link']),
             'balance' => Coins::balance((int) $u['id']),
             'noindex' => true,
         ]);
